@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Skill(keybindings-help)",
+      "Skill(keybindings-help:*)",
+      "Bash(git -C \"C:/Users/dnjsx/Desktop/Biotech 기업 분석/Bio Catalyst Calendar\" status)",
+      "Bash(git -C \"C:/Users/dnjsx/Desktop/Biotech 기업 분석/Bio Catalyst Calendar\" branch -vv)",
+      "Bash(npm i *)"
+    ]
+  }
+}
