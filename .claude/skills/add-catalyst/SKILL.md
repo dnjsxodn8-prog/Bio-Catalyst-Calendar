@@ -21,6 +21,10 @@ description: Append a new catalyst event to data/catalysts.md. Use when the user
 | `phase` | ✓ | `Phase 1` \| `Phase 2` \| `Phase 3` \| `NDA` \| `BLA` \| `sNDA` \| `sBLA` \| `Various` \| `Corporate` |
 | `conferenceId` | 선택 | `data/conferences.md`의 `id` (예: `asco`, `aacr`). 학회 발표/연관 카탈리스트만 |
 | `sources` | 권장 | URL 배열. **1개 이상 강력 권장** |
+| `trialDesign` | 선택 | 1-2 문장 임상 디자인 (export-telegram·export-naver용, spec 007) |
+| `targetDisease` | 선택 | 1-2 문장 타겟 질환 |
+| `priorTrialUrl` | 선택 | 사전 공개 임상 NCT URL 또는 publication |
+| `moa` | 선택 | 1-2 문장 작용 기전 |
 
 ## 절차
 
@@ -76,6 +80,14 @@ npm run build-data
     conferenceId: <conf-id>   # 학회 연관일 때만, 그 외는 줄 자체 생략
     sources:
       - <URL>
+    # spec 007부터 — 채울 수 있으면 함께 (export-telegram·export-naver에서 사용)
+    trialDesign: |
+      <1-2 문장>
+    targetDisease: |
+      <1-2 문장>
+    priorTrialUrl: <NCT URL 또는 publication>
+    moa: |
+      <1-2 문장>
 ```
 
 ## 주의

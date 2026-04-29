@@ -48,11 +48,21 @@ description: Autonomous weekly biotech sweep. Use when user says "/update", "주
     indication: ...
     phase: ...
     conferenceId: <id or null>
+    # spec 007부터: 가능하면 채울 것 (export-telegram·export-naver에서 사용)
+    trialDesign: |
+      <1-2 문장 임상 디자인. 예: "SKYLINE은 ETI 대조 randomized double-blind 52주 Ph3 (n=400)">
+    targetDisease: |
+      <1-2 문장 타겟 질환. 예: "CFTR 변이로 인한 점액 분비 이상으로 폐 감염 반복·호흡 부전을 일으키는 유전 질환">
+    priorTrialUrl: <NCT URL 또는 publication 링크>
+    moa: |
+      <1-2 문장 작용 기전. 예: "CFTR 게이팅과 폴딩을 동시 보정. 단일분자로 두 corrector를 대체">
   sources:
     - <URL>     # 1개 이상 필수
 ```
 
 **Source 없는 후보는 agent가 제외해야 함.** 이건 agent 프롬프트에 강하게 지시.
+
+**spec 007 신규 4 필드** (`trialDesign`, `targetDisease`, `priorTrialUrl`, `moa`)는 optional이지만 가능하면 채울 것. 채울 수 없는 필드는 비우고 후보는 그대로 제안 (drop X) — 사용자가 승인 단계에서 보충할 수 있음.
 
 ### Step 3 — 후보 리스트 통합 출력
 
@@ -125,6 +135,14 @@ npm run build-data
 ```
 **Source URL이 없는 후보는 절대 제안하지 마.** 
 verifiable한 회사 IR 페이지, FDA.gov, 학회 공식 프로그램, 또는 신뢰 미디어(BioPharma Dive, Fierce Biotech, Endpoints News, biospace.com) 중 하나의 URL이 있어야만 후보로 올린다. URL이 모호하거나 일반 홈페이지면 후보에서 빼.
+
+신규 카탈리스트 (Tier C·D·일부 A) 제안 시 다음 4 필드를 가능하면 함께 채워라 (export-telegram·export-naver에서 재사용):
+- `trialDesign`: 1-2 문장 임상 디자인 (clinicaltrials.gov 또는 회사 IR에서)
+- `targetDisease`: 1-2 문장 적응증/질환 설명
+- `priorTrialUrl`: 사전 공개된 임상 NCT URL 또는 publication 링크
+- `moa`: 1-2 문장 작용 기전 (FDA 라벨, drugbank, 회사 자료)
+
+채우기 어려운 필드는 비워둬. 후보 자체를 drop하지는 마. 사용자가 승인 단계에서 보충하거나 그대로 둘지 결정.
 
 후보 수는 quality > quantity. 강력한 근거 5건이 약한 근거 12건보다 낫다.
 

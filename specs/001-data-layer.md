@@ -147,11 +147,30 @@ events:
     conferenceId: null       # 학회 발표인 경우 conferences[].id 와 매칭. 그 외 null/생략
     sources:
       - https://...
+
+    # spec 007부터 도입 (모두 optional, export-telegram·export-naver에서 사용)
+    trialDesign: |           # 1-2 sentence 임상 디자인 설명
+      SKYLINE은 ETI 대조 randomized double-blind 52주 Ph3 (n=400).
+    targetDisease: |         # 1-2 sentence 타겟 질환 설명
+      CFTR 변이로 인한 점액 분비 이상으로 폐 감염 반복·호흡 부전을 일으키는 유전 질환.
+    priorTrialUrl: https://clinicaltrials.gov/ct2/show/NCT05033080
+    moa: |                   # 1-2 sentence 작용 기전
+      CFTR 단백질의 게이팅과 폴딩을 동시 보정. ETI 대비 단일분자로 두 corrector를 대체.
 \`\`\`
 
 `conferenceId` 추가 동작 (선택적):
 - `type: Conference` 또는 학회 중 발표되는 `Clinical Readout`에 사용. 예: `conferenceId: asco`.
 - 학회 페이지에서 카탈리스트 매칭 시 `conferenceId` 우선, 없으면 event 텍스트의 학회 약어 fallback.
+
+**spec 007 신규 4 필드** (모두 optional, verify-data 검증 영향 X):
+| 필드 | 형식 | 용도 |
+|---|---|---|
+| `trialDesign` | multiline string | 임상 디자인. export-telegram detail §임상 정보 |
+| `targetDisease` | multiline string | 타겟 질환. detail §임상 정보의 적응증 줄 |
+| `priorTrialUrl` | URL string | 사전 공개 임상 (NCT URL 우선) |
+| `moa` | multiline string | 작용 기전. detail §약물 정보 |
+
+→ `/update`와 `/add-catalyst`가 신규 catalyst 추가 시 채움. 비어있으면 export 시 해당 줄/섹션이 자동 생략.
 ```
 
 **선택지 B — 카탈리스트당 별도 파일** `data/catalysts/2026-04-10-LLY-orforglipron.md`
