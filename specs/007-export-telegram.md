@@ -149,7 +149,11 @@ MoA: {moa}
 
 #### Section 4 (약물 정보)
 - `Modality: {modality}` (companies frontmatter)
-- `MoA: {moa}` (catalysts.md)
+- `MoA: {moa}` — fallback chain:
+  1. `event.moa` (catalysts.md, /update가 채움. 가장 정확/짧음)
+  2. `companies/{TICKER}.md` `## MOA` 섹션의 `- 기전: <line>` (회사 단위, drug-specific 아닐 수 있음)
+  3. `## MOA` 섹션의 첫 content 줄 (위 2도 없으면)
+  4. omit (위 3도 없으면)
 
 #### Fallback (필드 missing)
 
@@ -158,7 +162,7 @@ MoA: {moa}
 | `trialDesign` 없음 | 🧪 섹션 통째로 생략 + dry-run에서 stderr 경고 |
 | `targetDisease` 없음 | 적응증 줄만 생략 |
 | `priorTrialUrl` 없음 | 사전 공개 줄만 생략 |
-| `moa` 없음 | MoA 줄만 생략 (Modality 줄만 표시) |
+| `moa` 없음 | companies md `## MOA 기전` 줄로 fallback. 그것도 없으면 `MoA:` 줄 생략 |
 | `## 회사 개요` 섹션 없음/빈 | 🏢 섹션 생략 (mcap은 detail 헤더에 표시) |
 | `sources` 없음 | detail 메시지 자체 거부 (summary는 발송) |
 

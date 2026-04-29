@@ -36,18 +36,34 @@ async function loadDotEnv() {
 
 // ─── args ───────────────────────────────────────────────
 function parseArgs(argv) {
-  const args = { blogUrl: null, dryRun: false, since: 'HEAD', summaryOnly: false };
+  const args = { blogUrl: null, dryRun: false, since: 'HEAD', summaryOnly: false, days: null };
   for (const a of argv.slice(2)) {
     if (a === '--dry-run') args.dryRun = true;
     else if (a === '--summary-only') args.summaryOnly = true;
     else if (a.startsWith('--since=')) args.since = a.slice('--since='.length);
+    else if (a.startsWith('--days=')) {
+      const n = parseInt(a.slice('--days='.length), 10);
+      if (!Number.isFinite(n) || n < 0) throw new Error(`--days는 0 이상 정수여야 함: ${a}`);
+      args.days = n;
+    }
     else if (!a.startsWith('--') && !args.blogUrl) args.blogUrl = a;
     else throw new Error(`알 수 없는 인자: ${a}`);
   }
   if (!args.blogUrl) {
-    throw new Error('blog_url 인자 필요. 사용법: node scripts/export-telegram.mjs <blog_url> [--dry-run] [--since=<ref>] [--summary-only]');
+    throw new Error('blog_url 인자 필요. 사용법: node scripts/export-telegram.mjs <blog_url> [--dry-run] [--since=<ref>] [--summary-only] [--days=N]');
   }
   return args;
+}
+
+function todayLocalYMD() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+function addDaysYMD(ymd, days) {
+  const d = new Date(`${ymd}T00:00:00`);
+  d.setDate(d.getDate() + days);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
 // ─── catalysts diff ─────────────────────────────────────
@@ -85,7 +101,11 @@ async function loadCompany(ticker) {
   try {
     const raw = await fs.readFile(filePath, 'utf8');
     const { data: fm, content: body } = matter(raw);
-    data = { ...fm, overview: extractOverview(body) };
+    data = {
+      ...fm,
+      overview: extractOverview(body),
+      moaFallback: extractMoa(body),
+    };
   } catch (e) {
     if (e.code !== 'ENOENT') throw e;
   }
@@ -94,7 +114,7 @@ async function loadCompany(ticker) {
 }
 
 function extractOverview(body) {
-  const lines = body.split('\n');
+  const lines = body.split(/\r?\n/);
   let inSection = false;
   const buf = [];
   for (const line of lines) {
@@ -108,6 +128,26 @@ function extractOverview(body) {
     buf.push(line.trim());
   }
   return buf.join(' ').trim() || null;
+}
+
+// `## MOA` 섹션에서 핵심 1줄 추출. 우선순위:
+//   1. `- 기전: <text>` 줄의 <text>
+//   2. 첫 비어있지 않은 content 줄
+function extractMoa(body) {
+  const lines = body.split(/\r?\n/);
+  let inSection = false;
+  let firstContent = null;
+  for (const line of lines) {
+    if (/^##\s+MOA\s*$/i.test(line)) { inSection = true; continue; }
+    if (!inSection) continue;
+    if (/^##\s/.test(line)) break;
+    const m = line.match(/^\s*-?\s*기전\s*:\s*(.+)$/);
+    if (m) return m[1].trim();
+    if (line.trim() && !firstContent) {
+      firstContent = line.replace(/^\s*-\s*/, '').trim();
+    }
+  }
+  return firstContent;
 }
 
 // ─── formatters ─────────────────────────────────────────
@@ -225,10 +265,11 @@ function buildDetail(event) {
   }
   if (sec3.length > 0) sections.push(['🧪 임상 정보', ...sec3].join('\n'));
 
-  // §4 약물 정보
+  // §4 약물 정보 (MoA: event.moa 우선, 없으면 companies md `## MOA` 기전 line)
   const sec4 = [];
   if (c?.modality) sec4.push(`Modality: ${c.modality}`);
-  if (event.moa) sec4.push(`MoA: ${String(event.moa).trim()}`);
+  const moa = event.moa ?? c?.moaFallback;
+  if (moa) sec4.push(`MoA: ${String(moa).trim()}`);
   if (sec4.length > 0) sections.push(['💊 약물 정보', ...sec4].join('\n'));
 
   return { skip: false, text: sections.join('\n\n').trimEnd() };
@@ -267,11 +308,24 @@ async function main() {
   const currentRaw = await fs.readFile(path.join(ROOT, 'data/catalysts.md'), 'utf8');
   const current = parseEventsFromRaw(currentRaw);
   const previous = getPreviousEvents(args.since);
-  const added = findAddedEvents(current, previous);
+  let added = findAddedEvents(current, previous);
 
   if (added.length === 0) {
     console.error(`⚠️  ${args.since} 대비 추가된 events 없음. 종료.`);
     process.exit(0);
+  }
+
+  // --days 필터: 오늘부터 N일 윈도우의 events만
+  if (args.days != null) {
+    const todayYmd = todayLocalYMD();
+    const cutoffYmd = addDaysYMD(todayYmd, args.days);
+    const before = added.length;
+    added = added.filter(e => typeof e.date === 'string' && e.date >= todayYmd && e.date <= cutoffYmd);
+    console.error(`📅 --days=${args.days} 필터 (${todayYmd} ~ ${cutoffYmd}): ${before}건 → ${added.length}건`);
+    if (added.length === 0) {
+      console.error(`⚠️  필터 후 남은 events 없음. 종료.`);
+      process.exit(0);
+    }
   }
 
   for (const e of added) await loadCompany(e.ticker);

@@ -24,7 +24,7 @@ description: Append a new catalyst event to data/catalysts.md. Use when the user
 | `trialDesign` | 선택 | 1-2 문장 임상 디자인 (export-telegram·export-naver용, spec 007) |
 | `targetDisease` | 선택 | 1-2 문장 타겟 질환 |
 | `priorTrialUrl` | 선택 | 사전 공개 임상 NCT URL 또는 publication |
-| `moa` | 선택 | 1-2 문장 작용 기전 |
+| `moa` | 선택 | **1문장 ≤120자.** Telegram 알림용. 풀 버전은 companies/{TICKER}.md `## MOA` 섹션에서 따로 관리 |
 
 ## 절차
 
