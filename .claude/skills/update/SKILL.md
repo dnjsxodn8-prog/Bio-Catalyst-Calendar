@@ -27,6 +27,23 @@ description: Autonomous weekly biotech sweep. Use when user says "/update", "주
 | **C: 신규 PDUFA/임상 이벤트** | 향후 90일 안에 발생할 PDUFA·BLA·NDA·Phase 3 readout 중 우리 catalysts.md에 없는 것 | FDA AdComm calendar, BioPharma Catalyst, 회사 IR |
 | **D: 학회 발표 신규** | 종료/시작이 [오늘-7, 오늘+30]인 학회의 발표 abstract 중 우리 catalysts.md에 없는 것 | 학회 공식 program, 회사 IR |
 
+### Tier B query 패턴 (학회 사전 announce 누락 방지)
+
+ticker별 단순 "{ticker} {company} news" 만 던지면 **학회 abstract acceptance / "to present" 류 보도자료가 일반 뉴스에 묻힘**. 다음 패턴을 **OR로 병행** 검색:
+
+1. `"{company}" press release` — 일반 뉴스
+2. `"{company}" abstract OR "to present" OR "presents data" OR "announces presentation"` — 학회 사전 announce 패턴
+3. **임박 학회 cross**: 오늘 기준 [+0, +30]일 윈도우의 conferences.md 학회 각각에 대해 `"{company}" "{학회명}" 2026` 또는 `"{ticker}" "{학회 약어}"` (예: `"ABVX" "DDW"`, `"VRTX" "ASCO"`) — 추적 종목과 cross-product
+4. **관련 분야**: 종목의 `areas` (companies frontmatter) 와 학회 `areas` 가 1개 이상 겹치면 우선순위 ↑
+
+학회 abstract acceptance announcement 는 보통 학회 1~3주 전에 IR 공시. 이걸 놓치면 conference 카탈리스트 자체가 catalysts.md 에 안 들어감 → 사이트·export 양쪽에서 누락. **반드시 패턴 2·3 포함.**
+
+신뢰 도메인 화이트리스트 (검색 시 우선):
+- `ir.{company}.com`, `investors.{company}.com`
+- `globenewswire.com`, `businesswire.com`, `prnewswire.com`
+- `biopharmadive.com`, `fiercebiotech.com`, `endpts.com`, `biospace.com`
+- 학회 공식 프로그램 페이지
+
 ### Step 2 — 병렬 리서치
 
 위 4개 Tier를 **병렬 agent**로 동시 진행 (각 Tier당 1개 agent). 각 agent는 출력으로 후보 항목들을 YAML로 회신:

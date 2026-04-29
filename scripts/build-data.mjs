@@ -50,7 +50,7 @@ async function loadCompanies() {
 
 function parseBodyHeadings(body) {
   const sections = {};
-  const lines = body.split('\n');
+  const lines = body.split(/\r?\n/);
   let current = null;
   let buf = [];
   for (const line of lines) {
@@ -69,7 +69,7 @@ function parseBodyHeadings(body) {
 
 async function loadYamlBlock(relPath, key) {
   const raw = await fs.readFile(path.join(ROOT, relPath), 'utf8');
-  const m = raw.match(/```yaml\n([\s\S]*?)```/);
+  const m = raw.match(/```yaml\r?\n([\s\S]*?)```/);
   if (!m) throw new Error(`${relPath}에 yaml 블록 없음`);
   const parsed = yaml.parse(m[1]);
   return parsed[key] ?? [];

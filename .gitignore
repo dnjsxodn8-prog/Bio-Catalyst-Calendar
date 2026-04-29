@@ -15,6 +15,7 @@ dist-ssr
 # Project-specific
 .env.local
 data/imports/raw/
+data/imports/naver-export-*.html
 src/data.generated.json
 data/_excluded.md
 

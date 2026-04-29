@@ -8,7 +8,7 @@ areas:
   - Rare Disease
 nextCatalyst: 2026-04-03
 recommendation: Worth Monitoring
-verified: 2026-04-27
+verified: 2026-04-29
 sources:
   - https://www.biogen.com/pipeline
   - https://investors.biogen.com/news-releases
@@ -102,4 +102,6 @@ Leqembi MOA:
 - [Mercuri E et al. DEVOTE nusinersen SMA. Lancet Neurol (2023)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(23)00285-7/fulltext)
 
 ## 메모
-Leqembi 알츠하이머 시장 성장 초기. Nusinersen 고용량 sNDA 결정 2026 Q2. MS 제네릭 압박 지속.
+Leqembi 알츠하이머 시장 성장 초기. MS 제네릭 압박 지속.
+
+**2026-03-30 SPINRAZA 고용량 FDA 승인** — DEVOTE Phase 3 (n=75 infantile-onset SMA) 기반, 50mg loading × 2회 + 28mg 4개월 유지. 6개월 CHOP-INTEND 1차 평가. EU·스위스·일본 동시기 승인. 4/3 PDUFA 보다 조기 승인.

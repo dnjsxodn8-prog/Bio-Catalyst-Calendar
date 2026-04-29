@@ -8,7 +8,7 @@ areas:
   - Oncology
 nextCatalyst: 2026-04-10
 recommendation: Core Holding
-verified: 2026-04-27
+verified: 2026-04-29
 sources:
   - https://investor.lilly.com/Q1-2026
 ---
@@ -92,4 +92,6 @@ Oral non-peptide GLP-1R agonist (type: Small Molecule)
 - [Frias JP et al. ACHIEVE-1 orforglipron in T2D. NEJM (2025)](https://www.nejm.org/doi/full/10.1056/NEJMoa2502956)
 
 ## 메모
-Oral GLP-1 게임체인저
+Oral GLP-1 게임체인저.
+
+**2026-04 Foundayo (orforglipron) 비만 적응증 FDA 승인** — CNPV (Commissioner's National Priority Voucher) 5번째 승인. NDA 접수 후 50일 만에 결정 (원 PDUFA 2027-01-20 보다 294일 빠름). **경구 GLP-1 최초 승인.** T2D 적응증은 별도 NDA 로 2026년 중 제출 예정 — 본 catalysts.md 의 4/10 항목은 비만 NDA 의 원 PDUFA 였음.

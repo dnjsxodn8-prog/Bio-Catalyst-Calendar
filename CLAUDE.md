@@ -132,8 +132,9 @@ specs/                      ← 기능별 요구사항 문서 (번호 순)
 - `add-catalyst` — 새 카탈리스트 1건을 `data/catalysts.md`에 추가 (`/add-catalyst`)
 - `verify-data` — 최근 추가/수정 종목의 사실관계 교차검증 (mcap 재확인, sources alive, 본문 sanity check). 코드 검증(`npm run verify-data`) 통과 후 사실 layer만. 자동 수정 X (`/verify-data`)
 - `update-prices` — 30일 주가 갱신 (Yahoo Finance) (`/update-prices`)
+- `export-naver` — 7일 임박 카탈리스트를 네이버 블로그용 단일 HTML로 export. 브라우저에서 열어 전체선택→복사→SmartEditor paste (`/export-naver`, spec 006)
 - `import-telegram` — (보류, spec 005 §2 — 필요 시 재개)
-- `import-naver` — (보류, spec 005 §3 — 필요 시 재개)
+- `import-naver` — (보류, spec 005 §3 — 필요 시 재개. spec 006 `/export-naver` 와는 방향 반대 — 헷갈리지 말 것)
 
 스킬 호출 후 결과는 항상 사용자에게 요약해서 보여줄 것. 자동 커밋 금지.
 

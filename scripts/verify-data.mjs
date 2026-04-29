@@ -188,7 +188,7 @@ async function verifyCatalysts(issues, summary, companyTickers) {
   try { raw = await fs.readFile(path.join(ROOT, loc), 'utf8'); }
   catch (e) { issues.err(loc, `파일 읽기 실패: ${e.message}`); return []; }
 
-  const m = raw.match(/```yaml\n([\s\S]*?)```/);
+  const m = raw.match(/```yaml\r?\n([\s\S]*?)```/);
   if (!m) { issues.err(loc, `yaml 블록 없음`); return []; }
 
   let parsed;
@@ -249,7 +249,7 @@ async function verifyConferences(issues, summary) {
   try { raw = await fs.readFile(path.join(ROOT, loc), 'utf8'); }
   catch (e) { issues.err(loc, `파일 읽기 실패: ${e.message}`); return new Set(); }
 
-  const m = raw.match(/```yaml\n([\s\S]*?)```/);
+  const m = raw.match(/```yaml\r?\n([\s\S]*?)```/);
   if (!m) { issues.err(loc, `yaml 블록 없음`); return new Set(); }
 
   let parsed;
@@ -360,7 +360,7 @@ function isValidDateRange(s) {
 
 function parseHeadings(body) {
   const set = new Set();
-  for (const line of body.split('\n')) {
+  for (const line of body.split(/\r?\n/)) {
     const m = line.match(/^## (.+?)\s*$/);
     if (m) set.add(m[1].trim());
   }

@@ -8,7 +8,7 @@ areas:
   - Epilepsy
 nextCatalyst: 2026-04-22
 recommendation: Worth Monitoring
-verified: 2026-04-27
+verified: 2026-04-29
 sources: []
 ---
 
@@ -82,4 +82,6 @@ Selective KV7.2/7.3 channel opener (type: Small Molecule)
 - [Jentsch TJ. Neuronal KCNQ channels. Nat Rev Neurosci (2000)](https://www.nature.com/articles/35036198)
 
 ## 메모
-William Blair top pick, KV7 opener
+William Blair top pick, KV7 opener.
+
+**2026-04-19 AAN X-TOLE2 Phase 3 결과** — FOS 성인 12주 DBP. azetukalner 25mg 군 월간 발작 중앙 -53.2% (위약 -10.4%, p<0.0001). 베이스라인 환자 매우 난치성: 월 발작 중앙 12.75회, 사전 ASM 중앙 5종. X-TOLE OLE 48개월 장기: 약 40%가 ≥12개월 발작 free, 25%가 ≥24개월 발작 free. **NDA 2026 Q3 제출 예정.**
