@@ -360,7 +360,7 @@ function isValidDateRange(s) {
 
 function parseHeadings(body) {
   const set = new Set();
-  for (const line of body.split('\n')) {
+  for (const line of body.split(/\r?\n/)) {
     const m = line.match(/^## (.+?)\s*$/);
     if (m) set.add(m[1].trim());
   }

@@ -8,7 +8,7 @@ areas:
   - Neurology
 nextCatalyst: 2026-04-22
 recommendation: Worth Monitoring
-verified: 2026-04-27
+verified: 2026-04-29
 sources: []
 ---
 
@@ -83,4 +83,6 @@ Fully human CD19 CAR(Hu19-CD828Z). NCI scFv. CD28 costim + CD3ζ. 기존 FMC63(m
 - [Haghikia A et al. Anti-CD19 CAR-T for MG. Lancet Neurol (2023)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(23)00194-1/fulltext)
 
 ## 메모
-자가면역 CAR-T 리더
+자가면역 CAR-T 리더.
+
+**2026-04-20~21 AAN miv-cel (KYV-101) 신경면역 데이터** — gMG KYSA-6 Phase 2 24주: 환자 100%가 MG-ADL/QMG 빠르고 지속적 개선 (MG-ADL -8.0, QMG -7.7 평균 감소). SPS 등록 임상 1차 분석 (4/21 late-breaker): 모든 endpoint 통계적 유의·임상 의미 있는 지속 효능. KYSA-6 Phase 3 (gMG, vs SOC immunosuppressive) 2025-12 첫 환자 등록 완료.

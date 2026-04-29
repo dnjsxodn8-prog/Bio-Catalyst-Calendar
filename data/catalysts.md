@@ -88,13 +88,15 @@ events:
     sources: []
   - date: 2026-04-10
     ticker: LLY
-    event: Orforglipron T2D PDUFA
+    event: Foundayo (orforglipron) 비만 NDA 승인됨 (CNPV 가속, 원 PDUFA)
     type: PDUFA
     company: Eli Lilly
-    drug: Orforglipron
-    indication: T2D
+    drug: Orforglipron (Foundayo)
+    indication: Obesity
     phase: NDA
-    sources: []
+    sources:
+      - https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill
+      - https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program
   - date: 2026-04-22
     ticker: XENE
     event: Azetukalner X-TOLE2 AAN 발표
@@ -140,6 +142,88 @@ events:
     indication: AD Agitation
     phase: sNDA
     sources: []
+  - date: 2026-05-04
+    ticker: ABVX
+    event: Obefazimod ABTECT Phase 3 UC DDW 2026 oral + 8 posters
+    type: Conference
+    company: Abivax
+    drug: Obefazimod
+    indication: Ulcerative Colitis
+    phase: Phase 3
+    conferenceId: ddw
+    sources:
+      - https://ir.abivax.com/news-releases/news-release-details/abivax-present-data-obefazimod-digestive-disease-weekr
+      - https://www.globenewswire.com/news-release/2026/04/22/3279387/0/en/Abivax-to-Present-Data-on-Obefazimod-at-Digestive-Disease-Week.html
+  - date: 2026-05-05
+    ticker: OCUL
+    event: OTX-TKI SOL-1 Phase 3 nAMD ARVO 2026 oral
+    type: Conference
+    company: Ocular Therapeutix
+    drug: OTX-TKI (axitinib intravitreal hydrogel)
+    indication: Neovascular AMD
+    phase: Phase 3
+    conferenceId: arvo
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/27/3281480/0/en/ocular-therapeutix-to-participate-in-may-scientific-and-investor-conferences.html
+      - https://www.biospace.com/press-releases/ocular-therapeutix-to-participate-in-may-scientific-and-investor-conferences
+  - date: 2026-05-10
+    ticker: ARGX
+    event: VYVGART seronegative gMG sBLA PDUFA
+    type: PDUFA
+    company: argenx
+    drug: Efgartigimod (VYVGART)
+    indication: AChR-Ab seronegative gMG
+    phase: sBLA
+    sources:
+      - https://argenx.com/news/2026/press-release-3217457
+      - https://argenx.com/news/2026/press-release-3276554.html
+  - date: 2026-05-12
+    ticker: SANA
+    event: SG293 in vivo CAR-T NHP ASGCT 2026 oral (preclinical)
+    type: Conference
+    company: Sana Biotechnology
+    drug: SG293 (CD19 in vivo CAR-T)
+    indication: B-cell malignancy / autoimmune
+    phase: Preclinical
+    conferenceId: asgct
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/27/3282052/0/en/Sana-Biotechnology-Announces-Oral-Presentation-Highlighting-Preclinical-Data-from-in-vivo-CAR-T-SG293-at-the-American-Society-of-Gene-Cell-Therapy-ASGCT-2026-Annual-Meeting.html
+  - date: 2026-05-15
+    ticker: CADL
+    event: CAN-2409 PrTK03 Phase 3 prostate AUA 2026 plenary oral
+    type: Conference
+    company: Candel Therapeutics
+    drug: CAN-2409 (aglatimagene besadenovec)
+    indication: Localized Prostate Cancer
+    phase: Phase 3
+    conferenceId: aua
+    sources:
+      - https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-present-new-data-after-extended-follow/
+      - https://www.globenewswire.com/news-release/2026/03/09/3251795/0/en/Candel-Therapeutics-To-Present-New-Data-after-Extended-Follow-Up-from-Randomized-Phase-3-Trial-of-Aglatimagene-Besadenovec-in-Localized-Prostate-Cancer-at-the-American-Urological-A.html
+  - date: 2026-05-31
+    ticker: RVMD
+    event: Daraxonrasib RASolute 302 Phase 3 mPDAC ASCO plenary LBA
+    type: Conference
+    company: Revolution Medicines
+    drug: Daraxonrasib (RMC-6236)
+    indication: Metastatic Pancreatic Cancer
+    phase: Phase 3
+    conferenceId: asco
+    sources:
+      - https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-present-pivotal-phase-3-rasolute-302
+      - https://www.globenewswire.com/news-release/2026/04/21/3278211/0/en/Revolution-Medicines-to-Present-Pivotal-Phase-3-RASolute-302-Clinical-Trial-Results-for-Daraxonrasib-in-Previously-Treated-Metastatic-Pancreatic-Cancer-During-a-Plenary-Session-at-.html
+  - date: 2026-05-31
+    ticker: SMMT
+    event: Ivonescimab HARMONi-6 Phase 3 1L sq-NSCLC ASCO plenary LBA
+    type: Conference
+    company: Summit Therapeutics
+    drug: Ivonescimab (SMT112)
+    indication: 1L Squamous NSCLC
+    phase: Phase 3
+    conferenceId: asco
+    sources:
+      - https://oncodaily.com/oncolibrary/asco-2026-plenary-session-key-trials
+      - https://www.gurufocus.com/news/8806712/positive-outlook-for-summit-therapeutics-smmt-following-asco-plenary-selection
   - date: 2026-06-02
     ticker: COGT
     event: Bezuclastinib PEAK Phase 3 GIST ASCO oral
@@ -258,15 +342,6 @@ events:
     phase: NDA
     sources: []
   - date: 2026-06-30
-    ticker: RVMD
-    event: Daraxonrasib Phase 3 췌장암
-    type: Clinical Readout
-    company: Revolution
-    drug: RMC-6236
-    indication: Pancreatic
-    phase: Phase 3
-    sources: []
-  - date: 2026-06-30
     ticker: SION
     event: CFTR stabilizer Phase 2 (+ Trikafta)
     type: Clinical Readout
@@ -302,6 +377,49 @@ events:
     indication: MUM
     phase: Phase 3
     sources: []
+  - date: 2026-06-30
+    ticker: IONS
+    event: Olezarsen 중증 HTG sNDA PDUFA
+    type: PDUFA
+    company: Ionis
+    drug: Olezarsen
+    indication: Severe Hypertriglyceridemia
+    phase: sNDA
+    sources:
+      - https://ir.ionis.com/news-releases/news-release-details/olezarsen-snda-accepted-fda-priority-review-treatment-severe
+      - https://www.businesswire.com/news/home/20260226109569/en/Olezarsen-sNDA-accepted-by-the-FDA-for-Priority-Review-for-the-treatment-of-severe-hypertriglyceridemia-sHTG
+  - date: 2026-07-07
+    ticker: VERA
+    event: Atacicept IgAN BLA PDUFA (가속승인)
+    type: PDUFA
+    company: Vera Therapeutics
+    drug: Atacicept
+    indication: IgA Nephropathy
+    phase: BLA
+    sources:
+      - https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review
+      - https://www.globenewswire.com/news-release/2026/02/26/3245477/0/en/Vera-Therapeutics-Provides-Business-Update-and-Reports-Full-Year-2025-Financial-Results.html
+  - date: 2026-08-22
+    ticker: CAPR
+    event: Deramiocel HOPE-3 DMD BLA PDUFA
+    type: PDUFA
+    company: Capricor
+    drug: Deramiocel (CAP-1002)
+    indication: DMD
+    phase: BLA
+    sources:
+      - https://www.capricor.com/investors/news-events/press-releases/detail/341/capricor-therapeutics-announces-late-breaking-presentation
+      - https://www.biospace.com/press-releases/capricor-therapeutics-announces-late-breaking-presentation-of-hope-3-phase-3-results-at-the-american-academy-of-neurology-2026-annual-meeting
+  - date: 2026-08-25
+    ticker: JAZZ
+    event: Ziihera HER2+ 1L GEA sBLA PDUFA
+    type: PDUFA
+    company: Jazz Pharmaceuticals
+    drug: Zanidatamab (Ziihera)
+    indication: HER2+ 1L Gastroesophageal Adenocarcinoma
+    phase: sBLA
+    sources:
+      - https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-announces-fda-acceptance-and-priority-review-of-supplemental-biologics-license-application-for-ziihera-zanidatamab-hrii-combinations-in-first-line-her2-locally-advanced-or-metastatic-gea-302753741.html
   - date: 2026-09-30
     ticker: ARWR
     event: Plozasiran Phase 3 severe HTG

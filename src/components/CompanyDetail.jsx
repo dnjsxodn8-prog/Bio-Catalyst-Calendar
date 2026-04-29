@@ -47,9 +47,9 @@ function FieldCard({ icon: Icon, label, value, wide, isText }) {
         wide ? 'sm:col-span-2' : '',
       ].join(' ')}
     >
-      <div className="flex items-center gap-1.5 mb-1.5">
-        <Icon className="w-3.5 h-3.5 shrink-0 text-fg-dim" />
-        <div className="text-[10px] font-medium uppercase tracking-wide text-fg-dim">
+      <div className="flex items-center gap-2 mb-2">
+        <Icon className="w-4 h-4 shrink-0 text-fg-muted" />
+        <div className="text-[14px] font-semibold text-fg leading-snug">
           {label}
         </div>
       </div>

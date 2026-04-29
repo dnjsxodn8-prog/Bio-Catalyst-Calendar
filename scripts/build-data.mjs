@@ -50,7 +50,7 @@ async function loadCompanies() {
 
 function parseBodyHeadings(body) {
   const sections = {};
-  const lines = body.split('\n');
+  const lines = body.split(/\r?\n/);
   let current = null;
   let buf = [];
   for (const line of lines) {

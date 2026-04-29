@@ -41,6 +41,25 @@ conferences:
     tier: Tier 1
     importance: Major Catalyst
     notes: Translational oncology
+  - id: ddw
+    name: Digestive Disease Week 2026
+    dates: 2026-05-02 to 2026-05-05
+    location: Chicago, IL
+    areas:
+      - Gastrointestinal
+      - Immunology
+    tier: Tier 1
+    importance: Major Catalyst
+    notes: IBD/GI 최대 학회. ABVX(obefazimod) 등 UC/CD 데이터
+  - id: arvo
+    name: ARVO Annual Meeting 2026
+    dates: 2026-05-03 to 2026-05-07
+    location: Denver, CO
+    areas:
+      - Ophthalmology
+    tier: Tier 1
+    importance: Major Catalyst
+    notes: 안과 연구 최대 학회. 망막·녹내장·dry eye 후보
   - id: asgct
     name: ASGCT Annual Meeting 2026
     dates: 2026-05-11 to 2026-05-15
@@ -68,6 +87,25 @@ conferences:
     tier: Tier 2
     importance: Moderate
     notes: 정신건강
+  - id: ats
+    name: ATS International Conference 2026
+    dates: 2026-05-17 to 2026-05-20
+    location: Orlando, FL
+    areas:
+      - Pulmonology
+      - Respiratory
+    tier: Tier 1
+    importance: Major Catalyst
+    notes: 호흡기 최대 학회. COPD/asthma/IPF 데이터
+  - id: easl
+    name: EASL Congress 2026
+    dates: 2026-05-27 to 2026-05-30
+    location: Barcelona, Spain
+    areas:
+      - Liver Disease
+    tier: Tier 1
+    importance: Major Catalyst
+    notes: 유럽 간 학회 (International Liver Congress)
   - id: asco
     name: ASCO Annual Meeting 2026
     dates: 2026-05-29 to 2026-06-02
@@ -96,6 +134,15 @@ conferences:
     tier: Tier 1
     importance: Major Catalyst
     notes: 유럽 혈액학
+  - id: endo
+    name: ENDO 2026 Endocrine Society Annual Meeting
+    dates: 2026-06-13 to 2026-06-16
+    location: Chicago, IL
+    areas:
+      - Endocrinology
+    tier: Tier 2
+    importance: Moderate
+    notes: 내분비학. obesity·당뇨·갑상선·부신 등
   - id: ada
     name: ADA Scientific Sessions 2026
     dates: 2026-06-19 to 2026-06-22
@@ -123,6 +170,16 @@ conferences:
     tier: Tier 1
     importance: Major Catalyst
     notes: 유럽 심장학
+  - id: ers
+    name: ERS Congress 2026
+    dates: 2026-09-05 to 2026-09-09
+    location: Barcelona, Spain
+    areas:
+      - Pulmonology
+      - Respiratory
+    tier: Tier 1
+    importance: Major Catalyst
+    notes: 유럽 호흡기 최대 학회
   - id: wclc
     name: WCLC 2026
     dates: 2026-09-06 to 2026-09-09
@@ -141,6 +198,33 @@ conferences:
     tier: Tier 2
     importance: Moderate
     notes: 유럽 당뇨
+  - id: aao
+    name: AAO Annual Meeting 2026
+    dates: 2026-10-09 to 2026-10-12
+    location: New Orleans, LA
+    areas:
+      - Ophthalmology
+    tier: Tier 1
+    importance: Major Catalyst
+    notes: 미국 안과 학회. AMD·DR·녹내장·dry eye
+  - id: uegw
+    name: UEG Week 2026
+    dates: 2026-10-17 to 2026-10-20
+    location: Barcelona, Spain
+    areas:
+      - Gastrointestinal
+    tier: Tier 1
+    importance: Major Catalyst
+    notes: 유럽 GI 최대 학회. IBD·hepatology·GI oncology
+  - id: asn-kidney
+    name: ASN Kidney Week 2026
+    dates: 2026-10-21 to 2026-10-25
+    location: Denver, CO
+    areas:
+      - Nephrology
+    tier: Tier 1
+    importance: Major Catalyst
+    notes: 신장학 최대 학회. CKD·dialysis·rare kidney
   - id: esmo
     name: ESMO Congress 2026
     dates: 2026-10-23 to 2026-10-27
