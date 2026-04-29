@@ -161,7 +161,7 @@ function extractNctId(url) {
 }
 
 // ─── messages ───────────────────────────────────────────
-function buildSummary(events, blogUrl) {
+function buildSummary(events) {
   const dates = events.map(e => e.date).filter(Boolean).sort();
   const range = dates.length > 0
     ? `${fmtDateShort(dates[0])} - ${fmtDateShort(dates[dates.length - 1])}`
@@ -171,9 +171,7 @@ function buildSummary(events, blogUrl) {
   for (let i = 0; i < events.length; i += 5) chunks.push(events.slice(i, i + 5));
 
   return chunks.map((chunk, idx) => {
-    const isFirst = idx === 0;
-    const isLast = idx === chunks.length - 1;
-    const head = isFirst
+    const head = idx === 0
       ? `🧬 이번 주 Bio Catalyst (${range})`
       : `🧬 이번 주 Bio Catalyst (이어서)`;
     const lines = chunk.map(e => {
@@ -182,9 +180,12 @@ function buildSummary(events, blogUrl) {
       const ts = typeShort(e.type, e.phase);
       return `• ${e.ticker} (${mcap}) — ${fmtDateShort(e.date)} ${ts}: ${e.drug ?? '?'} (${e.indication ?? '?'})`;
     });
-    const footer = isLast ? `\n\n📝 자세한 분석 → ${blogUrl}` : '';
-    return `${head}\n\n${lines.join('\n')}${footer}`;
+    return `${head}\n\n${lines.join('\n')}`;
   });
+}
+
+function buildClosing(blogUrl) {
+  return `자세한 내용은 블로그 참고해 주세요!\n${blogUrl}`;
 }
 
 function buildDetail(event) {
@@ -287,7 +288,7 @@ async function main() {
     }
   }
 
-  const summaryChunks = buildSummary(added, args.blogUrl);
+  const summaryChunks = buildSummary(added);
 
   const detailMessages = [];
   if (!args.summaryOnly) {
@@ -301,7 +302,8 @@ async function main() {
     }
   }
 
-  const all = [...summaryChunks, ...detailMessages];
+  const closing = buildClosing(args.blogUrl);
+  const all = [...summaryChunks, ...detailMessages, closing];
 
   if (args.dryRun) {
     console.log(`\n=== DRY RUN — 총 ${all.length}통 ===\n`);
@@ -313,7 +315,7 @@ async function main() {
     return;
   }
 
-  console.log(`📤 발송: 총 ${all.length}통 (summary ${summaryChunks.length} + detail ${detailMessages.length})`);
+  console.log(`📤 발송: 총 ${all.length}통 (summary ${summaryChunks.length} + detail ${detailMessages.length} + closing 1)`);
   for (let i = 0; i < all.length; i++) {
     try {
       await sendMessage(all[i]);

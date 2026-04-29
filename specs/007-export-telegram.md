@@ -93,13 +93,12 @@ Telegram은 두 층으로 보낸다:
 • VRTX ($120B) — 8/15 PDUFA: vanzacaftor (낭포성섬유증)
 • LLY ($720B) — 5/15 ASCO Ph2: retatrutide (비만)
 • BIIB ($28B) — 6/30 Ph3 readout: BIIB080 (알츠하이머)
-
-📝 자세한 분석 → {blog_url}
 ```
 
 - 헤더 날짜 범위: events의 min/max date.
-- 이벤트당 1줄, 5건 초과 시 6건씩 분할. blog link는 마지막 summary 통에만.
+- 이벤트당 1줄, 5건 초과 시 6건씩 분할.
 - mcap 포맷: ≥1000 → `$XXB`, <1000 → `$XXXM`.
+- blog link는 summary가 아닌 별도 closing 메시지(§5.3)로 발송.
 
 ### 5.2 Detail 메시지 (이벤트당 1통)
 
@@ -164,9 +163,21 @@ MoA: {moa}
 | `sources` 없음 | detail 메시지 자체 거부 (summary는 발송) |
 
 #### blog link
-- summary 메시지에만 1번. detail에는 X.
+- summary·detail에는 X. 별도 closing 메시지(§5.3)에서 사용.
 
-### 5.3 발송 한도
+### 5.3 Closing 메시지 (마지막 1통, 항상 발송)
+
+```
+자세한 내용은 블로그 참고해 주세요!
+{blog_url}
+```
+
+- 사용자가 `/export-telegram <blog_url>` 인자로 전달한 URL을 그대로 사용.
+- summary·detail 모두 끝나고 마지막에 1통 발송.
+- `--summary-only` 모드에서도 발송 (closing은 summary와 무관하게 항상 마지막에).
+- 메시지 단위로 분리한 이유: 독자가 모든 내용을 읽은 뒤 명확한 CTA로 블로그 유도. summary 헤더에 묻히지 않음.
+
+### 5.4 발송 한도
 
 - summary: 5건/통, 초과 시 분할
 - detail: 이벤트당 1통

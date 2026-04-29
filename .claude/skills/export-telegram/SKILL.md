@@ -1,6 +1,6 @@
 ---
 name: export-telegram
-description: 직전 /update에서 추가된 카탈리스트를 Telegram 봇으로 발송. Summary 1통(blog link 포함) + 이벤트당 detail 1통(4 섹션). 사용자 호출 형태 "/export-telegram <blog_url>". 일요일 워크플로 /update → /export-naver → /export-telegram의 마지막 단계.
+description: 직전 /update에서 추가된 카탈리스트를 Telegram 봇으로 발송. Summary 1통 + 이벤트당 detail 1통(4 섹션) + closing 1통(blog 링크). 사용자 호출 형태 "/export-telegram <blog_url>". 일요일 워크플로 /update → /export-naver → /export-telegram의 마지막 단계.
 ---
 
 # export-telegram
@@ -117,7 +117,8 @@ Telegram API 에러(잘못된 token, chat_id 오타, 봇이 채널에 추가 안
 1. `.env.local` 확인 → OK
 2. dry-run 실행 → stdout/stderr 캡처
 3. 결과 요약:
-   > 발송 예정 9통 (summary 1 + detail 7).
+   > 발송 예정 9통 (summary 1 + detail 7 + closing 1).
+   > 마지막 closing 메시지: "자세한 내용은 블로그 참고해 주세요!\n{blog_url}"
    > 추가된 events:
    > • VRTX 8/15 PDUFA — vanzacaftor (낭포성섬유증)
    > • LLY 5/15 ASCO — retatrutide (비만)
