@@ -134,7 +134,7 @@ function renderListBlock(items, key) {
         {items.map((it, i) => (
           <div
             key={i}
-            className="rounded-md bg-bg-card2/40 border border-border/50 px-3 py-2"
+            className="rounded-md bg-panel-2 border border-line px-3 py-2"
           >
             <div className="text-[13px] font-semibold text-fg leading-snug flex flex-wrap items-baseline gap-x-2">
               {it.label ? (

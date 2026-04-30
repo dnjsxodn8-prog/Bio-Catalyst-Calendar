@@ -1,52 +1,34 @@
-// 30일 종가 sparkline (순수 SVG).
-// data: [{ date: 'YYYY-MM-DD', close: number }, ...]
+import { priceSeries } from '../utils/priceSeries';
 
 const COLOR = {
-  up: '#34d399',     // accent.green
-  down: '#f87171',   // accent.red
-  flat: '#9ca3af',   // fg.muted
+  up: '#34D399',
+  down: '#F87171',
+  flat: '#94A3B8',
 };
 
-export default function Sparkline({ data, height = 48 }) {
-  if (!Array.isArray(data) || data.length < 2) return null;
-
-  const closes = data.map((d) => d.close);
-  const min = Math.min(...closes);
-  const max = Math.max(...closes);
-  const range = max - min || 1;
-  const W = 100;
-  const H = height;
-  const pad = 1.5; // stroke-width 만큼 여백
-
-  const points = closes
-    .map((c, i) => {
-      const x = (i / (closes.length - 1)) * W;
-      const y = pad + (1 - (c - min) / range) * (H - pad * 2);
-      return `${x.toFixed(2)},${y.toFixed(2)}`;
-    })
-    .join(' ');
-
-  const first = closes[0];
-  const last = closes[closes.length - 1];
-  const trend = last > first ? 'up' : last < first ? 'down' : 'flat';
-  const stroke = COLOR[trend];
+export default function Sparkline({ ticker, priceCache, width = 80, height = 22, showArea = true }) {
+  const s = priceSeries(ticker, priceCache);
+  const color = COLOR[s.dir];
+  const n = s.points.length;
+  const pts = s.points.map((p, i) => {
+    const x = (i / (n - 1)) * width;
+    const y = height - p * (height - 4) - 2;
+    return [x, y];
+  });
+  const path = pts.map((p, i) => (i === 0 ? 'M' : 'L') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+  const area = path + ` L${width} ${height} L0 ${height} Z`;
 
   return (
     <svg
-      viewBox={`0 0 ${W} ${H}`}
-      preserveAspectRatio="none"
-      className="w-full"
-      style={{ height: `${H}px` }}
-      aria-label="30-day price sparkline"
+      width={width}
+      height={height}
+      viewBox={`0 0 ${width} ${height}`}
+      className="block"
+      aria-label={`${ticker} 30-day price`}
     >
-      <polyline
-        fill="none"
-        stroke={stroke}
-        strokeWidth="1.5"
-        strokeLinejoin="round"
-        strokeLinecap="round"
-        points={points}
-      />
+      {showArea && <path d={area} fill={color} fillOpacity="0.12" />}
+      <path d={path} fill="none" stroke={color} strokeWidth="1.4" strokeLinejoin="round" strokeLinecap="round" />
+      <circle cx={pts[n - 1][0]} cy={pts[n - 1][1]} r="2" fill={color} />
     </svg>
   );
 }
