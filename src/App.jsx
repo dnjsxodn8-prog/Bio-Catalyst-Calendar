@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import data from './data.generated.json';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
+import Footer from './components/Footer';
 import CompanyDetail from './components/CompanyDetail';
 import Dashboard from './pages/Dashboard';
 import Companies from './pages/Companies';
@@ -71,11 +72,13 @@ function App() {
           onTheme={setTheme}
         />
 
-        <div className="px-7 pt-6 pb-20 max-w-[1600px] w-full mx-auto">
+        <div className="px-7 pt-6 pb-20 max-w-[1600px] w-full mx-auto flex-1">
           <div className="animate-fade-up">
             <Page data={data} query={query} onPick={setPick} />
           </div>
         </div>
+
+        <Footer />
       </main>
 
       {pick && (
