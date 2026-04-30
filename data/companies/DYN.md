@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-06-30
-recommendation: Core Holding
 verified: 2026-04-27
 sources:
   - https://ir.dynetherapeutics.com/news-releases

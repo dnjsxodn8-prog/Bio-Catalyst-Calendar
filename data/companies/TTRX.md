@@ -6,7 +6,6 @@ modality: Cell Therapy
 areas:
   - Oncology
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.turnstonebio.com/news-releases/news-release-details/turnstone-biologics-corp-reports-positive-initial-data-phase-1

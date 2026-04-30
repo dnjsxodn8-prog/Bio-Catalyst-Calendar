@@ -9,7 +9,6 @@ areas:
   - Immunology
   - Neurology
 nextCatalyst: 2026-09-18
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.royaltypharma.com/news/royalty-pharma-reports-q4-and-full-year-2025-results/

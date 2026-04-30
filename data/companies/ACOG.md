@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://secure.businesswire.com/news/home/20250319665873/en/Alpha-Cognition-Announces-the-Commercial-Launch-of-ZUNVEYL-Benzgalantamine-for-the-Treatment-of-Mild-to-Moderate-Alzheimers-Disease

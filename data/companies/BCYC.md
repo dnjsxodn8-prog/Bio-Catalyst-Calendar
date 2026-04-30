@@ -6,7 +6,6 @@ modality: Peptide
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.bicycletherapeutics.com/news-releases/news-release-details/bicycle-therapeutics-reports-recent-business-progress-and-5/

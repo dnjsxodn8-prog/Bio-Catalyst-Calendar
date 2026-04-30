@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-05-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/03/25/3262673/0/en/Ascentage-Pharma-Reports-Full-Year-2025-Unaudited-Financial-Results-and-Provides-Business-Updates.html

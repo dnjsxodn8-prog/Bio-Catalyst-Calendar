@@ -6,7 +6,6 @@ modality: ADC
 areas:
   - Oncology
 nextCatalyst: 2027-01-01
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://www.whitehawktx.com/pipeline/

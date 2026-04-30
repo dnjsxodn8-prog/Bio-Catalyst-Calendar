@@ -7,7 +7,6 @@ areas:
   - Immunology
   - Dermatology
 nextCatalyst: 2026-05-11
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.abcellera.com/news/news-releases/2026/AbCellera-Reports-Full-Year-2025-Business-Results/default.aspx

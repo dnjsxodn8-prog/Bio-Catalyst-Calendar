@@ -6,7 +6,6 @@ modality: Peptide
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.sellaslifesciences.com/news/News-Details/2025/SELLAS-Life-Sciences-Provides-Update-on-Pivotal-Phase-3-REGAL-Trial-of-Galinpepimut-S-GPS-in-Acute-Myeloid-Leukemia-AML/default.aspx

@@ -43,7 +43,7 @@ description: Update body sections of an existing company markdown file. Use when
 
 `verified: YYYY-MM-DD`를 오늘 날짜로 변경.
 
-다른 frontmatter 필드 (`mcap`, `modality`, `areas`, `recommendation`, `nextCatalyst`)는 사용자가 명시적으로 요청한 경우만 수정.
+다른 frontmatter 필드 (`mcap`, `modality`, `areas`, `nextCatalyst`)는 사용자가 명시적으로 요청한 경우만 수정.
 
 > ⚠️ `nextCatalyst`는 카탈리스트 추가 시 자동 갱신되는 게 이상적임. 직접 수정 대신 `add-catalyst` 사용 권장.
 

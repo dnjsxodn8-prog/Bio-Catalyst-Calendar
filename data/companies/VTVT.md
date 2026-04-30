@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Metabolic
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.vtvtherapeutics.com/news-releases/news-release-details/vtv-therapeutics-announces-first-study-participant-randomized

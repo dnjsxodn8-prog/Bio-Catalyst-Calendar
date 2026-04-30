@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.urogen.com/news-releases/news-release-details/us-fda-approves-urogens-zusduritm-mitomycin-intravesical

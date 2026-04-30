@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.businesswire.com/news/home/20260111172978/en/Stoke-Therapeutics-Announces-Updates-to-Timelines-for-the-Completion-of-Enrollment-and-a-Phase-3-Data-Readout-from-the-EMPEROR-Study-of-Zorevunersen-for-the-Treatment-of-Dravet-Syndrome

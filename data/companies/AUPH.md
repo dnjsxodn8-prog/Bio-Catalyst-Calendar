@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Immunology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investingnews.com/aurinia-pharmaceuticals-reports-financial-results-for-the-three-and-twelve-months-ended-december-31-2025-and-provides-update-on-recent-business-progress/

@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Autoimmune
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.sana.com/news-releases/news-release-details/sana-biotechnology-announces-publication-new-england-journal/

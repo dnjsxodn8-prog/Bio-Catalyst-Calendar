@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Ophthalmology
 nextCatalyst: 2027-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/01/20/3221657/0/en/SpyGlass-Pharma-Announces-First-Patients-Randomized-in-SGP-005-and-SGP-006-Two-Registrational-Phase-III-Clinical-Trials-of-Its-Novel-BIM-IOL-System.html

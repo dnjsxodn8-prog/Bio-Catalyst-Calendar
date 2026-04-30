@@ -7,7 +7,6 @@ areas:
   - Immunology
   - Allergy
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/03/09/3251623/0/en/ARS-Pharmaceuticals-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Updates-on-neffy-epinephrine-nasal-spray-Commercialization.html

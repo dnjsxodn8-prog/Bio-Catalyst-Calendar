@@ -7,7 +7,6 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-09-30
-recommendation: Core Holding
 verified: 2026-04-27
 sources:
   - https://www.amgen.com/pipeline

@@ -6,7 +6,6 @@ modality: Bispecific
 areas:
   - Oncology
 nextCatalyst: 2026-08-25
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-announces-positive-herizon-gea-01-phase-3-results/

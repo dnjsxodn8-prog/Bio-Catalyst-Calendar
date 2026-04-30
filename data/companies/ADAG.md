@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/04/01/3267038/0/en/Adagene-Reports-Full-Year-2025-Financial-Results-and-Provides-Corporate-Update.html

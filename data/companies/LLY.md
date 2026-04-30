@@ -7,7 +7,6 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-04-10
-recommendation: Core Holding
 verified: 2026-04-29
 sources:
   - https://investor.lilly.com/Q1-2026

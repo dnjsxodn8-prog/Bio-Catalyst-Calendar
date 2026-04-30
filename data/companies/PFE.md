@@ -9,7 +9,6 @@ areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2026-Q2
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.pfizer.com/science/drug-product-pipeline

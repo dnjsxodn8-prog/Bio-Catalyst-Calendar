@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Infectious Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.ateapharma.com/news-releases/news-release-details/atea-pharmaceuticals-reports-third-quarter-2025-financial

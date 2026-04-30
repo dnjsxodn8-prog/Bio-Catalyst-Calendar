@@ -7,7 +7,6 @@ areas:
   - Cardiovascular
   - Rare Disease
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/02/26/3246161/0/en/Tectonic-Therapeutic-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Recent-Business-Highlights.html

@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-05-20
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.relaytx.com/news-releases/news-release-details/relay-therapeutics-announces-positive-interim-data-rly-2608/

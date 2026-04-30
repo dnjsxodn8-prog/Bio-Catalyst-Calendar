@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Epilepsy
 nextCatalyst: 2026-04-22
-recommendation: Worth Monitoring
 verified: 2026-04-29
 sources: []
 ---

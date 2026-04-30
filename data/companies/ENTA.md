@@ -7,7 +7,6 @@ areas:
   - Infectious Disease
   - Respiratory
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.enanta.com/news-releases/news-release-details/enanta-pharmaceuticals-reports-fiscal-first-quarter-2025

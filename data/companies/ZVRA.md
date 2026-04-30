@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Other
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.zevra.com/news-releases/news-release-details/zevra-therapeutics-miplyffatm-arimoclomol-receives-us-fda

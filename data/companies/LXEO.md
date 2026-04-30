@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Cardiovascular
 nextCatalyst: 2026-06-01
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.lexeotx.com/news-releases/news-release-details/lexeo-therapeutics-announces-fda-breakthrough-therapy

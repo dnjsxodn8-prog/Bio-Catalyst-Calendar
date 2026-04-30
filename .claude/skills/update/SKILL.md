@@ -23,7 +23,7 @@ description: Autonomous weekly biotech sweep. Use when user says "/update", "주
 | Tier | 무엇을 찾나 | 데이터 소스 |
 |---|---|---|
 | **A: 카탈리스트 후속** | `data/catalysts.md`에서 date가 [오늘-30, 오늘+0] 범위인 항목들 — FDA 결정·readout 결과·연기 여부 확인 | 회사 IR, FDA.gov |
-| **B: 추적 종목 뉴스** | mcap ≥ $1B 이고 recommendation이 `Core Holding` 또는 `Worth Monitoring`인 종목 (보통 30-50개)의 지난 7일 뉴스 | Web search 회사명 + ticker |
+| **B: 추적 종목 뉴스** | mcap ≥ $1B 인 종목 (보통 30-50개)의 지난 7일 뉴스 | Web search 회사명 + ticker |
 | **C: 신규 PDUFA/임상 이벤트** | 향후 90일 안에 발생할 PDUFA·BLA·NDA·Phase 3 readout 중 우리 catalysts.md에 없는 것 | FDA AdComm calendar, BioPharma Catalyst, 회사 IR |
 | **D: 학회 발표 신규** | 종료/시작이 [오늘-7, 오늘+30]인 학회의 발표 abstract 중 우리 catalysts.md에 없는 것 | 학회 공식 program, 회사 IR |
 

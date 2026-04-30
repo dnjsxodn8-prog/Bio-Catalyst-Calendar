@@ -7,7 +7,6 @@ areas:
   - Infectious Disease
   - Rare Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.arcturusrx.com/news-releases/news-release-details/arcturus-therapeutics-announces-fourth-quarter-and-fiscal-year-1

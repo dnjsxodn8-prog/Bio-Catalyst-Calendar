@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.biohaven.com/news-releases/news-release-details/fda-issues-complete-response-letter-biohavens-vyglxia

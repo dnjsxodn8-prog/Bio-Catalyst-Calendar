@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-08-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.businesswire.com/news/home/20260225334279/en/Acadia-Pharmaceuticals-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Operating-Overview

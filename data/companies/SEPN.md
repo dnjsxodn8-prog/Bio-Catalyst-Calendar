@@ -8,7 +8,6 @@ areas:
   - Rare Disease
   - Metabolic
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.septerna.com/news-releases/news-release-details/septerna-highlights-pipeline-progress-and-reports-fourth-quarter

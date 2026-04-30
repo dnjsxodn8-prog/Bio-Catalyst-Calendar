@@ -8,7 +8,6 @@ areas:
   - Rare Disease
   - Ophthalmology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.entradatx.com/news-releases/news-release-details/entrada-therapeutics-reports-third-quarter-2025-financial

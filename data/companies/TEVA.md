@@ -8,7 +8,6 @@ areas:
   - Immunology
   - Generic
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Innovative-Portfolio-and-Consistent-Execution-of-Pivot-to-Growth-Strategy-Deliver-Third-Consecutive-Year-of-Growth-Pipeline-Positioned-to-Unlock-Significant-Value-Potential/default.aspx

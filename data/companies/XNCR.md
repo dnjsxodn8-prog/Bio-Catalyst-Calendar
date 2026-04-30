@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.xencor.com/news-releases/news-release-details/xencor-presents-initial-data-xmab819-first-class-enpp3-x-cd3

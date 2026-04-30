@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Other
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.xoma.com/news-events/press-releases/detail/498/xoma-royalty-reports-2025-financial-results-and-highlights

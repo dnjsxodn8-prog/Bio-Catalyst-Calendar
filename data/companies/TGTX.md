@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Autoimmune
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.tgtherapeutics.com/news-releases/news-release-details/tg-therapeutics-reports-fourth-quarter-and-full-year-2025

@@ -7,7 +7,6 @@ areas:
   - Diagnostic
   - Research Tools
 nextCatalyst: 2026-05-06
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.bio-techne.com/press-releases/detail/513/bio-techne-releases-first-quarter-fiscal-2026-results

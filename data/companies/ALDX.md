@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Immunology
 nextCatalyst: 2026-03-16
-recommendation: Speculative
 verified: 2026-04-27
 sources: []
 ---

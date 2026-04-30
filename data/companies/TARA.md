@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-05-15
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.stocktitan.net/news/TARA/protara-therapeutics-announces-fourth-quarter-and-full-year-2025-ibquo5rod8l4.html

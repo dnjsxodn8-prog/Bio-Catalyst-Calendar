@@ -6,7 +6,6 @@ modality: Gene Therapy
 areas:
   - Rare Disease
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.solidbio.com/news-releases/news-release-details/solid-biosciences-announces-positive-feedback-type-c-meeting-fda

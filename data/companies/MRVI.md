@@ -6,7 +6,6 @@ modality: Tool/Platform
 areas:
   - Other
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.maravai.com/products/

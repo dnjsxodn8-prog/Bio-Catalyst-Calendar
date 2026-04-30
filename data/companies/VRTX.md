@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Gene/Cell Therapy
 nextCatalyst: 2026-06-30
-recommendation: Core Holding
 verified: 2026-04-28
 sources:
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-fda-approval-journavxtm-suzetrigine-first-class

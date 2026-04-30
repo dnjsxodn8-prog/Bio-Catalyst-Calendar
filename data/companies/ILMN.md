@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-07-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.illumina.com/news-releases/news-release-details/illumina-reports-fourth-quarter-and-fiscal-year-2024-financial

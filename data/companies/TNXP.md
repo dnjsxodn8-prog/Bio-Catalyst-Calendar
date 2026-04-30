@@ -9,7 +9,6 @@ areas:
   - Immunology
   - Infectious Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.tonixpharma.com/news-events/press-releases/detail/1585/tonix-pharmaceuticals-announces-fda-approval-of

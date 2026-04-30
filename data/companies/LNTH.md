@@ -6,7 +6,6 @@ modality: Diagnostic
 areas:
   - Oncology
 nextCatalyst: 2026-05-07
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-reports-fourth-quarter-and-full-year-2025-financial-results

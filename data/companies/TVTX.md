@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Nephrology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.travere.com/press-releases/news-details/2026/Travere-Therapeutics-Announces-Full-FDA-Approval-of-FILSPARI-sparsentan-the-First-and-Only-Approved-Medicine-for-FSGS/default.aspx

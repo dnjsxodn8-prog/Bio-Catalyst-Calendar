@@ -9,7 +9,6 @@ areas:
   - Glioma
   - Renal Cancer
 nextCatalyst: 2026-06-01
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://telixpharma.com/news-views/fy-2025-results-strong-commercial-growth-focused-pipeline-investment/

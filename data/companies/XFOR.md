@@ -7,7 +7,6 @@ areas:
   - Immunology
   - Hematology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.x4pharma.com/news-releases/news-release-details/x4-pharmaceuticals-announces-fda-approval-xolremditm-mavorixafor

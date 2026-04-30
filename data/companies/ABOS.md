@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Neurology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.acumenpharm.com/news-releases/news-release-details/acumen-pharmaceuticals-completes-enrollment-altitude-ad-phase-2/

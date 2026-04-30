@@ -30,7 +30,6 @@ mcap: 800000                             # 백만 USD, 정수, >= 100
 modality: Small Molecule                 # 아래 enum 중 하나
 areas: [Obesity/Metabolic, Oncology]     # 배열, 1개 이상
 nextCatalyst: 2026-04-10                 # YYYY-MM-DD | YYYY-H1/H2 | YYYY-Q1~Q4 | null
-recommendation: Core Holding             # enum: Core Holding | Worth Monitoring | Speculative | Avoid
 verified: 2026-04-25                     # YYYY-MM-DD, 마지막 사실확인일
 sources:                                 # URL 배열, 1개 이상
   - https://www.lilly.com/news/...
@@ -56,8 +55,8 @@ sources:                                 # URL 배열, 1개 이상
 
 > 변경 이력: spec 003 §6 결정에 따라 14종으로 확장 (Diagnostic·Tool/Platform·Biologic·Protein/Enzyme 추가). `siRNA`(단독)는 `RNA/siRNA`로 정규화 권장 (별도 데이터 정리 작업).
 
-**Recommendation enum 변경 이력 (2026-04-28):**
-- 원안 3종(`Core Holding`/`Worth Monitoring`/`Speculative`)에 `Avoid` 추가. 회피 종목도 추적 의도가 있음 (재진입 타이밍 모니터링).
+**Recommendation 필드 제거 (2026-04-30):**
+- 원안 3종(`Core Holding`/`Worth Monitoring`/`Speculative`)에 `Avoid` 추가했었음 → 공개 배포 결정에 따라 견해성 등급 필드 자체를 폐기. 데이터·검증·UI 모든 곳에서 제거됨.
 
 **nextCatalyst 형식 (2026-04-28 완화):**
 - 원안: `YYYY-MM-DD` 또는 `null`만.

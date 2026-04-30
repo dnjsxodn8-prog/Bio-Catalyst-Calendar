@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Immunology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://www.tizianalifesciences.com/tiziana-life-sciences-doses-first-patient-in-phase-2-alzheimers-clinical-trial/

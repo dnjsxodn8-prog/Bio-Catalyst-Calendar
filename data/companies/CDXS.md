@@ -6,7 +6,6 @@ modality: Tool/Platform
 areas:
   - Other
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/03/11/3254133/0/en/Codexis-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results.html

@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.camp4tx.com/news-releases/news-release-details/camp4-therapeutics-announces-dosing-first-participant-phase-1

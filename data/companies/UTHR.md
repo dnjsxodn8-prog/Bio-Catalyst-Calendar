@@ -7,7 +7,6 @@ areas:
   - Cardiology
   - Rare Disease
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.unither.com/press-releases/2026/03-30-2026-120037465

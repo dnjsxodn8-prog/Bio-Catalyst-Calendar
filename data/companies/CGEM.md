@@ -8,7 +8,6 @@ areas:
   - Hematology
   - Immunology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/03/10/3252628/0/en/Cullinan-Therapeutics-Provides-Corporate-Update-and-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html

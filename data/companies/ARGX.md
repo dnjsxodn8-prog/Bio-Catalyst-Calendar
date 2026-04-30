@@ -9,7 +9,6 @@ areas:
   - Hematology
   - Neurology
 nextCatalyst: 2026-05-10
-recommendation: Core Holding
 verified: 2026-04-27
 sources:
   - https://argenx.com/news/2026/press-release-3245199

@@ -9,7 +9,6 @@ areas:
   - Cardiovascular
   - Immunology
 nextCatalyst: 2026-10-17
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investor.viatris.com/news-releases/news-release-details/viatris-reports-fourth-quarter-and-full-year-2025-financial/

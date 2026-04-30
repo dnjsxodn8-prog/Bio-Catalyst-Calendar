@@ -8,7 +8,6 @@ areas:
   - Respiratory
   - Immunology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.apogeetherapeutics.com/news-releases/news-release-details/apogee-therapeutics-announces-positive-phase-2-part-52-week-data

@@ -6,7 +6,6 @@ modality: RNA/siRNA
 areas:
   - Infectious Disease
 nextCatalyst: 2026-07-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.arbutusbio.com/news-releases/news-release-details/arbutus-reports-fourth-quarter-and-year-end-2025-financial

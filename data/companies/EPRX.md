@@ -7,7 +7,6 @@ areas:
   - Gastrointestinal
   - Inflammatory
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.eupraxia.ca/news/eupraxia-pharmaceuticals-reports-2024-year-end-results-and-provides-corporate-update

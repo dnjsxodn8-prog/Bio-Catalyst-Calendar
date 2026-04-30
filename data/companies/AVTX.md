@@ -7,7 +7,6 @@ areas:
   - Immunology
   - Dermatology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.avalotx.com/news-events-presentations/press-releases/detail/218/avalo-therapeutics-reports-2025-financial-results-and-recent-business-updates

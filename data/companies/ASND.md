@@ -6,7 +6,6 @@ modality: Protein/Enzyme
 areas:
   - Rare Disease
 nextCatalyst: 2026-02-28
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.ascendispharma.com/news-releases/news-release-details/ascendis-pharma-reports-fourth-quarter-and-full-year-2025

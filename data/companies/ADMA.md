@@ -8,7 +8,6 @@ areas:
   - Infectious Disease
   - Rare Disease
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/02/25/3245009/33130/en/ADMA-Biologics-Reports-Record-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update.html

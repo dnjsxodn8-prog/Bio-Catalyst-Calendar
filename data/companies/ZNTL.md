@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.zentalis.com/news-releases/news-release-details/zentalis-pharmaceuticals-reports-full-year-2025-financial

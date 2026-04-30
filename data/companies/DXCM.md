@@ -6,7 +6,6 @@ modality: Diagnostic
 areas:
   - Obesity/Metabolic
 nextCatalyst: 2026-06-30
-recommendation: Core Holding
 verified: 2026-04-27
 sources:
   - https://investor.dexcom.com/news-releases

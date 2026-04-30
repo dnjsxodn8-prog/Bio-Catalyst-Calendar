@@ -7,7 +7,6 @@ areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.cabalettabio.com/news-media/press-releases/detail/140/cabaletta-bio-announces-2026-strategic-priorities

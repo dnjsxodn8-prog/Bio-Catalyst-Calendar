@@ -7,7 +7,6 @@ areas:
   - Endocrinology
   - Rare Disease
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://xerispharma.com/news-releases/news-release-details/xeris-biopharma-announces-positive-topline-phase-2-clinical-data

@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.blackdiamondtherapeutics.com/news-releases/news-release-details/black-diamond-therapeutics-announces-initial-phase-2-data

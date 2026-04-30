@@ -7,7 +7,6 @@ areas:
   - Diagnostic
   - Oncology
 nextCatalyst: 2026-02-25
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.investor.agilent.com/news-and-events/news/news-details/2025/Agilent-Reports-Fourth-Quarter-Fiscal-Year-2025-Financial-Results/

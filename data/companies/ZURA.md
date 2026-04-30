@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Immunology
 nextCatalyst: 2026-10-01
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.zurabio.com/news-releases/news-release-details/zura-bio-launches-global-phase-2-tibusure-study-evaluate

@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.alxoncology.com/news-releases/news-release-details/alx-oncology-presents-positive-updated-data-aspen-06-phase-2

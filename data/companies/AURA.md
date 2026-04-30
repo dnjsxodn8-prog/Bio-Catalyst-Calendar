@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Ophthalmology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.aurabiosciences.com/news-releases/news-release-details/aura-biosciences-announces-first-patient-dosed-global-phase-3

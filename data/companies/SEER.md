@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Neuroscience
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.seer.bio/news-releases/news-release-details/leading-scientists-demonstrate-how-seers-proteograph-product/

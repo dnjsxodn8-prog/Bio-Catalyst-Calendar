@@ -8,7 +8,6 @@ areas:
   - Immunology
   - Respiratory
 nextCatalyst: 2026-07-01
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.ligand.com/news-and-events/press-releases/news-details/2026/Ligand-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx

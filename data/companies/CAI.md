@@ -6,7 +6,6 @@ modality: Diagnostic
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.carislifesciences.com/about/news-and-media/caris-life-sciences-reports-fourth-quarter-and-full-year-2025-financial-results-and-provides-2026-outlook/

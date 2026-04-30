@@ -7,7 +7,6 @@ areas:
   - Infectious Disease
   - Respiratory
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.prnewswire.com/news-releases/armata-pharmaceuticals-announces-fourth-quarter-and-full-year-2025-financial-results-302725089.html

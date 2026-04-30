@@ -7,7 +7,6 @@ areas:
   - Autoimmune
   - Neurology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.zenasbio.com/news-releases/news-release-details/zenas-biopharma-announces-positive-results-phase-3-indigo

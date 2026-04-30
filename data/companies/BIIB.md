@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-04-03
-recommendation: Worth Monitoring
 verified: 2026-04-29
 sources:
   - https://www.biogen.com/pipeline

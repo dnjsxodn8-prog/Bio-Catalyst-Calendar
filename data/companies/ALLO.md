@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Immunology
 nextCatalyst: 2027-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.allogene.com/news-releases/news-release-details/allogene-therapeutics-positions-2026-program-defining-year/

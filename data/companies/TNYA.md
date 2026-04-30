@@ -6,7 +6,6 @@ modality: Gene Therapy
 areas:
   - Cardiovascular
 nextCatalyst: 2026-05-15
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.tenayatherapeutics.com/news-releases/news-release-details/tenaya-therapeutics-announces-2026-strategic-priorities-and

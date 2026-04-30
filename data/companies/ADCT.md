@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.adctherapeutics.com/2026-03-10-ADC-Therapeutics-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Operational-Update

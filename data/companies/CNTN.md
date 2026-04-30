@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Other
 nextCatalyst: null
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CNTN&type=10-K&dateb=&owner=include&count=40

@@ -6,7 +6,6 @@ modality: ADC
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.sutrobio.com/news-events/news-releases/detail/209/sutro-biopharma-announces-strategic-portfolio-review-resulting-in-the-prioritization-of-its-next-generation-adc-pipeline

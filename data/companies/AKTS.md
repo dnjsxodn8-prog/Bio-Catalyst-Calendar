@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Oncology
 nextCatalyst: 2026-06-01
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://medcitynews.com/2026/01/aktis-oncology-ipo-miniprotein-radiopharmaceutical-cancer-radiation-akts/

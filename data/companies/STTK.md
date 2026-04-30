@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Immunology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/03/05/3249960/0/en/Shattuck-Labs-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Recent-Business-Highlights.html

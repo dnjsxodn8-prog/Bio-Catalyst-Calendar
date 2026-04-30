@@ -7,7 +7,6 @@ areas:
   - Hematology
   - Oncology
 nextCatalyst: 2026-12-23
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-to-Acquire-Arcellx-to-Maximize-Long-Term-Potential-of-Anito-cel/default.aspx

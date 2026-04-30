@@ -7,7 +7,6 @@ areas:
   - Cardiovascular
   - Neurology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.lexpharma.com/news-releases/news-release-details/lexicon-pharmaceuticals-provides-business-and-pipeline-update-0

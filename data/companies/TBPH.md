@@ -7,7 +7,6 @@ areas:
   - Respiratory
   - Neuroscience
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.theravance.com/news-releases/news-release-details/theravance-biopharma-reports-phase-3-cypress-study-did-not-meet

@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://www.cellectis.com/en/press/cellectis-reports-fourth-quarter-and-full-year-2024-financial-results/

@@ -7,7 +7,6 @@ areas:
   - Oncology
   - AI/Data Platform
 nextCatalyst: 2026-05-01
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.stocktitan.net/news/TEM/tempus-announces-preliminary-fourth-quarter-and-full-year-2025-tig8t3pgxfbo.html

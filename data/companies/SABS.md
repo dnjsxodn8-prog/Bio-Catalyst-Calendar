@@ -7,7 +7,6 @@ areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2027-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/03/09/3252356/0/en/sab-bio-reports-full-year-2025-financial-results-and-business-highlights.html

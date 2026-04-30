@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: null
-recommendation: Avoid
 verified: 2026-04-27
 sources:
   - https://www.relmada.com/for-investors/news/detail/307/relmada-therapeutics-to-discontinue-the-reliance-ii-and-relight-phase-3-studies-of-rel-1017

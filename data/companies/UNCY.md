@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Nephrology
 nextCatalyst: 2026-06-29
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.unicycive.com/news/detail/117/unicycive-therapeutics-announces-fda-acceptance-of

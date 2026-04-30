@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Obesity/Metabolic
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.aardvarktherapeutics.com/news-releases/news-release-details/aardvark-therapeutics-announces-voluntary-pause-phase-3-hero

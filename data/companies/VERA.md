@@ -7,7 +7,6 @@ areas:
   - Nephrology
   - Immunology
 nextCatalyst: 2026-07-07
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-positive-origin-phase-3-data/

@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Infectious Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://valneva.com/research-development/lyme-disease/

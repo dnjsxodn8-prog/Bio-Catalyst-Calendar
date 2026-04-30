@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Hematology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.editasmedicine.com/news-releases

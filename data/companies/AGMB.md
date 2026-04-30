@@ -7,7 +7,6 @@ areas:
   - Gastrointestinal
   - Respiratory
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/04/23/3280465/0/en/Agomab-Reports-Full-Year-2025-Financial-Results-and-Confirms-2026-Outlook.html

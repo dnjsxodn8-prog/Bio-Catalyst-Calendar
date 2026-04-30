@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Ophthalmology
 nextCatalyst: 2025-10-01
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.lenz-tx.com/news-events/press-releases/detail/39/lenz-therapeutics-announces-us-fda-approval-of-vizz-for-the-treatment-of-presbyopia

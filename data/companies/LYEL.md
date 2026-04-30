@@ -6,7 +6,6 @@ modality: Cell Therapy
 areas:
   - Oncology
 nextCatalyst: 2026-06-01
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.lyell.com/news-releases/news-release-details/lyell-immunopharma-reports-dose-dependent-clinical-activity

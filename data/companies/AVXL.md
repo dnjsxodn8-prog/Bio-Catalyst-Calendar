@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/01/06/3213494/29248/en/Anavex-Life-Sciences-Receives-FDA-Feedback-on-Alzheimer-s-Disease-Program.html

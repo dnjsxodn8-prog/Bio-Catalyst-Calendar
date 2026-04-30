@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Immunology
 nextCatalyst: 2026-12-31
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://www.imm.bio/pipeline/

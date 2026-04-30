@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Neurology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2025/10/21/3170630/0/en/Alector-Announces-Topline-Results-from-Latozinemab-Phase-3-Trial-in-Individuals-with-Frontotemporal-Dementia-Due-to-a-GRN-Mutation-and-Provides-Business-Update.html

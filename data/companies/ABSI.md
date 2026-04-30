@@ -8,7 +8,6 @@ areas:
   - Dermatology
   - Oncology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2025/03/18/3044972/0/en/Absci-Reports-Business-Updates-and-Fourth-Quarter-and-Full-Year-2024-Financial-and-Operating-Results.html

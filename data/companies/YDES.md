@@ -8,7 +8,6 @@ areas:
   - Ophthalmology
   - Diagnostics
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/01/05/3212819/0/en/YD-Bio-Limited-Announces-Major-Milestones-and-Unveils-Robust-2026-Clinical-and-Commercial-Roadmap.html

@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.neonctechnologies.com/pipeline

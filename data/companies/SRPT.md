@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investorrelations.sarepta.com/news-releases/news-release-details/sarepta-therapeutics-announces-commercial-launch-elevidys-japan

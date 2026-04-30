@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Neurology
 nextCatalyst: 2026-09-30
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://www.immuneering.com/pipeline

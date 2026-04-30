@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Other
 nextCatalyst: 2026-07-23
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.thermofisher.com/investors/news-events/news/news-details/2026/Thermo-Fisher-Scientific-Reports-First-Quarter-2026-Results/default.aspx

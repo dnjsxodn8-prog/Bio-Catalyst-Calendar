@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Gastrointestinal
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.mazetx.com/news-releases/news-release-details/maze-therapeutics-reports-third-quarter-2025-financial-results

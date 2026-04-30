@@ -7,7 +7,6 @@ areas:
   - Orthopedics
   - Burns
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://www.globenewswire.com/news-release/2026/02/26/3245488/0/en/Vericel-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html

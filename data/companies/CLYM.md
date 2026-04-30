@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-12-31
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://ir.climbbio.com/news-releases/news-release-details/climb-bio-formerly-eliem-therapeutics-reports-fourth-quarter

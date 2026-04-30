@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://cgen.com/investors-and-media/press-releases/news-details/2026/Compugen-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx

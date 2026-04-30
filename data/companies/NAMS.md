@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Cardiovascular
 nextCatalyst: 2026-Q3
-recommendation: Core Holding
 verified: 2026-04-27
 sources:
   - https://ir.newamsterdampharma.com/

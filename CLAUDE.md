@@ -67,7 +67,7 @@ specs/                      ← 기능별 요구사항 문서 (번호 순)
 
 1. 종목 1개 = `data/companies/{TICKER}.md` 1파일. 절대 코드에 종목 정보 인라인 X.
 2. 모든 종목 파일은 frontmatter(YAML)에 다음 필드 필수:
-   - `ticker, company, mcap, modality, areas, recommendation, sources, verified`
+   - `ticker, company, mcap, modality, areas, sources, verified`
 3. `mcap`은 백만 단위 정수. **100 미만이면 추가 거부** (요구사항 4번).
 4. `sources`는 URL 배열. 비어있으면 검증 실패. (요구사항 3번)
 5. `verified`는 마지막 사실확인 날짜 YYYY-MM-DD. 90일 지나면 stale 경고.

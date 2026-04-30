@@ -6,7 +6,6 @@ modality: Gene Therapy
 areas:
   - Rare Disease
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.sangamo.com/news-releases/news-release-details/sangamo-therapeutics-initiates-rolling-submission-bla-us-fda-st

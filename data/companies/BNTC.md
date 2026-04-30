@@ -6,7 +6,6 @@ modality: Gene Therapy
 areas:
   - Rare Disease
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.benitec.com/for-investors/news-events/press-releases/detail/144/benitec-biopharma-announces-positive-interim-phase-1b2a-results-for-high-dose-bb-301-and-continued-durable-improvements-for-low-dose-bb-301-treatment-at-the-2026-muscular-dystrophy-association-clinical-scientific-conference

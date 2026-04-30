@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-11-14
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx

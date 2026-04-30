@@ -7,7 +7,6 @@ areas:
   - Ophthalmology
   - Rare Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2025/12/01/3196793/0/en/New-Hope-for-People-Living-with-a-Disease-Once-Deemed-Untreatable-Belite-Bio-Announces-Positive-Topline-Results-from-the-Pivotal-Global-Phase-3-DRAGON-Trial-of-Tinlarebant-in-Adole.html

@@ -8,7 +8,6 @@ areas:
   - Hematology
   - Immunology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/02/05/3233418/0/en/Adaptive-Biotechnologies-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html

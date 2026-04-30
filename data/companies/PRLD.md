@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://www.preludetx.com/pipeline

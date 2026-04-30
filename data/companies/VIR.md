@@ -7,7 +7,6 @@ areas:
   - Infectious Disease
   - Oncology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Provides-Updates-on-Chronic-Hepatitis-Delta-and-Oncology-Programs-and-Upcoming-2026-Clinical-Milestones/default.aspx

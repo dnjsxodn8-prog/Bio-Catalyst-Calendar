@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Respiratory
 nextCatalyst: 2026-11-22
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx

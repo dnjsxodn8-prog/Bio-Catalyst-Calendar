@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Cardiovascular
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.theglobeandmail.com/investing/markets/stocks/TENX/pressreleases/36694645/tenax-therapeutics-advances-phase-3-study-on-levosimendan-for-ph-hfpef/

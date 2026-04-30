@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Infectious Disease
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://investors.vaxart.com/news-releases/news-release-details/vaxart-publishes-positive-complete-data-phase-2b-challenge-study

@@ -8,7 +8,6 @@ areas:
   - Oncology
   - Ophthalmology
 nextCatalyst: 2026-H1
-recommendation: Core Holding
 verified: 2026-04-27
 sources:
   - https://investor.regeneron.com/news-releases

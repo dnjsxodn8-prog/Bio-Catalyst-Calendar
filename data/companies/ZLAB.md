@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-06-01
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.zailaboratory.com/news-releases/news-release-details/zai-lab-announces-updated-phase-1-data-zocilurtatug-pelitecan/

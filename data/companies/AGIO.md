@@ -7,7 +7,6 @@ areas:
   - Hematology
   - Rare Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.agios.com/news-releases/news-release-details/agios-reports-fourth-quarter-and-full-year-2025-financial

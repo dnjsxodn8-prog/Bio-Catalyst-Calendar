@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Other
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ca.finance.yahoo.com/news/revvity-inc-rvty-q4-2025-190109704.html

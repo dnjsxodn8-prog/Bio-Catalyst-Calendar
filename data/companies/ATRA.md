@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-01-10
-recommendation: Speculative
 verified: 2026-04-27
 sources: []
 ---

@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-05
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.arvinas.com/news-releases/news-release-details/arvinas-and-pfizer-announce-positive-topline-results-phase-3

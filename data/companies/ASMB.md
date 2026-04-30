@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Infectious Disease
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.assemblybio.com/news-releases/news-release-details/assembly-biosciences-reports-year-end-2025-financial-results-and

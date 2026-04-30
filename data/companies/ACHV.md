@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Other
 nextCatalyst: 2026-06-20
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://achievelifesciences.com/achieve-announces-fda-acceptance-of-cytisinicline-nda/

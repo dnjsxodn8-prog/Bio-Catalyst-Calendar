@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Other
 nextCatalyst: null
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.fortrea.com/press-releases

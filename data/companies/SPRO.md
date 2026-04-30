@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Infectious Disease
 nextCatalyst: 2026-06-18
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-releases/2025/12/19/3208446/0/en/Spero-Announces-NDA-Resubmission-of-Tebipenem-HBr-by-GSK-to-the-FDA-for-the-Treatment-of-Complicated-Urinary-Tract-Infections-Including-Pyelonephritis.html

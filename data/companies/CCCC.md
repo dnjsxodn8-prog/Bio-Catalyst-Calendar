@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.c4therapeutics.com/news-releases/news-release-details/c4-therapeutics-announces-2025-milestones-across-clinical

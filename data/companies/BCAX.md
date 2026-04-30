@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2027-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2025/02/11/3024582/0/en/Bicara-Therapeutics-Announces-First-Patients-Enrolled-in-FORTIFI-HN01-a-Pivotal-Phase-2-3-Clinical-Trial-of-Ficerafusp-Alfa-in-1L-Recurrent-Metastatic-Head-and-Neck-Squamous-Cell-C.html

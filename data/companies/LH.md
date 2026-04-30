@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Other
 nextCatalyst: 2026-04-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.labcorp.com/news-releases/news-release-details/labcorp-announces-2025-fourth-quarter-and-full-year-results

@@ -6,7 +6,6 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.arrivent.com/news-releases/news-release-details/arrivents-topline-pivotal-phase-3-furvent-data-firmonertinib

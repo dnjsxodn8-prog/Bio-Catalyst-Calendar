@@ -8,7 +8,6 @@ areas:
   - Oncology
   - Neurology
 nextCatalyst: 2026-12-31
-recommendation: Core Holding
 verified: 2026-04-27
 sources:
   - https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results

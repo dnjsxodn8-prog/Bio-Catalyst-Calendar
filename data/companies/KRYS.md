@@ -8,7 +8,6 @@ areas:
   - Dermatology
   - Respiratory
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.krystalbio.com/

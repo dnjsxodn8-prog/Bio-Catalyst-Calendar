@@ -6,7 +6,6 @@ modality: Other
 areas:
   - Neuroscience
 nextCatalyst: 2026-07-01
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.voyagertherapeutics.com/news-releases/news-release-details/voyager-reports-positive-topline-data-single-ascending-dose-sad

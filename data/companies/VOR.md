@@ -6,7 +6,6 @@ modality: Biologic
 areas:
   - Immunology/Autoimmune
 nextCatalyst: 2027-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.vorbio.com/news-releases/news-release-details/vor-bio-enters-exclusive-global-license-agreement-remegen-late

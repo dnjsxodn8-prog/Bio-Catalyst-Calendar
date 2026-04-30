@@ -23,11 +23,10 @@ const MODALITY_ENUM = new Set([
   'Gene Therapy', 'Cell Therapy', 'ADC', 'Bispecific',
   'Biologic', 'Protein/Enzyme', 'Tool/Platform', 'Diagnostic', 'Other',
 ]);
-const RECOMMENDATION_ENUM = new Set(['Core Holding', 'Worth Monitoring', 'Speculative', 'Avoid']);
 const CATALYST_TYPE_ENUM = new Set(['PDUFA', 'Conference', 'Clinical Readout', 'Earnings', 'Regulatory']);
 const CONFERENCE_TIER_ENUM = new Set(['Tier 1', 'Tier 2', 'Tier 3']);
 
-const COMPANY_REQUIRED_FM = ['ticker', 'company', 'mcap', 'modality', 'areas', 'recommendation', 'verified'];
+const COMPANY_REQUIRED_FM = ['ticker', 'company', 'mcap', 'modality', 'areas', 'verified'];
 const STANDARD_HEADINGS = ['카탈리스트', '회사 개요', '매출', '플랫폼', '적응증', '파트너', '매출 구조', '자체 판매', '상업화 제품', '메모'];
 
 const STALE_VERIFIED_DAYS = 90;
@@ -125,11 +124,6 @@ async function verifyCompanies(issues, summary) {
     // modality
     if (fm.modality && !MODALITY_ENUM.has(fm.modality)) {
       issues.err(loc, `modality enum 위반: "${fm.modality}"`);
-    }
-
-    // recommendation
-    if (fm.recommendation && !RECOMMENDATION_ENUM.has(fm.recommendation)) {
-      issues.err(loc, `recommendation enum 위반: "${fm.recommendation}"`);
     }
 
     // areas

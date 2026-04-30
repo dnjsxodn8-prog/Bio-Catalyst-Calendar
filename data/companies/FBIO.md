@@ -8,7 +8,6 @@ areas:
   - Rare Disease
   - Dermatology
 nextCatalyst: 2026-09-30
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://ir.fortressbiotech.com/press-releases

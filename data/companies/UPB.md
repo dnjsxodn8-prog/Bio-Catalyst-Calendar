@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Respiratory/Immunology
 nextCatalyst: 2027-03-31
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://upstreambio.com/science/

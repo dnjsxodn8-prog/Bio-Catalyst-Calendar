@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Rare Disease
 nextCatalyst: 2026-12-31
-recommendation: Avoid
 verified: 2026-04-27
 sources:
   - https://ir.rezolutebio.com/news/detail/368/rezolute-announces-phase-3-sunrize-study-results-in-congenital-hyperinsulinism

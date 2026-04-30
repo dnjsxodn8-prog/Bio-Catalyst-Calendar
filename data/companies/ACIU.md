@@ -6,7 +6,6 @@ modality: Biologic
 areas:
   - Neurology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.acimmune.com/news-releases/news-release-details/ac-immune-sharpens-pipeline-focus-operational-efficiencies

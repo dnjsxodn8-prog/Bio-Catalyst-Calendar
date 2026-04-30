@@ -7,7 +7,6 @@ areas:
   - Immunology
   - Oncology
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/03/10/3253311/0/en/artiva-biotherapeutics-reports-full-year-2025-financial-results-and-recent-business-highlights.html

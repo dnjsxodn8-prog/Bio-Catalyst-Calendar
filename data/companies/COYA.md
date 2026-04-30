@@ -7,7 +7,6 @@ areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-09-30
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://ir.coyatherapeutics.com/news-releases/news-release-details/coya-therapeutics-reports-fourth-quarter-and-full-year-2024

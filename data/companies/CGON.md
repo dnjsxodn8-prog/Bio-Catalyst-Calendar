@@ -6,7 +6,6 @@ modality: Cell Therapy
 areas:
   - Oncology
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.cgoncology.com/news-releases/news-release-details/cg-oncology-reports-third-quarter-2025-financial-results-and

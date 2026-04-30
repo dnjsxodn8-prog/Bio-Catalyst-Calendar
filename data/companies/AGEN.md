@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://investor.agenusbio.com/news/news-details/2025/Agenus-BOTBAL-Achieves-42-Two-Year-Survival-in-Refractory-MSS-CRC-Advances-Toward-Registration-with-FDA-Alignment-on-Phase-3/default.aspx

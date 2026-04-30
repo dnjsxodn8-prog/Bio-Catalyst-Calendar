@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/03/27/3263674/0/en/Autolus-Therapeutics-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Business-Updates.html

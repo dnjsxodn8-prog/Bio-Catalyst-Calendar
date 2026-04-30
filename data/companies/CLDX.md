@@ -8,7 +8,6 @@ areas:
   - Dermatology
   - Immunology
 nextCatalyst: 2026-09-30
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.celldex.com/news-releases/news-release-details/celldex-therapeutics-reports-fourth-quarter-and-full-year-2024

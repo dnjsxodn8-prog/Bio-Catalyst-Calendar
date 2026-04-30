@@ -7,7 +7,6 @@ areas:
   - Rare Disease
   - Respiratory
 nextCatalyst: 2026-05-01
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://ir.insmed.com/

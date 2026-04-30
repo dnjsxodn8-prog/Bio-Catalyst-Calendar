@@ -7,7 +7,6 @@ areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-06-30
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://www.corbuspharma.com/pipeline

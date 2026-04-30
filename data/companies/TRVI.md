@@ -7,7 +7,6 @@ areas:
   - Pulmonology
   - Rare Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://ir.trevitherapeutics.com/2025-06-02-Trevi-Therapeutics-Announces-Positive-Topline-Results-from-the-Phase-2b-CORAL-Trial-of-Haduvio-in-Patients-with-Idiopathic-Pulmonary-Fibrosis-Chronic-Cough

@@ -7,7 +7,6 @@ areas:
   - Immunology
   - Dermatology
 nextCatalyst: 2026-06-30
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://connectbiopharmainc.com/news/connect-biopharma-reports-full-year-2024-financial-results

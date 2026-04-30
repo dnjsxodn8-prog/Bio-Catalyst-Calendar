@@ -8,7 +8,6 @@ areas:
   - Liver Disease
   - Rare Disease
 nextCatalyst: 2026-06-30
-recommendation: Worth Monitoring
 verified: 2026-04-28
 sources:
   - https://vikingtherapeutics.com/pipeline/overview/

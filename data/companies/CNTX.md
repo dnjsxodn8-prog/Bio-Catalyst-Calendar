@@ -6,7 +6,6 @@ modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-09-30
-recommendation: Speculative
 verified: 2026-04-27
 sources:
   - https://ir.contexttherapeutics.com/news-releases/news-release-details/context-therapeutics-reports-fourth-quarter-and-full-year-2024

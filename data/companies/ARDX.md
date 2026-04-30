@@ -7,7 +7,6 @@ areas:
   - Gastrointestinal
   - Cardiovascular
 nextCatalyst: 2026-12-31
-recommendation: Worth Monitoring
 verified: 2026-04-27
 sources:
   - https://www.globenewswire.com/news-release/2026/02/19/3241512/0/en/Ardelyx-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update.html
