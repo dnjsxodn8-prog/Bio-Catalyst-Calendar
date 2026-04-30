@@ -144,11 +144,11 @@ function Hero({ company, priceCache }) {
         </div>
       </div>
 
-      {company.body?.['카탈리스트'] && (
+      {company.body?.['회사 개요'] && (
         <div className="flex items-center gap-2 mb-3.5 flex-wrap">
           <span className="text-xs text-ink-3 inline-flex items-center gap-1.5">
             <Beaker className="w-[13px] h-[13px]" strokeWidth={1.6} />
-            <span className="text-ink-2 font-semibold">{company.body['카탈리스트']}</span>
+            <span className="text-ink-2 font-semibold">{company.body['회사 개요']}</span>
           </span>
         </div>
       )}
