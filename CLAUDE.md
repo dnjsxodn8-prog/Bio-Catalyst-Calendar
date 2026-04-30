@@ -1,9 +1,11 @@
 # Bio Catalyst Calendar
 
 미국 biotech ($100M+) 및 Big Pharma의 임상 카탈리스트를 추적하는 개인용 대시보드.
-React + Vite, **로컬 전용 (`npm run dev`)**. GitHub Private은 백업·이력 용도. 사용자는 1명(나).
+React + Vite. 로컬 개발 (`npm run dev`) + 공개 배포 (<https://biotechcatalystcalendar.vercel.app/>). GitHub `main` push → Vercel 자동 빌드 (`/deploy` 스킬). 사용자는 1명(나, write 권한자) + 외부 read-only 방문자.
 
 > 2026-04-28 결정: Vercel Private 배포(이전 Phase 7) 폐기. 노트북에서만 사용. 자세한 배경은 spec 005 §0 참조.
+>
+> 2026-04-30 결정: spec 008로 "로컬 전용" 정책 재폐기. <https://biotechcatalystcalendar.vercel.app/> 공개 배포. recommendation 필드 제거 + robots.txt(22 봇) + meta noindex. 자세한 내용은 specs/008-deploy.md 참조.
 
 ---
 
@@ -133,18 +135,20 @@ specs/                      ← 기능별 요구사항 문서 (번호 순)
 - `verify-data` — 최근 추가/수정 종목의 사실관계 교차검증 (mcap 재확인, sources alive, 본문 sanity check). 코드 검증(`npm run verify-data`) 통과 후 사실 layer만. 자동 수정 X (`/verify-data`)
 - `update-prices` — 30일 주가 갱신 (Yahoo Finance) (`/update-prices`)
 - `export-naver` — 7일 임박 카탈리스트를 네이버 블로그용 단일 HTML로 export. 브라우저에서 열어 전체선택→복사→SmartEditor paste (`/export-naver`, spec 006)
+- `deploy` — **로컬 변경 → GitHub push → Vercel 자동 빌드** 한 번에. 데이터/코드 수정 후 사이트(https://biotechcatalystcalendar.vercel.app/) 반영. 호출 자체가 commit/push 명시 동의로 간주 (`/deploy`)
 - `import-telegram` — (보류, spec 005 §2 — 필요 시 재개)
 - `import-naver` — (보류, spec 005 §3 — 필요 시 재개. spec 006 `/export-naver` 와는 방향 반대 — 헷갈리지 말 것)
 
-스킬 호출 후 결과는 항상 사용자에게 요약해서 보여줄 것. 자동 커밋 금지.
+스킬 호출 후 결과는 항상 사용자에게 요약해서 보여줄 것. 자동 커밋 금지 (예외: `/deploy` 스킬은 호출 자체가 명시 동의로 간주).
 
 ---
 
 ## 운용
 
-- **로컬 전용** (2026-04-28 결정). 노트북에서 `npm run dev` → `http://localhost:5173/`.
-- GitHub Private push는 백업·이력 용도. 자동 배포 X.
-- Vercel·모바일 접속·PWA 모두 폐기. 필요해지면 별도 spec.
+- **로컬 개발**: 노트북에서 `npm run dev` → `http://localhost:5179/` (port 고정 — spec 008 워크트리 충돌 방지).
+- **공개 사이트**: <https://biotechcatalystcalendar.vercel.app/>. GitHub `main` push 시 Vercel이 자동 빌드 (1~2분). 호스트 Vercel Hobby (무료, 100GB/월).
+- **반영 흐름**: 로컬 수정 → `/deploy` 스킬 호출 → check + commit + push + Vercel 빌드 검증까지 한 번에.
+- **모바일 접속·PWA**: 폐기 (spec 005 §0). 필요해지면 별도 spec.
 
 ---
 
@@ -154,6 +158,6 @@ specs/                      ← 기능별 요구사항 문서 (번호 순)
 - ❌ Public Repo로 push (개인 메모·견해 노출)
 - ❌ 출처 없는 데이터 추가 ("정보 미입력"으로 둘 것)
 - ❌ mcap < $100M 종목 추가
-- ❌ 사용자 확인 없이 자동 commit/push
+- ❌ 사용자 확인 없이 자동 commit/push (예외: `/deploy` 스킬은 호출 자체가 명시 동의)
 - ❌ 한 세션에서 너무 많은 일 하기 (컨텍스트 폭발)
 - ❌ pre-commit hook 우회 (`git commit --no-verify`, `-n`). 훅이 실패하면 원인 진단·수정 후 재커밋. 우회는 `npm run check` 전체를 무력화함.

@@ -19,6 +19,9 @@ data/imports/naver-export-*.html
 src/data.generated.json
 data/_excluded.md
 
+# Claude Code per-session worktrees (sandbox dirs)
+.claude/worktrees/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
