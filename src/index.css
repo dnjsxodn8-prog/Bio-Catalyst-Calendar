@@ -392,4 +392,23 @@ body.light header {
     border-radius: 18px;
     box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.7);
   }
+
+  /* 모바일 (<lg)에서는 풀스크린 모달 — bottom-sheet 대신 단순 풀스크린 */
+  @media (max-width: 1023.98px) {
+    .modal-backdrop {
+      align-items: stretch;
+      justify-content: stretch;
+    }
+    .modal {
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      height: 100%;
+      border-radius: 0;
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-bottom: 0;
+    }
+  }
 }
