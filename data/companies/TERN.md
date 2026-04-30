@@ -23,7 +23,7 @@ sources:
 - **Merck 인수 종료 예정** (2Q 2026) — $53/주, 총 equity value ~$6.7B
 
 ## 회사 개요
-California 기반 임상 단계 종양학 회사. 핵심 자산은 TERN-701(allosteric BCR-ABL1 inhibitor, CML). TERN-601(oral GLP-1RA, 비만) Phase 2에서 기준 미달로 개발 중단 결정(2025.10). 2026년 3월 Merck가 $6.7B($53/주)에 인수 합의 발표. 인수 완료 시 TERN은 Merck 헤마톨로지 파이프라인으로 편입. Orphan Drug Designation (2024.3), Fast Track Designation (Q4 2025), Breakthrough Therapy Designation (2026.4.27) 보유.
+Allosteric BCR-ABL1 억제제 TERN-701 단일 자산으로 2L+ CML 시장을 겨냥하며 2026년 3월 Merck가 $6.7B($53/주)에 인수 합의한 임상 단계 종양학사. 2Q 2026 인수 종료 전 CARDINAL Phase 2 확장 코호트 데이터 업데이트(2H 2026)와 FDA Breakthrough Therapy Designation(2026-04-27) 획득이 asciminib 실패 환자 대상 최우선 적응증 진입을 뒷받침한다.
 
 ## 매출
 없음 (임상 단계). 현금·유가증권 ~$1.0B (2025년 말, 보조 공모 후). R&D 비용 ~$20M/분기.
@@ -48,8 +48,7 @@ Oncology (CML — 만성기 Ph+ CML, 2선 이상)
 없음 (파이프라인 단계)
 
 ## 임상 디자인
-**CARDINAL 시험 (TERN-701, CML)**
-- **NCT**: NCT06163430
+**CARDINAL 시험 (TERN-701, CML)- **NCT**: NCT06163430
 - **Phase**: Phase 1/2 (global, multicenter, open-label)
 - **디자인**: 2파트 — Part 1 dose escalation (160/320/400/500 mg QD), Part 2 randomized dose expansion (320mg vs 500mg QD, 최대 40명/arm), Part 2m mutation cohort (500mg QD, ~20명, T315I 포함)
 - **N**: Part 2 최대 80명 (2arm × 40명) + mutation cohort 20명
@@ -61,8 +60,7 @@ Oncology (CML — 만성기 Ph+ CML, 2선 이상)
 - **Mutation cohort 추가**: 2026.1
 
 ## 타겟 질환
-**만성 골수성 백혈병 (CML, Chronic Myeloid Leukemia)**
-- Philadelphia 염색체 t(9;22) 전좌로 BCR::ABL1 융합 유전자 생성 → 구성적으로 활성화된 ABL1 티로신 키나아제 → Ras/MAPK, PI3K/AKT, JAK/STAT, NF-κB 등 다중 경로 활성화 → 조혈 세포 과다 증식 및 apoptosis 억제
+**만성 골수성 백혈병 (CML, Chronic Myeloid Leukemia)- Philadelphia 염색체 t(9;22) 전좌로 BCR::ABL1 융합 유전자 생성 → 구성적으로 활성화된 ABL1 티로신 키나아제 → Ras/MAPK, PI3K/AKT, JAK/STAT, NF-κB 등 다중 경로 활성화 → 조혈 세포 과다 증식 및 apoptosis 억제
 - 미국 연간 신규 발생 ~9,600명(2024), 유병자 ~150,000명(2025, TKI 치료로 장기 생존자 급증)
 - 85% 이상이 만성기(chronic phase)로 진단
 - 2선 이상 TKI 실패 환자는 치료 옵션 제한적 (T315I 등 내성 변이 발생 시 더욱 제한)
@@ -74,16 +72,13 @@ Oncology (CML — 만성기 Ph+ CML, 2선 이상)
 **미충족 수요**: T315I 포함 복합 내성 변이 환자, 다중 TKI 실패 후 옵션 부재
 
 ## 사전 공개 임상
-**CARDINAL · NCT06163430 · Phase 1/2**
-- **2024.12 (ASH 2024) — Positive**: 32명 efficacy-evaluable 환자 중 75%(24/32)가 24주 내 >MMR 달성. 다중 TKI(asciminib, ponatinib) 실패 환자 포함 67%에서 MMR 달성. 안전성: 주요 AE는 경도, 혈압 변화 최소, lipase 상승 낮음.
+**CARDINAL · NCT06163430 · Phase 1/2- **2024.12 (ASH 2024) — Positive**: 32명 efficacy-evaluable 환자 중 75%(24/32)가 24주 내 >MMR 달성. 다중 TKI(asciminib, ponatinib) 실패 환자 포함 67%에서 MMR 달성. 안전성: 주요 AE는 경도, 혈압 변화 최소, lipase 상승 낮음.
 - **2026.4.27 — Breakthrough Therapy Designation 획득**: T315I 변이 없이 2개 이상 TKI 실패한 Ph+ CP-CML 성인 환자 대상.
 
-**TERN-601 (Obesity) Phase 2 — Discontinued**
-- 2025.10 topline 12주 데이터: 최대 placebo-adjusted 체중 감소 4.6%, 차별화 기준 미달. 2건 DILI 신호(500mg arm). 개발 중단 결정.
+**TERN-601 (Obesity) Phase 2 — Discontinued- 2025.10 topline 12주 데이터: 최대 placebo-adjusted 체중 감소 4.6%, 차별화 기준 미달. 2건 DILI 신호(500mg arm). 개발 중단 결정.
 
 ## Modality
-**TERN-701**
-Oral once-daily small molecule allosteric BCR::ABL1 inhibitor (STAMP: Specifically Targeting the ABL Myristoyl Pocket)
+**TERN-701Oral once-daily small molecule allosteric BCR::ABL1 inhibitor (STAMP: Specifically Targeting the ABL Myristoyl Pocket)
 - 제형: 경구 정제
 - 투여: QD, 28일 주기 연속 투여
 - 용량: 320mg 또는 500mg (dose expansion 기준)

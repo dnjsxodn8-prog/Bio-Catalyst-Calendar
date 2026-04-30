@@ -26,11 +26,8 @@ sources:
 - **Zoci 뇌전이·NEC 추가 임상 데이터** — 2026년 내 복수 발표 예정
 
 ## 회사 개요
-홍콩·상하이 기반 바이오파마. 2014년 설립, NASDAQ(ZLAB) 및 HKEX 이중 상장. 중국 중심 상업화 역량에 글로벌 자체 파이프라인(ZL-1310)을 접목한 이중 엔진 전략.
-
-현재 중국에서 VYVGART(efgartigimod, gMG/CIDP), ZEJULA(niraparib, 난소암), AUGTYRO(repotrectinib, ROS1/NTRK NSCLC), NUZYRA(omadacycline) 4개 제품 판매 중. 핵심 가치 드라이버는 자체 보유 글로벌 자산 Zocilurtatug Pelitecan(ZL-1310, DLL3 ADC): 2L+ SCLC에서 2L ORR 68% 기록, Phase 3 진입.
-
-2026년은 KarXT 출시 + Zoci Phase 3 진행 + 복수 readout으로 전환의 해. 수익성 전환 목표 2026~2027년.
+중국 4개 제품 판매(VYVGART·ZEJULA·AUGTYRO·NUZYRA, FY2025 $460M) 위에 자체 글로벌 ADC 자산 Zocilurtatug Pelitecan(DLL3 ADC, 2L SCLC ORR 68%)을 얹은 이중 엔진 구조의 홍콩·상하이 기반 바이오파마.
+2026 Q2 KarXT 중국 출시 및 동년 복수 Zoci 데이터 발표가 수익성 전환의 분기점으로, DLL3 ADC Phase 3 결과(2027~2028 예상)가 장기 밸류에이션의 핵심이다.
 
 ## 매출
 - FY2024: $399M (+50% YoY)
@@ -99,8 +96,7 @@ Zocilurtatug Pelitecan은 자체 개발·글로벌 권리 보유 — 미국·글
 
 ## 타겟 질환
 
-**광범위 병기 소세포폐암 (Extensive-Stage SCLC)**
-
+**광범위 병기 소세포폐암 (Extensive-Stage SCLC)
 - **환자 수**: 미국 연간 신규 SCLC ~30,000명, 그 중 2/3(~20,000명)이 진단 시 ES-SCLC. 글로벌 연간 ~250,000명.
 - **병리**: 신경내분비 분화 암종. 흡연 연관 강함. 빠른 배가 시간, 조기 전이(뇌 포함) 특징. 1차 치료(플라티넘+에토포시드+면역관문억제제) 반응 후 거의 모두 재발. 중앙 OS 12~13개월(1L). DLL3(Delta-like Ligand 3)는 SCLC 종양세포 표면에 80~95% 과발현, 정상조직 발현 낮아 ADC 타겟으로 이상적.
 
@@ -112,18 +108,15 @@ Zocilurtatug Pelitecan은 자체 개발·글로벌 권리 보유 — 미국·글
 
 ## 사전 공개 임상
 
-- **Phase 1 ASCO 2025 (NCT06179069) · 2025.06**
-  결과: 74명 전체 ORR 37% (데이터컷 2025.04.01), 2L 서브셋(n=53) ORR 68%(1.6 mg/kg n=19), DCR 93%, 뇌전이 ORR 80%(방사선 미치료). 안전성 양호, G3+ TEAE 29%.
+- **Phase 1 ASCO 2025 (NCT06179069) · 2025.06  결과: 74명 전체 ORR 37% (데이터컷 2025.04.01), 2L 서브셋(n=53) ORR 68%(1.6 mg/kg n=19), DCR 93%, 뇌전이 ORR 80%(방사선 미치료). 안전성 양호, G3+ TEAE 29%.
 
-- **Phase 1 AACR-NCI-EORTC 2025 (업데이트) · 2025.10**
-  결과: 115명 등록, 102명 평가, 전체 ORR 47%(confirmed) + 3%(unconfirmed), 중앙 DoR 6.1개월, 중앙 PFS 5.4개월. Phase 3 개시 발표 동시.
+- **Phase 1 AACR-NCI-EORTC 2025 (업데이트) · 2025.10  결과: 115명 등록, 102명 평가, 전체 ORR 47%(confirmed) + 3%(unconfirmed), 중앙 DoR 6.1개월, 중앙 PFS 5.4개월. Phase 3 개시 발표 동시.
 
 - **FDA Fast Track Designation**: ES-SCLC 적응증 획득
 - **FDA Orphan Drug Designation**: SCLC 적응증 획득
 
 ## Modality
-**Zocilurtatug Pelitecan (ZL-1310)**
-ADC (Antibody-Drug Conjugate) — TMALIN® 플랫폼
+**Zocilurtatug Pelitecan (ZL-1310)ADC (Antibody-Drug Conjugate) — TMALIN® 플랫폼
 
 - 항체: 인간화 항DLL3 단일클론항체
 - 링커: 클리버블 링커 (종양 미세환경 반응성)

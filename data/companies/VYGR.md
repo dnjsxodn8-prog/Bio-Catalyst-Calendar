@@ -24,7 +24,7 @@ sources:
 - **NBIB-'223 임상 개시 (FA, Neurocrine)** — H2 2026
 
 ## 회사 개요
-2013년 설립, 매사추세츠주 Lexington 소재. 신경계 질환 AAV 유전자치료 및 항체 치료제 개발사. 핵심 자산: (1) TRACER™ AAV 캡시드 발굴 플랫폼 — 혈뇌장벽(BBB) 투과 AAV 캡시드를 RNA 기반 선별로 빠르게 생성하는 독점 기술, (2) VY7523 anti-tau IgG4 항체 — Phase 1 MAD 완전 등록 완료, (3) VY1706 tau silencing 유전자치료 — IND-Enabling 단계. Neurocrine·Novartis·Alexion과 복수의 TRACER 캡시드 협업 계약으로 비희석 자본 확보. 2025년 FY 매출 $40.4M, 현금 $202M (2028년까지 런웨이).
+BBB 투과 AAV 캡시드 발굴 플랫폼(TRACER)과 C-말단 anti-tau 항체(VY7523)를 보유한 신경계 유전자치료·항체 개발사(Neurocrine·Novartis 협업, 현금 $202M). H2 2026 VY7523 tau PET 이미징 데이터가 핵심 카탈리스트로, 기존 tau 항체 전멸 이력 속 성공 시 알츠하이머 임상 전략 전환의 분기점이 될 수 있다.
 
 ## 매출
 - FY2025 협업 매출: $40.4M (2024 $80.0M 대비 감소, 2024에 Neurocrine·Novartis 계약 인식 집중)
@@ -64,23 +64,20 @@ sources:
 없음
 
 ## 임상 디자인
-**VY7523 MAD Trial (핵심 카탈리스트)**
-- 디자인: Randomized, double-blind, placebo-controlled, multiple ascending dose
+**VY7523 MAD Trial (핵심 카탈리스트)- 디자인: Randomized, double-blind, placebo-controlled, multiple ascending dose
 - Arms: 복수 용량 코호트 vs. placebo
 - N: 52명 (초기 알츠하이머 — MCI 또는 경도 AD)
 - Phase: Phase 1 (MAD, 완전 등록 완료 Q4 2025)
 - Primary endpoint: 안전성·내약성
 - Secondary endpoint: tau PET 이미징 (병리 tau 확산 억제), 면역원성, 약동학
 
-**VY7523 SAD Trial (완료)**
-- 디자인: Randomized, double-blind, placebo-controlled, single ascending dose
+**VY7523 SAD Trial (완료)- 디자인: Randomized, double-blind, placebo-controlled, single ascending dose
 - N: 48명 (건강한 성인 자원자)
 - Phase: Phase 1 (SAD)
 - 결과: 양성 (2025-03-03 발표) — 6개 용량 코호트 모두 SAE·중증 AE·주입 반응 없음. 혈중 농도 용량 비례 증가, CSF/혈청 비율 0.3% (승인 AD mAb와 유사)
 
 ## 타겟 질환
-**알츠하이머병 (Alzheimer's Disease)**
-
+**알츠하이머병 (Alzheimer's Disease)
 - 환자 수: 미국 약 680만 명 (65세 이상), 전 세계 약 5,500만 명
 - 병리: Amyloid-β 플라크 + 병리 tau 신경섬유매듭(NFT) 복합 축적. Tau 병리는 인지 저하 속도와 직접 상관. Braak stage에 따라 내후각피질(entorhinal cortex)에서 시작해 해마·신피질로 확산. Tau의 과인산화·응집·시냅스 간 전파(prion-like seeding)가 신경 소실 유발.
 - 현재 치료 접근: Amyloid 제거(lecanemab, donanemab)는 승인됐으나 tau 표적 치료제는 아직 없음.
@@ -92,19 +89,15 @@ sources:
 - **VY7523의 차별점**: C-말단 에피토프 → 기존 N-말단 항체 실패 교훈 반영. 전임상 tau 확산 억제 ~70%.
 
 ## 사전 공개 임상
-- **VY7523 SAD (Phase 1a) · 2024-05 개시 · 결과 발표 2025-03-03**
-  결과: Positive — 48명 건강인, 6 용량 코호트, SAE 없음, 용량 비례 PK, CSF/혈청 비율 0.3%. 반감기 ~11-12일 (NHP). MAD 진입 확정.
-- **VY7523 MAD (Phase 1b) · 2025 개시 · 현재 진행 중**
-  상태: 등록 완료 (Q4 2025, N=52). Tau PET 데이터 H2 2026 예상.
+- **VY7523 SAD (Phase 1a) · 2024-05 개시 · 결과 발표 2025-03-03  결과: Positive — 48명 건강인, 6 용량 코호트, SAE 없음, 용량 비례 PK, CSF/혈청 비율 0.3%. 반감기 ~11-12일 (NHP). MAD 진입 확정.
+- **VY7523 MAD (Phase 1b) · 2025 개시 · 현재 진행 중  상태: 등록 완료 (Q4 2025, N=52). Tau PET 데이터 H2 2026 예상.
 
 ## Modality
-**VY7523 (주력 임상 프로그램)**
-Recombinant, humanized IgG4 monoclonal antibody (type: Biologic — Monoclonal Antibody)
+**VY7523 (주력 임상 프로그램)Recombinant, humanized IgG4 monoclonal antibody (type: Biologic — Monoclonal Antibody)
 
 IV 투여. C-말단 tau 에피토프 표적. IgG4 서브클래스 (Fc effector function 최소화). 전임상에서 마우스 버전이 tau seeding·확산 ~70% 억제.
 
-**VY1706 (차기 파이프라인)**
-AAV 유전자치료 — tau silencing (siRNA 또는 miRNA). TRACER 캡시드 탑재 IV 투여. IND Q2 2026 제출 목표, 첫 투약 H2 2026.
+**VY1706 (차기 파이프라인)AAV 유전자치료 — tau silencing (siRNA 또는 miRNA). TRACER 캡시드 탑재 IV 투여. IND Q2 2026 제출 목표, 첫 투약 H2 2026.
 
 ## MOA
 - 타겟: Tau 단백질 C-말단 에피토프 (VY7523); MAPT 유전자 발현 (VY1706)

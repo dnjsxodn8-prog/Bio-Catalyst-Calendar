@@ -24,9 +24,8 @@ sources:
 - **ECLIPSE 2/3 topline** — 2027 Q1 예상.
 
 ## 회사 개요
-임상 단계 바이오텍. HBsAg 중화항체(tobevibart) + siRNA(elebsiran) 조합으로 B형·D형 간염 기능적 완치를 목표로 하는 ECLIPSE Phase 3 프로그램을 핵심 파이프라인으로 보유. 동시에 종양 미세환경 특이적으로 활성화되는 PRO-XTEN® 이중 마스킹 T세포 인게이저 플랫폼(VIR-5818 HER2, VIR-5500 PSMA)으로 고형암 진출 중.
-
-2026년 2월 Astellas와 VIR-5500 글로벌 공동개발 계약 체결($335M 선불·근기 결제). 2025년 12월 Norgine에 유럽·호주·뉴질랜드 HDV 상업 라이선스(최대 €550M).
+항체+siRNA 병용(tobevibart+elebsiran)으로 만성 D형 간염 기능적 완치를 목표로 하는 ECLIPSE Phase 3와 PRO-XTEN® 마스킹 TCE 플랫폼(VIR-5500 PSMA, VIR-5818 HER2)을 보유한 임상 단계 바이오텍.
+2026 Q4 ECLIPSE 1 탑라인이 핵심 카탈리스트로, 성공 시 미국 최초 HDV 치료제 NDA 경로를 여는 동시에 Astellas 딜($335M)로 확보된 cash runway 2028 Q2까지 재정 안정성이 뒷받침된다.
 
 ## 매출
 - FY2025 매출: $68.6M (주로 라이선스 수익 — Norgine $64.3M Q4 일시 인식)
@@ -64,16 +63,14 @@ sources:
 없음 (임상 단계). VIR-2218(elebsiran) + VIR-3434(tobevibart) 조합은 HDV에서 규제 승인 전.
 
 ## 임상 디자인
-**ECLIPSE 1 (핵심 Phase 3 HDV)**
-- 디자인: 무작위배정, 활성 대조, 이중맹검(deferred treatment 대조)
+**ECLIPSE 1 (핵심 Phase 3 HDV)- 디자인: 무작위배정, 활성 대조, 이중맹검(deferred treatment 대조)
 - Arms: tobevibart 200mg IV Q4W + elebsiran 200mg SC Q4W vs. deferred treatment
 - N: 120명 (등록 완료)
 - Phase: Phase 3
 - Primary endpoint: Week 48 HDV RNA TND + ALT 정상화 복합 (vs. deferred treatment 군 대조 시점)
 - Secondary endpoint: HDV RNA TND, ALT 정상화, 조직학적 개선, 장기 관해율
 
-**VIR-5500 Phase 1 (mCRPC)**
-- 디자인: Open-label, 용량 단계적 확장
+**VIR-5500 Phase 1 (mCRPC)- 디자인: Open-label, 용량 단계적 확장
 - Arms: 단독요법 + 안드로겐 수용체 경로 억제제(ARPI) 병용
 - N: 58명 (단독요법 업데이트 2026 기준)
 - Phase: Phase 1 (용량확장 코호트 2026 Q2 개시)
@@ -81,8 +78,7 @@ sources:
 - Secondary endpoint: PSA50/PSA90 반응률, ORR (RECIST)
 
 ## 타겟 질환
-**만성 D형 간염 (Chronic Hepatitis Delta, CHD)**
-
+**만성 D형 간염 (Chronic Hepatitis Delta, CHD)
 - 환자 수: 전 세계 약 4,800만~6,000만 명 HDV 감염 추정. HBV 감염자의 약 13%에서 HDV 중복감염.
 - 병리: HDV는 HBV 표면항원(HBsAg)을 외피로 이용하는 위성 바이러스. HBV+HDV 중복감염은 단독 HBV 감염 대비 간경변 위험 OR 3.84배. 평균 5년 내 간경변, 10년 내 간세포암 진행. 치료 옵션 극히 제한 (bulevirtide만 유럽 승인).
 
@@ -92,42 +88,32 @@ sources:
 - **Tobevibart + elebsiran**: 승인 전. SOLSTICE Phase 2에서 Week 96 기준 88% HDV RNA TND (vs. bulevirtide 간접 비교 우세).
 
 ## 사전 공개 임상
-- **SOLSTICE (HDV Phase 2) · NCT04889456 · Phase 2**
-  결과 (NEJM 2025 게재): Week 96 tobevibart+elebsiran 병용군 88%(21/24) HDV RNA TND. Week 48 66%. 단독 tobevibart군 Week 96 46%. 등급 3 이상 치료 관련 이상반응 없음. (2025.11 AASLD + NEJM 동시 발표)
+- **SOLSTICE (HDV Phase 2) · NCT04889456 · Phase 2  결과 (NEJM 2025 게재): Week 96 tobevibart+elebsiran 병용군 88%(21/24) HDV RNA TND. Week 48 66%. 단독 tobevibart군 Week 96 46%. 등급 3 이상 치료 관련 이상반응 없음. (2025.11 AASLD + NEJM 동시 발표)
 
-- **MARCH (HBV Phase 2) · NCT04856085 · Phase 2**
-  결과 (2025.5 EASL): HBsAg<1,000 IU/mL 참여자 중 24주 추적 시 변형 기능적 완치율 11%(tobevibart+elebsiran) ~ 23%(PEG-IFNα 병용). Phase 3 진행은 글로벌 파트너 확보 전 보류 결정.
+- **MARCH (HBV Phase 2) · NCT04856085 · Phase 2  결과 (2025.5 EASL): HBsAg<1,000 IU/mL 참여자 중 24주 추적 시 변형 기능적 완치율 11%(tobevibart+elebsiran) ~ 23%(PEG-IFNα 병용). Phase 3 진행은 글로벌 파트너 확보 전 보류 결정.
 
-- **VIR-5500 Phase 1 (mCRPC) · NCT 미공개 · Phase 1**
-  결과 (2026.1): ≥3,000 µg/kg Q3W 코호트 기준 PSA50 82%, PSA90 53%, ORR 45%(5/11명, RECIST). DLT 없음.
+- **VIR-5500 Phase 1 (mCRPC) · NCT 미공개 · Phase 1  결과 (2026.1): ≥3,000 µg/kg Q3W 코호트 기준 PSA50 82%, PSA90 53%, ORR 45%(5/11명, RECIST). DLT 없음.
 
-- **VIR-5818 Phase 1 (HER2+ 고형암) · NCT05356741 · Phase 1**
-  결과 (2025.1): ≥400 µg/kg 코호트 50%(10/20명) 종양 축소. HER2+ 대장암 cPR 33%(2/6명). 등급 3 이상 CRS 없음. MTD 미도달.
+- **VIR-5818 Phase 1 (HER2+ 고형암) · NCT05356741 · Phase 1  결과 (2025.1): ≥400 µg/kg 코호트 50%(10/20명) 종양 축소. HER2+ 대장암 cPR 33%(2/6명). 등급 3 이상 CRS 없음. MTD 미도달.
 
 ## Modality
-**tobevibart (VIR-3434)**
-Engineered human IgG1 monoclonal antibody targeting HBsAg. GAALIE Fc variant (FcγR 활성화 강화) + Xencor Xtend™ (반감기 연장). 타입: 항체(mAb). IV 투여, 월 1회.
+**tobevibart (VIR-3434)Engineered human IgG1 monoclonal antibody targeting HBsAg. GAALIE Fc variant (FcγR 활성화 강화) + Xencor Xtend™ (반감기 연장). 타입: 항체(mAb). IV 투여, 월 1회.
 
-**elebsiran (VIR-2218)**
-GalNAc 접합 siRNA. HBV X ORF 내 고보존 서열 표적. 간세포 특이 전달, SC 투여, 월 1회.
+**elebsiran (VIR-2218)GalNAc 접합 siRNA. HBV X ORF 내 고보존 서열 표적. 간세포 특이 전달, SC 투여, 월 1회.
 
-**VIR-5500**
-PRO-XTEN® 이중 마스킹 PSMA×CD3 bispecific TCE. 타입: 항체 기반 bispecific. IV 투여.
+**VIR-5500PRO-XTEN® 이중 마스킹 PSMA×CD3 bispecific TCE. 타입: 항체 기반 bispecific. IV 투여.
 
-**VIR-5818**
-PRO-XTEN® 이중 마스킹 HER2×CD3 bispecific TCE. 타입: 항체 기반 bispecific. IV 투여.
+**VIR-5818PRO-XTEN® 이중 마스킹 HER2×CD3 bispecific TCE. 타입: 항체 기반 bispecific. IV 투여.
 
 ## MOA
-**tobevibart + elebsiran (HDV/HBV)**
-- 타겟: HBsAg (tobevibart), HBV X ORF mRNA (elebsiran)
+**tobevibart + elebsiran (HDV/HBV)- 타겟: HBsAg (tobevibart), HBV X ORF mRNA (elebsiran)
 - 기전:
   - Tobevibart: HBsAg의 antigenic loop(AGL) 결합 → HBV/HDV의 hepatocyte 진입 차단(바이러스 중화). GAALIE Fc → FcγR 활성화 수용체 친화도 상승, 억제수용체(FcγRIIb) 결합 감소 → HBsAg-항체 면역복합체 탐식세포 제거 촉진 + HBV 특이 T세포 활성화. Xtend™ → FcRn 친화도 증가로 반감기 연장.
   - Elebsiran: siRNA가 RISC에 로딩 → HBV X ORF RNA 분해 → HBsAg·HBeAg·HBcAg 등 바이러스 단백질 생산 억제, cccDNA 전사 간접 억제.
   - 병용: elebsiran의 HBsAg 감소 → tobevibart가 결합해야 할 항원 부하 감소 → 면역복합체 처리 능력 증가 + 면역 회복 시너지.
 - 병태생리: HDV는 HBsAg를 외피로 이용하므로 HBsAg 제거 = HDV 복제 봉쇄. HBV 내 X 단백질은 cccDNA 전사 촉진 인자 → siRNA로 억제 시 cccDNA 전사 2중 억제.
 
-**VIR-5500 / VIR-5818 (PRO-XTEN® TCE)**
-- 타겟: PSMA×CD3 (VIR-5500), HER2×CD3 (VIR-5818)
+**VIR-5500 / VIR-5818 (PRO-XTEN® TCE)- 타겟: PSMA×CD3 (VIR-5500), HER2×CD3 (VIR-5818)
 - 기전: PRO-XTEN® 마스킹 펩타이드가 CD3 결합 암 영역을 비활성 상태로 유지 → 종양 미세환경 내 단백질분해효소(tumor-specific protease)가 마스크 절단 → 로컬 TCE 활성화 → CD3를 통한 T세포 동원 + 종양 세포 사멸. 전신 CRS 위험 현저히 감소.
 - 병태생리: PSMA는 전립선암 세포 표면 고발현 (mCRPC 거의 100%). HER2는 유방암·위암·대장암 일부 과발현. 기존 비마스킹 TCE 대비 치료창 확장.
 

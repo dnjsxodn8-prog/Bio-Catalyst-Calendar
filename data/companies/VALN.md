@@ -22,7 +22,7 @@ sources:
 - **IXCHIQ 미국 철수** — 2025-08-22 FDA 라이선스 정지, 2026-01 BLA/IND 자발적 철회. 유럽·캐나다·브라질은 유지.
 
 ## 회사 개요
-오스트리아 빈 기반 전문 백신 회사. 예방 백신 개발·제조·상업화에 특화. 3개 자체 여행 백신(IXIARO, DUKORAL, IXCHIQ) 판매 중. 핵심 파이프라인은 Pfizer와 공동개발 중인 라임병 백신 LB6V(VLA15) — 현재 세계 유일 Phase 3 라임병 백신 후보. 유럽증권거래소(Euronext Paris) 및 NASDAQ 상장. 본사 비엔나, 제조는 스코틀랜드 리빙스턴.
+여행 백신(IXIARO·DUKORAL·IXCHIQ) 자체 상업화와 함께 Pfizer와 공동개발 중인 라임병 백신 LB6V(VLA15)를 핵심 파이프라인으로 보유한 오스트리아 전문 백신사. 2026년 Pfizer의 FDA BLA + EMA MAA 제출이 최대 카탈리스트로, 24년 공백 후 처음 Phase 3를 완주한 라임병 백신(VALOR 효능 73.2%)의 규제 수용 여부가 관전포인트다.
 
 ## 매출
 €157.9M (FY2025, 전년 €163.3M 대비 3.3% 감소). 제품별: IXIARO €98.4M (+4.6%), DUKORAL €31.9M (-1.2%), IXCHIQ €8.4M (전년 €3.7M). 총수익 €174.7M. FY2025 영업손실 €82.1M (전년 영업이익 €13.3M — 2024년 IXCHIQ PRV 매각 일회성 이익 영향).
@@ -57,8 +57,7 @@ sources:
 - **IXCHIQ** — 단일 접종 치쿤구니야 생백신. EU·캐나다·브라질 승인. 미국은 2025-08 FDA 라이선스 정지 후 2026-01 BLA 자발 철회.
 
 ## 임상 디자인
-**VALOR (Vaccine Against Lyme for Outdoor Recreationists) — LB6V(VLA15)**
-- 디자인: Randomized, observer-blind, placebo-controlled (saline placebo)
+**VALOR (Vaccine Against Lyme for Outdoor Recreationists) — LB6V(VLA15)- 디자인: Randomized, observer-blind, placebo-controlled (saline placebo)
 - Arms: LB6V 180 µg vs 위약 (1:1)
 - N: 9,437명 (5세 이상)
 - Phase: Phase 3
@@ -69,8 +68,7 @@ sources:
 - 지역: 미국·핀란드·독일·네덜란드·폴란드·스웨덴 최대 50개 기관
 
 ## 타겟 질환
-**라임병 (Lyme Borreliosis)**
-
+**라임병 (Lyme Borreliosis)
 북반구 최다 매개체 감염병. Ixodes 진드기가 Borrelia bacteria를 전파.
 
 - **환자 수**: 미국 연간 ~476,000명 진단·치료(CDC 추정). 유럽 연간 ~200,000건. 15개 미국 고위험 주(Connecticut, Delaware, Maine, Maryland, Massachusetts 등)가 전체 90%+.
@@ -83,16 +81,12 @@ sources:
 - **치료**: 경증~중등도 — Doxycycline 10~21일. 심한 신경계/심장 침범 — IV Ceftriaxone. 항생제 내성 문제는 없으나 후기 라임 치료는 불완전. LB6V(VLA15)는 최초 대규모 Phase 3를 통과한 라임병 백신 후보로 미충족 수요 큼.
 
 ## 사전 공개 임상
-- **VALOR Phase 3 (LB6V/VLA15) · NCT05477524 · Phase 3**
-  결과: Positive topline (2026-03-22) — 4차 접종 28일 후 기준 Efficacy 73.2% (95% CI 15.8~93.5). 4차 접종 1일 후 기준 74.8% (95% CI 21.7~93.9). 안전 우려 없음. 단, 예상보다 적은 라임병 케이스 발생으로 1차 사전 통계기준(95% CI 하한 >20) 미충족 → 2차 분석에서 충족. Pfizer 2026년 BLA/MAA 제출 계획.
-- **VLA15 Phase 2 (용량·스케줄 최적화) · Phase 2**
-  결과: Positive (Lancet Infectious Diseases 2024-09) — 180 µg + 0-2-6개월 스케줄이 최적. 6가 OspA 모든 serotype에 강한 항체 반응. 3상 용량/스케줄 확정 근거.
-- **VLA15 Phase 2 부스터 (18개월) · Phase 2**
-  결과: Positive (Lancet Infectious Diseases 2024-09) — 18개월 부스터 후 면역 반응 강화·유지 확인.
+- **VALOR Phase 3 (LB6V/VLA15) · NCT05477524 · Phase 3  결과: Positive topline (2026-03-22) — 4차 접종 28일 후 기준 Efficacy 73.2% (95% CI 15.8~93.5). 4차 접종 1일 후 기준 74.8% (95% CI 21.7~93.9). 안전 우려 없음. 단, 예상보다 적은 라임병 케이스 발생으로 1차 사전 통계기준(95% CI 하한 >20) 미충족 → 2차 분석에서 충족. Pfizer 2026년 BLA/MAA 제출 계획.
+- **VLA15 Phase 2 (용량·스케줄 최적화) · Phase 2  결과: Positive (Lancet Infectious Diseases 2024-09) — 180 µg + 0-2-6개월 스케줄이 최적. 6가 OspA 모든 serotype에 강한 항체 반응. 3상 용량/스케줄 확정 근거.
+- **VLA15 Phase 2 부스터 (18개월) · Phase 2  결과: Positive (Lancet Infectious Diseases 2024-09) — 18개월 부스터 후 면역 반응 강화·유지 확인.
 
 ## Modality
-**LB6V (PF-07307405, 구 VLA15)**
-6가 재조합 OspA 단백질 서브유닛 백신. 알루미늄 아쥬반트. 근육 주사.
+**LB6V (PF-07307405, 구 VLA15)6가 재조합 OspA 단백질 서브유닛 백신. 알루미늄 아쥬반트. 근육 주사.
 
 각 OspA serotype 1~6 표적 재조합 단백질을 단일 제제에 병합. 미국과 유럽 내 Borrelia 주요 병원성 serotype 망라. Phase 3에서 180 µg / 4회 접종(0-2-6-18개월).
 
