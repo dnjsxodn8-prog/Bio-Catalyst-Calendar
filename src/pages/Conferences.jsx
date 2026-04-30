@@ -1,13 +1,16 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { dDelta, fmtD, dClass, fmtDate } from '../utils/dDay';
 import { parseConferenceDates } from '../utils/format';
 
+const PAST_WINDOW_DAYS = 30;
+
 export default function Conferences({ data, query, onPick }) {
   const { conferences, catalysts } = data;
+  const [showOldPast, setShowOldPast] = useState(false);
 
-  const filtered = useMemo(() => {
+  const { filtered, hiddenOldCount } = useMemo(() => {
     const q = (query || '').trim().toLowerCase();
-    return conferences.filter((c) => {
+    const matched = conferences.filter((c) => {
       if (!q) return true;
       const blob = [c.id, c.name, c.location, c.notes, ...(c.areas || [])]
         .filter(Boolean)
@@ -15,26 +18,61 @@ export default function Conferences({ data, query, onPick }) {
         .toLowerCase();
       return blob.includes(q);
     });
-  }, [conferences, query]);
 
-  if (filtered.length === 0) {
-    return (
-      <div className="panel p-8 text-center text-ink-3 text-sm">
-        조건에 맞는 학회가 없습니다.
-      </div>
-    );
-  }
+    const annotated = matched.map((c) => {
+      const { end } = parseConferenceDates(c.dates);
+      const dEnd = end ? dDelta(end) : null;
+      return { c, dEnd };
+    });
+
+    const isOldPast = (a) => a.dEnd != null && a.dEnd < -PAST_WINDOW_DAYS;
+    const hidden = annotated.filter(isOldPast);
+    const visible = showOldPast ? annotated : annotated.filter((a) => !isOldPast(a));
+
+    return {
+      filtered: visible.map((a) => a.c),
+      hiddenOldCount: hidden.length,
+    };
+  }, [conferences, query, showOldPast]);
 
   return (
-    <div className="grid gap-4" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(420px, 1fr))' }}>
-      {filtered.map((conf) => (
-        <ConferenceCard
-          key={conf.id}
-          conf={conf}
-          catalysts={catalysts}
-          onPick={onPick}
-        />
-      ))}
+    <div className="flex flex-col gap-4">
+      <div className="panel px-4 py-3 flex items-center gap-2.5">
+        <span className="mono text-[10.5px] text-ink-3 tracking-[0.1em] uppercase">
+          {filtered.length} CONFERENCES
+        </span>
+        {hiddenOldCount > 0 && (
+          <button
+            onClick={() => setShowOldPast((s) => !s)}
+            className={[
+              'ml-auto h-[26px] px-2.5 rounded-md text-[11px] border transition-colors',
+              showOldPast
+                ? 'bg-panel-2 text-ink border-line-2'
+                : 'bg-transparent text-ink-3 border-line hover:text-ink hover:border-line-2',
+            ].join(' ')}
+            title={`${PAST_WINDOW_DAYS}일 이전 종료 학회 ${hiddenOldCount}개`}
+          >
+            {showOldPast ? `지난 ${PAST_WINDOW_DAYS}일+ 숨기기` : `+ 지난 ${PAST_WINDOW_DAYS}일+ ${hiddenOldCount}개`}
+          </button>
+        )}
+      </div>
+
+      {filtered.length === 0 ? (
+        <div className="panel p-8 text-center text-ink-3 text-sm">
+          조건에 맞는 학회가 없습니다.
+        </div>
+      ) : (
+        <div className="grid gap-4" style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(420px, 1fr))' }}>
+          {filtered.map((conf) => (
+            <ConferenceCard
+              key={conf.id}
+              conf={conf}
+              catalysts={catalysts}
+              onPick={onPick}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
