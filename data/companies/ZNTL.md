@@ -18,10 +18,10 @@ sources:
 # Zentalis Pharmaceuticals (ZNTL)
 
 ## 카탈리스트
-- **DENALI Part 2 Topline Data (2026 연말)** — Cyclin E1+ 백금 내성 난소암(PROC) 단독요법 ORR. accelerated approval 신청 근거 될 핵심 readout.
-- **TETON 결과 발표 (2026 상반기)** — 자궁 장액성 암(USC) Phase 2 단독요법. H1 2026 내 학술지 게재 또는 학회 발표 예정.
-- **ASPENOVA Phase 3 개시 (2026 상반기)** — PROC 대상 azenosertib vs. 표준화학요법 무작위 3상. full approval 전환 목표.
-- **ASCO 2026 (2026-06-01~05)** — MUIR paclitaxel 조합 Phase 1b 데이터 발표 (Abstract 5529).
+- DENALI Part 2 Topline Data (2026 연말) — Cyclin E1+ 백금 내성 난소암(PROC) 단독요법 ORR. accelerated approval 신청 근거 될 핵심 readout.
+- TETON 결과 발표 (2026 상반기) — 자궁 장액성 암(USC) Phase 2 단독요법. H1 2026 내 학술지 게재 또는 학회 발표 예정.
+- ASPENOVA Phase 3 개시 (2026 상반기) — PROC 대상 azenosertib vs. 표준화학요법 무작위 3상. full approval 전환 목표.
+- ASCO 2026 (2026-06-01~05) — MUIR paclitaxel 조합 Phase 1b 데이터 발표 (Abstract 5529).
 
 ## 회사 개요
 경구용 2세대 WEE1 억제제 azenosertib(ZN-c3) 단일 자산에 집중하는 종양학 바이오텍으로, Cyclin E1 IHC 바이오마커로 백금내성 난소암(PROC) 환자를 선별하는 biomarker-driven 전략을 구사(현금 $245.9M, runway 2027년 말). 2026년 연말 DENALI Part 2 topline ORR이 핵심 readout으로, accelerated approval 신청 근거가 될 first-in-class WEE1i 데이터가 관전포인트.
@@ -30,12 +30,12 @@ sources:
 수익 없음 (pre-revenue 임상 단계). R&D 비용 $107.3M (2025년), $167.8M (2024년). G&A $37.7M (2025년). 현금 $245.9M (2025.12.31 기준). Cash runway 2027년 말 이후.
 
 ## 플랫폼
-- **Small Molecule (경구)** — WEE1 kinase 억제제 단독, 간헐적 투여(5일 on/2일 off) 스케줄로 부작용 최소화
-- **Biomarker-driven 선별** — Cyclin E1 단백 과발현(IHC)을 예측 바이오마커로 환자 선별, CCNE1 유전자 증폭보다 넓은 적격 환자군 포괄
+- Small Molecule (경구) — WEE1 kinase 억제제 단독, 간헐적 투여(5일 on/2일 off) 스케줄로 부작용 최소화
+- Biomarker-driven 선별 — Cyclin E1 단백 과발현(IHC)을 예측 바이오마커로 환자 선별, CCNE1 유전자 증폭보다 넓은 적격 환자군 포괄
 - 조합 탐색: bevacizumab(유지요법), paclitaxel, carboplatin, PLD, gemcitabine, KRASG12C 억제제, ADC 병용 전임상/임상 중
 
 ## 적응증
-- Platinum-Resistant Ovarian Cancer (PROC) — **핵심 적응증**, Cyclin E1+ 선별
+- Platinum-Resistant Ovarian Cancer (PROC) — 핵심 적응증, Cyclin E1+ 선별
 - Uterine Serous Carcinoma (USC) — TETON Phase 2, 2026 H1 결과
 - 探索: 삼중음성유방암(TNBC), BRAF V600E 대장암(조합), 기타 고형암
 
@@ -52,7 +52,7 @@ sources:
 없음.
 
 ## 임상 디자인
-**DENALI Part 2 (핵심 pivotal — GOG-3066, NCT05128825)- 디자인: Open-label, multicenter, single-arm Phase 2; Part 2a(dose confirmation) → Part 2b(efficacy cohort) 2단계 구성
+DENALI Part 2 (핵심 pivotal — GOG-3066, NCT05128825)- 디자인: Open-label, multicenter, single-arm Phase 2; Part 2a(dose confirmation) → Part 2b(efficacy cohort) 2단계 구성
 - Arms: Azenosertib 400mg QD 5:2(5일 투여/2일 휴약) monotherapy
 - N: Part 2a ~60명(30명 × 2 dose level), Part 2b ~70명; 총 ~130명
 - Phase: Phase 2 (accelerated approval 근거 연구)
@@ -61,7 +61,7 @@ sources:
 - Secondary endpoint: DOR, PFS, OS, 안전성·내약성
 - Topline readout: 2026 연말 예정
 
-**TETON (ZN-c3-004, NCT04814108)- 디자인: Open-label, multicenter, single-arm Phase 2
+TETON (ZN-c3-004, NCT04814108)- 디자인: Open-label, multicenter, single-arm Phase 2
 - Arms: Azenosertib monotherapy
 - Population: 재발·지속성 자궁 장액성 암(USC) 성인 여성
 - Phase: Phase 2
@@ -70,7 +70,7 @@ sources:
 - 등록 완료(2025 Q3), 결과 2026 H1 발표 예정
 
 ## 타겟 질환
-**Platinum-Resistant Ovarian Cancer (PROC) — Cyclin E1 양성
+Platinum-Resistant Ovarian Cancer (PROC) — Cyclin E1 양성
 백금 기반 화학요법에 내성이 생긴 고등급 장액성 난소암. 표준 치료 후 통상 6개월 이내 재발.
 
 - 환자 수: 미국 신규 난소암 연간 ~19,000명. 전체 난소암의 약 25~30%가 platinum-resistant로 진행. Cyclin E1 양성은 PROC의 약 50%로 추정 (DENALI Part 1b 후향 분석 기준)
@@ -80,12 +80,12 @@ sources:
 PROC 현재 표준요법: pegylated liposomal doxorubicin(PLD), gemcitabine, paclitaxel, topotecan 등 단일제 화학요법. ORR 5~15%, 불량한 예후. Bevacizumab 조합 가능. PARP 억제제는 HR-proficient(CCNE1 증폭) 군에 비효과. 승인된 WEE1 억제제 없음(adavosertib 개발 중단). Azenosertib은 first-in-class WEE1 억제제 승인 후보.
 
 ## 사전 공개 임상
-- **DENALI Part 1b (NCT05128825) · Phase 2 single-arm  결과(SGO 2025, 업데이트): Cyclin E1+ PROC 43명 반응 평가 가능 환자 기준 ORR 34.9%, mDOR 6.3개월(95% CI, 2.7–NE), mPFS 4.1개월(95% CI, 2.8–6.8). 400mg QD 5:2가 pivotal dose로 선정(2026.4.9).
-- **MUIR Part 1 (ZN-c3-002, NCT04516447) · Phase 1b  결과(ASCO 2026 발표 예정): azenosertib + paclitaxel PROC 조합 안전성·활성. 조합성(combinability) 확인.
-- **TETON (NCT04814108) · Phase 2  현황: 등록 완료, 결과 미발표. 2026 H1 결과 예정.
+- DENALI Part 1b (NCT05128825) · Phase 2 single-arm  결과(SGO 2025, 업데이트): Cyclin E1+ PROC 43명 반응 평가 가능 환자 기준 ORR 34.9%, mDOR 6.3개월(95% CI, 2.7–NE), mPFS 4.1개월(95% CI, 2.8–6.8). 400mg QD 5:2가 pivotal dose로 선정(2026.4.9).
+- MUIR Part 1 (ZN-c3-002, NCT04516447) · Phase 1b  결과(ASCO 2026 발표 예정): azenosertib + paclitaxel PROC 조합 안전성·활성. 조합성(combinability) 확인.
+- TETON (NCT04814108) · Phase 2  현황: 등록 완료, 결과 미발표. 2026 H1 결과 예정.
 
 ## Modality
-**Azenosertib (ZN-c3, KP-2638)경구 소분자 WEE1 kinase 억제제. 2세대 WEE1 억제제(1세대 adavosertib 대비 선택성·내약성 개선). 400mg once daily 5일 on/2일 off 간헐 투여.
+Azenosertib (ZN-c3, KP-2638)경구 소분자 WEE1 kinase 억제제. 2세대 WEE1 억제제(1세대 adavosertib 대비 선택성·내약성 개선). 400mg once daily 5일 on/2일 off 간헐 투여.
 
 ## MOA
 - 타겟: WEE1 kinase (세포주기 G2-M 체크포인트 조절 인산화효소)

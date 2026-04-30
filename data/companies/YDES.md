@@ -21,18 +21,15 @@ sources:
 # YD Bio (YDES)
 
 ## 카탈리스트
-
-| 날짜 | 이벤트 | 중요도 |
-|------|--------|--------|
-| 2026 (예정) | LSC 엑소좀 건성안 — 임상용 세포 뱅크 구축 + FDA IND 제출 | 높음 |
-| 2026 (예정) | AMD — 전임상 효능·독성 연구 완료 + FDA IND 제출 | 높음 |
-| 2026 (예정) | OkaiDx 췌장암 — FDA Q-Submission (Breakthrough Device) 논의 | 중간 |
-| 2026 (예정) | SSMC 인수 완료 (ADCTA GBM Phase III 편입) | 높음 |
-| 2026 (예정) | EG BioMed 합병 완료 (MOU 기준) | 높음 |
-| 2026 (예정) | 대만 Shuang Ho Hospital 건성안 Exovisse 임상 등록 시작 | 중간 |
-| 2026 (예정) | AACR 2026 — 유방암·GI·간암 데이터 발표 | 중간 |
-| 2027 (예정) | LSC 엑소좀 건성안 Phase I (미국 FDA) 개시 | 높음 |
-| 2027 (예정) | LSC 엑소좀 AMD Phase I (미국 FDA, 첫 인체 임상) 개시 | 높음 |
+- 2026 LSC 엑소좀 건성안 — 임상용 세포 뱅크 구축 + FDA IND 제출
+- 2026 LSC 엑소좀 AMD — 전임상 효능·독성 연구 완료 + FDA IND 제출
+- 2026 SSMC 인수 완료 — ADCTA GBM Phase III 편입
+- 2026 EG BioMed 합병 완료 (MOU 기준)
+- 2026 OkaiDx 췌장암 — FDA Q-Submission (Breakthrough Device) 논의
+- 2026 대만 Shuang Ho Hospital 건성안 Exovisse 임상 등록 시작
+- 2026 AACR 2026 — 유방암·GI·간암 데이터 발표
+- 2027 LSC 엑소좀 건성안 Phase I (미국 FDA) 개시
+- 2027 LSC 엑소좀 AMD Phase I (미국 FDA, 첫 인체 임상) 개시
 
 ## 회사 개요
 대만 기반 SPAC 상장 바이오텍으로, cfDNA 메틸화 암 진단(OkaiDx)과 LSC 엑소좀 안과 치료제를 두 축으로 한다. 2026년 내 LSC 엑소좀 건성안·AMD IND 제출과 EG BioMed 합병 완료가 주요 마일스톤으로, 임상 데이터 없는 현재 단계에서 IND 제출이 사실상 최초의 규제 촉매다.

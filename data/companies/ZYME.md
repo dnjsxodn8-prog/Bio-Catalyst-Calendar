@@ -20,16 +20,13 @@ sources:
 # Zymeworks (ZYME)
 
 ## 카탈리스트
-
-| 날짜 | 이벤트 | 중요도 |
-|------|--------|--------|
-| 2026-08-25 | PDUFA — Ziihera (zanidatamab) 1L HER2+ GEA (Jazz sBLA, Priority Review) | ★★★ |
-| 2026 H2 | ZW191 Phase 1 Part 2a 결과 발표 (용량 최적화, 난소암) | ★★ |
-| 2026 H1 | ZW209 (DLL3 삼특이적 T세포 인게이저) IND 신청 예정 | ★ |
-| 2026 H2 | ZW251 (GPC3 ADC) Phase 1 진행 중 | ★ |
-| 2026-04-21 | ZW191 AACR 2026 Phase 1 데이터 발표 — 완료 (난소암 cORR 61%) | 완료 |
-| 2025-11-17 | HERIZON-GEA-01 Phase 3 긍정 결과 발표 — 완료 | 완료 |
-| 2024-11 | Ziihera FDA 가속승인 BTC 2L — 완료 | 완료 |
+- 2026-08-25 PDUFA — Ziihera (zanidatamab) 1L HER2+ GEA (Jazz sBLA, Priority Review) ★★★
+- 2026 H2 ZW191 Phase 1 Part 2a 결과 발표 — 용량 최적화, 난소암 ★★
+- 2026 H1 ZW209 (DLL3 삼특이적 T세포 인게이저) IND 신청 예정 ★
+- 2026 H2 ZW251 (GPC3 ADC) Phase 1 진행 중 ★
+- 2026-04-21 (완료) ZW191 AACR 2026 Phase 1 데이터 발표 — 난소암 cORR 61%
+- 2025-11-17 (완료) HERIZON-GEA-01 Phase 3 긍정 결과 발표
+- 2024-11 (완료) Ziihera FDA 가속승인 BTC 2L
 
 ## 회사 개요
 HER2 이중특이 항체 Ziihera(zanidatamab)로 BTC 2L 가속승인을 보유한 종양학 바이오텍으로, Jazz에 상업화를 위임하고 로열티·마일스톤을 수취하는 구조로 전환 중이다. 2026-08-25 PDUFA인 GEA 1L sBLA 승인이 핵심 촉매로, 성공 시 최대 $440M 마일스톤과 함께 Ziihera의 주요 시장 진입이 실현된다.
