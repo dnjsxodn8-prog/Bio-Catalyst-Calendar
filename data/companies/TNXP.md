@@ -27,9 +27,7 @@ sources:
 - **완료**: Tonmya(TNX-102 SL) FDA 승인 2025-08-15, 상업 출시 2025-11-17
 
 ## 회사 개요
-Tonix Pharmaceuticals는 뉴저지주 Chatham에 본사를 둔 임상 단계 바이오제약 회사로, 2011년 Seth Lederman, MD가 공동 창업해 CEO 겸 이사회 의장을 맡고 있다. 중추신경계(CNS) 장애, 면역학 질환, 감염병, 희귀 질환 분야의 신규 치료제 및 백신 개발에 집중한다. NASDAQ(TNXP) 상장은 2013년. 직원 수 약 81명.
-
-2025년 8월 핵심 자산 Tonmya(TNX-102 SL, 설하 사이클로벤자프린)가 FDA 승인을 받아 섬유근통 치료제로 출시됐으며, 이는 15년 이상 만에 처음으로 승인된 신규 섬유근통 치료제다. 2026년 3월 Nasdaq Global Select Market으로 업리스팅 완료.
+2025년 8월 15년 만의 신규 섬유근통 치료제 Tonmya(설하 사이클로벤자프린) FDA 승인·상업화에 성공한 CNS/면역 소분자 바이오파마(2025 매출 $13.1M, 현금 $207.6M). 2026년 6월말 TNX-102 SL 우울증(MDD) HORIZON Phase 2 개시·신장이식 거부 예방 TNX-1500 Phase 2 시작이 다음 카탈리스트로, Tonmya의 적응증 확장 가능성을 가늠하는 분기점.
 
 ## 매출
 - **2025 FY 총 순매출**: $13.1M (vs. 2024 $10.1M, +30%)
@@ -75,31 +73,26 @@ Tonix Pharmaceuticals는 뉴저지주 Chatham에 본사를 둔 임상 단계 바
 - **Tosymra(편두통)**: 미국 내 자체 판매. 2026년 1월 우선 처방 포지션 확보로 추가 매출 기대
 
 ## 상업화 제품
-- **Tonmya™ (cyclobenzaprine HCl 설하정, 2.8 mg/5.6 mg)**
-  - 적응증: 성인 섬유근통
+- **Tonmya™ (cyclobenzaprine HCl 설하정, 2.8 mg/5.6 mg)  - 적응증: 성인 섬유근통
   - FDA 승인일: 2025-08-15
   - 출시일: 2025-11-17
   - 시장 독점권: 2034년까지 (특허 연장 시 2044년까지 가능)
   - 특징: 15년 이상 만에 처음 승인된 신규 섬유근통 치료제 (4번째 FDA 승인 섬유근통 약물)
 
-- **Zembrace® SymTouch® (sumatriptan 3 mg 주사형)**
-  - 적응증: 성인 급성 편두통 (이기전 치료제)
+- **Zembrace® SymTouch® (sumatriptan 3 mg 주사형)  - 적응증: 성인 급성 편두통 (이기전 치료제)
 
-- **Tosymra® (sumatriptan 10 mg 비강 스프레이)**
-  - 적응증: 성인 급성 편두통
+- **Tosymra® (sumatriptan 10 mg 비강 스프레이)  - 적응증: 성인 급성 편두통
   - 2026년 1월부터 우선 처방 포지션 (약 1,600만 명 커버)
 
 ## 임상 디자인
-**RESILIENT (Tonmya Phase 3, 섬유근통)**
-- 디자인: 무작위배정, 이중맹검, 위약대조, 2군 병렬
+**RESILIENT (Tonmya Phase 3, 섬유근통)- 디자인: 무작위배정, 이중맹검, 위약대조, 2군 병렬
 - Arms: Tonmya vs. 위약
 - N: 457명 (33개 기관)
 - Phase: Phase 3
 - Primary endpoint: 14주 시점 일일 통증 점수(daily diary pain intensity score) 기저치 대비 변화
 - Secondary endpoint: 30% 이상 통증 호전 비율, 환자 전반적 인상 변화(PGIC), 수면 질
 
-**RELIEF (Tonmya Phase 3, 섬유근통)**
-- 디자인: 무작위배정, 이중맹검, 위약대조, 2군 병렬
+**RELIEF (Tonmya Phase 3, 섬유근통)- 디자인: 무작위배정, 이중맹검, 위약대조, 2군 병렬
 - Arms: Tonmya vs. 위약
 - N: 503명 (40개 기관)
 - Phase: Phase 3
@@ -107,17 +100,14 @@ Tonix Pharmaceuticals는 뉴저지주 Chatham에 본사를 둔 임상 단계 바
 - Secondary endpoint: 30% 이상 통증 호전 비율, 수면 장애, PGIC
 
 ## 타겟 질환
-**섬유근통(Fibromyalgia)**
-- 환자 수: 미국 약 1,000만 명 (전체 인구의 2~4%), 약 80%가 여성
+**섬유근통(Fibromyalgia)- 환자 수: 미국 약 1,000만 명 (전체 인구의 2~4%), 약 80%가 여성
 - 병리: 중추 감작(central sensitization)에 의한 만성 광범위 통증 + 비회복성 수면(non-restorative sleep) + 피로·인지 장애. 시상하부-뇌하수체-부신 축 이상, 세로토닌·노르에피네프린 경로 조절 이상이 핵심 기전으로 추정. 섬유근통 환자의 수면 3~4단계(서파수면, SWS) 침습이 통증 증폭의 핵심 요소
 
-**주요우울장애(MDD)**
-- 환자 수: 미국 약 2,100만 명 성인
+**주요우울장애(MDD)- 환자 수: 미국 약 2,100만 명 성인
 - 병리: 세로토닌·노르에피네프린 경로 이상, 수면 구조 붕괴와 연관. TNX-102 SL의 5-HT2A 차단이 항우울 효과 타겟
 
 ## 기존 치료제
-**섬유근통 FDA 승인 경쟁약**
-- **Duloxetine (Cymbalta, 릴리)**: SNRI, FDA 승인 2004. 통증 조절, 오남용 없으나 오심·불면 부작용
+**섬유근통 FDA 승인 경쟁약- **Duloxetine (Cymbalta, 릴리)**: SNRI, FDA 승인 2004. 통증 조절, 오남용 없으나 오심·불면 부작용
 - **Pregabalin (Lyrica, 화이자)**: Ca2+ 채널 α2δ 리간드, FDA 승인 2007. 어지러움·체중 증가 부작용
 - **Milnacipran (Savella, Allergan/AbbVie)**: SNRI, FDA 승인 2009. 혈압 상승·빈맥 부작용
 - **Tonmya(사이클로벤자프린 설하정)**: 2025 FDA 승인. 수면 타겟 기전이 차별화 포인트, 15년 만의 신규 승인
@@ -125,30 +115,22 @@ Tonix Pharmaceuticals는 뉴저지주 Chatham에 본사를 둔 임상 단계 바
 **기존 off-label 치료제**: 사이클로벤자프린 경구제(근이완제), 아미트립틸린(TCA), 트라마돌, SSRI 등
 
 ## 사전 공개 임상
-- **RESILIENT · NCT05273749 · Phase 3**
-  결과: 탑라인 데이터 2025-03 발표. 1차 평가지표 달성 — Tonmya군 통증 점수 평균 변화 −1.8 vs. 위약 −1.2 (p<0.001). 2차 평가지표 전항목 유의(p≤0.001). 이상반응: 구강 감각저하(23.4% vs. 0.4%) 등 국소 반응은 일시적·자기 제한적. FDA 승인 기반
+- **RESILIENT · NCT05273749 · Phase 3  결과: 탑라인 데이터 2025-03 발표. 1차 평가지표 달성 — Tonmya군 통증 점수 평균 변화 −1.8 vs. 위약 −1.2 (p<0.001). 2차 평가지표 전항목 유의(p≤0.001). 이상반응: 구강 감각저하(23.4% vs. 0.4%) 등 국소 반응은 일시적·자기 제한적. FDA 승인 기반
 
-- **RELIEF · NCT02634359 · Phase 3**
-  결과: 2023년 발표. 14주 시점 일일 통증 점수 유의하게 감소, ≥30% 통증 호전 비율 위약 대비 유의하게 높음. NDA 패키지에 포함
+- **RELIEF · NCT02634359 · Phase 3  결과: 2023년 발표. 14주 시점 일일 통증 점수 유의하게 감소, ≥30% 통증 호전 비율 위약 대비 유의하게 높음. NDA 패키지에 포함
 
-- **FLEX · Phase 3 (12개월 장기 안전성)**
-  결과: N=470. 12개월 지속 투여 시 통증 감소 및 수면 회복 효과 유지. 새로운 안전성 신호 없음
+- **FLEX · Phase 3 (12개월 장기 안전성)  결과: N=470. 12개월 지속 투여 시 통증 감소 및 수면 회복 효과 유지. 새로운 안전성 신호 없음
 
 ## Modality
-**Tonmya™ (cyclobenzaprine HCl 설하정)**
-TNX-102 SL. 사이클로벤자프린 염산염 2.8 mg/5.6 mg 설하정 (type: Small Molecule, Sublingual Tablet). 간 초회 통과 우회 제형으로 주요 대사물 norcyclobenzaprine 생성 억제. 취침 직전 복용 → 수면 중 최고 혈중 농도 도달.
+**Tonmya™ (cyclobenzaprine HCl 설하정)TNX-102 SL. 사이클로벤자프린 염산염 2.8 mg/5.6 mg 설하정 (type: Small Molecule, Sublingual Tablet). 간 초회 통과 우회 제형으로 주요 대사물 norcyclobenzaprine 생성 억제. 취침 직전 복용 → 수면 중 최고 혈중 농도 도달.
 
-**TNX-1500 (humanized anti-CD40L mAb)**
-Fc 변형 인간화 단클론항체 (type: Biologic, mAb). CD40L(CD154) 표적. 장기이식 거부 예방 및 자가면역질환 적용.
+**TNX-1500 (humanized anti-CD40L mAb)Fc 변형 인간화 단클론항체 (type: Biologic, mAb). CD40L(CD154) 표적. 장기이식 거부 예방 및 자가면역질환 적용.
 
-**TNX-4800 (anti-OspA mAb)**
-장시간 작용 인간 단클론항체 (type: Biologic, mAb). UMass Chan Medical School로부터 도입. 라임병 예방용.
+**TNX-4800 (anti-OspA mAb)장시간 작용 인간 단클론항체 (type: Biologic, mAb). UMass Chan Medical School로부터 도입. 라임병 예방용.
 
-**TNX-2900 (intranasal oxytocin + magnesium)**
-코로 투여하는 포텐시에이션된 옥시토신 (type: Peptide). Prader-Willi 증후군 치료 목적.
+**TNX-2900 (intranasal oxytocin + magnesium)코로 투여하는 포텐시에이션된 옥시토신 (type: Peptide). Prader-Willi 증후군 치료 목적.
 
-**TNX-801 (smallpox/mpox vaccine)**
-두창·원숭이두창 예방 백신 (type: Vaccine). 전임상 단계.
+**TNX-801 (smallpox/mpox vaccine)두창·원숭이두창 예방 백신 (type: Vaccine). 전임상 단계.
 
 ## MOA
 - 타겟: 5-HT2A 세로토닌 수용체, α1-아드레날린 수용체, H1-히스타민 수용체, M1-무스카린 아세틸콜린 수용체

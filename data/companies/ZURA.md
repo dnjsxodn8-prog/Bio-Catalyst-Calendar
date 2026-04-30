@@ -23,9 +23,7 @@ sources:
 - **TibuSURE topline (SSc) — H1 2027**: NCT06843239. mRSS primary endpoint (24주). 80명.
 
 ## 회사 개요
-임상 단계 면역학 전문 바이오텍. 2022년 영국 설립, JATT Acquisition Corp. SPAC 합병으로 NYSE 상장(ZURA). 리드 에셋 tibulizumab(ZB-106)은 Eli Lilly로부터 2023년 4월 라이선스 도입 ($80M 파이낸싱 동반). IL-17A + BAFF 동시 차단 bispecific 항체로 systemic sclerosis(SSc) 및 hidradenitis suppurativa(HS) 두 개 Phase 2 동시 진행 중.
-
-CEO Robert Lisicki. 현금 runway 2028년 말까지 확보 (2026년 2월 $144M 공모 이후).
+Lilly로부터 라이선스 도입한 IL-17A/BAFF 이중 차단 bispecific 항체 tibulizumab(ZB-106)으로 SSc·HS 두 적응증을 동시 공략하는 면역학 전문 임상 바이오텍(현금 runway 2028년 말). Q4 2026 TibuSHIELD(HS, 225명) topline이 최초 PoC 데이터로, 단일 기전 대비 넓은 커버리지 가설을 검증하는 첫 관문이다.
 
 ## 매출
 임상 단계. 상업화 제품 없음. 매출 0.
@@ -93,30 +91,25 @@ Autoimmune / Inflammatory: Systemic Sclerosis(SSc), Hidradenitis Suppurativa(HS)
 
 ## 기존 치료제
 
-**Systemic Sclerosis:**
-- Nintedanib (Boehringer Ingelheim, 승인) — SSc-ILD에 한정 (항섬유화)
+**Systemic Sclerosis:- Nintedanib (Boehringer Ingelheim, 승인) — SSc-ILD에 한정 (항섬유화)
 - Tocilizumab/Actemra (Roche, 승인) — SSc-ILD에 한정 (anti-IL-6R)
 - Rituximab (일본 MHLW 승인) — B세포 고갈
 - 미충족 수요: 피부 섬유화 및 전신 자가면역 동시 타겟 치료제 없음
 
-**Hidradenitis Suppurativa:**
-- Adalimumab(Humira) — TNF-α 차단, 최초 승인
+**Hidradenitis Suppurativa:- Adalimumab(Humira) — TNF-α 차단, 최초 승인
 - Bimekizumab(Bimzelx, UCB) — IL-17A/F 이중 차단, 2023 승인
 - Secukinumab(Cosentyx, Novartis) — IL-17A, 2023 승인
 - 미충족 수요: 약 절반의 환자가 HiSCR50 미달성
 
 ## 사전 공개 임상
 
-- **Phase 1 Sjögren's Syndrome (LY3090106) · NCT04563195**
-  MAD, randomized, double-blind, placebo-controlled. 25명. 4개 용량군(30/100/300mg Q4W, 300mg Q2W). 12주 투여 + 12주 추적.
+- **Phase 1 Sjögren's Syndrome (LY3090106) · NCT04563195  MAD, randomized, double-blind, placebo-controlled. 25명. 4개 용량군(30/100/300mg Q4W, 300mg Q2W). 12주 투여 + 12주 추적.
   결과: 내약성 양호. BAFF/IL-17A 혈청 농도 증가(target engagement 확인). B세포 수 및 CXCL1 감소. 100mg Q4W 이상에서 포화적 타겟 결합.
 
-- **Phase 1b Rheumatoid Arthritis (LY3090106)**
-  임상 데이터 완료. 상세 결과는 공개 제한적이나 tolerability 확인, Phase 2 진입 근거로 활용.
+- **Phase 1b Rheumatoid Arthritis (LY3090106)  임상 데이터 완료. 상세 결과는 공개 제한적이나 tolerability 확인, Phase 2 진입 근거로 활용.
 
 ## Modality
-**Tibulizumab (ZB-106)**
-Humanized tetravalent bispecific dual-antagonist antibody (type: Antibody)
+**Tibulizumab (ZB-106)Humanized tetravalent bispecific dual-antagonist antibody (type: Antibody)
 
 Eli Lilly 원조 개발 (LY3090106). ixekizumab(Taltz, anti-IL-17A scFv)과 tabalumab(anti-BAFF)를 glycine-rich linker로 융합한 tetravalent 구조. "네 머리 해머(four-headed hammer)" — 두 가지 가용성 리간드를 독립적으로 동시 차단. 의무적 이중 타겟 결합(obligate bispecific) 불필요.
 

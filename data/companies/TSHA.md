@@ -26,9 +26,8 @@ sources:
 - **BLA 제출** — REVEAL Part B 6개월 인터림 + ASPIRE 안전성 데이터 합산 예정
 
 ## 회사 개요
-임상 단계 유전자치료 바이오텍. CNS 단일유전자 희귀질환을 타겟으로 한 AAV 기반 유전자치료제 개발 집중. 리드 프로그램 TSHA-102는 Rett syndrome 대상 일회성 척수강내(intrathecal) AAV9 유전자치료제로, 2026년 BLA 제출을 목표로 피벗 진행 중.
-
-2025년 5월 $230M 공모 완료, 2028년까지 현금 확보($319.8M, 2025년말 기준). FDA Breakthrough Therapy·RMAT·Fast Track·Orphan Drug·Rare Pediatric Disease 지정 획득.
+miRARE 과발현 안전장치를 탑재한 scAAV9 척수강내 유전자치료제 TSHA-102로 Rett syndrome 근본 교정을 목표로 하는 임상 단계 CNS 유전자치료 바이오텍(FDA BT·RMAT·Orphan 지정).
+2026 Q2 REVEAL Part B 도징 완료 및 ASPIRE 소아 도징 완료가 BLA 제출 경로의 핵심 마일스톤으로, Part A 100% 반응률에서 이어지는 피벗 데이터가 관전 포인트다.
 
 ## 매출
 $9.8M (FY2025, 주로 collaboration/grant 수익). R&D 비용 $86.4M, G&A $33.9M, 순손실 $109.0M. 제품 매출 없음(임상 단계).
@@ -56,21 +55,18 @@ $9.8M (FY2025, 주로 collaboration/grant 수익). R&D 비용 $86.4M, G&A $33.9M
 없음 (임상 단계).
 
 ## 임상 디자인
-**REVEAL 피벗 Part B (NCT05606614 Part B)**
-- 디자인: 단일군(Single-arm), 오픈라벨, 각 환자가 자신의 대조군(within-patient control)
+**REVEAL 피벗 Part B (NCT05606614 Part B)- 디자인: 단일군(Single-arm), 오픈라벨, 각 환자가 자신의 대조군(within-patient control)
 - Arms: TSHA-102 고용량(1×10¹⁵ total vg) 단일 투여 (척수강내)
 - N: 15명 (6세 이상 22세 미만, 고전형 Rett syndrome, MECP2 기능소실 돌연변이)
 - Phase: 피벗 (Phase 1/2 Part B)
 - Primary endpoint: 28개 자연경과 정의 발달 마일스톤 중 ≥1개 획득/재획득 반응률
 - Secondary endpoint: R-MBA(개정 운동행동 평가), CGI-I(임상 전반 인상-개선), 기타 기능 척도
 
-**ASPIRE (소아, NCT 미공개)**
-- N: 3명 (2세 이상 4세 미만)
+**ASPIRE (소아, NCT 미공개)- N: 3명 (2세 이상 4세 미만)
 - 목적: BLA 광범위 라벨(≥2세) 지원을 위한 안전성 데이터 확보
 
 ## 타겟 질환
-**Rett Syndrome (레트 증후군)**
-
+**Rett Syndrome (레트 증후군)
 - 환자 수: 전 세계 약 1:10,000 여아. 미국 약 6,000~9,000명. 거의 100% 여성.
 - 병리: X염색체 연관 MECP2 유전자 기능소실 돌연변이. MeCP2는 DNA 메틸화-의존 전사 조절 단백질로 신경세포 성숙·시냅스 기능·후성유전 조절에 핵심 역할. MECP2 기능 결여 시 신경세포 성숙 장애, 시냅스 가소성 저하, 글리아 기능 이상 → 발달퇴행, 상동 손 운동, 언어상실, 보행 장애, 자율신경 이상, 뇌전증.
 - 출생 후 6~18개월까지 정상 발달 후 급격한 퇴행 발생.
@@ -82,14 +78,11 @@ $9.8M (FY2025, 주로 collaboration/grant 수익). R&D 비용 $86.4M, G&A $33.9M
 - TSHA-102는 MECP2 유전자 자체를 교정하는 근본 치료(disease-modifying)로, 기존 치료와 차별화.
 
 ## 사전 공개 임상
-- **REVEAL 성인/청소년 Part A · NCT05606614 · Phase 1/2**
-  결과(May 2025 data cutoff, N=10, 6~21세): 100% 반응률(28개 마일스톤 중 ≥1개 획득). 고용량(N=6) 6개월 시점 83% 반응률. 165개 추가 기술/개선 달성. 치료 관련 SAE·DLT 없음. 운동, 소통/사회화, 자율신경, 뇌전증 전반 지속적 개선.
-- **REVEAL 소아 Part A · NCT06152237 · Phase 1/2**
-  소아(5~8세) 데이터 포함, 성인/청소년과 통합하여 BLA 광범위 라벨 지원.
+- **REVEAL 성인/청소년 Part A · NCT05606614 · Phase 1/2  결과(May 2025 data cutoff, N=10, 6~21세): 100% 반응률(28개 마일스톤 중 ≥1개 획득). 고용량(N=6) 6개월 시점 83% 반응률. 165개 추가 기술/개선 달성. 치료 관련 SAE·DLT 없음. 운동, 소통/사회화, 자율신경, 뇌전증 전반 지속적 개선.
+- **REVEAL 소아 Part A · NCT06152237 · Phase 1/2  소아(5~8세) 데이터 포함, 성인/청소년과 통합하여 BLA 광범위 라벨 지원.
 
 ## Modality
-**TSHA-102**
-Intrathecal self-complementary AAV9 (scAAV9) gene therapy, miniMECP2 탑재, miRARE 조절 원소 포함.
+**TSHA-102Intrathecal self-complementary AAV9 (scAAV9) gene therapy, miniMECP2 탑재, miRARE 조절 원소 포함.
 
 일회성 척수강내 주사. scAAV9 벡터로 CNS 세포에 기능적 MECP2 유전자 전달. UT Southwestern 원천기술(Steven Gray 연구실). Modality 분류: Gene Therapy (AAV9).
 

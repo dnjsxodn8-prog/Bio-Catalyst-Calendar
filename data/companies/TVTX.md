@@ -18,12 +18,12 @@ sources:
 # Travere Therapeutics (TVTX)
 
 ## 카탈리스트
-- **Filspari FSGS Full FDA Approval** (2026-04-13 완료) — FSGS 최초 승인 의약품. 주가 촉매 실현.
-- **pegtibatinase HARMONY Phase 3 topline data** (2026 예정) — 고전적 호모시스틴뇨증(HCU) 피벗 임상. 2026년 내 결과 발표 예상.
-- **Filspari EU 매출 마일스톤** (진행 중) — CSL Vifor가 독일·오스트리아·스위스·룩셈부르크·영국 런칭, 추가 마일스톤 수령 가능.
+- Filspari FSGS Full FDA Approval (2026-04-13 완료) — FSGS 최초 승인 의약품. 주가 촉매 실현.
+- pegtibatinase HARMONY Phase 3 topline data (2026 예정) — 고전적 호모시스틴뇨증(HCU) 피벗 임상. 2026년 내 결과 발표 예상.
+- Filspari EU 매출 마일스톤 (진행 중) — CSL Vifor가 독일·오스트리아·스위스·룩셈부르크·영국 런칭, 추가 마일스톤 수령 가능.
 
 ## 회사 개요
-희귀 신장질환 및 희귀 대사질환 전문 바이오파마. 핵심 자산은 Filspari(sparsentan) — 미국 최초이자 유일한 IgA 신증(IgAN) 비면역억제 치료제이며, 2026년 4월 FSGS 추가 승인 획득. 2025년 Filspari 매출 $322M(+144% YoY). 파이프라인 2번 자산은 pegtibatinase(HCU Phase 3). CSL Vifor와 유럽 상업화 파트너십 체결. 나스닥 상장, 시총 약 $3.7B.
+희귀 신장질환 전문 바이오파마로 Filspari(sparsentan)가 IgAN·FSGS(2026-04 FDA 승인) 이중 적응증 보유, FY2025 매출 $410.5M. pegtibatinase HCU Phase 3 topline 데이터가 2026년 내 발표 예정.
 
 ## 매출
 - FY2025 순매출: $410.5M (전년 $233.2M → +76% YoY 전체)
@@ -40,8 +40,8 @@ sources:
 - 고전적 호모시스틴뇨증 (Classical HCU) — Phase 3 진행 중
 
 ## 파트너
-- **CSL Vifor** — Filspari 유럽 상업화 파트너. 2025년 10월 $40M 마일스톤 수령. 독일·오스트리아·스위스·룩셈부르크·영국 런칭 완료.
-- **Ligand Pharmaceuticals** — royalty-bearing 라이선스 보유 (sparsentan royalty 수취)
+- CSL Vifor — Filspari 유럽 상업화 파트너. 2025년 10월 $40M 마일스톤 수령. 독일·오스트리아·스위스·룩셈부르크·영국 런칭 완료.
+- Ligand Pharmaceuticals — royalty-bearing 라이선스 보유 (sparsentan royalty 수취)
 
 ## 매출 구조
 Filspari(sparsentan) 단일 제품 의존 ~100%. 유럽은 CSL Vifor 협력 → 마일스톤+로열티 수취. 미국은 자체 영업인력 직접 판매.
@@ -50,7 +50,7 @@ Filspari(sparsentan) 단일 제품 의존 ~100%. 유럽은 CSL Vifor 협력 → 
 예 — 미국 희귀 신장질환 전문 영업인력 보유, 직접 판매
 
 ## 상업화 제품
-- **Filspari (sparsentan)** — IgAN(2023 FDA 완전 승인) + FSGS(2026-04-13 FDA 완전 승인). 유럽 IgAN(2025년 표준 승인).
+- Filspari (sparsentan) — IgAN(2023 FDA 완전 승인) + FSGS(2026-04-13 FDA 완전 승인). 유럽 IgAN(2025년 표준 승인).
 
 ## 임상 디자인
 
@@ -74,31 +74,31 @@ Filspari(sparsentan) 단일 제품 의존 ~100%. 유럽은 CSL Vifor 협력 → 
 
 ## 타겟 질환
 
-**IgA 신증 (IgA Nephropathy, IgAN)**
+IgA 신증 (IgA Nephropathy, IgAN)
 - 환자 수: 미국 약 150,000명 (진단된 경우), 전 세계 최다 원발성 사구체신염
 - 병리: 비정상 O-갈락토실화 IgA1(Gd-IgA1) 생성 → 항체 복합체 형성 → 사구체 메산지움 침착 → 보체 활성화 및 염증 → 단백뇨·사구체경화·ESKD 진행. Endothelin-1·Angiotensin II 과활성화가 사구체 손상 악화.
 
-**초점분절성 사구체경화증 (Focal Segmental Glomerulosclerosis, FSGS)**
+초점분절성 사구체경화증 (Focal Segmental Glomerulosclerosis, FSGS)
 - 환자 수: 미국 약 40,000명 (원발성 FSGS)
 - 병리: 족세포(podocyte) 손상 → 사구체 분절 경화 → 대량 단백뇨 → 신증후군 → ESKD. ET-1 및 Ang II가 족세포 손상과 경화 진행에 핵심 역할.
 
 ## 기존 치료제
-- **IgAN**: ACEi/ARB (RAS 차단), 스테로이드(면역억제). Filspari(sparsentan) 최초 비면역억제 승인. 경쟁사: Alnylam/Novartis(iptacopan), Omeros(OMS721), Calliditas(budesonide ER/Tarpeyo).
-- **FSGS**: 스테로이드, tacrolimus 등 면역억제제. Filspari 최초 FDA 승인 의약품(2026). 경쟁사 없음(현재).
+- IgAN: ACEi/ARB (RAS 차단), 스테로이드(면역억제). Filspari(sparsentan) 최초 비면역억제 승인. 경쟁사: Alnylam/Novartis(iptacopan), Omeros(OMS721), Calliditas(budesonide ER/Tarpeyo).
+- FSGS: 스테로이드, tacrolimus 등 면역억제제. Filspari 최초 FDA 승인 의약품(2026). 경쟁사 없음(현재).
 
 ## 사전 공개 임상
 
-- **PROTECT (IgAN) · NCT03762850 · Phase 3**
+- PROTECT (IgAN) · NCT03762850 · Phase 3
   결과: Positive (2023). 36주 중간: UPCR −49.8% vs −15.1% (P<0.0001). 2년 eGFR slope 개선 (Lancet 2023 발표). → 2023년 2월 FDA 완전 승인.
 
-- **DUPLEX (FSGS) · NCT03493685 · Phase 3**
+- DUPLEX (FSGS) · NCT03493685 · Phase 3
   결과: 혼재(Mixed, 2023). eGFR slope primary endpoint P=0.056(미충족)이나 단백뇨·관해율 임상적 의미 있음 (NEJM 2023 발표). → 단백뇨 대리 엔드포인트로 2026-04-13 FDA 완전 승인.
 
-- **HARMONY (HCU) · Phase 3**
+- HARMONY (HCU) · Phase 3
   결과: 진행 중. 2023년 등록 개시 → 제조 스케일업 이슈로 일시 중단 → 2026 Q1 재개, 2026년 내 topline data 예상.
 
 ## Modality
-**Filspari (sparsentan)**
+Filspari (sparsentan)
 Dual antagonist: Endothelin A Receptor (ETAR) + Angiotensin II Type 1 Receptor (AT1R) antagonist (type: Small Molecule)
 
 단일 분자가 ETAR과 AT1R 두 수용체를 동시 차단. AT1R 점유율 >95%, ETAR 점유율 60~90% (24시간). ETBR 점유율 <2% — 선택적 ETA 억제로 ET-1 혈관확장 경로(ETB) 보존.

@@ -23,11 +23,7 @@ sources:
 - **ZUSDURI 상업화 성과 모니터링** — 2026년 1월 J코드(J9282) 발효 후 buy-and-bill 가속. 2026 분기 매출 트래킹 주요 카탈리스트.
 
 ## 회사 개요
-이스라엘계 비뇨종양학 전문 바이오텍. 2004년 TheraCoat Ltd.로 설립, 2015년 UroGen Pharma로 개명. 뉴저지 Princeton 본사, 이스라엘 R&D 거점. NASDAQ:URGN. 2017년 IPO.
-
-핵심 기술은 RTGel® 역열감응 하이드로겔 플랫폼. 저온에서 액체, 체온에서 겔화하여 요로 조직에 약물을 장시간 접촉 유지. 비수술적 화학절제(chemoablation)를 가능하게 함.
-
-승인 제품 2개: Jelmyto(2020 FDA 승인, LG-UTUC)와 Zusduri(2025 FDA 승인, LG-IR-NMIBC). 두 제품 모두 mitomycin 기반, RTGel 포뮬레이션.
+RTGel 역열감응 하이드로겔 플랫폼으로 비수술적 요로 화학절제(chemoablation)를 구현하는 비뇨종양 전문 바이오텍으로, Jelmyto(LG-UTUC)·Zusduri(LG-IR-NMIBC) 두 FDA 승인 제품의 미국 내 유일한 비수술 치료 포지션 보유. 2026년 H2 UGN-103 NDA 제출이 핵심 카탈리스트로, J코드(J9282) 발효 후 본격 상업화 중인 Zusduri의 성장 가속과 함께 차기 파이프라인 가치를 동시에 확인하는 시점이 된다.
 
 ## 매출
 - FY2025 총 매출: $109.8M (+21% YoY)
@@ -62,16 +58,14 @@ sources:
 - **JELMYTO® (mitomycin for pyelocalyceal solution)** — 2020년 4월 FDA 신속 승인. LG-UTUC 성인. 미국 최초·유일 비수술 치료제. 주 1회 6회 신우요관 내 주입.
 
 ## 임상 디자인
-**ENVISION (ZUSDURI 피벗 시험)**
-- 디자인: 단일군, 오픈라벨, 다국가 다센터 Phase 3 (비외과적 1차 화학절제 평가)
+**ENVISION (ZUSDURI 피벗 시험)- 디자인: 단일군, 오픈라벨, 다국가 다센터 Phase 3 (비외과적 1차 화학절제 평가)
 - Arms: UGN-102(mitomycin RTGel) 6회 주 1회 방광 내 주입 단일군
 - N: 240명 (56개 사이트)
 - Phase: Phase 3
 - Primary endpoint: 3개월 시점 완전관해율 (CR rate at PDE, ~첫 주입 후 3개월)
 - Secondary endpoint: 완전관해 달성 환자의 반응 지속기간 (Duration of Response, DOR)
 
-**OLYMPUS (Jelmyto 피벗 시험)**
-- 디자인: 단일군, 오픈라벨, Phase 3 (24개 미국·이스라엘 기관)
+**OLYMPUS (Jelmyto 피벗 시험)- 디자인: 단일군, 오픈라벨, Phase 3 (24개 미국·이스라엘 기관)
 - Arms: UGN-101(mitomycin RTGel) 6회 주 1회 신우 역행성 주입
 - N: 71명
 - Phase: Phase 3
@@ -79,48 +73,37 @@ sources:
 - Secondary endpoint: CR 유지 환자 비율 (12개월), 반응 지속기간
 
 ## 타겟 질환
-**재발성 저등급 중등도 위험 비근침윤성 방광암 (LG-IR-NMIBC)**
-
+**재발성 저등급 중등도 위험 비근침윤성 방광암 (LG-IR-NMIBC)
 방광 상피에서 기원한 저등급 요로상피암. 근육층 침윤 없음. 재발이 매우 잦아 반복 TURBT(경요도 방광종양 절제술)가 필요하나 수술 부담·합병증이 큰 만성 질환.
 
 - 미국 환자 수: 연간 신규 약 2.3만 명, 재발 약 5.9만 명 (연간 누적)
 - 병리: 저등급 요로상피 세포의 이형성 및 유두상 성장. 고등급 전환·근육층 침윤 위험은 낮으나 재발률 70%+.
 
-**저등급 상부요로 요로상피암 (LG-UTUC)**
-
+**저등급 상부요로 요로상피암 (LG-UTUC)
 신우·요관 요로상피에서 발생하는 저등급 요로상피암. 해부학 접근 어려움으로 전통적 치료는 신장-요관 적출(nephroureterectomy), 신장 보존 수술 어려움.
 
 - 미국 환자 수: 연간 ~6,000–8,000명 (희귀)
 - 병리: 상부 요로 점막의 국소 저등급 유두상 종양.
 
 ## 기존 치료제
-**LG-IR-NMIBC 기존 표준:**
-- TURBT (경요도 방광종양 절제술) — 반복 전신마취 수술 필요. 고재발률.
+**LG-IR-NMIBC 기존 표준:- TURBT (경요도 방광종양 절제술) — 반복 전신마취 수술 필요. 고재발률.
 - 즉시 1회 intravesical mitomycin — TURBT 직후 예방 목적, 치료 효과 제한적.
 - BCG 인트라베지컬 — 고등급 NMIBC에 주로 사용. LG-IR에 허가 외 사용 있으나 표준 아님.
-- **ZUSDURI만이 LG-IR-NMIBC 재발 대상 FDA 승인 유일 약물.**
-
-**LG-UTUC 기존 표준:**
-- 신장-요관 적출(radical nephroureterectomy) — 근치 수술, 신기능 손실.
+- **ZUSDURI만이 LG-IR-NMIBC 재발 대상 FDA 승인 유일 약물.
+**LG-UTUC 기존 표준:- 신장-요관 적출(radical nephroureterectomy) — 근치 수술, 신기능 손실.
 - 내시경 절제(ureteroscopic ablation) — 기술 의존도 높음, 재발 잦음.
-- **Jelmyto만이 LG-UTUC 비수술 치료로 FDA 승인.**
-
+- **Jelmyto만이 LG-UTUC 비수술 치료로 FDA 승인.
 ## 사전 공개 임상
-- **ENVISION (UGN-102/ZUSDURI, LG-IR-NMIBC) · NCT05243550 · Phase 3**
-  결과: 완전관해율 79.6% (95% CI: 73.9–84.5%) at 3개월. KM 추정 12개월 DOR 82.3% (95% CI: 75.9–87.1%). 18개월 무재발 80.6%. Journal of Urology 2025년 2월호 게재. → FDA 승인 2025-06-12 근거.
+- **ENVISION (UGN-102/ZUSDURI, LG-IR-NMIBC) · NCT05243550 · Phase 3  결과: 완전관해율 79.6% (95% CI: 73.9–84.5%) at 3개월. KM 추정 12개월 DOR 82.3% (95% CI: 75.9–87.1%). 18개월 무재발 80.6%. Journal of Urology 2025년 2월호 게재. → FDA 승인 2025-06-12 근거.
 
-- **ATLAS (UGN-102, 신규+재발 LG-IR-NMIBC) · Phase 3**
-  결과: ENVISION와 동등한 CR 결과 확인. AUA 2024 발표. 내구성 데이터 robust.
+- **ATLAS (UGN-102, 신규+재발 LG-IR-NMIBC) · Phase 3  결과: ENVISION와 동등한 CR 결과 확인. AUA 2024 발표. 내구성 데이터 robust.
 
-- **OLYMPUS (UGN-101/Jelmyto, LG-UTUC) · NCT02793128 · Phase 3**
-  결과: CR 59.2% (42/71명). KM 중앙 반응 지속기간 47.8개월 (follow-up 중앙값 28.1개월). 12개월 CR 유지 56.1%. Lancet Oncology 게재. → FDA 승인 2020-04 근거.
+- **OLYMPUS (UGN-101/Jelmyto, LG-UTUC) · NCT02793128 · Phase 3  결과: CR 59.2% (42/71명). KM 중앙 반응 지속기간 47.8개월 (follow-up 중앙값 28.1개월). 12개월 CR 유지 56.1%. Lancet Oncology 게재. → FDA 승인 2020-04 근거.
 
-- **UTOPIA (UGN-103, LG-IR-NMIBC) · Phase 3**
-  결과: CR 77.8% (ENVISION 79.6%과 동등). 99명 등록 완료. NDA 제출 근거로 FDA 전략 합의. NDA H2 2026 예정.
+- **UTOPIA (UGN-103, LG-IR-NMIBC) · Phase 3  결과: CR 77.8% (ENVISION 79.6%과 동등). 99명 등록 완료. NDA 제출 근거로 FDA 전략 합의. NDA H2 2026 예정.
 
 ## Modality
-**ZUSDURI / Jelmyto (mitomycin + RTGel®)**
-RTGel 기반 intravesical/pyelocalyceal 서방형 포뮬레이션 (type: Other/Drug-Device Combination)
+**ZUSDURI / Jelmyto (mitomycin + RTGel®)RTGel 기반 intravesical/pyelocalyceal 서방형 포뮬레이션 (type: Other/Drug-Device Combination)
 
 Mitomycin은 Streptomyces caespitosus 유래 천연 항종양 항생제. RTGel 하이드로겔에 포매하여 방광(ZUSDURI) 또는 신우(Jelmyto) 내 서방 전달. 체온에서 겔화 → 4~6시간 지속 방출 후 배뇨 제거. 기존 수용액 mitomycin 대비 접촉 시간 대폭 연장.
 
