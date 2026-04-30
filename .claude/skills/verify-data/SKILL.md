@@ -35,6 +35,7 @@ JSON 결과 파싱.
 | `/verify-data LLY VRTX` | 명시 ticker |
 | `/verify-data --since 2026-04-01` | since 이후 verified |
 | `/verify-data --recent 14` | 14일 |
+| `/verify-data --urls-full` | **수동 풀스캔** — `node scripts/check-urls.mjs --report` 실행. 전체 ~2000개 URL alive 검증 (~25분, 분기·반기 권장) |
 
 `git diff --name-only origin/main -- data/companies/` 도 보조 시그널 (커밋 안 한 상태에서도 식별 가능).
 

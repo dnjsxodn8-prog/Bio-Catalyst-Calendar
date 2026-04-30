@@ -132,7 +132,7 @@ specs/                      ← 기능별 요구사항 문서 (번호 순)
 - `research-company TICKER` — 새 종목 조사 후 md 생성 + verify (미구현)
 - `update-company TICKER` — 기존 종목의 body 섹션 업데이트 (`/update-company`)
 - `add-catalyst` — 새 카탈리스트 1건을 `data/catalysts.md`에 추가 (`/add-catalyst`)
-- `verify-data` — 최근 추가/수정 종목의 사실관계 교차검증 (mcap 재확인, sources alive, 본문 sanity check). 코드 검증(`npm run verify-data`) 통과 후 사실 layer만. 자동 수정 X (`/verify-data`)
+- `verify-data` — 최근 추가/수정 종목의 사실관계 교차검증 (mcap 재확인, sources alive, 본문 sanity check). 코드 검증(`npm run verify-data`) 통과 후 사실 layer만. 자동 수정 X (`/verify-data`). 분기·반기 풀스캔은 `/verify-data --urls-full` 또는 `node scripts/check-urls.mjs --report` 직접 호출 (~25분, 전체 ~2000개 URL alive 검증).
 - `update-prices` — 30일 주가 갱신 (Yahoo Finance) (`/update-prices`)
 - `export-naver` — 7일 임박 카탈리스트를 네이버 블로그용 단일 HTML로 export. 브라우저에서 열어 전체선택→복사→SmartEditor paste (`/export-naver`, spec 006)
 - `deploy` — **로컬 변경 → GitHub push → Vercel 자동 빌드** 한 번에. 데이터/코드 수정 후 사이트(https://biotechcatalystcalendar.vercel.app/) 반영. 호출 자체가 commit/push 명시 동의로 간주 (`/deploy`)

@@ -121,6 +121,8 @@ ticker별 단순 "{ticker} {company} news" 만 던지면 **학회 abstract accep
 - `add-catalyst` 항목이면 → `add-catalyst` 스킬 절차대로 (catalysts.md에 시간순 삽입)
 - `update-company` 항목이면 → `update-company` 스킬 절차대로 (해당 md body 수정 + verified 갱신 + sources 추가)
 
+두 스킬 내부에서 **새로 추가되는 sources URL만 `scripts/check-source-list.mjs`로 즉시 liveness 검증**한다 (404·DNS·NCT 오류 들어가지 못하게). dead URL은 사용자에게 알려 대체 받거나 제외.
+
 **중요: 한 번의 build-data 실행으로 마무리.** 항목당 build 호출 X (느림).
 
 ### Step 6 — 빌드 검증
