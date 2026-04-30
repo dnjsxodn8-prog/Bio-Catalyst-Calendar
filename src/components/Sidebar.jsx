@@ -125,6 +125,14 @@ export default function Sidebar({ tab, onTab, counts, recent, watchlist, onPickT
           badgeBg="#229ED9"
           badgeColor="#fff"
         />
+        <SocialLink
+          href="https://open.kakao.com/o/slxGeLsi"
+          title="오류·제보"
+          handle="카카오톡 오픈채팅"
+          badge={<span className="text-[13px] font-extrabold">K</span>}
+          badgeBg="#FEE500"
+          badgeColor="#191600"
+        />
       </div>
 
       {/* Footer */}
