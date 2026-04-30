@@ -22,6 +22,7 @@ function App() {
   const [query, setQuery] = useState('');
   const [pick, setPick] = useState(null);
   const [theme, setTheme] = useState('dark');
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [recent, pushRecent] = useRecent();
   const watchlist = useWatchlist();
 
@@ -54,6 +55,14 @@ function App() {
 
   return (
     <div className="flex min-h-screen">
+      {sidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black/60 z-20 lg:hidden"
+          onClick={() => setSidebarOpen(false)}
+          aria-hidden="true"
+        />
+      )}
+
       <Sidebar
         tab={tab}
         onTab={setTab}
@@ -61,6 +70,8 @@ function App() {
         recent={recent}
         watchlist={watchlist}
         onPickTicker={openTicker}
+        isOpen={sidebarOpen}
+        onClose={() => setSidebarOpen(false)}
       />
 
       <main className="flex-1 min-w-0 flex flex-col">
@@ -70,9 +81,10 @@ function App() {
           onQuery={setQuery}
           theme={theme}
           onTheme={setTheme}
+          onOpenSidebar={() => setSidebarOpen(true)}
         />
 
-        <div className="px-7 pt-6 pb-20 max-w-[1600px] w-full mx-auto flex-1">
+        <div className="px-4 lg:px-7 pt-6 pb-20 max-w-[1600px] w-full mx-auto flex-1">
           <div className="animate-fade-up">
             <Page data={data} query={query} onPick={setPick} />
           </div>

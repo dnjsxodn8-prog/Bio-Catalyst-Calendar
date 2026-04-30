@@ -22,9 +22,23 @@ const NAV = [
 
 const SECTION_LABEL = 'text-[10.5px] font-semibold text-ink-2 tracking-[0.1em] uppercase';
 
-export default function Sidebar({ tab, onTab, counts, recent, watchlist, onPickTicker }) {
+export default function Sidebar({ tab, onTab, counts, recent, watchlist, onPickTicker, isOpen, onClose }) {
+  const handleTab = (id) => {
+    onTab(id);
+    onClose?.();
+  };
+  const handlePickTicker = (t) => {
+    onPickTicker?.(t);
+    onClose?.();
+  };
   return (
-    <aside className="w-[248px] flex-shrink-0 flex flex-col h-screen sticky top-0 overflow-y-auto overflow-x-hidden bg-panel border-r border-line">
+    <aside
+      className={[
+        'w-[248px] flex-shrink-0 flex flex-col h-screen overflow-y-auto overflow-x-hidden bg-panel border-r border-line',
+        'fixed lg:sticky inset-y-0 left-0 top-0 z-30 transition-transform duration-200 ease-out',
+        isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0',
+      ].join(' ')}
+    >
       {/* Brand */}
       <div className="flex items-center gap-3 px-[18px] pt-[14px] pb-3 border-b border-line">
         <div
@@ -56,7 +70,7 @@ export default function Sidebar({ tab, onTab, counts, recent, watchlist, onPickT
           return (
             <button
               key={it.id}
-              onClick={() => onTab(it.id)}
+              onClick={() => handleTab(it.id)}
               className={[
                 'relative flex items-center gap-3 px-3 py-2 rounded-lg border text-left transition-colors',
                 active
@@ -98,10 +112,10 @@ export default function Sidebar({ tab, onTab, counts, recent, watchlist, onPickT
       </nav>
 
       {/* Recent */}
-      <RecentSection recent={recent} onPickTicker={onPickTicker} />
+      <RecentSection recent={recent} onPickTicker={handlePickTicker} />
 
       {/* Watchlist by group */}
-      <WatchlistSection watchlist={watchlist} onPickTicker={onPickTicker} />
+      <WatchlistSection watchlist={watchlist} onPickTicker={handlePickTicker} />
 
       {/* Social links */}
       <div className="mx-3 mt-auto pt-2.5 pb-1.5 border-t border-[var(--hairline)] flex flex-col gap-1">
