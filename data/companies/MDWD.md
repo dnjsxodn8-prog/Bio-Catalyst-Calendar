@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.mediwound.com/news-releases
+  - https://www.mediwound.com/
   - https://clinicaltrials.gov/study/NCT04149756
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MDWD&type=20-F
 ---

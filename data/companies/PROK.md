@@ -10,7 +10,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.prokidney.com/pipeline
-  - https://ir.prokidney.com/
+  - https://prokidney.com/
 ---
 
 # ProKidney (PROK)

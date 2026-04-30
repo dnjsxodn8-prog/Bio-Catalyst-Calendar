@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.immunitybio.com/news-releases
+  - https://immunitybio.com/investors/news
   - https://clinicaltrials.gov/study/NCT03022825
 ---
 

@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://evommune.com/pipeline/
   - https://clinicaltrials.gov/study/NCT06084364
 ---
 

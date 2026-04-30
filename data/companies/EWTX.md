@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.edgewise.com/news-releases/news-release-details/edgewise-therapeutics-reports-fourth-quarter-and-year-end-2024
   - https://clinicaltrials.gov/study/NCT05556798
 ---
 

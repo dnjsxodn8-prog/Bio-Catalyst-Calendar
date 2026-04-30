@@ -10,9 +10,8 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.mesoblast.com/news-releases
+  - https://mesoblast.com/
   - https://clinicaltrials.gov/study/NCT02336230
-  - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-remestemcel-l-srsp-acute-graft-versus-host-disease
 ---
 
 # Mesoblast (MESO)

@@ -13,7 +13,7 @@ sources:
   - https://www.novonordisk.com/investors.html
   - https://clinicaltrials.gov/study/NCT04982575
   - https://clinicaltrials.gov/study/NCT05634005
-  - https://ir.novonordisk.com/news-releases
+  - https://www.novonordisk.com/
 ---
 
 # Novo Nordisk (NVO)

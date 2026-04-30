@@ -11,7 +11,6 @@ verified: 2026-04-27
 sources:
   - https://www.stocktitan.net/news/TARA/protara-therapeutics-announces-fourth-quarter-and-full-year-2025-ibquo5rod8l4.html
   - https://www.stocktitan.net/news/TARA/protara-therapeutics-to-present-updated-interim-12-month-data-from-i59zea3oa6wo.html
-  - https://finance.yahoo.com/news/protara-therapeutics-highlights-recent-updates-120000628.html
 ---
 
 # Protara Therapeutics (TARA)

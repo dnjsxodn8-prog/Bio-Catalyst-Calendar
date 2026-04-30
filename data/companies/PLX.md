@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-H1
 verified: 2026-04-27
 sources:
-  - https://www.protalix.com/pipeline/
+  - https://protalix.com/
   - https://ir.protalix.com/
   - https://clinicaltrials.gov/study/NCT03018730
 ---

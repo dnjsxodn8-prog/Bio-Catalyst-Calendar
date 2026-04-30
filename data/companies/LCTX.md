@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.lineagecell.com/
+  - https://lineagecell.com/
   - https://clinicaltrials.gov/ct2/show/NCT02286089
 ---
 

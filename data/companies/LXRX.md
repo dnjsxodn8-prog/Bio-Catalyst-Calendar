@@ -10,7 +10,6 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://investors.lexpharma.com/news-releases/news-release-details/lexicon-pharmaceuticals-provides-business-and-pipeline-update-0
-  - https://investors.lexpharma.com/news-releases/news-release-details/lexicon-pharmaceuticals-reports-fourth-quarter-2025-financial-results
 ---
 
 # Lexicon Pharmaceuticals (LXRX)

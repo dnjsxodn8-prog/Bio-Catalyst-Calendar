@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-H1
 verified: 2026-04-27
 sources:
-  - https://ir.replimune.com/news-releases
+  - https://replimune.com/pipeline
   - https://www.replimune.com/pipeline/
 ---
 

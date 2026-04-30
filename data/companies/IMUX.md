@@ -9,8 +9,6 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://www.imm.bio/pipeline/
-  - https://ir.imm.bio/news-releases
   - https://clinicaltrials.gov/study/NCT03989752
   - https://clinicaltrials.gov/study/NCT04905940
 ---

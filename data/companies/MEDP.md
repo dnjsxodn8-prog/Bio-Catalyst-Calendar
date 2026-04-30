@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-07-31
 verified: 2026-04-27
 sources:
-  - https://ir.medpace.com/news-releases
+  - https://www.medpace.com/
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MEDP&type=10-K
 ---
 

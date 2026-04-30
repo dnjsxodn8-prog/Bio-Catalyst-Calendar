@@ -9,7 +9,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.cytomx.com/pipeline
-  - https://investor.cytomx.com/news-releases
+  - https://cytomx.com/pipeline
   - https://clinicaltrials.gov/study/NCT04596410
 ---
 

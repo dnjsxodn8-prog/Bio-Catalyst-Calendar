@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.centurytx.com/
+  - https://www.centurytx.com/
   - https://clinicaltrials.gov/study/NCT05336409
   - https://www.nature.com/articles/s41586-022-04981-x
 ---
@@ -86,7 +86,7 @@ iPSC에서 분화 생성한 NK세포에 CD19 CAR + IL-15 자가 분비 + CD38 �
 
 ## 논문
 - [Zhu H et al. iPSC-derived NK cells anti-tumor. Nature (2022)](https://www.nature.com/articles/s41586-022-04981-x)
-- [Century Therapeutics CNTY-101 Phase 1 ASH 2023 abstract](https://ash.confex.com/ash/2023/webprogram/Paper186623.html)
+- Century Therapeutics CNTY-101 Phase 1 (2023 ASH abstract Paper186623)
 
 ## 메모
 BMS 파트너십으로 자금 확보. iPSC 플랫폼의 확장성이 장기 밸류. 동종 CAR 경쟁 심화(Allogene 등) 주시.

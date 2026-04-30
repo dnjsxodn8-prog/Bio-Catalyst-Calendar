@@ -10,7 +10,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://investors.centessa.com/news-releases/news-release-details/centessa-pharmaceuticals-reports-fourth-quarter-and-full-year-1
   - https://clinicaltrials.gov/study/NCT05557487
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2308798
 ---

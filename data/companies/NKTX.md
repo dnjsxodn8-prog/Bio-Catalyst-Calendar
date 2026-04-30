@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-H1
 verified: 2026-04-27
 sources:
-  - https://ir.nkarta.com/
+  - https://www.nkarta.com/
   - https://clinicaltrials.gov/study/NCT04887012
 ---
 

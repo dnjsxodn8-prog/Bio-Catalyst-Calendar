@@ -9,7 +9,6 @@ areas:
 nextCatalyst: null
 verified: 2026-04-27
 sources:
-  - https://ca.finance.yahoo.com/news/revvity-inc-rvty-q4-2025-190109704.html
   - https://en.wikipedia.org/wiki/Revvity
   - https://www.elementbiosciences.com/news/revvity-and-element-biosciences-collaborate-to-advance-sequencing-based-ivd-neonatal-testing
 ---

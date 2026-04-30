@@ -10,7 +10,6 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://ir.aurabiosciences.com/news-releases/news-release-details/aura-biosciences-announces-first-patient-dosed-global-phase-3
-  - https://finance.yahoo.com/sectors/healthcare/articles/aura-biosciences-reports-fourth-quarter-110000535.html
 ---
 
 # Aura Biosciences (AURA)

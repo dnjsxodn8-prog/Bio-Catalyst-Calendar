@@ -10,7 +10,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.biontech.com/int/en/home/pipeline-and-products/pipeline.html
-  - https://investors.biontech.de/news-releases
+  - https://biontech.de/press-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2302977
 ---
 

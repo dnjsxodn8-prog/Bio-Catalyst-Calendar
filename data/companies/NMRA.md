@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-H2
 verified: 2026-04-27
 sources:
-  - https://ir.neumoratherapeutics.com/
+  - https://www.neumoratherapeutics.com/
   - https://clinicaltrials.gov/study/NCT05182476
 ---
 

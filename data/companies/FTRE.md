@@ -8,8 +8,7 @@ areas:
 nextCatalyst: null
 verified: 2026-04-27
 sources:
-  - https://ir.fortrea.com/press-releases
-  - https://www.fortrea.com/about
+  - https://www.fortrea.com/
 ---
 
 # Fortrea Holdings (FTRE)

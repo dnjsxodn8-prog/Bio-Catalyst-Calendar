@@ -10,7 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.primemedicine.com/pipeline/
-  - https://ir.primemedicine.com/
+  - https://primemedicine.com/
 ---
 
 # Prime Medicine (PRME)

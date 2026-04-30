@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-Q4
 verified: 2026-04-27
 sources:
-  - https://ir.oramed.com/
+  - https://oramed.com/
   - https://clinicaltrials.gov/study/NCT05394545
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ORMP&type=10-K
 ---

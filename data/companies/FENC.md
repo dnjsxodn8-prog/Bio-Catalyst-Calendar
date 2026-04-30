@@ -9,8 +9,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.fennecpharma.com/press-releases
-  - https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/214231s000lbl.pdf
+  - https://fennecpharma.com/investors/news
   - https://pubmed.ncbi.nlm.nih.gov/35688145/
 ---
 

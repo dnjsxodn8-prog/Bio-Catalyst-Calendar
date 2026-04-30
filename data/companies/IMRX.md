@@ -10,7 +10,7 @@ nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
   - https://www.immuneering.com/pipeline
-  - https://ir.immuneering.com/news-releases
+  - https://immuneering.com/pipeline
   - https://clinicaltrials.gov/study/NCT05375084
 ---
 

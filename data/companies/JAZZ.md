@@ -10,7 +10,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.jazzpharma.com/pipeline/
+  - https://www.jazzpharma.com/
   - https://investor.jazzpharma.com/
   - https://clinicaltrials.gov/study/NCT04451239
 ---

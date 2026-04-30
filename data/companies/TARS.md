@@ -10,7 +10,6 @@ nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
   - https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-tars/tarsus-pharmaceuticals/news/the-bull-case-for-tarsus-pharmaceuticals-tars-could-change-f-1
-  - https://finance.yahoo.com/quote/TARS/
   - https://www.macrotrends.net/stocks/charts/TARS/tarsus-pharmaceuticals/market-cap
 ---
 

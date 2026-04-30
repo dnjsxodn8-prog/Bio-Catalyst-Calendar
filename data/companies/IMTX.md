@@ -9,7 +9,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://immatics.com/pipeline/
-  - https://ir.immatics.com/news-releases
+  - https://immatics.com/
   - https://clinicaltrials.gov/study/NCT04262388
   - https://clinicaltrials.gov/study/NCT05005325
 ---

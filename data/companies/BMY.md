@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.bms.com/researchers-and-partners/pipeline.html
   - https://investors.bms.com/news-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2206713
 ---

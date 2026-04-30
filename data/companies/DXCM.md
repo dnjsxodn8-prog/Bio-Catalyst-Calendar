@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://investor.dexcom.com/news-releases
+  - https://www.dexcom.com/
   - https://www.dexcom.com/en-us/g7
 ---
 

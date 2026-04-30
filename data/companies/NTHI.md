@@ -8,9 +8,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://www.neonctechnologies.com/pipeline
   - https://clinicaltrials.gov/study/NCT03705481
-  - https://ir.neonctechnologies.com/news-releases
 ---
 
 # NeOnc Technologies (NTHI)
@@ -83,7 +81,6 @@ Temozolomide(DNA 알킬화제)와 Perillyl alcohol(Ras 억제 모노테르펜)�
 
 ## 논문
 - [Cho HY et al. TMZ-POH conjugate anti-glioma. Mol Cancer Ther (2014)](https://pubmed.ncbi.nlm.nih.gov/24728077/)
-- [Petrov I et al. Intranasal delivery NEO212 GBM model. Neuro Oncol (2022)](https://pubmed.ncbi.nlm.nih.gov/정보 미입력)
 
 ## 메모
 소형 바이오텍, mcap $188M. GBM 단일 에셋 집중 고위험 구조. 비강 내 전달 BBB 우회 차별화. 2026 H2 Phase 2 PFS-6 데이터가 주가 결정적 촉매.

@@ -10,7 +10,7 @@ nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
   - https://www.molecularpartners.com/pipeline/
-  - https://ir.molecularpartners.com/news-releases
+  - https://molecularpartners.com/investors/news
 ---
 
 # Molecular Partners (MOLN)

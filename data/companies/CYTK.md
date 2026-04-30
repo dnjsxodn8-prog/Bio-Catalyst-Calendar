@@ -9,7 +9,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.cytokinetics.com/pipeline
-  - https://investor.cytokinetics.com/news-releases
+  - https://cytokinetics.com/
   - https://clinicaltrials.gov/study/NCT04848506
 ---
 

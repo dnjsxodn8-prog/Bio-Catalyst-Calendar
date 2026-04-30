@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.macrogenics.com/news-releases
+  - https://macrogenics.com/investors/news
   - https://clinicaltrials.gov/study/NCT04158648
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MGNX&type=10-K
 ---

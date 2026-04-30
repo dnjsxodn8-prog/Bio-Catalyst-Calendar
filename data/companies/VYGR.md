@@ -13,7 +13,6 @@ sources:
   - https://ir.voyagertherapeutics.com/news-releases/news-release-details/voyager-therapeutics-enters-capsid-license-agreement-and
   - https://ir.voyagertherapeutics.com/news-releases/news-release-details/neurocrine-biosciences-and-voyager-therapeutics-enter-strategic
   - https://www.voyagertherapeutics.com/pipeline-overview/
-  - https://www.alzforum.org/therapeutics/vy7523
 ---
 
 # Voyager Therapeutics (VYGR)

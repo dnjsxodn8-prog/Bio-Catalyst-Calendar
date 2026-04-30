@@ -10,7 +10,7 @@ nextCatalyst: 2026-Q3
 verified: 2026-04-27
 sources:
   - https://www.vaxcyte.com/pipeline/
-  - https://ir.vaxcyte.com/
+  - https://vaxcyte.com/
   - https://clinicaltrials.gov/study/NCT05573035
 ---
 

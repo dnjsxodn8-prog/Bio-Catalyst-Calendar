@@ -9,8 +9,8 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.protagonist-inc.com/pipeline
-  - https://ir.protagonist-inc.com/
+  - https://protagonist-inc.com/press-releases
+  - https://www.protagonist-inc.com/
 ---
 
 # Protagonist Therapeutics (PTGX)

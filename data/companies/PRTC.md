@@ -10,7 +10,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://puretechhealth.com/pipeline
+  - https://puretechhealth.com/
   - https://investors.puretechhealth.com/
 ---
 

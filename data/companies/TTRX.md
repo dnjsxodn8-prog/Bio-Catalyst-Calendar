@@ -8,9 +8,7 @@ areas:
 nextCatalyst: null
 verified: 2026-04-28
 sources:
-  - https://ir.turnstonebio.com/news-releases/news-release-details/turnstone-biologics-corp-reports-positive-initial-data-phase-1
   - https://www.globenewswire.com/news-release/2024/08/14/2930436/0/en/Turnstone-Biologics-Corp-Reports-Positive-Initial-Data-from-Phase-1-Trial-of-TIDAL-01-in-Metastatic-Colorectal-Cancer.html
-  - https://ir.turnstonebio.com/news-releases/news-release-details/turnstone-biologics-announces-strategic-restructuring-prioritize
   - https://www.globenewswire.com/news-release/2025/06/27/3106487/7281/en/Turnstone-Biologics-Corp-Enters-into-Agreement-to-be-Acquired-by-XOMA-Royalty-Corporation-for-0-34-in-Cash-Per-Share-Plus-a-Contingent-Value-Right.html
   - https://www.fiercebiotech.com/biotech/turnstone-once-allied-abbvie-and-takeda-accepts-8m-xoma-buyout
 ---

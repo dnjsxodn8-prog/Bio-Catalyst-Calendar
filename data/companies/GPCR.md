@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.structuretx.com/news-releases
+  - https://structuretx.com/press-releases
   - https://clinicaltrials.gov/study/NCT05811325
 ---
 

@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.fatetherapeutics.com/news-releases
+  - https://fatetherapeutics.com/investors
   - https://clinicaltrials.gov/study/NCT04023071
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2310539
 ---

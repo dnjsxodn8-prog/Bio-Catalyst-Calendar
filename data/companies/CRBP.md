@@ -9,8 +9,8 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.corbuspharma.com/pipeline
-  - https://investor.corbuspharma.com/news-releases
+  - https://www.corbuspharma.com/our-pipeline
+  - https://corbuspharma.com/investors
   - https://clinicaltrials.gov/study/NCT05669872
 ---
 

@@ -9,8 +9,8 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.palvella.com/pipeline
-  - https://ir.palvella.com/
+  - https://palvella.com/
+  - https://palvella.com/
 ---
 
 # Palvella Therapeutics (PVLA)

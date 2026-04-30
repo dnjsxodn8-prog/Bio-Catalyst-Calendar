@@ -8,8 +8,8 @@ areas:
 nextCatalyst: 2026-H1
 verified: 2026-04-27
 sources:
-  - https://www.phathompharma.com/pipeline/
-  - https://ir.phathompharma.com/
+  - https://www.phathompharma.com/
+  - https://www.phathompharma.com/
   - https://clinicaltrials.gov/study/NCT03400956
 ---
 

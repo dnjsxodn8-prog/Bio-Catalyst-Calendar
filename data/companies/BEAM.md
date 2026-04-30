@@ -10,7 +10,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.beamtx.com/pipeline/
-  - https://ir.beamtx.com/news-releases
+  - https://beamtx.com/
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2309915
 ---
 

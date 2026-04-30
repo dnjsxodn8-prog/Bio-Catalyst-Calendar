@@ -8,8 +8,8 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://www.greenwichlifesciences.com/pipeline
-  - https://ir.greenwichlifesciences.com/
+  - https://greenwichlifesciences.com/
+  - https://greenwichlifesciences.com/
   - https://clinicaltrials.gov/study/NCT01479244
 ---
 

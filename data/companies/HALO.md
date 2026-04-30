@@ -9,8 +9,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://investor.halozyme.com/news-releases
-  - https://www.halozyme.com/enhanze-drug-delivery-technology/
+  - https://halozyme.com/
 ---
 
 # Halozyme Therapeutics (HALO)

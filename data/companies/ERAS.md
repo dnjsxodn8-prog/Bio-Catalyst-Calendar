@@ -8,7 +8,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.erasca.com/news-releases/news-release-details/erasca-reports-fourth-quarter-and-full-year-2024-financial-results
   - https://clinicaltrials.gov/study/NCT05745090
 ---
 

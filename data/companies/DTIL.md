@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.precisionbiosciences.com/news-releases
+  - https://precisionbiosciences.com/
   - https://clinicaltrials.gov/study/NCT04768374
 ---
 

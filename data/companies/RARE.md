@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-H1
 verified: 2026-04-27
 sources:
-  - https://ir.ultragenyx.com/news-releases
+  - https://ultragenyx.com/press-releases
   - https://www.ultragenyx.com/our-medicines/pipeline
 ---
 

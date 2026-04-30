@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.engene.com/news-releases
+  - https://engene.com/
   - https://clinicaltrials.gov/study/NCT05092204
 ---
 

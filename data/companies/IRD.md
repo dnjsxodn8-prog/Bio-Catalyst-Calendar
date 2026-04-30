@@ -9,8 +9,8 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.opusgenetics.com/pipeline
-  - https://ir.opusgenetics.com/
+  - https://www.opusgenetics.com/
+  - https://www.opusgenetics.com/
 ---
 
 # Opus Genetics (IRD)

@@ -9,8 +9,7 @@ areas:
 nextCatalyst: 2026-Q3
 verified: 2026-04-27
 sources:
-  - https://investors.qiagen.com/investor-relations/financial-information
-  - https://www.qiagen.com/us/newsroom/press-releases/
+  - https://www.qiagen.com/us/newsroom/
 ---
 
 # Qiagen (QGEN)

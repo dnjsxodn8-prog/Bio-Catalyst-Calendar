@@ -9,8 +9,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.continuemtx.com/pipeline
-  - https://investor.continuemtx.com/news-releases
   - https://clinicaltrials.gov/study/NCT05963256
 ---
 

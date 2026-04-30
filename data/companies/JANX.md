@@ -8,8 +8,8 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://www.januxrx.com/pipeline/
-  - https://ir.januxrx.com/
+  - https://www.januxrx.com/
+  - https://www.januxrx.com/
   - https://clinicaltrials.gov/study/NCT05476497
 ---
 

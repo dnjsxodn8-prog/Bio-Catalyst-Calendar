@@ -10,7 +10,7 @@ nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
   - https://immutep.com/pipeline/eftilagimod-alpha
-  - https://ir.immutep.com/news-releases
+  - https://www.immutep.com/
   - https://clinicaltrials.gov/study/NCT04428047
   - https://clinicaltrials.gov/study/NCT03625323
 ---

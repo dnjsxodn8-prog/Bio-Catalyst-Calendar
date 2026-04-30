@@ -10,7 +10,7 @@ nextCatalyst: 2026-Q2
 verified: 2026-04-27
 sources:
   - https://www.pharming.com/pipeline/
-  - https://ir.pharming.com/
+  - https://www.pharming.com/
   - https://clinicaltrials.gov/study/NCT04769999
 ---
 

@@ -10,7 +10,6 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.celldex.com/news-releases/news-release-details/celldex-therapeutics-reports-fourth-quarter-and-full-year-2024
   - https://clinicaltrials.gov/study/NCT05606991
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2401105
 ---
@@ -90,7 +89,7 @@ KIT 수용체의 리간드 결합 도메인 외부에 결합, SCF 신호 차단 
 
 ## 논문
 - [Ramos Casals M et al. Barzolvolimab in CSU. NEJM (2024)](https://www.nejm.org/doi/full/10.1056/NEJMoa2401105)
-- [Celldex FRONTIER 1 Phase 2 CSU data 2024](https://ir.celldex.com/news-releases/news-release-details/celldex-therapeutics-reports-positive-phase-2-data-barzolvolimab)
+- Celldex FRONTIER 1 Phase 2 CSU data (2024 IR press release)
 
 ## 메모
 Xolair 이후 10년 만에 CSU 게임체인저 후보. Phase 3 중간분석 2026 하반기 예정. AD 적응증 확장 시 addressable market 대폭 확대.

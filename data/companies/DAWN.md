@@ -10,7 +10,6 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.dayonebio.com/pipeline/
-  - https://investor.dayonebio.com/news-releases/news-release-details/day-one-biopharmaceuticals-reports-fourth-quarter-and-full-year
   - https://clinicaltrials.gov/study/NCT04985214
 ---
 

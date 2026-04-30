@@ -11,7 +11,7 @@ verified: 2026-04-27
 sources:
   - https://www.inventivapharma.com/pipeline/
   - https://clinicaltrials.gov/study/NCT03987295
-  - https://ir.inventivapharma.com/
+  - https://inventivapharma.com/
 ---
 
 # Inventiva (IVA)

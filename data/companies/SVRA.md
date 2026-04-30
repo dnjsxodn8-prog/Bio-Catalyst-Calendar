@@ -11,7 +11,6 @@ verified: 2026-04-27
 sources:
   - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx
   - https://www.stocktitan.net/news/SVRA/savara-announces-the-u-s-food-and-drug-administration-fda-filed-the-6eiweux44h9w.html
-  - https://www.defenseworld.net/2026/03/03/savara-highlights-fda-priority-review-for-molbreevi-as-aug-22-pdufa-date-nears.html
 ---
 
 # Savara (SVRA)

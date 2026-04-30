@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.mimedx.com/news-releases
+  - https://www.mimedx.com/
   - https://clinicaltrials.gov/study/NCT04712630
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MDXG&type=10-K
 ---

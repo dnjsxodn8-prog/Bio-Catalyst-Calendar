@@ -10,8 +10,8 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.nurixtx.com/pipeline/
-  - https://ir.nurixtx.com/news-releases
-  - https://clinicaltrials.gov/study/NCT04561764
+  - https://nurixtx.com/investors
+  - https://clinicaltrials.gov/study/NCT05131022
 ---
 
 # Nurix Therapeutics (NRIX)
@@ -49,7 +49,7 @@ Oncology (B세포 악성종양, CLL, MCL, DLBCL), Immunology (자가면역 — N
 없음 (전 임상/임상 단계)
 
 ## 임상 디자인
-- NCT: NCT04561764
+- NCT: NCT05131022
 - Phase: Phase 1/2
 - N: ~100명 (확장 코호트 포함)
 - 디자인: Open-label, dose-escalation + expansion, 1군 (단일 투여군)
@@ -68,7 +68,7 @@ B세포 수용체 신호전달(BCR signaling)의 핵심 키나제인 BTK 이상 
 Ibrutinib (Pharmacyclics/AbbVie), Acalabrutinib (AstraZeneca), Zanubrutinib (BeiGene) — 모두 BTK 공유결합 억제제로 C481S 내성 발생. NX-5948는 분해 기전으로 C481S 내성 BTK에도 효과 기대.
 
 ## 사전 공개 임상
-- **NX-5948 Phase 1 중간 데이터 · NCT04561764 · Phase 1/2**
+- **NX-5948 Phase 1 중간 데이터 · NCT05131022 · Phase 1/2**
   결과: 2023 ASH — C481S 돌연변이 포함 BTKi 내성 CLL 환자에서 ORR 54%, 내약성 양호, BTK 분해율 >95% 확인
 - **NX-2127 (BTK/Ikaros degrader) · NCT04830137 · Phase 1**
   결과: 2022 ASH — 내성 환자 ORR 36%, 이중 분해 개념 증명

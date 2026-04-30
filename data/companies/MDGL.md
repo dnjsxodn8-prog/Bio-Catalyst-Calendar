@@ -71,7 +71,7 @@ Rezdiffra (resmetirom) — 최초 FDA 승인 MASH 치료제 (2024년 3월)
 ## 사전 공개 임상
 - **MAESTRO-NASH · NCT03900429 · Phase 3**
   결과 (2024): Positive — resmetirom 80mg에서 25.9%, 100mg에서 29.9%가 MASH 조직학 개선 달성 (vs placebo 9.7%). 섬유화 개선 24.2%/25.9% vs placebo 14.2%. → 2024년 3월 FDA 승인.
-- **MAESTRO-NASH OUTCOMES · NCT05019464 · Phase 3 (진행 중)**
+- **MAESTRO-NASH OUTCOMES · NCT05500222 · Phase 3 (진행 중)**
   간경변 합병증(복수, 정맥류 출혈 등) 감소를 hard endpoint로 하는 장기 아웃컴 시험. 결과 2026-2027년 예정.
 
 ## Modality

@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-Q3
 verified: 2026-04-27
 sources:
-  - https://ir.palisadebio.com/
+  - https://palisadebio.com/
   - https://clinicaltrials.gov/study/NCT04749017
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PALI&type=10-K
 ---
@@ -80,7 +80,7 @@ Oral serine protease inhibitor / gut barrier protectant (type: Small Molecule)
 
 ## 논문
 - [Vergnolle N. Protease signaling in gut inflammation. Gut (2016)](https://gut.bmj.com/content/65/7/1262)
-- [Palisade Bio RESTORE-1 데이터 발표 (DDW 2024)](https://ir.palisadebio.com/news-releases/)
+- Palisade Bio RESTORE-1 데이터 발표 (DDW 2024)
 
 ## 메모
 소형 임상 단계. 런웨이 제한적. RESTORE-1 결과가 충분히 강력하지 않아 Phase 3 설계 재검토 중. POI 시장 자체는 미충족 수요 존재. 파트너십 또는 추가 자금 조달 관건.

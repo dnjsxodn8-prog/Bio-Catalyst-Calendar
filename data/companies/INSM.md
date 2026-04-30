@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-05-01
 verified: 2026-04-27
 sources:
-  - https://ir.insmed.com/
+  - https://insmed.com/
   - https://clinicaltrials.gov/study/NCT04594369
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2304544
 ---

@@ -8,9 +8,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.milestonepharm.com/news-releases
   - https://clinicaltrials.gov/study/NCT04462393
-  - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MIST&type=10-K
 ---
 
 # Milestone Pharmaceuticals (MIST)

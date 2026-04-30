@@ -8,7 +8,6 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.eyepointpharma.com/news-releases/news-release-details/eyepoint-pharmaceuticals-reports-fourth-quarter-and-full-year-2024
   - https://clinicaltrials.gov/study/NCT05536453
 ---
 

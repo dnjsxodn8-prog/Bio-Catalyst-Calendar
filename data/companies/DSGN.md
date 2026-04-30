@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.designtx.com/
+  - https://www.designtx.com/
   - https://clinicaltrials.gov/study/NCT05285527
 ---
 

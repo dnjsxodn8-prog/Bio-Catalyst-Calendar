@@ -8,7 +8,6 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.herontherapeutics.com/news-releases
   - https://clinicaltrials.gov/study/NCT03237572
 ---
 

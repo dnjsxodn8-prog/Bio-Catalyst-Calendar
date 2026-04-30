@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-Q2
 verified: 2026-04-27
 sources:
-  - https://ir.omeros.com/
+  - https://omeros.com/
   - https://clinicaltrials.gov/study/NCT04474470
   - https://www.fda.gov/drugs/drug-approvals-and-databases
 ---

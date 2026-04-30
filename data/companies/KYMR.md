@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.kymeratx.com/
+  - https://www.kymeratx.com/
   - https://clinicaltrials.gov/ct2/show/NCT04772885
 ---
 

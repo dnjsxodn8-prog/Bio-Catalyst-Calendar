@@ -9,7 +9,7 @@ nextCatalyst: 2026-06-02
 verified: 2026-04-27
 sources:
   - https://cogentbio.com/pipeline/
-  - https://ir.cogentbio.com/news-releases
+  - https://cogentbio.com/pipeline
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2211118
 ---
 

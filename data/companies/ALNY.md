@@ -10,7 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.alnylam.com/pipeline/
-  - https://investors.alnylam.com/news-releases
+  - https://investors.alnylam.com/press-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2307913
 ---
 

@@ -9,8 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.cellectis.com/en/press/cellectis-reports-fourth-quarter-and-full-year-2024-financial-results/
-  - https://clinicaltrials.gov/study/NCT05022069
+  - https://clinicaltrials.gov/study/NCT03190278
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2116435
 ---
 
@@ -54,7 +53,7 @@ Hematology (AML, ALL, 다발성 골수종), Oncology
 - 약물명: UCART123
 - 적응증: 재발/불응성 급성 골수성 백혈병 (R/R AML)
 - 시험명: AMELI-01
-- NCT: NCT03190278 (AMELI-01, 완료) / NCT05022069 (업데이트 코호트)
+- NCT: NCT03190278 (AMELI-01, 완료)
 - N: 45명 (AMELI-01 완료)
 - Phase: Phase 1
 - Primary endpoint: 안전성, MTD, 권고 Phase 2 용량(RP2D)

@@ -8,8 +8,7 @@ areas:
 nextCatalyst: 2026-H2
 verified: 2026-04-27
 sources:
-  - https://ir.nautilus.bio/
-  - https://www.nature.com/articles/s41587-022-01462-2
+  - https://www.nautilus.bio/
 ---
 
 # Nautilus Biotechnology (NAUT)

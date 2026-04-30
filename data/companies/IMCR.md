@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.immunocore.com/news-releases
+  - https://immunocore.com/news-releases
   - https://www.immunocore.com/pipeline
   - https://clinicaltrials.gov/study/NCT03070392
   - https://clinicaltrials.gov/study/NCT05549349

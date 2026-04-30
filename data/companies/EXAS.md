@@ -8,8 +8,8 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://investor.exactsciences.com/news-releases/news-release-details/exact-sciences-reports-fourth-quarter-and-full-year-2024-results
-  - https://www.exactsciences.com/what-we-do/cologuard
+  - https://www.exactsciences.com/
+  - https://www.cologuard.com/
 ---
 
 # Exact Sciences (EXAS)

@@ -9,8 +9,6 @@ areas:
 nextCatalyst: 2026-07-31
 verified: 2026-04-27
 sources:
-  - https://investor.illumina.com/news-releases/news-release-details/illumina-reports-fourth-quarter-and-fiscal-year-2024-financial
-  - https://www.illumina.com/science/sequencing-technology.html
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ILMN&type=10-K
 ---
 

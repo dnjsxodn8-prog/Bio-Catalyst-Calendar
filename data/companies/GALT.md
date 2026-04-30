@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.galectintherapeutics.com/press-releases
+  - https://galectintherapeutics.com/
   - https://clinicaltrials.gov/study/NCT04365868
   - https://pubmed.ncbi.nlm.nih.gov/37084717/
 ---

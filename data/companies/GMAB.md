@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.genmab.com/science/pipeline
+  - https://www.genmab.com/
   - https://ir.genmab.com/
   - https://clinicaltrials.gov/study/NCT04219163
 ---

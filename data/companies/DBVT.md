@@ -10,7 +10,7 @@ nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
   - https://www.dbv-technologies.com/pipeline/
-  - https://investor.dbv-technologies.com/
+  - https://dbv-technologies.com/
   - https://clinicaltrials.gov/study/NCT03736447
 ---
 

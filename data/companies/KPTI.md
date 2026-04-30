@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://investor.karyopharm.com/
+  - https://www.karyopharm.com/
   - https://clinicaltrials.gov/ct2/show/NCT03764618
 ---
 

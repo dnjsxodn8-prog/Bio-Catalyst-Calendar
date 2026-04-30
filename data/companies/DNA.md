@@ -8,7 +8,7 @@ areas:
 nextCatalyst: null
 verified: 2026-04-27
 sources:
-  - https://ir.ginkgobioworks.com/
+  - https://www.ginkgobioworks.com/
   - https://www.ginkgobioworks.com/
 ---
 

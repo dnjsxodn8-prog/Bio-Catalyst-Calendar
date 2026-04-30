@@ -10,7 +10,6 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-28
 sources:
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-fda-approval-journavxtm-suzetrigine-first-class
-  - https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-fda-approval-alyftrektm-once-daily-next
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-positive-week-36-interim-analysis-results
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-fourth-quarter-and-full-year-2024-financial
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-advances-inaxaplin-vx-147-phase-3-portion-adaptive-phase

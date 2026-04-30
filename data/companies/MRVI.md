@@ -8,8 +8,7 @@ areas:
 nextCatalyst: null
 verified: 2026-04-27
 sources:
-  - https://www.maravai.com/products/
-  - https://ir.maravai.com/news-releases
+  - https://www.maravai.com/
 ---
 
 # Maravai LifeSciences (MRVI)

@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://compasstherapeutics.com/news/compass-therapeutics-reports-fourth-quarter-and-full-year-2024-financial-results/
   - https://clinicaltrials.gov/study/NCT05248022
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10937205/
 ---
@@ -89,7 +88,7 @@ OMP-305B83 기반. DLL4와 VEGF-A를 단일 분자로 동시 차단. DLL4 차단
 
 ## 논문
 - [Jimeno A et al. Navicixizumab DLL4/VEGF BsAb Phase 1. JITC (2024)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10937205/)
-- [Compass Therapeutics BTC Phase 2 data 2024 ESMO](https://compasstherapeutics.com/news/)
+- Compass Therapeutics BTC Phase 2 data (2024 ESMO presentation)
 
 ## 메모
 담도암 2차 이상 미충족 수요 높음. ORR ~37% Phase 1 신호 고무적이나 Phase 2 확증 필요. CD137 작용제(CTX-471) 병용 연구가 중기 주가 동인.

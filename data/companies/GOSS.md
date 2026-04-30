@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.gossamerbio.com/news-releases
+  - https://ir.gossamerbio.com/news
   - https://clinicaltrials.gov/study/NCT04768179
 ---
 

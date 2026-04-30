@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.immunovant.com/
+  - https://www.immunovant.com/
   - https://clinicaltrials.gov/study/NCT05582824
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2309798
 ---

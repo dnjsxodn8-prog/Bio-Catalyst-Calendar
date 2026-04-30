@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.fulcrumtx.com/press-releases
+  - https://ir.fulcrumtx.com/news-releases
   - https://clinicaltrials.gov/study/NCT04004741
   - https://pubmed.ncbi.nlm.nih.gov/36735553/
 ---

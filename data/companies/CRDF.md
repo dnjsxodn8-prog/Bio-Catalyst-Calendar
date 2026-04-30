@@ -9,7 +9,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.cardiffoncology.com/pipeline
-  - https://investor.cardiffoncology.com/news-releases
+  - https://cardiffoncology.com/
   - https://clinicaltrials.gov/study/NCT04655170
 ---
 

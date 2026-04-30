@@ -10,7 +10,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://ir.inovio.com/
-  - https://clinicaltrials.gov/study/NCT04498746
+  - https://clinicaltrials.gov/study/NCT04398433
   - https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(22)00530-7/fulltext
 ---
 
@@ -48,7 +48,7 @@ Oncology (자궁경부이형성, HPV+종양), Infectious Disease (HPV, COVID-19 
 없음. VGX-3100 NDA 검토 진행 중, INO-3107 Phase 3 진행 중.
 
 ## 임상 디자인
-- **INO-3107 REVEAL1 (NCT04498746) · Phase 3 · RRP**
+- **INO-3107 REVEAL1 (NCT04398433) · Phase 3 · RRP**
 - 디자인: Randomized, double-blind, placebo-controlled
 - Arms: INO-3107 SC + CELLECTRA vs 플라세보, 3회 투여
 - N: ~175명

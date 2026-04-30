@@ -10,7 +10,7 @@ nextCatalyst: 2026-H2
 verified: 2026-04-27
 sources:
   - https://www.pepgen.com/pipeline/
-  - https://ir.pepgen.com/
+  - https://www.pepgen.com/
   - https://clinicaltrials.gov/study/NCT05736640
 ---
 
@@ -85,7 +85,7 @@ Peptide-conjugated Phosphorodiamidate Morpholino Oligomer (type: RNA/siRNA)
 
 ## 논문
 - [Betts C et al. Pip6-PMO enhances exon skipping in mdx mice. Mol Ther (2012)](https://www.cell.com/molecular-therapy-family/molecular-therapy/fulltext/S1525-0016(12)00015-4)
-- [PepGen EDO Platform Overview. PepGen Corporate Presentation (2024)](https://ir.pepgen.com/)
+- [PepGen EDO Platform Overview. PepGen Corporate Presentation (2024)](https://www.pepgen.com/)
 
 ## 메모
 Sarepta 독주 DMD 시장에 EDO 플랫폼으로 도전. 근육 침투 효율이 핵심 차별화 포인트. Phase 2 EVOLVE-DMD 데이터가 Sarepta 대비 우위를 보이면 파트너링 가능성.
