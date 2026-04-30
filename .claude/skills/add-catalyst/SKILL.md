@@ -45,6 +45,19 @@ description: Append a new catalyst event to data/catalysts.md. Use when the user
 
 `data/catalysts.md` 안에 같은 (date, ticker, event) 조합이 이미 있으면 경고. 사용자 결정 받기.
 
+### 4.5. sources URL liveness 검증
+
+`sources` 배열에 URL이 1개 이상 있으면 삽입 전에 즉시 검증:
+
+```bash
+node scripts/check-source-list.mjs <url1> <url2> ...
+```
+
+- 종료 코드 0 → 모두 alive (200·3xx·403 봇 차단 포함). 진행.
+- 종료 코드 1 → 하나 이상 dead (404·5xx·DNS·timeout). **사용자에게 알리고 대체 URL 받거나 해당 source 제외 후 진행.** 깨진 URL을 그대로 sources에 넣지 X.
+
+NCT URL은 ClinicalTrials.gov API v2로 본문 검증되므로 여기서 잘못된 NCT도 잡힘.
+
 ### 5. catalysts.md에 삽입
 
 yaml 블록 안 `events:` 리스트의 **시간순(date 오름차순) 위치**에 삽입.

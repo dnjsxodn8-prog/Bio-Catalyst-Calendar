@@ -51,6 +51,17 @@ description: Update body sections of an existing company markdown file. Use when
 
 frontmatter `sources` 배열에 URL 추가. 중복 제거. 비어있던 배열을 채우는 건 환영.
 
+**추가하기 전 liveness 검증 필수:**
+
+```bash
+node scripts/check-source-list.mjs <new-url1> <new-url2> ...
+```
+
+- 종료 코드 0 → 모두 alive. sources에 추가.
+- 종료 코드 1 → 하나 이상 dead. **사용자에게 알리고 대체 URL 받거나 해당 source 제외.** 깨진 URL은 sources에 넣지 X.
+
+(기존 sources는 다시 검증하지 않음 — 새로 추가되는 URL만 빠른 체크.)
+
 ### 6. 빌드 검증
 
 ```bash
