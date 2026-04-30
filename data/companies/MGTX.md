@@ -10,7 +10,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.meiragtx.com/news-releases
+  - https://meiragtx.com/
   - https://clinicaltrials.gov/study/NCT03566992
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MGTX&type=10-K
 ---

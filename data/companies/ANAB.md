@@ -10,7 +10,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.anaptysbio.com/pipeline/
-  - https://ir.anaptysbio.com/news-releases
+  - https://ir.anaptysbio.com/news
 ---
 
 # AnaptysBio (ANAB)

@@ -9,7 +9,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.ocutx.com/pipeline/
-  - https://ir.ocutx.com/news-releases
+  - https://ocutx.com/investors
   - https://clinicaltrials.gov/study/NCT04516707
   - https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=213209
 ---

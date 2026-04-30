@@ -53,7 +53,7 @@ AAV9 기반 유전성 심장질환 유전자치료 전문 바이오텍으로, MY
 없음 — 임상 단계 회사.
 
 ## 임상 디자인
-**TN-401 / RIDGE-1 (NCT05620733, Phase 1b/2 — 핵심 카탈리스트)**
+**TN-401 / RIDGE-1 (NCT06228924, Phase 1b/2 — 핵심 카탈리스트)**
 - 디자인: 다기관, 오픈라벨, 용량 증량
 - N: 최대 15명 (성인 PKP2-ARVC, ICD 삽입 환자)
 - Arms: Cohort 1 (3E13 vg/kg), Cohort 2 (6E13 vg/kg), 1회 정맥주사
@@ -82,7 +82,7 @@ ARVC 유병률 1:1,000~1:5,000. PKP2 변이는 유전성 ARVC의 약 40~70%. 데
 
 ## 사전 공개 임상
 - **MyPEAK-1 NCT05836259 Phase 1b/2a (2025 AHA 발표)**: Cohort 1·2 DLT 없음. 면역억제제 중단 성공. Cohort 2에서 Cohort 1 대비 더 높은 MyBP-C 단백질 증가. 전 환자 NYHA Class I 개선.
-- **RIDGE-1 NCT05620733 Phase 1b/2 (초기 데이터)**: Cohort 1 2명에서 8주 시점 PKP2 단백질 증가. 6개월 이상 추적에서 PVC 감소. DLT 없음. 1년 데이터 2026-05-15 ASGCT 발표 예정.
+- **RIDGE-1 NCT06228924 Phase 1b/2 (초기 데이터)**: Cohort 1 2명에서 8주 시점 PKP2 단백질 증가. 6개월 이상 추적에서 PVC 감소. DLT 없음. 1년 데이터 2026-05-15 ASGCT 발표 예정.
 
 ## Modality
 **TN-201 / TN-401**

@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.diamedica.com/
+  - https://www.diamedica.com/
   - https://clinicaltrials.gov/study/NCT03836066
 ---
 

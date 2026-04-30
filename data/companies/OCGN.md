@@ -9,8 +9,8 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://www.ocugen.com/pipeline/
-  - https://ir.ocugen.com/news-releases
+  - https://ocugen.com/
+  - https://www.ocugen.com/
   - https://clinicaltrials.gov/study/NCT05203939
 ---
 

@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.gyretherapeutics.com/news-releases
+  - https://gyretherapeutics.com/investors
   - https://clinicaltrials.gov/study/NCT04064359
 ---
 

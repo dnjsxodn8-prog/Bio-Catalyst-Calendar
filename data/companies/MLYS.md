@@ -8,8 +8,8 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://www.mineralystherapeutics.com/pipeline
-  - https://ir.mineralystherapeutics.com/news-releases
+  - https://ir.mineralystx.com/
+  - https://ir.mineralystx.com/news-events/press-releases
 ---
 
 # Mineralys Therapeutics (MLYS)

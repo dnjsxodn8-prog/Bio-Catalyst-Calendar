@@ -8,7 +8,6 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.contexttherapeutics.com/news-releases/news-release-details/context-therapeutics-reports-fourth-quarter-and-full-year-2024
   - https://clinicaltrials.gov/study/NCT06071065
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10505820/
 ---

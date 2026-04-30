@@ -9,8 +9,8 @@ areas:
 nextCatalyst: 2026-H2
 verified: 2026-04-27
 sources:
-  - https://www.polaryx.com/pipeline/
-  - https://ir.polaryx.com/
+  - https://polaryx.com/
+  - https://polaryx.com/
   - https://clinicaltrials.gov/study/NCT04491006
 ---
 

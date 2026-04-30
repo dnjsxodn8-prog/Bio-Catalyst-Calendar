@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://www.biomarin.com/products/pipeline/
+  - https://www.biomarin.com/
   - https://investors.biomarin.com/news-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2302855
 ---

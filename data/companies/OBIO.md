@@ -9,7 +9,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.orchestrabiomed.com/pipeline/
-  - https://ir.orchestrabiomed.com/news-releases
+  - https://orchestrabiomed.com/pipeline
   - https://clinicaltrials.gov/study/NCT02247245
 ---
 

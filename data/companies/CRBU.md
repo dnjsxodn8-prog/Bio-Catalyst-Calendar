@@ -10,7 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.cariboubio.com/pipeline
-  - https://investor.cariboubio.com/news-releases
+  - https://cariboubio.com/investors
   - https://clinicaltrials.gov/study/NCT04637763
 ---
 

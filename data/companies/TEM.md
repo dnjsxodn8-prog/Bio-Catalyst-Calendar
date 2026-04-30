@@ -10,7 +10,6 @@ nextCatalyst: 2026-05-01
 verified: 2026-04-27
 sources:
   - https://www.stocktitan.net/news/TEM/tempus-announces-preliminary-fourth-quarter-and-full-year-2025-tig8t3pgxfbo.html
-  - https://finance.yahoo.com/news/tempus-ai-revenue-mix-2026-144100757.html
   - https://stockanalysis.com/stocks/tem/
 ---
 

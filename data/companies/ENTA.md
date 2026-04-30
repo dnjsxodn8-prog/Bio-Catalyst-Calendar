@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.enanta.com/news-releases/news-release-details/enanta-pharmaceuticals-reports-fiscal-first-quarter-2025
   - https://clinicaltrials.gov/study/NCT05978089
 ---
 

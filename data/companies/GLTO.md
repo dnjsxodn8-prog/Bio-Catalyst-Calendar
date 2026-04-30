@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://galecto.com/pipeline/
+  - https://galecto.com/
   - https://ir.galecto.com/
   - https://clinicaltrials.gov/study/NCT03832946
 ---

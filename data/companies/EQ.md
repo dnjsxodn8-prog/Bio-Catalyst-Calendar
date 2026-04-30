@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.equilliumbio.com/news-releases/news-release-details/equillium-reports-fourth-quarter-and-full-year-2024-financial
   - https://clinicaltrials.gov/study/NCT04340076
 ---
 

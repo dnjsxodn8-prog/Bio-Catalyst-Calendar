@@ -13,7 +13,6 @@ sources:
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2510198
   - https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review
   - https://veratx.com/science/atacicept-in-igan/
-  - https://www.longitudecapital.com/posts/vera-submits-bla-for-atacicept-in-iga-nephropathy-fda-assigns-pdufa-date-july-7-2026/
   - https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-provides-business-update-and-reports-full-year
 ---
 

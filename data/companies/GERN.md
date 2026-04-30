@@ -10,8 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.geron.com/pipeline/imetelstat/
-  - https://investor.geron.com/
-  - https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trial-snapshots-rytelo
+  - https://www.geron.com/
 ---
 
 # Geron (GERN)

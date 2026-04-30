@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://www.innate-pharma.com/pipeline
+  - https://www.innate-pharma.com/
   - https://clinicaltrials.gov/study/NCT03023124
   - https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(21)00152-4/fulltext
 ---
@@ -86,7 +86,7 @@ CD38(혈액암 표면 항원)과 SIRPα(대식세포 억제 수용체)를 동시
 
 ## 논문
 - [Machiels JP et al. Monalizumab + durvalumab HNSCC. Lancet Oncol (2021)](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(21)00152-4/fulltext)
-- [Innate Pharma SIRPα-CD38 mechanism (2023 ASH abstract)](https://ash.confex.com/ash/2023/webprogram/Paper181764.html)
+- Innate Pharma SIRPα-CD38 mechanism (2023 ASH abstract Paper181764)
 
 ## 메모
 소형 프랑스 바이오텍. AZ·Sanofi 파트너십이 핵심. SAR443579 Phase 1/2 데이터가 주요 밸류 드라이버.

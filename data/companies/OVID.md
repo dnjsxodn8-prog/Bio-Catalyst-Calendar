@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-Q2
 verified: 2026-04-27
 sources:
-  - https://ir.ovidtx.com/
+  - https://www.ovidtx.com/investors/news-releases
   - https://clinicaltrials.gov/study/NCT04518527
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=OVID&type=10-K
 ---

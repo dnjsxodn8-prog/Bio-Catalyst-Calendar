@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-H1
 verified: 2026-04-27
 sources:
-  - https://ir.rigel.com/news-releases
+  - https://rigel.com/investors
   - https://www.rigel.com/pipeline
 ---
 

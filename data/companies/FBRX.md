@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.fortebio.com/press-releases
   - https://clinicaltrials.gov/study/NCT04594733
   - https://pubmed.ncbi.nlm.nih.gov/37429202/
 ---

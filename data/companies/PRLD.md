@@ -10,7 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.preludetx.com/pipeline
-  - https://ir.preludetx.com/
+  - https://preludetx.com/
 ---
 
 # Prelude Therapeutics (PRLD)

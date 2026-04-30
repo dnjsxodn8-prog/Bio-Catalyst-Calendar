@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.climbbio.com/news-releases/news-release-details/climb-bio-formerly-eliem-therapeutics-reports-fourth-quarter
   - https://clinicaltrials.gov/study/NCT05886751
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10461737/
 ---

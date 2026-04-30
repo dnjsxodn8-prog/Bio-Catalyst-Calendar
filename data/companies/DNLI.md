@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.denalitherapeutics.com/
+  - https://www.denalitherapeutics.com/
   - https://clinicaltrials.gov/study/NCT03634007
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2210262
 ---

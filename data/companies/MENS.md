@@ -8,7 +8,7 @@ areas:
 nextCatalyst: null
 verified: 2026-04-27
 sources:
-  - https://finance.yahoo.com/quote/MENS/
+  - https://www.stocktitan.net/news/MENS/
 ---
 
 # Mensa Brands (MENS)

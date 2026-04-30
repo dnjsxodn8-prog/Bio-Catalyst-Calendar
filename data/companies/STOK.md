@@ -10,7 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.businesswire.com/news/home/20260111172978/en/Stoke-Therapeutics-Announces-Updates-to-Timelines-for-the-Completion-of-Enrollment-and-a-Phase-3-Data-Readout-from-the-EMPEROR-Study-of-Zorevunersen-for-the-Treatment-of-Dravet-Syndrome
-  - https://investors.biogen.com/news-releases/news-release-details/biogen-and-stoke-therapeutics-announce-first-patient-dosed-phase
+  - https://biogen.com/investors/news-release-details/biogen-and-stoke-therapeutics-announce-first-patient-dosed-phase
   - https://investor.stoketherapeutics.com/news-releases/news-release-details/stoke-therapeutics-presents-zorevunersen-data-showing
 ---
 

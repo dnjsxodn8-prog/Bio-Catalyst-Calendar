@@ -9,9 +9,9 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.modernatx.com/research/pipeline
-  - https://investors.modernatx.com/news-releases
-  - https://www.modernatx.com/en-US/media-center/press-releases
+  - https://www.modernatx.com/research
+  - https://www.modernatx.com/
+  - https://www.modernatx.com/
 ---
 
 # Moderna (MRNA)

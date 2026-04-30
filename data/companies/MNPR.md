@@ -10,7 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.monopartx.com/pipeline
-  - https://ir.monopartx.com/news-releases
+  - https://ir.monopartx.com/news
 ---
 
 # Monopar Therapeutics (MNPR)

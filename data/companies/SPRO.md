@@ -8,7 +8,6 @@ areas:
 nextCatalyst: 2026-06-18
 verified: 2026-04-27
 sources:
-  - https://www.globenewswire.com/news-releases/2025/12/19/3208446/0/en/Spero-Announces-NDA-Resubmission-of-Tebipenem-HBr-by-GSK-to-the-FDA-for-the-Treatment-of-Complicated-Urinary-Tract-Infections-Including-Pyelonephritis.html
   - https://www.biospace.com/press-releases/spero-announces-nda-resubmission-of-tebipenem-hbr-by-gsk-to-the-fda-for-the-treatment-of-complicated-urinary-tract-infections-including-pyelonephritis
   - https://www.globenewswire.com/news-release/2026/03/26/3263404/0/en/Spero-Therapeutics-Announces-Fourth-Quarter-and-Full-Year-2025-Operating-Results-and-Provides-a-Business-Update.html
 ---
@@ -77,7 +76,7 @@ IV imipenem-cilastatin, IV meropenem 등. 경구 카바페넴은 미국 미승�
 
 ## 논문
 - [Wagenlehner FM et al. Tebipenem pivoxil HBr (PIVOT-PO) vs. ertapenem in cUTI. NEJM (2022)](https://www.nejm.org/doi/full/10.1056/NEJMoa2204764)
-- [GSK NDA resubmission press release (2025)](https://www.globenewswire.com/news-releases/2025/12/19/3208446/0/en/Spero-Announces-NDA-Resubmission-of-Tebipenem-HBr-by-GSK-to-the-FDA-for-the-Treatment-of-Complicated-Urinary-Tract-Infections-Including-Pyelonephritis.html)
+- [GSK NDA resubmission press release (2025)](https://www.biospace.com/press-releases/spero-announces-nda-resubmission-of-tebipenem-hbr-by-gsk-to-the-fda-for-the-treatment-of-complicated-urinary-tract-infections-including-pyelonephritis)
 
 ## 메모
 PDUFA 2026-06-18. 승인 시 미국 최초 경구 카바페넴. 마일스톤 $25M 이미 수령. 소형주(mcap ~$130M)로 승인 시 대폭 상승 여지. GSK가 상업화 담당 → 스스로 판매 리스크 없음.

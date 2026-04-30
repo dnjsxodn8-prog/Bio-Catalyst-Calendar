@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-H2
 verified: 2026-04-27
 sources:
-  - https://investors.ranitherapeutics.com/news-releases
+  - https://ranitherapeutics.com/
   - https://www.ranitherapeutics.com/pipeline
 ---
 

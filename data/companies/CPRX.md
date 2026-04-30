@@ -10,8 +10,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.catalystpharma.com/pipeline
-  - https://investor.catalystpharma.com/news-releases
-  - https://www.fda.gov/drugs/drug-approvals-and-databases/firdapse-amifampridine
+  - https://catalystpharma.com/pipeline
 ---
 
 # Catalyst Pharmaceuticals (CPRX)

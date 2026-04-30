@@ -10,7 +10,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.kalaris.com/pipeline/
-  - https://ir.kalaris.com/
+  - https://www.kalaris.com/
 ---
 
 # Kalaris Therapeutics (KLRS)

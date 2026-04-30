@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.dynetherapeutics.com/news-releases
+  - https://www.dynetherapeutics.com/
   - https://clinicaltrials.gov/study/NCT05524883
   - https://clinicaltrials.gov/study/NCT05848388
 ---

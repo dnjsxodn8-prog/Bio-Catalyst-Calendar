@@ -10,8 +10,8 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://www.omniab.com/pipeline/
-  - https://ir.omniab.com/news-releases
+  - https://www.omniab.com/
+  - https://www.omniab.com/
   - https://www.omniab.com/technology/
 ---
 

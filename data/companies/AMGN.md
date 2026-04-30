@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://www.amgen.com/pipeline
+  - https://amgen.com/investors
   - https://investors.amgen.com/news-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2410602
 ---

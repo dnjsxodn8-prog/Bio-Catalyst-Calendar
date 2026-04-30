@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-Q3
 verified: 2026-04-27
 sources:
-  - https://www.orukatx.com/pipeline
+  - https://orukatx.com/
   - https://clinicaltrials.gov/study/NCT06360900
   - https://ir.orukatx.com/
 ---

@@ -10,7 +10,7 @@ verified: 2026-04-27
 sources:
   - https://ir.ideayabio.com/news-releases/news-release-details/ideaya-biosciences-reports-fourth-quarter-and-full-year-2024
   - https://www.ideayabio.com/pipeline/
-  - https://clinicaltrials.gov/study/NCT04296980
+  - https://clinicaltrials.gov/study/NCT05987332
 ---
 
 # IDEAYA Biosciences (IDYA)
@@ -65,7 +65,7 @@ Oncology (포도막흑색종, 비소세포폐암, 기타 고형암)
 Kimmtrak (tebentafusp, Immunocore) — 최초 승인 MUM 치료제(2022). 그 외 Pembrolizumab, 화학요법 등 효과 제한적. Darovasertib+Crizotinib 병용은 PKC+MET 이중 억제로 차별화.
 
 ## 사전 공개 임상
-- **Phase 1/2 (NCT04296980) · Darovasertib + Crizotinib · MUM**
+- **Phase 1/2 (NCT05987332) · Darovasertib + Crizotinib · MUM**
   결과: ORR 18%, PFS 중앙값 5.4개월(1차 치료 코호트 기준). 2024 ASCO 발표. 병용의 내약성 확인.
 - **Phase 1b (NCT03947385) · IDE196 단독**
   결과: 단독 ORR 5~8%, 병용 필요성 확인.

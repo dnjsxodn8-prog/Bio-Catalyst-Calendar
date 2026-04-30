@@ -11,7 +11,6 @@ verified: 2026-04-27
 sources:
   - https://www.merck.com/research/pipeline/
   - https://www.mrknewsroom.com/press-releases
-  - https://investor.merck.com/financial-information/annual-reports
 ---
 
 # Merck (MRK)

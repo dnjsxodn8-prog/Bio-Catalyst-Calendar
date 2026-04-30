@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.humacyte.com/news-releases
+  - https://humacyte.com/
   - https://clinicaltrials.gov/study/NCT01887925
 ---
 

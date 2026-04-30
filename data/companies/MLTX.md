@@ -9,8 +9,8 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.moonlakeim.com/pipeline/
-  - https://ir.moonlakeim.com/news-releases
+  - https://www.globenewswire.com/news-release/2026/02/02/3230183/0/en/MoonLake-Announces-FDA-Fast-Track-Designation-for-Sonelokimab-Palmoplantar-Pustulosis-PPP-and-Provides-Details-on-Upcoming-Investor-Day.html
+  - https://www.stocktitan.net/news/MLTX/
 ---
 
 # MoonLake Immunotherapeutics (MLTX)

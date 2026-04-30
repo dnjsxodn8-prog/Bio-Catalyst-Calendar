@@ -10,7 +10,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.alumis.com/pipeline
-  - https://ir.alumis.com/news-releases
+  - https://alumis.com/investors
 ---
 
 # Alumis (ALMS)

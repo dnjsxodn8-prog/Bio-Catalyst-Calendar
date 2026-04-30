@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.editasmedicine.com/news-releases
+  - https://editasmedicine.com/investors
   - https://clinicaltrials.gov/study/NCT04853576
 ---
 

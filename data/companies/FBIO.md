@@ -10,9 +10,8 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.fortressbiotech.com/press-releases
+  - https://fortressbiotech.com/investors
   - https://clinicaltrials.gov/study/NCT04786522
-  - https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/214312s000lbl.pdf
 ---
 
 # Fortress Biotech (FBIO)

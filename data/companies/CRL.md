@@ -9,7 +9,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.criver.com/about-charles-river
-  - https://investor.criver.com/news-releases
+  - https://criver.com/
   - https://www.criver.com/products-services
 ---
 

@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.dianthustx.com/
+  - https://dianthustx.com/
   - https://clinicaltrials.gov/study/NCT05882565
 ---
 

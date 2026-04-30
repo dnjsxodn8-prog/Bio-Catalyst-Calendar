@@ -9,7 +9,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.nuvectis.com/pipeline
-  - https://ir.nuvectis.com/news-releases
+  - https://nuvectis.com/
   - https://clinicaltrials.gov/study/NCT05492929
 ---
 

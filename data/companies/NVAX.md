@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://ir.novavax.com/news-releases
+  - https://novavax.com/press-releases
   - https://clinicaltrials.gov/study/NCT06229730
   - https://www.fda.gov/vaccines-blood-biologics/vaccines/nuvaxovid
 ---

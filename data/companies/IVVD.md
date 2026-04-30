@@ -10,7 +10,7 @@ nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
   - https://www.invivyd.com/pipeline/
-  - https://ir.invivyd.com/
+  - https://www.invivyd.com/
   - https://clinicaltrials.gov/study/NCT05514171
 ---
 

@@ -10,7 +10,6 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://investor.corcept.com/news-releases/news-release-details/corcept-therapeutics-reports-fourth-quarter-and-full-year-2024
   - https://clinicaltrials.gov/study/NCT04033510
   - https://www.nejm.org/doi/full/10.1056/NEJMoa1910035
 ---

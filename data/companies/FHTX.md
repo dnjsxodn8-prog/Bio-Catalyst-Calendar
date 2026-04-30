@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.foghorntx.com/press-releases
+  - https://foghorntx.com/pipeline
   - https://clinicaltrials.gov/study/NCT04851106
   - https://pubmed.ncbi.nlm.nih.gov/37285073/
 ---

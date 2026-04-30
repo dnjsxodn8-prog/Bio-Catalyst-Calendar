@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.enlivex.com/news-releases/news-release-details/enlivex-therapeutics-reports-fourth-quarter-and-full-year-2024
   - https://clinicaltrials.gov/study/NCT05060445
 ---
 

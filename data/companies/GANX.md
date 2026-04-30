@@ -10,7 +10,7 @@ nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
   - https://www.gaintherapeutics.com/pipeline/
-  - https://ir.gaintherapeutics.com/
+  - https://gaintherapeutics.com/
 ---
 
 # Gain Therapeutics (GANX)

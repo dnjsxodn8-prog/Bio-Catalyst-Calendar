@@ -9,7 +9,7 @@ nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
   - https://www.oculis.com/pipeline/
-  - https://ir.oculis.com/news-releases
+  - https://oculis.com/
   - https://clinicaltrials.gov/study/NCT05536011
 ---
 

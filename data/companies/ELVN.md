@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://ir.enliventx.com/news-releases
+  - https://www.enliventx.com/
   - https://clinicaltrials.gov/study/NCT05304377
   - https://clinicaltrials.gov/study/NCT05663463
 ---

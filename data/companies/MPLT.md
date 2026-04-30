@@ -9,7 +9,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://www.maplighttx.com/pipeline
-  - https://ir.maplighttx.com/news-releases
+  - https://maplighttx.com/investors
 ---
 
 # MapLight Therapeutics (MPLT)

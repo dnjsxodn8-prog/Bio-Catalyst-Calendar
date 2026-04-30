@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.genelux.com/news-releases
+  - https://genelux.com/
   - https://clinicaltrials.gov/study/NCT04636073
 ---
 

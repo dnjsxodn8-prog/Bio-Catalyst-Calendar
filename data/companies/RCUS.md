@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-H1
 verified: 2026-04-27
 sources:
-  - https://ir.arcusbio.com/news-releases
+  - https://arcusbio.com/
   - https://www.arcusbio.com/pipeline
 ---
 

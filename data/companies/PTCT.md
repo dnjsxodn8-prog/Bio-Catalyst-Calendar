@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
-  - https://www.ptcbio.com/en/pipeline/
+  - https://www.ptcbio.com/
   - https://ir.ptcbio.com/
 ---
 

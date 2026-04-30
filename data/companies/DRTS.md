@@ -8,7 +8,7 @@ areas:
 nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
-  - https://ir.alphatau.com/
+  - https://www.alphatau.com/
   - https://clinicaltrials.gov/study/NCT04209894
 ---
 

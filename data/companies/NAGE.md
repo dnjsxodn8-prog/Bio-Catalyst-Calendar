@@ -9,8 +9,8 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://www.niagenbio.com/pipeline
-  - https://ir.niagenbio.com/news-releases
+  - https://www.niagenbio.com/
+  - https://www.niagenbio.com/
 ---
 
 # Niagen Bioscience (NAGE)

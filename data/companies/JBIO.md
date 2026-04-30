@@ -9,7 +9,7 @@ areas:
 nextCatalyst: 2026-09-30
 verified: 2026-04-27
 sources:
-  - https://www.jadebio.com/pipeline/
+  - https://jadebio.com/
   - https://ir.jadebio.com/
   - https://clinicaltrials.gov/study/NCT06096844
 ---

@@ -11,7 +11,6 @@ verified: 2026-04-27
 sources:
   - https://investors.bio-techne.com/press-releases/detail/513/bio-techne-releases-first-quarter-fiscal-2026-results
   - https://investors.bio-techne.com/press-releases/detail/524/bio-techne-releases-second-quarter-fiscal-2026-results
-  - https://finance.yahoo.com/sectors/healthcare/articles/expect-bio-technes-q3-2026-150043884.html
 ---
 
 # Bio-Techne (TECH)

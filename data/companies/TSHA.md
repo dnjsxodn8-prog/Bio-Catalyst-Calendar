@@ -13,7 +13,7 @@ sources:
   - https://ir.tayshagtx.com/news-releases/news-release-details/taysha-gene-therapies-announces-fda-breakthrough-therapy
   - https://ir.tayshagtx.com/news-releases/news-release-details/taysha-gene-therapies-reports-full-year-2025-financial-results
   - https://clinicaltrials.gov/study/NCT05606614
-  - https://clinicaltrials.ucsd.edu/trial/NCT06152237
+  - https://clinicaltrials.gov/study/NCT06152237
   - https://pubmed.ncbi.nlm.nih.gov/38254921/
 ---
 

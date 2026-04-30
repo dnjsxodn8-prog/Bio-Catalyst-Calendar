@@ -10,8 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://www.cormedix.com/pipeline
-  - https://investor.cormedix.com/news-releases
-  - https://www.fda.gov/drugs/drug-approvals-and-databases/defencath-taurolidine-and-heparin
+  - https://cormedix.com/
 ---
 
 # CorMedix (CRMD)

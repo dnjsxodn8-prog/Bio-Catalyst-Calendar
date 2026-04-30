@@ -10,7 +10,7 @@ nextCatalyst: 2026-04-03
 verified: 2026-04-29
 sources:
   - https://www.biogen.com/pipeline
-  - https://investors.biogen.com/news-releases
+  - https://biogen.com/investors
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2212948
 ---
 

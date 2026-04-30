@@ -9,7 +9,6 @@ areas:
 nextCatalyst: 2026-06-30
 verified: 2026-04-28
 sources:
-  - https://ir.trevitherapeutics.com/2025-06-02-Trevi-Therapeutics-Announces-Positive-Topline-Results-from-the-Phase-2b-CORAL-Trial-of-Haduvio-in-Patients-with-Idiopathic-Pulmonary-Fibrosis-Chronic-Cough
   - https://www.globenewswire.com/news-release/2026/03/17/3257652/0/en/Trevi-Therapeutics-Reports-Fourth-Quarter-and-Year-End-2025-Financial-Results-and-Provides-Business-Updates.html
 ---
 

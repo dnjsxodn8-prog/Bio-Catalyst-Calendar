@@ -8,9 +8,8 @@ areas:
 nextCatalyst: 2026-Q3
 verified: 2026-04-27
 sources:
-  - https://ir.pumabiotechnology.com/
+  - https://pumabiotechnology.com/
   - https://clinicaltrials.gov/study/NCT01526083
-  - https://www.accessdata.fda.gov/drugsatfda_docs/label/2020/208065s009lbl.pdf
 ---
 
 # Puma Biotechnology (PBYI)
