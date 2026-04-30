@@ -18,14 +18,17 @@ const TYPE_FILTERS = [
 
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
+const PAST_WINDOW_DAYS = 30;
+
 export default function Catalysts({ data, query, onPick }) {
   const { catalysts } = data;
   const [view, setView] = useState('timeline');
   const [filterType, setFilterType] = useState('all');
+  const [showOldPast, setShowOldPast] = useState(false);
 
-  const filtered = useMemo(() => {
+  const { filtered, hiddenOldCount } = useMemo(() => {
     const q = (query || '').trim().toLowerCase();
-    return catalysts
+    const all = catalysts
       .map((c) => ({ ...c, _d: dDelta(c.date) }))
       .filter((c) => c._d != null)
       .filter((c) => filterType === 'all' || c.type === filterType)
@@ -35,7 +38,11 @@ export default function Catalysts({ data, query, onPick }) {
         return blob.includes(q);
       })
       .sort((a, b) => a._d - b._d);
-  }, [catalysts, query, filterType]);
+
+    const hidden = all.filter((c) => c._d < -PAST_WINDOW_DAYS);
+    const visible = showOldPast ? all : all.filter((c) => c._d >= -PAST_WINDOW_DAYS);
+    return { filtered: visible, hiddenOldCount: hidden.length };
+  }, [catalysts, query, filterType, showOldPast]);
 
   return (
     <div className="flex flex-col gap-4">
@@ -70,6 +77,20 @@ export default function Catalysts({ data, query, onPick }) {
           <span className="mono text-[10.5px] text-ink-3 tracking-[0.1em] uppercase">
             {filtered.length} EVENTS
           </span>
+          {hiddenOldCount > 0 && (
+            <button
+              onClick={() => setShowOldPast((s) => !s)}
+              className={[
+                'h-[26px] px-2.5 rounded-md text-[11px] border transition-colors',
+                showOldPast
+                  ? 'bg-panel-2 text-ink border-line-2'
+                  : 'bg-transparent text-ink-3 border-line hover:text-ink hover:border-line-2',
+              ].join(' ')}
+              title={`${PAST_WINDOW_DAYS}일 이전 카탈리스트 ${hiddenOldCount}개`}
+            >
+              {showOldPast ? `지난 ${PAST_WINDOW_DAYS}일+ 숨기기` : `+ 지난 ${PAST_WINDOW_DAYS}일+ ${hiddenOldCount}개`}
+            </button>
+          )}
           <div className="flex gap-0.5 p-0.5 bg-bg-2 rounded-md border border-line">
             {[
               ['timeline', 'Timeline'],
