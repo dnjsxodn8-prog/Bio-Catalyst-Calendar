@@ -1,7 +1,13 @@
-# AI training crawlers — explicitly disallow.
-# These bots typically respect robots.txt voluntarily.
-# Edge-level blocking (Cloudflare "Block AI Scrapers and Crawlers") is the second layer.
+# spec 009 — 검색엔진은 공개 라우트만 인덱싱 허용. /app/* 는 가입자 전용.
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /sign-in
+Disallow: /sign-up
 
+Sitemap: https://biotechcatalystcalendar.vercel.app/sitemap.xml
+
+# AI 크롤러는 명시적으로 차단 (검색 인덱싱과는 별개).
 User-agent: GPTBot
 Disallow: /
 
@@ -29,22 +35,13 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
-User-agent: Googlebot-Extended
-Disallow: /
-
 User-agent: CCBot
 Disallow: /
 
 User-agent: Bytespider
 Disallow: /
 
-User-agent: FacebookBot
-Disallow: /
-
 User-agent: meta-externalagent
-Disallow: /
-
-User-agent: Meta-ExternalAgent
 Disallow: /
 
 User-agent: Applebot-Extended
@@ -57,11 +54,4 @@ User-agent: cohere-ai
 Disallow: /
 
 User-agent: Diffbot
-Disallow: /
-
-User-agent: Omgili
-Disallow: /
-
-# Search-engine indexing — also disallow (this is a personal dashboard, not a public catalog).
-User-agent: *
 Disallow: /

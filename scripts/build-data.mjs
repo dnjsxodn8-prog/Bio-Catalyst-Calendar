@@ -11,6 +11,8 @@ import yaml from 'yaml';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
+const SITE_URL = 'https://biotechcatalystcalendar.vercel.app';
+
 async function main() {
   const companies = await loadCompanies();
   const catalysts = await loadYamlBlock('data/catalysts.md', 'events');
@@ -28,11 +30,31 @@ async function main() {
   const outPath = path.join(ROOT, 'src/data.generated.json');
   await fs.writeFile(outPath, JSON.stringify(output, null, 2), 'utf8');
 
+  await writeSitemap();
+
   console.log(`✅ companies:   ${companies.length}`);
   console.log(`✅ catalysts:   ${catalysts.length}`);
   console.log(`✅ conferences: ${conferences.length}`);
   console.log(`✅ prices:      ${Object.keys(prices).length}`);
   console.log(`→ ${path.relative(ROOT, outPath)}`);
+  console.log('→ public/sitemap.xml');
+}
+
+async function writeSitemap() {
+  const today = new Date().toISOString().slice(0, 10);
+  // 공개 라우트만 (spec 009 §3). /app/* 는 Disallow 라 sitemap 에 포함 안 함.
+  const urls = ['/', '/catalysts', '/companies', '/conferences'];
+  const xml = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ...urls.map(
+      (u) =>
+        `  <url><loc>${SITE_URL}${u === '/' ? '/' : u}</loc><lastmod>${today}</lastmod><changefreq>${u === '/catalysts' ? 'daily' : 'weekly'}</changefreq></url>`
+    ),
+    '</urlset>',
+    '',
+  ].join('\n');
+  await fs.writeFile(path.join(ROOT, 'public/sitemap.xml'), xml, 'utf8');
 }
 
 async function loadCompanies() {

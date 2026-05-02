@@ -1,4 +1,5 @@
 import { Search, Sun, Moon, Menu } from 'lucide-react';
+import { UserButton } from '@clerk/clerk-react';
 
 const TITLES = {
   dashboard: ['대시보드', 'Mission Control'],
@@ -59,6 +60,11 @@ export default function Topbar({ tab, query, onQuery, theme, onTheme, onOpenSide
             <Moon className="w-4 h-4" strokeWidth={1.6} />
           )}
         </button>
+
+        <UserButton
+          afterSignOutUrl="/"
+          appearance={{ elements: { avatarBox: 'w-8 h-8' } }}
+        />
       </div>
     </header>
   );
