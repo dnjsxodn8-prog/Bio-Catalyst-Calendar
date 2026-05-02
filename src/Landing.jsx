@@ -22,13 +22,13 @@ export default function Landing() {
         <p className="mt-5 text-base md:text-lg text-ink-2 max-w-2xl leading-relaxed">
           PDUFA, 임상 readout, 학회 발표, 규제 결정 — 시총 $100M 이상 미국 biotech 와 빅파마의
           주요 카탈리스트 일정을 한 화면에서 관찰합니다. 회사별 메모, 약물 파이프라인, 임상
-          진행 상황은 가입 후 열람할 수 있습니다.
+          진행 상황은 가입 후 <span className="text-ink">무료로</span> 열람할 수 있습니다.
         </p>
         <div className="mt-7 flex flex-wrap items-center gap-3">
           <SignedOut>
             <SignInButton mode="modal" forceRedirectUrl="/app">
               <button className="h-11 px-5 rounded-md bg-ink text-bg text-sm font-semibold hover:opacity-90 transition-opacity">
-                로그인하고 전체 보기
+                무료로 시작하기
               </button>
             </SignInButton>
             <Link
@@ -47,6 +47,9 @@ export default function Landing() {
             </Link>
           </SignedIn>
         </div>
+        <SignedOut>
+          <p className="mt-3 text-[12px] text-ink-3">이메일 또는 Google · 30초 · 모든 기능 무료</p>
+        </SignedOut>
       </section>
 
       <section className="grid grid-cols-1 sm:grid-cols-3 gap-4">

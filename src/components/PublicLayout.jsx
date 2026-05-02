@@ -56,9 +56,10 @@ export default function PublicLayout() {
               </SignInButton>
               <Link
                 to="/sign-up"
+                title="이메일 또는 Google · 30초 · 모든 기능 무료"
                 className="h-8 px-3 rounded-md text-[13px] bg-ink text-bg hover:opacity-90 transition-opacity flex items-center"
               >
-                가입
+                무료 가입
               </Link>
             </SignedOut>
             <SignedIn>
