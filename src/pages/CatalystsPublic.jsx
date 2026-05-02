@@ -72,7 +72,7 @@ export default function CatalystsPublic() {
         <SignedOut>
           <SignInButton mode="modal" forceRedirectUrl="/app/catalysts">
             <button className="h-10 px-4 rounded-md bg-ink text-bg text-sm font-semibold hover:opacity-90 transition-opacity whitespace-nowrap">
-              로그인하고 전체 보기
+              무료로 시작하기
             </button>
           </SignInButton>
         </SignedOut>
