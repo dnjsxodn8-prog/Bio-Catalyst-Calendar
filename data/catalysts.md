@@ -279,15 +279,6 @@ events:
     phase: Phase 3
     sources: []
   - date: 2026-06-30
-    ticker: NTLA
-    event: Lonvo-Z Phase 3 HAE
-    type: Clinical Readout
-    company: Intellia
-    drug: Lonvo-Z
-    indication: HAE
-    phase: Phase 3
-    sources: []
-  - date: 2026-06-30
     ticker: WVE
     event: WVE-007 Phase 1 비만
     type: Clinical Readout
