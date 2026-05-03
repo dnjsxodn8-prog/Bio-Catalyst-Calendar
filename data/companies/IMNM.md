@@ -1,12 +1,12 @@
 ---
 ticker: IMNM
 company: Immunome
-mcap: 2000
+mcap: 2550
 modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.immunome.com/pipeline
   - https://immunome.com/

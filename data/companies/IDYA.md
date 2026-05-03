@@ -1,12 +1,12 @@
 ---
 ticker: IDYA
 company: IDEAYA Biosciences
-mcap: 1500
+mcap: 2500
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.ideayabio.com/news-releases/news-release-details/ideaya-biosciences-reports-fourth-quarter-and-full-year-2024
   - https://www.ideayabio.com/pipeline/

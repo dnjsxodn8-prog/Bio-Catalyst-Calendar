@@ -1,13 +1,13 @@
 ---
 ticker: INBX
 company: Inhibrx Biosciences
-mcap: 1000
+mcap: 1900
 modality: Protein/Enzyme
 areas:
   - Rare Disease
   - Oncology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.inhibrx.com/pipeline
   - https://clinicaltrials.gov/study/NCT04722523

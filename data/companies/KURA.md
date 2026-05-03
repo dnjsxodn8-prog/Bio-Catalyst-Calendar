@@ -1,13 +1,13 @@
 ---
 ticker: KURA
 company: Kura Oncology
-mcap: 1200
+mcap: 780
 modality: Small Molecule
 areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.kuraoncology.com/
   - https://clinicaltrials.gov/ct2/show/NCT04067336
@@ -16,15 +16,15 @@ sources:
 # Kura Oncology (KURA)
 
 ## 카탈리스트
-Ziftomenib NDA 제출·가속승인 결정 (NPM1 변이 재발/불응성 AML)
+Komzifti(ziftomenib) 2025-11-13 FDA 가속승인 완료 (R/R NPM1m AML). 출시 램프 + 조합요법(ven/aza) Phase 3 KOMET-017 진행.
 
 ## 회사 개요
-Menin-MLL 단백질-단백질 상호작용 억제제 전문 종양 바이오텍. Ziftomenib(KO-539)은 NPM1 변이 및 KMT2A 재배열 AML의 핵심 발암 경로 차단. Kyowa Kirin과 글로벌 공동개발·상업화 계약(계약금 $330M+). KOMET-007 Phase 2b에서 가속승인 신청 데이터 확보.
+Menin-MLL 단백질-단백질 상호작용 억제제 전문 종양 바이오텍. **Komzifti(ziftomenib) 2025-11-13 FDA 가속승인** — R/R NPM1m AML 첫 표적치료제. Kyowa Kirin과 글로벌 공동개발·상업화 계약(계약금 $330M+). KOMET-007 Phase 2b 데이터 기반 NDA → 승인.
 
-Menin 저해제 최초 NDA 신청 선점 경쟁 (Syndax의 revumenib과 경쟁).
+Menin 저해제로 Syndax revumenib(KMT2Ar AML)과 분획 시장 점유.
 
 ## 매출
-협업수익 (Kyowa Kirin 마일스톤)
+협업수익 (Kyowa Kirin 마일스톤) + Komzifti 출시 매출 (2025-Q4 첫 launch quarter, 초기 ~$2M)
 
 ## 플랫폼
 - Small Molecule (Menin-MLL PPI 저해제)
@@ -42,7 +42,7 @@ Oncology, Hematology (AML, 고형암)
 구축 중 (Kyowa Kirin 공동)
 
 ## 상업화 제품
-Ziftomenib: NDA 가속승인 기대 (2026 목표)
+**Komzifti (ziftomenib) — 2025-11-13 FDA 가속승인** (R/R NPM1m AML).
 
 ## 임상 디자인
 - 약물: Ziftomenib (KO-539)
@@ -86,4 +86,4 @@ Menin 단백질의 KMT2A 결합 포켓 점유 → Menin-MLL 복합체 형성 차
 - [Watts JM et al. Revumenib KMT2Ar AML. Nature (2024)](https://www.nature.com/articles/s41586-023-07011-2)
 
 ## 메모
-Revumenib(Syndax) 선발 승인 압박. NPM1 변이 틈새 시장 선점 필요. Kyowa Kirin 파트너십으로 자금·판매력 확보.
+Komzifti 2025-11-13 가속승인 — Revumenib(KMT2Ar) 대비 NPM1m 분획 선점 성공. Kyowa Kirin 파트너십으로 글로벌 출시. 후속 카탈리스트는 KOMET-017(ven/aza 병용 Phase 3) readout.

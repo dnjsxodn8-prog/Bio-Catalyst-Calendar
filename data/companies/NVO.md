@@ -1,14 +1,14 @@
 ---
 ticker: NVO
 company: Novo Nordisk
-mcap: 300000
+mcap: 195000
 modality: Peptide
 areas:
   - Obesity/Metabolic
   - Cardiovascular
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.novonordisk.com/investors.html
   - https://clinicaltrials.gov/study/NCT04982575

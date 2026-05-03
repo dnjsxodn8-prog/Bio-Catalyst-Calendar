@@ -1,13 +1,13 @@
 ---
 ticker: RCKT
 company: Rocket Pharmaceuticals
-mcap: 800
+mcap: 390
 modality: Gene Therapy
 areas:
   - Rare Disease
   - Hematology
 nextCatalyst: 2026-H2
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.rocketpharma.com/news-releases
   - https://rocketpharma.com/

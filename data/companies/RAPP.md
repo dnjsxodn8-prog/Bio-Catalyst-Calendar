@@ -1,14 +1,14 @@
 ---
 ticker: RAPP
 company: Rapport Therapeutics
-mcap: 800
+mcap: 1600
 modality: Small Molecule
 areas:
   - Neurology
   - Epilepsy
   - Psychiatry
 nextCatalyst: 2026-04-22
-verified: 2026-04-29
+verified: 2026-05-02
 sources: []
 ---
 

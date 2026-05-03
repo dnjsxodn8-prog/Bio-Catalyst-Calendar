@@ -71,8 +71,8 @@ VAX-24는 혈청형 커버리지 24가지로 기존 20가 대비 추가 4개 혈
 ## 사전 공개 임상
 - **VAX-24 성인 Phase 2 · NCT04674566 · Phase 2**
   결과: Positive (2022) — 24개 혈청형 모두에서 Prevnar 20 대비 비열등 또는 우월한 면역원성 확인
-- **VAX-31 성인 Phase 1/2 · NCT05573035 · Phase 1/2**
-  결과: 진행 중 — 안전성 1차 확인, 31개 혈청형 면역원성 데이터 수집 중
+- **VAX-31 성인 Phase 1/2 · NCT05573035 · TERMINATED (Phase 3 이행)**
+  결과: Phase 1/2 종료 — 안전성 및 면역원성 확인 후 Phase 3 OPUS-1/2/3 시험으로 이행. NCT05573035는 CT.gov 상 TERMINATED 처리됨.
 
 ## Modality
 **VAX-24 (24가 폐렴구균 접합 백신)**

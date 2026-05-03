@@ -1,13 +1,13 @@
 ---
 ticker: KPTI
 company: Karyopharm Therapeutics
-mcap: 161
+mcap: 200
 modality: Small Molecule
 areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.karyopharm.com/
   - https://clinicaltrials.gov/ct2/show/NCT03764618

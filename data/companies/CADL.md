@@ -1,12 +1,12 @@
 ---
 ticker: CADL
 company: Candel Therapeutics
-mcap: 362
+mcap: 470
 modality: Gene Therapy
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-receives-fda-regenerative-medicine-advanced
   - https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-presents-positive-phase-3-can-2409-results/

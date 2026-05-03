@@ -1,12 +1,12 @@
 ---
 ticker: VALN
 company: Valneva
-mcap: 920
+mcap: 460
 modality: Other
 areas:
   - Infectious Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://valneva.com/research-development/lyme-disease/
   - https://www.pfizer.com/news/press-release/press-release-detail/pfizer-and-valneva-announce-lyme-disease-vaccine-candidate

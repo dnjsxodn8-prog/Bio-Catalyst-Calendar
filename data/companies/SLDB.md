@@ -1,12 +1,12 @@
 ---
 ticker: SLDB
 company: Solid Biosciences
-mcap: 526
+mcap: 700
 modality: Gene Therapy
 areas:
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investors.solidbio.com/news-releases/news-release-details/solid-biosciences-announces-positive-feedback-type-c-meeting-fda
   - https://www.globenewswire.com/news-release/2026/03/11/3254054/0/en/Solid-Biosciences-Provides-Interim-Positive-Clinical-Update-on-Phase-1-2-INSPIRE-DUCHENNE-Trial.html

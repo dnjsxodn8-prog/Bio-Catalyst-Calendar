@@ -1,13 +1,13 @@
 ---
 ticker: EDIT
 company: Editas Medicine
-mcap: 195
+mcap: 280
 modality: Gene Therapy
 areas:
   - Rare Disease
   - Hematology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://editasmedicine.com/investors
   - https://clinicaltrials.gov/study/NCT04853576

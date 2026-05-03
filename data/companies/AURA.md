@@ -1,13 +1,13 @@
 ---
 ticker: AURA
 company: Aura Biosciences
-mcap: 356
+mcap: 450
 modality: Other
 areas:
   - Oncology
   - Ophthalmology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.aurabiosciences.com/news-releases/news-release-details/aura-biosciences-announces-first-patient-dosed-global-phase-3
 ---

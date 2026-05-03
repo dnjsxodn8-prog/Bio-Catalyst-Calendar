@@ -1,13 +1,13 @@
 ---
 ticker: INSM
 company: Insmed
-mcap: 18000
+mcap: 28800
 modality: Small Molecule
 areas:
   - Rare Disease
   - Respiratory
 nextCatalyst: 2026-05-01
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://insmed.com/
   - https://clinicaltrials.gov/study/NCT04594369
@@ -17,12 +17,12 @@ sources:
 # Insmed (INSM)
 
 ## 카탈리스트
-Brensocatib (DPP1 억제제) PDUFA — 2026년 5월 (bronchiectasis 1차 승인)
+Brensocatib(Brinsupri) NCFBE 2025-08-12 FDA 승인 완료 — 출시 램프 진행 중. TPIP PAH Phase 3 readout 후속 카탈리스트.
 
 ## 회사 개요
-희귀 폐질환 전문 바이오파마. 상업 제품 ARIKAYCE(amikacin liposome inhalation suspension)는 성인 MAC 폐질환(NTM) 치료제. Brensocatib(경구 DPP1 억제제)는 비낭성 섬유증 기관지확장증(NCFBE)에서 Phase 3 ASPEN 성공, FDA NDA 승인 검토 중. Treprostinil palmitil inhalation (TPI), TPIP 등 폐동맥고혈압 파이프라인 보유.
+희귀 폐질환 전문 바이오파마. 상업 제품 ARIKAYCE(amikacin liposome inhalation suspension)는 성인 MAC 폐질환(NTM) 치료제. **Brinsupri(brensocatib, 경구 DPP1 억제제) — 2025-08-12 FDA 승인** (NCFBE 1차 치료제, 시장 최초). Treprostinil palmitil inhalation (TPI), TPIP 등 폐동맥고혈압 파이프라인 보유.
 
-Brensocatib 성공 시 희귀·만성 호흡기 프랜차이즈로 도약.
+ARIKAYCE + Brinsupri 이중 희귀·만성 호흡기 프랜차이즈 확립.
 
 ## 매출
 $363M (FY2024, ARIKAYCE 중심)
@@ -45,7 +45,7 @@ Rare Disease (NTM, Bronchiectasis), Respiratory (PAH)
 예 - 미국 직판
 
 ## 상업화 제품
-ARIKAYCE. Brensocatib NDA PDUFA 2026년 5월.
+ARIKAYCE (NTM, MAC 폐질환). **Brinsupri (brensocatib) — 2025-08-12 FDA 승인, NCFBE 1차 승인 치료제.**
 
 ## 임상 디자인
 - **ASPEN (NCT04594369) · Phase 3 · Brensocatib NCFBE**
@@ -65,7 +65,7 @@ ARIKAYCE. Brensocatib NDA PDUFA 2026년 5월.
 - 병리: 호중구 주도 만성 기도 염증. DPP1(호중구 세린 프로테아제 활성화 효소) 과활성 → NE, PR3, CG 과다 → 기도 파괴.
 
 ## 기존 치료제
-FDA 승인 치료제 없음 (2026년 brensocatib 이전). 항생제, 물리치료, 점액용해제 오프라벨 사용. Brensocatib이 최초 승인 예상 치료제.
+2025-08-12 Brinsupri(brensocatib) 승인 전까지 FDA 승인 치료제 없음. 항생제, 물리치료, 점액용해제 오프라벨 사용. Brinsupri가 최초 승인 NCFBE 치료제.
 
 ## 사전 공개 임상
 - **WILLOW Phase 2 (NCT03218917)**
@@ -89,4 +89,4 @@ DPP1은 호중구 세린 프로테아제(NE, PR3, CG)의 전구체 활성화 효
 - [Chalmers JD et al. WILLOW Phase 2. NEJM (2020)](https://www.nejm.org/doi/full/10.1056/NEJMoa2001598)
 
 ## 메모
-Brensocatib 승인 시 최초 NCFBE 치료제. 시장 규모 최대 $3B+ 추정. ARIKAYCE+브렌소카팁 이중 프랜차이즈.
+Brinsupri(brensocatib) 2025-08-12 FDA 승인 — 최초 NCFBE 치료제. 시장 규모 최대 $3B+ 추정. ARIKAYCE+Brinsupri 이중 프랜차이즈 본격 가동.

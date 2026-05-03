@@ -1,12 +1,12 @@
 ---
 ticker: TNGX
 company: Tango Therapeutics
-mcap: 2300
+mcap: 3050
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-01
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.tangotx.com/news-releases/news-release-details/tango-therapeutics-reports-fourth-quarter-and-full-year-2025/
   - https://www.globenewswire.com/news-release/2025/10/23/3171895/0/en/Tango-Therapeutics-Reports-Positive-Data-from-Ongoing-Phase-1-2-Study-with-Vopimetostat-TNG462-in-Patients-with-MTAP-deleted-Cancers.html

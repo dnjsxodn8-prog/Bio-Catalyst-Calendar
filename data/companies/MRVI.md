@@ -1,12 +1,12 @@
 ---
 ticker: MRVI
 company: Maravai LifeSciences
-mcap: 913
+mcap: 1400
 modality: Tool/Platform
 areas:
   - Other
 nextCatalyst: null
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.maravai.com/
 ---

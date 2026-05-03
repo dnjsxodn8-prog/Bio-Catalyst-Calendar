@@ -1,12 +1,12 @@
 ---
 ticker: PALI
 company: Palisade Bio
-mcap: 243
+mcap: 330
 modality: Small Molecule
 areas:
   - Gastrointestinal
 nextCatalyst: 2026-Q3
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://palisadebio.com/
   - https://clinicaltrials.gov/study/NCT04749017

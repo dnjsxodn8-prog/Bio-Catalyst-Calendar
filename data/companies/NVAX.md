@@ -1,12 +1,12 @@
 ---
 ticker: NVAX
 company: Novavax
-mcap: 2000
+mcap: 1300
 modality: Protein/Enzyme
 areas:
   - Infectious Disease
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://novavax.com/press-releases
   - https://clinicaltrials.gov/study/NCT06229730

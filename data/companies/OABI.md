@@ -1,14 +1,14 @@
 ---
 ticker: OABI
 company: OmniAb
-mcap: 274
+mcap: 200
 modality: Tool/Platform
 areas:
   - Oncology
   - Immunology
   - Other
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.omniab.com/
   - https://www.omniab.com/

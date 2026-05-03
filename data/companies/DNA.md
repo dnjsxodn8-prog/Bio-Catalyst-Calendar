@@ -1,12 +1,12 @@
 ---
 ticker: DNA
 company: Ginkgo Bioworks
-mcap: 378
+mcap: 630
 modality: Tool/Platform
 areas:
   - Other
 nextCatalyst: null
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.ginkgobioworks.com/
   - https://www.ginkgobioworks.com/

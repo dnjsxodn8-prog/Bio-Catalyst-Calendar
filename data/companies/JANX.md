@@ -1,12 +1,12 @@
 ---
 ticker: JANX
 company: Janux Therapeutics
-mcap: 2500
+mcap: 870
 modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.januxrx.com/
   - https://www.januxrx.com/

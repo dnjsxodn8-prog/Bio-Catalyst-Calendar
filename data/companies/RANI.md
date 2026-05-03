@@ -1,13 +1,13 @@
 ---
 ticker: RANI
 company: Rani Therapeutics
-mcap: 158
+mcap: 120
 modality: Other
 areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2026-H2
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ranitherapeutics.com/
   - https://www.ranitherapeutics.com/pipeline

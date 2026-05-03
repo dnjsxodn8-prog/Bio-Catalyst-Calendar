@@ -1,12 +1,12 @@
 ---
 ticker: REPL
 company: Replimune Group
-mcap: 666
+mcap: 210
 modality: Other
 areas:
   - Oncology
 nextCatalyst: 2026-H1
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://replimune.com/pipeline
   - https://www.replimune.com/pipeline/
@@ -15,10 +15,12 @@ sources:
 # Replimune Group (REPL)
 
 ## 카탈리스트
-RP1 (vusolimogene oderparepvec, v-HSV-1 + anti-CTLA-4) + nivolumab Phase 2 IGNYTE 결과 발표 및 BLA 제출 가능성 검토 (2026 H1 예정, 흑색종)
+RP1 (vusolimogene oderparepvec) melanoma BLA — **2026-04 FDA CRL (Complete Response Letter, 거절)**. 재제출 전략 평가 중. 주가 -56% 급락.
 
 ## 회사 개요
 Replimune Group은 종양용해바이러스(oncolytic virus, OV) 플랫폼 RPxyz를 개발하는 종양학 전문 바이오텍. 허피스 심플렉스 바이러스 1형(HSV-1)을 유전자 조작하여 종양 선택적 복제·직접 세포 사멸과 면역 자극을 동시 달성하는 GALX 플랫폼 기반. 대표 파이프라인 RP1(vusolimogene oderparepvec, 이하 vusolio)은 GM-CSF 및 anti-CTLA-4(CTLA4-Ig 융합 단백질)를 탑재하여 항종양 면역 활성화. Bristol Myers Squibb의 nivolumab과 병용 임상 진행.
+
+**[2026-04 업데이트]** RP1 흑색종 BLA에 대해 FDA CRL(거절) 수령. 재제출 또는 다른 적응증 pivot 전략 검토 중. 주가 -56%.
 
 RP2(HSV-1+항 CTLA-4 융합체), RP3(HSV-1+IL-12+anti-CTLA-4+CD80), RP4(신경교종) 등 2세대 플랫폼도 초기 임상 중.
 
@@ -83,4 +85,4 @@ Pembrolizumab, Nivolumab (1차), Ipilimumab+Nivolumab (1차 병용), BRAF 억제
 - [Chesney J et al. RP1 + nivolumab IGNYTE Phase 2 (NEJM Evidence, 2024)](https://evidence.nejm.org)
 
 ## 메모
-IGNYTE Phase 2 데이터 (ORR 33%, PD-1 불응 흑색종)가 BLA 제출 근거로 충분한지 FDA와 논의 중. T-VEC 이후 두 번째 OV 승인 기대. BMS(nivolumab) 파트너십 유지가 상업화 효율화 핵심. mcap ~$666M, 이진법 위험 내포.
+**[2026-04 업데이트]** RP1 melanoma BLA가 FDA CRL을 받으며 리드 자산의 첫 번째 승인 경로 차단. CRL 구체 사유는 공개되지 않았으며(CMC/임상 데이터 부족 등 가능), 회사는 FDA와 논의 후 재제출(resubmission) 전략 또는 다른 적응증 우선 전략을 검토 중. 주가 -56% 급락. BMS(nivolumab) 파트너십 및 RP2/RP3 2세대 파이프라인이 중기 옵션. T-VEC 이후 두 번째 OV 승인 기대는 일단 후퇴.

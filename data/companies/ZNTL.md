@@ -1,12 +1,12 @@
 ---
 ticker: ZNTL
 company: Zentalis Pharmaceuticals
-mcap: 149
+mcap: 290
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.zentalis.com/news-releases/news-release-details/zentalis-pharmaceuticals-reports-full-year-2025-financial
   - https://ir.zentalis.com/news-releases/news-release-details/zentalis-pharmaceuticals-provides-corporate-update-and

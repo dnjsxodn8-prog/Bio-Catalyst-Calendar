@@ -1,14 +1,14 @@
 ---
 ticker: HRTX
 company: Heron Therapeutics
-mcap: 182
+mcap: 240
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
-  - https://clinicaltrials.gov/study/NCT03237572
+  - https://clinicaltrials.gov/study/NCT03974932
 ---
 
 # Heron Therapeutics (HRTX)
@@ -47,7 +47,7 @@ SUSTOL (granisetron ER) - CINV 예방 (FDA 2016 승인)
 
 ## 임상 디자인
 - 시험명: HTX-011 EPOCH 연구 (주요 관절 수술 확장)
-- NCT: NCT03237572
+- NCT: NCT03974932
 - Phase: Phase 3
 - N: 약 418명
 - 대상: 전슬관절치환술(TKA) 환자
@@ -67,7 +67,7 @@ SUSTOL (granisetron ER) - CINV 예방 (FDA 2016 승인)
 오피오이드(oxycodone, hydrocodone), liposomal bupivacaine(Exparel), IV acetaminophen. ZYNRELEF는 부피바카인+멜록시캄(COX 억제) 복합으로 오피오이드 필요량 감소.
 
 ## 사전 공개 임상
-- **EPOCH TKA Phase 3 · NCT03237572 · Phase 3**
+- **EPOCH TKA Phase 3 · NCT03974932 · Phase 3**
   결과: Positive - 72시간 통증 AUC 감소, 오피오이드 사용량 38% 감소. FDA 승인 근거.
 - **HTX-011 어깨 수술 Phase 3 · NCT03295981 · Phase 3**
   결과: Positive - 통증 개선, 오피오이드 감소 확인 (2020)

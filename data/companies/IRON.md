@@ -1,13 +1,13 @@
 ---
 ticker: IRON
 company: Disc Medicine
-mcap: 1800
+mcap: 2550
 modality: Small Molecule
 areas:
   - Hematology
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.discmedicine.com/pipeline
   - https://ir.discmedicine.com/

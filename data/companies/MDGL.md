@@ -1,13 +1,13 @@
 ---
 ticker: MDGL
 company: Madrigal Pharmaceuticals
-mcap: 6000
+mcap: 11800
 modality: Small Molecule
 areas:
   - Gastrointestinal
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.madrigalpharma.com/news-releases
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MDGL&type=10-K

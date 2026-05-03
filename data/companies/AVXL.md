@@ -1,13 +1,13 @@
 ---
 ticker: AVXL
 company: Anavex Life Sciences
-mcap: 431
+mcap: 310
 modality: Small Molecule
 areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/01/06/3213494/29248/en/Anavex-Life-Sciences-Receives-FDA-Feedback-on-Alzheimer-s-Disease-Program.html
   - https://anavex.com/news/anavex-blarcamesine-brain-volume-alzheimers-adpd-2026/

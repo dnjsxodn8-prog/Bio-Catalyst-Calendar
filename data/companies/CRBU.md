@@ -12,6 +12,7 @@ sources:
   - https://www.cariboubio.com/pipeline
   - https://cariboubio.com/investors
   - https://clinicaltrials.gov/study/NCT04637763
+  - https://clinicaltrials.gov/study/NCT05722418
 ---
 
 # Caribou Biosciences (CRBU)
@@ -67,7 +68,7 @@ Axicabtagene ciloleucel (Yescarta, Kite/Gilead), Tisagenlecleucel (Kymriah, Nova
 ## 사전 공개 임상
 - **ANTLER · NCT04637763 · Phase 1**
   결과: 2023-2024 ASH — 단일 용량 후 ORR 60%, CRR 40% (6/15명). PD-1 KO로 동종 CAR-T 최초 의미 있는 반응률 제시. GvHD 없음.
-- **CB-011 (BCMA, 다발성 골수종) · NCT05564520 · Phase 1**
+- **CB-011 CaMMouflage (BCMA, 다발성 골수종) · NCT05722418 · Phase 1 (RMAT)**
   결과: 2025 ASH 초기 데이터 — 초기 안전성 확인, 반응 관찰 중.
 
 ## Modality

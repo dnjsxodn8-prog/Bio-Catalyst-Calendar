@@ -1,12 +1,12 @@
 ---
 ticker: NBP
 company: NovaBridge Biosciences
-mcap: 404
+mcap: 280
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-H2
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.novabridge.com/
 ---

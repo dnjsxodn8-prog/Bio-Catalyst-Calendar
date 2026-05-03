@@ -1,13 +1,13 @@
 ---
 ticker: ARCT
 company: Arcturus Therapeutics
-mcap: 202
+mcap: 250
 modality: mRNA
 areas:
   - Infectious Disease
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.arcturusrx.com/news-releases/news-release-details/arcturus-therapeutics-announces-fourth-quarter-and-fiscal-year-1
   - https://www.businesswire.com/news/home/20260303197744/en/Arcturus-Therapeutics-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results-and-Pipeline-Progress

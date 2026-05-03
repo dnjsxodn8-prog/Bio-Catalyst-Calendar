@@ -11,7 +11,7 @@ verified: 2026-04-27
 sources:
   - https://ir.c4therapeutics.com/news-releases/news-release-details/c4-therapeutics-announces-2025-milestones-across-clinical
   - https://www.globenewswire.com/news-release/2025/01/14/3009167/0/en/C4-Therapeutics-Announces-2025-Milestones-Across-Clinical-Portfolio-of-Degrader-Medicines-Pursuing-Targets-of-High-Unmet-Need-in-Oncology.html
-  - https://clinicaltrials.gov/study/NCT05180474
+  - https://clinicaltrials.gov/study/NCT07280013
 ---
 
 # C4 Therapeutics (CCCC)
@@ -50,10 +50,11 @@ Roche 협업 마일스톤·수익 분배 (주요)
 
 ## 임상 디자인
 - 약물: Cemsidomide (CFT7455; IKZF1/3 표적 단백질 분해제)
-- NCT: NCT05180474 (MOMENTUM 시험)
-- Phase: Phase 1/2 → Phase 2 확장 (다발성 골수종)
-- 디자인: Open-label, dose-escalation → 확장 코호트; Roche와 공동 운영
-- N: 정보 미입력 (Phase 2 코호트 확장 중)
+- NCT: NCT07280013 (MOMENTUM Phase 2 신규 시험, 2026년 2월 개시)
+- ※ 구 시험 NCT05180474 (MOMENTUM Phase 1/2): TERMINATED — 신규 Phase 2로 대체됨
+- Phase: Phase 2 (다발성 골수종; 현재 RECRUITING)
+- 디자인: Open-label, 확장 코호트; Roche와 공동 운영
+- N: 정보 미입력 (Phase 2 신규 등록 중)
 - Primary endpoint: ORR (객관적 반응률)
 - Secondary endpoint: DOR, PFS, 안전성·내약성
 
@@ -69,8 +70,8 @@ Roche 협업 마일스톤·수익 분배 (주요)
 다라투무맙(Darzalex, J&J), 레날리도마이드/포말리도마이드(Revlimid/Pomalyst, BMS), 카르필조밉(Kyprolis, Amgen), 이사툭시맙(Sarclisa, Sanofi). Cemsidomide는 기존 IMiD 내성 환자에서도 CRBN 결합 방식 차별화로 효과 기대.
 
 ## 사전 공개 임상
-- **Cemsidomide (CFT7455) · MOMENTUM · NCT05180474 · Phase 1/2**
-  결과: 2024 ASH — Phase 1 데이터: R/R MM에서 ORR 42%(포말리도마이드 내성 포함); IKZF1/3 >95% 분해 확인; 주요 부작용: 호중구감소증
+- **Cemsidomide (CFT7455) · MOMENTUM Phase 1/2 · NCT05180474 · TERMINATED**
+  결과: 2024 ASH — Phase 1 데이터: R/R MM에서 ORR 42%(포말리도마이드 내성 포함); IKZF1/3 >95% 분해 확인; 주요 부작용: 호중구감소증. Phase 1/2 시험 종료 후 신규 Phase 2(NCT07280013) 2026년 2월 개시.
 - **CFT1946 · NCT05512208 · Phase 1/2 (BRAF V600 고형암)**
   상태: 진행 중 (2025 ASCO 데이터 발표 예정)
 

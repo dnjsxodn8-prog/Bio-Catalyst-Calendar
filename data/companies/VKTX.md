@@ -7,7 +7,7 @@ areas:
   - Obesity/Metabolic
   - Liver Disease
   - Rare Disease
-nextCatalyst: 2026-06-30
+nextCatalyst: 2026-12-31
 verified: 2026-04-28
 sources:
   - https://vikingtherapeutics.com/pipeline/overview/

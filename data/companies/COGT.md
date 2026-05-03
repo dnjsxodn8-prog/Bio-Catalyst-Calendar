@@ -1,12 +1,12 @@
 ---
 ticker: COGT
 company: Cogent Biosciences
-mcap: 700
+mcap: 6250
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-02
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://cogentbio.com/pipeline/
   - https://cogentbio.com/pipeline

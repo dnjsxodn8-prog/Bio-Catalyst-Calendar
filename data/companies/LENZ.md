@@ -1,12 +1,12 @@
 ---
 ticker: LENZ
 company: LENZ Therapeutics
-mcap: 365
+mcap: 280
 modality: Small Molecule
 areas:
   - Ophthalmology
 nextCatalyst: 2025-10-01
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.lenz-tx.com/news-events/press-releases/detail/39/lenz-therapeutics-announces-us-fda-approval-of-vizz-for-the-treatment-of-presbyopia
   - https://ir.lenz-tx.com/news-events/press-releases/detail/11/lenz-therapeutics-announces-positive-topline-data-from-phase-3-clarity-presbyopia-trials

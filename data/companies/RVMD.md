@@ -1,12 +1,12 @@
 ---
 ticker: RVMD
 company: Revolution Medicines
-mcap: 6500
+mcap: 29700
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources: []
 ---
 

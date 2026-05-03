@@ -1,13 +1,13 @@
 ---
 ticker: MRNA
 company: Moderna
-mcap: 12000
+mcap: 18000
 modality: mRNA
 areas:
   - Infectious Disease
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.modernatx.com/research
   - https://www.modernatx.com/

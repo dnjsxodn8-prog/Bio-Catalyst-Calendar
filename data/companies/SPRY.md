@@ -1,13 +1,13 @@
 ---
 ticker: SPRY
 company: ARS Pharmaceuticals
-mcap: 1500
+mcap: 850
 modality: Small Molecule
 areas:
   - Immunology
   - Allergy
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/03/09/3251623/0/en/ARS-Pharmaceuticals-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Updates-on-neffy-epinephrine-nasal-spray-Commercialization.html
   - https://ir.ars-pharma.com/news-releases/news-release-details/ars-pharmaceuticals-reports-third-quarter-2025-financial-results

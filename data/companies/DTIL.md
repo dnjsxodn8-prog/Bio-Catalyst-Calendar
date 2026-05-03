@@ -1,13 +1,13 @@
 ---
 ticker: DTIL
 company: Precision BioSciences
-mcap: 111
+mcap: 190
 modality: Gene Therapy
 areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://precisionbiosciences.com/
   - https://clinicaltrials.gov/study/NCT04768374

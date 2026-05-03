@@ -1,13 +1,13 @@
 ---
 ticker: BIIB
 company: Biogen
-mcap: 20000
+mcap: 27600
 modality: Antibody
 areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-04-03
-verified: 2026-04-29
+verified: 2026-05-02
 sources:
   - https://www.biogen.com/pipeline
   - https://biogen.com/investors

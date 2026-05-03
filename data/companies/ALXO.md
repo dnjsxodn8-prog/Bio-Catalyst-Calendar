@@ -1,12 +1,12 @@
 ---
 ticker: ALXO
 company: ALX Oncology Holdings
-mcap: 290
+mcap: 230
 modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.alxoncology.com/news-releases/news-release-details/alx-oncology-presents-positive-updated-data-aspen-06-phase-2
   - https://ir.alxoncology.com/news-releases/news-release-details/new-data-demonstrate-cd47-expression-level-helps-predict

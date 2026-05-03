@@ -1,12 +1,12 @@
 ---
 ticker: LNTH
 company: Lantheus Holdings
-mcap: 10000
+mcap: 5550
 modality: Diagnostic
 areas:
   - Oncology
 nextCatalyst: 2026-05-07
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investor.lantheus.com/
 ---
@@ -14,7 +14,10 @@ sources:
 # Lantheus Holdings (LNTH)
 
 ## 카탈리스트
-2026-05-07 Q1 2026 실적 발표. 2026-08-13 MK-6240 (tau PET, 알츠하이머) PDUFA. 후기 파이프라인 PNT2003(NET, Octevy) BLA 심사 진행.
+- 2026-05-07 Q1 2026 실적 발표
+- 2026-06-29 LNTH-2501 (Ga-68 edotreotide) NET PDUFA — **연기됨** (원 PDUFA 2026-03-06 → 연기)
+- 2026-08-13 MK-6240 (tau PET, 알츠하이머) PDUFA
+- PNT2003 (Octevy, Lu-DOTA-TATE) BLA 심사 진행 중
 
 ## 회사 개요
 미국 방사성의약품(Radiopharmaceutical) 영상진단 선도 기업. PSMA PET 영상제 PYLARIFY (piflufolastat F-18)가 전립선암 진단·재발 평가 표준으로 정착. FY2025 매출 $1.54B. PNT2002(mCRPC 치료제) 개발 포기 후 전략 재편: Evergreen Theragnostics·Life Molecular Imaging 인수로 파이프라인 확장. PYLARIFY 경쟁 압력·법적 리스크(증권 집단소송) 존재.

@@ -1,13 +1,13 @@
 ---
 ticker: ENLV
 company: Enlivex Therapeutics
-mcap: 271
+mcap: 200
 modality: Cell Therapy
 areas:
   - Immunology
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT05060445
 ---

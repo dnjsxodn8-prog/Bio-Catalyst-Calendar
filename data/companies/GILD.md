@@ -1,14 +1,14 @@
 ---
 ticker: GILD
 company: Gilead Sciences
-mcap: 100000
+mcap: 163000
 modality: Small Molecule
 areas:
   - Oncology
   - Immunology
   - Infectious Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.gilead.com/science-and-medicine/pipeline
   - https://investors.gilead.com/financial-information/annual-reports

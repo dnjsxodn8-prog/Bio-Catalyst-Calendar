@@ -1,13 +1,13 @@
 ---
 ticker: QGEN
 company: Qiagen
-mcap: 10000
+mcap: 7050
 modality: Diagnostic
 areas:
   - Oncology
   - Infectious Disease
 nextCatalyst: 2026-Q3
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.qiagen.com/us/newsroom/
 ---

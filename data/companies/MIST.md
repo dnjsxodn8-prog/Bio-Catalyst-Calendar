@@ -1,12 +1,12 @@
 ---
 ticker: MIST
 company: Milestone Pharmaceuticals
-mcap: 161
+mcap: 220
 modality: Small Molecule
 areas:
   - Cardiovascular
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT04462393
 ---

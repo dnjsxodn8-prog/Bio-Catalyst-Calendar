@@ -1,12 +1,12 @@
 ---
 ticker: ARVN
 company: Arvinas
-mcap: 870
+mcap: 670
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-05
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.arvinas.com/news-releases/news-release-details/arvinas-and-pfizer-announce-positive-topline-results-phase-3
   - https://www.globenewswire.com/news-release/2025/08/08/3130368/0/en/Arvinas-Announces-FDA-Acceptance-of-the-New-Drug-Application-for-Vepdegestrant-for-the-Treatment-of-ESR1m-ER-HER2-Advanced-Breast-Cancer.html

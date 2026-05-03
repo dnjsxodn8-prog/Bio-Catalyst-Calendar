@@ -5,15 +5,6 @@
 
 ```yaml
 events:
-  - date: 2026-01-10
-    ticker: ATRA
-    event: Tab-cel (Ebvallo) EBV+ PTLD PDUFA
-    type: PDUFA
-    company: Atara
-    drug: Tabelecleucel
-    indication: EBV+ PTLD
-    phase: BLA
-    sources: []
   - date: 2026-02-21
     ticker: VNDA
     event: Bysanti 승인됨 (2/20 조기 승인)
@@ -22,7 +13,8 @@ events:
     drug: Bysanti
     indication: Schizophrenia
     phase: NDA
-    sources: []
+    sources:
+      - https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-approval-of-bysanti-milsaperidone-for-the-treatment-of-bipolar-i-disorder-and-schizophrenia---a-new-chemical-entity-opening-new-horizons-in-psychiatric-innovation-302693941.html
   - date: 2026-02-24
     ticker: REGN
     event: Dupixent AFRS 승인됨
@@ -31,7 +23,8 @@ events:
     drug: Dupixent
     indication: AFRS
     phase: sBLA
-    sources: []
+    sources:
+      - https://investor.regeneron.com/news-releases/news-release-details/dupixentr-dupilumab-approved-us-first-and-only-medicine-allergic/
   - date: 2026-03-06
     ticker: LNTH
     event: PYLARIFY TruVu 승인됨
@@ -40,7 +33,8 @@ events:
     drug: PYLARIFY
     indication: PSMA PET
     phase: sNDA
-    sources: []
+    sources:
+      - https://investor.lantheus.com/news-releases/news-release-details/lantheus-announces-fda-approval-pylarify-truvutm-piflufolastat-f
   - date: 2026-03-06
     ticker: BMY
     event: Sotyktu PsA 승인됨
@@ -49,25 +43,18 @@ events:
     drug: Sotyktu
     indication: Psoriatic Arthritis
     phase: sNDA
-    sources: []
-  - date: 2026-03-16
-    ticker: ALDX
-    event: Reproxalap PDUFA
-    type: PDUFA
-    company: Aldeyra
-    drug: Reproxalap
-    indication: Dry eye
-    phase: NDA
-    sources: []
+    sources:
+      - https://news.bms.com/news/corporate-financial/2026/U-S--FDA-Approves-Bristol-Myers-Squibbs-Sotyktu-deucravacitinib-for-the-Treatment-of-Adults-with-Active-Psoriatic-Arthritis/default.aspx
   - date: 2026-03-20
     ticker: RYTM
-    event: Setmelanotide 시상하부 비만 PDUFA
+    event: Setmelanotide 시상하부 비만 승인됨 (2026-03-19)
     type: PDUFA
     company: Rhythm
     drug: IMCIVREE
     indication: Hypothalamic Obesity
     phase: sNDA
-    sources: []
+    sources:
+      - https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-announces-fda-approval-of-imcivree-0
   - date: 2026-03-27
     ticker: RCKT
     event: KRESLADI LAD-I 승인됨
@@ -76,16 +63,18 @@ events:
     drug: KRESLADI
     indication: LAD-I
     phase: BLA
-    sources: []
+    sources:
+      - https://ir.rocketpharma.com/news-releases/news-release-details/rocket-pharmaceuticals-announces-fda-approval-kresladitm
   - date: 2026-04-03
     ticker: BIIB
-    event: Nusinersen 고용량 SMA FDA 결정
+    event: Nusinersen 고용량 SMA 승인됨 (2026-03-30)
     type: PDUFA
     company: Biogen
     drug: Nusinersen
     indication: SMA
     phase: sNDA
-    sources: []
+    sources:
+      - https://investors.biogen.com/news-releases/news-release-details/fda-approves-new-high-dose-regimen-spinrazar-nusinersen-spinal
   - date: 2026-04-10
     ticker: LLY
     event: Foundayo (orforglipron) 비만 NDA 승인됨 (CNPV 가속, 원 PDUFA)
@@ -99,49 +88,54 @@ events:
       - https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program
   - date: 2026-04-22
     ticker: XENE
-    event: Azetukalner X-TOLE2 AAN 발표
+    event: Azetukalner X-TOLE2 AAN 발표 (Positive — 53.2% seizure reduction vs 10.4% placebo)
     type: Conference
     company: Xenon
     drug: Azetukalner
     indication: Focal Seizures
     phase: Phase 3
-    sources: []
+    sources:
+      - https://investor.xenon-pharma.com/news-releases/news-release-details/xenon-presents-azetukalner-phase-3-x-tole2-study-results-and-48
   - date: 2026-04-22
     ticker: RAPP
-    event: RAP-219 AAN 2026 발표
+    event: RAP-219 AAN 2026 발표 (Positive — 90% median seizure reduction at follow-up weeks 9-12)
     type: Conference
     company: Rapport
     drug: RAP-219
     indication: Epilepsy
     phase: Phase 2
-    sources: []
+    sources:
+      - https://investors.rapportrx.com/news-releases/news-release-details/rapport-therapeutics-present-new-phase-2-treatment-follow-data
   - date: 2026-04-22
     ticker: KYTX
-    event: KYV-101 MG/SPS/MS AAN 발표
+    event: "KYV-101 MG/SPS/MS AAN 발표 (Positive — KYSA-8 SPS: 모든 1차·2차 endpoint 충족, 81% 유지 off immunotherapy)"
     type: Conference
     company: Kyverna
     drug: KYV-101
     indication: Autoimmune Neurology
     phase: Phase 2
-    sources: []
+    sources:
+      - https://ir.kyvernatx.com/news-releases/news-release-details/kyverna-presents-registrational-trial-primary-analysis-miv-cel
   - date: 2026-04-22
     ticker: CAPR
-    event: HOPE-3 Phase 3 AAN 발표
+    event: HOPE-3 Phase 3 AAN 발표 (Positive — PUL 1차 endpoint 충족, 심장 섬유화 개선 p=0.022)
     type: Conference
     company: Capricor
     drug: CAP-1002
     indication: DMD
     phase: Phase 3
-    sources: []
+    sources:
+      - https://www.capricor.com/investors/news-events/press-releases/detail/341/capricor-therapeutics-announces-late-breaking-presentation
   - date: 2026-04-30
     ticker: AXSM
-    event: AXS-05 알츠하이머 초조 PDUFA
+    event: AXS-05 알츠하이머 초조 승인됨 (2026-04-30)
     type: PDUFA
     company: Axsome
     drug: AXS-05 (Auvelity)
     indication: AD Agitation
     phase: sNDA
-    sources: []
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/30/3285345/33090/en/axsome-therapeutics-announces-fda-approval-of-auvelity-dextromethorphan-hbr-and-bupropion-hcl-for-the-treatment-of-agitation-associated-with-dementia-due-to-alzheimer-s-disease.html
   - date: 2026-05-04
     ticker: ABVX
     event: Obefazimod ABTECT Phase 3 UC DDW 2026 oral + 8 posters
@@ -232,7 +226,8 @@ events:
     drug: Bezuclastinib
     indication: GIST
     phase: Phase 3
-    sources: []
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/21/3277881/0/en/cogent-biosciences-announces-oral-presentation-of-positive-phase-3-peak-trial-in-gastrointestinal-stromal-tumors-gist-at-the-2026-american-society-of-clinical-oncology-asco-annual-.html
   - date: 2026-06-02
     ticker: INCY
     event: Tafasitamab Phase 3 ASCO 2026
@@ -241,7 +236,8 @@ events:
     drug: Tafasitamab
     indication: DLBCL
     phase: Phase 3
-    sources: []
+    sources:
+      - https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting
   - date: 2026-06-02
     ticker: IRON
     event: DISC-0974 RALLY-MF Phase 2 ASCO oral
@@ -250,124 +246,118 @@ events:
     drug: DISC-0974
     indication: Myelofibrosis Anemia
     phase: Phase 2
-    sources: []
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/21/3278118/0/en/Disc-Medicine-Announces-Oral-Presentation-of-Data-from-RALLY-MF-Phase-2-Trial-of-DISC-0974-in-Patients-with-Myelofibrosis-and-Anemia-at-the-American-Society-of-Clinical-Oncology-AS.html
   - date: 2026-06-29
     ticker: LNTH
-    event: LNTH-2501 Ga-68 NET PDUFA (연기됨)
+    event: LNTH-2501 Ga-68 NET PDUFA (연기됨 — 제조 정보 추가 검토)
     type: PDUFA
     company: Lantheus
     drug: Ga-68 edotreotide
     indication: NET PET
     phase: NDA
-    sources: []
+    sources:
+      - https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-announces-three-month-extension-pdufa-date-lnth-2501-ga
   - date: 2026-06-30
     ticker: SYRE
-    event: SPY001 Part A (SKYLINE Phase 2)
+    event: SPY002 Part A SKYLINE Phase 2 UC readout (mid-2026, SPY001 Part A 2026-04-13 positive 완료)
     type: Clinical Readout
     company: Spyre
-    drug: SPY001
+    drug: SPY002
     indication: Ulcerative Colitis
     phase: Phase 2
-    sources: []
+    sources:
+      - https://ir.spyre.com/news-releases/news-release-details/spyre-announces-potential-best-class-spy001-part-induction
   - date: 2026-06-30
     ticker: VRDN
-    event: VRDN-003 pivotal (TED Phase 3)
+    event: VRDN-003 (elegrobart) REVEAL-2 Phase 3 chronic TED readout (Q2 2026, REVEAL-1 active TED 2026-03 positive 완료)
     type: Clinical Readout
     company: Viridian
-    drug: VRDN-003
-    indication: TED
+    drug: VRDN-003 (elegrobart)
+    indication: Chronic TED
     phase: Phase 3
-    sources: []
+    sources:
+      - https://investors.viridiantherapeutics.com/news/news-details/2026/Viridian-Therapeutics-Prepares-for-Transformational-2026/default.aspx
   - date: 2026-06-30
     ticker: WVE
-    event: WVE-007 Phase 1 비만
+    event: WVE-007 Phase 1 비만 (400mg 코호트 6개월 + 600mg 코호트 3개월 데이터)
     type: Clinical Readout
     company: Wave Life
     drug: WVE-007
     indication: Obesity
     phase: Phase 1
-    sources: []
+    sources:
+      - https://ir.wavelifesciences.com/news-releases/news-release-details/wave-life-sciences-announces-positive-interim-phase-1-data
   - date: 2026-06-30
     ticker: MBX
-    event: Canvuparatide Phase 2 1-yr
+    event: Canvuparatide Phase 2 1-yr (Q2 2026 학회 발표 예정)
     type: Clinical Readout
     company: MBX
     drug: Canvuparatide
     indication: Hypoparathyroidism
     phase: Phase 2
-    sources: []
+    sources:
+      - https://www.globenewswire.com/news-release/2026/03/09/3251975/0/en/CORRECTING-REPLACING-MBX-Biosciences-Announces-Successful-End-of-Phase-2-FDA-Meeting-and-Provides-Phase-3-Development-Plan-for-Once-Weekly-Canvuparatide-for-Hypoparathyroidism.html
   - date: 2026-06-30
     ticker: EVMN
-    event: EVO756 CSU Phase 2 data
+    event: EVO756 CSU Phase 2 data (Phase 2b topline 상반기 예정)
     type: Clinical Readout
     company: Evommune
     drug: EVO756
     indication: CSU
     phase: Phase 2
-    sources: []
-  - date: 2026-06-30
+    sources:
+      - https://ir.evommune.com/news-events/press-releases/detail/118/evommune-reports-third-quarter-2025-financial-results-and-provides-business-update
+  - date: 2026-12-31
     ticker: VKTX
-    event: VK2735 Phase 3 비만 시작
+    event: VK2735 VANQUISH-1 Phase 3 비만 topline readout (2026H2 예상, 78주 투여)
     type: Clinical Readout
     company: Viking
     drug: VK2735
     indication: Obesity
     phase: Phase 3
-    sources: []
-  - date: 2026-06-30
+    sources:
+      - https://ir.vikingtherapeutics.com/2025-11-19-Viking-Therapeutics-Announces-Completion-of-Enrollment-in-Phase-3-VANQUISH-1-Trial-of-VK2735
+  - date: 2026-03-25
     ticker: DNLI
-    event: Tividenofusp Hunter syndrome FDA
+    event: AVLAYAH (Tividenofusp) Hunter syndrome 승인됨 (2026-03-25, PDUFA 조기)
     type: PDUFA
     company: Denali
     drug: Tividenofusp
     indication: Hunter Syndrome
     phase: BLA
-    sources: []
-  - date: 2026-06-30
+    sources:
+      - https://investors.denalitherapeutics.com/news-releases/news-release-details/denali-therapeutics-announces-us-fda-approval-avlayahtm
+  - date: 2026-09-18
     ticker: NUVL
-    event: Zidesamtinib NDA 제출
-    type: Regulatory
+    event: Zidesamtinib ROS1 NSCLC PDUFA (NDA 2025-11 FDA accepted, PDUFA 2026-09-18)
+    type: PDUFA
     company: Nuvalent
     drug: Zidesamtinib
     indication: ROS1 NSCLC
     phase: NDA
-    sources: []
+    sources:
+      - https://investors.nuvalent.com/2025-11-19-Nuvalent-Announces-FDA-Acceptance-of-New-Drug-Application-for-Zidesamtinib-for-the-Treatment-of-TKI-Pre-treated-Patients-with-Advanced-ROS1-positive-NSCLC
   - date: 2026-06-30
     ticker: SION
-    event: CFTR stabilizer Phase 2 (+ Trikafta)
+    event: CFTR stabilizer Phase 2 (+ Trikafta) (PreciSION CF 등록 완료 2026-04-27, 여름 데이터 예정)
     type: Clinical Readout
     company: Sionna
     drug: SION-719
     indication: CF
     phase: Phase 2
-    sources: []
-  - date: 2026-06-30
-    ticker: INSM
-    event: Brensocatib bronchiectasis PDUFA
-    type: PDUFA
-    company: Insmed
-    drug: Brensocatib
-    indication: Bronchiectasis
-    phase: NDA
-    sources: []
-  - date: 2026-06-30
-    ticker: KURA
-    event: Ziftomenib AML NDA 가속승인
-    type: Regulatory
-    company: Kura
-    drug: Ziftomenib
-    indication: AML
-    phase: NDA
-    sources: []
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/27/3281460/0/en/Sionna-Therapeutics-Completes-Enrollment-in-PreciSION-CF-Phase-2a-Trial-Evaluating-NBD1-Stabilizer-SION-719-Added-to-Standard-of-Care-in-Participants-with-Cystic-Fibrosis.html
   - date: 2026-06-30
     ticker: IDYA
-    event: Darovasertib Phase 3 data
+    event: Darovasertib Phase 3 data (OptimUM-02 완전 데이터 ASCO 2026 LBA 발표 예정 — 2026-05-30)
     type: Clinical Readout
     company: IDEAYA
     drug: Darovasertib
     indication: MUM
     phase: Phase 3
-    sources: []
+    sources:
+      - https://media.ideayabio.com/2026-04-21-IDEAYA-Biosciences-Announces-Late-Breaking-Abstract-Oral-Presentation-at-ASCO-2026-to-Provide-Complete-Data-from-Phase-2-3-Registrational-Trial-OptimUM-02-of-Darovasertib-in-Combination-with-Crizotinib-in-1L-HLA-A2-Negative-Metastatic-Uveal-Mel
   - date: 2026-06-30
     ticker: IONS
     event: Olezarsen 중증 HTG sNDA PDUFA
@@ -413,74 +403,82 @@ events:
       - https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-announces-fda-acceptance-and-priority-review-of-supplemental-biologics-license-application-for-ziihera-zanidatamab-hrii-combinations-in-first-line-her2-locally-advanced-or-metastatic-gea-302753741.html
   - date: 2026-09-30
     ticker: ARWR
-    event: Plozasiran Phase 3 severe HTG
+    event: Plozasiran Phase 3 severe HTG (SHASTA-3/4, MUIR-3 완료 mid-2026, sNDA 연말 예정)
     type: Clinical Readout
     company: Arrowhead
     drug: Plozasiran
     indication: Severe HTG
     phase: Phase 3
-    sources: []
+    sources:
+      - https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-receives-fda-breakthrough-therapy-0
   - date: 2026-09-30
     ticker: AMLX
-    event: Avexitide Phase 3 (PBH)
+    event: Avexitide Phase 3 (PBH) (LUCIDITY 등록 완료 2026-03, topline Q3 2026 예정)
     type: Clinical Readout
     company: Amylyx
     drug: Avexitide
     indication: PBH
     phase: Phase 3
-    sources: []
+    sources:
+      - https://www.amylyx.com/news/amylyx-pharmaceuticals-announces-completion-of-enrollment-in-pivotal-phase-3-lucidity-clinical-trial-of-avexitide-in-post-bariatric-hypoglycemia
   - date: 2026-09-30
     ticker: AMGN
-    event: MariTide Phase 3 비만 readout
+    event: MariTide Phase 3 비만 readout (MARITIME-1/2 실제 readout 2027 예상 — interim 진행상황 업데이트)
     type: Clinical Readout
     company: Amgen
     drug: MariTide
     indication: Obesity
     phase: Phase 3
-    sources: []
+    sources:
+      - https://www.amgen.com/stories/2025/06/inside-amgens-phase-3-maritime-program---advancing-the-future-of-obesity-care
   - date: 2026-12-31
     ticker: SYRE
-    event: SKYWAY basket (RA/PsA/axSpA)
+    event: SKYWAY basket (RA/PsA/axSpA) (RA Q3 2026 가속, PsA/axSpA Q4 2026 예정)
     type: Clinical Readout
     company: Spyre
     drug: SPY002/003
     indication: Autoimmune
     phase: Phase 2
-    sources: []
+    sources:
+      - https://www.globenewswire.com/news-release/2026/03/16/3256214/0/en/Spyre-Announces-Acceleration-of-Expected-Topline-Readout-of-SKYWAY-Rheumatoid-Arthritis-Sub-study-to-Q3-2026.html
   - date: 2026-12-31
     ticker: ANAB
-    event: ANB033 celiac Phase 2
+    event: ANB033 celiac Phase 2 (Q4 2026 topline 예정)
     type: Clinical Readout
     company: AnaptysBio
     drug: ANB033
     indication: Celiac
     phase: Phase 2
-    sources: []
+    sources:
+      - https://ir.anaptysbio.com/news-releases/news-release-details/anaptys-provides-update-business-separation-and-announces-fourth/
   - date: 2026-12-31
     ticker: MBX
-    event: MBX 4291 Phase 1 12-wk
+    event: MBX 4291 Phase 1 12-wk (MAD 12주 데이터 Q4 2026 예정)
     type: Clinical Readout
     company: MBX
     drug: MBX 4291
     indication: Obesity
     phase: Phase 1
-    sources: []
+    sources:
+      - https://www.globenewswire.com/news-release/2026/03/12/3254562/0/en/MBX-Biosciences-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Recent-Corporate-Highlights.html
   - date: 2026-12-31
     ticker: ALMS
-    event: ESK-001 Phase 3 psoriasis
+    event: ESK-001 Phase 3 psoriasis (ONWARD topline 2026-01 Positive — PASI75 74%, sPGA0/1 59%; NDA 하반기 제출 예정)
     type: Clinical Readout
     company: Alumis
     drug: ESK-001
     indication: Psoriasis
     phase: Phase 3
-    sources: []
+    sources:
+      - https://investors.alumis.com/news-releases/news-release-details/alumis-envudeucitinib-delivers-leading-skin-clearance-among-next
   - date: 2026-12-31
     ticker: STOK
-    event: Zorevunersen Dravet Phase 3
+    event: Zorevunersen Dravet Phase 3 (EMPEROR 등록 Q2 2026 완료 예정, readout mid-2027 예상)
     type: Clinical Readout
     company: Stoke
     drug: Zorevunersen
     indication: Dravet
     phase: Phase 3
-    sources: []
+    sources:
+      - https://investor.stoketherapeutics.com/news-releases/news-release-details/stoke-therapeutics-announces-updates-timelines-completion/
 ```

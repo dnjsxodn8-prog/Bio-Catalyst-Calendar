@@ -1,12 +1,12 @@
 ---
 ticker: NTHI
 company: NeOnc Technologies
-mcap: 188
+mcap: 100
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT03705481
 ---

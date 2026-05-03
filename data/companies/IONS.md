@@ -1,14 +1,14 @@
 ---
 ticker: IONS
 company: Ionis Pharmaceuticals
-mcap: 5000
+mcap: 12400
 modality: RNA/siRNA
 areas:
   - Cardiovascular
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.ionispharma.com/
   - https://clinicaltrials.gov/study/NCT04568538

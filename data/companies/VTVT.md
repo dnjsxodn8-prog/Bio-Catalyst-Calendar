@@ -1,12 +1,12 @@
 ---
 ticker: VTVT
 company: vTv Therapeutics
-mcap: 439
+mcap: 120
 modality: Small Molecule
 areas:
   - Metabolic
 nextCatalyst: 2026-12-31
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.vtvtherapeutics.com/news-releases/news-release-details/vtv-therapeutics-announces-first-study-participant-randomized
   - https://www.globenewswire.com/news-release/2025/09/02/3142624/0/en/vTv-Therapeutics-Announces-80-Million-Private-Placement-with-Leading-Healthcare-Institutional-Investors-and-the-T1D-Fund.html

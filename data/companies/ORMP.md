@@ -1,12 +1,12 @@
 ---
 ticker: ORMP
 company: Oramed Pharmaceuticals
-mcap: 131
+mcap: 160
 modality: Peptide
 areas:
   - Obesity/Metabolic
 nextCatalyst: 2026-Q4
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://oramed.com/
   - https://clinicaltrials.gov/study/NCT05394545

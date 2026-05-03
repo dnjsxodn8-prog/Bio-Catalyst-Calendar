@@ -1,13 +1,13 @@
 ---
 ticker: JBIO
 company: Jade Biosciences
-mcap: 646
+mcap: 1200
 modality: Small Molecule
 areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://jadebio.com/
   - https://ir.jadebio.com/

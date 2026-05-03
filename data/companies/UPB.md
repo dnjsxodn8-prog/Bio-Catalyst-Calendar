@@ -1,12 +1,12 @@
 ---
 ticker: UPB
 company: Upstream Bio
-mcap: 414
+mcap: 510
 modality: Antibody
 areas:
   - Respiratory/Immunology
 nextCatalyst: 2027-03-31
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://upstreambio.com/science/
   - https://investors.upstreambio.com/news-releases/news-release-details/upstream-bio-reports-positive-top-line-results-phase-2-vibrant

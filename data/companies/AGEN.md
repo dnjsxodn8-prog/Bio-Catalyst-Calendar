@@ -1,12 +1,12 @@
 ---
 ticker: AGEN
 company: Agenus
-mcap: 101
+mcap: 150
 modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investor.agenusbio.com/news/news-details/2025/Agenus-BOTBAL-Achieves-42-Two-Year-Survival-in-Refractory-MSS-CRC-Advances-Toward-Registration-with-FDA-Alignment-on-Phase-3/default.aspx
   - https://www.biospace.com/press-releases/agenus-announces-first-patient-enrolled-in-global-phase-3-battman-trial-of-bot-bal-immunotherapy-combination-in-mss-or-pmmr-metastatic-colorectal-cancer

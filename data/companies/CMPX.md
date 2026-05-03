@@ -1,13 +1,13 @@
 ---
 ticker: CMPX
 company: Compass Therapeutics
-mcap: 992
+mcap: 350
 modality: Antibody
 areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT05248022
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10937205/
@@ -16,7 +16,7 @@ sources:
 # Compass Therapeutics (CMPX)
 
 ## 카탈리스트
-CTX-009 (DLL4×VEGF-A BsAb) Phase 2 담도암(BTC) 데이터 — 2026 상반기 학회 발표 예정
+CTX-009 (tovecimig, DLL4×VEGF-A BsAb) COMPANION-002 Phase 3 (2L 담도암) — **2026-04-24 OS 1차 endpoint failure**. 주가 $5→$1.79 (-64%).
 
 ## 회사 개요
 Compass Therapeutics는 이중특이성 항체(BsAb) 플랫폼 기반 종양·면역 질환 치료제 개발 바이오텍. 리드 자산 CTX-009는 DLL4와 VEGF-A를 동시 차단하는 BsAb로, 혈관신생 억제의 새로운 조합 기전. 2차 자산 CTX-471(CD137 완전 작용제)은 종양 면역 활성화.
@@ -72,6 +72,8 @@ Oncology (담도암, 위암, 결장직장암), Immunology
 ## 사전 공개 임상
 - **Phase 1/2 CTX-009 고형암 · NCT04472221**
   결과 (2023 ASCO): BTC 코호트 ORR 37.5%, DCR 75%. 중앙 PFS 5.3개월. DLL4+VEGF 동시 차단 개념 검증.
+- **COMPANION-002 Phase 3 (2L 담도암, tovecimig)**
+  결과 (2026-04-24): **OS 1차 endpoint failure**. 2차 치료 담도암 대상 Phase 3 OS 주요 평가변수 미달. 주가 $5→$1.79 (-64%). 프로그램 지속 여부 불확실.
 - **CTX-471 (CD137 작용제) Phase 1 · NCT04080765**
   결과 (2023): 내약성 확인, 단독 효능 제한적. 병용 연구로 전환 예정.
 
@@ -91,4 +93,4 @@ OMP-305B83 기반. DLL4와 VEGF-A를 단일 분자로 동시 차단. DLL4 차단
 - Compass Therapeutics BTC Phase 2 data (2024 ESMO presentation)
 
 ## 메모
-담도암 2차 이상 미충족 수요 높음. ORR ~37% Phase 1 신호 고무적이나 Phase 2 확증 필요. CD137 작용제(CTX-471) 병용 연구가 중기 주가 동인.
+**[2026-04-24 업데이트]** COMPANION-002 Phase 3 OS 1차 endpoint 실패로 리드 자산 담도암 2차 치료 개발 경로 사실상 차단. 잔존 파이프라인(CTX-471 병용 등) 규모 대비 자금 지속 여부 불확실. 담도암 2차 이상 미충족 수요는 여전하나 CTX-009 개발 재개 가능성 낮음.

@@ -1,13 +1,13 @@
 ---
 ticker: GALT
 company: Galectin Therapeutics
-mcap: 200
+mcap: 150
 modality: Biologic
 areas:
   - Gastrointestinal
   - Immunology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://galectintherapeutics.com/
   - https://clinicaltrials.gov/study/NCT04365868
@@ -17,7 +17,7 @@ sources:
 # Galectin Therapeutics (GALT)
 
 ## 카탈리스트
-Belapectin (GR-MD-02, 갈렉틴-3 억제 다당류) — 비알코올성 지방간염(NASH/MASH) + 문맥압항진증 Phase 2b/3 NAVIGATE 결과, 2026년 하반기 발표 예정
+Belapectin NAVIGATE Phase 2b/3 — **Topline 발표 2024-12-20 (혼재 결과)**. ITT 1차 endpoint 미달; per-protocol 2mg/kg 코호트에서 새 정맥류 발생 48.9% 감소(통계적 유의). 차기 전략(FDA 미팅, NDA 경로) 결정 중.
 
 ## 회사 개요
 갈렉틴-3 억제 기반 항섬유화·항염증 치료제 개발 소형 바이오텍. 조지아 애틀랜타 소재. 단일 플랫폼(belapectin) 집중. 주력 적응증은 NASH(현 MASH)에 동반된 간경변 및 문맥압항진증.
@@ -70,7 +70,7 @@ Resmetirom(Rezdiffra, 최초 NASH 승인 약물, 2024, 간섬유화 F2-F3 대상
 - **NASH-CX · NCT01899859 · Phase 2b**
   결과: 2022 Gastroenterology 발표 - 전체 1차 평가변수(HVPG) 미달. 그러나 식도정맥류 없는 경변 하위군에서 belapectin 8mg/kg군 HVPG 유의 감소 (-3.1 mmHg, p=0.02) + 새 정맥류 발생 억제. → NAVIGATE Phase 2b/3 설계 근거.
 - **NAVIGATE · NCT04365868 · Phase 2b/3**
-  현황: 등록 완료, 결과 2026년 하반기 예정.
+  결과 (2024-12-20): **혼재 (Mixed)**. ITT population 1차 endpoint(식도정맥류 발생 억제) 통계적 유의 미달. Per-protocol population belapectin 2mg/kg 코호트에서 새 정맥류 발생 48.9% 감소(p<0.05). 미국 환자 subgroup에서 68.1% 감소(p=0.02). 2025 AASLD에서 전체 결과 발표. FDA와 후속 논의 중.
 
 ## Modality
 **Belapectin (GR-MD-02)**
@@ -88,4 +88,4 @@ Resmetirom(Rezdiffra, 최초 NASH 승인 약물, 2024, 간섬유화 F2-F3 대상
 - [Traber PG et al. Galectin-3 inhibition reduces liver fibrosis. PLoS One (2013)](https://pubmed.ncbi.nlm.nih.gov/23874722/)
 
 ## 메모
-Phase 2b 1차 미달 후 하위군 신호로 재도전. NAVIGATE 성패가 회사 생존 결정. MASH 경변·문맥압 공간은 치료 공백 크지만 임상 위험도 높음. 소형주 고위험 베팅.
+**[2024-12-20 업데이트]** NAVIGATE ITT 1차 endpoint 미달로 FDA accelerated approval 직접 경로 불가. Per-protocol 2mg/kg 결과(48.9% 신규 정맥류 감소)는 생물학적 신호로서 의미 있으나, 규제 당국 승인 가능성은 불확실. 회사는 AASLD 2025 발표 후 FDA와 다음 경로 협의 중. MASH 경변·문맥압 분야는 여전히 치료 공백 크고 경쟁자 없음. 소형주 고위험 유지.

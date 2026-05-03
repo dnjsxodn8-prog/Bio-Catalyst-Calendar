@@ -1,13 +1,13 @@
 ---
 ticker: ZLAB
 company: Zai Lab
-mcap: 2000
+mcap: 2400
 modality: ADC
 areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-06-01
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.zailaboratory.com/news-releases/news-release-details/zai-lab-announces-updated-phase-1-data-zocilurtatug-pelitecan/
   - https://ir.zailaboratory.com/news-releases/news-release-details/zai-lab-announces-fourth-quarter-and-full-year-2025-financial/

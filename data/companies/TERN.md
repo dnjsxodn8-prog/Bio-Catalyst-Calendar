@@ -1,12 +1,12 @@
 ---
 ticker: TERN
 company: Terns Pharmaceuticals
-mcap: 900
+mcap: 6100
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.ternspharma.com/news-releases/news-release-details/terns-announces-abstract-positive-clinical-data-tern-701/
   - https://www.merck.com/news/merck-to-acquire-terns-pharmaceuticals-inc-expanding-its-hematology-pipeline-with-tern-701-a-novel-candidate-for-chronic-myeloid-leukemia-cml/

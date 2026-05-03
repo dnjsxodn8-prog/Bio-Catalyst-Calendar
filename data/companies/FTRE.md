@@ -1,12 +1,12 @@
 ---
 ticker: FTRE
 company: Fortrea Holdings
-mcap: 899
+mcap: 1150
 modality: Other
 areas:
   - Other
 nextCatalyst: null
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.fortrea.com/
 ---

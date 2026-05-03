@@ -1,12 +1,12 @@
 ---
 ticker: MPLT
 company: MapLight Therapeutics
-mcap: 808
+mcap: 1300
 modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.maplighttx.com/pipeline
   - https://maplighttx.com/investors

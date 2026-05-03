@@ -1,13 +1,13 @@
 ---
 ticker: EQ
 company: Equillium
-mcap: 108
+mcap: 130
 modality: Antibody
 areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT04340076
 ---

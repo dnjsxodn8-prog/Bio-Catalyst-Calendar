@@ -1,7 +1,7 @@
 ---
 ticker: TLX
 company: Telix Pharmaceuticals
-mcap: 3000
+mcap: 3800
 modality: Other
 areas:
   - Oncology
@@ -9,7 +9,7 @@ areas:
   - Glioma
   - Renal Cancer
 nextCatalyst: 2026-06-01
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://telixpharma.com/news-views/fy-2025-results-strong-commercial-growth-focused-pipeline-investment/
   - https://telixpharma.com/news-views/q1-2026-strong-revenue-growth-and-therapeutics-pipeline-advancement/

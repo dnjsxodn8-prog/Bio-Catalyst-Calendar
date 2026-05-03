@@ -16,7 +16,7 @@ sources:
 # Bright Minds Biosciences (DRUG)
 
 ## 카탈리스트
-BMB-101 (간질, 초조 증상) Phase 2 결과 발표 예정 (2026년 하반기)
+BMB-101 Phase 2 BREAKTHROUGH — **Positive (2026-01)**. 결석 발작 -73.1%, 대발작 -63.3%. 차기 등록 임상(Registrational trial) 준비 중.
 
 ## 회사 개요
 밴쿠버/샌프란시스코 소재 임상 단계 바이오텍. 5-HT2C 수용체 선택적 작용제를 중심으로 뇌전증(간질), 아지테이션(초조), 신경정신과 질환 치료제 개발. 리드 화합물 BMB-101은 차세대 serotonin 5-HT2C 선택적 작용제로, 기존 비선택적 세로토닌 약물의 부작용(심장, 대사) 없이 신경계 선택성 달성 목표. 사이키델릭 연구 기반 5-HT2 계열 약물학 적용.
@@ -67,6 +67,8 @@ Levetiracetam, valproate, lamotrigine, lacosamide. 난치성에는 Epidiolex (CB
 ## 사전 공개 임상
 - **BMB-101 Phase 1 건강인 (내부 데이터)**
   결과: 안전성 확인, 5-HT2C 선택성 바이오마커(성장호르몬 반응) 확인. PK/PD 용량 범위 설정 완료.
+- **BMB-101 Phase 2 BREAKTHROUGH (NCT05605587)**
+  결과 (2026-01): **Positive** — 결석 발작(absence seizures) 기저 대비 -73.1%, 대발작(major motor seizures) -63.3%. 회사는 등록 임상(registrational trial) 설계 준비 중.
 
 ## Modality
 **BMB-101**
@@ -84,4 +86,4 @@ Levetiracetam, valproate, lamotrigine, lacosamide. 난치성에는 Epidiolex (CB
 - [Bhaskaran MD et al. 5-HT2C in epilepsy. Neuropharmacology (2010)](https://www.sciencedirect.com/science/article/pii/S0028390809002639)
 
 ## 메모
-5-HT2C 선택성이 차별점. Fintepla의 심장 독성 우려 대안 포지셔닝. 소규모 기업. Phase 2 결과 2026 하반기 주목. 뇌전증 + 아지테이션 이중 적응증 전략.
+**[2026-01 업데이트]** Phase 2 BREAKTHROUGH 강한 양성 결과(-73.1% 결석 발작, -63.3% 대발작). 5-HT2C 선택성으로 Fintepla(fenfluramine) 심장 독성 없이 유사 효과 달성. 차기 마일스톤은 등록 임상(registrational trial) 설계·IND·시작 일정 발표. 소형주이나 강한 Phase 2 데이터로 파트너링 가능성 상승.

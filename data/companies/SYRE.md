@@ -1,20 +1,23 @@
 ---
 ticker: SYRE
 company: Spyre Therapeutics
-mcap: 1600
+mcap: 6000
 modality: Antibody
 areas:
   - Autoimmune
   - Immunology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources: []
 ---
 
 # Spyre Therapeutics (SYRE)
 
 ## 카탈리스트
-6개 POC readout 2026
+- SPY001 Part A SKYLINE Phase 2 UC induction readout — 2026-04-13 **Positive** 완료 (RHI -9.2pt)
+- SPY002 Part A SKYLINE Phase 2 UC readout — mid-2026 예상
+- SPY003 Part A SKYLINE Phase 2 UC readout — Q3 2026 예상
+- SKYLINE Part B (전 코호트 monotherapy + combination) — 2027 예상
 
 ## 회사 개요
 IBD 및 자가면역 반감기 확장 항체. 기존 승인 약물 재엔지니어링. 6개 POC 2026 예정.

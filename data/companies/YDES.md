@@ -1,14 +1,14 @@
 ---
 ticker: YDES
 company: YD Bio
-mcap: 573
+mcap: 340
 modality: Other
 areas:
   - Oncology
   - Ophthalmology
   - Diagnostics
 nextCatalyst: null
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/01/05/3212819/0/en/YD-Bio-Limited-Announces-Major-Milestones-and-Unveils-Robust-2026-Clinical-and-Commercial-Roadmap.html
   - https://www.globenewswire.com/news-release/2026/01/06/3213679/0/en/YD-Bio-Enters-into-MOU-to-Merge-with-EG-BioMed-Advancing-DNA-Methylation-Driven-AI-Platforms-for-Cancer-Diagnostics-and-Drug-Development.html

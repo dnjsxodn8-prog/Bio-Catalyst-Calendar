@@ -1,12 +1,12 @@
 ---
 ticker: KOD
 company: Kodiak Sciences
-mcap: 2000
+mcap: 2750
 modality: Antibody
 areas:
   - Ophthalmology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.kodiak.com/
   - https://clinicaltrials.gov/ct2/show/NCT04126317

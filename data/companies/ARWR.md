@@ -1,14 +1,16 @@
 ---
 ticker: ARWR
 company: Arrowhead Pharmaceuticals
-mcap: 2500
+mcap: 10500
 modality: RNA/siRNA
 areas:
   - Cardiology
   - Obesity/Metabolic
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
-sources: []
+verified: 2026-05-02
+sources:
+  - https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-fda-approval-redemplor
+  - https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-receives-fda-breakthrough-therapy-0
 ---
 
 # Arrowhead Pharmaceuticals (ARWR)
@@ -17,7 +19,7 @@ sources: []
 Plozasiran Phase 3 severe HTG
 
 ## 회사 개요
-TRiM siRNA 플랫폼. 심뇌혈관, 비만/대사, 희귀 광범위 파이프라인. Plozasiran 승인 임박.
+TRiM siRNA 플랫폼. 심뇌혈관, 비만/대사, 희귀 광범위 파이프라인. Plozasiran(REDEMPLO) FCS FDA 승인 완료(2025-11). sHTG Phase 3 진행 중.
 
 ## 매출
 협업수익 ~$500M
@@ -44,7 +46,7 @@ Cardiology, Obesity, Rare Disease, Pulmonary
 구축중
 
 ## 상업화 제품
-Plozasiran FCS 승인, 심각 HTG Phase 3
+REDEMPLO (plozasiran) — FCS FDA 승인 2025-11-18. sHTG(심각 고중성지방혈증) sNDA 2026년 말 제출 예정
 
 ## 임상 디자인
 - 디자인: Randomized, double-blind, placebo-controlled

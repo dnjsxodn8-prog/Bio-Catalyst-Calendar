@@ -1,14 +1,14 @@
 ---
 ticker: CLDX
 company: Celldex Therapeutics
-mcap: 2000
+mcap: 2550
 modality: Antibody
 areas:
   - Oncology
   - Dermatology
   - Immunology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT05606991
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2401105

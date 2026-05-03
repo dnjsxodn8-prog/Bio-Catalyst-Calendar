@@ -1,12 +1,12 @@
 ---
 ticker: ATAI
 company: AtaiBeckley
-mcap: 1200
+mcap: 1500
 modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.ataibeckley.com/news-releases/news-release-details/atai-life-sciences-and-beckley-psytech-announce-successful/
   - https://www.globenewswire.com/news-release/2025/10/16/3168328/0/en/atai-life-sciences-and-beckley-psytech-announce-u-s-fda-breakthrough-therapy-designation-granted-to-bpl-003-underscoring-its-potential-in-treatment-resistant-depression.html

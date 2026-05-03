@@ -1,13 +1,13 @@
 ---
 ticker: CLLS
 company: Cellectis
-mcap: 265
+mcap: 400
 modality: Cell Therapy
 areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT03190278
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2116435

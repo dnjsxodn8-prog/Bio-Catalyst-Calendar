@@ -1,12 +1,12 @@
 ---
 ticker: ANRO
 company: Alto Neuroscience
-mcap: 645
+mcap: 870
 modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investors.altoneuroscience.com/news/news-details/2025/Alto-Neuroscience-Announces-Favorable-Outcome-from-Interim-Analysis-of-ALTO-300-Phase-2b-Major-Depressive-Disorder-Trial/default.aspx
   - https://www.businesswire.com/news/home/20260316041876/en/Alto-Neuroscience-Reports-Full-Year-2025-Financial-Results-and-Recent-Business-Highlights

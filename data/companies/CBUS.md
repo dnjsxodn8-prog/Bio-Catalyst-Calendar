@@ -1,12 +1,12 @@
 ---
 ticker: CBUS
 company: Cibus
-mcap: 245
+mcap: 120
 modality: Tool/Platform
 areas:
   - Other
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://stockanalysis.com/stocks/cbus/
   - https://www.stocktitan.net/overview/CBUS/

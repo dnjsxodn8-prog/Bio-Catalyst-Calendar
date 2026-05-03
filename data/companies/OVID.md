@@ -1,13 +1,13 @@
 ---
 ticker: OVID
 company: Ovid Therapeutics
-mcap: 249
+mcap: 480
 modality: Small Molecule
 areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-Q2
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.ovidtx.com/investors/news-releases
   - https://clinicaltrials.gov/study/NCT04518527

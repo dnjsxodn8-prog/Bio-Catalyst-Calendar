@@ -1,13 +1,13 @@
 ---
 ticker: PRME
 company: Prime Medicine
-mcap: 350
+mcap: 620
 modality: Gene Therapy
 areas:
   - Rare Disease
   - Immunology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.primemedicine.com/pipeline/
   - https://primemedicine.com/

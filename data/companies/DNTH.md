@@ -1,13 +1,13 @@
 ---
 ticker: DNTH
 company: Dianthus Therapeutics
-mcap: 3000
+mcap: 4750
 modality: Antibody
 areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://dianthustx.com/
   - https://clinicaltrials.gov/study/NCT05882565

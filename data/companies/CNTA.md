@@ -1,43 +1,40 @@
 ---
 ticker: CNTA
 company: Centessa Pharmaceuticals
-mcap: 4000
+mcap: 6100
 modality: Small Molecule
 areas:
-  - Hematology
-  - Rare Disease
   - Neurology
-nextCatalyst: 2026-06-30
-verified: 2026-04-27
+  - Rare Disease
+nextCatalyst: 2026-09-30
+verified: 2026-05-03
 sources:
-  - https://clinicaltrials.gov/study/NCT05557487
-  - https://www.nejm.org/doi/full/10.1056/NEJMoa2308798
+  - https://www.biopharmadive.com/news/lilly-centessa-6B-dollar-buyout-sleep-narcolepsy-drug/816226/
+  - https://clinicaltrials.gov/study/NCT06752668
 ---
 
 # Centessa Pharmaceuticals (CNTA)
 
 ## 카탈리스트
-Eli Lilly 인수 완료 / SerpinPC (포식세포 억제제) Phase 3 혈우병B 데이터 — 2026 상반기 예정
+Eli Lilly 인수 완료 예정 (2026 Q3) / cleminorexton (ORX750) 등록 임상 시작 — narcolepsy 승인 마일스톤에 CVR 연동
 
 ## 회사 개요
-Centessa Pharmaceuticals는 영국 기반 임상 단계 바이오텍. 리드 자산 SerpinPC(serpin 단백질 기반 포식세포 억제제)는 혈우병B 예방치료 후보로 Phase 3 진행 중. 2025년 Eli Lilly가 인수 제안($1.85B), 진행 중.
+Centessa Pharmaceuticals는 영국 기반 임상 단계 바이오텍. 리드 자산은 orexin receptor 2 (OX2R) 작용제 cleminorexton (구 ORX750)으로, narcolepsy type 1/2 및 idiopathic hypersomnia 치료를 목표. 2026년 3월 31일 Eli Lilly가 주당 $38 + CVR(최대 $9) 구조로 인수 발표 — 업프론트 $6.3B, CVR 포함 최대 $7.8B. 인수 완료는 2026 Q3 예정(주주 승인 + 영국 법원 승인 조건).
 
-또한 lixivaptan(PKD, 다낭신) 및 PLN-74809(IPF) 등 다수 파이프라인 보유. M&A 이벤트가 단기 주가 동인.
+SerpinPC(혈우병B 항-APC 단백질)는 2024년 11월 Pfizer Hympavzi 승인 이후 임상 개발 중단 결정. 회사 가치의 핵심은 수면-각성장애 orexin 프로그램.
 
 ## 매출
 임상 단계. 2024 수익 최소 (협력 수익). 순손실 약 $200M.
 
 ## 플랫폼
-- Serpin 단백질 공학 (SerpinPC)
-- 소분자 (lixivaptan V2R 길항제)
-- 항섬유화 (PLN-74809 αV 인테그린)
+- Orexin receptor 2 (OX2R) 작용제 소분자 (cleminorexton/ORX750, ORX142)
+- 수면-각성장애 (narcolepsy type 1/2, idiopathic hypersomnia) 특화
 
 ## 적응증
-Hematology (혈우병B), Rare Disease (다낭신), Neurology/Respiratory
+Neurology (narcolepsy type 1, narcolepsy type 2, idiopathic hypersomnia)
 
 ## 파트너
-- Eli Lilly (인수 진행 중, $1.85B 합의)
-- 과거 AstraZeneca
+- Eli Lilly (인수 진행 중: $6.3B 업프론트 + CVR 최대 $1.5B = 총 최대 $7.8B, 2026 Q3 완료 예정)
 
 ## 매출 구조
 임상 단계 — 수익 없음 (인수 완료 시 비공개)
@@ -49,50 +46,47 @@ Hematology (혈우병B), Rare Disease (다낭신), Neurology/Respiratory
 없음 (임상 단계)
 
 ## 임상 디자인
-- 디자인: Randomized, open-label, Phase 3
-- 약물명: SerpinPC (단백질 치료제)
-- 적응증: 혈우병B (인자 IX 결핍)
-- 시험명: HAEMA-1
-- NCT: NCT05557487
-- N: 약 120명
-- Phase: Phase 3
-- Primary endpoint: 연간 출혈률(ABR) — SerpinPC 예방 vs 인자 IX 대체요법 비교
-- Secondary endpoint: HJHS(관절 건강), EQ-5D-5L 삶의 질, 안전성
+- 약물명: Cleminorexton (ORX750, OX2R 작용제 소분자)
+- 적응증: Narcolepsy type 1 (NT1), narcolepsy type 2 (NT2), idiopathic hypersomnia (IH)
+- Phase: Phase 2a 완료 → 등록 임상(pivotal) 개시 예정 (2026 Q1 개시 발표)
+- NCT: NCT06752668 (Phase 2 study)
+- N (Phase 2a): 55명 (NT1/NT2/IH 포함)
+- Primary endpoint: Maintenance of Wakefulness Test (MWT), Epworth Sleepiness Scale (ESS), Weekly Cataplexy Rate (WCR)
+- 결과: 용량 의존적·통계적 유의 개선 확인. NT2 4.0mg 코호트 (n=10): MWT 수면 잠복기 위약 대비 10분↑ (p=0.0193). 내약성 양호, TEAE 전부 경증~중등도.
 
 ## 타겟 질환
-**혈우병B (Hemophilia B)**
+**수면-각성장애 (Narcolepsy type 1/2, Idiopathic Hypersomnia)**
 
-응고인자 IX 결핍으로 자발적 출혈·관절 손상. 주 1회 이상 인자 IX 주사 필요, 내약성·편의성 문제.
+Orexin(하이포크레틴) 신경 소실 또는 기능저하로 인한 과도한 주간 졸림(EDS), 탈력 발작(cataplexy, NT1에서). 현행 치료제(modafinil, sodium oxybate, pitolisant)는 증상 조절 수준 — orexin receptor 직접 작용제는 병태생리 직접 타겟.
 
-- 환자 수: 미국 약 4,000명, 전 세계 약 30,000명
-- 병리: 인자 IX 결핍 → 내인성 응고 경로 차단 → 지혈 불능. 관절 반복 출혈로 관절병증(hemophilic arthropathy) 유발.
+- 환자 수: 미국 narcolepsy 약 20만 명 (NT1 ~50%, NT2 ~50%), IH 약 37만 명
+- 경쟁: Takeda TAK-861 (OX2R 작용제, 1일 2회), Centessa cleminorexton (1일 1회, best-in-class 프로파일 주장)
 
 ## 기존 치료제
-- 인자 IX 대체요법: Alprolix(Sanofi), Rebinyn, Rixubis 등 주 1~4회 주사.
-- Fitusiran(anti-ATIII siRNA, Alnylam): 유전자 발현 억제 접근.
-- Fitusiran, Mim8(Novo, 혈우병A) 등 차세대 예방 치료 경쟁.
-- SerpinPC는 단백질 분해효소 억제로 혈전 형성 균형 회복 신규 기전.
+- Modafinil/armodafinil (각성 촉진, 도파민 재흡수 억제)
+- Sodium oxybate (Xywav, Lumryz — γ-hydroxybutyrate, NT1 cataplexy)
+- Pitolisant (H3 수용체 역작용제, Wakix)
+- Solriamfetol (Sunosi, dopamine/NE 재흡수 억제)
+- Takeda TAK-861 (OX2R 작용제, 임상 후기 단계) — 최대 직접 경쟁자. Cleminorexton은 1일 1회 복용으로 차별화 주장.
 
 ## 사전 공개 임상
-- **HAEMA-1 Part A/B (Phase 2/3, 혈우병B) · NCT05557487**
-  결과 (2024 ASH, NEJM 게재 예정): ABR 90%+ 감소, Fitusiran 대비 비열등 기대. 주 1회 피하주사.
-- **Phase 1 SerpinPC · NCT04564287**
-  결과 (2023 NEJM): 혈우병A/B 환자 9명, 출혈 제로 달성. 안전성 문제 없음.
+- **Cleminorexton Phase 2a · NCT06752668**
+  결과 (2025-11, data cut 2025-09-23): NT1/NT2/IH 55명. MWT, ESS, WCR 전 지표에서 용량 의존적·통계적 유의 개선. NT2 4.0mg 코호트 MWT 수면 잠복기 위약 대비 +10분 이상 (p=0.0193). 내약성 양호 (TEAE 전부 경증~중등도, 주요: 빈뇨, 불면, 어지럼, 두통).
+- **ORX142 Phase 1/2** (초기 단계, 세부 데이터 미공개)
 
 ## Modality
-**SerpinPC**
-항-활성화 단백질 C (anti-APC) 재조합 단백질 (type: Protein/Enzyme)
+**Cleminorexton (ORX750)**
+Orexin receptor 2 (OX2R) 선택적 작용제 (type: Small Molecule, oral QD)
 
-Serpin 계열 재조합 단백질. 활성화 단백질 C(APC)를 억제하여 응고인자 V/VIII 보호, 혈전 형성 능력 회복.
+1일 1회 경구 복용. Takeda TAK-861 대비 더 낮은 빈도(1일 1회)를 강점으로 주장. OX2R 선택성으로 부작용 프로파일 최소화 목표.
 
 ## MOA
-- 타겟: 활성화 단백질 C (Activated Protein C, APC)
-- 기전: APC 억제 → 응고인자 Va/VIIIa 분해 차단 → 트롬빈 생성 증가 → 지혈 능력 회복. 인자 IX 자체 보충이 아닌 응고 균형(pro-coagulant) 복원.
-- 병태생리: 혈우병B에서 인자 IX 결핍으로 내인성 응고 경로 손상. SerpinPC는 응고 억제 경로(APC)를 차단하여 잔류 응고 능력 극대화. 주 1회 피하주사로 기존 매일 주사 대비 편의성 대폭 개선.
+- 타겟: Orexin receptor 2 (OX2R, 하이포크레틴 수용체 2)
+- 기전: OX2R 활성화 → 각성 회로(LC, TMN, BF 등 뇌간·전뇌 각성 핵) 활성 → 주간 졸림 감소, NT1에서 cataplexy 억제.
+- 병태생리: 나르코렙시는 시상하부 orexin(하이포크레틴) 뉴런 소실 → OX1R/OX2R 신호 결핍 → 수면-각성 조절 실패. OX2R 작용제는 결핍된 신호를 직접 보충.
 
 ## 논문
-- [Leavitt AD et al. SerpinPC Phase 1 hemophilia. NEJM (2023)](https://www.nejm.org/doi/full/10.1056/NEJMoa2308798)
-- [Centessa HAEMA-1 Phase 3 ASH 2024 poster](https://investors.centessa.com/)
+- 정보 미입력 (cleminorexton Phase 2a 논문 미발표, 데이터 발표 2025-11 기준 IR 자료)
 
 ## 메모
-Eli Lilly 인수($1.85B) 진행 중(2025~2026). 인수 완료 시 상장 폐지 예정. 인수 성사 여부가 최대 이벤트. SerpinPC 자체 혈우병B에서 차별화된 기전.
+Eli Lilly 인수 ($6.3B 업프론트 / 최대 $7.8B CVR 포함) 2026-03-31 발표. 주당 $38 + CVR 최대 $9 (narcolepsy/IH FDA 승인 마일스톤 연동). 2026 Q3 완료 예정. 인수 완료 시 상장 폐지. SerpinPC 혈우병B 프로그램은 2024-11 중단(Pfizer Hympavzi 승인 후 경쟁력 상실). 회사 가치의 핵심은 cleminorexton의 best-in-class OX2R 작용제 포지셔닝 vs Takeda TAK-861.

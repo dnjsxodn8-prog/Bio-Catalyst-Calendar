@@ -1,13 +1,13 @@
 ---
 ticker: ELDN
 company: Eledon Pharmaceuticals
-mcap: 221
+mcap: 290
 modality: Small Molecule
 areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.eledonpharma.com/
   - https://clinicaltrials.gov/study/NCT04514484

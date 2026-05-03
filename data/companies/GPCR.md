@@ -1,12 +1,12 @@
 ---
 ticker: GPCR
 company: Structure Therapeutics
-mcap: 4000
+mcap: 3000
 modality: Small Molecule
 areas:
   - Obesity/Metabolic
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://structuretx.com/press-releases
   - https://clinicaltrials.gov/study/NCT05811325
