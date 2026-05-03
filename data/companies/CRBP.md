@@ -1,13 +1,13 @@
 ---
 ticker: CRBP
 company: Corbus Pharmaceuticals
-mcap: 148
+mcap: 180
 modality: Antibody
 areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.corbuspharma.com/our-pipeline
   - https://corbuspharma.com/investors

@@ -1,13 +1,13 @@
 ---
 ticker: OMER
 company: Omeros
-mcap: 818
+mcap: 1100
 modality: Small Molecule
 areas:
   - Immunology
   - Hematology
 nextCatalyst: 2026-Q2
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://omeros.com/
   - https://clinicaltrials.gov/study/NCT04474470

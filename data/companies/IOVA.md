@@ -1,12 +1,12 @@
 ---
 ticker: IOVA
 company: Iovance Biotherapeutics
-mcap: 1200
+mcap: 1500
 modality: Cell Therapy
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.iovance.com/
   - https://clinicaltrials.gov/study/NCT04685889

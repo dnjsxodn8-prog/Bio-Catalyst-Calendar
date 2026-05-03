@@ -1,13 +1,13 @@
 ---
 ticker: EVMN
 company: Evommune
-mcap: 700
+mcap: 880
 modality: Small Molecule
 areas:
   - Immunology
   - Dermatology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT06084364
 ---

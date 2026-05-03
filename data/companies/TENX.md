@@ -1,12 +1,12 @@
 ---
 ticker: TENX
 company: Tenax Therapeutics
-mcap: 235
+mcap: 330
 modality: Small Molecule
 areas:
   - Cardiovascular
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.theglobeandmail.com/investing/markets/stocks/TENX/pressreleases/36694645/tenax-therapeutics-advances-phase-3-study-on-levosimendan-for-ph-hfpef/
   - https://investors.tenaxthera.com/news-events/news-releases

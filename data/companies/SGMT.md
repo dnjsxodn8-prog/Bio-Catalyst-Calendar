@@ -1,14 +1,14 @@
 ---
 ticker: SGMT
 company: Sagimet Biosciences
-mcap: 176
+mcap: 470
 modality: Small Molecule
 areas:
   - Metabolic
   - Oncology
   - Dermatology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://sagimet.com/programs/pipeline/
   - https://www.manilatimes.net/2026/04/27/tmt-newswire/globenewswire/sagimet-biosciences-provides-strategic-and-corporate-updates/2329188

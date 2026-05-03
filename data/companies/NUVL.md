@@ -1,19 +1,20 @@
 ---
 ticker: NUVL
 company: Nuvalent
-mcap: 5500
+mcap: 7800
 modality: Small Molecule
 areas:
   - Oncology
-nextCatalyst: 2026-06-30
-verified: 2026-04-27
+nextCatalyst: 2026-09-18
+verified: 2026-05-02
 sources: []
 ---
 
 # Nuvalent (NUVL)
 
 ## 카탈리스트
-Zidesamtinib NDA; ALKOVE-1 data
+- Zidesamtinib ROS1 NSCLC PDUFA — **2026-09-18** (NDA FDA accepted 2025-11)
+- Neladalkib (ALK) ALKOVE-1 Phase 1/2 pivotal data — 2026 예상
 
 ## 회사 개요
 정밀 종양 소분자. Structure-based design으로 ALK/ROS1/HER2 차세대 selective inhibitor 개발. Zidesamtinib(ROS1 NDA), Neladalkib(ALK Phase 3).

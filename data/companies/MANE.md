@@ -1,12 +1,12 @@
 ---
 ticker: MANE
 company: Veradermics
-mcap: 2100
+mcap: 4150
 modality: Small Molecule
 areas:
   - Dermatology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.businesswire.com/news/home/20260209938753/en/Veradermics-Completes-Enrollment-in-Second-Pivotal-Phase-3-Clinical-Trial-of-VDPHL01-for-Male-Pattern-Hair-Loss
   - https://www.stocktitan.net/news/MANE/veradermics-oral-vdphl01-achieved-early-consistent-and-robust-hair-bimi4i46eytt.html

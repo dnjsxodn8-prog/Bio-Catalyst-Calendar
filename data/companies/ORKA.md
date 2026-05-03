@@ -1,13 +1,13 @@
 ---
 ticker: ORKA
 company: Oruka Therapeutics
-mcap: 2000
+mcap: 3750
 modality: Antibody
 areas:
   - Dermatology
   - Immunology
 nextCatalyst: 2026-Q3
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://orukatx.com/
   - https://clinicaltrials.gov/study/NCT06360900

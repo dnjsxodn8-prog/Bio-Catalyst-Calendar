@@ -1,14 +1,16 @@
 ---
 ticker: XENE
 company: Xenon Pharmaceuticals
-mcap: 3000
+mcap: 5400
 modality: Small Molecule
 areas:
   - Neurology
   - Epilepsy
 nextCatalyst: 2026-04-22
-verified: 2026-04-29
-sources: []
+verified: 2026-05-02
+sources:
+  - https://investor.xenon-pharma.com/news-releases/news-release-details/xenon-presents-azetukalner-phase-3-x-tole2-study-results-and-48
+  - https://www.globenewswire.com/news-release/2026/04/19/3276673/33485/en/Xenon-Presents-Azetukalner-Phase-3-X-TOLE2-Study-Results-and-48-Month-Long-term-Data-in-Focal-Onset-Seizures-at-2026-AAN-Annual-Meeting.html
 ---
 
 # Xenon Pharmaceuticals (XENE)

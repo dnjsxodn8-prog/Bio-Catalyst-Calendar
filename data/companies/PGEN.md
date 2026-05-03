@@ -1,13 +1,13 @@
 ---
 ticker: PGEN
 company: Precigen
-mcap: 1200
+mcap: 1450
 modality: Gene Therapy
 areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-H2
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.precigen.com/pipeline/
   - https://precigen.com/

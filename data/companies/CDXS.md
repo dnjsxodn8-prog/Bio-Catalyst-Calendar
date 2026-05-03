@@ -1,12 +1,12 @@
 ---
 ticker: CDXS
 company: Codexis
-mcap: 100
+mcap: 240
 modality: Tool/Platform
 areas:
   - Other
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/03/11/3254133/0/en/Codexis-Reports-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results.html
   - https://www.codexis.com/services/rna-manufacturing

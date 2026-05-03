@@ -1,12 +1,12 @@
 ---
 ticker: BDTX
 company: Black Diamond Therapeutics
-mcap: 123
+mcap: 150
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investors.blackdiamondtherapeutics.com/news-releases/news-release-details/black-diamond-therapeutics-announces-initial-phase-2-data
   - https://www.blackdiamondtherapeutics.com/pipeline-programs/bdtx-1535-gbm

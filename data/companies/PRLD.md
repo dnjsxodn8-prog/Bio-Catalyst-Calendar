@@ -1,16 +1,17 @@
 ---
 ticker: PRLD
 company: Prelude Therapeutics
-mcap: 266
+mcap: 370
 modality: Small Molecule
 areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.preludetx.com/pipeline
   - https://preludetx.com/
+  - https://clinicaltrials.gov/study/NCT05665530
 ---
 
 # Prelude Therapeutics (PRLD)
@@ -66,7 +67,7 @@ Oncology, Hematology (AML, MDS, NHL)
 Venclexta (BCL-2i, AbbVie), azacitidine, 표준 화학요법. PRT2527은 CDK9 경로 신규 접근.
 
 ## 사전 공개 임상
-- **PRT2527 Phase 1 · NCT05161533 · AML/MDS**
+- **PRT2527 Phase 1 · NCT05665530 · AML/MDS/NHL**
   결과: 진행 중 (용량 확장 코호트 데이터 2026년 예상)
 - **PRT2527 Phase 1 · NHL 코호트**
   결과: 초기 안전성 양호, 효능 신호 평가 중

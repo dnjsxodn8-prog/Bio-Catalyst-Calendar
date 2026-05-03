@@ -1,14 +1,14 @@
 ---
 ticker: MGTX
 company: MeiraGTx Holdings
-mcap: 563
+mcap: 870
 modality: Gene Therapy
 areas:
   - Ophthalmology
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://meiragtx.com/
   - https://clinicaltrials.gov/study/NCT03566992

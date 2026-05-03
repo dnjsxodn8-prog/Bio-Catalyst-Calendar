@@ -1,12 +1,12 @@
 ---
 ticker: ADAG
 company: Adagene
-mcap: 134
+mcap: 250
 modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/04/01/3267038/0/en/Adagene-Reports-Full-Year-2025-Financial-Results-and-Provides-Corporate-Update.html
   - https://www.globenewswire.com/news-release/2025/07/01/3108189/0/en/Adagene-announces-up-to-25-million-strategic-investment-from-Sanofi.html

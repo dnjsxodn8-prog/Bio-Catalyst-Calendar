@@ -1,13 +1,13 @@
 ---
 ticker: RYTM
 company: Rhythm Pharmaceuticals
-mcap: 4500
+mcap: 5600
 modality: Peptide
 areas:
   - Rare Disease
   - Obesity/Metabolic
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-announces-fda-approval-imcivreer-1/
   - https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-announces-preliminary-unaudited-fourth

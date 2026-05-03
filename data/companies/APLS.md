@@ -1,14 +1,14 @@
 ---
 ticker: APLS
 company: Apellis Pharmaceuticals
-mcap: 3000
+mcap: 5250
 modality: Biologic
 areas:
   - Ophthalmology
   - Rare Disease
   - Immunology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/02/24/3243396/0/en/Apellis-Pharmaceuticals-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html
   - https://investors.apellis.com/news-releases/news-release-details/apellis-pharmaceuticals-reports-third-quarter-2025-financial

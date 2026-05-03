@@ -1,13 +1,13 @@
 ---
 ticker: TGTX
 company: TG Therapeutics
-mcap: 4000
+mcap: 5400
 modality: Antibody
 areas:
   - Neurology
   - Autoimmune
 nextCatalyst: 2026-06-30
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.tgtherapeutics.com/news-releases/news-release-details/tg-therapeutics-reports-fourth-quarter-and-full-year-2025
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2201904

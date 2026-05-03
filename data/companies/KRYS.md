@@ -1,14 +1,14 @@
 ---
 ticker: KRYS
 company: Krystal Biotech
-mcap: 4000
+mcap: 7850
 modality: Gene Therapy
 areas:
   - Rare Disease
   - Dermatology
   - Respiratory
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.krystalbio.com/
   - https://clinicaltrials.gov/ct2/show/NCT04541342

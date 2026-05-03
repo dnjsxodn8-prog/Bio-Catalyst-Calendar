@@ -1,13 +1,13 @@
 ---
 ticker: ABCL
 company: AbCellera Biologics
-mcap: 1050
+mcap: 1350
 modality: Antibody
 areas:
   - Immunology
   - Dermatology
 nextCatalyst: 2026-05-11
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investors.abcellera.com/news/news-releases/2026/AbCellera-Reports-Full-Year-2025-Business-Results/default.aspx
   - https://investors.abcellera.com/news/news-releases/2025/AbCellera-Reports-Q2-2025-Business-Results--First-Participants-Dosed-in-a-Phase-1-Clinical-Trial-of-ABCL635-for-Vasomotor-Symptoms/default.aspx

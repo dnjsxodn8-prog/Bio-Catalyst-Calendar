@@ -10,7 +10,7 @@ nextCatalyst: 2026-06-30
 verified: 2026-04-27
 sources:
   - https://fatetherapeutics.com/investors
-  - https://clinicaltrials.gov/study/NCT04023071
+  - https://clinicaltrials.gov/study/NCT05182073
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2310539
 ---
 
@@ -50,7 +50,7 @@ Oncology (혈액암: 다발성 골수종, B세포 림프종)
 없음
 
 ## 임상 디자인
-- NCT: NCT04023071 (FT576 단독), NCT05182073 (FT576 + daratumumab)
+- NCT: NCT05182073 (FT576 단독 및 + daratumumab 병용 포함)
 - Phase: Phase 1
 - N: ~40명 (용량 확장 코호트 포함)
 - 디자인: 용량 단계적 상승(dose-escalation), 오픈라벨, 단일군
@@ -69,7 +69,7 @@ Oncology (혈액암: 다발성 골수종, B세포 림프종)
 Daratumumab(CD38 항체), Teclistamab/Talquetamab(이중항체), Ide-cel/Cilta-cel(CAR-T). FT576은 동종 off-the-shelf iPSC-NK로, 자가 CAR-T 대비 즉각 투여 가능.
 
 ## 사전 공개 임상
-- **FT576 단독요법 · NCT04023071 · Phase 1**
+- **FT576 단독요법 · NCT05182073 · Phase 1**
   결과: 2023 ASH 발표 - RRMM 환자에서 ORR 약 40%, BCMA 표적 iPSC-NK 세포 최초 개념증명. 3~4등급 독성 관리 가능 수준.
 - **FT576 + daratumumab 병용 · NCT05182073 · Phase 1**
   결과: 2024 ASH 발표 - 병용 시 ORR 향상 (~55%), 부분반응 이상 달성. hnCD16-daratumumab ADCC 시너지 확인.

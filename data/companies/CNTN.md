@@ -1,12 +1,12 @@
 ---
 ticker: CNTN
 company: Canton Strategic Holdings
-mcap: 231
+mcap: 180
 modality: Other
 areas:
   - Other
 nextCatalyst: null
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CNTN&type=10-K&dateb=&owner=include&count=40
   - https://cantonstrategic.com/

@@ -1,12 +1,12 @@
 ---
 ticker: ZURA
 company: Zura Bio
-mcap: 661
+mcap: 490
 modality: Antibody
 areas:
   - Immunology
 nextCatalyst: 2026-10-01
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://investors.zurabio.com/news-releases/news-release-details/zura-bio-launches-global-phase-2-tibusure-study-evaluate
   - https://investors.zurabio.com/news-releases/news-release-details/zura-bio-launches-global-phase-2-tibushield-study-evaluate

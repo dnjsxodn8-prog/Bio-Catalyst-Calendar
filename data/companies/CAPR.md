@@ -1,13 +1,13 @@
 ---
 ticker: CAPR
 company: Capricor Therapeutics
-mcap: 300
+mcap: 1800
 modality: Cell Therapy
 areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-04-22
-verified: 2026-04-27
+verified: 2026-05-02
 sources: []
 ---
 

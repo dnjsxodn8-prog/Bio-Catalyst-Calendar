@@ -1,14 +1,16 @@
 ---
 ticker: AMLX
 company: Amylyx Pharmaceuticals
-mcap: 400
+mcap: 1800
 modality: Small Molecule
 areas:
   - Rare Disease
   - Obesity/Metabolic
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
-sources: []
+verified: 2026-05-02
+sources:
+  - https://investors.amylyx.com/news-releases/news-release-details/amylyx-pharmaceuticals-reports-fourth-quarter-and-full-year-2025
+  - https://www.businesswire.com/news/home/20241203046765/en/Amylyx-Pharmaceuticals-Announces-Pivotal-Phase-3-LUCIDITY-Trial-Design-for-GLP-1-Receptor-Antagonist-Avexitide-in-Post-Bariatric-Hypoglycemia
 ---
 
 # Amylyx Pharmaceuticals (AMLX)
@@ -39,7 +41,7 @@ X
 구축중
 
 ## 상업화 제품
-Avexitide (PBH Phase 3), AMX0114 (PSP)
+없음. Phase 3 후보: Avexitide (PBH) · AMX0114 (ALS/PSP) — 임상 단계, 상업화 전
 
 ## 임상 디자인
 - 디자인: Randomized, double-blind, placebo-controlled

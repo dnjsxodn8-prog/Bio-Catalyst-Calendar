@@ -1,13 +1,13 @@
 ---
 ticker: KLRS
 company: Kalaris Therapeutics
-mcap: 184
+mcap: 130
 modality: Small Molecule
 areas:
   - Ophthalmology
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.kalaris.com/pipeline/
   - https://www.kalaris.com/

@@ -1,13 +1,13 @@
 ---
 ticker: ANNX
 company: Annexon
-mcap: 769
+mcap: 930
 modality: Antibody
 areas:
   - Neurology
   - Ophthalmology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.annexonbio.com/news-releases/news-release-details/annexon-announces-positive-topline-results-pivotal-phase-3-trial/
   - https://ir.annexonbio.com/news-releases/news-release-details/annexon-submits-tanruprubart-marketing-authorization-application/

@@ -1,12 +1,12 @@
 ---
 ticker: STTK
 company: Shattuck Labs
-mcap: 380
+mcap: 530
 modality: Antibody
 areas:
   - Immunology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/03/05/3249960/0/en/Shattuck-Labs-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Recent-Business-Highlights.html
   - https://www.dailypolitical.com/2026/04/08/shattuck-labs-nasdaqsttk-reaches-new-52-week-high-heres-why.html

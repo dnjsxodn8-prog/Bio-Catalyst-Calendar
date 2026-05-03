@@ -16,13 +16,15 @@ sources:
 # Cytokinetics (CYTK)
 
 ## 카탈리스트
-Aficamten PDUFA (비폐쇄성 비대심근병증 oHCM) — FDA 결정 2026 Q2 예상
+- **MYQORZO (aficamten) 출시 진행 중** — FDA 2025-12-19 승인 완료 (폐쇄성 비대심근병증 oHCM), 2026년 초 미국 출시 개시. REMS 프로그램 적용.
+- **FOREST-HCM Phase 3** (비폐쇄성 HCM, non-oHCM) — 2026 H2 결과 예상.
+- **AstraZeneca HFpEF 파트너십** 마일스톤 — 개발 진행에 따른 추가 마일스톤 수령 예정.
 
 ## 회사 개요
-Cytokinetics는 심장·골격근 기능 조절 전문 심장 바이오파마. 핵심 파이프라인 aficamten은 심장 미오신 억제제로 비폐쇄성 비대심근병증(oHCM) 및 폐쇄성 비대심근병증(HCM) 대상. 2023년 MYK-461(mavacamten, Camzyos — BMS) 경쟁 약물 성공에 이어 aficamten이 2세대 심장 미오신 억제제로 차별화. 시가총액 $7B의 후기 임상 단계 기업.
+Cytokinetics는 심장·골격근 기능 조절 전문 심장 바이오파마. 핵심 제품 aficamten(MYQORZO)은 심장 미오신 억제제로 폐쇄성 비대심근병증(oHCM) 대상 2025-12-19 FDA 승인 완료 → 2026년 초 출시. MYK-461(mavacamten, Camzyos — BMS) 경쟁 약물에 이어 aficamten이 2세대 심장 미오신 억제제로 차별화(더 짧은 반감기, CYP2C19 의존성 낮음). 시가총액 $7B.
 
 ## 매출
-상업화 제품 없음. 파트너십 마일스톤 수입.
+상업화 초기 단계 (MYQORZO 2026년 초 출시, 아직 유의미한 매출 미집계). 파트너십(AstraZeneca) 마일스톤 수입.
 
 ## 플랫폼
 - Small Molecule (심장 미오신 억제제)
@@ -38,10 +40,10 @@ Cardiovascular (비대심근병증 HCM, 심부전 HFpEF)
 AZ 파트너십 마일스톤. 독자 HCM 개발.
 
 ## 자체 판매
-준비 중 (NDA 승인 후 상업화 계획)
+진행 중 (MYQORZO 미국 출시 개시, REMS 프로그램 적용)
 
 ## 상업화 제품
-없음 (승인 대기 중)
+**MYQORZO (aficamten)** — 폐쇄성 비대심근병증(oHCM), FDA 2025-12-19 승인. 미국 출시 2026년 초 개시. 5mg/10mg/15mg/20mg 정제.
 
 ## 임상 디자인
 - 약물: Aficamten (CK-274)
@@ -87,4 +89,4 @@ ATP 경쟁적 심장 미오신 중쇄(β-MHC) 억제제. 과도한 심장 수축
 - [Olivotto I et al. Mavacamten for treatment of symptomatic obstructive HCM (EXPLORER-HCM). Lancet (2020)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31792-X/fulltext)
 
 ## 메모
-Mavacamten(Camzyos) 성공으로 심장 미오신 억제 기전 검증 완료. Aficamten 차별화(PK, 상호작용)가 2세대 포지셔닝 핵심. PDUFA 통과 시 즉시 상업화. AZ 파트너십(HFpEF)으로 추가 업사이드. 시총 $7B — 승인 기대 상당 반영.
+MYQORZO(aficamten) FDA 2025-12-19 승인 완료 → 상업화 단계 진입. Mavacamten(Camzyos) 성공으로 기전 검증 완료된 시장에서 PK 차별화(반감기, CYP2C19)로 2세대 포지셔닝. 다음 주요 카탈리스트: FOREST-HCM(non-oHCM) 2026 H2 readout — 적응증 확대 가능성. AZ HFpEF 파트너십 마일스톤 추가 업사이드. 시총 $7B — 출시 초기 실적 추이가 단기 주가 결정 요인.

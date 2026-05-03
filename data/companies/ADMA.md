@@ -1,14 +1,14 @@
 ---
 ticker: ADMA
 company: ADMA Biologics
-mcap: 4000
+mcap: 2450
 modality: Protein/Enzyme
 areas:
   - Immunology
   - Infectious Disease
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/02/25/3245009/33130/en/ADMA-Biologics-Reports-Record-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update.html
   - https://www.globenewswire.com/news-release/2026/01/12/3216837/33130/en/ADMA-Biologics-Announces-Preliminary-Full-Year-2025-Unaudited-Total-Revenue-and-Provides-Business-Update.html

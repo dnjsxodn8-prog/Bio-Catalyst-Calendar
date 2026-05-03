@@ -1,12 +1,12 @@
 ---
 ticker: CGEN
 company: Compugen
-mcap: 211
+mcap: 260
 modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://cgen.com/investors-and-media/press-releases/news-details/2026/Compugen-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx
   - https://www.prnewswire.com/news-releases/compugen-monetizes-portion-of-rilvegostomig-future-royalties-to-astrazeneca-for-up-to-90-million-302644468.html

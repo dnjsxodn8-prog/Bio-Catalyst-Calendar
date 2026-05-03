@@ -1,12 +1,12 @@
 ---
 ticker: OLMA
 company: Olema Pharmaceuticals
-mcap: 2000
+mcap: 1250
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-Q3
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.olemapharma.com/
   - https://clinicaltrials.gov/study/NCT05256654

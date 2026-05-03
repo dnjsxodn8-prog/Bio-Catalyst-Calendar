@@ -1,13 +1,13 @@
 ---
 ticker: MGNX
 company: MacroGenics
-mcap: 141
+mcap: 200
 modality: Antibody
 areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://macrogenics.com/investors/news
   - https://clinicaltrials.gov/study/NCT04158648

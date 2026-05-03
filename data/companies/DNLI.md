@@ -1,13 +1,13 @@
 ---
 ticker: DNLI
 company: Denali Therapeutics
-mcap: 2000
+mcap: 2900
 modality: Protein/Enzyme
 areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.denalitherapeutics.com/
   - https://clinicaltrials.gov/study/NCT03634007

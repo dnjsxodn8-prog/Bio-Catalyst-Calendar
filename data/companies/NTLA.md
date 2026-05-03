@@ -1,7 +1,7 @@
 ---
 ticker: NTLA
 company: Intellia Therapeutics
-mcap: 900
+mcap: 1600
 modality: Gene Therapy
 areas:
   - Gene/Cell Therapy

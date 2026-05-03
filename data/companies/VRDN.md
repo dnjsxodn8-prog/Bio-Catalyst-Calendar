@@ -1,20 +1,21 @@
 ---
 ticker: VRDN
 company: Viridian Therapeutics
-mcap: 2000
+mcap: 1400
 modality: Antibody
 areas:
   - Autoimmune
   - Immunology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources: []
 ---
 
 # Viridian Therapeutics (VRDN)
 
 ## 카탈리스트
-VRDN-003 Phase 3 pivotal
+- REVEAL-1 (VRDN-003, active TED) Phase 3 readout — 2026-03 **Positive** 완료 (PRR 54%/63% Q4W/Q8W vs 18% placebo)
+- REVEAL-2 (VRDN-003, chronic TED) Phase 3 readout — Q2 2026 예상 (N=204, 등록 완료)
 
 ## 회사 개요
 TED 전문. VRDN-003(반감기 연장 anti-IGF-1R SC)로 Tepezza 경쟁. THRIVE-2 Phase 3 성공.

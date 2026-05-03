@@ -1,13 +1,13 @@
 ---
 ticker: CLYM
 company: Climb Bio
-mcap: 343
+mcap: 430
 modality: Small Molecule
 areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT05886751
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10461737/

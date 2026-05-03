@@ -1,12 +1,12 @@
 ---
 ticker: GHRS
 company: GH Research
-mcap: 988
+mcap: 1400
 modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/study/NCT04820322
 ---

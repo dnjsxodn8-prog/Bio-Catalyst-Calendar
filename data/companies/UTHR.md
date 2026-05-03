@@ -1,13 +1,13 @@
 ---
 ticker: UTHR
 company: United Therapeutics
-mcap: 15000
+mcap: 24200
 modality: Small Molecule
 areas:
   - Cardiology
   - Rare Disease
 nextCatalyst: 2026-09-30
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.unither.com/press-releases/2026/03-30-2026-120037465
   - https://ir.unither.com/press-releases/2026/03-02-2026-113011187

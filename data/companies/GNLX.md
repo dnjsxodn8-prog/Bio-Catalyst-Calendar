@@ -9,7 +9,7 @@ nextCatalyst: 2026-12-31
 verified: 2026-04-27
 sources:
   - https://genelux.com/
-  - https://clinicaltrials.gov/study/NCT04636073
+  - https://clinicaltrials.gov/study/NCT05281471
 ---
 
 # Genelux (GNLX)
@@ -45,8 +45,8 @@ Oncology (난소암, 복막암)
 없음
 
 ## 임상 디자인
-- 시험명: VIRO-15
-- NCT: NCT04636073
+- 시험명: OnPrime (GOG-3076)
+- NCT: NCT05281471
 - Phase: Phase 3 (pivotal)
 - N: 약 100명
 - 대상: 백금 내성 재발 난소암 (복막 전이)
@@ -66,7 +66,7 @@ Oncology (난소암, 복막암)
 Bevacizumab, PARP 억제제(olaparib, niraparib), 화학요법. 2차 이후 ORR 10-15% 수준.
 
 ## 사전 공개 임상
-- **VIRO-15 중간 분석 · NCT04636073 · Phase 3**
+- **OnPrime GOG-3076 · NCT05281471 · Phase 3**
   결과: 2023년 중간 발표 - PFS 개선 신호, 독성 관리 가능 수준 확인. 최종 데이터 2026 하반기 예정.
 - **GL-ONC1 Phase 1/2 · NCT01443260 · Phase 1/2**
   결과: 복막 투여 안전성 확인, 종양 내 바이러스 복제 확인 (2017)

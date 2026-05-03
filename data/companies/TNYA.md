@@ -1,12 +1,12 @@
 ---
 ticker: TNYA
 company: Tenaya Therapeutics
-mcap: 192
+mcap: 150
 modality: Gene Therapy
 areas:
   - Cardiovascular
 nextCatalyst: 2026-05-15
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://investors.tenayatherapeutics.com/news-releases/news-release-details/tenaya-therapeutics-announces-2026-strategic-priorities-and
   - https://www.globenewswire.com/news-release/2026/03/11/3254128/0/en/Tenaya-Therapeutics-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Business-Update.html

@@ -1,13 +1,13 @@
 ---
 ticker: ARTV
 company: Artiva Biotherapeutics
-mcap: 141
+mcap: 270
 modality: Cell Therapy
 areas:
   - Immunology
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/03/10/3253311/0/en/artiva-biotherapeutics-reports-full-year-2025-financial-results-and-recent-business-highlights.html
   - https://www.globenewswire.com/news-release/2025/10/16/3168298/0/en/Artiva-Biotherapeutics-Announces-Refractory-Rheumatoid-Arthritis-as-Lead-Indication-Upcoming-Data-Releases-and-Corporate-Update.html

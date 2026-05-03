@@ -1,13 +1,13 @@
 ---
 ticker: SABS
 company: SAB Biotherapeutics
-mcap: 180
+mcap: 240
 modality: Biologic
 areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2027-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2026/03/09/3252356/0/en/sab-bio-reports-full-year-2025-financial-results-and-business-highlights.html
   - https://ir.sab.bio/news-releases/news-release-details/first-patient-dosed-sab-bios-safeguard-clinical-trial-sab-142

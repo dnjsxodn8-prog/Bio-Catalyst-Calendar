@@ -1,13 +1,13 @@
 ---
 ticker: KYTX
 company: Kyverna Therapeutics
-mcap: 300
+mcap: 540
 modality: Cell Therapy
 areas:
   - Autoimmune
   - Neurology
 nextCatalyst: 2026-04-22
-verified: 2026-04-29
+verified: 2026-05-02
 sources: []
 ---
 

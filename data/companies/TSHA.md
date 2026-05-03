@@ -1,12 +1,12 @@
 ---
 ticker: TSHA
 company: Taysha Gene Therapies
-mcap: 1250
+mcap: 1800
 modality: Other
 areas:
   - Neurology
 nextCatalyst: 2026-06-30
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.tayshagtx.com/news-releases/news-release-details/taysha-gene-therapies-announces-progress-across-tsha-102-pivotal
   - https://ir.tayshagtx.com/news-releases/news-release-details/taysha-gene-therapies-announces-pivotal-part-b-trial-design

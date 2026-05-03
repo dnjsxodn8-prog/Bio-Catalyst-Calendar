@@ -1,12 +1,12 @@
 ---
 ticker: CELC
 company: Celcuity
-mcap: 500
+mcap: 6050
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources: []
 ---
 

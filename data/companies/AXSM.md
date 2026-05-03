@@ -1,14 +1,16 @@
 ---
 ticker: AXSM
 company: Axsome Therapeutics
-mcap: 5000
+mcap: 10600
 modality: Small Molecule
 areas:
   - Neurology
   - Psychiatry
-nextCatalyst: 2026-04-30
-verified: 2026-04-27
-sources: []
+nextCatalyst: 2026-12-31
+verified: 2026-05-02
+sources:
+  - https://www.globenewswire.com/news-release/2026/04/30/3285345/33090/en/axsome-therapeutics-announces-fda-approval-of-auvelity-dextromethorphan-hbr-and-bupropion-hcl-for-the-treatment-of-agitation-associated-with-dementia-due-to-alzheimer-s-disease.html
+  - https://www.globenewswire.com/news-release/2026/05/01/3285840/33090/en/Axsome-Therapeutics-Hosts-AUVELITY-FDA-Approval-Investor-Event-Featuring-Expert-Thought-Leader.html
 ---
 
 # Axsome Therapeutics (AXSM)
@@ -39,7 +41,7 @@ Neurology, Psychiatry
 예
 
 ## 상업화 제품
-Auvelity, Sunosi, Symbravo. PDUFA 4/30 AD agitation
+Auvelity (MDD, FDA 2022), Sunosi, Symbravo. **Auvelity AD agitation FDA 승인 2026-04-30.** AXS-12 narcolepsy NDA 제출 예정(2026)
 
 ## 임상 디자인
 - 디자인: Randomized, double-blind, placebo-controlled

@@ -1,12 +1,12 @@
 ---
 ticker: LBRX
 company: LB Pharmaceuticals
-mcap: 602
+mcap: 900
 modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://clinicaltrials.gov/ct2/show/NCT05397080
 ---

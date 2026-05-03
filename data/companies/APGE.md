@@ -1,14 +1,14 @@
 ---
 ticker: APGE
 company: Apogee Therapeutics
-mcap: 5000
+mcap: 6100
 modality: Antibody
 areas:
   - Dermatology
   - Respiratory
   - Immunology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investors.apogeetherapeutics.com/news-releases/news-release-details/apogee-therapeutics-announces-positive-phase-2-part-52-week-data
   - https://www.globenewswire.com/news-release/2026/03/02/3247224/0/en/Apogee-Therapeutics-Provides-Pipeline-Progress-and-Reports-Full-Year-2025-Financial-Results.html

@@ -1,12 +1,12 @@
 ---
 ticker: DRTS
 company: Alpha Tau Medical
-mcap: 547
+mcap: 750
 modality: Diagnostic
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.alphatau.com/
   - https://clinicaltrials.gov/study/NCT04209894

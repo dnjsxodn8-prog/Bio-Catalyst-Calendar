@@ -1,13 +1,13 @@
 ---
 ticker: MBX
 company: MBX Biosciences
-mcap: 650
+mcap: 1400
 modality: Other
 areas:
   - Rare Disease
   - Obesity/Metabolic
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources: []
 ---
 

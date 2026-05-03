@@ -1,13 +1,13 @@
 ---
 ticker: NGNE
 company: Neurogene
-mcap: 343
+mcap: 420
 modality: Gene Therapy
 areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-H1
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.neurogene.com/
   - https://clinicaltrials.gov/study/NCT05524727

@@ -1,12 +1,12 @@
 ---
 ticker: SRZN
 company: Surrozen
-mcap: 252
+mcap: 400
 modality: Antibody
 areas:
   - Ophthalmology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://surrozen.com/pipeline/
   - https://www.marketbeat.com/instant-alerts/surrozen-conference-ceo-details-wnt-fzd4-eye-disease-bet-2026-ind-plans-for-szn-8141-2026-02-15/

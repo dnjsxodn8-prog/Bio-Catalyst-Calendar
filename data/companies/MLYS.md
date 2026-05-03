@@ -1,12 +1,12 @@
 ---
 ticker: MLYS
 company: Mineralys Therapeutics
-mcap: 2000
+mcap: 2400
 modality: Small Molecule
 areas:
   - Cardiovascular
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.mineralystx.com/
   - https://ir.mineralystx.com/news-events/press-releases

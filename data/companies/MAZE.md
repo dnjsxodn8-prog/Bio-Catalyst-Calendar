@@ -1,13 +1,13 @@
 ---
 ticker: MAZE
 company: Maze Therapeutics
-mcap: 2000
+mcap: 1500
 modality: Small Molecule
 areas:
   - Rare Disease
   - Gastrointestinal
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.mazetx.com/news-releases/news-release-details/maze-therapeutics-reports-third-quarter-2025-financial-results
   - https://www.globenewswire.com/news-release/2026/04/22/3278633/0/en/Maze-Therapeutics-Announces-150-Million-Registered-Offering.html

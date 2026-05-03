@@ -67,8 +67,8 @@ Entecavir (BMS), TDF/TAF (Gilead) — NA 치료제. 억제는 우수하나 funct
 ## 사전 공개 임상
 - **IM-PROVE I · NCT04980482 · Phase 2a**
   결과: HBeAg-음성 저HBsAg(<1000 IU/mL) 서브그룹에서 functional cure 50% (imdusiran+PEG-IFN+NA). 전체 25%.
-- **IM-PROVE II · NCT06245291 · Phase 2a**
-  결과: imdusiran + VTP-300 + 저용량 nivolumab 조합, 23% HBsAg 소실 (Week 48).
+- **IM-PROVE II · NCT06245291 · Phase 2a · WITHDRAWN (CT.gov 등록 취소)**
+  결과: imdusiran + VTP-300 + 저용량 nivolumab 조합, 23% HBsAg 소실 (Week 48). 데이터는 2024년 11월 / 2026년 4월 발표 완료. NCT06245291은 CT.gov 상 WITHDRAWN 처리되었으나 임상 결과 자체는 공식 발표됨.
 
 ## Modality
 **Imdusiran (AB-729)**

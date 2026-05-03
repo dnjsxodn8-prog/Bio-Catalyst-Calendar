@@ -1,14 +1,14 @@
 ---
 ticker: LGND
 company: Ligand Pharmaceuticals
-mcap: 4000
+mcap: 2750
 modality: Other
 areas:
   - Oncology
   - Immunology
   - Respiratory
 nextCatalyst: 2026-07-01
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investor.ligand.com/news-and-events/press-releases/news-details/2026/Ligand-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx
   - https://www.globenewswire.com/news-release/2026/04/27/3281484/7281/en/Ligand-to-Acquire-XOMA-Royalty-Further-Accelerating-Profit-Growth-and-Strengthening-Ligand-s-Position-as-a-Leading-Biopharma-Royalty-Aggregator.html

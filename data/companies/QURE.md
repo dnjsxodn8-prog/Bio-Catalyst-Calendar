@@ -1,13 +1,13 @@
 ---
 ticker: QURE
 company: uniQure
-mcap: 889
+mcap: 1200
 modality: Gene Therapy
 areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-H2
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.uniqure.com/
   - https://www.uniqure.com/

@@ -1,12 +1,12 @@
 ---
 ticker: OCS
 company: Oculis Holding
-mcap: 2000
+mcap: 1600
 modality: Small Molecule
 areas:
   - Ophthalmology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.oculis.com/pipeline/
   - https://oculis.com/

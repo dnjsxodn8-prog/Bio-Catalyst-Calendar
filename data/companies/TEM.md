@@ -1,13 +1,13 @@
 ---
 ticker: TEM
 company: Tempus AI
-mcap: 8000
+mcap: 9850
 modality: Diagnostic
 areas:
   - Oncology
   - AI/Data Platform
 nextCatalyst: 2026-05-01
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.stocktitan.net/news/TEM/tempus-announces-preliminary-fourth-quarter-and-full-year-2025-tig8t3pgxfbo.html
   - https://stockanalysis.com/stocks/tem/

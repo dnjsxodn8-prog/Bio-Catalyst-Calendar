@@ -1,14 +1,14 @@
 ---
 ticker: TRDA
 company: Entrada Therapeutics
-mcap: 453
+mcap: 560
 modality: RNA/siRNA
 areas:
   - Neuromuscular
   - Rare Disease
   - Ophthalmology
 nextCatalyst: 2026-06-30
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.entradatx.com/news-releases/news-release-details/entrada-therapeutics-reports-third-quarter-2025-financial
   - https://www.globenewswire.com/news-release/2026/02/26/3245425/0/en/entrada-therapeutics-reports-fourth-quarter-and-full-year-2025-financial-results.html

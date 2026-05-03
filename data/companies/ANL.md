@@ -1,12 +1,12 @@
 ---
 ticker: ANL
 company: Adlai Nortye
-mcap: 329
+mcap: 1000
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.adlainortye.com/news-releases/news-release-details/adlai-nortye-announces-topline-results-phase-iii-buran-trial
   - https://www.stocktitan.net/news/ANL/adlai-nortye-announces-first-patient-enrolled-in-global-phase-1-6gt6ly4qj8uu.html

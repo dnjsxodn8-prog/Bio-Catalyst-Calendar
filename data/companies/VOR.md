@@ -1,12 +1,12 @@
 ---
 ticker: VOR
 company: Vor Biopharma
-mcap: 860
+mcap: 680
 modality: Biologic
 areas:
   - Immunology/Autoimmune
 nextCatalyst: 2027-06-30
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://ir.vorbio.com/news-releases/news-release-details/vor-bio-enters-exclusive-global-license-agreement-remegen-late
   - https://www.globenewswire.com/news-release/2026/03/30/3264589/0/en/Vor-Bio-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-Corporate-Update.html

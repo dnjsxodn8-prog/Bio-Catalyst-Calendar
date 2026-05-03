@@ -1,13 +1,13 @@
 ---
 ticker: ACRS
 company: Aclaris Therapeutics
-mcap: 369
+mcap: 620
 modality: Antibody
 areas:
   - Dermatology
   - Immunology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investor.aclaristx.com/news-releases/news-release-details/aclaris-therapeutics-reports-fourth-quarter-and-full-year-2025
   - https://www.globenewswire.com/news-release/2025/06/23/3103239/0/en/Aclaris-Therapeutics-Initiates-Phase-1a-1b-Program-for-its-Novel-Bispecific-Antibody-ATI-052.html

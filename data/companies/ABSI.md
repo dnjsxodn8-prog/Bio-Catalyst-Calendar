@@ -1,14 +1,14 @@
 ---
 ticker: ABSI
 company: Absci
-mcap: 358
+mcap: 760
 modality: Tool/Platform
 areas:
   - Immunology
   - Dermatology
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.globenewswire.com/news-release/2025/03/18/3044972/0/en/Absci-Reports-Business-Updates-and-Fourth-Quarter-and-Full-Year-2024-Financial-and-Operating-Results.html
   - https://investors.absci.com/news-releases/news-release-details/absci-announces-collaboration-astrazeneca-advance-ai-driven

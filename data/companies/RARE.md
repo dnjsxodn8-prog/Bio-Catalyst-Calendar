@@ -1,13 +1,13 @@
 ---
 ticker: RARE
 company: Ultragenyx Pharmaceutical
-mcap: 2000
+mcap: 2450
 modality: Gene Therapy
 areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-H1
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ultragenyx.com/press-releases
   - https://www.ultragenyx.com/our-medicines/pipeline

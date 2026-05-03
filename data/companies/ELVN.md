@@ -1,13 +1,13 @@
 ---
 ticker: ELVN
 company: Enliven Therapeutics
-mcap: 2000
+mcap: 2550
 modality: Small Molecule
 areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.enliventx.com/
   - https://clinicaltrials.gov/study/NCT05304377

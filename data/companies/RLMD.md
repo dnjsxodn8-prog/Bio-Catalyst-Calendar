@@ -1,12 +1,12 @@
 ---
 ticker: RLMD
 company: Relmada Therapeutics
-mcap: 326
+mcap: 800
 modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: null
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.relmada.com/for-investors/news/detail/307/relmada-therapeutics-to-discontinue-the-reliance-ii-and-relight-phase-3-studies-of-rel-1017
   - https://www.fiercebiotech.com/biotech/relmada-halts-two-phase-3-trials-depression-drug-seeks-strategic-move-maximize-shareholder

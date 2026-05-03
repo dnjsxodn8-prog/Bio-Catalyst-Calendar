@@ -1,13 +1,13 @@
 ---
 ticker: DSGN
 company: Design Therapeutics
-mcap: 572
+mcap: 830
 modality: Small Molecule
 areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.designtx.com/
   - https://clinicaltrials.gov/study/NCT05285527

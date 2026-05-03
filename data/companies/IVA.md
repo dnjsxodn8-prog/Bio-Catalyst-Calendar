@@ -12,15 +12,16 @@ sources:
   - https://www.inventivapharma.com/pipeline/
   - https://clinicaltrials.gov/study/NCT03987295
   - https://inventivapharma.com/
+  - https://www.globenewswire.com/news-release/2025/04/01/3053830/
 ---
 
 # Inventiva (IVA)
 
 ## 카탈리스트
-Lanifibranor (NASH/MASH) — FDA 승인 심사(NDA 제출 후) 및 EMA 심사 결과 2026년 내 예정
+Lanifibranor (MASH) — NATiV3 Phase 3 topline readout Q4 2026 예상 (NDA 미제출)
 
 ## 회사 개요
-Inventiva는 프랑스 기반 소분자 PPAR 작용제 전문 임상 단계 바이오텍. 주력 파이프라인 Lanifibranor는 범PPAR(α/δ/γ) 작용제로 NASH(대사이상관련 지방간염, 현재 MASH로 재명명) 대상 Phase 3 NativeLiver 시험을 완료했으며 FDA·EMA 동시 승인 신청 절차 진행 중. NASDAQ 및 Euronext Paris 이중 상장.
+Inventiva는 프랑스 기반 소분자 PPAR 작용제 전문 임상 단계 바이오텍. 주력 파이프라인 Lanifibranor는 범PPAR(α/δ/γ) 작용제로 MASH(구 NASH) 대상. Phase 2b NativeLiver(NCT03987295) 결과는 2021년 NEJM에 긍정적으로 발표(완료). 현재 Phase 3 **NATiV3** (NCT06000059) 진행 중 — 2025년 4월 enrollment 완료, topline 결과 Q4 2026 예상, NDA 미제출 상태. NASDAQ 및 Euronext Paris 이중 상장.
 
 ## 매출
 상업화 제품 없음. 비수익 단계. AbbVie와의 파트너십(Cystic Fibrosis 관련) 수입 일부.
@@ -42,15 +43,24 @@ Gastrointestinal (MASH/NASH), Rare Disease (점액다당류증 MPS 등)
 미해당 (임상/허가 단계)
 
 ## 상업화 제품
-없음 (MASH 승인 심사 진행 중)
+없음 (NATiV3 Phase 3 진행 중; NDA 미제출)
 
 ## 임상 디자인
+**Phase 2b — NativeLiver (완료)**
 - 디자인: Randomized, double-blind, placebo-controlled
 - Arms: Lanifibranor 800mg vs 1200mg vs placebo
-- N: 1,070명
-- Phase: Phase 3 (NativeLiver)
+- N: ~200명 (MASH F1-F3)
 - Primary endpoint: 섬유화 1단계 이상 개선 + MASH 해소 (composite endpoint)
-- NCT: NCT03987295
+- NCT: NCT03008070
+- 결과: Positive (2021년 NEJM 발표)
+
+**Phase 3 — NATiV3 (진행 중)**
+- 디자인: Randomized, double-blind, placebo-controlled
+- Arms: Lanifibranor 1200mg vs placebo
+- N: ~1,070명 (MASH F2-F3)
+- Primary endpoint: 섬유화 1단계 이상 개선 + MASH 해소 (composite endpoint)
+- NCT: NCT06000059
+- 상태: 2025년 4월 enrollment 완료; topline Q4 2026 예상; NDA 미제출
 
 ## 타겟 질환
 **MASH (Metabolic dysfunction-Associated SteatoHepatitis, 구 NASH)**
@@ -64,10 +74,10 @@ Gastrointestinal (MASH/NASH), Rare Disease (점액다당류증 MPS 등)
 Resmetirom (Rezdiffra, MSD) — 2024년 FDA 승인 1호 MASH 치료제. Lanifibranor는 범PPAR 기전으로 차별화(항섬유화 + 대사 개선 + 항염 복합 작용).
 
 ## 사전 공개 임상
-- **Phase 2b (NATIVE trial, MASH F1-F3) · NCT03008070**
-  결과: Lanifibranor 1200mg — MASH 해소 49% vs 위약 22% (2021년 NEJM 발표)
-- **NativeLiver Phase 3 (F2-F3) · NCT03987295**
-  결과: Positive top-line (2024년 발표) — 1차·2차 endpoint 모두 충족
+- **Phase 2b (NativeLiver / NATIVE trial, MASH F1-F3) · NCT03008070**
+  결과: Lanifibranor 1200mg — MASH 해소 49% vs 위약 22% (2021년 NEJM 발표). **이 시험은 완료된 Phase 2b임.**
+- **Phase 3 NATiV3 (MASH F2-F3) · NCT06000059**
+  상태: 2025년 4월 enrollment 완료. Topline 결과 Q4 2026 예상. **NDA 미제출.**
 
 ## Modality
 **Lanifibranor**
@@ -85,4 +95,4 @@ Pan-PPAR (α/δ/γ) agonist (type: Small Molecule)
 - [Ratziu V et al. Pan-PPAR agonism as therapeutic approach in NASH. J Hepatol (2022)](https://pubmed.ncbi.nlm.nih.gov/35490741/)
 
 ## 메모
-NativeLiver Phase 3 성공 후 FDA/EMA 동시 심사 중. MASH 2번째 FDA 승인 치료제 후보. 범PPAR 기전은 resmetirom(THR-β)과 기전 차별화.
+Phase 2b NativeLiver(NCT03008070) 2021년 NEJM positive — 완료된 별개 시험. 현재 진행 중인 pivotal은 Phase 3 NATiV3(NCT06000059): 2025-04 enrollment 완료, topline Q4 2026 예상, NDA 미제출. 승인되면 MASH 2번째 FDA 치료제 후보. 범PPAR 기전은 resmetirom(THR-β)과 차별화. 출처: GlobeNewswire 2025-04-01.

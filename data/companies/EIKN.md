@@ -1,12 +1,12 @@
 ---
 ticker: EIKN
 company: Eikon Therapeutics
-mcap: 776
+mcap: 520
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.eikontx.com/pipeline
   - https://clinicaltrials.gov/study/NCT05107232

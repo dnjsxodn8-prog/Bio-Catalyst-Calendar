@@ -1,13 +1,13 @@
 ---
 ticker: RLAY
 company: Relay Therapeutics
-mcap: 600
+mcap: 2450
 modality: Small Molecule
 areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-05-20
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.relaytx.com/news-releases/news-release-details/relay-therapeutics-announces-positive-interim-data-rly-2608/
   - https://ir.relaytx.com/news-releases/news-release-details/relay-therapeutics-announces-zovegalisib-granted-breakthrough/

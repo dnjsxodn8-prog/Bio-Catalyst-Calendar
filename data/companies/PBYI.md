@@ -1,12 +1,12 @@
 ---
 ticker: PBYI
 company: Puma Biotechnology
-mcap: 308
+mcap: 380
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-Q3
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://pumabiotechnology.com/
   - https://clinicaltrials.gov/study/NCT01526083
@@ -18,7 +18,7 @@ sources:
 Neratinib (Nerlynx) HER2+ 유방암 적응증 추가 임상 결과 / 파트너십 업데이트 (2026 H2); 국제 판매 확대 (유럽 Pierre Fabre 파트너십)
 
 ## 회사 개요
-미국 임상-상업화 단계 종양 바이오텍. 상업화 제품: neratinib(Nerlynx) — HER2+ 조기 유방암 보조치료(adjuvant) FDA 승인(2017). ExteNet Phase 3 기반. HER2+ 진행성 유방암(LA-XTEND, SUMMIT 바스켓 트라이얼) 적응증 확대 임상 중. 유럽 판매는 Pierre Fabre 파트너십.
+미국 임상-상업화 단계 종양 바이오텍. 상업화 제품: neratinib(Nerlynx) — HER2+ 조기 유방암 보조치료(adjuvant) FDA 승인(2017). ExteNet Phase 3 기반. HER2+ 진행성 유방암(LA-XTEND, SUMMIT 바스켓 트라이얼) 적응증 확대 임상 — SUMMIT(NCT01953926)은 TERMINATED(결과 발표 완료). 유럽 판매는 Pierre Fabre 파트너십.
 
 ## 매출
 $220M (FY2024 추정). 성장 정체 — 경쟁 심화(트라스투주맙 데럭스테칸 등).
@@ -64,8 +64,8 @@ Trastuzumab(Herceptin), Pertuzumab(Perjeta), T-DM1(Kadcyla), T-DXd(Enhertu, AZ/D
 ## 사전 공개 임상
 - **ExteNet Phase 3 · NCT01526083 · 완료**
   결과: Positive — iDFS 유의한 개선 (HR2Y 서브그룹 HR 0.60, p=0.003) → FDA 2017년 승인
-- **SUMMIT 바스켓 (HER2 변이 고형암) · NCT01953926 · 진행 중**
-  결과: HER2 변이 NSCLC ORR 39%, 유방암 HER2 L755S 등 변이 반응 확인
+- **SUMMIT 바스켓 (HER2 변이 고형암) · NCT01953926 · TERMINATED (등록 종료, 결과 발표 완료)**
+  결과: HER2 변이 NSCLC ORR 39%, 유방암 HER2 L755S 등 변이 반응 확인 (2021 SABCS 등 발표 완료). 추가 신규 등록 없음.
 
 ## Modality
 **Neratinib (Nerlynx)**

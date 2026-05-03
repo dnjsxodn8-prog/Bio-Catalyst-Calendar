@@ -17,7 +17,7 @@ sources:
 # Century Therapeutics (IPSC)
 
 ## 카탈리스트
-CNTY-101 (iPSC 유래 CD19 CAR-iNK) Phase 1 용량 확장 코호트 데이터 — 2026년 하반기
+CNTY-101 자가면역 CARAMEL IST 초기 데이터 / 파이프라인 전략 업데이트 — 2026년 하반기 (혈액암 ELiPSE-1 종료 후 자가면역으로 피봇)
 
 ## 회사 개요
 iPSC(유도만능줄기세포) 유래 동종 세포치료제(allogeneic) 전문 임상 단계 바이오텍. 기존 자가 CAR-T 대비 동종 iPSC 기반 무제한 생산 가능. 주요 파이프라인: CNTY-101 (CD19 CAR-iNK, B세포 혈액암), CNTY-102 (CD19 CAR-iT). Bristol-Myers Squibb와 iT 세포치료제 공동 개발 파트너십($100M 계약).
@@ -45,7 +45,7 @@ Oncology, Hematology (B세포 혈액암 — NHL, ALL; AML 등)
 아직 없음
 
 ## 상업화 제품
-없음. CNTY-101 Phase 1 진행 중.
+없음. CNTY-101 혈액암 Phase 1(ELiPSE-1, NCT05336409) 2025-03 TERMINATED — 자가면역(CARAMEL IST) 피봇.
 
 ## 임상 디자인
 - **CNTY-101 ARBOR (NCT05336409) · Phase 1 · CD19+ B세포 혈액암**
@@ -68,8 +68,8 @@ Oncology, Hematology (B세포 혈액암 — NHL, ALL; AML 등)
 자가 CAR-T: Yescarta, Kymriah, Breyanzi(제조 4-6주). 동종 CAR-T: allogene, Precision BioSciences 경쟁. CNTY-101은 iPSC → iNK로 NK세포 특유 GvHD 낮은 안전성 프로파일.
 
 ## 사전 공개 임상
-- **CNTY-101 Phase 1 초기 (NCT05336409, 2023 ASH)**
-  결과: 초기 안전성 양호, 2명 CR, 체내 지속성 확인. 용량 확장 진행 중.
+- **CNTY-101 ELiPSE-1 Phase 1 (NCT05336409) · TERMINATED 2025-03**
+  결과: 초기 안전성 양호, 2명 CR, 체내 지속성 확인 (2023 ASH). 2025년 3월 파이프라인 재우선화로 혈액암 임상 중단 — CNTY-101을 자가면역질환(CARAMEL IST) 방향으로 전환.
 - **iPSC CAR-NK 원조 연구 (Nature 2022)**
   결과: iPSC 유래 NK세포의 항종양 활성 및 체내 지속성 전임상 확인.
 

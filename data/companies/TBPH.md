@@ -1,13 +1,13 @@
 ---
 ticker: TBPH
 company: Theravance Biopharma
-mcap: 700
+mcap: 860
 modality: Small Molecule
 areas:
   - Respiratory
   - Neuroscience
 nextCatalyst: null
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investor.theravance.com/news-releases/news-release-details/theravance-biopharma-reports-phase-3-cypress-study-did-not-meet
   - https://www.prnewswire.com/news-releases/theravance-biopharma-reports-phase-3-cypress-study-did-not-meet-primary-endpoint-board-accelerates-strategic-review-and-announces-cost-reduction-actions-302702475.html

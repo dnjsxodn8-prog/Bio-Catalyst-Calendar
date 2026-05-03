@@ -1,13 +1,13 @@
 ---
 ticker: ANAB
 company: AnaptysBio
-mcap: 500
+mcap: 1950
 modality: Antibody
 areas:
   - Immunology
   - Dermatology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.anaptysbio.com/pipeline/
   - https://ir.anaptysbio.com/news

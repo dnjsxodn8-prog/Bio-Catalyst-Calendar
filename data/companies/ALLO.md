@@ -1,13 +1,13 @@
 ---
 ticker: ALLO
 company: Allogene Therapeutics
-mcap: 517
+mcap: 740
 modality: Cell Therapy
 areas:
   - Oncology
   - Immunology
 nextCatalyst: 2027-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.allogene.com/news-releases/news-release-details/allogene-therapeutics-positions-2026-program-defining-year/
   - https://www.globenewswire.com/news-release/2026/04/13/3272912/0/en/Cema-Cel-Pivotal-Trial-Interim-Data-Highlight-Strength-of-Cellectis-Allogeneic-CAR-T-Platform.html

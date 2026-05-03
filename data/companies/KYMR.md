@@ -1,13 +1,13 @@
 ---
 ticker: KYMR
 company: Kymera Therapeutics
-mcap: 1800
+mcap: 6650
 modality: Small Molecule
 areas:
   - Immunology
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.kymeratx.com/
   - https://clinicaltrials.gov/ct2/show/NCT04772885

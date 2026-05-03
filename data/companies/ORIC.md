@@ -1,12 +1,12 @@
 ---
 ticker: ORIC
 company: ORIC Pharmaceuticals
-mcap: 1400
+mcap: 1000
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-Q2
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://oricpharma.com/
   - https://clinicaltrials.gov/study/NCT04404842

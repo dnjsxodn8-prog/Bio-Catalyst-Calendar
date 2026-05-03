@@ -1,12 +1,12 @@
 ---
 ticker: IMCR
 company: Immunocore Holdings
-mcap: 2000
+mcap: 1450
 modality: Biologic
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://immunocore.com/news-releases
   - https://www.immunocore.com/pipeline

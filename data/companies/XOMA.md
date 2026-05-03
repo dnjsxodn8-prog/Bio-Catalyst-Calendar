@@ -1,12 +1,12 @@
 ---
 ticker: XOMA
 company: XOMA Royalty
-mcap: 309
+mcap: 500
 modality: Other
 areas:
   - Other
 nextCatalyst: null
-verified: 2026-04-28
+verified: 2026-05-02
 sources:
   - https://investors.xoma.com/news-events/press-releases/detail/498/xoma-royalty-reports-2025-financial-results-and-highlights
   - https://www.globenewswire.com/news-release/2026/04/27/3281484/7281/en/Ligand-to-Acquire-XOMA-Royalty-Further-Accelerating-Profit-Growth-and-Strengthening-Ligand-s-Position-as-a-Leading-Biopharma-Royalty-Aggregator.html

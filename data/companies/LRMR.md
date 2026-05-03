@@ -1,13 +1,13 @@
 ---
 ticker: LRMR
 company: Larimar Therapeutics
-mcap: 567
+mcap: 410
 modality: Protein/Enzyme
 areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-06-01
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://investors.larimartx.com/news-releases/news-release-details/larimar-therapeutics-announces-fda-breakthrough-therapy
   - https://www.globenewswire.com/news-release/2026/02/24/3243356/0/en/Larimar-Therapeutics-Announces-FDA-Breakthrough-Therapy-Designation-for-Nomlabofusp-in-FA-and-Reiterates-Planned-BLA-Submission-in-June-2026.html

@@ -1,13 +1,13 @@
 ---
 ticker: ALMS
 company: Alumis
-mcap: 400
+mcap: 3200
 modality: Small Molecule
 areas:
   - Immunology
   - Dermatology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://www.alumis.com/pipeline
   - https://alumis.com/investors

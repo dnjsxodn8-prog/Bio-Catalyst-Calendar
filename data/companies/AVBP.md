@@ -1,12 +1,12 @@
 ---
 ticker: AVBP
 company: ArriVent BioPharma
-mcap: 1040
+mcap: 1400
 modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources:
   - https://ir.arrivent.com/news-releases/news-release-details/arrivents-topline-pivotal-phase-3-furvent-data-firmonertinib
   - https://www.globenewswire.com/news-release/2025/12/22/3209157/0/en/ArriVent-Announces-First-Patient-Dosed-in-Global-Pivotal-Phase-3-ALPACCA-Trial-Evaluating-Firmonertinib-for-First-Line-Treatment-of-EGFR-PACC-Mutant-Non-Small-Cell-Lung-Cancer.html

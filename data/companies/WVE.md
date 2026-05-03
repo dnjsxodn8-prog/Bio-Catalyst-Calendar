@@ -1,13 +1,13 @@
 ---
 ticker: WVE
 company: Wave Life Sciences
-mcap: 900
+mcap: 1400
 modality: RNA/siRNA
 areas:
   - Obesity/Metabolic
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-02
 sources: []
 ---
 
