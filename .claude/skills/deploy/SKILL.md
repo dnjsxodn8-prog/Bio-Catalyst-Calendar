@@ -38,12 +38,20 @@ git status -sb                       # ahead/behind 표시
 ### 2. 변경사항 요약
 
 ```bash
-git status -s
+git status -s                                   # working tree 변경
+git rev-list --count origin/main..main          # unpushed commits 수 (ahead)
 ```
 
-- 변경 없으면 → "✅ 변경사항 없음. 사이트는 이미 최신." 출력 후 종료.
-- 변경 있으면 → 파일 목록을 카테고리별 한 줄로 사용자에게 보여줌:
-  > 변경: data/ 5건 (companies/VRTX.md, catalysts.md, ...) · src/ 2건 · docs 1건
+두 신호를 **모두** 봐야 한다. working tree만 보면 머지/리베이스 결과로 만들어진 unpushed commits를 놓친다.
+
+| working tree | ahead | 처리 |
+|---|---|---|
+| clean | 0 | "✅ 변경사항 없음. 사이트는 이미 최신." 출력 후 종료. |
+| clean | >0 | "🔁 working tree clean, $N commits ahead of origin (머지/리베이스 결과로 추정). 절차 3~5 건너뛰고 push만 진행." → **절차 6으로 직행.** |
+| dirty | 0 또는 >0 | 파일 목록을 카테고리별 한 줄로 사용자에게 보여주고 절차 3 진행. |
+
+dirty 케이스 표시 예:
+> 변경: data/ 5건 (companies/VRTX.md, catalysts.md, ...) · src/ 2건 · docs 1건
 
 ### 3. 검증
 
@@ -90,15 +98,23 @@ git push origin main
 
 ### 7. Vercel 빌드 검증
 
-Vercel 빌드 통상 1~2분. 90초 대기 후 사이트 응답 확인:
+Vercel 빌드 통상 1~2분. **고정 sleep은 Claude harness가 차단한다 (long leading sleep block).** 대신 push **직전** ETag를 baseline으로 잡고, 변경될 때까지 폴링한다.
 
 ```bash
-sleep 90
-curl -sI https://biotechcatalystcalendar.vercel.app/ | head -3
+# push 직전에 baseline ETag 캡처 (절차 6 직전)
+BASELINE_ETAG=$(curl -sI https://biotechcatalystcalendar.vercel.app/ | grep -i '^etag:' | tr -d '\r\n')
+
+# push 후 ETag 변경까지 폴링 (run_in_background로 띄우면 완료 알림 받음)
+until [ "$(curl -sI https://biotechcatalystcalendar.vercel.app/ | grep -i '^etag:' | tr -d '\r\n')" != "$BASELINE_ETAG" ]; do
+  sleep 10
+done
+echo "NEW BUILD DEPLOYED at $(date '+%H:%M:%S')"
 ```
 
-- 200 OK → 성공.
-- 5xx 또는 응답 없음 → "Vercel 빌드 진행 중일 수 있습니다. 1~2분 후 https://vercel.com/dashboard 에서 빌드 로그 확인하세요." 안내.
+- ETag 변경 감지 → 새 빌드 배포 완료. 성공.
+- 5분(default timeout) 안에 변경 없음 → "Vercel 빌드 진행 중일 수 있습니다. https://vercel.com/dashboard 에서 빌드 로그 확인하세요." 안내.
+
+> 참고: curl로 사이트 본문을 받으면 "Vercel Security Checkpoint" 봇 챌린지가 뜰 수 있다 (HTML body 검증 불가). HEAD 요청의 ETag는 정상 반환되므로 ETag 폴링이 가장 신뢰성 있다.
 
 ### 8. 결과 보고
 
