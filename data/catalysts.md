@@ -481,4 +481,181 @@ events:
     phase: Phase 3
     sources:
       - https://investor.stoketherapeutics.com/news-releases/news-release-details/stoke-therapeutics-announces-updates-timelines-completion/
+  - date: 2026-04-01
+    ticker: COGT
+    event: Bezuclastinib GIST NDA 제출 (RTOR, PEAK Phase 3 데이터)
+    type: Regulatory
+    company: Cogent
+    drug: Bezuclastinib
+    indication: Imatinib-Resistant GIST
+    phase: NDA
+    trialDesign: "PEAK Phase 3 (bezuclastinib + sunitinib vs sunitinib): mPFS 16.5 vs 9.2개월, ORR 46% vs 26% — KIT exon 9/11 변이 GIST 2L+"
+    targetDisease: "Imatinib 내성 진행성/전이성 GIST. KIT/PDGFRA 활성형 변이가 종양 성장 유발 — 기존 sunitinib·regorafenib 반응 짧음."
+    moa: "KIT/PDGFRA 선택적 억제, exon 9·11 변이 및 이마티닙 내성 변이까지 커버"
+    sources:
+      - https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-submission-new-drug-application-0
+  - date: 2026-04-07
+    ticker: NUVL
+    event: Neladalkib ALK+ NSCLC NDA 제출 (ALKOVE-1 데이터)
+    type: Regulatory
+    company: Nuvalent
+    drug: Neladalkib
+    indication: TKI Pre-treated ALK+ NSCLC
+    phase: NDA
+    trialDesign: "ALKOVE-1 Phase 1/2 global (n=253): TKI pre-treated ALK+ NSCLC ORR 31% (lorlatinib 경험군), 46% (lorlatinib naive)"
+    targetDisease: "Advanced ALK-positive NSCLC. 1·2세대 TKI 후 lorlatinib 내성 변이(G1202R 등) 출현 시 표준치료 한계."
+    moa: "ALK 선택적, TRK-sparing 3세대 TKI. 뇌전이 침투 + 내성 변이 커버"
+    sources:
+      - https://investors.nuvalent.com/2026-04-07-Nuvalent-Announces-Submission-of-New-Drug-Application-to-FDA-for-Neladalkib-in-TKI-Pre-treated-Advanced-ALK-positive-NSCLC
+      - https://www.prnewswire.com/news-releases/nuvalent-announces-submission-of-new-drug-application-to-fda-for-neladalkib-in-tki-pre-treated-advanced-alk-positive-nsclc-302735124.html
+  - date: 2026-04-30
+    ticker: RVMD
+    event: Daraxonrasib FDA Expanded Access 승인 (NDA 제출 ASCO 후 NPV 통해 진행 예정)
+    type: Regulatory
+    company: Revolution Medicines
+    drug: Daraxonrasib (RMC-6236)
+    indication: Previously Treated Metastatic PDAC
+    phase: Pre-NDA
+    trialDesign: "RASolute 302 Phase 3: mOS 13.2 vs 6.7개월 (HR 0.40, p<0.0001) vs 화학요법 대조 — KRAS G12 변이 mPDAC 2L+"
+    targetDisease: "전이성 췌장선암 (KRAS G12 변이). 1L gemcitabine/FOLFIRINOX 후 표준 2L 치료 부재."
+    moa: "RAS(ON) multi-selective inhibitor. KRAS G12 활성형(GTP-bound) 직접 결합 차단"
+    sources:
+      - https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-statement-fda-expanded-access-authorization
+  - date: 2026-05-01
+    ticker: ARVN
+    event: VEPPANU (vepdegestrant) FDA 승인됨 (PDUFA 6/5보다 35일 조기, 세계 첫 PROTAC 신약)
+    type: PDUFA
+    company: Arvinas
+    drug: Vepdegestrant (VEPPANU)
+    indication: ESR1m ER+/HER2- Advanced Breast Cancer
+    phase: NDA
+    trialDesign: "VERITAC-2 Phase 3 (vepdegestrant vs fulvestrant). ESR1m 서브그룹: PFS HR 0.57, mPFS 5.0 vs 2.1개월"
+    targetDisease: "ER+/HER2- 전이성 유방암. CDK4/6i + AI 후 ESR1 변이로 fulvestrant 내성 출현 — 기존 SERD 효과 제한적."
+    moa: "PROTAC ER 분해제. ERα 단백질을 ubiquitin-proteasome 경로로 직접 분해 (first-in-class)"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/01/3286140/0/en/Arvinas-Announces-FDA-Approval-of-VEPPANU-vepdegestrant-for-the-Treatment-of-ESR1m-ER-HER2-Advanced-Breast-Cancer.html
+  - date: 2026-05-13
+    ticker: DYN
+    event: FORCE™ 플랫폼 MAPT CNS NHP 데이터 ASGCT 2026 oral (preclinical)
+    type: Conference
+    company: Dyne Therapeutics
+    drug: FORCE™ MAPT Conjugate
+    indication: Tauopathy (AD / PSP)
+    phase: Preclinical
+    conferenceId: asgct
+    trialDesign: "NHP + 마우스 preclinical. TfR1 표적 Fab-올리고뉴클레오타이드 SC 투여 → CNS MAPT mRNA ~75% knockdown"
+    targetDisease: "타우병증 (알츠하이머·진행성 핵상마비). 신경세포내 비정상 타우 응집이 시냅스 손실·인지저하 유발."
+    moa: "TfR1-매개 BBB 통과, CNS MAPT(타우) mRNA silencing"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/27/3282066/0/en/Dyne-Therapeutics-Announces-Upcoming-Presentation-Highlighting-Robust-CNS-Activity-in-Nonhuman-Primates-with-its-FORCE-Platform-at-2026-ASGCT-Annual-Meeting.html
+  - date: 2026-05-29
+    ticker: NUVL
+    event: Neladalkib ALKOVE-1 Phase 2 ASCO 2026 oral (#8503, pivotal data)
+    type: Conference
+    company: Nuvalent
+    drug: Neladalkib
+    indication: TKI Pre-treated ALK+ NSCLC
+    phase: Phase 1/2
+    conferenceId: asco
+    trialDesign: "ALKOVE-1 global Phase 1/2 (n=253): primary ORR by BICR. TKI-naive 코호트 preliminary 데이터 동시 발표"
+    targetDisease: "Advanced ALK+ NSCLC. 1·2세대 TKI 후 lorlatinib 내성 변이(G1202R) 출현 시 표준치료 한계."
+    moa: "ALK 선택적, TRK-sparing 3세대 TKI. 뇌전이 침투 + 내성 변이 커버"
+    sources:
+      - https://www.prnewswire.com/news-releases/nuvalent-to-present-pivotal-data-from-alkove-1-trial-of-neladalkib-in-tki-pre-treated-advanced-alk-positive-nsclc-at-the-2026-american-society-of-clinical-oncology-annual-meeting-302748865.html
+  - date: 2026-05-31
+    ticker: JNJ
+    event: PROTEUS Apalutamide Phase 3 final analysis ASCO 2026 Plenary LBA1
+    type: Conference
+    company: Johnson & Johnson
+    drug: Apalutamide (ERLEADA)
+    indication: High-Risk Localized / Locally Advanced Prostate Cancer (perioperative)
+    phase: Phase 3
+    conferenceId: asco
+    trialDesign: "PROTEUS Phase 3 무작위 위약대조: 수술 전후 apalutamide + ADT vs 위약 + ADT. 1차 endpoint rPFS/EFS, final analysis"
+    targetDisease: "고위험 국소·국소진행 전립선암. 근치적 전립선절제술 후 5년 내 생화학적 재발 30~50% — 표준요법 한계."
+    moa: "AR antagonist (2세대). 근치 수술 전후(neoadjuvant + adjuvant) ADT 병용으로 미세잔존 종양 제거 → 재발 위험 감소"
+    sources:
+      - https://www.jnj.com/media-center/press-releases/johnson-johnson-ushers-in-the-next-wave-of-innovation-in-cancer-care-with-more-than-20-clinical-and-real-world-studies-at-asco-2026
+      - https://oncodaily.com/oncolibrary/asco-2026-plenary-session-key-trials
+  - date: 2026-06-02
+    ticker: CELC
+    event: Gedatolisib VIKTORIA-1 PIK3CA mutant Phase 3 ASCO 2026 LBA oral (LBA1008)
+    type: Conference
+    company: Celcuity
+    drug: Gedatolisib
+    indication: PIK3CA Mutant HR+/HER2- Advanced Breast Cancer
+    phase: Phase 3
+    conferenceId: asco
+    trialDesign: "VIKTORIA-1 PIK3CA 변이 코호트: gedatolisib + fulvestrant ± palbociclib vs alpelisib + fulvestrant. 2026-05-01 positive topline 발표 → ASCO LBA1008 상세"
+    targetDisease: "PIK3CA 변이 HR+/HER2- 전이성 유방암. CDK4/6i + AI 후 표준 alpelisib + fulvestrant 효과 제한적."
+    moa: "Pan-Class I PI3K + mTOR 이중 억제제. PI3K/AKT/mTOR 과활성 종양에서 세포증식 차단"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/01/3286249/0/en/Celcuity-s-Phase-3-VIKTORIA-1-Trial-Achieves-Primary-Endpoint-With-Clinically-Meaningful-Improvement-in-Progression-Free-Survival-in-PIK3CA-Mutant-Cohort.html
+  - date: 2026-06-30
+    ticker: ABVX
+    event: Obefazimod ABTECT Maintenance Phase 3 (44주) topline readout (Q2 2026 말 예정)
+    type: Clinical Readout
+    company: Abivax
+    drug: Obefazimod
+    indication: Ulcerative Colitis
+    phase: Phase 3
+    trialDesign: "ABTECT-UC Maintenance (ABX464-107): 유도 반응자 678명 무작위배정, obefazimod 50mg QD vs 위약 44주 이중맹검 유지"
+    targetDisease: "중등도-중증 활동성 궤양성 대장염. ABTECT-1/2 유도 임상반응 달성자 대상 유지 관해율 (modified Mayo Score)."
+    priorTrialUrl: https://ir.abivax.com/news-releases/news-release-details/abivax-announces-positive-phase-3-results-both-abtect-8-week/
+    moa: "miR-124 발현 증강 → M2 대식세포 분극화 + Th17/Th1 억제 → 장점막 염증 완화 (first-in-class 경구)"
+    sources:
+      - https://ir.abivax.com/news-releases/news-release-details/abivax-provides-2026-corporate-outlook/
+  - date: 2026-06-30
+    ticker: VRDN
+    event: Veligrotug (VRDN-001) TED BLA PDUFA (active + chronic, IV IGF-1R 항체)
+    type: PDUFA
+    company: Viridian
+    drug: Veligrotug (VRDN-001)
+    indication: Thyroid Eye Disease (active + chronic)
+    phase: BLA
+    trialDesign: "THRIVE (active TED) + THRIVE-2 (chronic TED) Phase 3 모두 primary/secondary endpoint 충족. Priority Review + BTD 지정"
+    targetDisease: "갑상선안병증(TED). 자가면역 IGF-1R 활성화로 안와 섬유모세포 증식 → 안구돌출·복시·시신경 압박."
+    moa: "IV 항-IGF-1R 단클론항체. 안와 섬유모세포 IGF-1R 신호 차단 → 염증·돌출·복시 감소"
+    sources:
+      - https://investors.viridiantherapeutics.com/news/news-details/2025/Viridian-Therapeutics-Announces-BLA-Acceptance-and-Priority-Review-for-Veligrotug-for-the-Treatment-of-Thyroid-Eye-Disease/default.aspx
+  - date: 2026-07-17
+    ticker: CELC
+    event: Gedatolisib NDA PDUFA (PIK3CA wild-type HR+/HER2- 유방암, RTOR + Priority Review)
+    type: PDUFA
+    company: Celcuity
+    drug: Gedatolisib
+    indication: PIK3CA Wild-Type HR+/HER2- Advanced Breast Cancer
+    phase: NDA
+    trialDesign: "VIKTORIA-1 PIK3CA WT 코호트: gedatolisib + palbociclib + fulvestrant vs 대조. mPFS 16.6 vs 1.9개월 (HR 0.14)"
+    targetDisease: "PIK3CA WT HR+/HER2- 전이성 유방암 (전체 HR+ 유방암 ~60%). CDK4/6i + AI 후 표준 fulvestrant 단독 효과 제한적."
+    moa: "Pan-Class I PI3K + mTOR 이중 억제제. PI3K WT에서도 PI3K/AKT/mTOR 신호 차단 → CDK4/6i 내성 극복"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/01/20/3221601/0/en/Celcuity-Announces-FDA-Acceptance-of-New-Drug-Application-for-Gedatolisib-in-HR-HER2-PIK3CA-Wild-Type-Advanced-Breast-Cancer.html
+  - date: 2026-09-30
+    ticker: ARGX
+    event: VYVGART 안면 MG (oMG) sBLA 제출 예정 (Q3 2026, ADAPT OCULUS Phase 3 positive)
+    type: Regulatory
+    company: argenx
+    drug: Efgartigimod (VYVGART)
+    indication: Ocular Myasthenia Gravis
+    phase: sBLA
+    trialDesign: "ADAPT OCULUS Phase 3: primary endpoint met (p=0.012). Mean MGII PRO ocular score 4.04 vs 1.99 placebo at Wk4"
+    targetDisease: "안면 중증근무력증 (oMG). 자가항체(anti-AChR)가 신경근접합부 차단 → 안구운동 마비·복시·안검하수."
+    priorTrialUrl: https://www.globenewswire.com/news-release/2026/02/26/3245183/0/en/argenx-Announces-Positive-Topline-Results-from-Phase-3-ADAPT-OCULUS-Trial-of-VYVGART-in-Ocular-Myasthenia-Gravis.html
+    moa: "FcRn 길항제. IgG(anti-AChR) 재순환 차단 → 자가항체 감소 → 신경근접합부 기능 회복"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/02/26/3245183/0/en/argenx-Announces-Positive-Topline-Results-from-Phase-3-ADAPT-OCULUS-Trial-of-VYVGART-in-Ocular-Myasthenia-Gravis.html
+  - date: 2026-11-14
+    ticker: SMMT
+    event: Ivonescimab HARMONi BLA PDUFA (2L+ EGFRm NSCLC post-TKI, 화학요법 병용)
+    type: PDUFA
+    company: Summit Therapeutics
+    drug: Ivonescimab (SMT112)
+    indication: 2L+ EGFRm Non-Squamous NSCLC post-EGFR TKI
+    phase: BLA
+    trialDesign: "HARMONi Phase 3: ivonescimab + chemo vs placebo + chemo. EGFR 변이 진행성 비편평 NSCLC 3세대 TKI 진행 후"
+    targetDisease: "EGFR 변이 NSCLC 2L+. 3세대 TKI(osimertinib) 진행 후 표준 platinum-pemetrexed 효과 제한적."
+    moa: "PD-1 × VEGF 이중특이항체. EGFR TKI 내성 후 종양미세환경 면역활성화 + 혈관신생 억제 동시"
+    sources:
+      - https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx
 ```
