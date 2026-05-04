@@ -1,107 +1,181 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { SignedIn, SignedOut, SignInButton } from '@clerk/clerk-react';
+import { ChevronRight } from 'lucide-react';
 import data from './data.generated.json';
-import { dDelta } from './utils/dDay';
+import Sidebar from './components/Sidebar';
+import Topbar from './components/Topbar';
+import Dashboard from './pages/Dashboard';
+
+const NOOP = () => {};
+const EMPTY_WATCHLIST = {
+  watchlist: {},
+  groups: [],
+  isMember: () => false,
+  toggle: NOOP,
+  addGroup: NOOP,
+  removeGroup: NOOP,
+};
 
 export default function Landing() {
-  const companyCount = data.companies.length;
-  const catalystCount = data.catalysts.length;
-  const within30 = data.catalysts.filter((c) => {
-    const d = dDelta(c.date);
-    return d != null && d >= 0 && d <= 30;
-  }).length;
+  useEffect(() => {
+    document.body.classList.remove('light');
+  }, []);
+
+  const counts = {
+    companies: data.companies.length,
+    catalysts: data.catalysts.length,
+    conferences: data.conferences.length,
+  };
 
   return (
-    <div className="flex flex-col gap-12">
-      <section className="pt-8 pb-4">
-        <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-ink leading-tight">
-          미국 biotech 임상 카탈리스트,
-          <br />
-          한 곳에서 추적하세요.
-        </h1>
-        <p className="mt-5 text-base md:text-lg text-ink-2 max-w-2xl leading-relaxed">
-          PDUFA, 임상 readout, 학회 발표, 규제 결정 — 시총 $100M 이상 미국 biotech 와 빅파마의
-          주요 카탈리스트 일정을 한 화면에서 관찰합니다. 회사별 메모, 약물 파이프라인, 임상
-          진행 상황은 가입 후 <span className="text-ink">무료로</span> 열람할 수 있습니다.
-        </p>
-        <div className="mt-7 flex flex-wrap items-center gap-3">
+    <div className="flex min-h-screen relative overflow-hidden">
+      <div
+        aria-hidden="true"
+        className="hidden lg:block pointer-events-none select-none"
+      >
+        <Sidebar
+          tab="dashboard"
+          onTab={NOOP}
+          counts={counts}
+          recent={[]}
+          watchlist={EMPTY_WATCHLIST}
+          onPickTicker={NOOP}
+          isOpen={false}
+          onClose={NOOP}
+        />
+      </div>
+
+      <main className="flex-1 min-w-0 flex flex-col relative">
+        <div aria-hidden="true" className="pointer-events-none select-none">
+          <Topbar
+            tab="dashboard"
+            query=""
+            onQuery={NOOP}
+            theme="dark"
+            onTheme={NOOP}
+            onOpenSidebar={NOOP}
+          />
+        </div>
+
+        <div className="absolute top-0 right-0 h-[72px] flex items-center gap-2 pr-4 lg:pr-7 z-10">
           <SignedOut>
             <SignInButton mode="modal" forceRedirectUrl="/app">
-              <button className="h-11 px-5 rounded-md bg-ink text-bg text-sm font-semibold hover:opacity-90 transition-opacity">
-                무료로 시작하기
-              </button>
+              <button className="btn">로그인</button>
             </SignInButton>
-            <Link
-              to="/catalysts"
-              className="h-11 px-5 rounded-md border border-line text-ink text-sm hover:bg-panel-2 transition-colors flex items-center"
-            >
-              7일 카탈리스트 미리보기 →
-            </Link>
+            <SignInButton mode="modal" forceRedirectUrl="/app">
+              <button className="btn btn-primary">무료 가입</button>
+            </SignInButton>
           </SignedOut>
           <SignedIn>
-            <Link
-              to="/app"
-              className="h-11 px-5 rounded-md bg-ink text-bg text-sm font-semibold hover:opacity-90 transition-opacity flex items-center"
-            >
-              대시보드 열기 →
+            <Link to="/app" className="btn btn-primary">
+              대시보드 <ChevronRight className="w-3.5 h-3.5" strokeWidth={1.6} />
             </Link>
           </SignedIn>
         </div>
-        <SignedOut>
-          <p className="mt-3 text-[12px] text-ink-3">이메일 또는 Google · 30초 · 모든 기능 무료</p>
-        </SignedOut>
-      </section>
 
-      <section className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        <StatCard label="추적 종목" value={companyCount} suffix="개" />
-        <StatCard label="등록 카탈리스트" value={catalystCount} suffix="건" />
-        <StatCard label="다음 30일 임박" value={within30} suffix="건" hint="PDUFA · readout · 발표 등" />
-      </section>
+        <div
+          className="flex-1 relative"
+          style={{ height: 'calc(100vh - 72px)', maxHeight: 'calc(100vh - 72px)' }}
+        >
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 overflow-hidden pointer-events-none select-none px-4 lg:px-7 pt-6 pb-20 max-w-[1600px] w-full mx-auto"
+            style={{ filter: 'blur(7px)', opacity: 0.6 }}
+          >
+            <Dashboard data={data} onPick={NOOP} />
+          </div>
 
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <FeatureCard
-          title="카탈리스트 캘린더"
-          body="다가오는 PDUFA 결정, 임상 readout, 학회 발표를 D-day 와 함께 정렬해서 봅니다."
-        />
-        <FeatureCard
-          title="종목 상세 (가입자)"
-          body="modality 분류, 약물 파이프라인, 임상 phase, 적응증, 메모를 종목별로 정리합니다."
-        />
-        <FeatureCard
-          title="학회 일정"
-          body="ASCO · ASH · AHA · JPM 등 주요 학회 일정과 발표 기업 매핑을 한눈에."
-        />
-      </section>
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background:
+                'radial-gradient(ellipse at center, rgba(8,9,12,0.55) 0%, rgba(8,9,12,0.85) 70%)',
+            }}
+          />
 
-      <section className="border-t border-line pt-8 pb-4 text-[13px] text-ink-3 leading-relaxed max-w-3xl">
-        <p>
-          이 사이트는 개인이 운영하는 biotech 카탈리스트 트래커입니다. 정보 제공 목적이며 투자 권유가 아닙니다.
-          데이터는 회사 IR, FDA, ClinicalTrials.gov 등 공개 출처에서 수집·검증합니다. 메모와 분석은
-          가입자에게만 노출됩니다.
-        </p>
-      </section>
+          <div className="absolute inset-0 flex items-center justify-center px-4">
+            <CTACard counts={counts} />
+          </div>
+        </div>
+      </main>
     </div>
   );
 }
 
-function StatCard({ label, value, suffix, hint }) {
+function CTACard({ counts }) {
   return (
-    <div className="panel p-5">
-      <div className="text-[11px] font-semibold text-ink-3 tracking-[0.1em] uppercase">{label}</div>
-      <div className="mt-2 flex items-baseline gap-1.5">
-        <span className="num text-3xl font-bold text-ink tracking-tight">{value.toLocaleString('en-US')}</span>
-        <span className="text-sm text-ink-2">{suffix}</span>
+    <div
+      className="relative overflow-hidden rounded-lg w-full max-w-[460px]"
+      style={{
+        padding: '24px 24px 20px',
+        background:
+          'linear-gradient(160deg, rgba(110,231,183,0.12) 0%, rgba(96,165,250,0.06) 50%, rgba(11,15,21,0.4) 100%), var(--panel)',
+        border: '1px solid rgba(110,231,183,0.30)',
+        boxShadow: '0 30px 60px -30px rgba(110,231,183,0.35)',
+      }}
+    >
+      <div
+        className="absolute pointer-events-none"
+        style={{
+          top: -80,
+          right: -60,
+          width: 240,
+          height: 240,
+          background:
+            'radial-gradient(closest-side, rgba(251,191,36,0.18), transparent 70%)',
+        }}
+      />
+
+      <div className="mono text-[11px] text-ink-3 tracking-[0.12em] uppercase mb-2">
+        BIOTECH CATALYST CALENDAR · 무료 회원
       </div>
-      {hint && <div className="mt-1 text-[11.5px] text-ink-3">{hint}</div>}
-    </div>
-  );
-}
 
-function FeatureCard({ title, body }) {
-  return (
-    <div className="panel p-5">
-      <div className="text-[14px] font-semibold text-ink">{title}</div>
-      <p className="mt-2 text-[13px] text-ink-2 leading-relaxed">{body}</p>
+      <h2 className="m-0 text-[21px] font-bold leading-snug tracking-[-0.015em] text-ink">
+        미국 biotech 임상 카탈리스트,
+        <br />한 곳에서 추적하세요.
+      </h2>
+
+      <p className="text-[13.5px] text-ink-2 mt-2.5 leading-relaxed">
+        PDUFA · 임상 readout · 학회 발표 · 규제 결정. 시총 $100M 이상 미국 biotech 와
+        빅파마의 주요 일정을 한 화면에서.
+      </p>
+
+      <div className="mt-3 flex items-center gap-3 text-[12px] text-ink-3">
+        <span>
+          <b className="num text-ink-2 font-semibold">{counts.companies}</b> 종목
+        </span>
+        <span className="opacity-50">·</span>
+        <span>
+          <b className="num text-ink-2 font-semibold">{counts.catalysts}</b> 카탈리스트
+        </span>
+        <span className="opacity-50">·</span>
+        <span>
+          <b className="num text-ink-2 font-semibold">{counts.conferences}</b> 학회
+        </span>
+      </div>
+
+      <div className="flex items-center gap-2.5 mt-4 pt-4 border-t border-[var(--hairline)]">
+        <SignedOut>
+          <SignInButton mode="modal" forceRedirectUrl="/app">
+            <button className="btn btn-primary">
+              무료로 시작하기 <ChevronRight className="w-3.5 h-3.5" strokeWidth={1.6} />
+            </button>
+          </SignInButton>
+          <Link to="/catalysts" className="btn">
+            7일 미리보기
+          </Link>
+        </SignedOut>
+        <SignedIn>
+          <Link to="/app" className="btn btn-primary">
+            대시보드 열기 <ChevronRight className="w-3.5 h-3.5" strokeWidth={1.6} />
+          </Link>
+        </SignedIn>
+      </div>
+      <SignedOut>
+        <p className="text-[11px] text-ink-3 mt-2.5">이메일 또는 Google · 30초 · 모든 기능 무료</p>
+      </SignedOut>
     </div>
   );
 }

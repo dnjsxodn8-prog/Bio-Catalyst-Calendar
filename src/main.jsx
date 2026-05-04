@@ -31,8 +31,9 @@ createRoot(document.getElementById('root')).render(
     >
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Landing />} />
+
           <Route element={<PublicLayout />}>
-            <Route path="/" element={<Landing />} />
             <Route path="/catalysts" element={<CatalystsPublic />} />
             <Route path="/companies" element={<CompaniesPublic />} />
             <Route path="/conferences" element={<ConferencesPublic />} />
