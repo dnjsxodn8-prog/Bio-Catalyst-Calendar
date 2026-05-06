@@ -75,9 +75,9 @@ events:
     phase: sNDA
     sources:
       - https://investors.biogen.com/news-releases/news-release-details/fda-approves-new-high-dose-regimen-spinrazar-nusinersen-spinal
-  - date: 2026-04-10
+  - date: 2026-04-01
     ticker: LLY
-    event: Foundayo (orforglipron) 비만 NDA 승인됨 (CNPV 가속, 원 PDUFA)
+    event: Foundayo (orforglipron) 비만 NDA 승인됨 (2026-04-01, CNPV 가속). FDA 4/14 추가 liver/CV 안전성 평가 요구 (post-marketing 표준), 4/30 liver failure adverse event 1건 보고 — Lilly 약물 관련성 부인
     type: PDUFA
     company: Eli Lilly
     drug: Orforglipron (Foundayo)
@@ -86,6 +86,8 @@ events:
     sources:
       - https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill
       - https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program
+      - https://endpoints.news/fda-asks-for-more-data-on-lillys-foundayo-to-assess-heart-liver-risks/
+      - https://www.biopharmadive.com/news/fda-foundayo-liver-safety-eli-lilly/817556/
   - date: 2026-04-22
     ticker: XENE
     event: Azetukalner X-TOLE2 AAN 발표 (Positive — 53.2% seizure reduction vs 10.4% placebo)
@@ -138,7 +140,7 @@ events:
       - https://www.globenewswire.com/news-release/2026/04/30/3285345/33090/en/axsome-therapeutics-announces-fda-approval-of-auvelity-dextromethorphan-hbr-and-bupropion-hcl-for-the-treatment-of-agitation-associated-with-dementia-due-to-alzheimer-s-disease.html
   - date: 2026-05-04
     ticker: ABVX
-    event: Obefazimod ABTECT Phase 3 UC DDW 2026 oral + 8 posters
+    event: "Obefazimod ABTECT Phase 3 UC DDW 2026 oral 발표 (Positive — HEMI 50mg arm 23~24%, p<0.0001 ABTECT-1·2 모두; 9 abstracts)"
     type: Conference
     company: Abivax
     drug: Obefazimod
@@ -150,7 +152,7 @@ events:
       - https://www.globenewswire.com/news-release/2026/04/22/3279387/0/en/Abivax-to-Present-Data-on-Obefazimod-at-Digestive-Disease-Week.html
   - date: 2026-05-05
     ticker: OCUL
-    event: OTX-TKI SOL-1 Phase 3 nAMD ARVO 2026 oral
+    event: "OTX-TKI SOL-1 Phase 3 nAMD ARVO 2026 oral 발표 (Positive — Wk36 vision maintenance 74.1% vs aflibercept 55.8%, P=0.0006; Wk52 65.9% vs 44.2%, P<0.0001; SAE 0건)"
     type: Conference
     company: Ocular Therapeutix
     drug: OTX-TKI (axitinib intravitreal hydrogel)
@@ -158,8 +160,9 @@ events:
     phase: Phase 3
     conferenceId: arvo
     sources:
+      - https://www.globenewswire.com/news-release/2026/02/17/3239086/0/en/Ocular-Therapeutix-Reports-Positive-Results-from-Landmark-SOL-1-Phase-3-Superiority-Trial-in-Wet-AMD.html
+      - https://www.biospace.com/press-releases/ocular-therapeutix-reports-first-quarter-2026-financial-results-and-business-highlights
       - https://www.globenewswire.com/news-release/2026/04/27/3281480/0/en/ocular-therapeutix-to-participate-in-may-scientific-and-investor-conferences.html
-      - https://www.biospace.com/press-releases/ocular-therapeutix-to-participate-in-may-scientific-and-investor-conferences
   - date: 2026-05-10
     ticker: ARGX
     event: VYVGART seronegative gMG sBLA PDUFA
@@ -658,4 +661,125 @@ events:
     moa: "PD-1 × VEGF 이중특이항체. EGFR TKI 내성 후 종양미세환경 면역활성화 + 혈관신생 억제 동시"
     sources:
       - https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx
+  - date: 2026-05-18
+    ticker: INSM
+    event: ARIKAYCE ENCORE Phase 3b ATS 2026 late-breaker poster (newly diagnosed MAC lung disease)
+    type: Conference
+    company: Insmed
+    drug: ARIKAYCE (amikacin liposome inhalation suspension)
+    indication: Newly Diagnosed MAC Lung Disease
+    phase: Phase 3
+    conferenceId: ats
+    trialDesign: "ENCORE Phase 3b 무작위 위약대조: ARIKAYCE + 다제요법(azithromycin + ethambutol) QD vs 위약 + 다제요법 — 신규 진단 항생제 무경험 MAC 폐감염 성인. 2026-03 topline primary 충족. ATS 2026 Poster Session B45 (5/18)"
+    targetDisease: "Mycobacterium avium complex(MAC) 폐감염. 표준 다제요법(macrolide+ethambutol±rifamycin)으로 음전 달성률 제한적 — ARIKAYCE 1차치료 효능 입증 목적"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04677543
+    moa: "Liposomal amikacin 흡입제. 폐 대식세포 내 MAC에 직접 약물 전달 → 음전율 향상"
+    sources:
+      - https://www.prnewswire.com/news-releases/insmed-to-present-data-across-its-respiratory-portfolio-including-late-breaking-arikayce-results-from-phase-3b-encore-study-at-the-american-thoracic-society-international-conference-2026-302760845.html
+  - date: 2026-05-18
+    ticker: TRVI
+    event: Haduvio (nalbuphine ER) CORAL Phase 2b IPF chronic cough ATS 2026 oral (subgroup analyses)
+    type: Conference
+    company: Trevi Therapeutics
+    drug: Haduvio (nalbuphine ER)
+    indication: Idiopathic Pulmonary Fibrosis Chronic Cough
+    phase: Phase 2
+    conferenceId: ats
+    trialDesign: "CORAL Phase 2b 무작위 이중맹검 위약대조 (n=165, 1:1:1:1): nalbuphine ER 27/54/108 mg BID vs 위약 6주. 2025-06 topline 24h 기침빈도 60.2%/53.4%/47.9% 감소 (vs 위약 16.9%, p<0.0001). ATS는 1차/서브그룹 분석"
+    targetDisease: "특발성 폐섬유증(IPF) 만성 기침. 환자 80% 이상 발생, 삶의 질 저하 — 기존 nintedanib/pirfenidone로 미해결"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT06058923
+    moa: "Mu-opioid 길항/kappa-opioid 작용 이중작용. 중추·말초 기침 반사 억제"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/30/3285477/0/en/Trevi-Therapeutics-Announces-Oral-Presentation-and-Multiple-Posters-Accepted-at-the-American-Thoracic-Society-ATS-2026-International-Conference.html
+  - date: 2026-05-24
+    ticker: BIIB
+    event: LEQEMBI IQLIK SC starting dose sBLA PDUFA (주 1회 자가주사 starting dose 500mg, Priority Review)
+    type: PDUFA
+    company: Biogen
+    drug: Lecanemab-irmb (LEQEMBI IQLIK)
+    indication: Early Alzheimer's Disease
+    phase: sBLA
+    trialDesign: "Clarity AD Phase 3 IV → SC bridge: PK·PD biocomparability 데이터 기반 sBLA. 500mg(2x250mg) 주 1회 SC autoinjector starting dose 18개월 후 360mg 유지로 전환"
+    targetDisease: "조기 알츠하이머병(MCI ~ mild dementia, 아밀로이드 양성). 현재 IV 격주 투여 부담 → SC 주 1회 자가주사 전환 시 처치 접근성 대폭 향상"
+    moa: "항-아밀로이드β protofibril 모노클로널 항체. 뇌 아밀로이드 플라크 제거로 인지저하 진행 둔화"
+    sources:
+      - https://investors.biogen.com/news-releases/news-release-details/fda-accepts-leqembir-iqliktm-lecanemab-irmb-supplemental
+      - https://www.eisai.com/news/2026/news202605.html
+  - date: 2026-05-27
+    ticker: MDGL
+    event: Rezdiffra (resmetirom) MAESTRO 데이터 EASL 2026 late-breaking + 10 abstracts (MetALD, AI 분석, NIT/QoL 3yr)
+    type: Conference
+    company: Madrigal Pharmaceuticals
+    drug: Rezdiffra (resmetirom)
+    indication: MASH / MetALD
+    phase: Phase 3
+    conferenceId: easl
+    trialDesign: "EASL Congress 2026 Barcelona (5/27-30): late-breaking AI 기반 항섬유화 effect 분석 + MAESTRO-NASH 3yr NIT·삶의질·MetALD 신규 분석 등 10개 abstract"
+    targetDisease: "MASH(metabolic dysfunction-associated steatohepatitis). 미국 ~660만명 중 15% 진행성 섬유화 — 첫 FDA 승인약물(2024) Rezdiffra의 장기 효능·신적응증(MetALD) 확장 증거"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT03900429
+    moa: "THR-β 선택적 작용제. 간 갑상선호르몬 신호 활성화 → 지방산화·콜레스테롤 대사 개선 → MASH 섬유화 역전"
+    sources:
+      - https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-present-late-breaking-resmetirom-data-patients
+  - date: 2026-05-30
+    ticker: REPL
+    event: RP1 + nivolumab IGNYTE 3-year landmark OS ASCO 2026 melanoma rapid oral
+    type: Conference
+    company: Replimune
+    drug: RP1 (vusolimogene oderparepvec) + nivolumab
+    indication: Anti-PD1 Failed Advanced Melanoma
+    phase: Phase 1/2
+    conferenceId: asco
+    trialDesign: "IGNYTE Phase 1/2: PD-1 실패 melanoma 코호트 RP1 IT + nivolumab IV. 3-year landmark OS analysis — Rapid Oral Abstract Session for Melanoma (5/30). 5/31 RP2 first-in-human oral 동시 진행"
+    targetDisease: "anti-PD-1 실패 진행성 melanoma. 표준치료 부재 — 2L 옵션 제한적. 2025-07 BLA CRL 후 IGNYTE-3 confirmatory Phase 3 진행 중"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT03767348
+    moa: "HSV-1 기반 oncolytic virus (GM-CSF + GALV-GP R- 발현). 종양 직접 용해 + tumor antigen presentation → 면역체크포인트 시너지"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/27/3281576/0/en/replimune-to-present-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting.html
+  - date: 2026-05-31
+    ticker: LLY
+    event: Selpercatinib LIBRETTO-432 Phase 3 ASCO 2026 Plenary LBA3 (RET+ NSCLC adjuvant, EFS primary endpoint met)
+    type: Conference
+    company: Eli Lilly
+    drug: Selpercatinib (Retevmo)
+    indication: Stage IB-IIIA RET fusion-positive NSCLC (adjuvant)
+    phase: Phase 3
+    conferenceId: asco
+    trialDesign: "LIBRETTO-432 글로벌 다기관 무작위배정 이중맹검 placebo 대조 (n=151): RET+ NSCLC 절제 후 selpercatinib vs 위약. Primary EFS (stage II-IIIA), 2026-02 topline highly significant EFS, OS trend favorable but immature"
+    targetDisease: "절제 가능한 RET fusion-positive 비소세포폐암 (stage IB-IIIA). adjuvant osimertinib(EGFR), alectinib(ALK)에 이어 RET subtype 첫 adjuvant TKI 가능성"
+    moa: "RET 선택적 TKI. RET fusion 종양세포 활성형 RET 키나아제 차단으로 미세잔존 종양 제거"
+    sources:
+      - https://investor.lilly.com/news-releases/news-release-details/lillys-retevmo-selpercatinib-delivers-substantial-event-free
+      - https://oncodaily.com/oncolibrary/asco-2026-plenary-session-key-trials
+  - date: 2026-06-01
+    ticker: IMNM
+    event: Varegacestat RINGSIDE Phase 3 desmoid ASCO 2026 oral (PFS HR 0.16, NDA 2026-04-29 제출됨)
+    type: Conference
+    company: Immunome
+    drug: Varegacestat
+    indication: Progressing Desmoid Tumors (adults)
+    phase: Phase 3
+    conferenceId: asco
+    trialDesign: "RINGSIDE 글로벌 무작위배정 이중맹검 placebo 대조 (n=156): varegacestat 1.2mg QD vs 위약. Primary PFS HR 0.16 (95% CI 0.071-0.375, p<0.0001), ORR 56% vs 9%. NDA 2026-04-29 FDA 제출"
+    targetDisease: "진행성 desmoid tumor (성인). 양성이지만 국소침습성, 절제 불가/재발 환자 표준치료 부재 — sorafenib·nirogacestat 외 옵션 제한적"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04871282
+    moa: "경구 γ-secretase 저해제. Notch 신호 차단으로 desmoid 종양세포 증식·생존 억제"
+    sources:
+      - https://investors.immunome.com/immunome-announces-oral-presentation-of-phase-3-ringside-data-at-2026-asco-annual-meeting/
+      - https://www.businesswire.com/news/home/20260429083050/en/Immunome-Announces-Submission-of-New-Drug-Application-to-U.S.-FDA-for-Varegacestat-for-the-Treatment-of-Adults-with-Desmoid-Tumors
+  - date: 2026-06-02
+    ticker: KPTI
+    event: Selinexor + ruxolitinib SENTRY Phase 3 frontline JAKi-naive MF ASCO 2026 LBA oral (SVR35 50% vs 28%)
+    type: Conference
+    company: Karyopharm Therapeutics
+    drug: Selinexor (XPOVIO)
+    indication: Frontline JAKi-naive Myelofibrosis
+    phase: Phase 3
+    conferenceId: asco
+    trialDesign: "SENTRY Phase 3 무작위 이중맹검 위약대조 (n=353, 1:1): selinexor 60mg QW + ruxolitinib vs placebo + ruxolitinib — frontline JAKi-naive MF. 2026-03 topline SVR35 50% vs 28% (p<0.0001) 충족, TSS50 미충족. OS HR 0.43 (nominal p=0.0222) early signal"
+    targetDisease: "골수섬유증(MF) 1차치료 JAKi-naive. ruxolitinib 단독 SVR35 ~30% — selinexor 병용으로 spleen 반응 향상 입증 목적"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04562389
+    moa: "First-in-class XPO1(exportin-1) 가역적 억제제. 종양억제단백 핵 보유 → MF 비정상 megakaryocyte 증식 감소"
+    sources:
+      - https://investors.karyopharm.com/2026-04-21-Karyopharms-Phase-3-SENTRY-Trial-in-Myelofibrosis-Selected-for-Late-Breaking-Oral-Presentation-at-ASCO-2026-Annual-Meeting
+      - https://www.prnewswire.com/news-releases/karyopharms-phase-3-sentry-trial-in-myelofibrosis-selected-for-late-breaking-oral-presentation-at-asco-2026-annual-meeting-302748864.html
 ```

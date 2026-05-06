@@ -8,10 +8,11 @@ areas:
   - Oncology
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-06
 sources:
   - https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results
   - https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-third-quarter-2025-financial-results
+  - https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-first-quarter-2026-financial-results
 ---
 
 # AbbVie (ABBV)
@@ -25,7 +26,7 @@ Humira 후속으로 Skyrizi·Rinvoq 듀오를 자가면역 1위로 키워낸 글
 Skyrizi+Rinvoq 합산 매출이 이미 Humira 피크 매출 수준을 초과.
 
 ## 매출
-FY2025 $61.2B (Skyrizi $17.56B, Rinvoq $8.30B)
+FY2025 $61.2B (Skyrizi $17.56B, Rinvoq $8.30B). **Q1 2026 매출 $15.0B (+12.4% YoY)** — 비GAAP EPS $2.65 (컨센 $2.59). 면역 포트 $7.29B (+16.4% 보고 / +14.3% 운영). Humira -40.3% 운영(바이오시밀러 영향, 예상 부합). **2026 가이던스 상향: 매출 ~$67.3B (+$300M), EPS $14.08-14.28 (+$0.12).** Skyrizi $21.6B / Rinvoq $10.2B 상향 ($100M씩).
 
 ## 플랫폼
 - JAK 저해제 (Rinvoq), IL-23 (Skyrizi)

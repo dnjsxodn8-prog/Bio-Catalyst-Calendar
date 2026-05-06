@@ -8,10 +8,11 @@ areas:
   - Oncology
   - Ophthalmology
 nextCatalyst: 2026-H1
-verified: 2026-04-27
+verified: 2026-05-06
 sources:
   - https://regeneron.com/press-releases
   - https://www.regeneron.com/pipeline
+  - https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-first-quarter-2026-financial-and-operating
 ---
 
 # Regeneron Pharmaceuticals (REGN)
@@ -25,7 +26,7 @@ Regeneron Pharmaceuticals는 VelociSuite 항체 플랫폼(VelociGene·VelocImmun
 VelociSuite로 연간 수백 개 항체 발굴, 내부 및 외부 협력 통해 광범위 파이프라인 구축. Sanofi 외 Bayer, Alnylam, Intellia 등과 다양한 협력.
 
 ## 매출
-$14.2B (FY2024). Dupixent 약 $13.7B (Sanofi 합산, REGN 지분 ~50%), Eylea/Eylea HD ~$5B, Libtayo ~$1.1B
+$14.2B (FY2024). **Q1 2026 매출 $3.6B (+19% YoY)** — 비GAAP EPS $9.47 (컨센 $8.97). Dupixent 글로벌 +31% (정정 환율 기준) $4.9B (Sanofi 합산), Libtayo +54% $438M, EYLEA HD US +52% $468M. Limerick 제조 일시 중단으로 GAAP 마진 영향 — Q2 말 정상화 예상. **신규 $3B 자사주 매입 프로그램 승인.**
 
 ## 플랫폼
 - VelociGene (유전자 타겟팅·KO 마우스)
