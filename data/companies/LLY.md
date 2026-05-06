@@ -7,9 +7,10 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-04-10
-verified: 2026-04-29
+verified: 2026-05-06
 sources:
   - https://investor.lilly.com/Q1-2026
+  - https://investor.lilly.com/news-releases/news-release-details/lilly-reports-first-quarter-2026-financial-results-raises-full
 ---
 
 # Eli Lilly (LLY)
@@ -23,7 +24,7 @@ Orforglipron PDUFA (T2D) - oral GLP-1
 Mounjaro+Zepbound 매출 50%+, 비만 시장 점유율 1위.
 
 ## 매출
-$45B (FY2024), 2026 guidance $80-83B
+$45B (FY2024). **Q1 2026 매출 $19.8B (+56% YoY)** — 비GAAP EPS $8.55 (+156%). Mounjaro·Zepbound 볼륨 성장 주도. **2026 가이던스 상향 — 매출 $82-85B / 비GAAP EPS $35.50-37.00 ($2B 상향).**
 
 ## 플랫폼
 - Small Molecule

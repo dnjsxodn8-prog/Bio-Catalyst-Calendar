@@ -7,11 +7,12 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-06
 sources:
   - https://amgen.com/investors
   - https://investors.amgen.com/news-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2410602
+  - https://investors.amgen.com/static-files/f97cddec-cc50-4749-b33a-05c317ab5e32
 ---
 
 # Amgen (AMGN)
@@ -25,7 +26,7 @@ Amgen은 글로벌 빅바이오텍. 종양(Blincyto, Lumakras), 심혈관(Repath
 FY2024 매출 $33.4B. MariTide Phase 3 MARITIME 진행 중 — 2026년 중간 분석 예상.
 
 ## 매출
-$33.4B (FY2024)
+$33.4B (FY2024). **Q1 2026 매출 $8.6B (+6% YoY)** — 비GAAP EPS $5.15 (+5%, 컨센 $4.80). 6개 성장 동력 +24% YoY (총 매출 ~70%) — Repatha $876M (+34%), Tepezza $490M (+29%), 희귀 포트 $1.2B (+25%). **2026 가이던스 상향: 매출 $37.1-38.5B / 비GAAP EPS $21.70-23.10.** IRS 2016-2018 NOPA 초안 수령 — 재무제표 영향 가능성.
 
 ## 플랫폼
 - Antibody (IgG, BiTE)
