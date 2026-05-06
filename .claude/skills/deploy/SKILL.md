@@ -17,23 +17,52 @@ description: 로컬 변경사항(데이터·코드·문서)을 GitHub `main`에 
 
 | 조건 | 대처 |
 |---|---|
-| worktree 안에서 호출 | "메인 폴더(`Bio Catalyst Calendar`)로 이동 후 다시 호출하세요"라고 안내. 자동으로 worktree 머지하지 않음 (의도치 않은 머지 위험). |
-| 현재 브랜치가 `main` 아님 | "main 브랜치에서만 동작합니다" 알리고 종료. |
-| `origin/main`보다 뒤처짐 (behind) | `git pull --rebase origin main` 먼저 하라고 안내. 자동 pull 금지 (conflict 가능). |
 | `.env*` 파일이 변경 후보에 있음 | secrets 누출 위험. 거부 + `.gitignore` 점검 안내. |
+| push rejected (non-fast-forward) — origin에 다른 commit | 자동 pull 금지 (conflict 가능). 원인 보여주고 종료. |
+| merge conflict 발생 | 자동 해결 금지. conflict 파일 목록 + `git merge --abort` 가이드 후 종료. |
+
+**worktree에서 호출되어도 거부하지 않는다.** worktree 사용자(1인 단독 개발)의 정상 워크플로 → 자동으로 commit → main 머지 → push 순으로 진행. (사용자 결정 2026-05-06.)
 
 ## 절차
 
 ### 1. 환경 점검
 
 ```bash
-pwd                                  # 메인 폴더 위인지 (worktree 아닌지)
-git rev-parse --abbrev-ref HEAD      # 'main' 인지
+pwd                                  # worktree인지 메인 폴더인지
+git rev-parse --abbrev-ref HEAD      # 현재 브랜치
+git rev-parse --show-toplevel        # git root
 git fetch origin main                # 원격 최신 ref 가져옴 (안전)
 git status -sb                       # ahead/behind 표시
 ```
 
-거부 조건 해당하면 즉시 종료.
+worktree인지 + 현재 브랜치가 main이 아닌지 판정하여 절차 1.5 분기 결정. `.env*` 변경 또는 push reject 등 §거부 조건 해당하면 즉시 종료.
+
+### 1.5. worktree → main 자동 머지 (worktree에서 호출된 경우만)
+
+현재 폴더가 worktree(`.claude/worktrees/...`)이고 브랜치가 main이 아니면 다음 순서로 자동 진행:
+
+```bash
+# (1) worktree에서 working tree 변경 commit (있을 때만 — 절차 3·4·5 우선 수행)
+#     pre-commit hook 통과해야 함
+
+# (2) 메인 폴더로 이동 + main checkout
+cd "C:/Users/dnjsx/Desktop/Biotech 기업 분석/Bio Catalyst Calendar"
+git rev-parse --abbrev-ref HEAD       # main 확인
+git fetch origin main
+
+# (3) origin보다 behind면 pull --rebase (worktree 자동 흐름에서는 허용 — 사용자 결정 2026-05-06)
+BEHIND=$(git rev-list --count main..origin/main)
+[ "$BEHIND" -gt 0 ] && git pull --rebase origin main
+
+# (4) 머지 (--no-ff로 worktree 흔적 보존)
+git merge --no-ff <worktree-branch> -m "merge: <짧은 요약> (worktree <worktree-name>)"
+
+# conflict 발생 시 즉시 멈추고 git merge --abort 가이드
+```
+
+이후 절차 6(push) → 7(Vercel 검증)으로 직행. 절차 2~5는 worktree 단계에서 이미 끝났으므로 skip.
+
+**메인 폴더에 미커밋 working tree 변경이 있으면**: 우리 머지에 끌려들어가지 않도록 그대로 둠 (별도 사용자 작업). conflict 안 나는 한 머지는 진행 가능.
 
 ### 2. 변경사항 요약
 
@@ -131,29 +160,36 @@ echo "NEW BUILD DEPLOYED at $(date '+%H:%M:%S')"
 |---|---|---|
 | `npm run check` 실패 | 데이터 스키마 위반 / lint 에러 | 에러 보고 → 사용자가 수정 후 재호출 |
 | pre-commit hook 거부 | hook이 같은 check 실행 | 동일 |
-| push rejected (non-fast-forward) | origin에 다른 commit 있음 | 사용자에게 알림 → `git pull --rebase origin main` 후 재호출 |
+| push rejected (non-fast-forward) | origin에 다른 commit 있음 | `git pull --rebase origin main` 후 재호출 안내 (자동 pull은 main의 working tree 변경과 충돌 위험) |
+| 머지 conflict (worktree → main) | main과 worktree가 같은 줄 수정 | `git merge --abort` 후 사용자에게 conflict 파일 보여주고 종료 |
 | Vercel 응답 5xx | 빌드 진행 중 또는 빌드 실패 | Vercel 대시보드에서 빌드 로그 확인 |
 
 ## 절대 규칙
 
-- 호출은 **메인 폴더 + main 브랜치**에서만.
 - secrets 자동 제외 (`.env`, `.env.local`, `.env.*` 패턴).
 - `--no-verify` / `--force` / `--force-with-lease` 금지.
 - 절차 중 사용자가 중단 의사 표시하면 즉시 멈춤.
-- 이 스킬은 **데이터 수정 안 함**. 오직 commit + push + 검증. 데이터 수정은 `/update`, `/add-catalyst`, `/update-company` 등에서.
+- 이 스킬은 **데이터 수정 안 함**. 오직 commit + 머지 + push + 검증. 데이터 수정은 `/update`, `/add-catalyst`, `/update-company` 등에서.
+- worktree 호출 시 자동 머지는 허용하나 conflict 발생 시 자동 해결 금지 — 즉시 멈추고 사용자에게.
 
 ## 사용 시나리오
 
-```
-사용자: /update
-Claude: [/update 결과 요약 — N건 변경]
+### A. 메인 폴더 + main 브랜치에서 호출 (단순 케이스)
 
+```
 사용자: /deploy
-Claude: [절차 1~8 자동 진행]
-        ✅ /deploy 완료
-        - commit: abc1234 "data: 카탈리스트 3건 추가, 종목 2건 업데이트"
-        - pushed: origin/main
-        - site: https://biotechcatalystcalendar.vercel.app/ (HTTP 200)
+Claude: [절차 1, 2, 3, 4, 5, 6, 7 → 보고]
+```
+
+### B. worktree에서 호출 (자동 머지)
+
+```
+사용자: /update          # worktree에서 데이터 수정
+사용자: /deploy
+Claude: [절차 1: worktree 감지]
+        [절차 3·4·5: worktree에서 commit (pre-commit hook 통과)]
+        [절차 1.5: 메인 폴더로 이동 → main checkout → fetch → merge --no-ff]
+        [절차 6, 7 → 보고]
 ```
 
 `/update`와 `/deploy`를 분리한 이유: 데이터 변경 후 한 번 검토하고, 여러 수정 누적 후 한 번에 push 가능하도록. 매번 자동 push가 필요하면 사용자가 단일 한국어 명령으로 호출 가능 ("업데이트하고 사이트도 올려줘" → 두 스킬 순차 호출).
