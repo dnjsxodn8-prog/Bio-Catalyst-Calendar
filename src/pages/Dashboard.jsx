@@ -10,7 +10,7 @@ import {
   typeClass,
 } from '../utils/dDay';
 
-export default function Dashboard({ data, onPick }) {
+export default function Dashboard({ data, query, onPick }) {
   const { catalysts } = data;
 
   const dated = useMemo(
@@ -21,11 +21,23 @@ export default function Dashboard({ data, onPick }) {
     [catalysts]
   );
 
+  const filtered = useMemo(() => {
+    const q = (query || '').trim().toLowerCase();
+    if (!q) return dated;
+    return dated.filter((c) => {
+      const blob = [c.ticker, c.event, c.drug, c.indication, c.type, c.phase]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
+      return blob.includes(q);
+    });
+  }, [dated, query]);
+
   return (
     <div className="space-y-6">
-      <KpiStrip dated={dated} />
-      <HeroWeek dated={dated} onPick={onPick} />
-      <RecentResults dated={dated} onPick={onPick} />
+      <KpiStrip dated={filtered} />
+      <HeroWeek dated={filtered} onPick={onPick} />
+      <RecentResults dated={filtered} onPick={onPick} />
     </div>
   );
 }
