@@ -7,9 +7,11 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
   - https://clinicaltrials.gov/ct2/show/NCT03548207
+  - https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotech-reports-fourth-quarter-and-full-year-2025-results-and
+  - https://www.globenewswire.com/news-release/2026/03/10/3252614/0/en/legend-biotech-reports-fourth-quarter-and-full-year-2025-results-and-recent-highlights.html
 ---
 
 # Legend Biotech (LEGN)
@@ -23,7 +25,7 @@ CAR-T 세포치료 전문 상업화 단계 바이오텍. Carvykti(ciltacabtagene
 Carvykti는 경쟁 제품 Abecma(ide-cel, BMS) 대비 강력한 반응률·지속시간.
 
 ## 매출
-~$800M (FY2024, J&J 공동 기준), 빠른 성장 궤도
+$1,028.9M (FY2025 총 매출, YoY 대비 급성장). CARVYKTI 총 trade sales(J&J 기준) ~$1.9B. Q4 2025 CARVYKTI $555M(YoY +66%). 10,000명+ 환자 치료 달성, franchise 흑자 전환. 14개국 30+개국 론칭. 참고: FY2024 J&J 공동 기준 ~$800M.
 
 ## 플랫폼
 - Cell Therapy (CAR-T, BCMA 이중 도메인)
@@ -87,4 +89,4 @@ Autologous BCMA-directed CAR-T cell therapy (이중 BCMA 결합 도메인)
 - [San-Miguel J et al. CARTITUDE-4 Phase 3. NEJM (2023)](https://www.nejm.org/doi/full/10.1056/NEJMoa2303379)
 
 ## 메모
-CARTITUDE-1/4 강력한 데이터. 1차 치료 확장 시 시장 폭발 가능. 제조 capacity 확대가 매출 병목. Abecma와 직접 경쟁.
+CARVYKTI FY2025 $1.9B total trade sales(+66% YoY). 10,000명 돌파, franchise 흑자 전환. CARTITUDE-6(1차 치료) 성공 시 시장 폭발 가능. 글로벌 제조 capacity 확대 지속. Abecma와 직접 경쟁하나 CARVYKTI가 데이터·시장점유율 모두 압도.

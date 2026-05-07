@@ -6,13 +6,14 @@ modality: Small Molecule
 areas:
   - Ophthalmology
 nextCatalyst: 2026-12-31
-verified: 2026-05-03
+verified: 2026-05-07
 sources:
   - https://www.ocutx.com/pipeline/
   - https://ocutx.com/investors
   - https://clinicaltrials.gov/study/NCT04516707
   - https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=213209
   - https://www.globenewswire.com/news-release/2026/02/17/3239086/0/en/Ocular-Therapeutix-Reports-Positive-Results-from-Landmark-SOL-1-Phase-3-Superiority-Trial-in-Wet-AMD.html
+  - https://www.globenewswire.com/news-release/2026/02/05/3232830/0/en/Ocular-Therapeutix-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Business-Highlights.html
 ---
 
 # Ocular Therapeutix (OCUL)
@@ -26,7 +27,7 @@ Ocular Therapeutix는 안과 약물 전달 전문 바이오텍. 핵심 기술은
 비침습적/장기지속 전달로 반복 주사 부담 감소가 핵심 가치 제안. Dextenza는 이미 상업화 매출 발생 중.
 
 ## 매출
-$90M (FY2024 — Dextenza + ReSure 상업화 매출). FY2025 guidance $110-125M 예상.
+$52.0M (FY2025 총 매출 — Dextenza + ReSure + 협력 수익). FY2024 대비 -18.5% 감소. 현금 잔액 $737.1M (2025년말 기준). 참고: FY2024 실적 $63.7M (총 매출)/$90M (제품 단독 피크). 주요 포커스가 SOL-1 데이터 발표(2026년 2월) 후 NDA 준비로 전환, 상업 가이던스 미제시.
 
 ## 플랫폼
 - ELUTYX 생분해성 히드로겔 지속방출 플랫폼
@@ -91,4 +92,4 @@ Axitinib(선택적 VEGFR1/2/3 티로신키나제 억제제, 소분자)를 ELUTYX
 - [Yiu G et al. OTX-TKI axitinib intravitreal implant Phase 1. Ophthalmol Retina (2022)](https://pubmed.ncbi.nlm.nih.gov/35227858/)
 
 ## 메모
-Dextenza로 이미 수익 기반 존재. AbbVie $180M 선급금이 재무 안정성 담보. OTX-TKI Phase 3 HELIOS 결과(2026-2027)가 주가 방향 결정. 습성 AMD 6개월 주사 프리 임플란트 성공 시 대형 상업적 기회.
+SOL-1 Phase 3 우월성 데이터(2026년 2월) 발표 이후 NDA 준비 중. FY2025 매출 $52M으로 Dextenza 상업 매출 약화. AbbVie $180M 선급금이 재무 안정성 담보(현금 $737M). OTX-TKI/AXPAXLI NDA 제출 및 HELIOS 비열등성 결과(2027 Q1 예정)가 주가 방향 결정. 습성 AMD 6개월 주사 프리 임플란트 성공 시 대형 상업적 기회.

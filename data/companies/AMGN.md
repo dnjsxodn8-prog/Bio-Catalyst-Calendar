@@ -7,7 +7,7 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-09-30
-verified: 2026-05-06
+verified: 2026-05-07
 sources:
   - https://amgen.com/investors
   - https://investors.amgen.com/news-releases
@@ -23,10 +23,10 @@ MariTide (maridebart cafraglutide) Phase 3 비만 중간 데이터 readout (2026
 ## 회사 개요
 Amgen은 글로벌 빅바이오텍. 종양(Blincyto, Lumakras), 심혈관(Repatha), 염증(Enbrel, Tezspire), 골다공증(Prolia/Xgeva), 희귀질환(Tepezza, Krystexxa) 광범위 포트폴리오. 2023년 Horizon Therapeutics 인수($27.8B)로 희귀질환 강화. MariTide(GLP-1R agonist/GIPR antagonist, 월 1회 피하주사)가 차세대 비만 카탈리스트.
 
-FY2024 매출 $33.4B. MariTide Phase 3 MARITIME 진행 중 — 2026년 중간 분석 예상.
+FY2025 매출 $36.8B (+10% YoY). MariTide Phase 3 MARITIME 진행 중 — 2026년 중간 분석 예상.
 
 ## 매출
-$33.4B (FY2024). **Q1 2026 매출 $8.6B (+6% YoY)** — 비GAAP EPS $5.15 (+5%, 컨센 $4.80). 6개 성장 동력 +24% YoY (총 매출 ~70%) — Repatha $876M (+34%), Tepezza $490M (+29%), 희귀 포트 $1.2B (+25%). **2026 가이던스 상향: 매출 $37.1-38.5B / 비GAAP EPS $21.70-23.10.** IRS 2016-2018 NOPA 초안 수령 — 재무제표 영향 가능성.
+FY2025 $36.8B (+10% YoY). **Q1 2026 매출 $8.6B (+6% YoY)** — 비GAAP EPS $5.15 (+5%, 컨센 $4.80). 6개 성장 동력 +24% YoY (총 매출 ~70%) — Repatha $876M (+34%), Tepezza $490M (+29%), 희귀 포트 $1.2B (+25%). **2026 가이던스 상향: 매출 $37.1-38.5B / 비GAAP EPS $21.70-23.10.** IRS 2016-2018 NOPA 초안 수령 — 재무제표 영향 가능성.
 
 ## 플랫폼
 - Antibody (IgG, BiTE)

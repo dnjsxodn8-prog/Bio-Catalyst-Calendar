@@ -7,9 +7,10 @@ areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
   - https://halozyme.com/
+  - https://www.prnewswire.com/news-releases/halozyme-reports-full-year-2025-record-revenue-of-1-4-billion-and-reiterates-strong-2026-financial-guidance-302689822.html
 ---
 
 # Halozyme Therapeutics (HALO)
@@ -20,10 +21,10 @@ sources:
 ## 회사 개요
 ENHANZE 약물전달 플랫폼(재조합 히알루로니다제 rHuPH20) 보유. 빅파마 항체의약품을 IV→SC 제형으로 전환하는 로열티 비즈니스. Roche, J&J, argenx, BMS, AstraZeneca 등 15개+ 빅파마 파트너. 매출 대부분 마일스톤+로열티. 자체 파이프라인 없이 플랫폼 수익화에 집중.
 
-2024년 매출 $800M+ (YoY +22%), 영업이익률 47.9%. 안정적 현금흐름.
+FY2025 매출 $1.4B 기록, 영업이익률 47.9%. FY2026 가이던스 $1.71-1.81B. 안정적 현금흐름.
 
 ## 매출
-$800M+ (FY2024, +22%)
+$1.4B (FY2025 기록, 전년 대비 큰 폭 성장). 로열티 수익 $868M(+52% YoY). DARZALEX SC·Phesgo·VYVGART Hytrulo 3개 블록버스터 주도. 영업이익률 47.9%. FY2026 가이던스 총 매출 $1.71-1.81B, 로열티 $1.13-1.17B. 참고: FY2024 실적 $800M+(+22%).
 
 ## 플랫폼
 - ENHANZE (rHuPH20 기반 피하투여 기술)
@@ -90,4 +91,4 @@ rHuPH20은 피하 히알루론산 일시 분해 → 피하 공간 확장 → 대
 - [Shpilberg O et al. Subcutaneous rituximab with ENHANZE. Haematologica (2019)](https://pubmed.ncbi.nlm.nih.gov/30309843/)
 
 ## 메모
-플랫폼 로열티 스택 구조. 파트너 제품 매출 성장이 HALO 로열티 복리 성장으로 직결. 신규 파트너 추가 + 기존 파트너 SC 제품 블록버스터화가 중장기 성장 엔진.
+FY2025 $1.4B 기록, 로열티 $868M(+52%). FY2026 가이던스 $1.71-1.81B(+22-30%). Hypercon·Surf Bio 신규 플랫폼 확장으로 2040년대까지 성장 가시성 확보. 파트너 제품 매출 성장이 HALO 로열티 복리 성장으로 직결.

@@ -1,16 +1,16 @@
 ---
 ticker: MRK
 company: Merck
-mcap: 280000
+mcap: 277000
 modality: Antibody
 areas:
   - Oncology
   - Infectious Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
+  - https://www.merck.com/news/merck-highlights-progress-advancing-broad-diverse-pipeline/
   - https://www.merck.com/research/pipeline/
-  - https://www.mrknewsroom.com/press-releases
 ---
 
 # Merck (MRK)
@@ -22,7 +22,7 @@ Keytruda SC(피하주사) FDA 승인; mRNA-4157/V940(개인화 암 백신, with 
 글로벌 빅파마. Keytruda(pembrolizumab, 세계 최대 매출 의약품)로 압도적 종양학 지배력. Gardasil(HPV 백신), Januvia(당뇨), Bridion(마취 역전제) 등 다각화. Keytruda SC 제형 전환, Moderna와 개인화 mRNA 암 백신(mRNA-4157/V940) 공동 개발이 2026-2027년 핵심 카탈리스트. Keytruda 특허 만료(2028) 대비 후속 파이프라인(MK-1308A 등) 확충 중.
 
 ## 매출
-$63.6B (FY2024); Keytruda ~$29.5B (~46%), 2025 guidance $64-65.5B
+$65.0B (FY2025, +2% YoY); Keytruda $31.7B (+7%). **Q1 2026 $16.3B (+5% YoY)**, Keytruda Q1 $8.0B (+12%). **FY2026 가이던스 $65.8-67.0B**, 비GAAP EPS $5.04-5.16.
 
 ## 플랫폼
 - Antibody (PD-1, ADC 파이프라인)
@@ -47,7 +47,7 @@ Pharmaceutical ~89%, Animal Health ~11%
 예 — 글로벌
 
 ## 상업화 제품
-Keytruda(~$29.5B), Gardasil/Gardasil 9, Januvia/Janumet, Bridion, Welireg, Lynparza(AZ 공동), Lenvima(Eisai 공동), Winrevair(폐동맥 고혈압)
+Keytruda($31.7B FY2025), Gardasil/Gardasil 9, Januvia/Janumet, Bridion, Welireg, Winrevair($1.4B FY2025), Lynparza(AZ 공동), Lenvima(Eisai 공동), IDVYNSO(HIV, 2026 신규승인)
 
 ## 임상 디자인
 - **KEYNOTE-942 (mRNA-4157/V940 + Keytruda vs Keytruda 단독, 2L 흑색종) · NCT03897881 · Phase 2b**

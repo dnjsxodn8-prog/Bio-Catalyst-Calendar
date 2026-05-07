@@ -7,9 +7,10 @@ areas:
   - Oncology
   - Infectious Disease
 nextCatalyst: 2026-Q3
-verified: 2026-05-02
+verified: 2026-05-07
 sources:
   - https://www.qiagen.com/us/newsroom/
+  - https://corporate.qiagen.com/English/newsroom/press-releases/press-release-details/2026/QIAGEN-Exceeds-Q4-2025-Outlook-Driven-by-Growth-Pillars/default.aspx
 ---
 
 # Qiagen (QGEN)
@@ -20,10 +21,10 @@ QIAstat-Dx 신규 신드로믹 패널 CE-IVD/FDA 승인 (2026 H2) 및 연간 실
 ## 회사 개요
 Qiagen은 네덜란드 기반 분자진단·생명공학 도구 글로벌 기업. 핵산 추출 키트, PCR 진단 플랫폼(QIAstat-Dx), 차세대 염기서열분석(NGS) 시약, 동반진단(CDx) 솔루션을 전 세계 병원·연구소에 공급. 2020년 Thermo Fisher 인수 시도 무산 후 독립 상장 유지(NYSE: QGEN). AstraZeneca, MSD 등과 CDx 파트너십으로 암 정밀의료 분야 영향력 확장 중. QuantiFERON-TB 잠복결핵 진단 시장점유율 1위.
 
-시약·소모품 반복매출 구조로 안정적 수익 창출. 자동화 플랫폼 QIAsymphony·QIAcube로 연구소 업무 자동화 선도.
+시약·소모품 반복매출 구조로 안정적 수익 창출. 자동화 플랫폼 QIAsymphony·QIAcube로 연구소 업무 자동화 선도. 2026년 이민 검사 수요 감소(QuantiFERON)와 미국 생명과학 고객 지출 신중 기조로 연초 가이던스 하향 조정.
 
 ## 매출
-$2.14B (FY2024), 가이던스 $2.25-2.30B (FY2025)
+$2.09B (FY2025, +6% YoY, 가이던스 상단 달성); FY2026 가이던스 +1~2% CER 성장 (초기 +5% CER에서 4월 하향 조정 — QuantiFERON 이민 수요 감소 영향)
 
 ## 플랫폼
 - QIAstat-Dx (신드로믹 실시간 PCR 진단)
@@ -73,4 +74,4 @@ QIAstat-Dx, QIAsymphony, QuantiFERON-TB Gold Plus, therascreen EGFR RGQ Kit, QIA
 - [QIAstat-Dx Respiratory Panel Validation (J Clin Microbiol, 2021)](https://journals.asm.org/doi/10.1128/JCM.03001-20)
 
 ## 메모
-Thermo Fisher 인수 시도 무산 이후 독립 성장 지속. CDx 파트너십(AZ, MSD) 확대와 QIAstat-Dx 신규 패널 승인이 중기 모멘텀 핵심. mcap ~$10B, 진단 섹터 방어주 성격.
+Thermo Fisher 인수 시도 무산 이후 독립 성장 지속. CDx 파트너십(AZ, MSD) 확대와 QIAstat-Dx 신규 패널 승인이 중기 모멘텀 핵심. FY2025 $2.09B 달성했으나 FY2026 가이던스 대폭 하향(+5% → +1~2% CER)으로 주가 압박. QuantiFERON 이민 수요 구조적 변화 모니터링 필요.

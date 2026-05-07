@@ -7,9 +7,9 @@ areas:
   - Dermatology
   - Orthopedics
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
-  - https://www.mimedx.com/
+  - https://www.globenewswire.com/news-release/2026/02/25/3244957/0/en/MIMEDX-Announces-Record-Fourth-Quarter-and-Full-Year-2025-Operating-and-Financial-Results.html
   - https://clinicaltrials.gov/study/NCT04712630
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MDXG&type=10-K
 ---
@@ -25,7 +25,7 @@ EPICORD (amniotic allograft, 당뇨 발궤양) Phase 3 임상 결과 및 BLA 제
 규제 경로 전환(361 → 351/BLA)은 업계 전반 이슈. MDXG는 선제 대응 중.
 
 ## 매출
-~$310M (FY2024)
+$419M (FY2025, +20% YoY). Wound +20%, Surgical +25%. Adjusted EBITDA $105.7M(25.3% 마진). FY2026 가이던스 $340~360M(net sales), Adjusted EBITDA 마진 mid-to-high teens.
 
 ## 플랫폼
 - Biologic (amniotic membrane/placental tissue allograft)

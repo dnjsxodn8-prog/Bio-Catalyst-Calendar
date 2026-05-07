@@ -7,9 +7,9 @@ areas:
   - Cardiovascular
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
-  - https://humacyte.com/
+  - https://www.stocktitan.net/news/HUMA/humacyte-announces-fourth-quarter-and-year-end-2025-financial-ad0fjgl6js47.html
   - https://clinicaltrials.gov/study/NCT01887925
 ---
 
@@ -19,12 +19,12 @@ sources:
 HAV (인간 무세포 혈관) 추가 FDA 적응증 승인 (말초동맥질환 또는 AV access 확장) (2026)
 
 ## 회사 개요
-인간 무세포 혈관(HAV, Human Acellular Vessel) 전문 재생의학 바이오텍. HAV는 인간 평활근세포로 생산 후 무세포화 처리한 off-the-shelf 생체혈관 대체재. 2023년 외상 혈관 손상(vascular trauma) FDA 승인. 투석 혈관접근(hemodialysis AV access) 및 말초동맥질환(PAD) 추가 적응증 확장 추진.
+인간 무세포 혈관(HAV, Human Acellular Vessel) 전문 재생의학 바이오텍. HAV는 인간 평활근세포로 생산 후 무세포화 처리한 off-the-shelf 생체혈관 대체재. 2023년 외상 혈관 손상(vascular trauma) FDA 승인(제품명 Symvess). 투석 혈관접근(hemodialysis AV access) supplemental BLA 2026년 하반기 제출 예정(V012 Phase 3 중간 데이터 Q2 2026 예정).
 
-시총 $214M 소형주. 혁신적 플랫폼이나 상업화 초기 단계.
+시총 ~$214M 소형주. Symvess 상업화 초기 단계.
 
 ## 매출
-초기 상업화 (~$5-10M, FY2024 추정)
+$2.0M (FY2025, Symvess 판매 $1.4M 포함). 외상 적응증 상업화 1년차. AV access BLA 승인이 대형 시장 진입 전환점. FY2026 가이던스 없음.
 
 ## 플랫폼
 - 인간 무세포 혈관 (HAV, bioengineered acellular vessel)

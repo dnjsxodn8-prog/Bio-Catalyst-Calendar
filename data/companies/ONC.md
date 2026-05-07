@@ -7,11 +7,12 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-Q2
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
   - https://ir.beigene.com/
   - https://clinicaltrials.gov/study/NCT02980341
   - https://www.fda.gov/drugs/drug-approvals-and-databases
+  - https://www.eqs-news.com/news/category/beone-medicines-announces-fourth-quarter-and-full-year-2025-financial-results-highlighting-global-success-of-brukinsa-and-foundational-oncology-leadership/6559b41c-7beb-45ca-bc76-5e1c9cdb26cc
 ---
 
 # BeOne Medicines (BeiGene) (ONC)
@@ -20,10 +21,10 @@ sources:
 Zanubrutinib (Brukinsa) 추가 적응증 확대 / 경쟁사 임상 데이터 비교 발표 (2026 H1); BGB-11417 (Bcl-2 억제제) Phase 2/3 업데이트; 미국·유럽 매출 성장 추이 (분기별)
 
 ## 회사 개요
-글로벌 중국계 oncology 바이오파마. 핵심 상업 제품: zanubrutinib(Brukinsa, BTK 저해제) — CLL, MCL, WM, MZL 등 다수 혈액암 적응증. 2024년 zanubrutinib FDA·EMA 승인 확대. BGB-11417(Bcl-2 억제제) 임상 가속. 중국·미국·유럽 3거점 글로벌 운영. 2024년 Novartis로부터 티사젠렉류셀 등 CAR-T 자산 인수.
+글로벌 중국계 oncology 바이오파마. 핵심 상업 제품: zanubrutinib(Brukinsa, BTK 저해제) — CLL, MCL, WM, MZL 등 다수 혈액암 적응증. BGB-11417(Bcl-2 억제제) 임상 가속. 중국·미국·유럽 3거점 글로벌 운영. FY2025 $5.3B(+40% YoY) 달성, GAAP 흑자 전환($2.53 ADS EPS). 2026년 Q1 실적 발표 후 FY2026 가이던스 상향 조정.
 
 ## 매출
-$4.3B (FY2024 전체); zanubrutinib $2.9B (2024). 2025년 guidance ~$5.5-6B.
+$5.3B (FY2025 전체, +40% YoY); Brukinsa $3.9B (FY2025, +49% YoY). FY2026 가이던스 $6.3-6.5B (Q1 2026 실적 후 상향, 당초 $6.2-6.4B)
 
 ## 플랫폼
 - Small Molecule (BTK 저해제, Bcl-2 억제제, CDK4/6)
@@ -88,4 +89,4 @@ BTK (Bruton's tyrosine kinase) inhibitor, 2세대 (type: Small Molecule)
 - [Hillmen P et al. SEQUOIA zanubrutinib CLL. JCO (2023)](https://ascopubs.org/doi/10.1200/JCO.22.02807)
 
 ## 메모
-Brukinsa는 글로벌 BTK 시장 점유율 급상승 중. BGB-11417(Bcl-2 억제제)와의 병용 전략이 차기 성장 엔진. 중국 리스크(지정학, 규제)는 지속 모니터링 필요.
+FY2025 $5.3B(+40%), Brukinsa $3.9B(+49%) — BTK 시장 점유율 급상승. GAAP 흑자 전환($2.53 ADS)으로 수익성 증명. FY2026 가이던스 $6.3-6.5B(상향). BGB-11417(Bcl-2 억제제) 병용 전략이 차기 성장 엔진. 중국 지정학 리스크 지속 모니터링 필요.

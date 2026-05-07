@@ -6,9 +6,9 @@ modality: Cell Therapy
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
-  - https://immunitybio.com/investors/news
+  - https://www.businesswire.com/news/home/20260507366251/en/ImmunityBio-Reports-Record-Q1-2026-Results-Net-Product-Revenue-Increased-Nearly-2.7x-Year-Over-Year-to-$44-Million-in-Q1-2026-Expanding-on-the-2025-Full-Year-700-Year-Over-Year-Revenue-Growth-Cash-and-Marketable-Securities-Total-$381-Million
   - https://clinicaltrials.gov/study/NCT03022825
 ---
 
@@ -18,12 +18,12 @@ sources:
 Anktiva (N-803) 방광암 추가 적응증 (근침윤성 방광암, MIBC) 임상 데이터 / sNDA (2026)
 
 ## 회사 개요
-NK세포·T세포 면역치료 플랫폼 전문 바이오텍. 리드 에셋 Anktiva(N-803, IL-15 superagonist)는 2024년 FDA 승인 받은 비침윤성 방광암(NMIBC, BCG 불응성) 치료제. BCG와 병용 투여. 방광암 외 다른 적응증(NSCLC, 췌장암 등)으로 확장 추진.
+NK세포·T세포 면역치료 플랫폼 전문 바이오텍. 리드 에셋 Anktiva(N-803, IL-15 superagonist)는 2024년 FDA 승인 받은 비침윤성 방광암(NMIBC, BCG 불응성) 치료제. BCG와 병용 투여. 방광암 외 다른 적응증(NSCLC, 췌장암 등)으로 확장 추진. 미국·영국·사우디·EU(조건부) 승인 완료.
 
-Patrick Soon-Shiong 창립. NantWorks 에코시스템. 시총 $9B 수준으로 상업화 단계.
+Patrick Soon-Shiong 창립. NantWorks 에코시스템.
 
 ## 매출
-초기 상업화 (~$50-100M, FY2024 추정, Anktiva 출시 초기)
+$113M (FY2025, Anktiva net product revenue, +700% YoY). Q4 2025 $38.3M. Q1 2026 $44.2M(+168% YoY, +15% QoQ). BCG-naïve CIS 추가 sNDA 2026년 제출 예정. FY2026 연간 가이던스 미제시.
 
 ## 플랫폼
 - IL-15 superagonist (N-803, Anktiva)

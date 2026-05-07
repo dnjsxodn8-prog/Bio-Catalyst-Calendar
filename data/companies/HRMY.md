@@ -6,10 +6,11 @@ modality: Small Molecule
 areas:
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
   - https://harmonybiosciences.com/investors/news
   - https://clinicaltrials.gov/study/NCT05767060
+  - https://ir.harmonybiosciences.com/news-releases/news-release-details/harmony-biosciences-reports-strong-2025-financial-results-and/
 ---
 
 # Harmony Biosciences (HRMY)
@@ -20,10 +21,10 @@ Pitolisant 신규 적응증 (특발성 과다수면증 sNDA) FDA 결정 또는 Z
 ## 회사 개요
 수면·신경계 희귀질환 전문 상업화 바이오텍. 상업 제품 WAKIX(pitolisant)로 기면증(narcolepsy) 치료. WAKIX 매출 성장세 유지하며 신규 적응증(특발성 과다수면증, IH) 확장 추진. 파이프라인에 ZYN-002 (cannabidivarin, 희귀 뇌전증) 임상.
 
-안정적 수익 기반 + 파이프라인 성장 구조. 시총 $2B 수준.
+안정적 수익 기반 + 파이프라인 성장 구조. FY2025 $868.5M(+22%), FY2026 $1B 목표. 시총 $2B 수준.
 
 ## 매출
-~$560M (FY2024, WAKIX 단독)
+$868.5M (FY2025, WAKIX 단독, YoY +22%). Q4 2025 $243.8M(+21% YoY). 6년 연속 수익 성장. 순이익 $158.7M, 현금 $882.5M. FY2026 가이던스 $1.0-1.04B(WAKIX $1B 돌파 목표). 참고: FY2024 실적 ~$560M.
 
 ## 플랫폼
 - H3 수용체 역작용제 (pitolisant)
@@ -89,4 +90,4 @@ H3 receptor inverse agonist (type: Small Molecule)
 - [Sherif A et al. Pitolisant in idiopathic hypersomnia. Sleep (2021)](https://pubmed.ncbi.nlm.nih.gov/34469556/)
 
 ## 메모
-WAKIX IH 적응증 확장 성공 시 addressable 환자 확대. 수면 희귀질환 니치 분야 선도자. ZYN-002는 장기 파이프라인 옵션.
+WAKIX FY2025 $868.5M(+22%), FY2026 $1B 가이던스. 6년 연속 성장, 순이익 $158.7M. IH 적응증 확장 성공 시 환자 기반 확대. ZYN-002는 장기 파이프라인 옵션.
