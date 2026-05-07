@@ -6,9 +6,9 @@ modality: Cell Therapy
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
+verified: 2026-05-07
 sources:
-  - https://ir.iovance.com/
+  - https://www.globenewswire.com/news-release/2026/02/24/3243360/0/en/Iovance-Biotherapeutics-Highlights-Strong-Fourth-Quarter-and-Full-Year-2025-Results-Business-Achievements-and-Corporate-Updates.html
   - https://clinicaltrials.gov/study/NCT04685889
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2210866
 ---
@@ -19,10 +19,10 @@ sources:
 LN-145 (lifileucel) NSCLC 적응증 확대 BLA/승인 — 2026년 중반; AMTAGVI 매출 성장 데이터
 
 ## 회사 개요
-종양 침윤 림프구(TIL) 세포치료제 선도 기업. AMTAGVI(lifileucel)는 2024년 2월 세계 최초 TIL 기반 고형암 세포치료제로 FDA 승인 (흑색종 3차+). 성인 흑색종 대상 연간 치료 비용 ~$515,000. 현재 NSCLC(LN-145), 자궁경부암(LN-145), 두경부암 등 고형암 전반 확장 중. Iovance는 TIL 제조 공정(Gen 2) 특허 보유.
+종양 침윤 림프구(TIL) 세포치료제 선도 기업. AMTAGVI(lifileucel)는 2024년 2월 세계 최초 TIL 기반 고형암 세포치료제로 FDA 승인 (흑색종 3차+). 성인 흑색종 대상 연간 치료 비용 ~$515,000. 현재 NSCLC(LN-145), 자궁경부암(LN-145), 두경부암 등 고형암 전반 확장 중. 캐나다 2025년 8월 승인. NSCLC Fast Track 지정(2026).
 
 ## 매출
-$165M+ (FY2024, AMTAGVI 상업 출시 1년차)
+$264M (FY2025, +61% YoY, 가이던스 $250~300M 달성). Q4 2025 ~$87M(미국 AMTAGVI $65M). FY2026 가이던스 미제시(NSCLC 적응증 확대 BLA 심사 중).
 
 ## 플랫폼
 - TIL (Tumor-Infiltrating Lymphocyte) Cell Therapy

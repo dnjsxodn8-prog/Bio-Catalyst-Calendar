@@ -7,9 +7,9 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-04-10
-verified: 2026-05-06
+verified: 2026-05-07
 sources:
-  - https://investor.lilly.com/Q1-2026
+  - https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides
   - https://investor.lilly.com/news-releases/news-release-details/lilly-reports-first-quarter-2026-financial-results-raises-full
 ---
 
@@ -24,7 +24,7 @@ Orforglipron PDUFA (T2D) - oral GLP-1
 Mounjaro+Zepbound 매출 50%+, 비만 시장 점유율 1위.
 
 ## 매출
-$45B (FY2024). **Q1 2026 매출 $19.8B (+56% YoY)** — 비GAAP EPS $8.55 (+156%). Mounjaro·Zepbound 볼륨 성장 주도. **2026 가이던스 상향 — 매출 $82-85B / 비GAAP EPS $35.50-37.00 ($2B 상향).**
+FY2025 $65.2B (+45% YoY), 비GAAP EPS $24.21 (+86%). Q4 2025 $19.3B (+43%). **Q1 2026 매출 $19.8B (+56% YoY)** — 비GAAP EPS $8.55 (+156%). Mounjaro·Zepbound 볼륨 성장 주도. **FY2026 가이던스 매출 $80-83B (mid +25%) / 비GAAP EPS $33.50-35.00.** Orforglipron 비만 적응증 FY2026 승인 후 ramp 시작.
 
 ## 플랫폼
 - Small Molecule

@@ -6,9 +6,9 @@ modality: Diagnostic
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
-  - https://www.exactsciences.com/
+  - https://www.exactsciences.com/news-events/press-releases/exact-sciences-announces-record-fourth-quarter-and-full-year-2025-results
   - https://www.cologuard.com/
 ---
 
@@ -18,10 +18,10 @@ sources:
 Cologuard Plus FDA 결정 2026년 상반기; Oncotype DX 보험급여 확대; ctDNA 기반 MRD 테스트 CLIA 론칭 업데이트
 
 ## 회사 개요
-암 조기진단 및 정밀의학 진단 선도 기업. 비침습적 대장암 선별검사 Cologuard(stool DNA test)가 핵심 매출원. Genomic Health 인수(2019)로 Oncotype DX(유방암·전립선암·대장암 재발 위험 예측) 포트폴리오 추가. 다중 암 조기 발견(MCED) liquid biopsy 개발 중. 연간 $2.5B+ 진단 플랫폼 기업으로 성장.
+암 조기진단 및 정밀의학 진단 선도 기업. 비침습적 대장암 선별검사 Cologuard(stool DNA test)가 핵심 매출원. Genomic Health 인수(2019)로 Oncotype DX(유방암·전립선암·대장암 재발 위험 예측) 포트폴리오 추가. 다중 암 조기 발견(MCED) liquid biopsy 개발 중. Abbott Laboratories에 의한 인수(주당 $105, 총 ~$21B)가 2026년 Q2 내 완료 예정.
 
 ## 매출
-$2.53B (FY2024), 전년 대비 +12%
+$3.25B (FY2025), 전년 대비 +28%. Screening $2.67B, Precision Oncology $0.58B. 영업현금흐름 $491M (+$281M YoY). Abbott 인수로 FY2026 가이던스 미제시.
 
 ## 플랫폼
 - Diagnostic (stool DNA, ctDNA liquid biopsy, genomic profiling)
@@ -66,4 +66,4 @@ Cologuard (대장암 선별), Cologuard Plus (차세대, FDA 신청 중), Oncoty
 - [Chung DC et al. Cologuard Plus BLUE-C results. NEJM (2024)](https://pubmed.ncbi.nlm.nih.gov/38986066/)
 
 ## 메모
-Cologuard Plus FDA 승인 시 기존 1세대 대체 매출 성장 기대. MCED liquid biopsy가 장기 성장 드라이버.
+Cologuard Plus FDA 승인 시 기존 1세대 대체 매출 성장 기대. MCED liquid biopsy가 장기 성장 드라이버. Abbott 인수($105/주) 2026 Q2 완료 예정 — 완료 시 상장 폐지.

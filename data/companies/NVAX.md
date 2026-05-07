@@ -6,11 +6,12 @@ modality: Protein/Enzyme
 areas:
   - Infectious Disease
 nextCatalyst: 2026-09-30
-verified: 2026-05-02
+verified: 2026-05-07
 sources:
   - https://novavax.com/press-releases
   - https://clinicaltrials.gov/study/NCT06229730
   - https://www.fda.gov/vaccines-blood-biologics/vaccines/nuvaxovid
+  - https://ir.novavax.com/press-releases/2026-02-26-Novavax-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Operational-Highlights
 ---
 
 # Novavax (NVAX)
@@ -19,12 +20,12 @@ sources:
 NVX-CoV2601 (차세대 COVID-19 백신) 2026-27 시즌 CDC ACIP 권고 및 공급 계약 갱신 (2026 H2)
 
 ## 회사 개요
-Novavax는 단백질 서브유닛 백신 기술(Matrix-M 아쥬반트)을 보유한 상업화 단계 백신 전문 바이오텍. COVID-19 백신 Nuvaxovid(NVX-CoV2503)는 미국 FDA 승인 취득. 2023년 Sanofi와 대규모 파트너십 체결(최대 $1.2B). mRNA 대안으로 단백질 기반 접근 선호 집단 타겟. COVID 판매 부진으로 구조 조정 진행 중이며, 독감+COVID 복합 백신(NVX-CoV2601 + 독감)으로 재도약 모색.
+Novavax는 단백질 서브유닛 백신 기술(Matrix-M 아쥬반트)을 보유한 상업화 단계 백신 전문 바이오텍. COVID-19 백신 Nuvaxovid(NVX-CoV2503)는 미국 FDA 승인 취득. 2023년 Sanofi와 대규모 파트너십 체결. mRNA 대안으로 단백질 기반 접근 선호 집단 타겟. Sanofi 파트너십 수익(마일스톤·라이선스)이 FY2025 매출 대부분 구성. 2026년 Q1 Pfizer와 신규 파트너십($30M 선불, 최대 $500M 마일스톤).
 
-2025년 Sanofi 파트너십에 따라 COVID 제품 공동 개발·상업화 및 독감 백신 플랫폼 통합.
+Sanofi 파트너십에 따라 COVID 제품 공동 개발·상업화 및 독감 백신 플랫폼 통합. 제품 직접 매출은 축소, 파트너십 수익 구조로 전환.
 
 ## 매출
-$304M (FY2024), 대부분 Nuvaxovid COVID 백신. FY2025 guidance 불확실 (Sanofi 파트너십 구조 전환).
+$1,123M (FY2025 총수익; 제품 매출 $685M + 라이선스·마일스톤 $438M, Sanofi 전환 영향). FY2026 조정 총수익 가이던스 $230-270M (Sanofi 공급·로열티 제외 기준; Nuvaxovid 직접 판매 $35-45M 포함)
 
 ## 플랫폼
 - Protein Subunit Vaccine
@@ -89,4 +90,4 @@ Protein Subunit Vaccine (Matrix-M 아쥬반트 포함)
 - [Shinde V et al. Novavax B.1.351 variant efficacy. NEJM (2021)](https://www.nejm.org/doi/full/10.1056/NEJMoa2103055)
 
 ## 메모
-Sanofi 파트너십이 핵심 생존 전략. 단백질 서브유닛 차별화 포지셔닝. COVID endemic 전환 후 시장 축소 리스크 존재. 2026-27 시즌 계약 갱신 및 복합 백신(COVID+Flu) 데이터가 중장기 재평가 촉매.
+Sanofi 파트너십이 핵심 생존 전략. FY2025 $1,123M 총수익은 Sanofi 마일스톤 $386M 일회성 반영으로 과거 대비 크게 높음. FY2026 조정 가이던스 $230-270M은 실질 경상 수익 기준. 2026년 Pfizer와 신규 파트너십 체결 — Matrix-M 플랫폼 가치 재평가 가능. 2026-27 시즌 ACIP 권고 여부가 주요 촉매.

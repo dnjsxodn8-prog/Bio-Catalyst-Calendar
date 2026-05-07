@@ -9,10 +9,10 @@ areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2026-Q2
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
+  - https://www.businesswire.com/news/home/20260203145333/en/Pfizer-Reports-Solid-Full-Year-2025-Results-And-Reaffirms-2026-Guidance
   - https://www.pfizer.com/science/drug-product-pipeline
-  - https://investors.pfizer.com/
   - https://clinicaltrials.gov/study/NCT04501978
 ---
 
@@ -27,7 +27,7 @@ Sasanlimab (PD-1 항체) + BCG 방광암 PDUFA / sNDA 심사 결과 — 2026년 
 2023년 Seagen 430억 달러 인수로 ADC 포트폴리오 대폭 강화. 2024~2026년 특허 절벽(Eliquis, Ibrance 등) 대응이 최대 과제.
 
 ## 매출
-$58.5B (FY2024); 2026 guidance $61-64B
+$62.6B (FY2025, -2% YoY; 비COVID 포트폴리오 +6% 운영기준). **Q1 2026 $14.5B (+5% YoY)** — ADC·신규 제품군 +22%. **FY2026 가이던스 $59.5-62.5B**, adj EPS $2.80-3.00 (COVID 제품 추가 감소 + LOE 반영). Comirnaty Q1 $232M(-59%), Paxlovid Q1 $186M(-62%).
 
 ## 플랫폼
 - Small Molecule

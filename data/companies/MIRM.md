@@ -7,11 +7,12 @@ areas:
   - Rare Disease
   - Gastrointestinal
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
   - https://ir.mirumpharma.com/news-releases
   - https://clinicaltrials.gov/study/NCT04185363
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MIRM&type=10-K
+  - https://ir.mirumpharma.com/news/news-details/2026/Mirum-Pharmaceuticals-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update/default.aspx
 ---
 
 # Mirum Pharmaceuticals (MIRM)
@@ -25,7 +26,7 @@ Livmarli (maralixibat) PFIC 성장 및 volixibat (cholestatic pruritus/PSC) Phas
 고도 집중된 희귀 질환 포지셔닝. KOL 기반 영업으로 소규모 환자 집단 직접 도달.
 
 ## 매출
-~$180M (FY2024, Livmarli)
+$521.3M (FY2025 총 매출, YoY +54.7%). Livmarli 순매출 $360M(미국 $244.7M, YoY +69%). 담즙산 제품군(CHOLBAM + CTEXLI) $161.3M(YoY +31%). 33개국 상업 접근. 참고: FY2024 총 매출 ~$180M(Livmarli 기준, 구 파일).
 
 ## 플랫폼
 - Small Molecule (IBAT inhibitor, Ileal Bile Acid Transporter)
@@ -89,4 +90,4 @@ Ileal Bile Acid Transporter (IBAT/ASBT) inhibitor (type: Small Molecule)
 - [Hirschfield GM et al. IBAT inhibition in cholestatic liver diseases. J Hepatol (2022)](https://www.journal-of-hepatology.eu/article/S0168-8278(22)00032-1/fulltext)
 
 ## 메모
-Livmarli 성장 궤적 확인 중. Volixibat PSC 데이터가 파이프라인 확장 핵심.
+Livmarli FY2025 $360M(+69% YoY), 총 매출 $521M으로 급성장. CHOLBAM·CTEXLI 포트폴리오 다각화. Volixibat VISTAS(PSC) 등록 완료 — 데이터가 파이프라인 확장 핵심.

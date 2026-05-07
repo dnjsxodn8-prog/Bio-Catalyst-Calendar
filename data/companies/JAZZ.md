@@ -8,11 +8,12 @@ areas:
   - Oncology
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
   - https://www.jazzpharma.com/
   - https://investor.jazzpharma.com/
   - https://clinicaltrials.gov/study/NCT04451239
+  - https://investor.jazzpharma.com/news-releases/news-release-details/jazz-pharmaceuticals-announces-full-year-and-fourth-quarter-2025
 ---
 
 # Jazz Pharmaceuticals (JAZZ)
@@ -24,7 +25,7 @@ Zanidatamab (HER2+ 담도암) FDA 우선 심사 PDUFA — 2025년 승인 여부 
 Jazz Pharmaceuticals는 아일랜드 더블린 기반 특수 전문의약품·바이오텍 중견 기업. 수면장애(Xyrem/Xywav: 기면증), 혈액종양(Vyxeos: AML), 신경과학(Epidiolex: Dravet/LGS) 등 특화 포트폴리오 보유. 2021년 GW Pharmaceuticals 인수(Epidiolex)로 신경과학 강화. Zanidatamab(HER2 이중특이항체, Zymeworks 파트너십) 은 담도암 등 다수 HER2+ 고형암 임상 진행 중.
 
 ## 매출
-$3.9B (FY2024). Xywav/Xyrem 합계 약 $1.9B, Epidiolex $0.8B, Vyxeos $0.2B.
+$4.3B (FY2025, YoY +5%). Xywav 순매출 $1.7B(+12% YoY), 수면 franchise 합계 $2B+ 돌파. Epidiolex $1B+(+9% YoY). Modeyso $48M(2025년 8월 론칭 이후). Q4 2025 역대 최고 분기 매출 $1.2B(+10% YoY). FY2026 가이던스 $4.25-4.50B. 참고: FY2024 실적 $3.9B.
 
 ## 플랫폼
 - Small Molecule (Xyrem, Epidiolex 계열)
@@ -87,4 +88,4 @@ HER2 x HER2 이중에피토프 단클론항체 (bispecific, type: Antibody)
 - [Meric-Bernstam F et al. Zanidatamab in HER2-expressing biliary tract cancer. Lancet Oncol (2022)](https://pubmed.ncbi.nlm.nih.gov/35430017/)
 
 ## 메모
-Zanidatamab BTC FDA 심사가 단기 가장 큰 카탈리스트. HER2 이중에피토프 설계로 트라스투주맙 내성 극복 가능성. Xywav 제네릭 위협 2025년~으로 long-term 수익 희석 우려.
+FY2025 $4.3B 달성, Epidiolex $1B 돌파. Zanidatamab BTC FDA 심사가 단기 가장 큰 카탈리스트. HER2 이중에피토프 설계로 트라스투주맙 내성 극복 가능성. FY2026 가이던스 $4.25-4.50B. Xywav 제네릭 위협 지속 모니터링 필요. Modeyso 신제품 성장 추적.

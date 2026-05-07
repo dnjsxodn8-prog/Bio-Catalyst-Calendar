@@ -7,11 +7,11 @@ areas:
   - Rare Disease
   - Gene/Cell Therapy
 nextCatalyst: 2026-06-30
-verified: 2026-04-28
+verified: 2026-05-07
 sources:
+  - https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-first-quarter-2026-financial-results
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-fda-approval-journavxtm-suzetrigine-first-class
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-positive-week-36-interim-analysis-results
-  - https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-fourth-quarter-and-full-year-2024-financial
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-advances-inaxaplin-vx-147-phase-3-portion-adaptive-phase
   - https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trials-snapshots-journavx
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC11914629/
@@ -25,10 +25,10 @@ sources:
 - Alyftrek 유럽·글로벌 확장 (2025 EU/UK 승인 완료)
 
 ## 회사 개요
-CF 시장 90%+ 점유 글로벌 희귀질환 빅파마, $11B+ 연매출 캐시카우 보유. 2026 H2 Povetacicept IgAN BLA 가속승인 결정이 다음 카탈리스트 — BAFF+APRIL 이중 차단 첫 신장 적응증 진입 여부가 핵심.
+CF 시장 90%+ 점유 글로벌 희귀질환 빅파마, $12B 연매출 캐시카우 보유. 2026 H2 Povetacicept IgAN BLA 가속승인 결정이 다음 카탈리스트 — BAFF+APRIL 이중 차단 첫 신장 적응증 진입 여부가 핵심. Journavx 상업화 가속 중.
 
 ## 매출
-$11.0B (FY2024). Trikafta/Kaftrio 약 $10.1B(전체 ~92%) 압도. Alyftrek 2024년 12월 FDA 승인, 2025년 첫 분기 $53.9M(상업화 초기). 2025 guidance $11.7~12.0B.
+FY2025 $12.0B (+9% YoY). Trikafta/Kaftrio 중심 CF 매출 유지, Alyftrek 점진적 대체 진행. Casgevy·Journavx 상업화 초기 기여. **Q1 2026 $2.99B (+8% YoY)** — Journavx 35만+ 처방(분기), ALYFTREK 누적 $1B 돌파. **2026 가이던스: $12.95B–$13.1B** (비CF 제품 $500M+ 목표 포함), Q1 2026 가이던스 재확인.
 
 ## 플랫폼
 - **CFTR modulator (소분자)**: corrector + potentiator 조합, CF 치료의 핵심 플랫폼

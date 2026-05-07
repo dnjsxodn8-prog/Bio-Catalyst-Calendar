@@ -7,8 +7,9 @@ areas:
   - Infectious Disease
   - Respiratory
 nextCatalyst: 2026-09-30
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
+  - https://ir.enanta.com/news-releases/news-release-details/enanta-pharmaceuticals-reports-financial-results-its-fiscal-44
   - https://clinicaltrials.gov/study/NCT05978089
 ---
 
@@ -21,7 +22,7 @@ EDP-235 (RSV 구강투여) Phase 2b 데이터 2026년 하반기 예상
 소분자 항바이러스 전문 임상 단계 기업. AbbVie와의 HCV 협력(Mavyret 로열티)이 주요 수익원이었으나 HCV 시장 축소로 매출 급감. 현재 RSV 경구 치료제 EDP-235를 중심으로 재도약 시도. 비인플루엔자 RNA바이러스 항바이러스 소분자 발굴 역량 보유.
 
 ## 매출
-~$60M (FY2024, AbbVie Mavyret 로열티 급감 중)
+$65.3M (FY2025, 회계연도 종료 2025-09-30, -3% YoY). AbbVie Mavyret 로열티 전액. R&D 비용 $106.7M. 현금 $188.9M. FY2026 가이던스 없음(로열티 추가 감소 추세).
 
 ## 플랫폼
 - Small Molecule (항바이러스, polymerase/protease 억제)

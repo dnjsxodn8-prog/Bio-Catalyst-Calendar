@@ -7,10 +7,11 @@ areas:
   - Hematology
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
   - https://www.geron.com/pipeline/imetelstat/
   - https://www.geron.com/
+  - https://www.globenewswire.com/news-release/2026/02/25/3244444/35501/en/Geron-Corporation-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Recent-Business-Highlights.html
 ---
 
 # Geron (GERN)
@@ -19,12 +20,12 @@ sources:
 Rytelo (imetelstat) — MDS 전체생존기간(OS) 성숙 데이터 및 2026 상반기 학회 발표 (EHA/ASCO 2026)
 
 ## 회사 개요
-Geron Corporation은 캘리포니아 포스터시티 소재 바이오텍으로, 텔로머라제(telomerase) 억제제 imetelstat(Rytelo)을 단독 개발한 회사다. 2024년 6월 FDA가 Rytelo를 저위험·중간위험-1 골수이형성증후군(MDS) 치료제로 승인. 출시 첫 해 매출 창출 중.
+Geron Corporation은 캘리포니아 포스터시티 소재 바이오텍으로, 텔로머라제(telomerase) 억제제 imetelstat(Rytelo)을 단독 개발한 회사다. 2024년 6월 FDA가 Rytelo를 저위험·중간위험-1 골수이형성증후군(MDS) 치료제로 승인. FY2025 $184M 매출로 상업화 안착. Q4 2025 수요 QoQ 9% 성장, 주문 계좌 수 ~1,300개까지 확대.
 
 텔로머라제는 암세포의 텔로미어를 유지해 무한 증식을 가능하게 하는 효소로, 정상 세포에는 없고 암세포에서 과발현되는 선택적 타겟이다.
 
 ## 매출
-$37.6M (FY2024, 출시 반년 기준). 2025 가이던스 ~$100-120M 예상.
+$184M (FY2025); FY2026 가이던스 $220-240M
 
 ## 플랫폼
 - RNA/Oligonucleotide (텔로머라제 억제)
@@ -87,4 +88,4 @@ ESA (에포에틴, 다베포에틴), Luspatercept (Reblozyl, BMS/AZ), Lenalidomi
 - [Steensma DP et al. Phase 2 IMerge. Blood (2021)](https://ashpublications.org/blood/article/137/22/3058/475900)
 
 ## 메모
-단일 제품 회사. Rytelo 매출 성장 궤도가 핵심. MF(골수섬유증) 확장 임상 진행 중 — Phase 2/3 IMERGE-MF 데이터가 차기 촉매. 경쟁 대비 차별화된 텔로머라제 기전이 강점.
+단일 제품 회사. FY2025 $184M 달성, FY2026 가이던스 $220-240M으로 성장 궤도 유지. IMpactMF(MF Phase 3) 75% 등록 완료 — 2026년 하반기 초기 데이터 예정. 경쟁 대비 차별화된 텔로머라제 기전이 강점.

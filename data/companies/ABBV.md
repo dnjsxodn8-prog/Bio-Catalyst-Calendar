@@ -8,7 +8,7 @@ areas:
   - Oncology
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-05-06
+verified: 2026-05-07
 sources:
   - https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results
   - https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-third-quarter-2025-financial-results

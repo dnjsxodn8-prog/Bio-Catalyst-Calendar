@@ -6,8 +6,9 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
+  - https://ir.exelixis.com/news-releases/news-release-details/exelixis-announces-fourth-quarter-and-fiscal-year-2025-financial
   - https://clinicaltrials.gov/study/NCT05425940
 ---
 
@@ -20,7 +21,7 @@ Zanzalintinib (XL092) Phase 3 STELLAR-303 (대장암) 데이터 ASCO 2026 (6월)
 키나아제 억제제(TKI) 전문 종양학 기업. Cabometyx(cabozantinib, MET/VEGFR/AXL/RET 억제)가 신세포암(RCC), 간세포암(HCC), 갑상선암 FDA 승인으로 블록버스터 달성. 차세대 TKI Zanzalintinib(XL092)이 대장암·폐암·요로상피암에서 Phase 3 진행 중. 파트너십(Ipsen, Takeda, Roche)으로 글로벌 매출 확보.
 
 ## 매출
-$2.2B (FY2024), Cabometyx 성장 지속
+$2.32B (FY2025, +7% YoY). 미국 net product revenue $547M/Q4 포함. 협업 수입 $197M(2024: $359M, 마일스톤 감소). FY2026 가이던스 미제시(회사는 "2026 breakout year" 기대).
 
 ## 플랫폼
 - Small Molecule (MET, VEGFR2, AXL, RET, MER, TYRO3 다중 TKI)

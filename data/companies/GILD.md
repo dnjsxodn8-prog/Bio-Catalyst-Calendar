@@ -1,17 +1,17 @@
 ---
 ticker: GILD
 company: Gilead Sciences
-mcap: 163000
+mcap: 169000
 modality: Small Molecule
 areas:
   - Oncology
   - Immunology
   - Infectious Disease
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
+verified: 2026-05-07
 sources:
+  - https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx
   - https://www.gilead.com/science-and-medicine/pipeline
-  - https://investors.gilead.com/financial-information/annual-reports
   - https://clinicaltrials.gov/study/NCT04434040
 ---
 
@@ -26,7 +26,7 @@ Gilead Sciences는 캘리포니아 포스터시티 소재 글로벌 빅파마로
 항암 분야에서는 Trodelvy(ADC, 유방암·방광암)와 Yescarta/Tecartus(CAR-T, 혈액암)로 성장 중. 항바이러스 플랫폼(HIV, HBV, HCV), 항암, 염증/섬유화 등 다각화된 포트폴리오 보유.
 
 ## 매출
-$28.8B (FY2024). HIV 제품군 ~$19B, Trodelvy ~$1.1B, Veklury ~$1.3B.
+$28.9B (FY2025, +1% YoY). Biktarvy $14.3B (+7%), Veklury $1.3B, Trodelvy 성장 지속. **Q1 2026 $7.9B (+19% YoY)** — EPS $1.86 (추정치 $1.81 상회). Yeztugo(lenacapavir PrEP) 2025년 $150M, 2026년 $800M 예상. **FY2026 가이던스 $29.6-30.0B**, EPS $8.45-8.85.
 
 ## 플랫폼
 - Small Molecule (Antiviral — HIV, HBV, HCV)
@@ -44,7 +44,7 @@ Infectious Disease (HIV, HCV, HBV), Oncology, Immunology
 - Merck (연구 협력)
 
 ## 매출 구조
-HIV 제품군 ~66% (Biktarvy ~$12B), Veklury ~5%, Trodelvy ~4%, CAR-T ~3%
+HIV 제품군 ~66% (Biktarvy $14.3B, 미국 치료점유율 52%+), Veklury ~5%, Trodelvy ~4%, CAR-T ~3%
 
 ## 자체 판매
 예 — 글로벌 직판
@@ -94,4 +94,4 @@ HIV-1 capsid 단백질의 NTD-CTD 인터페이스에 결합. 캡시드 어셈블
 - [Ogbuagu O et al. Lenacapavir phase 2/3 in HIV treatment. Lancet HIV (2023)](https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(23)00002-7)
 
 ## 메모
-HIV 프랜차이즈 + PrEP 블록버스터 잠재력. PURPOSE-1 100% 방어율은 의학적 이정표. Trodelvy NSCLC 확장이 항암 성장 모멘텀. lenacapavir PrEP 허가 시 연간 추가 매출 $3-5B 잠재.
+HIV 프랜차이즈 + PrEP 블록버스터 잠재력. PURPOSE-1 100% 방어율은 의학적 이정표. Yeztugo(lenacapavir PrEP) 2026년 $800M 예상 → 중장기 $3-5B 잠재. Arcellx $7.8B 인수(CAR-T). Trodelvy NSCLC 확장이 항암 성장 모멘텀.

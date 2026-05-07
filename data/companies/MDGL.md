@@ -7,11 +7,12 @@ areas:
   - Gastrointestinal
   - Rare Disease
 nextCatalyst: 2026-12-31
-verified: 2026-05-02
+verified: 2026-05-07
 sources:
   - https://ir.madrigalpharma.com/news-releases
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MDGL&type=10-K
   - https://clinicaltrials.gov/study/NCT03900429
+  - https://www.globenewswire.com/news-release/2026/02/19/3240955/0/en/Madrigal-Pharmaceuticals-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results.html
 ---
 
 # Madrigal Pharmaceuticals (MDGL)
@@ -20,12 +21,12 @@ sources:
 Rezdiffra (resmetirom) MASH F2-F3 상업화 성장 모멘텀 및 F4 (간경변) 적응증 확장 임상 데이터
 
 ## 회사 개요
-간 대사 질환 전문 바이오텍. Rezdiffra(resmetirom, THR-β agonist)는 2024년 3월 FDA 승인받은 세계 최초·유일한 MASH(비알코올성 지방간염) 치료제. F2-F3 MASH 환자 대상 처방 확대 중이며, F4(간경변) 및 소아 MASH로 적응증 확장 진행 중.
+간 대사 질환 전문 바이오텍. Rezdiffra(resmetirom, THR-β agonist)는 2024년 3월 FDA 승인받은 세계 최초·유일한 MASH(비알코올성 지방간염) 치료제. F2-F3 MASH 환자 대상 처방 확대 중이며, F4(간경변) 및 소아 MASH로 적응증 확장 진행 중. FY2025 첫 완전 상업화 연도에 Rezdiffra $958M 달성.
 
 MASH 시장은 잠재적으로 수십억 달러 규모. 경쟁사(Novo Nordisk, Eli Lilly 등) GLP-1 병용 가능성도 주목.
 
 ## 매출
-$320M (FY2024), 2025 가이던스 $650M 이상 예상
+$958M (FY2025, Rezdiffra 첫 완전 출시 연도); Q1 2026 $311M (+127% YoY). FY2026 가이던스 미제시 (경영진 "강력한 성장" 언급, 수치 미공개)
 
 ## 플랫폼
 - Small Molecule (THR-β agonist)
@@ -90,4 +91,4 @@ Thyroid hormone receptor β (THR-β) selective agonist (type: Small Molecule)
 - [Haufe S et al. THR-β agonism in metabolic liver disease review. J Hepatol (2023)](https://www.journal-of-hepatology.eu/article/S0168-8278(23)00124-5/fulltext)
 
 ## 메모
-First MASH drug. MAESTRO-NASH OUTCOMES 데이터가 주요 카탈리스트.
+First MASH drug. FY2025 $958M 달성 — 단일 제품 첫 완전 출시 연도로 이례적 성과. MAESTRO-NASH OUTCOMES 데이터(2026-2027 예정)가 주요 카탈리스트. Q1 2026 $311M으로 연환산 시 $1.2B+ 페이스 진입.

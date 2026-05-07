@@ -6,9 +6,10 @@ modality: Tool/Platform
 areas:
   - Other
 nextCatalyst: null
-verified: 2026-05-02
+verified: 2026-05-07
 sources:
   - https://www.maravai.com/
+  - https://investors.maravai.com/news-events/press-releases/detail/123/maravai-lifesciences-reports-fourth-quarter-and-full-year-2025-financial-results
 ---
 
 # Maravai LifeSciences (MRVI)
@@ -22,7 +23,7 @@ sources:
 CDMO 성격으로 임상 카탈리스트 없음. 고객사(Moderna, BioNTech 등) 수요에 수익 연동.
 
 ## 매출
-$240M (FY2024, 전년 대비 하락 지속); 2025 guidance $215-235M
+$185.7M (FY2025, -28% YoY, 구조조정 중); FY2026 가이던스 $200-210M (EBITDA 흑자 전환 목표 $18-20M)
 
 ## 플랫폼
 - mRNA 원료·합성(TriLink BioTechnologies)
@@ -68,4 +69,4 @@ mRNA 원료·합성 서비스(TriLink), 불순물 검사 키트(Cygnus), CleanCa
 정보 미입력
 
 ## 메모
-mRNA 인프라 기업 — COVID 수요 정상화로 매출 급락, mRNA 시장 회복 여부가 주가 관건
+mRNA 인프라 기업 — COVID 수요 정상화로 매출 급락 지속 (FY2025 $185.7M, -28%). FY2026 가이던스 $200-210M으로 소폭 반등 기대, Q4 2025부터 EBITDA 흑자 전환. 구조 조정 효과 및 mRNA 시장 회복 여부가 중기 관건.

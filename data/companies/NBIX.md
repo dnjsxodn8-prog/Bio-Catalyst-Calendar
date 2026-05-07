@@ -7,9 +7,9 @@ areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-H1
-verified: 2026-04-27
+verified: 2026-05-07
 sources:
-  - https://ir.neurocrine.com/
+  - https://neurocrine.gcs-web.com/news-releases/news-release-details/neurocrine-biosciences-reports-fourth-quarter-and-full-year-2025
   - https://www.nejm.org/doi/full/10.1056/NEJMoa1905435
 ---
 
@@ -19,12 +19,12 @@ sources:
 Crinecerfont (CAH) PDUFA 통과 후 첫 매출 램프업 데이터 (2026 Q1-Q2 실적) + Luvelta (valbenazine) 추가 적응증 헌팅턴 관련 데이터
 
 ## 회사 개요
-신경과학 전문 미국 상업화 biotech. Ingrezza(valbenazine, VMAT2 억제제)가 지발성 운동장애(TD) 치료제 1위. 2024년 crinecerfont(선천성 부신 과형성, CAH) FDA 승인으로 희귀질환 포트폴리오 확장.
+신경과학 전문 미국 상업화 biotech. Ingrezza(valbenazine, VMAT2 억제제)가 지발성 운동장애(TD) 치료제 1위. 2024년 crinecerfont(선천성 부신 과형성, CAH) FDA 승인으로 희귀질환 포트폴리오 확장. FY2025 $2.83B (+22%), Q1 2026 $811M (+44%).
 
 지속적 수익성, 자체 영업력 보유. 파트너 AbbVie와 에트라넥소젠 협력.
 
 ## 매출
-$2.3B (FY2024). Ingrezza가 매출의 ~90%. 2025 guidance ~$2.6B.
+$2.83B (FY2025, +22% YoY). Ingrezza $2.51B + Crenessity $301M. Q1 2026 $811M (+44% YoY). FY2026 Ingrezza 가이던스 $2.7-2.8B.
 
 ## 플랫폼
 - Small Molecule (VMAT2, CRF1R)
@@ -88,4 +88,4 @@ Oral small molecule CRF1R (Corticotropin-Releasing Factor Receptor 1) antagonist
 - [Merke DP et al. Crinecerfont in adult CAH. NEJM (2024)](https://www.nejm.org/doi/full/10.1056/NEJMoa2404656)
 
 ## 메모
-Ingrezza 특허 만료 리스크 (2030년대 초)가 장기 과제. Crinecerfont 희귀질환 프리미엄 + 신경과학 파이프라인으로 성장 연장. 수익성 있는 mid-cap biotech.
+FY2025 $2.83B (+22%), Q1 2026 +44% — 이중 제품(Ingrezza+Crenessity) 성장 궤도 확인. Ingrezza 특허 만료 리스크(2030년대 초) 장기 과제. 파이프라인(osavampator/MDD, direclidine/조현병) Phase 3 진행 중. 수익성 있는 mid-cap biotech.
