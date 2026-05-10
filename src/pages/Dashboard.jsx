@@ -1,5 +1,5 @@
-import { useMemo } from 'react';
-import { ChevronRight } from 'lucide-react';
+import { useMemo, useState } from 'react';
+import { ChevronRight, X } from 'lucide-react';
 import {
   dDelta,
   fmtD,
@@ -12,6 +12,7 @@ import {
 
 export default function Dashboard({ data, query, onPick }) {
   const { catalysts } = data;
+  const [selectedKpi, setSelectedKpi] = useState(null);
 
   const dated = useMemo(
     () =>
@@ -33,16 +34,59 @@ export default function Dashboard({ data, query, onPick }) {
     });
   }, [dated, query]);
 
+  const toggleKpi = (key) =>
+    setSelectedKpi((prev) => (prev === key ? null : key));
+
   return (
     <div className="space-y-6">
-      <KpiStrip dated={filtered} />
+      <KpiStrip
+        dated={filtered}
+        selected={selectedKpi}
+        onSelect={toggleKpi}
+      />
+      {selectedKpi && (
+        <KpiList
+          dated={filtered}
+          selected={selectedKpi}
+          onPick={onPick}
+          onClose={() => setSelectedKpi(null)}
+        />
+      )}
       <HeroWeek dated={filtered} onPick={onPick} />
       <RecentResults dated={filtered} onPick={onPick} />
     </div>
   );
 }
 
-function KpiStrip({ dated }) {
+const KPI_DEFS = {
+  '7d': {
+    label: '7일 이내',
+    accent: '#F87171',
+    test: (c) => c._d >= 0 && c._d <= 7,
+  },
+  '30d': {
+    label: '30일 이내',
+    accent: '#FBBF24',
+    test: (c) => c._d >= 0 && c._d <= 30,
+  },
+  PDUFA: {
+    label: 'PDUFA 대기',
+    accent: '#FBBF24',
+    test: (c) => c._d >= 0 && c.type === 'PDUFA',
+  },
+  'Clinical Readout': {
+    label: '임상 readout',
+    accent: '#C084FC',
+    test: (c) => c._d >= 0 && c.type === 'Clinical Readout',
+  },
+  Conference: {
+    label: '학회 발표',
+    accent: '#60A5FA',
+    test: (c) => c._d >= 0 && c.type === 'Conference',
+  },
+};
+
+function KpiStrip({ dated, selected, onSelect }) {
   const within = (n) => dated.filter((c) => c._d >= 0 && c._d <= n).length;
   const byType = (t) => dated.filter((c) => c.type === t && c._d >= 0).length;
   const total = dated.filter((c) => c._d >= 0).length;
@@ -59,42 +103,118 @@ function KpiStrip({ dated }) {
   };
 
   const kpis = [
-    { label: '7일 이내', sub: 'this week · D-7', value: within(7), accent: '#F87171', spark: buckets(7) },
-    { label: '30일 이내', sub: 'next 30d', value: within(30), accent: '#FBBF24', spark: buckets(30) },
-    { label: 'PDUFA 대기', sub: 'fda decisions', value: byType('PDUFA'), accent: '#FBBF24', spark: buckets(60) },
-    { label: '임상 readout', sub: 'clinical readouts', value: byType('Clinical Readout'), accent: '#C084FC', spark: buckets(60) },
-    { label: '학회 발표', sub: 'conference talks', value: byType('Conference'), accent: '#60A5FA', spark: buckets(90) },
+    { key: '7d', label: '7일 이내', sub: 'this week · D-7', value: within(7), accent: '#F87171', spark: buckets(7) },
+    { key: '30d', label: '30일 이내', sub: 'next 30d', value: within(30), accent: '#FBBF24', spark: buckets(30) },
+    { key: 'PDUFA', label: 'PDUFA 대기', sub: 'fda decisions', value: byType('PDUFA'), accent: '#FBBF24', spark: buckets(60) },
+    { key: 'Clinical Readout', label: '임상 readout', sub: 'clinical readouts', value: byType('Clinical Readout'), accent: '#C084FC', spark: buckets(60) },
+    { key: 'Conference', label: '학회 발표', sub: 'conference talks', value: byType('Conference'), accent: '#60A5FA', spark: buckets(90) },
   ];
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3.5">
-      {kpis.map((k) => (
-        <div key={k.label} className="kpi" style={{ '--accent-color': k.accent }}>
-          <div className="flex items-center justify-between">
-            <span className="kpi-label">{k.label}</span>
-            <span className="flex items-end gap-[2px] h-[18px]">
-              {k.spark.map((v, j) => (
-                <span
-                  key={j}
-                  className="rounded-[1px]"
-                  style={{
-                    width: 4,
-                    height: `${Math.max(3, Math.min(v + 1, 5) * 4)}px`,
-                    background: j === k.spark.length - 1 ? k.accent : 'var(--ink-4)',
-                    opacity: j === k.spark.length - 1 ? 1 : 0.5,
-                  }}
-                />
-              ))}
-            </span>
-          </div>
-          <div className="flex items-baseline justify-between">
-            <span className="kpi-value">{k.value}</span>
-            <span className="num text-[11px] text-ink-3">/ {total}</span>
-          </div>
-          <div className="kpi-sub">{k.sub}</div>
-        </div>
-      ))}
+      {kpis.map((k) => {
+        const active = selected === k.key;
+        return (
+          <button
+            key={k.key}
+            type="button"
+            onClick={() => onSelect && onSelect(k.key)}
+            aria-pressed={active}
+            className="kpi text-left cursor-pointer transition-all hover:brightness-110"
+            style={{
+              '--accent-color': k.accent,
+              borderColor: active ? k.accent : undefined,
+              boxShadow: active ? `0 0 0 1px ${k.accent}` : undefined,
+            }}
+          >
+            <div className="flex items-center justify-between">
+              <span className="kpi-label">{k.label}</span>
+              <span className="flex items-end gap-[2px] h-[18px]">
+                {k.spark.map((v, j) => (
+                  <span
+                    key={j}
+                    className="rounded-[1px]"
+                    style={{
+                      width: 4,
+                      height: `${Math.max(3, Math.min(v + 1, 5) * 4)}px`,
+                      background: j === k.spark.length - 1 ? k.accent : 'var(--ink-4)',
+                      opacity: j === k.spark.length - 1 ? 1 : 0.5,
+                    }}
+                  />
+                ))}
+              </span>
+            </div>
+            <div className="flex items-baseline justify-between">
+              <span className="kpi-value">{k.value}</span>
+              <span className="num text-[11px] text-ink-3">/ {total}</span>
+            </div>
+            <div className="kpi-sub">{k.sub}</div>
+          </button>
+        );
+      })}
     </div>
+  );
+}
+
+function KpiList({ dated, selected, onPick, onClose }) {
+  const def = KPI_DEFS[selected];
+  const events = useMemo(
+    () => dated.filter(def.test).sort((a, b) => a._d - b._d),
+    [dated, def]
+  );
+
+  return (
+    <section>
+      <div className="section-h">
+        <h2>
+          <span style={{ color: def.accent }}>●</span> {def.label}
+        </h2>
+        <span className="meta flex items-center gap-3">
+          {events.length} EVENTS
+          <button
+            type="button"
+            onClick={onClose}
+            className="inline-flex items-center justify-center w-5 h-5 rounded hover:bg-white/10 text-ink-3 hover:text-ink"
+            aria-label="닫기"
+          >
+            <X className="w-3.5 h-3.5" strokeWidth={1.6} />
+          </button>
+        </span>
+      </div>
+      <div className="panel overflow-hidden">
+        {events.length === 0 ? (
+          <div className="p-6 text-center text-ink-3 text-sm">
+            조건에 맞는 카탈리스트가 없습니다.
+          </div>
+        ) : (
+          events.map((c, i) => (
+            <div
+              key={`${c.ticker}-${c.date}-${i}`}
+              className="ev-row"
+              onClick={() => onPick && onPick(c)}
+            >
+              <span className={`d-counter ${dClass(c._d)}`}>{fmtD(c._d)}</span>
+              <span className="ev-date">
+                {fmtDate(c.date)} · {fmtWeekday(c.date)}
+              </span>
+              <span className="ev-ticker">{c.ticker}</span>
+              <span className="ev-title">
+                {c.drug && <b>{c.drug}</b>}
+                {c.drug && c.indication && ' · '}
+                {c.indication && <span className="text-ink-3">{c.indication}</span>}
+                {!c.drug && !c.indication && <span className="text-ink-3">{c.event}</span>}
+              </span>
+              {c.phase ? (
+                <span className={`chip ${phaseClass(c.phase)}`}>{c.phase}</span>
+              ) : (
+                <span />
+              )}
+              <span className={`chip ${typeClass(c.type)}`}>{c.type}</span>
+            </div>
+          ))
+        )}
+      </div>
+    </section>
   );
 }
 
