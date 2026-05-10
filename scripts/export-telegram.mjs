@@ -36,7 +36,8 @@ async function loadDotEnv() {
 
 // ─── args ───────────────────────────────────────────────
 function parseArgs(argv) {
-  const args = { blogUrl: null, dryRun: false, since: 'HEAD', summaryOnly: false, days: null };
+  const args = { blogUrl: null, dryRun: false, since: 'HEAD', summaryOnly: false, days: null, from: null, to: null };
+  const ymdRe = /^\d{4}-\d{2}-\d{2}$/;
   for (const a of argv.slice(2)) {
     if (a === '--dry-run') args.dryRun = true;
     else if (a === '--summary-only') args.summaryOnly = true;
@@ -46,11 +47,27 @@ function parseArgs(argv) {
       if (!Number.isFinite(n) || n < 0) throw new Error(`--days는 0 이상 정수여야 함: ${a}`);
       args.days = n;
     }
+    else if (a.startsWith('--from=')) {
+      const v = a.slice('--from='.length);
+      if (!ymdRe.test(v)) throw new Error(`--from은 YYYY-MM-DD 형식: ${a}`);
+      args.from = v;
+    }
+    else if (a.startsWith('--to=')) {
+      const v = a.slice('--to='.length);
+      if (!ymdRe.test(v)) throw new Error(`--to는 YYYY-MM-DD 형식: ${a}`);
+      args.to = v;
+    }
     else if (!a.startsWith('--') && !args.blogUrl) args.blogUrl = a;
     else throw new Error(`알 수 없는 인자: ${a}`);
   }
   if (!args.blogUrl) {
-    throw new Error('blog_url 인자 필요. 사용법: node scripts/export-telegram.mjs <blog_url> [--dry-run] [--since=<ref>] [--summary-only] [--days=N]');
+    throw new Error('blog_url 인자 필요. 사용법: node scripts/export-telegram.mjs <blog_url> [--dry-run] [--since=<ref>] [--summary-only] [--days=N] [--from=YYYY-MM-DD --to=YYYY-MM-DD]');
+  }
+  if ((args.from && !args.to) || (!args.from && args.to)) {
+    throw new Error('--from / --to는 함께 사용해야 함');
+  }
+  if (args.from && args.to && args.from > args.to) {
+    throw new Error(`--from(${args.from})이 --to(${args.to})보다 늦을 수 없음`);
   }
   return args;
 }
@@ -307,24 +324,40 @@ async function main() {
 
   const currentRaw = await fs.readFile(path.join(ROOT, 'data/catalysts.md'), 'utf8');
   const current = parseEventsFromRaw(currentRaw);
-  const previous = getPreviousEvents(args.since);
-  let added = findAddedEvents(current, previous);
 
-  if (added.length === 0) {
-    console.error(`⚠️  ${args.since} 대비 추가된 events 없음. 종료.`);
-    process.exit(0);
-  }
+  let added;
 
-  // --days 필터: 오늘부터 N일 윈도우의 events만
-  if (args.days != null) {
-    const todayYmd = todayLocalYMD();
-    const cutoffYmd = addDaysYMD(todayYmd, args.days);
-    const before = added.length;
-    added = added.filter(e => typeof e.date === 'string' && e.date >= todayYmd && e.date <= cutoffYmd);
-    console.error(`📅 --days=${args.days} 필터 (${todayYmd} ~ ${cutoffYmd}): ${before}건 → ${added.length}건`);
+  if (args.from && args.to) {
+    // 명시적 날짜 범위 모드: git diff 무시, catalysts.md에서 [from, to] 윈도우의 events만
+    added = current
+      .filter(e => typeof e.date === 'string' && e.date >= args.from && e.date <= args.to)
+      .sort((a, b) => a.date.localeCompare(b.date) || a.ticker.localeCompare(b.ticker));
+    console.error(`📅 --from=${args.from} --to=${args.to} (date-range mode, git diff 미사용): ${added.length}건`);
     if (added.length === 0) {
-      console.error(`⚠️  필터 후 남은 events 없음. 종료.`);
+      console.error(`⚠️  해당 기간 events 없음. 종료.`);
       process.exit(0);
+    }
+  } else {
+    // 기본 모드: git diff로 신규 events 추출
+    const previous = getPreviousEvents(args.since);
+    added = findAddedEvents(current, previous);
+
+    if (added.length === 0) {
+      console.error(`⚠️  ${args.since} 대비 추가된 events 없음. 종료.`);
+      process.exit(0);
+    }
+
+    // --days 필터: 오늘부터 N일 윈도우의 events만
+    if (args.days != null) {
+      const todayYmd = todayLocalYMD();
+      const cutoffYmd = addDaysYMD(todayYmd, args.days);
+      const before = added.length;
+      added = added.filter(e => typeof e.date === 'string' && e.date >= todayYmd && e.date <= cutoffYmd);
+      console.error(`📅 --days=${args.days} 필터 (${todayYmd} ~ ${cutoffYmd}): ${before}건 → ${added.length}건`);
+      if (added.length === 0) {
+        console.error(`⚠️  필터 후 남은 events 없음. 종료.`);
+        process.exit(0);
+      }
     }
   }
 
