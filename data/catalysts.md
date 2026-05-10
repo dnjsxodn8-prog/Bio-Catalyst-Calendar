@@ -77,7 +77,7 @@ events:
       - https://investors.biogen.com/news-releases/news-release-details/fda-approves-new-high-dose-regimen-spinrazar-nusinersen-spinal
   - date: 2026-04-01
     ticker: LLY
-    event: Foundayo (orforglipron) 비만 NDA 승인됨 (2026-04-01, CNPV 가속). FDA 4/14 추가 liver/CV 안전성 평가 요구 (post-marketing 표준), 4/30 liver failure adverse event 1건 보고 — Lilly 약물 관련성 부인
+    event: "Foundayo (orforglipron) 비만 NDA 승인됨 (2026-04-01, CNPV 가속). FDA 4/14 추가 liver/CV 안전성 평가 요구 (post-marketing 표준), 4/30 liver failure adverse event 1건 보고 — Lilly 5/4 공식 응답: Global Patient Safety가 약물 인과관계 없음 평가, 11,000명 Phase 3 program에서 hepatic signal 없음. 분석가들 'one liver case does not make a signal'"
     type: PDUFA
     company: Eli Lilly
     drug: Orforglipron (Foundayo)
@@ -88,6 +88,8 @@ events:
       - https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program
       - https://endpoints.news/fda-asks-for-more-data-on-lillys-foundayo-to-assess-heart-liver-risks/
       - https://www.biopharmadive.com/news/fda-foundayo-liver-safety-eli-lilly/817556/
+      - https://www.biospace.com/drug-development/foundayos-liver-failure-blip-weighs-down-lilly-shares-but-analysts-unconcerned
+      - https://www.statnews.com/2026/05/05/biotech-news-analysts-glossing-over-eli-lilly-liver-case/
   - date: 2026-04-22
     ticker: XENE
     event: Azetukalner X-TOLE2 AAN 발표 (Positive — 53.2% seizure reduction vs 10.4% placebo)
@@ -163,15 +165,16 @@ events:
       - https://www.globenewswire.com/news-release/2026/02/17/3239086/0/en/Ocular-Therapeutix-Reports-Positive-Results-from-Landmark-SOL-1-Phase-3-Superiority-Trial-in-Wet-AMD.html
       - https://www.biospace.com/press-releases/ocular-therapeutix-reports-first-quarter-2026-financial-results-and-business-highlights
       - https://www.globenewswire.com/news-release/2026/04/27/3281480/0/en/ocular-therapeutix-to-participate-in-may-scientific-and-investor-conferences.html
-  - date: 2026-05-10
+  - date: 2026-05-08
     ticker: ARGX
-    event: VYVGART seronegative gMG sBLA PDUFA
+    event: "VYVGART/Hytrulo 승인됨 (2026-05-08, 2일 조기) — 라벨 확장 모든 serotype gMG (anti-MuSK+, anti-LRP4+, triple seronegative 포함). Phase 3 ADAPT SERON: MG-ADL -3.35 (p=0.0068)"
     type: PDUFA
     company: argenx
-    drug: Efgartigimod (VYVGART)
-    indication: AChR-Ab seronegative gMG
+    drug: Efgartigimod (VYVGART / VYVGART Hytrulo)
+    indication: All-serotype gMG (label expansion)
     phase: sBLA
     sources:
+      - https://www.globenewswire.com/news-release/2026/05/08/3291372/0/en/argenx-Announces-U-S-FDA-Approval-Expanding-VYVGART-and-VYVGART-Hytrulo-for-Use-in-All-Adult-Patients-Living-with-gMG.html
       - https://argenx.com/news/2026/press-release-3217457
       - https://argenx.com/news/2026/press-release-3276554.html
   - date: 2026-05-12
@@ -691,9 +694,9 @@ events:
     moa: "Mu-opioid 길항/kappa-opioid 작용 이중작용. 중추·말초 기침 반사 억제"
     sources:
       - https://www.globenewswire.com/news-release/2026/04/30/3285477/0/en/Trevi-Therapeutics-Announces-Oral-Presentation-and-Multiple-Posters-Accepted-at-the-American-Thoracic-Society-ATS-2026-International-Conference.html
-  - date: 2026-05-24
+  - date: 2026-08-24
     ticker: BIIB
-    event: LEQEMBI IQLIK SC starting dose sBLA PDUFA (주 1회 자가주사 starting dose 500mg, Priority Review)
+    event: "LEQEMBI IQLIK SC starting dose sBLA PDUFA (주 1회 자가주사 starting dose 500mg, Priority Review) — 2026-05-08 FDA가 3개월 연장 (major amendment 처리, 5/24 → 8/24). FDA가 승인 가능성 우려는 없다고 명시"
     type: PDUFA
     company: Biogen
     drug: Lecanemab-irmb (LEQEMBI IQLIK)
@@ -782,4 +785,93 @@ events:
     sources:
       - https://investors.karyopharm.com/2026-04-21-Karyopharms-Phase-3-SENTRY-Trial-in-Myelofibrosis-Selected-for-Late-Breaking-Oral-Presentation-at-ASCO-2026-Annual-Meeting
       - https://www.prnewswire.com/news-releases/karyopharms-phase-3-sentry-trial-in-myelofibrosis-selected-for-late-breaking-oral-presentation-at-asco-2026-annual-meeting-302748864.html
+  - date: 2026-04-20
+    ticker: NVO
+    event: "Etavopivat HIBISCUS Phase 3 SCD topline 발표 (Positive — VOC 27% 감소 vs placebo, hemoglobin response 48.7% vs 7.2% at Wk24, first-time-to-VOC 4개월 지연; first-in-class oral PKR activator). 첫 regulatory filing 2H 2026 예정"
+    type: Clinical Readout
+    company: Novo Nordisk
+    drug: Etavopivat
+    indication: Sickle Cell Disease (VOC reduction + hemoglobin response)
+    phase: Phase 3
+    trialDesign: "HIBISCUS Phase 3 (NCT04624659) global randomized double-blind placebo-controlled. 양 공동 1차 평가지표: 연간 VOC 빈도 감소 + Wk24 hemoglobin response (>1g/dL 증가). 둘 다 충족"
+    targetDisease: "겸상적혈구병 (SCD). HbS 중합으로 만성 용혈성 빈혈 + 통증성 vaso-occlusive crisis 반복. 미국 ~10만명 — 기존 hydroxyurea·voxelotor 외 oral 옵션 부재"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04624659
+    moa: "First-in-class oral pyruvate kinase R(PKR) activator. 적혈구 ATP·2,3-DPG 균형 조절 → HbS 중합 감소 + 적혈구 변형능 회복"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/20/3276770/0/en/novo-nordisk-etavopivat-is-the-first-in-a-new-class-of-drugs-to-meet-both-co-primary-endpoints-in-the-phase-3-hibiscus-trial-substantially-reducing-vaso-occlusive-crisis-events-and.html
+      - https://www.biospace.com/press-releases/novo-nordisk-etavopivat-is-the-first-in-a-new-class-of-drugs-to-meet-both-co-primary-endpoints-in-the-phase-3-hibiscus-trial-substantially-reducing-vaso-occlusive-crisis-events-and-improving-haemoglobin-response-in-sickle-cell-disease
+  - date: 2026-05-14
+    ticker: EDIT
+    event: "EDIT-401 ASGCT 2026 oral — in vivo CRISPR base editing LDLR upregulation. NHP에서 mean LDL-C >90% 감소 (preclinical). IND/CTA 2026 mid-year, FIH 2H 2026 예정"
+    type: Conference
+    company: Editas Medicine
+    drug: EDIT-401
+    indication: Hyperlipidemia (LDLR upregulation)
+    phase: Preclinical
+    conferenceId: asgct
+    trialDesign: "ASGCT 2026 oral 'Preclinical Development of EDIT-401, a Durable In Vivo CRISPR Gene Editing Therapy That Upregulates LDLR Protein to Lower LDL-C' (5/14 15:30 EDT). NHP 단회 투여 후 LDL-C >90% 감소 durable"
+    targetDisease: "고지혈증. 심혈관 질환 주요 위험인자 — statin/PCSK9i 만성 투여 부담 → 1회 투여 durable LDL-C lowering 가능성"
+    moa: "in vivo CRISPR base editing. LDLR 유전자 발현 조절 영역 변이 도입 → LDLR 단백질 발현 증가 → LDL-C 청소율 항진"
+    sources:
+      - https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-present-new-preclinical-data-demonstrating
+      - https://www.globenewswire.com/news-release/2026/04/27/3282063/0/en/Editas-Medicine-to-Present-New-Preclinical-Data-Demonstrating-Progress-of-EDIT-401-as-Potential-Treatment-for-Hyperlipidemia-at-Upcoming-Scientific-Conferences.html
+  - date: 2026-05-18
+    ticker: SVRA
+    event: "Molgramostim IMPALA-2 Phase 3 aPAP ATS 2026 oral — 운동 distance/duration 새 분석 데이터 (Mini Symposium B95, 5/18 14:51-15:03 EDT)"
+    type: Conference
+    company: Savara
+    drug: Molgramostim Inhalation Solution
+    indication: Autoimmune Pulmonary Alveolar Proteinosis (aPAP)
+    phase: Phase 3
+    conferenceId: ats
+    trialDesign: "IMPALA-2 Phase 3 randomized double-blind placebo-controlled. 1차 alveolar arterial oxygen gradient 충족 후 운동 distance/duration 분석을 ATS Mini Symposium B95 'Fibrosis, Cough, and Inflammation: Treatment Strategies in ILD' 발표"
+    targetDisease: "자가면역성 폐포단백증 (aPAP). 폐포 내 surfactant 축적으로 가스교환 장애 — 표준치료 whole lung lavage, 미국 승인 약물 부재"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04544293
+    moa: "재조합 인간 GM-CSF 흡입제. 폐포 macrophage 활성화 → surfactant clearance 회복"
+    sources:
+      - https://www.biospace.com/press-releases/savara-to-present-new-data-at-the-american-thoracic-society-ats-2026-international-conference
+  - date: 2026-05-31
+    ticker: REPL
+    event: "RP2 ± nivolumab Phase 1 FIH final ASCO 2026 oral — Developmental Therapeutics-Immunotherapy 세션 (5/31 09:12 CDT). HCC/BTC 병용 데이터 별개 poster 동시"
+    type: Conference
+    company: Replimune
+    drug: RP2 (oncolytic HSV expressing anti-CTLA-4)
+    indication: Advanced Solid Tumors (CPI-refractory)
+    phase: Phase 1
+    conferenceId: asco
+    trialDesign: "RP2 Phase 1 first-in-human (단독 + nivolumab 병용) 진행성 고형암 — final safety/efficacy/biomarker. 종양 내 직접 투여, checkpoint inhibitor refractory 환자 포함"
+    targetDisease: "표준치료 실패 진행성 고형암. CPI 내성 환자 옵션 제한적 — 직접 종양 내 투여 가능한 표재 병변 보유"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04336241
+    moa: "HSV-1 기반 oncolytic virus + anti-CTLA-4 transgene 종양 내 국소 발현. systemic 면역관문 차단 부작용 최소화 + tumor-specific T cell priming"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/27/3281576/0/en/replimune-to-present-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting.html
+  - date: 2026-07-11
+    ticker: CORT
+    event: "Relacorilant + nab-paclitaxel PROC NDA PDUFA — Phase 3 ROSELLA OS HR 0.65 (35% 사망 위험 감소), PFS HR 0.70"
+    type: PDUFA
+    company: Corcept Therapeutics
+    drug: Relacorilant
+    indication: Platinum-Resistant Ovarian Cancer (PROC, 2L+)
+    phase: NDA
+    trialDesign: "ROSELLA Phase 3 (NCT05257408, GOG-3073/ENGOT-ov72) 14국 117 기관 n=381 1:1 무작위. 시험군 nab-paclitaxel 80mg/m² + relacorilant 150mg 경구 3일/주, 대조군 nab-paclitaxel 100mg/m² 단독. Primary PFS, Key secondary OS"
+    targetDisease: "백금 저항성 난소암 (PROC). 1차 백금 요법 후 6개월 이내 재발 — mOS <12개월. 미국 신규 난소암 ~2만명/년 중 가장 큰 미충족 수요"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05257408
+    moa: "선택적 GR(glucocorticoid receptor) 길항제. 코르티솔의 GR 결합 차단 → 화학요법 내성 기전 약화 → nab-paclitaxel 감수성 회복"
+    sources:
+      - https://ir.corcept.com/news-releases/news-release-details/fda-files-corcepts-new-drug-application-relacorilant-treatment-0/
+      - https://www.cancernetwork.com/view/fda-accepts-relacorilant-nda-for-platinum-resistant-ovarian-cancer
+  - date: 2026-08-01
+    ticker: REGN
+    event: "Garetosmab BLA PDUFA (FOP, Priority Review) — Phase 3 OPTIMA 1차 endpoint 충족 (56주차 새 HO 병변 수)"
+    type: PDUFA
+    company: Regeneron
+    drug: Garetosmab
+    indication: Fibrodysplasia Ossificans Progressiva (FOP, adults)
+    phase: BLA
+    trialDesign: "OPTIMA Phase 3 (NCT05394116) 56주 글로벌 무작위 이중맹검 위약대조. 18세+ FOP 성인 n=63, 위약/3mg/kg/10mg/kg garetosmab Q4W IV. Primary 56주차 새 HO 병변 수"
+    targetDisease: "FOP은 ACVR1 변이 초희귀 유전질환. 근육·인대·건이 점진적 이소성 골화로 운동 기능 상실 — 미국 ~400명, 전 세계 ~900명 추정"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05394116
+    moa: "Activin A 차단 단클론항체. ACVR1 활성화 핵심 ligand 차단 → 이소성 골화 신호 경로 억제"
+    sources:
+      - https://newsroom.regeneron.com/news-releases/news-release-details/garetosmab-biologics-license-application-accepted-fda-priority
 ```
