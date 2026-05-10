@@ -186,6 +186,9 @@ events:
     indication: B-cell malignancy / autoimmune
     phase: Preclinical
     conferenceId: asgct
+    trialDesign: "ASGCT 2026 oral 'Preclinical Data from in vivo CAR-T SG293 Targeting CD19'. Fusogen 탑재 lentiviral vector NHP 단회 IV 투여 → 체내 T cell 직접 transduction → CD19+ B cell 표적·고갈 평가"
+    targetDisease: "B-cell 악성종양 (DLBCL/CLL/FL) + B-cell 매개 자가면역질환 (SLE 등). 기존 ex vivo CAR-T는 환자별 제조 4-6주 + 비용 $400K+ — in vivo 단회 IV로 접근성 대폭 확대 목표"
+    moa: "Hypoimmune fusogen 탑재 lentiviral vector. 체내 T cell에 CD19 CAR 직접 전달 → ex vivo manufacturing 우회, off-the-shelf"
     sources:
       - https://www.globenewswire.com/news-release/2026/04/27/3282052/0/en/Sana-Biotechnology-Announces-Oral-Presentation-Highlighting-Preclinical-Data-from-in-vivo-CAR-T-SG293-at-the-American-Society-of-Gene-Cell-Therapy-ASGCT-2026-Annual-Meeting.html
   - date: 2026-05-15
@@ -197,6 +200,9 @@ events:
     indication: Localized Prostate Cancer
     phase: Phase 3
     conferenceId: aua
+    trialDesign: "PrTK03 Phase 3 무작위배정 + EBRT 표준치료 병용 (n=745). 중·고위험 localized prostate cancer. Primary DFS HR 0.70 (p=0.016), 전립선암 특이 DFS HR 0.62 (p=0.005). AUA 2026 Plenary oral 5/15에서 extended follow-up 결과 발표"
+    targetDisease: "중·고위험 국소 전립선암 (방사선 병용). 표준 EBRT + ADT 후 5년 생화학적 재발 30~50% — 면역 기전 추가로 미세잔존종양 제거 목표"
+    moa: "복제 불가 아데노바이러스 벡터로 HSV-TK 유전자 종양 내 전달 → 발라사이클로비르 prodrug 활성화 → 종양 직접 사멸 + 면역원성 세포 사멸 (in situ tumor vaccine)"
     sources:
       - https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-present-new-data-after-extended-follow/
       - https://www.globenewswire.com/news-release/2026/03/09/3251795/0/en/Candel-Therapeutics-To-Present-New-Data-after-Extended-Follow-Up-from-Randomized-Phase-3-Trial-of-Aglatimagene-Besadenovec-in-Localized-Prostate-Cancer-at-the-American-Urological-A.html
