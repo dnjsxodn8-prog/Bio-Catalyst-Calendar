@@ -177,6 +177,19 @@ events:
       - https://www.globenewswire.com/news-release/2026/05/08/3291372/0/en/argenx-Announces-U-S-FDA-Approval-Expanding-VYVGART-and-VYVGART-Hytrulo-for-Use-in-All-Adult-Patients-Living-with-gMG.html
       - https://argenx.com/news/2026/press-release-3217457
       - https://argenx.com/news/2026/press-release-3276554.html
+  - date: 2026-05-11
+    ticker: ABCL
+    event: "ABCL635 Phase 1 인터림 데이터 (Q1 2026 실적콜)"
+    type: Clinical Readout
+    company: AbCellera Biologics
+    drug: ABCL635
+    indication: 폐경기 혈관운동증상 (VMS)
+    phase: Phase 1
+    trialDesign: "무작위배정·이중맹검·위약대조 SAD/MAD Phase 1. 건강 남성 + 폐경 후 여성 대상, SC 다양한 용량 코호트. Primary: 안전성·내약성 (AE/SAE). Secondary: PK·PD·VMS 빈도·중증도 변화"
+    targetDisease: "폐경 전후 여성의 열조홍·야간발한. 에스트로겐 결핍 → 시상하부 KNDy 뉴런의 NKB-NK3R 신호 과항진. 미국 중등도-중증 VMS ~600만 명, 비호르몬 first-in-class 항체 기회"
+    moa: "Anti-NK3R 완전인간항체. NKB-NK3R 차단 → KNDy 뉴런 정상화 → 열조홍 빈도·중증도 감소. SC 투여, 8-12주 지속 목표"
+    sources:
+      - https://www.businesswire.com/news/home/20260420968823/en/AbCellera-to-Highlight-Phase-1-Clinical-Data-for-ABCL635-During-Upcoming-First-Quarter-2026-Earnings-Call
   - date: 2026-05-12
     ticker: SANA
     event: SG293 in vivo CAR-T NHP ASGCT 2026 oral (preclinical)
