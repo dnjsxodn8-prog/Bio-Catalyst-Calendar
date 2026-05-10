@@ -7,16 +7,18 @@ areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-12-31
-verified: 2026-05-07
+verified: 2026-05-10
 sources:
   - https://halozyme.com/
   - https://www.prnewswire.com/news-releases/halozyme-reports-full-year-2025-record-revenue-of-1-4-billion-and-reiterates-strong-2026-financial-guidance-302689822.html
+  - https://www.prnewswire.com/news-releases/halozyme-announces-global-collaboration-and-license-agreement-with-gsk-to-develop-subcutaneous-formulations-of-multiple-promising-oncology-targets-302765632.html
 ---
 
 # Halozyme Therapeutics (HALO)
 
 ## 카탈리스트
-신규 ENHANZE 파트너십 계약 체결 / 기존 파트너 제품 SC 전환 승인 (2026)
+- **GSK 글로벌 ENHANZE 라이센스 (2026-05-07)** — multiple oncology targets SC 제형 (ADC 포함). HALO 첫 ADC SC 협업, 16번째 빅파마 파트너 추가
+- 기존 파트너 제품 SC 전환 추가 승인 (2026)
 
 ## 회사 개요
 ENHANZE 약물전달 플랫폼(재조합 히알루로니다제 rHuPH20) 보유. 빅파마 항체의약품을 IV→SC 제형으로 전환하는 로열티 비즈니스. Roche, J&J, argenx, BMS, AstraZeneca 등 15개+ 빅파마 파트너. 매출 대부분 마일스톤+로열티. 자체 파이프라인 없이 플랫폼 수익화에 집중.
@@ -43,6 +45,7 @@ Oncology (파트너 제품), Immunology (파트너 제품), 기타 파트너 적
 - Lilly
 - Janssen
 - Chugai
+- GSK (2026-05-07 신규, multi-target oncology + ADC)
 
 ## 매출 구조
 로열티 ~65% / 마일스톤+업프론트 ~35%
