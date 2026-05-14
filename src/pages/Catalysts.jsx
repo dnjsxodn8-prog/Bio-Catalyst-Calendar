@@ -18,7 +18,8 @@ const TYPE_FILTERS = [
 
 const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-const PAST_WINDOW_DAYS = 30;
+const DEFAULT_PAST_DAYS = 7;
+const EXPANDED_PAST_DAYS = 30;
 
 export default function Catalysts({ data, query, onPick }) {
   const { catalysts } = data;
@@ -28,6 +29,7 @@ export default function Catalysts({ data, query, onPick }) {
 
   const { filtered, hiddenOldCount } = useMemo(() => {
     const q = (query || '').trim().toLowerCase();
+    const cutoff = showOldPast ? -EXPANDED_PAST_DAYS : -DEFAULT_PAST_DAYS;
     const all = catalysts
       .map((c) => ({ ...c, _d: dDelta(c.date) }))
       .filter((c) => c._d != null)
@@ -39,9 +41,11 @@ export default function Catalysts({ data, query, onPick }) {
       })
       .sort((a, b) => a._d - b._d);
 
-    const hidden = all.filter((c) => c._d < -PAST_WINDOW_DAYS);
-    const visible = showOldPast ? all : all.filter((c) => c._d >= -PAST_WINDOW_DAYS);
-    return { filtered: visible, hiddenOldCount: hidden.length };
+    const hiddenWhenCollapsed = all.filter(
+      (c) => c._d < -DEFAULT_PAST_DAYS && c._d >= -EXPANDED_PAST_DAYS
+    );
+    const visible = all.filter((c) => c._d >= cutoff);
+    return { filtered: visible, hiddenOldCount: hiddenWhenCollapsed.length };
   }, [catalysts, query, filterType, showOldPast]);
 
   return (
@@ -86,9 +90,11 @@ export default function Catalysts({ data, query, onPick }) {
                   ? 'bg-panel-2 text-ink border-line-2'
                   : 'bg-transparent text-ink-3 border-line hover:text-ink hover:border-line-2',
               ].join(' ')}
-              title={`${PAST_WINDOW_DAYS}일 이전 카탈리스트 ${hiddenOldCount}개`}
+              title={`지난 ${DEFAULT_PAST_DAYS}~${EXPANDED_PAST_DAYS}일 카탈리스트 ${hiddenOldCount}개`}
             >
-              {showOldPast ? `지난 ${PAST_WINDOW_DAYS}일+ 숨기기` : `+ 지난 ${PAST_WINDOW_DAYS}일+ ${hiddenOldCount}개`}
+              {showOldPast
+                ? `지난 ${EXPANDED_PAST_DAYS}일 숨기기`
+                : `+ 지난 ${EXPANDED_PAST_DAYS}일 (${hiddenOldCount})`}
             </button>
           )}
           <div className="flex gap-0.5 p-0.5 bg-bg-2 rounded-md border border-line">
