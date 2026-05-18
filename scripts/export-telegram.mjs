@@ -241,6 +241,17 @@ function buildSummary(events) {
   });
 }
 
+function buildIntro() {
+  return [
+    '🧬 Bio Catalyst Calendar',
+    'https://biotechcatalystcalendar.vercel.app/?v=1',
+    '',
+    '미국 biotech ($100M+) 와 Big Pharma의 임상 카탈리스트(PDUFA, 임상 readout, 학회 발표)를 한 곳에서 추적하는 사이트입니다.',
+    '',
+    '간단히 정리해서 텔레그램 봇을 통해 매주 메시지 발송하고, 자세한 분석 자료는(제 주관 따라 기업 선정) 블로그에 올릴 듯합니다.',
+  ].join('\n');
+}
+
 function buildClosing(blogUrl) {
   return `자세한 내용은 블로그 참고해 주세요!\n${blogUrl}`;
 }
@@ -293,7 +304,7 @@ function buildDetail(event) {
 }
 
 // ─── send ───────────────────────────────────────────────
-async function sendMessage(text) {
+async function sendMessage(text, enablePreview = false) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chatId) {
@@ -306,7 +317,7 @@ async function sendMessage(text) {
     body: JSON.stringify({
       chat_id: chatId,
       text,
-      disable_web_page_preview: true,
+      disable_web_page_preview: !enablePreview,
     }),
   });
   if (!res.ok) {
@@ -389,23 +400,30 @@ async function main() {
     }
   }
 
+  const intro = buildIntro();
   const closing = buildClosing(args.blogUrl);
-  const all = [...summaryChunks, ...detailMessages, closing];
+  const all = [
+    { text: intro, preview: true },
+    ...summaryChunks.map(t => ({ text: t, preview: false })),
+    ...detailMessages.map(t => ({ text: t, preview: false })),
+    { text: closing, preview: true },
+  ];
 
   if (args.dryRun) {
     console.log(`\n=== DRY RUN — 총 ${all.length}통 ===\n`);
     all.forEach((m, i) => {
-      console.log(`--- [${i + 1}/${all.length}] (${m.length} chars) ---`);
-      console.log(m);
+      const previewTag = m.preview ? ' [preview ON]' : '';
+      console.log(`--- [${i + 1}/${all.length}] (${m.text.length} chars)${previewTag} ---`);
+      console.log(m.text);
       console.log();
     });
     return;
   }
 
-  console.log(`📤 발송: 총 ${all.length}통 (summary ${summaryChunks.length} + detail ${detailMessages.length} + closing 1)`);
+  console.log(`📤 발송: 총 ${all.length}통 (intro 1 + summary ${summaryChunks.length} + detail ${detailMessages.length} + closing 1)`);
   for (let i = 0; i < all.length; i++) {
     try {
-      await sendMessage(all[i]);
+      await sendMessage(all[i].text, all[i].preview);
       console.log(`  ✓ [${i + 1}/${all.length}]`);
     } catch (err) {
       console.error(`  ✗ [${i + 1}/${all.length}] 실패: ${err.message}`);
