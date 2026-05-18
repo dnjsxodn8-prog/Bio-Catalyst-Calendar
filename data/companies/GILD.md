@@ -8,11 +8,12 @@ areas:
   - Immunology
   - Infectious Disease
 nextCatalyst: 2026-06-30
-verified: 2026-05-07
+verified: 2026-05-18
 sources:
   - https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx
   - https://www.gilead.com/science-and-medicine/pipeline
   - https://clinicaltrials.gov/study/NCT04434040
+  - https://www.businesswire.com/news/home/20260427408690/en/Gilead-Sciences-Completes-Acquisition-of-Arcellx-Ahead-of-Potential-Commercial-Launch-of-Anito-cel
 ---
 
 # Gilead Sciences (GILD)
@@ -94,4 +95,4 @@ HIV-1 capsid 단백질의 NTD-CTD 인터페이스에 결합. 캡시드 어셈블
 - [Ogbuagu O et al. Lenacapavir phase 2/3 in HIV treatment. Lancet HIV (2023)](https://www.thelancet.com/journals/lanhiv/article/PIIS2352-3018(23)00002-7)
 
 ## 메모
-HIV 프랜차이즈 + PrEP 블록버스터 잠재력. PURPOSE-1 100% 방어율은 의학적 이정표. Yeztugo(lenacapavir PrEP) 2026년 $800M 예상 → 중장기 $3-5B 잠재. Arcellx $7.8B 인수(CAR-T). Trodelvy NSCLC 확장이 항암 성장 모멘텀.
+HIV 프랜차이즈 + PrEP 블록버스터 잠재력. PURPOSE-1 100% 방어율은 의학적 이정표. Yeztugo(lenacapavir PrEP) 2026년 $800M 예상 → 중장기 $3-5B 잠재. **2026-04-28 Arcellx 인수 완료** — $115/주 + CVR $5, 총 ~$7.8B. BCMA-CAR T anito-cel 확보. 3개 추가 인수(Arcellx·Ouro·Tubulis)에 따른 IPR&D 비용 $11.5B 인식 예정 → GAAP EPS 대폭 희석. 2026년 최대 4개 제품 런칭 + Phase 3 업데이트 5건 예상. Trodelvy NSCLC 확장이 항암 성장 모멘텀.

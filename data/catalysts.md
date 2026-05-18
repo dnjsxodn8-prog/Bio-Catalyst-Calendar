@@ -179,7 +179,7 @@ events:
       - https://argenx.com/news/2026/press-release-3276554.html
   - date: 2026-05-11
     ticker: ABCL
-    event: "ABCL635 Phase 1 인터림 데이터 (Q1 2026 실적콜)"
+    event: "ABCL635 Phase 1 인터림 데이터 (Q1 2026 실적콜) — Positive. NK3R 타깃 인게이지먼트 확인: 300/600/900 mg SAD 단회 투여 시 testosterone 50~75% 감소 (sustained NK3R 길항). 선형 dose-proportional PK, 반감기 24일로 월 1회 투약 지지. SAE·간독성·중증 AE 없음. Phase 2 무작위 이중맹검 위약대조(n=80 폐경 후 여성) 진입 확정"
     type: Clinical Readout
     company: AbCellera Biologics
     drug: ABCL635
@@ -190,9 +190,10 @@ events:
     moa: "Anti-NK3R 완전인간항체. NKB-NK3R 차단 → KNDy 뉴런 정상화 → 열조홍 빈도·중증도 감소. SC 투여, 8-12주 지속 목표"
     sources:
       - https://www.businesswire.com/news/home/20260420968823/en/AbCellera-to-Highlight-Phase-1-Clinical-Data-for-ABCL635-During-Upcoming-First-Quarter-2026-Earnings-Call
+      - https://www.businesswire.com/news/home/20260511135503/en/AbCellera-Reports-Q1-2026-Business-Results-Announces-Positive-Interim-Phase-1-Clinical-Data-for-ABCL635
   - date: 2026-05-12
     ticker: SANA
-    event: SG293 in vivo CAR-T NHP ASGCT 2026 oral (preclinical)
+    event: "SG293 in vivo CAR-T NHP ASGCT 2026 oral (preclinical) — Positive. NHP 단회 IV 투여 후 말초 B세포 완전 고갈, 3주 내 림프절 B세포 검출불가·naive 표현형 재출현('B세포 리셋'). off-target 조직(간·심장·생식선) 전달 없음. 경미한 주입 후 증상은 acetaminophen으로 관리. FIH (NHL) 2026년 내 예정"
     type: Conference
     company: Sana Biotechnology
     drug: SG293 (CD19 in vivo CAR-T)
@@ -204,9 +205,10 @@ events:
     moa: "Hypoimmune fusogen 탑재 lentiviral vector. 체내 T cell에 CD19 CAR 직접 전달 → ex vivo manufacturing 우회, off-the-shelf"
     sources:
       - https://www.globenewswire.com/news-release/2026/04/27/3282052/0/en/Sana-Biotechnology-Announces-Oral-Presentation-Highlighting-Preclinical-Data-from-in-vivo-CAR-T-SG293-at-the-American-Society-of-Gene-Cell-Therapy-ASGCT-2026-Annual-Meeting.html
+      - https://www.globenewswire.com/news-release/2026/05/12/3293377/0/en/Sana-Biotechnology-Presents-Preclinical-Data-for-In-Vivo-CAR-T-Cell-Therapy-SG293-Surrogate-Demonstrating-Cell-Specific-Delivery-Potent-CAR-T-Cell-Generation-and-Deep-B-Cell-Deplet.html
   - date: 2026-05-15
     ticker: CADL
-    event: CAN-2409 PrTK03 Phase 3 prostate AUA 2026 plenary oral
+    event: "CAN-2409 PrTK03 Phase 3 prostate AUA 2026 plenary oral — Positive. 58개월 중앙 추적: 전립선암 특이 DFS HR 0.61 (p=0.0031, 39% 개선). 전이까지 시간 HR 0.58 (전체군), 중간위험군 HR 0.10 (90% 개선). 전이율 1.6% vs 2.8% (전체), 0.24% vs 2.35% (중간위험). BLA 제출 Q4 2026 예정"
     type: Conference
     company: Candel Therapeutics
     drug: CAN-2409 (aglatimagene besadenovec)
@@ -685,7 +687,7 @@ events:
       - https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx
   - date: 2026-05-18
     ticker: INSM
-    event: ARIKAYCE ENCORE Phase 3b ATS 2026 late-breaker poster (newly diagnosed MAC lung disease)
+    event: "ARIKAYCE ENCORE Phase 3b ATS 2026 late-breaker poster (newly diagnosed MAC lung disease) — Positive. 6개월 배양음전율 87.8% vs 57.0% 위약 (p<0.0001). 13개월 음전 82.4% vs 55.6%, 15개월 durable 76.2% vs 47.6% (모두 p<0.0001). 음전 중앙 시기 2개월 vs 3개월 (HR 2.03). 호흡기증상점수 Month 13 개선 3.11점 우위 (p=0.0299). sNDA 미국+일본 PMDA 2H 2026 제출 계획"
     type: Conference
     company: Insmed
     drug: ARIKAYCE (amikacin liposome inhalation suspension)
@@ -821,7 +823,7 @@ events:
       - https://www.biospace.com/press-releases/novo-nordisk-etavopivat-is-the-first-in-a-new-class-of-drugs-to-meet-both-co-primary-endpoints-in-the-phase-3-hibiscus-trial-substantially-reducing-vaso-occlusive-crisis-events-and-improving-haemoglobin-response-in-sickle-cell-disease
   - date: 2026-05-14
     ticker: EDIT
-    event: "EDIT-401 ASGCT 2026 oral — in vivo CRISPR base editing LDLR upregulation. NHP에서 mean LDL-C >90% 감소 (preclinical). IND/CTA 2026 mid-year, FIH 2H 2026 예정"
+    event: "EDIT-401 ASGCT 2026 oral — in vivo CRISPR base editing LDLR upregulation — Positive. NHP 단회 투여(1.5–3.0 mg/kg) mean LDL-C ≥90% 감소 rapid·durable (~6개월 유지). 10~40% 기능적 LDLR 대립유전자 편집으로 ≥6배 LDLR 단백 증가. HeFH 환자 대상 용량조정 불요 가능성. IND/CTA 2026 mid-year, FIH 2H 2026 예정"
     type: Conference
     company: Editas Medicine
     drug: EDIT-401
@@ -834,6 +836,8 @@ events:
     sources:
       - https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-present-new-preclinical-data-demonstrating
       - https://www.globenewswire.com/news-release/2026/04/27/3282063/0/en/Editas-Medicine-to-Present-New-Preclinical-Data-Demonstrating-Progress-of-EDIT-401-as-Potential-Treatment-for-Hyperlipidemia-at-Upcoming-Scientific-Conferences.html
+      - https://ir.editasmedicine.com/news-releases/news-release-details/editas-medicine-reports-new-preclinical-data-demonstrating
+      - https://www.globenewswire.com/news-release/2026/05/14/3294685/0/en/Editas-Medicine-Reports-New-Preclinical-Data-Demonstrating-Progress-of-EDIT-401-as-Potential-Treatment-for-Hyperlipidemia-at-the-American-Society-of-Gene-and-Cell-Therapy-2026-Annu.html
   - date: 2026-05-18
     ticker: SVRA
     event: "Molgramostim IMPALA-2 Phase 3 aPAP ATS 2026 oral — 운동 distance/duration 새 분석 데이터 (Mini Symposium B95, 5/18 14:51-15:03 EDT)"
@@ -893,4 +897,96 @@ events:
     moa: "Activin A 차단 단클론항체. ACVR1 활성화 핵심 ligand 차단 → 이소성 골화 신호 경로 억제"
     sources:
       - https://newsroom.regeneron.com/news-releases/news-release-details/garetosmab-biologics-license-application-accepted-fda-priority
+  - date: 2026-06-11
+    ticker: ELVN
+    event: "ELVN-001 ENABLE Phase 1 CML EHA 2026 oral (Abstract S164) — 80mg QD 누적 MMR 47%, 24주 내 MMR 38%, asciminib 선행 환자 누적 MMR 52%"
+    type: Conference
+    company: Enliven Therapeutics
+    drug: ELVN-001
+    indication: Relapsed/Refractory Chronic Myeloid Leukemia
+    phase: Phase 1
+    conferenceId: eha
+    trialDesign: "ENABLE Phase 1 오픈라벨 dose escalation + expansion (NCT05304377). R/R 또는 TKI 불내성 CML 환자 n=141, 중앙 치료기간 ~32주. EHA 2026 Oral Session 6/11 17:45-18:00 CEST (Abstract S164). pivotal Phase 3 ENABLE-2 전환 직전 데이터"
+    targetDisease: "재발/불응성 만성 골수성 백혈병. BCR::ABL1 융합 유전자 구동. 기존 TKI 내성(T315I 포함) 또는 불내성 환자 대상 — 2·3세대 TKI 이후 옵션 제한적"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05304377
+    moa: "BCR::ABL1 ATP 경쟁적 kinase inhibitor. T315I 포함 표준 내성 변이에 활성, asciminib과 보완적 기전"
+    sources:
+      - https://www.prnewswire.com/news-releases/enliven-therapeutics-announces-oral-presentation-at-the-eha-2026-congress-featuring-additional-positive-phase-1-clinical-trial-data-for-elvn-001-in-cml-302769668.html
+  - date: 2026-06-13
+    ticker: AGIO
+    event: "Mitapivat RISE UP Phase 3 SCD EHA 2026 Plenary (Abstract S102) — 혈색소 반응 1차 endpoint 충족, sNDA 동시 제출"
+    type: Conference
+    company: Agios Pharmaceuticals
+    drug: Mitapivat (AG-348)
+    indication: Sickle Cell Disease
+    phase: Phase 3
+    conferenceId: eha
+    trialDesign: "RISE UP 무작위 이중맹검 위약대조 Phase 3 (n=207, 2:1). 52주 치료. 1차 endpoint: Wk24-52 혈색소 반응(≥1.0 g/dL↑) + 연간 sickle cell pain crisis율. 혈색소 반응 1차 충족(통계적 유의). EHA 2026 Plenary 6개 중 1개 선정 (S102, 6/13 12:00-13:30 CEST)"
+    targetDisease: "겸상적혈구병(SCD). HbS 중합 → 적혈구 변형 + 혈관폐색 + 만성 용혈성 빈혈. 표준치료 hydroxyurea·voxelotor — 미충족 수요 큰 희귀 혈액질환"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05031780
+    moa: "First-in-class 적혈구 PK 활성화제. ATP·2,3-DPG 균형 조절 → HbS 중합 억제, 산소친화도 정상화, 용혈 감소"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/12/3292999/31990/en/Agios-to-Present-New-Data-at-EHA-2026-Reinforcing-the-Significant-Therapeutic-Impact-of-Mitapivat-Across-Multiple-Rare-Hemolytic-Anemias.html
+      - https://investor.agios.com/news-releases/news-release-details/agios-present-new-data-eha-2026-reinforcing-significant
+  - date: 2026-06-13
+    ticker: COGT
+    event: "Bezuclastinib APEX Phase 2 AdvSM EHA 2026 oral (S438) — ORR 57% mIWG, PPR 80%, 89%에서 ≥50% 비만세포 부담 감소"
+    type: Conference
+    company: Cogent Biosciences
+    drug: Bezuclastinib
+    indication: Advanced Systemic Mastocytosis
+    phase: Phase 2
+    conferenceId: eha
+    trialDesign: "APEX 등록지향 Phase 2 단일군 (NCT04996875). KIT D816V 변이 AdvSM 환자. Primary mIWG 기준 ORR. Topline ORR 57% (mIWG), 80% (PPR), 89%에서 ≥50% 비만세포 부담 감소. EHA 2026 Oral S438 (6/13 17:15-18:30 CEST, A2-3 Hall)"
+    targetDisease: "진행성 전신 비만세포증(AdvSM). KIT D816V 변이 비만세포 과증식 — 기존 avapritinib 대비 선택성·내약성 프로파일 차별화"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04996875
+    moa: "KIT D816V 및 exon 17 변이 선택적 tyrosine kinase inhibitor. 야생형 KIT 회피로 안전성 개선 + 비만세포 증식 차단"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/12/3292993/0/en/Cogent-Biosciences-Announces-Multiple-Presentations-at-the-European-Hematology-Association-EHA-2026-Congress.html
+      - https://www.globenewswire.com/news-release/2025/12/08/3201431/0/en/Cogent-Biosciences-Announces-Positive-Top-line-Results-of-APEX-Trial-of-Bezuclastinib-in-Patients-with-Advanced-Systemic-Mastocytosis-AdvSM.html
+  - date: 2026-08-13
+    ticker: LNTH
+    event: "MK-6240 (florquinitau F-18) Tau PET 알츠하이머 진단제 NDA PDUFA — Fast Track, Phase 3 sensitivity/specificity 1차 충족"
+    type: PDUFA
+    company: Lantheus
+    drug: Florquinitau F-18 (MK-6240)
+    indication: Tau PET Imaging in Suspected Alzheimer's Disease
+    phase: NDA
+    trialDesign: "두 개의 피벗 Phase 3에서 tau NFT 검출 민감도·특이도 co-primary 모두 충족 (2025-04 발표). Fast Track 지정. 현재 100+ 임상시험에서 연구용 사용 중"
+    targetDisease: "알츠하이머병 신경섬유 엉킴(NFT) 검출 PET 진단제. 아밀로이드 다음으로 중요한 AD 병리 바이오마커인 tau를 고선택적 결합 → 인지장애 평가에서 AD 확진 보조"
+    priorTrialUrl: null
+    moa: "18F 표지 방사성 리간드. tau NFT에 고친화도 결합 → PET 스캔으로 뇌 tau 분포 정량 시각화, 오프타깃 결합 최소"
+    sources:
+      - https://www.globenewswire.com/news-release/2025/10/28/3175415/0/en/Lantheus-Announces-FDA-Acceptance-of-New-Drug-Application-for-MK-6240-a-PET-Imaging-Agent-Targeting-Tau-in-Alzheimer-s-Disease.html
+      - https://www.stocktitan.net/news/LNTH/lantheus-announces-fda-acceptance-of-new-drug-application-for-mk-joz1555jdyb9.html
+  - date: 2026-08-17
+    ticker: MRK
+    event: "KEYTRUDA QLEX + Padcev MIBC (cisplatin-eligible) perioperative sBLA PDUFA — EV-304/KEYNOTE-B15 EFS HR -47%, OS HR -35%"
+    type: PDUFA
+    company: Merck
+    drug: Pembrolizumab SC (KEYTRUDA QLEX) + Enfortumab vedotin (Padcev)
+    indication: Muscle-Invasive Bladder Cancer (cisplatin-eligible, perioperative)
+    phase: NDA
+    trialDesign: "EV-304/KEYNOTE-B15 (NCT04700124) 글로벌 랜덤 오픈라벨 Phase 3. Perioperative pembrolizumab + enfortumab vedotin + 수술 vs 신보조 gemcitabine/cisplatin + 수술. Primary EFS — 사건무발생 위험 47% 감소, OS 위험 35% 감소"
+    targetDisease: "근침습성 방광암(MIBC). 방광 전적출술이 표준치료이나 5년 생존 ~50%. Cisplatin 적합군에서 면역-ADC 병용 perioperative 첫 OS 개선 달성"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04700124
+    moa: "Pembrolizumab(PD-1 차단 면역관문억제제) + Enfortumab vedotin(Nectin-4 표적 ADC) 병용 — 면역활성화 + 직접 종양세포 사멸 이중 기전"
+    sources:
+      - https://www.merck.com/news/fda-grants-priority-review-for-keytruda-pembrolizumab-and-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-with-padcev-enfortumab-vedotin-ejfv-for-cisplati/
+      - https://www.businesswire.com/news/home/20260420766130/en/FDA-Grants-Priority-Review-for-KEYTRUDA-pembrolizumab-and-KEYTRUDA-QLEX-pembrolizumab-and-berahyaluronidase-alfa-pmph-Each-with-Padcev-enfortumab-vedotin-ejfv-for-Cisplatin-Eligible-Patients-with-Muscle-Invasive-Bladder-Cancer
+  - date: 2026-08-27
+    ticker: GILD
+    event: "BIC/LEN (bictegravir + lenacapavir) HIV 1일1회 단일정제 NDA PDUFA — ARTISTRY-1/2 Wk48 비열등성 1차 충족"
+    type: PDUFA
+    company: Gilead Sciences
+    drug: Bictegravir/Lenacapavir (BIC/LEN)
+    indication: HIV-1 (Virologically Suppressed Adults)
+    phase: NDA
+    trialDesign: "ARTISTRY-1 (NCT05502341) 랜덤 오픈라벨 Phase 3 — 복잡 다제 요법 → BIC/LEN 전환 vs 유지. Wk48 HIV RNA ≥50 copies/mL 0.8% vs 1.1% 비열등성 충족. ARTISTRY-2 (NCT06333808) Wk48 BIC/LEN vs BIKTARVY 1.3% vs 1.0% 비열등성 충족"
+    targetDisease: "바이러스 억제 중인 HIV-1 성인. 복잡 다제 요법을 1일1회 단일정제로 간소화 — 기존 INSTI 및 캡시드 억제제 어느 계열과도 교차내성 없는 최초 조합"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05502341
+    moa: "Bictegravir (INSTI, 내성장벽 높음) + Lenacapavir (첫 캡시드 억제제, HIV 복제 다단계 차단) 조합. 기존 항바이러스제 전 계열 교차내성 없음"
+    sources:
+      - https://investors.gilead.com/news/news-details/2026/U-S--FDA-Grants-Priority-Review-of-New-Drug-Application-for-Gileads-Once-Daily-HIV-Treatment-of-Bictegravir-Plus-Lenacapavir/default.aspx
+      - https://www.biospace.com/press-releases/u-s-fda-grants-priority-review-of-new-drug-application-for-gileads-once-daily-hiv-treatment-of-bictegravir-plus-lenacapavir
 ```
