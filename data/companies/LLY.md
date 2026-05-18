@@ -7,7 +7,7 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-04-10
-verified: 2026-05-07
+verified: 2026-05-18
 sources:
   - https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides
   - https://investor.lilly.com/news-releases/news-release-details/lilly-reports-first-quarter-2026-financial-results-raises-full

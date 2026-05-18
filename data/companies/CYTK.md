@@ -6,18 +6,19 @@ modality: Small Molecule
 areas:
   - Cardiovascular
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-05-18
 sources:
   - https://www.cytokinetics.com/pipeline
   - https://cytokinetics.com/
   - https://clinicaltrials.gov/study/NCT04848506
+  - https://www.globenewswire.com/news-release/2026/05/05/3287549/0/en/cytokinetics-announces-positive-topline-results-from-acacia-hcm-the-pivotal-phase-3-clinical-trial-of-aficamten-in-patients-with-non-obstructive-hypertrophic-cardiomyopathy.html
 ---
 
 # Cytokinetics (CYTK)
 
 ## 카탈리스트
-- **MYQORZO (aficamten) 출시 진행 중** — FDA 2025-12-19 승인 완료 (폐쇄성 비대심근병증 oHCM), 2026년 초 미국 출시 개시. REMS 프로그램 적용.
-- **FOREST-HCM Phase 3** (비폐쇄성 HCM, non-oHCM) — 2026 H2 결과 예상.
+- **MYQORZO (aficamten) 출시 진행 중** — FDA 2025-12-19 승인 완료 (폐쇄성 비대심근병증 oHCM), 2026년 초 미국 출시 개시. REMS 프로그램 적용. Q1 2026 처방 의사 275명+, 추정 환자 ~680명 투여.
+- **ACACIA-HCM Phase 3 Positive (2026-05-05)** — 비폐쇄성 HCM(nHCM)에서 이중 1차 지표(KCCQ-CSS, pVO2) 모두 통계적으로 유의미하게 개선. nHCM 대상 임상 최초 성공. 비폐쇄성 적응증 확대 NDA 준비 예정 (규제기관 협의 중).
 - **AstraZeneca HFpEF 파트너십** 마일스톤 — 개발 진행에 따른 추가 마일스톤 수령 예정.
 
 ## 회사 개요
@@ -70,8 +71,8 @@ Mavacamten (Camzyos, BMS) — 동일 기전 1세대 선행 승인. 침습적 시
   결과: Positive (2024 NEJM) — pVO2 +1.8mL/kg/min (위약 대비 p<0.0001), LVOT-G 51mmHg 감소. NDA 제출 근거.
 - **FOREST-HCM · Phase 3 (non-oHCM)**
   결과: 진행 중 (2026 H2 결과 예상)
-- **ACACIA-HCM (nHCM) · Phase 2**
-  결과: 2023 — nHCM 탐색적 효능 확인.
+- **ACACIA-HCM · Phase 3 (nHCM)**
+  결과: Positive (2026-05-05) — 비폐쇄성 HCM 대상 이중 1차 지표(KCCQ-CSS, pVO2) 모두 통계적 유의 충족. nHCM 대상 임상 최초 성공 사례.
 
 ## Modality
 **Aficamten (CK-274)**
@@ -89,4 +90,4 @@ ATP 경쟁적 심장 미오신 중쇄(β-MHC) 억제제. 과도한 심장 수축
 - [Olivotto I et al. Mavacamten for treatment of symptomatic obstructive HCM (EXPLORER-HCM). Lancet (2020)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)31792-X/fulltext)
 
 ## 메모
-MYQORZO(aficamten) FDA 2025-12-19 승인 완료 → 상업화 단계 진입. Mavacamten(Camzyos) 성공으로 기전 검증 완료된 시장에서 PK 차별화(반감기, CYP2C19)로 2세대 포지셔닝. 다음 주요 카탈리스트: FOREST-HCM(non-oHCM) 2026 H2 readout — 적응증 확대 가능성. AZ HFpEF 파트너십 마일스톤 추가 업사이드. 시총 $7B — 출시 초기 실적 추이가 단기 주가 결정 요인.
+MYQORZO(aficamten) FDA 2025-12-19 승인 완료 → 상업화 단계 진입. Mavacamten(Camzyos) 성공으로 기전 검증 완료된 시장에서 PK 차별화(반감기, CYP2C19)로 2세대 포지셔닝. **2026-05-05 ACACIA-HCM Phase 3 Positive** — nHCM 적응증 확대 임상 최초 성공 → NDA 준비 단계 진입. nHCM 환자군은 HCM 전체의 ~40% — TAM 1.6배 확장 가능성. AZ HFpEF 파트너십 마일스톤 추가 업사이드. 시총 $7B — 출시 초기 실적 + nHCM NDA 일정이 단기 주가 결정 요인.
