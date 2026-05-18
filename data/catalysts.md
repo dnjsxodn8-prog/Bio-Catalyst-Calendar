@@ -179,13 +179,13 @@ events:
       - https://argenx.com/news/2026/press-release-3276554.html
   - date: 2026-05-11
     ticker: ABCL
-    event: "ABCL635 Phase 1 인터림 데이터 (Q1 2026 실적콜) — Positive. NK3R 타깃 인게이지먼트 확인: 300/600/900 mg SAD 단회 투여 시 testosterone 50~75% 감소 (sustained NK3R 길항). 선형 dose-proportional PK, 반감기 24일로 월 1회 투약 지지. SAE·간독성·중증 AE 없음. Phase 2 무작위 이중맹검 위약대조(n=80 폐경 후 여성) 진입 확정"
+    event: "ABCL635 Phase 1 인터림 (Positive — testosterone 50~75% 감소, 반감기 24일 월 1회 지지; Phase 2 진입 확정)"
     type: Clinical Readout
     company: AbCellera Biologics
     drug: ABCL635
     indication: 폐경기 혈관운동증상 (VMS)
     phase: Phase 1
-    trialDesign: "무작위배정·이중맹검·위약대조 SAD/MAD Phase 1. 건강 남성 + 폐경 후 여성 대상, SC 다양한 용량 코호트. Primary: 안전성·내약성 (AE/SAE). Secondary: PK·PD·VMS 빈도·중증도 변화"
+    trialDesign: "무작위배정·이중맹검·위약대조 SAD/MAD Phase 1. 건강 남성 + 폐경 후 여성, SC 다양한 용량 코호트. Primary: 안전성·내약성 (AE/SAE). Secondary: PK·PD·VMS 빈도·중증도 변화. 결과(Q1 2026 실적콜): 300/600/900 mg SAD 단회 투여 시 testosterone 50~75% 감소(sustained NK3R 길항), 선형 dose-proportional PK, 반감기 24일로 월 1회 투약 지지, SAE·간독성·중증 AE 없음. Phase 2 무작위 이중맹검 위약대조(n=80 폐경 후 여성) 진입 확정"
     targetDisease: "폐경 전후 여성의 열조홍·야간발한. 에스트로겐 결핍 → 시상하부 KNDy 뉴런의 NKB-NK3R 신호 과항진. 미국 중등도-중증 VMS ~600만 명, 비호르몬 first-in-class 항체 기회"
     moa: "Anti-NK3R 완전인간항체. NKB-NK3R 차단 → KNDy 뉴런 정상화 → 열조홍 빈도·중증도 감소. SC 투여, 8-12주 지속 목표"
     sources:
@@ -193,14 +193,14 @@ events:
       - https://www.businesswire.com/news/home/20260511135503/en/AbCellera-Reports-Q1-2026-Business-Results-Announces-Positive-Interim-Phase-1-Clinical-Data-for-ABCL635
   - date: 2026-05-12
     ticker: SANA
-    event: "SG293 in vivo CAR-T NHP ASGCT 2026 oral (preclinical) — Positive. NHP 단회 IV 투여 후 말초 B세포 완전 고갈, 3주 내 림프절 B세포 검출불가·naive 표현형 재출현('B세포 리셋'). off-target 조직(간·심장·생식선) 전달 없음. 경미한 주입 후 증상은 acetaminophen으로 관리. FIH (NHL) 2026년 내 예정"
+    event: "SG293 in vivo CAR-T NHP ASGCT 2026 oral (Positive — NHP IV 단회 투여 후 말초 B세포 완전 고갈, off-target 없음; FIH 2026년 내)"
     type: Conference
     company: Sana Biotechnology
     drug: SG293 (CD19 in vivo CAR-T)
     indication: B-cell malignancy / autoimmune
     phase: Preclinical
     conferenceId: asgct
-    trialDesign: "ASGCT 2026 oral 'Preclinical Data from in vivo CAR-T SG293 Targeting CD19'. Fusogen 탑재 lentiviral vector NHP 단회 IV 투여 → 체내 T cell 직접 transduction → CD19+ B cell 표적·고갈 평가"
+    trialDesign: "ASGCT 2026 oral 'Preclinical Data from in vivo CAR-T SG293 Targeting CD19'. Fusogen 탑재 lentiviral vector NHP 단회 IV 투여 → 체내 T cell 직접 transduction → CD19+ B cell 표적·고갈. 결과: 말초 B세포 완전 고갈, 3주 내 림프절 B세포 검출불가·naive 표현형 재출현('B세포 리셋'). off-target 조직(간·심장·생식선) 전달 없음. 경미한 주입 후 증상은 acetaminophen으로 관리. FIH (NHL) 2026년 내 예정"
     targetDisease: "B-cell 악성종양 (DLBCL/CLL/FL) + B-cell 매개 자가면역질환 (SLE 등). 기존 ex vivo CAR-T는 환자별 제조 4-6주 + 비용 $400K+ — in vivo 단회 IV로 접근성 대폭 확대 목표"
     moa: "Hypoimmune fusogen 탑재 lentiviral vector. 체내 T cell에 CD19 CAR 직접 전달 → ex vivo manufacturing 우회, off-the-shelf"
     sources:
@@ -208,14 +208,14 @@ events:
       - https://www.globenewswire.com/news-release/2026/05/12/3293377/0/en/Sana-Biotechnology-Presents-Preclinical-Data-for-In-Vivo-CAR-T-Cell-Therapy-SG293-Surrogate-Demonstrating-Cell-Specific-Delivery-Potent-CAR-T-Cell-Generation-and-Deep-B-Cell-Deplet.html
   - date: 2026-05-15
     ticker: CADL
-    event: "CAN-2409 PrTK03 Phase 3 prostate AUA 2026 plenary oral — Positive. 58개월 중앙 추적: 전립선암 특이 DFS HR 0.61 (p=0.0031, 39% 개선). 전이까지 시간 HR 0.58 (전체군), 중간위험군 HR 0.10 (90% 개선). 전이율 1.6% vs 2.8% (전체), 0.24% vs 2.35% (중간위험). BLA 제출 Q4 2026 예정"
+    event: "CAN-2409 PrTK03 Phase 3 prostate AUA 2026 plenary (Positive — 58개월 추적 prostate-specific DFS HR 0.61, p=0.0031; BLA Q4 2026 예정)"
     type: Conference
     company: Candel Therapeutics
     drug: CAN-2409 (aglatimagene besadenovec)
     indication: Localized Prostate Cancer
     phase: Phase 3
     conferenceId: aua
-    trialDesign: "PrTK03 Phase 3 무작위배정 + EBRT 표준치료 병용 (n=745). 중·고위험 localized prostate cancer. Primary DFS HR 0.70 (p=0.016), 전립선암 특이 DFS HR 0.62 (p=0.005). AUA 2026 Plenary oral 5/15에서 extended follow-up 결과 발표"
+    trialDesign: "PrTK03 Phase 3 무작위배정 + EBRT 표준치료 병용 (n=745). 중·고위험 localized prostate cancer. AUA 2026 Plenary oral 5/15 extended follow-up. 58개월 중앙 추적: prostate-specific DFS HR 0.61 (p=0.0031, 39% 개선). 전이까지 시간 HR 0.58 (전체), 중간위험군 HR 0.10 (90% 개선). 전이율 1.6% vs 2.8% (전체), 0.24% vs 2.35% (중간위험). 초기 1차 DFS HR 0.70 (p=0.016)"
     targetDisease: "중·고위험 국소 전립선암 (방사선 병용). 표준 EBRT + ADT 후 5년 생화학적 재발 30~50% — 면역 기전 추가로 미세잔존종양 제거 목표"
     moa: "복제 불가 아데노바이러스 벡터로 HSV-TK 유전자 종양 내 전달 → 발라사이클로비르 prodrug 활성화 → 종양 직접 사멸 + 면역원성 세포 사멸 (in situ tumor vaccine)"
     sources:
@@ -687,14 +687,14 @@ events:
       - https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx
   - date: 2026-05-18
     ticker: INSM
-    event: "ARIKAYCE ENCORE Phase 3b ATS 2026 late-breaker poster (newly diagnosed MAC lung disease) — Positive. 6개월 배양음전율 87.8% vs 57.0% 위약 (p<0.0001). 13개월 음전 82.4% vs 55.6%, 15개월 durable 76.2% vs 47.6% (모두 p<0.0001). 음전 중앙 시기 2개월 vs 3개월 (HR 2.03). 호흡기증상점수 Month 13 개선 3.11점 우위 (p=0.0299). sNDA 미국+일본 PMDA 2H 2026 제출 계획"
+    event: "ARIKAYCE ENCORE Phase 3b ATS 2026 late-breaker poster (Positive — 6개월 배양음전 87.8% vs 57.0%, p<0.0001; sNDA 2H 2026 제출 예정)"
     type: Conference
     company: Insmed
     drug: ARIKAYCE (amikacin liposome inhalation suspension)
     indication: Newly Diagnosed MAC Lung Disease
     phase: Phase 3
     conferenceId: ats
-    trialDesign: "ENCORE Phase 3b 무작위 위약대조: ARIKAYCE + 다제요법(azithromycin + ethambutol) QD vs 위약 + 다제요법 — 신규 진단 항생제 무경험 MAC 폐감염 성인. 2026-03 topline primary 충족. ATS 2026 Poster Session B45 (5/18)"
+    trialDesign: "ENCORE Phase 3b 무작위 위약대조: ARIKAYCE + 다제요법(azithromycin + ethambutol) QD vs 위약 + 다제요법 — 신규 진단 항생제 무경험 MAC 폐감염 성인. 6개월 음전 87.8% vs 57.0% (p<0.0001), 13개월 82.4% vs 55.6%, 15개월 durable 76.2% vs 47.6% (모두 p<0.0001). 음전 중앙 2개월 vs 3개월 (HR 2.03). 호흡기증상점수 Month 13 +3.11점 (p=0.0299). ATS 2026 Poster B45 (5/18). sNDA 미국+일본 PMDA 2H 2026 제출 계획"
     targetDisease: "Mycobacterium avium complex(MAC) 폐감염. 표준 다제요법(macrolide+ethambutol±rifamycin)으로 음전 달성률 제한적 — ARIKAYCE 1차치료 효능 입증 목적"
     priorTrialUrl: https://clinicaltrials.gov/study/NCT04677543
     moa: "Liposomal amikacin 흡입제. 폐 대식세포 내 MAC에 직접 약물 전달 → 음전율 향상"
@@ -823,14 +823,14 @@ events:
       - https://www.biospace.com/press-releases/novo-nordisk-etavopivat-is-the-first-in-a-new-class-of-drugs-to-meet-both-co-primary-endpoints-in-the-phase-3-hibiscus-trial-substantially-reducing-vaso-occlusive-crisis-events-and-improving-haemoglobin-response-in-sickle-cell-disease
   - date: 2026-05-14
     ticker: EDIT
-    event: "EDIT-401 ASGCT 2026 oral — in vivo CRISPR base editing LDLR upregulation — Positive. NHP 단회 투여(1.5–3.0 mg/kg) mean LDL-C ≥90% 감소 rapid·durable (~6개월 유지). 10~40% 기능적 LDLR 대립유전자 편집으로 ≥6배 LDLR 단백 증가. HeFH 환자 대상 용량조정 불요 가능성. IND/CTA 2026 mid-year, FIH 2H 2026 예정"
+    event: "EDIT-401 in vivo CRISPR LDLR ASGCT 2026 oral (Positive — NHP LDL-C ≥90% 감소 6개월 유지, LDLR ≥6배 단백 증가; IND/CTA 2026 mid-year, FIH 2H 2026)"
     type: Conference
     company: Editas Medicine
     drug: EDIT-401
     indication: Hyperlipidemia (LDLR upregulation)
     phase: Preclinical
     conferenceId: asgct
-    trialDesign: "ASGCT 2026 oral 'Preclinical Development of EDIT-401, a Durable In Vivo CRISPR Gene Editing Therapy That Upregulates LDLR Protein to Lower LDL-C' (5/14 15:30 EDT). NHP 단회 투여 후 LDL-C >90% 감소 durable"
+    trialDesign: "ASGCT 2026 oral 'Preclinical Development of EDIT-401, a Durable In Vivo CRISPR Gene Editing Therapy That Upregulates LDLR Protein to Lower LDL-C' (5/14 15:30 EDT). NHP 단회 투여(1.5–3.0 mg/kg) mean LDL-C ≥90% 감소 rapid·durable(~6개월 유지). 10~40% 기능적 LDLR 대립유전자 편집으로 ≥6배 LDLR 단백 증가. HeFH 환자 대상 용량조정 불요 가능성"
     targetDisease: "고지혈증. 심혈관 질환 주요 위험인자 — statin/PCSK9i 만성 투여 부담 → 1회 투여 durable LDL-C lowering 가능성"
     moa: "in vivo CRISPR base editing. LDLR 유전자 발현 조절 영역 변이 도입 → LDLR 단백질 발현 증가 → LDL-C 청소율 항진"
     sources:
