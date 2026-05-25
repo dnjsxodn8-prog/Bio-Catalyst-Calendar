@@ -6,11 +6,12 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-05
-verified: 2026-05-02
+verified: 2026-05-24
 sources:
   - https://ir.arvinas.com/news-releases/news-release-details/arvinas-and-pfizer-announce-positive-topline-results-phase-3
   - https://www.globenewswire.com/news-release/2025/08/08/3130368/0/en/Arvinas-Announces-FDA-Acceptance-of-the-New-Drug-Application-for-Vepdegestrant-for-the-Treatment-of-ESR1m-ER-HER2-Advanced-Breast-Cancer.html
   - https://ir.arvinas.com/news-releases/news-release-details/arvinas-reports-fourth-quarter-and-full-year-2025-financial/
+  - https://ir.arvinas.com/news-releases/news-release-details/arvinas-and-pfizer-enter-transaction-rigel-pharmaceuticals
 ---
 
 # Arvinas (ARVN)
@@ -32,7 +33,8 @@ FY2025 총 수익 $262.6M (주로 Pfizer 협업 마일스톤/비용 분담)
 ER+/HER2- 전이성 유방암 (vepdegestrant/ARV-471), 파킨슨 (ARV-102, LRRK2 분해), DLBCL (ARV-393, BCL6 분해)
 
 ## 파트너
-- Pfizer (vepdegestrant 공동 개발·상업화, 제3자 파트너 선정 검토 중)
+- Pfizer (vepdegestrant 공동 개발·상업화 파트너, 2021~)
+- **Rigel Pharmaceuticals** (2026-05-12 VEPPANU(vepdegestrant) 글로벌 독점 개발·제조·상업화 권리 라이선스 — upfront $70M + $15M 이전 마일스톤 + up to $320M 개발/규제/상업 마일스톤 + mid-teens~mid-20s 로열티, Arvinas/Pfizer 50:50 배분. Rigel이 미국 런칭 주도)
 
 ## 매출 구조
 Pfizer 협업 수익 위주; 아직 제품 판매 없음

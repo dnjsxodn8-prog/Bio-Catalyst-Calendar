@@ -989,4 +989,198 @@ events:
     sources:
       - https://investors.gilead.com/news/news-details/2026/U-S--FDA-Grants-Priority-Review-of-New-Drug-Application-for-Gileads-Once-Daily-HIV-Treatment-of-Bictegravir-Plus-Lenacapavir/default.aspx
       - https://www.biospace.com/press-releases/u-s-fda-grants-priority-review-of-new-drug-application-for-gileads-once-daily-hiv-treatment-of-bictegravir-plus-lenacapavir
+  - date: 2026-05-20
+    ticker: BMRN
+    event: "VOXZOGO (vosoritide) CANOPY-HCH-3 Phase 3 hypochondroplasia 1차 충족 (Positive — annualized growth velocity +2.33 cm/yr vs placebo, p<0.0001). sNDA 라벨 확장 제출 예정"
+    type: Clinical Readout
+    company: BioMarin
+    drug: Vosoritide (VOXZOGO)
+    indication: Hypochondroplasia (children)
+    phase: Phase 3
+    trialDesign: "CANOPY-HCH-3 (NCT05598320) 글로벌 다기관 무작위배정 이중맹검 위약대조 Phase 3. 3~18세 hypochondroplasia 환아 대상 vosoritide 일일 SC 52주 vs 위약. 1차 평가지표: 52주차 annualized growth velocity (cm/yr). 1차 충족 +2.33 cm/yr vs 위약 (p<0.0001)"
+    targetDisease: "Hypochondroplasia — FGFR3 활성화 변이로 인한 단신 유전질환 (achondroplasia 자매질환). 미국 ~25,000~40,000명. 기존 승인 치료 부재 — VOXZOGO는 achondroplasia 적응증으로 이미 승인된 첫 약물"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05598320
+    moa: "C-type natriuretic peptide(CNP) analog. FGFR3 하류 MAPK 경로 억제 → 연골 성장판 endochondral ossification 회복"
+    sources:
+      - https://www.prnewswire.com/news-releases/biomarin-announces-positive-phase-3-pivotal-study-results-for-voxzogo-vosoritide-in-children-with-hypochondroplasia-302778176.html
+      - https://www.stocktitan.net/news/BMRN/bio-marin-announces-positive-phase-3-pivotal-study-results-for-fw8a1yyi42bo.html
+  - date: 2026-05-29
+    ticker: ALT
+    event: "Pemvidutide IMPACT Phase 2b 48주 MASH EASL 2026 oral (Best of EASL 선정) + multiple late-breaking posters"
+    type: Conference
+    company: Altimmune
+    drug: Pemvidutide
+    indication: MASH
+    phase: Phase 2b
+    conferenceId: easl
+    trialDesign: "IMPACT Phase 2b 무작위 이중맹검 위약대조 — pemvidutide 1.2/1.8/2.4mg 주1회 SC vs 위약, biopsy-confirmed F2/F3 MASH 환자. 24주 1차 후 48주 연장 데이터 EASL Best of EASL 발표"
+    targetDisease: "대사이상 관련 지방간염(MASH). 비만 동반 진행성 간섬유화 (F2/F3) — 기존 단일 GLP-1 효과 한계"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05989711
+    moa: "GLP-1/glucagon dual agonist. 체중감량 + 직접 간내 지질대사·섬유화 개선 이중 기전"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/13/3293871/0/en/Altimmune-to-Present-Results-of-Pemvidutide-in-MASH-in-an-Oral-Presentation-and-Multiple-Poster-Presentations-at-EASL-Congress-2026.html
+  - date: 2026-05-29
+    ticker: ARWR
+    event: "ARO-INHBE Phase 1 비만 간지방 (단독 + low-dose tirzepatide 병용) EASL 2026 late-breaker poster"
+    type: Conference
+    company: Arrowhead Pharmaceuticals
+    drug: ARO-INHBE
+    indication: Obesity / Liver Fat
+    phase: Phase 1
+    conferenceId: easl
+    trialDesign: "Phase 1 비만 성인 대상 ARO-INHBE RNAi 단독 vs low-dose tirzepatide 병용 — MRI-PDFF 간지방·체구성 변화 평가. EASL 2026 late-breaker poster"
+    targetDisease: "비만 동반 간지방 축적·MASH 위험 인구. 인크레틴 단독으로 미해결인 hepatic steatosis 영역 — INHBE knockdown은 지방세포 축적 감소·인슐린 민감도 개선"
+    moa: "INHBE(activin E) 간특이 RNAi 침묵. 지방세포 비대 억제, 인슐린 민감도 향상, GLP-1과 병용 시 시너지"
+    sources:
+      - https://www.businesswire.com/news/home/20260504575415/en/Arrowhead-Pharmaceuticals-to-Participate-in-Upcoming-May-2026-Events
+  - date: 2026-05-29
+    ticker: REGN
+    event: "Lynozyfic (linvoseltamab) LINKER-AL2 Phase 1/2 ASCO 2026 oral — 2L+ AL amyloidosis, 100% hematologic CR at top dose, free light chain normalization by day 15"
+    type: Conference
+    company: Regeneron
+    drug: Linvoseltamab (Lynozyfic)
+    indication: 2L+ Systemic AL Amyloidosis
+    phase: Phase 1/2
+    conferenceId: asco
+    trialDesign: "LINKER-AL2 Phase 1/2: 2L+ systemic AL amyloidosis 환자. BCMA × CD3 이중특이항체 단독요법, 다회 IV. ASCO 2026 oral — top dose에서 free light chain Day 15 정상화 + 100% hematologic CR"
+    targetDisease: "전신 AL amyloidosis (light chain amyloid). 형질세포 monoclonal light chain이 장기(심장·신장)에 축적 → 진행성 장기부전. 기존 daratumumab + CyBorD 표준에도 재발 환자 옵션 부재"
+    moa: "BCMA × CD3 이중특이항체. T세포 매개 BCMA+ 형질세포 직접 사멸 → light chain 생산 차단"
+    sources:
+      - https://investor.regeneron.com/news-releases/news-release-details/regeneron-showcase-progress-advancing-novel-investigational/
+      - https://newsroom.regeneron.com/news-releases/news-release-details/regeneron-highlight-advances-asco-phase-3-adjuvant-libtayor
+  - date: 2026-05-30
+    ticker: ABBV
+    event: "ABBV-969 mCRPC (45% ORR, 67% PSA50) + ABBV-706 SCLC 2L (82% ORR) Phase 1 ASCO 2026 oral — next-gen oncology pipeline 핵심"
+    type: Conference
+    company: AbbVie
+    drug: ABBV-969 (mCRPC) + ABBV-706 (SCLC)
+    indication: Metastatic Castration-Resistant Prostate Cancer + Small Cell Lung Cancer
+    phase: Phase 1
+    conferenceId: asco
+    trialDesign: "ABBV-969 (STEAP1/PSMA dual ADC) Phase 1 mCRPC — ORR 45%, PSA50 67%. ABBV-706 (SEZ6-targeting topo I ADC) Phase 1 2L SCLC — ORR 82%. ASCO 2026 두 개 oral"
+    targetDisease: "mCRPC: ARSI 후 표준치료 한계 — STEAP1/PSMA 동시 표적으로 antigen escape 극복. SCLC 2L: lurbinectedin 후 옵션 제한적 — SEZ6 신규 표적"
+    moa: "ABBV-969: STEAP1/PSMA 이중표적 ADC. ABBV-706: SEZ6 표적 topo I 페이로드 ADC (Synaptic Vesicle Glycoprotein 발현 SCLC 직접 사멸)"
+    sources:
+      - https://news.abbvie.com/2026-05-21-AbbVie-Announces-New-Data-at-ASCO-2026-Demonstrating-Breadth-and-Momentum-Across-its-Next-Generation-Oncology-Pipeline
+      - https://www.prnewswire.com/news-releases/abbvie-announces-new-data-at-asco-2026-demonstrating-breadth-and-momentum-across-its-next-generation-oncology-pipeline-302779632.html
+  - date: 2026-05-30
+    ticker: BNTX
+    event: "Pumitamig ROSETTA Lung-02 Phase 2/3 1L NSCLC + gotistobart Phase 2 PROC OS ASCO 2026 두 개 oral"
+    type: Conference
+    company: BioNTech
+    drug: Pumitamig + Gotistobart
+    indication: 1L NSCLC (squamous + non-squamous) + Platinum-Resistant Ovarian Cancer
+    phase: Phase 2/3
+    conferenceId: asco
+    trialDesign: "Pumitamig (PD-L1 × VEGF 이중특이) ROSETTA Lung-02 Phase 2/3 1L NSCLC + chemo — anti-tumor activity oral. Gotistobart (CTLA-4 conditional active) Phase 2 PROC — OS data oral. ASCO 2026 두 개 oral"
+    targetDisease: "1L NSCLC: PD-1/L1 + chemo 표준 후 EGFR/ALK wild-type CR 한정 — PD-L1 × VEGF 이중표적으로 면역활성화 + 혈관신생 동시 차단. PROC: 백금 저항성 난소암 mOS <12개월 — CTLA-4 종양국소 활성으로 systemic AE 감소"
+    moa: "Pumitamig: PD-L1 × VEGF 이중특이항체. Gotistobart: conditional-active anti-CTLA-4 (종양 미세환경에서만 활성화)"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/22/3299948/0/en/biontech-to-showcase-progress-across-late-stage-oncology-pipeline-at-the-2026-asco-annual-meeting.html
+      - https://www.biospace.com/press-releases/biontech-to-showcase-progress-across-late-stage-oncology-pipeline-at-the-2026-asco-annual-meeting
+  - date: 2026-05-31
+    ticker: MRK
+    event: "KEYTRUDA + Trodelvy (sacituzumab govitecan) ASCENT-04/KEYNOTE-D19 Phase 3 1L PD-L1+ mTNBC ASCO 2026 LBA1000 (Gilead 공동 후원)"
+    type: Conference
+    company: Merck
+    drug: Pembrolizumab + Sacituzumab Govitecan
+    indication: 1L PD-L1+ Metastatic TNBC
+    phase: Phase 3
+    conferenceId: asco
+    trialDesign: "ASCENT-04/KEYNOTE-D19 Phase 3 — pembrolizumab + sacituzumab govitecan vs pembrolizumab + chemo. CPS ≥10 PD-L1+ 1L mTNBC. Primary PFS — LBA1000 ASCO 2026"
+    targetDisease: "1L PD-L1+ 전이성 삼중음성 유방암. KEYNOTE-355 표준 pembrolizumab + chemo 한계 — ADC 병용으로 PFS 추가 개선 입증 목적"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05382299
+    moa: "Pembrolizumab (PD-1 차단 면역관문) + Sacituzumab govitecan (Trop-2 표적 ADC, SN-38 페이로드). 면역활성화 + 직접 종양 사멸 이중 기전"
+    sources:
+      - https://www.merck.com/news/merck-highlights-new-long-term-data-and-advancements-across-broad-oncology-portfolio-and-pipeline-research-at-asco-2026/
+      - https://www.businesswire.com/news/home/20260520344508/en/New-ASCO-and-EHA-2026-Data-Demonstrate-Gilead-and-Kites-Momentum-Across-Antibody-Drug-Conjugates-and-Cell-Therapy-in-Oncology
+  - date: 2026-05-31
+    ticker: BMY
+    event: "Mezigdomide (CELMoD) SUCCESSOR-2 Phase 3 R/R MM ASCO 2026 late-breaker — Pomalyst follow-on 핵심 파이프라인"
+    type: Conference
+    company: Bristol Myers Squibb
+    drug: Mezigdomide
+    indication: Relapsed/Refractory Multiple Myeloma
+    phase: Phase 3
+    conferenceId: asco
+    trialDesign: "SUCCESSOR-2 Phase 3: mezigdomide + dexamethasone vs pomalidomide + dexamethasone (또는 표준). R/R MM, lenalidomide refractory 포함. ASCO 2026 LBA"
+    targetDisease: "재발/불응성 다발골수종. lenalidomide refractory 후 pomalidomide 표준 — 효과 제한적 (mPFS ~4개월). CELMoD는 차세대 분해제로 더 깊은 cereblon 결합 → 항종양 활성 ↑"
+    moa: "차세대 CELMoD (cereblon E3 ligase modulator). Aiolos/Ikaros 분해 효율 ↑ → 골수종세포 사멸 + 면역활성화 (Pomalyst·Revlimid 후속)"
+    sources:
+      - https://www.businesswire.com/news/home/20260521520759/en/Bristol-Myers-Squibb-to-Unveil-New-Data-at-ASCO-2026-Demonstrating-Strength-and-Breadth-of-Scientific-Innovation-Across-Oncology-Portfolio-and-Next-Generation-Pipeline
+  - date: 2026-06-01
+    ticker: MRNA
+    event: "Intismeran autogene (mRNA-4157) + KEYTRUDA KEYNOTE-942 adjuvant high-risk melanoma 5-year update ASCO 2026 oral (#9500)"
+    type: Conference
+    company: Moderna
+    drug: Intismeran Autogene (mRNA-4157)
+    indication: Adjuvant Resected High-Risk Melanoma
+    phase: Phase 2
+    conferenceId: asco
+    trialDesign: "KEYNOTE-942 Phase 2b randomized: 절제 후 III/IV melanoma 환자 intismeran autogene (개인화 neoantigen mRNA) + pembrolizumab vs pembrolizumab 단독. Primary RFS, 5-year landmark RFS·OS oral #9500. Phase 3 INTerpath-001 confirmatory 진행 중"
+    targetDisease: "고위험 절제 후 melanoma (Stage IIIB-IV). pembrolizumab adjuvant 표준 — 5년 재발률 여전히 ~30%. 개인화 neoantigen 백신으로 추가 재발 감소 입증"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT03897881
+    moa: "환자별 종양 변이 기반 개인화 mRNA neoantigen 백신 (최대 34개 neoantigen 인코딩). KEYTRUDA와 시너지 — tumor-specific T cell priming + checkpoint 차단"
+    sources:
+      - https://www.biospace.com/press-releases/moderna-announces-data-to-be-presented-at-2026-asco-annual-meeting
+      - https://www.merck.com/news/merck-highlights-new-long-term-data-and-advancements-across-broad-oncology-portfolio-and-pipeline-research-at-asco-2026/
+  - date: 2026-06-01
+    ticker: BCYC
+    event: "Zelenectide pevedotin (BT8009) + pembrolizumab Duravelo-2 Phase 2/3 1L la/mUC interim ASCO 2026 rapid oral (#4516)"
+    type: Conference
+    company: Bicycle Therapeutics
+    drug: Zelenectide Pevedotin (BT8009)
+    indication: 1L Locally Advanced / Metastatic Urothelial Cancer
+    phase: Phase 2/3
+    conferenceId: asco
+    trialDesign: "Duravelo-2 (BT8009-230) Phase 2/3 open-label, 1L la/mUC. BT8009 + pembrolizumab 병용. 단독요법 65% ORR 기준 병용 ORR·DOR 평가. ASCO 2026 rapid oral #4516"
+    targetDisease: "1L 진행성/전이성 요로상피암. cisplatin-ineligible 환자 대상 EV+pembrolizumab 표준 — 신규 Nectin-4 표적 옵션 확대 목적"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT06225596
+    moa: "Nectin-4 표적 bicyclic peptide–MMAE conjugate(BTC). 작은 분자량(~5kDa)으로 ADC(150kDa) 대비 빠른 종양 침투·낮은 독성"
+    sources:
+      - https://investors.bicycletherapeutics.com/news-releases/news-release-details/bicycle-therapeutics-announces-oral-and-poster-presentations-0
+  - date: 2026-06-14
+    ticker: KURA
+    event: "KOMET-007 ziftomenib + 7+3 frontline AML EHA 2026 oral — 99 환자 업데이트, 90~96% CRc (NPM1m/KMT2A-r)"
+    type: Conference
+    company: Kura Oncology
+    drug: Ziftomenib
+    indication: 1L NPM1-mutant or KMT2A-rearranged AML (combo with 7+3)
+    phase: Phase 1
+    conferenceId: eha
+    trialDesign: "KOMET-007 Phase 1 dose-escalation/expansion: ziftomenib + 7+3 (cytarabine + daunorubicin) frontline fit AML. 99 환자 update — NPM1m/KMT2A-r 코호트 CRc 90~96% (deep MRD-negativity). Kyowa Kirin 공동개발"
+    targetDisease: "1L fit AML (NPM1m 약 30%, KMT2A-r 약 5%). 7+3 단독 CR 약 65% — menin 억제로 차별화된 분화·증식 차단 → 더 깊은 분자생물학적 반응"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04067336
+    moa: "Menin-KMT2A 상호작용 선택적 억제. NPM1m·KMT2A-r AML의 HOX/MEIS1 oncogenic 전사 차단 → 분화 회복"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/12/3293020/35186/en/Kura-Oncology-and-Kyowa-Kirin-to-Present-Updated-Frontline-Ziftomenib-7-3-Combination-Data-at-EHA-2026-Congress.html
+  - date: 2026-06-18
+    ticker: MRNA
+    event: "MFLUSIVA (mRNA-1010) 독감백신 VRBPAC 자문위 — 50세+ 적응증, FDA 결정 8/5 예정"
+    type: Regulatory
+    company: Moderna
+    drug: MFLUSIVA (mRNA-1010)
+    indication: Seasonal Influenza A/B Prevention (Adults ≥50)
+    phase: BLA
+    trialDesign: "Phase 3 P304 — mRNA-1010 vs licensed standard-dose IIV4 in 50+ adults. HAI seroresponse 4 strain 모두 비열등성 충족, 65+ 서브그룹 A 균주 면역원성 우월. BLA STN 125869/0 VRBPAC 6/18, FDA 결정 8/5 예정"
+    targetDisease: "50세+ 성인 계절 독감. 미국 12,000~52,000명/년 사망 — 기존 egg-based 백신 효능 제한, 균주 매치 6개월 소요. mRNA 플랫폼은 신속 균주 업데이트 가능"
+    priorTrialUrl: https://www.federalregister.gov/documents/2026/05/22/2026-10321/vaccines-and-related-biological-products-advisory-committee-notice-of-meeting-establishment-of-a
+    moa: "지질나노입자(LNP) 캡슐화 mRNA 백신 — 4개 인플루엔자 균주(A H1N1·H3N2 + B Victoria·Yamagata) hemagglutinin 인코딩"
+    sources:
+      - https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-june-18-2026-meeting-announcement
+      - https://www.biospace.com/fda/modernas-once-rebuffed-mrna-flu-shot-to-face-scrutiny-from-fda-adcomm
+  - date: 2026-07-26
+    ticker: MNKD
+    event: "FUROSCIX ReadyFlow 자가주사기 sNDA PDUFA — 만성 HF/CKD 부종 자가 SC 투여"
+    type: PDUFA
+    company: MannKind
+    drug: FUROSCIX ReadyFlow (SC furosemide autoinjector, SCP-111)
+    indication: Edema in Chronic Heart Failure (NYHA II-IV) or CKD
+    phase: sNDA
+    trialDesign: "Bioequivalence/PK study vs 기존 승인 FUROSCIX On-body Infusor. SCP-111 — bioavailability 107.3%, SC delivery <10초, AE 주사부위에 한정. Q2 2026 sNDA 제출 → PDUFA 2026-07-26"
+    targetDisease: "만성 HF / CKD 부종. 기존 IV furosemide는 ER/입원 의존 — 자가주사기로 외래·재택 decongestion 가능 → 입원 부담 감소"
+    priorTrialUrl: https://investors.mannkindcorp.com/news-releases/news-release-details/mannkind-announces-us-fda-accepts-review-its-supplemental-new
+    moa: "Loop diuretic (Na-K-2Cl symporter 억제, Henle 두꺼운 상행각). 자가주사기 SC 투여로 IV 동등 약동학"
+    sources:
+      - https://investors.mannkindcorp.com/news-releases/news-release-details/mannkind-announces-us-fda-accepts-review-its-supplemental-new
 ```

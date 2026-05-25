@@ -43,6 +43,28 @@ ticker별 단순 "{ticker} {company} news" 만 던지면 **학회 abstract accep
 - `globenewswire.com`, `businesswire.com`, `prnewswire.com`
 - `biopharmadive.com`, `fiercebiotech.com`, `endpts.com`, `biospace.com`
 - 학회 공식 프로그램 페이지
+- shared-data 텔레그램 본문에 포함된 외부 링크 (한국 매체: thepharmanews, biospectator 등)
+
+### Step 1.5 — shared-data 텔레그램 우선 검색 (Tier B/C/D)
+
+`shared-data/raw/*.jsonl`에 누적된 한국어 biotech 텔레그램 뉴스(biospectator·bbainsights·biomomentoncology 등)를 web search 전에 먼저 훑는다. Tier B/C/D agent를 spawn하기 직전에:
+
+```bash
+cd "../scrapers"
+./.venv/Scripts/python.exe search_news.py "<TICKER>|<회사명>|<한글명>" --since <오늘-30일> --limit 30
+```
+
+- **Tier B (추적 종목 뉴스)**: ticker pool 각 종목에 대해 7일 윈도우로 search — 한 번에 10~15개 ticker씩 OR로 묶어 (`"VRTX|LLY|JNJ|..."`) 호출하면 효율적.
+- **Tier C (신규 PDUFA/임상)**: `"PDUFA|FDA approval|허가|승인|3상 성공"` 키워드 + 30일 윈도우.
+- **Tier D (학회 발표)**: 임박 학회명·약어 + 30일 윈도우.
+- **Tier A (카탈리스트 후속)**: catalysts.md의 임박 항목 ticker로 14일 윈도우 search.
+
+검색 결과는 각 Tier agent에게 컨텍스트로 그대로 전달 (URL·날짜 포함). agent는:
+1. shared-data 결과를 1차 후보로 검토 (텔레그램 메시지의 외부 링크 = 1차 출처)
+2. 부족한 부분만 web search로 보강
+3. `sources` 필드에는 텔레그램 본문에 포함된 외부 URL을 사용 (`t.me/...` 자체는 출처 X — 어디까지나 인덱스)
+
+shared-data가 0건이거나 관련 메시지 없으면 그대로 web search로 진행 (스크립트는 exit 1, 워크플로 중단 X).
 
 ### Step 2 — 병렬 리서치
 

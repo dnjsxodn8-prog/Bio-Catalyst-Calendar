@@ -6,10 +6,11 @@ modality: Gene Therapy
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-05-02
+verified: 2026-05-24
 sources:
   - https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-receives-fda-regenerative-medicine-advanced
   - https://ir.candeltx.com/news-releases/news-release-details/candel-therapeutics-presents-positive-phase-3-can-2409-results/
+  - https://www.biospace.com/press-releases/candel-therapeutics-announces-commercialization-agreement-with-eversana-to-support-potential-u-s-launch-of-aglatimagene-besadenovec-in-localized-prostate-cancer
 ---
 
 # Candel Therapeutics (CADL)
@@ -34,7 +35,8 @@ Phase 3 성공 + RMAT 지정으로 BLA 제출 경로가 명확하며 2026 Q4 제
 중·고위험 국소 전립선암 (방사선 병용), 재발성 고등급 신경교종
 
 ## 파트너
-정보 미입력
+- **EVERSANA** (2026-04-29 product commercialization agreement — 미국 aglatimagene(CAN-2409) 전립선암 런칭 지원: 데이터·analytics·medical affairs·market access·field operations 통합. Q4 2026 BLA 제출 전 인프라 확보)
+- IDEA Pharma (SAI MedPartners): path-to-market 전략·포지셔닝 컨설팅
 
 ## 매출 구조
 매출 없음
