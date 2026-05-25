@@ -36,7 +36,7 @@ async function loadDotEnv() {
 
 // ─── args ───────────────────────────────────────────────
 function parseArgs(argv) {
-  const args = { blogUrl: null, dryRun: false, since: 'HEAD', summaryOnly: false, days: null, from: null, to: null };
+  const args = { blogUrl: null, dryRun: false, since: 'HEAD', summaryOnly: false, days: null, from: null, to: null, tickers: null, closingNote: null };
   const ymdRe = /^\d{4}-\d{2}-\d{2}$/;
   for (const a of argv.slice(2)) {
     if (a === '--dry-run') args.dryRun = true;
@@ -57,11 +57,19 @@ function parseArgs(argv) {
       if (!ymdRe.test(v)) throw new Error(`--to는 YYYY-MM-DD 형식: ${a}`);
       args.to = v;
     }
+    else if (a.startsWith('--tickers=')) {
+      const v = a.slice('--tickers='.length).trim();
+      if (!v) throw new Error('--tickers 값 필요 (콤마 구분, 예: --tickers=LLY,JNJ,MRK)');
+      args.tickers = new Set(v.split(',').map(s => s.trim().toUpperCase()).filter(Boolean));
+    }
+    else if (a.startsWith('--closing-note=')) {
+      args.closingNote = a.slice('--closing-note='.length);
+    }
     else if (!a.startsWith('--') && !args.blogUrl) args.blogUrl = a;
     else throw new Error(`알 수 없는 인자: ${a}`);
   }
   if (!args.blogUrl) {
-    throw new Error('blog_url 인자 필요. 사용법: node scripts/export-telegram.mjs <blog_url> [--dry-run] [--since=<ref>] [--summary-only] [--days=N] [--from=YYYY-MM-DD --to=YYYY-MM-DD]');
+    throw new Error('blog_url 인자 필요. 사용법: node scripts/export-telegram.mjs <blog_url> [--dry-run] [--since=<ref>] [--summary-only] [--days=N] [--from=YYYY-MM-DD --to=YYYY-MM-DD] [--tickers=A,B,C]');
   }
   if ((args.from && !args.to) || (!args.from && args.to)) {
     throw new Error('--from / --to는 함께 사용해야 함');
@@ -252,8 +260,9 @@ function buildIntro() {
   ].join('\n');
 }
 
-function buildClosing(blogUrl) {
-  return `자세한 내용은 블로그 참고해 주세요!\n${blogUrl}`;
+function buildClosing(blogUrl, note) {
+  const prefix = note ? `${note}\n` : '';
+  return `${prefix}자세한 내용은 블로그 참고해 주세요!\n${blogUrl}`;
 }
 
 function buildDetail(event) {
@@ -372,6 +381,17 @@ async function main() {
     }
   }
 
+  // --tickers 필터: 위 모드 결과에 ticker whitelist 적용
+  if (args.tickers) {
+    const before = added.length;
+    added = added.filter(e => args.tickers.has(String(e.ticker).toUpperCase()));
+    console.error(`🎯 --tickers=${[...args.tickers].join(',')}: ${before}건 → ${added.length}건`);
+    if (added.length === 0) {
+      console.error(`⚠️  ticker 필터 후 남은 events 없음. 종료.`);
+      process.exit(0);
+    }
+  }
+
   for (const e of added) await loadCompany(e.ticker);
 
   // 누락 필드 경고
@@ -401,7 +421,7 @@ async function main() {
   }
 
   const intro = buildIntro();
-  const closing = buildClosing(args.blogUrl);
+  const closing = buildClosing(args.blogUrl, args.closingNote);
   const all = [
     { text: intro, preview: true },
     ...summaryChunks.map(t => ({ text: t, preview: false })),

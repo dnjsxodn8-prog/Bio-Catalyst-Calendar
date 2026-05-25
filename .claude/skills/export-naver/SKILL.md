@@ -55,6 +55,7 @@ node scripts/build-naver-export.mjs
 - git commit / push X
 - 브라우저 자동 열기 X
 - 외부 API 호출 X
+- **company sources(URL 목록) HTML에 포함 X** (사용자 결정 2026-05-25 — 네이버 본문에 출처 줄 노출 안 함)
 
 ## 함정
 

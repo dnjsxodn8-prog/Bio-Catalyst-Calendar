@@ -230,6 +230,10 @@ events:
     indication: Metastatic Pancreatic Cancer
     phase: Phase 3
     conferenceId: asco
+    trialDesign: "RASolute 302 (NCT06625320) 글로벌 무작위배정 open-label Phase 3 (n=460). previously treated KRAS G12 변이 mPDAC 환자 — daraxonrasib 300mg QD 단독 vs 항암화학 표준치료 (irinotecan- 또는 oxaliplatin-based). Primary OS. 사전 topline (NDA 사전 분석): mOS 13.2 vs 6.7개월 (HR 0.40, p<0.0001). ASCO 2026 Plenary LBA confirmatory presentation"
+    targetDisease: "전이성 췌장선암 (mPDAC) 2L+. KRAS G12 변이가 약 90% — 1L gemcitabine/FOLFIRINOX 진행 후 표준 2L 옵션 부재. mOS 6개월 미만의 최악 예후 — RAS 직접 표적은 다중 G12 변이 커버하는 첫 옵션"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT06625320
+    moa: "RAS(ON) multi-selective 억제제. KRAS G12 활성형(GTP-bound) + cyclophilin A 복합체 직접 결합 → RAS-effector 결합 차단 → MAPK/PI3K 신호 억제 (first-in-class)"
     sources:
       - https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-present-pivotal-phase-3-rasolute-302
       - https://www.globenewswire.com/news-release/2026/04/21/3278211/0/en/Revolution-Medicines-to-Present-Pivotal-Phase-3-RASolute-302-Clinical-Trial-Results-for-Daraxonrasib-in-Previously-Treated-Metastatic-Pancreatic-Cancer-During-a-Plenary-Session-at-.html
@@ -242,6 +246,10 @@ events:
     indication: 1L Squamous NSCLC
     phase: Phase 3
     conferenceId: asco
+    trialDesign: "HARMONi-6 (NCT05840016) 중국 다기관 무작위 이중맹검 Phase 3 (n=~530, Akeso 후원). 1L 진행성 squamous NSCLC — ivonescimab + carboplatin/paclitaxel vs tislelizumab(PD-1) + carboplatin/paclitaxel. Primary PFS (BICR). 2025-09 topline PFS 우월성 충족. ASCO 2026 Plenary LBA에서 OS 데이터 + 상세 발표"
+    targetDisease: "1L 진행성/전이성 편평 비소세포폐암(sq-NSCLC). 미국 신규 NSCLC ~22만명/년 중 squamous 약 25~30%. pembrolizumab + chemo 표준에도 mPFS 6~8개월 한계 — PD-1 단독 대비 PD-1 × VEGF 이중차단 우월성 입증 첫 head-to-head"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05840016
+    moa: "PD-1 × VEGF 이중특이항체. PD-1 차단으로 T세포 면역 활성화 + VEGF 차단으로 종양 혈관신생 억제·면역억제 TME 정상화 — 단일 분자로 두 경로 동시 차단"
     sources:
       - https://oncodaily.com/oncolibrary/asco-2026-plenary-session-key-trials
       - https://www.gurufocus.com/news/8806712/positive-outlook-for-summit-therapeutics-smmt-following-asco-plenary-selection

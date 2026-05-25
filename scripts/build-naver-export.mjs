@@ -377,22 +377,9 @@ function renderCatalyst(c, company) {
 </div>`
     : '';
 
-  // Sources
-  const sources = Array.isArray(company.sources) ? company.sources : [];
-  const sourcesBlock = sources.length
-    ? `
-<div style="margin:14px 0 8px 0;font-size:12px;color:${COLORS.muted};line-height:1.7;">
-  <span style="text-transform:uppercase;letter-spacing:0.06em;font-weight:700;margin-right:8px;">Sources</span>
-  ${sources
-    .map(
-      (u) =>
-        `<a href="${escapeHtml(u)}" style="color:${COLORS.link};text-decoration:underline;margin-right:10px;word-break:break-all;">${escapeHtml(u)}</a>`,
-    )
-    .join('')}
-</div>`
-    : '';
+  // Sources 출력 생략 (사용자 결정 2026-05-25 — 네이버 export는 본문만)
 
-  return tickerLine + meta + profileSection + clinicalSection + drugSection + memoSection + sourcesBlock;
+  return tickerLine + meta + profileSection + clinicalSection + drugSection + memoSection;
 }
 
 function renderDocument(items, companiesMap, baseT) {
