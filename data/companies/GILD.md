@@ -8,12 +8,13 @@ areas:
   - Immunology
   - Infectious Disease
 nextCatalyst: 2026-06-30
-verified: 2026-05-18
+verified: 2026-05-31
 sources:
   - https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx
   - https://www.gilead.com/science-and-medicine/pipeline
   - https://clinicaltrials.gov/study/NCT04434040
   - https://www.businesswire.com/news/home/20260427408690/en/Gilead-Sciences-Completes-Acquisition-of-Arcellx-Ahead-of-Potential-Commercial-Launch-of-Anito-cel
+  - https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Completes-Acquisition-of-Tubulis-Further-Strengthening-Oncology-Portfolio/default.aspx
 ---
 
 # Gilead Sciences (GILD)
@@ -40,6 +41,7 @@ Infectious Disease (HIV, HCV, HBV), Oncology, Immunology
 
 ## 파트너
 - Arcellx (CAR-T — anito-cel)
+- Tubulis (독일 ADC — 인수 완료 2026-05-21, $3.15B + 마일스톤 $1.85B; 차세대 ADC 플랫폼 + TUB-040(NaPi2b, 백금저항성 난소암)/TUB-030(5T4))
 - Kymera Therapeutics (표적단백질분해)
 - Assembly Biosciences (HBV)
 - Merck (연구 협력)

@@ -6,15 +6,17 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-09-18
-verified: 2026-05-02
-sources: []
+verified: 2026-05-31
+sources:
+  - https://investors.nuvalent.com/2026-04-07-Nuvalent-Announces-Submission-of-New-Drug-Application-to-FDA-for-Neladalkib-in-TKI-Pre-treated-Advanced-ALK-positive-NSCLC
+  - https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC
 ---
 
 # Nuvalent (NUVL)
 
 ## 카탈리스트
 - Zidesamtinib ROS1 NSCLC PDUFA — **2026-09-18** (NDA FDA accepted 2025-11)
-- Neladalkib (ALK) ALKOVE-1 Phase 1/2 pivotal data — 2026 예상
+- Neladalkib ALK+ NSCLC PDUFA — **2026-11-27** (NDA 2026-04-07 제출, 2026-05-27 FDA 수락 + Priority Review; ALKOVE-1 Phase 1/2 pivotal)
 
 ## 회사 개요
 정밀 종양 소분자. Structure-based design으로 ALK/ROS1/HER2 차세대 selective inhibitor 개발. Zidesamtinib(ROS1 NDA), Neladalkib(ALK Phase 3).

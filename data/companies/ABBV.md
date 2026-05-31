@@ -8,11 +8,13 @@ areas:
   - Oncology
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-05-07
+verified: 2026-05-31
 sources:
   - https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results
   - https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-third-quarter-2025-financial-results
   - https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-first-quarter-2026-financial-results
+  - https://news.abbvie.com/2026-05-27-U-S-FDA-Approves-DECNUPAZTM-pivekimab-sunirine-pvzy-for-Treatment-of-Adult-Patients-with-Blastic-Plasmacytoid-Dendritic-Cell-Neoplasm,-an-Ultra-Rare-and-Aggressive-Blood-Cancer-With-Limited-Treatment-Options
+  - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pivekimab-sunirine-pvzy-blastic-plasmacytoid-dendritic-cell-neoplasm-ultra-rare
 ---
 
 # AbbVie (ABBV)
@@ -51,6 +53,8 @@ FY2025 $61.2B (Skyrizi $17.56B, Rinvoq $8.30B). **Q1 2026 매출 $15.0B (+12.4% 
 
 ## 상업화 제품
 Skyrizi, Rinvoq, Humira, Botox(Therapeutic·Cosmetic), Vraylar, Imbruvica, Venclexta, Elahere, Juvederm, Ubrelvy, Qulipta, Mavyret, Vyalev 등
+
+**DECNUPAZ (pivekimab sunirine-pvzy)** — 2026-05-27 FDA 승인. CD123 표적 ADC, 성인 BPDCN(모구성 형질세포양 수지상세포 종양, ultra-rare 공격성 혈액암) 치료. AbbVie 첫 혈액암 ADC이자 BPDCN 최초 ADC (CADENZA Phase 1/2 기반).
 
 ## 임상 디자인
 정보 미입력 (빅파마 다파이프라인 — 단일 리드 임상 디자인 해당 없음)

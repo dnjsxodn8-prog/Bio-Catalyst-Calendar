@@ -145,8 +145,8 @@ conferences:
     notes: 내분비학. obesity·당뇨·갑상선·부신 등
   - id: ada
     name: ADA Scientific Sessions 2026
-    dates: 2026-06-19 to 2026-06-22
-    location: Chicago, IL
+    dates: 2026-06-05 to 2026-06-08
+    location: New Orleans, LA
     areas:
       - Obesity/Metabolic
     tier: Tier 1

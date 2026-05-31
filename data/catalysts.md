@@ -739,7 +739,7 @@ events:
       - https://www.eisai.com/news/2026/news202605.html
   - date: 2026-05-27
     ticker: MDGL
-    event: Rezdiffra (resmetirom) MAESTRO 데이터 EASL 2026 late-breaking + 10 abstracts (MetALD, AI 분석, NIT/QoL 3yr)
+    event: "Rezdiffra (resmetirom) EASL 2026 발표 (MetALD MASH resolution 29%/35% ≈ NASH; 보상성 간경변 2yr 섬유화·문맥압 개선)"
     type: Conference
     company: Madrigal Pharmaceuticals
     drug: Rezdiffra (resmetirom)
@@ -751,10 +751,10 @@ events:
     priorTrialUrl: https://clinicaltrials.gov/study/NCT03900429
     moa: "THR-β 선택적 작용제. 간 갑상선호르몬 신호 활성화 → 지방산화·콜레스테롤 대사 개선 → MASH 섬유화 역전"
     sources:
-      - https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-present-late-breaking-resmetirom-data-patients
+      - https://ir.madrigalpharma.com/news-releases/news-release-details/madrigal-pharmaceuticals-announces-new-data-phase-3-maestro-nash
   - date: 2026-05-30
     ticker: REPL
-    event: RP1 + nivolumab IGNYTE 3-year landmark OS ASCO 2026 melanoma rapid oral
+    event: "RP1 + nivolumab IGNYTE 3yr landmark OS ASCO 2026 oral (Positive — mOS 32.9mo, 3yr OS 47.8%/반응자 83.5%, ORR 33.6%, mDOR 24.8mo)"
     type: Conference
     company: Replimune
     drug: RP1 (vusolimogene oderparepvec) + nivolumab
@@ -766,7 +766,7 @@ events:
     priorTrialUrl: https://clinicaltrials.gov/study/NCT03767348
     moa: "HSV-1 기반 oncolytic virus (GM-CSF + GALV-GP R- 발현). 종양 직접 용해 + tumor antigen presentation → 면역체크포인트 시너지"
     sources:
-      - https://www.globenewswire.com/news-release/2026/04/27/3281576/0/en/replimune-to-present-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting.html
+      - https://www.globenewswire.com/news-release/2026/05/30/3303875/0/en/Replimune-Presents-3-Year-Landmark-Overall-Survival-Analysis-from-IGNYTE-Clinical-Trial-During-Oral-Presentation-at-the-2026-American-Society-of-Clinical-Oncology-Annual-Meeting.html
   - date: 2026-05-31
     ticker: LLY
     event: Selpercatinib LIBRETTO-432 Phase 3 ASCO 2026 Plenary LBA3 (RET+ NSCLC adjuvant, EFS primary endpoint met)
@@ -1014,7 +1014,7 @@ events:
       - https://www.stocktitan.net/news/BMRN/bio-marin-announces-positive-phase-3-pivotal-study-results-for-fw8a1yyi42bo.html
   - date: 2026-05-29
     ticker: ALT
-    event: "Pemvidutide IMPACT Phase 2b 48주 MASH EASL 2026 oral (Best of EASL 선정) + multiple late-breaking posters"
+    event: "Pemvidutide IMPACT Phase 2b 48주 MASH EASL 2026 Best of EASL oral (fibrosis composite 27.8%/32.4% vs 위약 3.2%; 72주 biopsy primary 별도)"
     type: Conference
     company: Altimmune
     drug: Pemvidutide
@@ -1026,7 +1026,7 @@ events:
     priorTrialUrl: https://clinicaltrials.gov/study/NCT05989711
     moa: "GLP-1/glucagon dual agonist. 체중감량 + 직접 간내 지질대사·섬유화 개선 이중 기전"
     sources:
-      - https://www.globenewswire.com/news-release/2026/05/13/3293871/0/en/Altimmune-to-Present-Results-of-Pemvidutide-in-MASH-in-an-Oral-Presentation-and-Multiple-Poster-Presentations-at-EASL-Congress-2026.html
+      - https://www.globenewswire.com/news-release/2026/05/28/3303064/0/en/Pemvidutide-Demonstrates-Significant-Metabolic-Improvements-in-Patients-with-MASH-in-New-48-Week-IMPACT-Phase-2b-Data-Presented-at-EASL-2026.html
   - date: 2026-05-29
     ticker: ARWR
     event: "ARO-INHBE Phase 1 비만 간지방 (단독 + low-dose tirzepatide 병용) EASL 2026 late-breaker poster"
@@ -1104,18 +1104,18 @@ events:
       - https://www.businesswire.com/news/home/20260520344508/en/New-ASCO-and-EHA-2026-Data-Demonstrate-Gilead-and-Kites-Momentum-Across-Antibody-Drug-Conjugates-and-Cell-Therapy-in-Oncology
   - date: 2026-05-31
     ticker: BMY
-    event: "Mezigdomide (CELMoD) SUCCESSOR-2 Phase 3 R/R MM ASCO 2026 late-breaker — Pomalyst follow-on 핵심 파이프라인"
+    event: "Mezigdomide SUCCESSOR-2 Phase 3 R/R MM ASCO 2026 LBA7506 (Positive — MeziKd vs Kd mPFS 18 vs 8.3mo HR 0.48 p<0.0001, ORR 80.2% vs 53.4%)"
     type: Conference
     company: Bristol Myers Squibb
     drug: Mezigdomide
     indication: Relapsed/Refractory Multiple Myeloma
     phase: Phase 3
     conferenceId: asco
-    trialDesign: "SUCCESSOR-2 Phase 3: mezigdomide + dexamethasone vs pomalidomide + dexamethasone (또는 표준). R/R MM, lenalidomide refractory 포함. ASCO 2026 LBA"
+    trialDesign: "SUCCESSOR-2 Phase 3 (n=479): mezigdomide+carfilzomib+dex(MeziKd, n=288) vs carfilzomib+dex(Kd, n=191). R/R MM. mPFS 18 vs 8.3개월 HR 0.48 p<0.0001(52% 위험감소), ORR 80.2% vs 53.4%, ≥CR 26.7% vs 8.9%. OS immature. ASCO 2026 LBA7506"
     targetDisease: "재발/불응성 다발골수종. lenalidomide refractory 후 pomalidomide 표준 — 효과 제한적 (mPFS ~4개월). CELMoD는 차세대 분해제로 더 깊은 cereblon 결합 → 항종양 활성 ↑"
     moa: "차세대 CELMoD (cereblon E3 ligase modulator). Aiolos/Ikaros 분해 효율 ↑ → 골수종세포 사멸 + 면역활성화 (Pomalyst·Revlimid 후속)"
     sources:
-      - https://www.businesswire.com/news/home/20260521520759/en/Bristol-Myers-Squibb-to-Unveil-New-Data-at-ASCO-2026-Demonstrating-Strength-and-Breadth-of-Scientific-Innovation-Across-Oncology-Portfolio-and-Next-Generation-Pipeline
+      - https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-Announces-CELMoD-Mezigdomide-Reduces-Risk-of-Disease-Progression-or-Death-by-More-than-50-vs--Standard-of-Care-in-Relapsed-or-Refractory-Multiple-Myeloma/default.aspx
   - date: 2026-06-01
     ticker: MRNA
     event: "Intismeran autogene (mRNA-4157) + KEYTRUDA KEYNOTE-942 adjuvant high-risk melanoma 5-year update ASCO 2026 oral (#9500)"
@@ -1191,4 +1191,77 @@ events:
     moa: "Loop diuretic (Na-K-2Cl symporter 억제, Henle 두꺼운 상행각). 자가주사기 SC 투여로 IV 동등 약동학"
     sources:
       - https://investors.mannkindcorp.com/news-releases/news-release-details/mannkind-announces-us-fda-accepts-review-its-supplemental-new
+  - date: 2026-06-04
+    ticker: CABA
+    event: "Rese-cel RESET-Myositis Ph1/2 장기추적 EULAR 2026 oral (OP0170) + SLE/SSc 코호트"
+    type: Conference
+    company: Cabaletta Bio
+    drug: Rese-cel (resecabtagene autoleucel, CABA-201)
+    indication: Idiopathic Inflammatory Myopathy (Myositis)
+    phase: Phase 1/2
+    conferenceId: eular
+    trialDesign: "RESET-Myositis Phase 1/2 (NCT06154252) open-label — 성인 피부근염(DM)·항합성효소증후군(ASyS) 코호트. 자가 CD19 CAR-T 단회 투여. RESET-SLE(NCT05765006)·RESET-SSc 전체 코호트 동시 공개. EULAR 2026 OP0170 (6/4 09:15 BST). 2nd pivotal indication(outpatient dosing) 결정 예정"
+    targetDisease: "특발성 염증성 근병증(IIM/Myositis). 항합성효소항체 또는 항MDA5 항체 양성 DM/ASyS — 만성 면역억제 불응 중증 자가면역 근육질환"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT06154252
+    moa: "완전인간 자가 4-1BB CD19 CAR-T. CD19+ B세포 심부 일시 고갈 → 면역계 리셋, 만성 면역억제 없이 지속 관해 목표"
+    sources:
+      - https://www.cabalettabio.com/investors/news-events/press-releases/detail/148/cabaletta-bio-reports-first-quarter-2026-financial-results
+  - date: 2026-06-05
+    ticker: GPCR
+    event: "Aleniglipron ACCESS Phase 2b 비만 ADA 2026 oral (36주 위약보정 -11.3% 체중)"
+    type: Conference
+    company: Structure Therapeutics
+    drug: Aleniglipron (GSBR-1290)
+    indication: Obesity
+    phase: Phase 2b
+    conferenceId: ada
+    trialDesign: "ACCESS Phase 2b 무작위 이중맹검 위약대조 용량탐색 36주 (NCT05811325). Primary 위약보정 체중변화. 120mg QD -11.3%. ACCESS II(44주) 180/240mg -16.3/-16.0%. ADA 2026 oral (6/5 12:45 CT), 총 5개 발표. EoP2 FDA 미팅 Q2 2026, Phase 3 H2 2026 예정"
+    targetDisease: "비만(BMI ≥30 또는 ≥27+동반질환). 경구 GLP-1RA — 주사제 대비 편의성·접근성 개선 목표"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05811325
+    moa: "경구 소분자 비펩타이드 GLP-1 수용체 작용제. 식욕 억제·위배출 지연·인슐린 분비 촉진, 1일 1회 복용"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/27/3282005/0/en/Structure-Therapeutics-to-Present-Aleniglipron-Amylin-and-Combination-Data-at-the-American-Diabetes-Association-86th-Scientific-Sessions.html
+  - date: 2026-06-06
+    ticker: ARTV
+    event: "AlloNK + rituximab 불응성 RA EULAR 2026 Late-Breaking oral (LB0003, 71% ACR50 @6mo)"
+    type: Conference
+    company: Artiva Biotherapeutics
+    drug: AB-101 (AlloNK)
+    indication: Refractory Rheumatoid Arthritis
+    phase: Phase 2a
+    conferenceId: eular
+    trialDesign: "오픈라벨 Phase 2a 바스켓 (NCT06991114) — refractory RA/SjD/IIM/SSc. RA 21명(13명 ≥6개월, 컷오프 2026-04-03). rituximab + AlloNK 단회 IV. Primary ACR50 @6mo 71%, relapse·추가 면역조절제 없음. Phase 3 RCT(vs rituximab, n≈150) H2 2026 개시 예정"
+    targetDisease: "다약제 불응성 류마티스 관절염. 2개 이상 bDMARD·JAKi 실패 환자군 — 심각한 미충족 수요"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT06991114
+    moa: "동종 NK세포(AlloNK) + rituximab. ADCC 증폭으로 CD20+ B세포 심부 고갈 → B세포 주도 자가면역 차단"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/19/3297953/0/en/artiva-biotherapeutics-announces-multiple-allo-nk-data-presentations-at-eular-2026-congress-including-late-breaking-oral-presentation-highlighting-clinical-efficacy-comparable-to-autologous-car-t-cell-therapy-in-rheumatologic-diseases.html
+  - date: 2026-08-23
+    ticker: RARE
+    event: "DTX401 (pariglasgene) GSDIa 유전자치료 BLA PDUFA (Priority Review)"
+    type: PDUFA
+    company: Ultragenyx Pharmaceutical
+    drug: DTX401 (pariglasgene brecaparvovec)
+    indication: Glycogen Storage Disease Type Ia (GSDIa)
+    phase: BLA
+    trialDesign: "Phase 3 GlucoGene (NCT05139316) 위약대조 이중맹검 — 8세+ GSDIa. 1회 IV 후 48주 일일 옥수수전분 섭취량 감소 1차 (DTX401 -41.3% vs 위약 -10.3%). Priority Review BLA 2026-02-23 수락"
+    targetDisease: "GSDIa — G6PC 변이 간형 당원병. 중증 저혈당·간비대·신질환 유발 희귀 유전질환, 현재 승인 치료제 없음"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05139316
+    moa: "AAV8 벡터 1회 IV로 G6PC(포도당-6-인산분해효소) 유전자를 간세포에 전달 → 효소 활성 회복"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/02/23/3242633/20739/en/Ultragenyx-Announces-U-S-FDA-Acceptance-and-Priority-Review-of-the-Biologics-License-Application-BLA-for-DTX401-AAV-Gene-Therapy-for-Glycogen-Storage-Disease-Type-Ia-GSDIa.html
+  - date: 2026-11-27
+    ticker: NUVL
+    event: "Neladalkib ALK+ NSCLC NDA PDUFA (Priority Review, ALKOVE-1 pivotal)"
+    type: PDUFA
+    company: Nuvalent
+    drug: Neladalkib (NVL-655)
+    indication: TKI Pre-treated Advanced ALK-positive NSCLC
+    phase: NDA
+    trialDesign: "ALKOVE-1 global Phase 1/2 (n=253) 기반 NDA — TKI pre-treated ALK+ NSCLC ORR 31%(lorlatinib 경험)/46%(lorlatinib naive). NDA 2026-04-07 제출, 2026-05-27 FDA 수락 + Priority Review → PDUFA 2026-11-27"
+    targetDisease: "진행성 ALK+ NSCLC. 1·2세대 TKI 후 lorlatinib 내성 변이(G1202R) 출현 시 표준치료 한계 — 뇌전이 동반 흔함"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05384626
+    moa: "ALK 선택적·TRK-sparing 3세대 brain-penetrant TKI. 내성 변이 커버 + CNS 침투 + off-target 신경독성 최소"
+    sources:
+      - https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC
 ```
