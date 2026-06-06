@@ -223,7 +223,7 @@ events:
       - https://www.globenewswire.com/news-release/2026/03/09/3251795/0/en/Candel-Therapeutics-To-Present-New-Data-after-Extended-Follow-Up-from-Randomized-Phase-3-Trial-of-Aglatimagene-Besadenovec-in-Localized-Prostate-Cancer-at-the-American-Urological-A.html
   - date: 2026-05-31
     ticker: RVMD
-    event: Daraxonrasib RASolute 302 Phase 3 mPDAC ASCO plenary LBA
+    event: "Daraxonrasib RASolute 302 Phase 3 mPDAC ASCO plenary LBA 발표 (Positive — mOS 13.2 vs 6.7개월 HR 0.40, mPFS 7.2 vs 3.6개월 HR 0.49 p<0.0001; NEJM 동시 게재)"
     type: Conference
     company: Revolution Medicines
     drug: Daraxonrasib (RMC-6236)
@@ -237,9 +237,10 @@ events:
     sources:
       - https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-present-pivotal-phase-3-rasolute-302
       - https://www.globenewswire.com/news-release/2026/04/21/3278211/0/en/Revolution-Medicines-to-Present-Pivotal-Phase-3-RASolute-302-Clinical-Trial-Results-for-Daraxonrasib-in-Previously-Treated-Metastatic-Pancreatic-Cancer-During-a-Plenary-Session-at-.html
+      - https://www.globenewswire.com/news-release/2026/05/31/3303919/0/en/revolution-medicines-announces-asco-plenary-presentation-highlighting-unprecedented-results-from-pivotal-phase-3-rasolute-302-clinical-trial-of-daraxonrasib-in-previously-treated-m.html
   - date: 2026-05-31
     ticker: SMMT
-    event: Ivonescimab HARMONi-6 Phase 3 1L sq-NSCLC ASCO plenary LBA
+    event: "Ivonescimab HARMONi-6 Phase 3 1L sq-NSCLC ASCO plenary LBA 발표 (Positive — mOS 27.9 vs 23.7개월 HR 0.66 p=0.0017, mPFS 11.1 vs 6.9개월 HR 0.60)"
     type: Conference
     company: Summit Therapeutics
     drug: Ivonescimab (SMT112)
@@ -253,9 +254,10 @@ events:
     sources:
       - https://oncodaily.com/oncolibrary/asco-2026-plenary-session-key-trials
       - https://www.gurufocus.com/news/8806712/positive-outlook-for-summit-therapeutics-smmt-following-asco-plenary-selection
+      - https://www.prnewswire.com/news-releases/harmoni-6-demonstrates-significant-overall-survival-benefit-hr0-66-ivonescimab-plus-chemotherapy-superior-to-pd-1-plus-chemotherapy-in-first-line-sq-nsclc-landmark-results-to-be-presented-at-asco-2026-plenary-session-302786433.html
   - date: 2026-06-02
     ticker: COGT
-    event: Bezuclastinib PEAK Phase 3 GIST ASCO oral
+    event: "Bezuclastinib PEAK Phase 3 GIST ASCO oral 발표 (Positive — mPFS 16.5 vs 9.2개월 HR 0.50, ORR 46% vs 26%; sunitinib 병용)"
     type: Conference
     company: Cogent
     drug: Bezuclastinib
@@ -263,9 +265,10 @@ events:
     phase: Phase 3
     sources:
       - https://www.globenewswire.com/news-release/2026/04/21/3277881/0/en/cogent-biosciences-announces-oral-presentation-of-positive-phase-3-peak-trial-in-gastrointestinal-stromal-tumors-gist-at-the-2026-american-society-of-clinical-oncology-asco-annual-.html
+      - https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-reports-positive-results-bezuclastinib-peak
   - date: 2026-06-02
     ticker: INCY
-    event: Tafasitamab Phase 3 ASCO 2026
+    event: "Tafasitamab frontMIND Phase 3 1L 고위험 DLBCL ASCO oral 발표 (Positive — PFS HR 0.75 p=0.019, 2yr PFS 71.1% vs 62.9%, EFS HR 0.79)"
     type: Conference
     company: Incyte
     drug: Tafasitamab
@@ -273,9 +276,10 @@ events:
     phase: Phase 3
     sources:
       - https://www.businesswire.com/news/home/20260421480376/en/Incyte-Highlights-New-Phase-3-Tafasitamab-Data-at-the-2026-American-Society-of-Clinical-Oncology-ASCO-Annual-Meeting
+      - https://investor.incyte.com/news-releases/news-release-details/incyte-highlights-new-phase-3-tafasitamab-data-2026-american
   - date: 2026-06-02
     ticker: IRON
-    event: DISC-0974 RALLY-MF Phase 2 ASCO oral
+    event: "DISC-0974 RALLY-MF Phase 2 MF 빈혈 ASCO oral 발표 (Positive — nTD Hgb 반응 55%, TD 수혈비의존 64%/50%)"
     type: Conference
     company: Disc Medicine
     drug: DISC-0974
@@ -283,6 +287,7 @@ events:
     phase: Phase 2
     sources:
       - https://www.globenewswire.com/news-release/2026/04/21/3278118/0/en/Disc-Medicine-Announces-Oral-Presentation-of-Data-from-RALLY-MF-Phase-2-Trial-of-DISC-0974-in-Patients-with-Myelofibrosis-and-Anemia-at-the-American-Society-of-Clinical-Oncology-AS.html
+      - https://www.biospace.com/press-releases/disc-medicine-presents-updated-positive-data-from-rally-mf-phase-2-trial-in-patients-with-myelofibrosis-mf-and-anemia-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting
   - date: 2026-06-29
     ticker: LNTH
     event: LNTH-2501 Ga-68 NET PDUFA (연기됨 — 제조 정보 추가 검토)
@@ -599,7 +604,7 @@ events:
       - https://www.prnewswire.com/news-releases/nuvalent-to-present-pivotal-data-from-alkove-1-trial-of-neladalkib-in-tki-pre-treated-advanced-alk-positive-nsclc-at-the-2026-american-society-of-clinical-oncology-annual-meeting-302748865.html
   - date: 2026-05-31
     ticker: JNJ
-    event: PROTEUS Apalutamide Phase 3 final analysis ASCO 2026 Plenary LBA1
+    event: "PROTEUS Apalutamide Phase 3 final analysis ASCO 2026 Plenary LBA1 (Positive — pCR/MRD 8.9% vs 1.0%, MFS HR 0.80, EFS HR 0.71)"
     type: Conference
     company: Johnson & Johnson
     drug: Apalutamide (ERLEADA)
@@ -611,6 +616,7 @@ events:
     moa: "AR antagonist (2세대). 근치 수술 전후(neoadjuvant + adjuvant) ADT 병용으로 미세잔존 종양 제거 → 재발 위험 감소"
     sources:
       - https://www.jnj.com/media-center/press-releases/johnson-johnson-ushers-in-the-next-wave-of-innovation-in-cancer-care-with-more-than-20-clinical-and-real-world-studies-at-asco-2026
+      - https://www.globenewswire.com/news-release/2026/05/31/3303921/0/en/Johnson-Johnson-s-Phase-3-prostate-cancer-study-shows-ERLEADA-apalutamide-before-and-after-surgery-significantly-reduces-risk-of-metastasis-or-death-versus-hormone-therapy-alone-po.html
       - https://oncodaily.com/oncolibrary/asco-2026-plenary-session-key-trials
   - date: 2026-06-02
     ticker: CELC
@@ -1264,4 +1270,147 @@ events:
     moa: "ALK 선택적·TRK-sparing 3세대 brain-penetrant TKI. 내성 변이 커버 + CNS 침투 + off-target 신경독성 최소"
     sources:
       - https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC
+  - date: 2026-06-06
+    ticker: LLY
+    event: "Retatrutide TRIUMPH-1 Phase 3 비만 ADA 2026 발표 (Positive — 12mg 80주 위약보정 -28.3% 체중; GIP/GLP-1/Glucagon 삼중작용)"
+    type: Conference
+    company: Eli Lilly
+    drug: Retatrutide
+    indication: Obesity (without T2D)
+    phase: Phase 3
+    conferenceId: ada
+    trialDesign: "TRIUMPH-1 무작위 이중맹검 위약대조 Phase 3 (80주). 비만(T2D 없음) 성인 대상 retatrutide vs 위약. 12mg 위약보정 체중 -28.3%. ADA 2026 심포지엄 6/6 발표, TRANSCEND-T2D-1(T2D) 데이터 동반"
+    targetDisease: "비만(BMI ≥30 또는 ≥27+동반질환). 세 인크레틴/글루카곤 경로 동시 자극으로 단일·이중 작용제 대비 더 큰 체중감량 목표"
+    priorTrialUrl: https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html
+    moa: "GIP/GLP-1/Glucagon 삼중 수용체 작용제. 식욕억제·인슐린분비·에너지소비 동시 증가로 최대급 체중감량"
+    sources:
+      - https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html
+      - https://www.prnewswire.com/news-releases/lilly-to-present-new-data-on-foundayo-mounjaro-and-retatrutide-at-the-american-diabetes-associations-86th-scientific-sessions-building-toward-a-new-era-of-choice-in-diabetes-and-obesity-care-302783855.html
+  - date: 2026-06-07
+    ticker: NVO
+    event: "CagriSema REIMAGINE 1/2/3 Phase 3 T2D ADA 2026 발표 (HbA1c·체중 우월성 — 6/7 발표, 수치 발표 후 확정)"
+    type: Conference
+    company: Novo Nordisk
+    drug: CagriSema (cagrilintide + semaglutide)
+    indication: Type 2 Diabetes
+    phase: Phase 3
+    conferenceId: ada
+    trialDesign: "REIMAGINE 1/2/3 무작위 위약·활성 대조 Phase 3. 아밀린 작용제(cagrilintide) + GLP-1(semaglutide) 고정용량 복합. T2D 환자 HbA1c·체중 평가. ADA 2026 심포지엄 6/7 발표 + Novo R&D Investor Event 동시. 수치는 발표 후 확정"
+    targetDisease: "제2형 당뇨 — 아밀린 + GLP-1 이중 기전으로 단일 성분 대비 혈당·체중 추가 개선 목표"
+    priorTrialUrl: null
+    moa: "아밀린 수용체 작용제 + GLP-1 수용체 작용제 고정용량 복합. 식욕·혈당·체중 다경로 조절"
+    sources:
+      - https://www.prnewswire.com/news-releases/novo-nordisk-advances-cardiometabolic-pipeline-with-new-data-featuring-cagrisema-and-zenagamtide-at-the-american-diabetes-associations-2026-scientific-sessions-302783110.html
+  - date: 2026-06-08
+    ticker: LLY
+    event: "Orforglipron ACHIEVE-2/3/5 Phase 3 T2D ADA 2026 발표 (경구 GLP-1 — ACHIEVE-3 oral sema 대비 HbA1c 우월·체중 추가감소)"
+    type: Conference
+    company: Eli Lilly
+    drug: Orforglipron (Foundayo)
+    indication: Type 2 Diabetes
+    phase: Phase 3
+    conferenceId: ada
+    trialDesign: "ACHIEVE-2(vs dapagliflozin, HbA1c -1.7%/40주), ACHIEVE-3(vs 경구 semaglutide, HbA1c 우월+체중 더 감소/52주), ACHIEVE-5(+인슐린글라진, HbA1c -2.1%/40주). 비펩타이드 경구 GLP-1. ADA 2026 6/8 발표"
+    targetDisease: "제2형 당뇨. 비만 적응증으로 이미 승인된 경구 GLP-1의 T2D 라벨 확장 — 주사제 대비 편의성"
+    priorTrialUrl: https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically
+    moa: "소분자 비펩타이드 경구 GLP-1 수용체 작용제(1일 1회). 인슐린분비↑·글루카곤↓·위배출 지연"
+    sources:
+      - https://www.prnewswire.com/news-releases/lilly-to-present-new-data-on-foundayo-mounjaro-and-retatrutide-at-the-american-diabetes-associations-86th-scientific-sessions-building-toward-a-new-era-of-choice-in-diabetes-and-obesity-care-302783855.html
+      - https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically
+  - date: 2026-06-12
+    ticker: GMAB
+    event: "Epcoritamab EPCORE DLBCL-1 Phase 3 R/R LBCL EHA 2026 oral (S235 — vs 연구자선택 화학면역요법, 단독 SC)"
+    type: Conference
+    company: Genmab
+    drug: Epcoritamab (EPKINLY)
+    indication: Relapsed/Refractory Large B-Cell Lymphoma
+    phase: Phase 3
+    conferenceId: eha
+    trialDesign: "EPCORE DLBCL-1 무작위 Phase 3. 2L+ 재발/불응 DLBCL. epcoritamab 단독 SC vs 연구자 선택 화학면역요법. EHA 2026 Abstract S235 oral 6/12. 2026-01 topline 발표분의 상세 데이터"
+    targetDisease: "재발/불응성 거대 B세포 림프종(DLBCL). CAR-T·이식 부적격 환자에서 off-the-shelf 이중특이항체 옵션"
+    priorTrialUrl: https://www.businesswire.com/news/home/20260116529103/en/Genmab-Announces-Topline-Results-for-Epcoritamab-DuoBody-CD3xCD20-from-Phase-3-EPCORE-DLBCL-1-Trial-in-Patients-with-Relapsed-Refractory-Diffuse-Large-B-cell-Lymphoma-DLBCL
+    moa: "CD3 × CD20 이중특이항체(DuoBody). T세포를 악성 B세포로 유도해 직접 사멸"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/21/3299787/0/en/genmab-to-highlight-advances-across-its-oncology-portfolio-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting-and-the-european-hematology-association-eha-2026-co.html
+      - https://www.businesswire.com/news/home/20260116529103/en/Genmab-Announces-Topline-Results-for-Epcoritamab-DuoBody-CD3xCD20-from-Phase-3-EPCORE-DLBCL-1-Trial-in-Patients-with-Relapsed-Refractory-Diffuse-Large-B-cell-Lymphoma-DLBCL
+  - date: 2026-06-14
+    ticker: LLY
+    event: "Pirtobrutinib BRUIN CLL-322 Phase 3 R/R CLL EHA 2026 Late-Breaking oral (LB5001 — PVR vs VR PFS 우월)"
+    type: Conference
+    company: Eli Lilly
+    drug: Pirtobrutinib (Jaypirca)
+    indication: Relapsed/Refractory CLL/SLL
+    phase: Phase 3
+    conferenceId: eha
+    trialDesign: "BRUIN CLL-322 무작위 Phase 3. R/R CLL/SLL. pirtobrutinib+venetoclax+rituximab(PVR) vs venetoclax+rituximab(VR). Primary PFS 통계적 유의 우월. EHA 2026 Late-Breaking Oral LB5001 6/14"
+    targetDisease: "재발/불응성 만성림프구성백혈병. 공유결합 BTK 억제제 실패·BTK 변이 환자에서 가역적 BTK 억제 옵션"
+    priorTrialUrl: https://www.prnewswire.com/news-releases/lillys-jaypirca-pirtobrutinib-significantly-extended-progression-free-survival-when-added-to-a-venetoclax-time-limited-regimen-in-patients-with-previously-treated-cllsll-302739912.html
+    moa: "비공유결합 가역적 BTK 억제제. BTK C481·일부 비C481 변이에서도 활성 유지"
+    sources:
+      - https://www.prnewswire.com/news-releases/lilly-to-spotlight-growing-hematology-portfolio-at-2026-european-hematology-association-eha-annual-meeting-302787526.html
+      - https://www.prnewswire.com/news-releases/lillys-jaypirca-pirtobrutinib-significantly-extended-progression-free-survival-when-added-to-a-venetoclax-time-limited-regimen-in-patients-with-previously-treated-cllsll-302739912.html
+  - date: 2026-11-30
+    ticker: VRTX
+    event: "Povetacicept IgAN BLA PDUFA (가속승인; 2026-06-01 FDA 수리, RAINIER Ph3 UPCR -52%)"
+    type: PDUFA
+    company: Vertex Pharmaceuticals
+    drug: Povetacicept
+    indication: IgA Nephropathy
+    phase: BLA (Accelerated Approval)
+    conferenceId: null
+    trialDesign: "RAINIER Phase 3 무작위 위약대조 — 성인 IgAN. UPCR(단백뇨) 위약대비 -52% (대리지표 기반 가속승인). BLA 2026-06-01 FDA 수리, PDUFA 2026-11-30"
+    targetDisease: "IgA 신병증 — 이상 IgA1 면역복합체가 사구체 메산지움에 침착해 단백뇨·신기능 저하. 기존 RAS/SGLT2 보완 면역조절 옵션"
+    priorTrialUrl: null
+    moa: "BAFF + APRIL 이중 차단 융합단백질(TACI-Fc). 병원성 IgA 생산 B세포 신호 동시 억제"
+    sources:
+      - https://www.businesswire.com/news/home/20260601424914/en/Vertex-Announces-US-FDA-Acceptance-of-Biologics-License-Application-for-Accelerated-Approval-of-Povetacicept-in-IgA-Nephropathy
+      - https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-acceptance-biologics-license-application
+  - date: 2026-12-23
+    ticker: GILD
+    event: "Anito-cel (anitocabtagene autoleucel) r/r 다발골수종 BLA PDUFA (Arcellx 인수 완료, iMMagine-1 Ph2)"
+    type: PDUFA
+    company: Gilead Sciences
+    drug: Anitocabtagene autoleucel (anito-cel)
+    indication: Relapsed/Refractory Multiple Myeloma
+    phase: BLA
+    conferenceId: null
+    trialDesign: "iMMagine-1 Phase 2 단일군 피벗 + Phase 1 지원. r/r 다발골수종. D-Domain BCMA 결합체로 낮은 tonic signaling·고발현 CAR 설계. BLA 2026-02-23 FDA 수리, PDUFA 2026-12-23. Gilead가 Arcellx 인수 완료"
+    targetDisease: "재발/불응성 다발골수종(4L+). 기존 BCMA CAR-T(ide-cel/cilta-cel) 이후 차별화 D-Domain 설계로 내구성 반응 목표"
+    priorTrialUrl: null
+    moa: "BCMA 표적 자가 CAR-T. D-Domain 결합체가 BCMA에 빠르게 결합·분리해 tonic signaling 최소화→CAR-T 지속성 향상"
+    sources:
+      - https://www.gilead.com/news/news-details/2026/gilead-sciences-completes-acquisition-of-arcellx-ahead-of-potential-commercial-launch-of-anito-cel
+      - https://www.businesswire.com/news/home/20260223744889/en/Gilead-Sciences-to-Acquire-Arcellx-to-Maximize-Long-term-Potential-of-Anito-cel
+  - date: 2026-09-30
+    ticker: SRRK
+    event: "Apitegromab SMA BLA 재심사 PDUFA (CMC/제조 CRL 해결 후 재제출; SAPPHIRE Ph3 HFMSE 충족)"
+    type: PDUFA
+    company: Scholar Rock
+    drug: Apitegromab
+    indication: Spinal Muscular Atrophy (Types 2 & 3)
+    phase: BLA (Resubmission)
+    conferenceId: null
+    trialDesign: "SAPPHIRE Phase 3 무작위 위약대조 — 2~21세 비보행 SMA 2/3형, SMN 치료 병용. Primary 운동기능(HFMSE) 개선 충족(2024-10). CMC/제조시설 CRL 해결 후 2026-03-31 재제출, PDUFA 2026-09-30"
+    targetDisease: "SMA 2·3형 — SMN 결손에 의한 진행성 근위축. 기존 SMN 치료(생존신경 보충)에 근육 기능 직접 강화를 더하는 보완 기전"
+    priorTrialUrl: https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-resubmits-biologics-license-application-bla-fda
+    moa: "선택적 myostatin(GDF-8) 전구체 억제 항체. 근육 성장 억제 신호 차단→근력·운동기능 개선"
+    sources:
+      - https://investors.scholarrock.com/news-releases/news-release-details/scholar-rock-resubmits-biologics-license-application-bla-fda
+      - https://www.curesma.org/fda-accepts-scholar-rocks-biologics-license-application-bla-to-review-apitegromab-for-sma/
+  - date: 2026-07-23
+    ticker: SNY
+    event: "Sarclisa SC (isatuximab, on-body injector) 다발골수종 BLA PDUFA (최초 OBI 항암제 후보; IRAKLIA Ph3 ORR 비열등 71.1% vs 70.5%)"
+    type: PDUFA
+    company: Sanofi
+    drug: Sarclisa SC (isatuximab-irfc, on-body injector)
+    indication: Relapsed/Refractory Multiple Myeloma
+    phase: BLA (sBLA)
+    conferenceId: null
+    trialDesign: "IRAKLIA Phase 3 (n=531) 무작위 오픈라벨 — isatuximab SC 1400mg(OBI) + Pd vs IV 10mg/kg + Pd. RRMM(1L+). co-primary ORR·Ctrough 비열등성 충족(ORR 71.1% vs 70.5%). FDA 3개월 연장 후 PDUFA 2026-07-23"
+    targetDisease: "재발/불응성 다발성골수종. 기존 Sarclisa IV(수 시간 주입)를 OBI 피하주사(~5분, 자가투여)로 전환 — 환자·병원 부담 감소"
+    priorTrialUrl: null
+    moa: "CD38 표적 단클론항체(ADCC·CDC·ADCP·직접 아포토시스). SC OBI 제형으로 IV 동등 효능+편의성"
+    sources:
+      - https://www.sanofi.com/en/media-room/press-releases/2026/2026-04-22-05-00-00-3278646
+      - https://www.onclive.com/view/fda-extends-review-period-for-subcutaneous-isatuximab-bla-in-multiple-myeloma
 ```

@@ -7,12 +7,13 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-09-30
-verified: 2026-05-07
+verified: 2026-06-06
 sources:
   - https://amgen.com/investors
   - https://investors.amgen.com/news-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2410602
   - https://investors.amgen.com/static-files/f97cddec-cc50-4749-b33a-05c317ab5e32
+  - https://www.amgen.com/newsroom/press-releases/2026/06/european-commission-approves-amgens-imdylltra-for-the-treatment-of-extensivestage-small-cell-lung-cancer
 ---
 
 # Amgen (AMGN)
@@ -105,3 +106,5 @@ MariTide MOA:
 
 ## 메모
 MariTide 월 1회 투여가 차별점. Phase 3 중간 분석 2026 하반기 주목. Enbrel 바이오시밀러 위협 지속.
+
+**2026-06-01 EU 승인**: IMDYLLTRA(tarlatamab) ES-SCLC 유럽 위원회(EC) 승인 — DeLLphi-304 Ph3 기반. 미국 정식승인(2025-11)에 이어 유럽 진입. DLL3 표적 BiTE 계열 첫 SCLC 글로벌 확대.
