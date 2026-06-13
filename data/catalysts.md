@@ -913,7 +913,7 @@ events:
       - https://newsroom.regeneron.com/news-releases/news-release-details/garetosmab-biologics-license-application-accepted-fda-priority
   - date: 2026-06-11
     ticker: ELVN
-    event: "ELVN-001 ENABLE Phase 1 CML EHA 2026 oral (Abstract S164) — 80mg QD 누적 MMR 47%, 24주 내 MMR 38%, asciminib 선행 환자 누적 MMR 52%"
+    event: "ELVN-001 ENABLE Phase 1 CML EHA 2026 oral (Abstract S164) — 80mg QD 누적 MMR 47%, 24주 내 MMR 38%, asciminib 선행 환자 누적 MMR 52%. 발표 당일 FDA와 ENABLE-2 Phase 3 설계 합의 공시 (2H 2026 개시 예정)"
     type: Conference
     company: Enliven Therapeutics
     drug: ELVN-001
@@ -926,6 +926,7 @@ events:
     moa: "BCR::ABL1 ATP 경쟁적 kinase inhibitor. T315I 포함 표준 내성 변이에 활성, asciminib과 보완적 기전"
     sources:
       - https://www.prnewswire.com/news-releases/enliven-therapeutics-announces-oral-presentation-at-the-eha-2026-congress-featuring-additional-positive-phase-1-clinical-trial-data-for-elvn-001-in-cml-302769668.html
+      - https://www.prnewswire.com/news-releases/enliven-therapeutics-announces-updated-positive-phase-1-clinical-data-and-alignment-with-fda-on-key-phase-3-trial-design-components-302797424.html
   - date: 2026-06-13
     ticker: AGIO
     event: "Mitapivat RISE UP Phase 3 SCD EHA 2026 Plenary (Abstract S102) — 혈색소 반응 1차 endpoint 충족, sNDA 동시 제출"
@@ -1288,7 +1289,7 @@ events:
       - https://www.prnewswire.com/news-releases/lilly-to-present-new-data-on-foundayo-mounjaro-and-retatrutide-at-the-american-diabetes-associations-86th-scientific-sessions-building-toward-a-new-era-of-choice-in-diabetes-and-obesity-care-302783855.html
   - date: 2026-06-07
     ticker: NVO
-    event: "CagriSema REIMAGINE 1/2/3 Phase 3 T2D ADA 2026 발표 (HbA1c·체중 우월성 — 6/7 발표, 수치 발표 후 확정)"
+    event: "CagriSema REIMAGINE 1/2/3 Phase 3 T2D ADA 2026 발표 (Positive — REIMAGINE 2 vs semaglutide 2.4mg: HbA1c -1.91% vs -1.75% p=0.0035, 체중 -14.2% vs -10.2% p<0.0001; REIMAGINE 3 +인슐린: HbA1c -2.33%, 체중 -12.0% vs +1.1%; 3개 시험 모두 1차 충족, Lancet 동시 게재)"
     type: Conference
     company: Novo Nordisk
     drug: CagriSema (cagrilintide + semaglutide)
@@ -1301,6 +1302,7 @@ events:
     moa: "아밀린 수용체 작용제 + GLP-1 수용체 작용제 고정용량 복합. 식욕·혈당·체중 다경로 조절"
     sources:
       - https://www.prnewswire.com/news-releases/novo-nordisk-advances-cardiometabolic-pipeline-with-new-data-featuring-cagrisema-and-zenagamtide-at-the-american-diabetes-associations-2026-scientific-sessions-302783110.html
+      - https://www.prnewswire.com/news-releases/novo-nordisks-cagrisema-2-4-mg--2-4-mg-demonstrated-significant-reduction-in-hba1c-and-weight-across-multiple-studies-in-the-reimagine-program-presented-at-ada-2026--302793443.html
   - date: 2026-06-08
     ticker: LLY
     event: "Orforglipron ACHIEVE-2/3/5 Phase 3 T2D ADA 2026 발표 (경구 GLP-1 — ACHIEVE-3 oral sema 대비 HbA1c 우월·체중 추가감소)"
@@ -1319,7 +1321,7 @@ events:
       - https://investor.lilly.com/news-releases/news-release-details/lillys-oral-glp-1-orforglipron-demonstrated-statistically
   - date: 2026-06-12
     ticker: GMAB
-    event: "Epcoritamab EPCORE DLBCL-1 Phase 3 R/R LBCL EHA 2026 oral (S235 — vs 연구자선택 화학면역요법, 단독 SC)"
+    event: "Epcoritamab EPCORE DLBCL-1 Phase 3 R/R LBCL EHA 2026 oral (S235 — Positive PFS HR 0.74 [95% CI 0.60-0.92] 유의, OS HR 0.96 [0.77-1.20] 비유의; 단독 SC 이중특이항체 Ph3 PFS 첫 입증, vs 연구자선택 화학면역요법)"
     type: Conference
     company: Genmab
     drug: Epcoritamab (EPKINLY)
@@ -1413,4 +1415,152 @@ events:
     sources:
       - https://www.sanofi.com/en/media-room/press-releases/2026/2026-04-22-05-00-00-3278646
       - https://www.onclive.com/view/fda-extends-review-period-for-subcutaneous-isatuximab-bla-in-multiple-myeloma
+  - date: 2026-05-12
+    ticker: AGIO
+    event: "Mitapivat SCD 가속승인 sNDA FDA 제출 — RISE UP Phase 3 혈색소 반응(Hb ≥1.0 g/dL↑) surrogate endpoint 기반. 확인적 RCT 동시 합의, 60일 filing review 후 수리 통보 3Q 2026 예상"
+    type: Regulatory
+    company: Agios Pharmaceuticals
+    drug: Mitapivat (Pyrukynd)
+    indication: Sickle Cell Disease
+    phase: sNDA (Accelerated Approval)
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/12/3293011/31990/en/Agios-Submits-sNDA-to-FDA-for-U-S-Accelerated-Approval-of-Mitapivat-in-Sickle-Cell-Disease.html
+      - https://investor.agios.com/news-releases/news-release-details/agios-submits-snda-fda-us-accelerated-approval-mitapivat-sickle
+  - date: 2026-05-22
+    ticker: GILD
+    event: "Hepcludex(bulevirtide) 만성 D형간염(HDV) 미국 첫 가속승인 — MYR301 Phase 3 기반, 임상적 이득 확인 후속시험 조건부"
+    type: PDUFA
+    company: Gilead Sciences
+    drug: Bulevirtide (Hepcludex)
+    indication: Chronic Hepatitis Delta (HDV)
+    phase: BLA (Accelerated Approval)
+    sources:
+      - https://www.gilead.com/news/news-details/2026/fda-grants-accelerated-approval-to-gileads-hepcludex-bulevirtide-gmod-the-first-and-only-approved-treatment-for-chronic-hepatitis-delta-virus-hdv
+      - https://www.businesswire.com/news/home/20260522569258/en/FDA-Grants-Accelerated-Approval-to-Gileads-Hepcludex-bulevirtide-gmod-the-First-and-Only-Approved-Treatment-for-Chronic-Hepatitis-Delta-Virus-HDV
+  - date: 2026-06-09
+    ticker: LLY
+    event: "EBGLYSS(lebrikizumab) 8주 1회 유지용량 적응증 FDA 승인 — 중등도~중증 아토피피부염(12세+), 기존 4주 용법 확장 (ADjoin 장기연장 + PK 모델 기반)"
+    type: PDUFA
+    company: Eli Lilly
+    drug: Lebrikizumab (EBGLYSS)
+    indication: Moderate-to-Severe Atopic Dermatitis (maintenance Q8W)
+    phase: sBLA
+    sources:
+      - https://www.prnewswire.com/news-releases/fda-approves-lillys-ebglyss-lebrikizumab-lbkz-for-one-maintenance-dose-every-eight-weeks-in-patients-with-moderate-to-severe-atopic-dermatitis-302795876.html
+      - https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-ebglyssr-lebrikizumab-lbkz-one-maintenance
+  - date: 2026-06-11
+    ticker: JNJ
+    event: "Nipocalimab(IMAAVY) ENERGY Phase 2/3 wAIHA EHA 2026 oral (S300) — 첫 양성 피벗 데이터: 지속적 혈색소 반응 + 빠른 효과 발현. FDA 우선심사 진행 중"
+    type: Conference
+    company: Johnson & Johnson
+    drug: Nipocalimab (IMAAVY)
+    indication: Warm Autoimmune Hemolytic Anemia (wAIHA)
+    phase: Phase 2/3
+    conferenceId: eha
+    trialDesign: "ENERGY 무작위 이중맹검 위약대조 Phase 2/3 (n=115). wAIHA 성인 nipocalimab 15/30 mg/kg vs 위약 24주. Primary 지속적 혈색소 반응(durable Hgb response). FDA Priority Review 중"
+    targetDisease: "온난항체 자가면역용혈빈혈(wAIHA). IgG 자가항체가 적혈구 파괴 → 희귀 자가면역 혈액질환, FDA 승인 치료제 부재"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04119050
+    moa: "FcRn 차단으로 병원성 IgG 자가항체 선택적 감소 (B세포 직접 파괴 없음)"
+    sources:
+      - https://www.jnj.com/media-center/press-releases/imaavy-nipocalimab-aahu-demonstrates-durable-hemoglobin-response-and-rapid-onset-of-effect-in-pivotal-phase-2-3-study-in-warm-autoimmune-hemolytic-anemia-waiha-an-autoantibody-driven-disease-with-no-fda-approved-therapies
+  - date: 2026-06-13
+    ticker: ABBV
+    event: "Epcoritamab + R2 EPCORE FL-1 Phase 3 R/R 여포림프종 EHA 2026 oral — ORR 95% vs 79%, CR 83% vs 50%, PFS HR 0.21 (vs R2 단독)"
+    type: Conference
+    company: AbbVie
+    drug: Epcoritamab (EPKINLY) + rituximab + lenalidomide (R2)
+    indication: Relapsed/Refractory Follicular Lymphoma
+    phase: Phase 3
+    conferenceId: eha
+    trialDesign: "EPCORE FL-1 무작위 Phase 3 — SC epcoritamab + R2 vs R2 단독, R/R FL ≥1 prior line. ORR 95% vs 79%, CR 83% vs 50%, PFS HR 0.21. 서브그룹 분석 포함 구두 발표"
+    targetDisease: "재발/불응성 여포림프종(FL). 1차 이상 치료 경험 환자 — 고정기간 이중특이항체 병용으로 깊은 반응 목표"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05409066
+    moa: "CD3×CD20 이중특이항체(T세포 인게이저) + 항CD20(rituximab) + IMiD(lenalidomide) 삼중 병용"
+    sources:
+      - https://news.abbvie.com/2026-06-08-AbbVie-Presents-New-Data-Across-Its-Blood-Cancer-Portfolio-at-EHA-2026
+  - date: 2026-06-14
+    ticker: JNJ
+    event: "Talquetamab(TALVEY) MonumenTAL-3 Phase 3 R/R 다발골수종 EHA 2026 Plenary — talquetamab+daratumumab ± pomalidomide vs DPd (EHA 6대 최우수 추상)"
+    type: Conference
+    company: Johnson & Johnson
+    drug: Talquetamab (TALVEY) + daratumumab (DARZALEX FASPRO)
+    indication: Relapsed/Refractory Multiple Myeloma (≥1 prior line)
+    phase: Phase 3
+    conferenceId: eha
+    trialDesign: "MonumenTAL-3 무작위 Phase 3 — talquetamab + daratumumab ± pomalidomide vs daratumumab+pomalidomide+dex(DPd), RRMM ≥1 prior line. EHA 2026 Plenary 선정"
+    targetDisease: "재발/불응성 다발골수종. 2차 이상 치료 경험 — GPRC5D 표적 이중특이항체를 조기 라인으로 확장"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05455320
+    moa: "Talquetamab: GPRC5D×CD3 이중특이항체로 T세포 매개 골수종세포 사멸. Daratumumab: CD38 표적 항체(ADCC·CDC·식세포작용)"
+    sources:
+      - https://www.jnj.com/media-center/press-releases/johnson-johnson-showcases-hematology-leadership-with-30-presentations-at-the-2026-european-hematology-association-eha-congress
+  - date: 2026-08-17
+    ticker: BMY
+    event: "Iberdomide + dara/dex (IberDd) R/R 다발골수종 NDA PDUFA — 첫 CELMoD 계열 승인 도전, EXCALIBER-RRMM Phase 3"
+    type: PDUFA
+    company: Bristol Myers Squibb
+    drug: Iberdomide (CC-220)
+    indication: Relapsed/Refractory Multiple Myeloma (1-2 prior lines)
+    phase: NDA
+    trialDesign: "EXCALIBER-RRMM (NCT04975997) 무작위 오픈라벨 Phase 3 — iberdomide+daratumumab+dex(IberDd) vs daratumumab+bortezomib+dex(DVd), 1~2차 경험 R/R MM. 이중 1차 MRD 음성률·PFS"
+    targetDisease: "재발/불응성 다발골수종. 1~2회 선행요법 후 진행 — lenalidomide/pomalidomide 후속 CELMoD로 더 깊은 cereblon 결합"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04975997
+    moa: "차세대 CELMoD(cereblon E3 ligase modulator). IKZF1/IKZF3(Ikaros/Aiolos) 선택적 분해 → 골수종세포 사멸 + 면역 활성화"
+    sources:
+      - https://news.bms.com/news/corporate-financial/2026/U-S--Food-and-Drug-Administration-Accepts-Bristol-Myers-Squibbs-New-Drug-Application-for-Iberdomide-in-Patients-with-Relapsed-or-Refractory-Multiple-Myeloma/default.aspx
+  - date: 2026-09-19
+    ticker: RARE
+    event: "UX111(rebisufligene etisparvovec) Sanfilippo A형(MPS IIIA) BLA 재제출 PDUFA — AAV9 유전자치료, 가속승인 신청"
+    type: PDUFA
+    company: Ultragenyx Pharmaceutical
+    drug: UX111 (rebisufligene etisparvovec)
+    indication: Sanfilippo Syndrome Type A (MPS IIIA)
+    phase: BLA (Resubmission, Accelerated Approval)
+    trialDesign: "AAV9 벡터 단회 IV 유전자치료. CSF 헤파란황산(HS) 감소 + 신경발달 임상기능 개선 — 자연경과 대비 유의한 안정화. 최대 8년 추적. BLA 재제출 2026-04-02 FDA 수락"
+    targetDisease: "Sanfilippo 증후군 A형(MPS IIIA) — SGSH 효소 결핍으로 헤파란황산 뇌 축적 → 진행성 신경퇴행·조기사망(20대 초). 승인 치료제 부재"
+    priorTrialUrl: https://www.globenewswire.com/news-release/2026/04/02/3267337/20739/en/Ultragenyx-Announces-U-S-FDA-Acceptance-of-BLA-Resubmission-for-UX111-AAV-Gene-Therapy-to-Treat-Sanfilippo-Syndrome-Type-A-MPS-IIIA.html
+    moa: "AAV9 벡터로 기능성 SGSH 유전자를 CNS 세포에 단회 전달 → 결핍 효소 보충, 헤파란황산 기질 축적 교정"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/04/02/3267337/20739/en/Ultragenyx-Announces-U-S-FDA-Acceptance-of-BLA-Resubmission-for-UX111-AAV-Gene-Therapy-to-Treat-Sanfilippo-Syndrome-Type-A-MPS-IIIA.html
+  - date: 2026-09-22
+    ticker: IONS
+    event: "Zilganersen(ION373) Alexander병(AxD) NDA PDUFA — 첫 ASO 치료제, 우선심사. Phase 1-3 10MWT 보행속도 +33.3% (p=0.0412)"
+    type: PDUFA
+    company: Ionis
+    drug: Zilganersen (ION373)
+    indication: Alexander Disease (AxD)
+    phase: NDA (Priority Review)
+    trialDesign: "Phase 1-3 무작위 이중맹검 다중상승용량 (NCT04849741), AxD 54명(1.5~53세) 13개국. 61주 10미터 보행속도(10MWT) 1차 — zilganersen 50mg vs 위약 LSM 차이 33.3% (p=0.0412)"
+    targetDisease: "Alexander병(AxD) — GFAP 변이 희귀 진행성 신경퇴행. 영유아기 발병, 보행장애·경련·연하곤란·호흡부전, 조기사망. 승인 치료제 부재"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04849741
+    moa: "GFAP mRNA 표적 2세대 ASO. GFAP 단백 과발현 억제 → Rosenthal fiber 축적·성상세포 기능이상 교정"
+    sources:
+      - https://ir.ionis.com/news-releases/news-release-details/ionis-announces-zilganersen-new-drug-application-alexander
+  - date: 2026-09-27
+    ticker: PRAX
+    event: "Relutrigine(PRAX-562) SCN2A/SCN8A DEE NDA PDUFA — 첫 표적 치료제, 우선심사·희귀소아질환 지정. EMBOLD 운동발작 -46% 조기종료"
+    type: PDUFA
+    company: Praxis Precision Medicines
+    drug: Relutrigine (PRAX-562)
+    indication: SCN2A/SCN8A Developmental and Epileptic Encephalopathies (DEEs)
+    phase: NDA (Priority Review)
+    trialDesign: "EMBOLD Phase 2 (NCT05818553) 무작위 위약대조 — SCN2A/SCN8A-DEE 16명, 4개월. 1차 운동발작 빈도 위약대비 -46% — DMC 권고로 조기 효능 종료 후 NDA"
+    targetDisease: "SCN2A/SCN8A 변이 발달뇌전증(DEE). 영유아기 난치성 발작·발달퇴행·조기사망 희귀 유전 뇌질환, 표적 승인 치료제 부재"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT05818553
+    moa: "지속성 나트륨 전류(persistent sodium current) 선택적 억제 — 기능획득 변이로 인한 과흥분성 정상화"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/03/30/3264996/0/en/Praxis-Precision-Medicines-Announces-FDA-Acceptance-and-Priority-Review-of-New-Drug-Application-for-Relutrigine-in-Patients-with-SCN2A-and-SCN8A-DEEs.html
+  - date: 2026-11-27
+    ticker: BBIO
+    event: "BBP-418(riboflavin analog) LGMD2I/R9 NDA PDUFA — LGMD 첫 치료제 도전, 우선심사(자문위 미개최). FORTIFY Phase 3 전 평가변수 충족"
+    type: PDUFA
+    company: BridgeBio
+    drug: BBP-418
+    indication: Limb-Girdle Muscular Dystrophy Type 2I/R9 (LGMD2I/R9)
+    phase: NDA (Priority Review)
+    trialDesign: "FORTIFY Phase 3 — LGMD2I/R9 환자. 모든 1·2차 평가변수 충족(2026 발표). FDA NDA 2026-05-27 수락 + Priority Review, 자문위 미개최 예정"
+    targetDisease: "지대형 근이영양증 2I/R9형(LGMD2I/R9) — FKRP 변이로 α-dystroglycan 글리코실화 결손 → 진행성 근위약. 어떤 형태의 LGMD에도 승인 치료제 부재"
+    priorTrialUrl: null
+    moa: "경구 ribitol(리보플라빈 유사체) 전구체. α-dystroglycan 글리코실화 기질 보충 → 근섬유막 안정화"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/27/3301817/0/en/bridgebio-announces-fda-acceptance-and-priority-review-of-nda-for-bbp-418-for-lgmd2i-r9.html
 ```
