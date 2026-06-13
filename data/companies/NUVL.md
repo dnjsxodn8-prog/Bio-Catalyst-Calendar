@@ -6,15 +6,17 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-09-18
-verified: 2026-05-31
+verified: 2026-06-13
 sources:
   - https://investors.nuvalent.com/2026-04-07-Nuvalent-Announces-Submission-of-New-Drug-Application-to-FDA-for-Neladalkib-in-TKI-Pre-treated-Advanced-ALK-positive-NSCLC
   - https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC
+  - https://www.gsk.com/en-gb/media/press-releases/gsk-enters-agreement-to-acquire-nuvalent-inc/
 ---
 
 # Nuvalent (NUVL)
 
 ## 카탈리스트
+- **M&A: GSK가 Nuvalent 인수 합의 — 2026-06-09** ($124/주 현금, 총 ~$10.6B equity[순현금 차감 ~$9.4B], 종가 대비 40% 프리미엄; tender offer → 합병, Q3 2026 종료 목표). zidesamtinib(ROS1)·neladalkib(ALK) 확보 목적.
 - Zidesamtinib ROS1 NSCLC PDUFA — **2026-09-18** (NDA FDA accepted 2025-11)
 - Neladalkib ALK+ NSCLC PDUFA — **2026-11-27** (NDA 2026-04-07 제출, 2026-05-27 FDA 수락 + Priority Review; ALKOVE-1 Phase 1/2 pivotal)
 
