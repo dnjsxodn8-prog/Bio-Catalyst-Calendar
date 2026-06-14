@@ -255,8 +255,7 @@ function renderListBlock(lines) {
 
 // ─────────────────────── 카탈리스트 윈도우 ───────────────────────
 
-function pickWindow(catalysts, base) {
-  const end = base + DAYS * 86400000;
+function pickWindow(catalysts, base, end) {
   return catalysts
     .map((c) => ({ c, t: parseDateUTC(c.date) }))
     .filter(({ t }) => t !== null && t >= base && t <= end)
@@ -382,9 +381,9 @@ function renderCatalyst(c, company) {
   return tickerLine + meta + profileSection + clinicalSection + drugSection + memoSection;
 }
 
-function renderDocument(items, companiesMap, baseT) {
+function renderDocument(items, companiesMap, baseT, endT) {
   const baseStr = formatYMD(baseT);
-  const endStr = formatYMD(baseT + DAYS * 86400000);
+  const endStr = formatYMD(endT);
   const title = `${baseStr} ~ ${endStr} biotech 카탈리스트`;
 
   if (!items.length) {
@@ -433,10 +432,29 @@ async function main() {
   const companies = Array.isArray(data.companies) ? data.companies : [];
   const companiesMap = new Map(companies.map((c) => [c.ticker, c]));
 
-  const base = todayMidnightUTC();
-  const items = pickWindow(catalysts, base);
+  // 옵션: --from YYYY-MM-DD [--to YYYY-MM-DD]. 없으면 기존 동작(today ~ today+7).
+  const argv = process.argv.slice(2);
+  const getArg = (name) => {
+    const i = argv.indexOf(name);
+    return i >= 0 && argv[i + 1] ? argv[i + 1] : null;
+  };
+  const fromArg = getArg('--from');
+  const toArg = getArg('--to');
 
-  const html = renderDocument(items, companiesMap, base);
+  const base = fromArg ? parseDateUTC(fromArg) : todayMidnightUTC();
+  if (base === null) {
+    console.error(`✗ --from 날짜 형식 오류: ${fromArg} (YYYY-MM-DD 필요)`);
+    process.exit(1);
+  }
+  const end = toArg ? parseDateUTC(toArg) : base + DAYS * 86400000;
+  if (end === null) {
+    console.error(`✗ --to 날짜 형식 오류: ${toArg} (YYYY-MM-DD 필요)`);
+    process.exit(1);
+  }
+
+  const items = pickWindow(catalysts, base, end);
+
+  const html = renderDocument(items, companiesMap, base, end);
 
   await fs.mkdir(OUT_DIR, { recursive: true });
   const outPath = path.join(OUT_DIR, `naver-export-${formatYMD(base)}.html`);
