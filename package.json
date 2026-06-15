@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "build-data": "node scripts/build-data.mjs",
-    "predev": "node scripts/build-data.mjs",
-    "prebuild": "node scripts/build-data.mjs",
+    "build-screener": "node scripts/build-screener.mjs",
+    "predev": "node scripts/build-data.mjs && node scripts/build-screener.mjs",
+    "prebuild": "node scripts/build-data.mjs && node scripts/build-screener.mjs",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -21,6 +22,7 @@
     "@clerk/clerk-react": "^5.61.6",
     "@vercel/analytics": "^2.0.1",
     "lucide-react": "^1.11.0",
+    "plotly.js-dist-min": "^3.6.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-router-dom": "^7.14.2"

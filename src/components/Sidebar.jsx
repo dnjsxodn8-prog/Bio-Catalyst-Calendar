@@ -4,6 +4,7 @@ import {
   Building2,
   Activity,
   Mic,
+  ScatterChart,
   Clock,
   Star,
   Plus,
@@ -18,6 +19,7 @@ const NAV = [
   { id: 'companies', label: '종목', sub: 'Companies', icon: Building2 },
   { id: 'catalysts', label: '카탈리스트', sub: 'Catalysts', icon: Activity },
   { id: 'conferences', label: '학회', sub: 'Conferences', icon: Mic },
+  { id: 'screener', label: '스크리너', sub: 'Screener', icon: ScatterChart },
 ];
 
 const SECTION_LABEL = 'text-[10.5px] font-semibold text-ink-2 tracking-[0.1em] uppercase';

@@ -18,6 +18,7 @@ data/imports/raw/
 data/imports/naver-export-*.html
 src/data.generated.json
 data/_excluded.md
+data/_screener_wip/
 
 # Claude Code per-session worktrees (sandbox dirs)
 .claude/worktrees/

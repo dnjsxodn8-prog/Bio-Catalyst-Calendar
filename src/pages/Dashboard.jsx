@@ -1,5 +1,7 @@
 import { useMemo, useState } from 'react';
-import { ChevronRight, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ChevronRight, X, ScatterChart, ArrowRight } from 'lucide-react';
+import screener from '../screener.generated.json';
 import {
   dDelta,
   fmtD,
@@ -39,6 +41,7 @@ export default function Dashboard({ data, query, onPick }) {
 
   return (
     <div className="space-y-6">
+      <ScreenerBanner />
       <KpiStrip
         dated={filtered}
         selected={selectedKpi}
@@ -55,6 +58,50 @@ export default function Dashboard({ data, query, onPick }) {
       <HeroWeek dated={filtered} onPick={onPick} />
       <RecentResults dated={filtered} onPick={onPick} />
     </div>
+  );
+}
+
+function ScreenerBanner() {
+  const c = screener.counts || {};
+  const great = c['위대한 후보'] || 0;
+  const watch = c['관찰 후보'] || 0;
+  const total = screener.coverage?.total || 0;
+  return (
+    <Link
+      to="/app/screener"
+      className="group relative overflow-hidden rounded-lg flex items-center gap-4 px-5 py-4 border transition-colors"
+      style={{
+        background:
+          'linear-gradient(120deg, rgba(34,197,94,0.10), rgba(59,130,246,0.06) 55%, var(--panel))',
+        borderColor: 'rgba(34,197,94,0.30)',
+      }}
+    >
+      <div
+        className="absolute pointer-events-none"
+        style={{ top: -70, right: -40, width: 220, height: 220, background: 'radial-gradient(closest-side, rgba(34,197,94,0.18), transparent 70%)' }}
+      />
+      <div
+        className="w-11 h-11 rounded-[10px] flex items-center justify-center flex-shrink-0 border"
+        style={{ background: 'rgba(34,197,94,0.12)', borderColor: 'rgba(34,197,94,0.35)' }}
+      >
+        <ScatterChart className="w-5 h-5" style={{ color: '#22c55e' }} strokeWidth={1.8} />
+      </div>
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-[15px] font-bold text-ink">Great Biotech Screener</span>
+          <span className="mono text-[10.5px] text-ink-3 tracking-[0.1em] uppercase">G × E × T1</span>
+        </div>
+        <div className="text-[12.5px] text-ink-3 mt-1">
+          미국 바이오텍 {total}종 G·E 스크리닝 ·{' '}
+          <span className="text-[#22c55e] font-semibold">위대한 후보 {great}</span> ·{' '}
+          <span className="text-[#3b82f6] font-semibold">관찰 후보 {watch}</span>
+        </div>
+      </div>
+      <span className="flex items-center gap-1.5 text-[13px] font-semibold text-ink-2 group-hover:text-ink whitespace-nowrap">
+        차트 열기
+        <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" strokeWidth={1.8} />
+      </span>
+    </Link>
   );
 }
 
