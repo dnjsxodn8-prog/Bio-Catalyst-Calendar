@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T03:07:15.445Z",
+  "generated": "2026-06-16T03:12:05.838Z",
   "source": "great-biotech-screener/data/leaderboard.csv",
   "counts": {
     "위대한 후보": 63,
@@ -9,8 +9,8 @@
   },
   "coverage": {
     "total": 532,
-    "inCalendar": 456,
-    "missing": 76
+    "inCalendar": 492,
+    "missing": 40
   },
   "points": [
     {
@@ -2456,7 +2456,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PHAT",
@@ -3416,7 +3416,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "MDWD",
@@ -3446,7 +3446,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "OLMA",
@@ -3476,7 +3476,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PBYI",
@@ -4226,7 +4226,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "LXEO",
@@ -4286,7 +4286,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 32.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PYXS",
@@ -4466,7 +4466,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "NRSN",
@@ -4481,7 +4481,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PROK",
@@ -4751,7 +4751,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ADAG",
@@ -4856,7 +4856,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 26.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PEPG",
@@ -5201,7 +5201,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 10,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "NGEN",
@@ -5231,7 +5231,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 12.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PMN",
@@ -5696,7 +5696,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "MAIA",
@@ -5711,7 +5711,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 3.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ORMP",
@@ -5981,7 +5981,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "LTRN",
@@ -5996,7 +5996,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 13.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "MRKR",
@@ -6011,7 +6011,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "NERV",
@@ -6206,7 +6206,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PSTV",
@@ -6371,7 +6371,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 21.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "OKUR",
@@ -6386,7 +6386,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 26.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CTNM",
@@ -6461,7 +6461,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TARA",
@@ -6731,7 +6731,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 40,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "MPLT",
@@ -6761,7 +6761,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PASG",
@@ -6776,7 +6776,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PTN",
@@ -6836,7 +6836,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 32.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TVRD",
@@ -7001,7 +7001,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "AKTS",
@@ -7151,7 +7151,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 7.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "NVCT",
@@ -7181,7 +7181,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "RZLT",
@@ -7301,7 +7301,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TVGN",
@@ -7361,7 +7361,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "NTHI",
@@ -7421,7 +7421,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BRNS",
@@ -7541,7 +7541,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PULM",
@@ -7616,7 +7616,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PLUR",
@@ -7631,7 +7631,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 12.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "GDTC",
@@ -7841,7 +7841,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 3.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "RMSL",
@@ -7961,7 +7961,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "SHPH",
