@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T03:12:05.838Z",
+  "generated": "2026-06-16T03:17:00.479Z",
   "source": "great-biotech-screener/data/leaderboard.csv",
   "counts": {
     "위대한 후보": 63,
@@ -9,8 +9,8 @@
   },
   "coverage": {
     "total": 532,
-    "inCalendar": 492,
-    "missing": 40
+    "inCalendar": 532,
+    "missing": 0
   },
   "points": [
     {
@@ -1526,7 +1526,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "GYRE",
@@ -2096,7 +2096,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 67.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "VIR",
@@ -2711,7 +2711,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "AMLX",
@@ -2906,7 +2906,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 12.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PRTC",
@@ -2966,7 +2966,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TENX",
@@ -3581,7 +3581,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ANVS",
@@ -3656,7 +3656,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ABUS",
@@ -3911,7 +3911,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 32.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TGTX",
@@ -4346,7 +4346,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 7.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "AARD",
@@ -4526,7 +4526,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "UNCY",
@@ -4886,7 +4886,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "SGP",
@@ -5246,7 +5246,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PTHS",
@@ -5261,7 +5261,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 17.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "QURE",
@@ -5291,7 +5291,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 3.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "RXRX",
@@ -5321,7 +5321,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 32.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "SNSE",
@@ -5336,7 +5336,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TRAW",
@@ -5351,7 +5351,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "VRCA",
@@ -5381,7 +5381,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "APVO",
@@ -5546,7 +5546,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 22.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CAMP",
@@ -5786,7 +5786,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 6.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "XNCR",
@@ -6221,7 +6221,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "QNRX",
@@ -6251,7 +6251,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "SPRB",
@@ -6266,7 +6266,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "VYGR",
@@ -6791,7 +6791,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 12.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CVM",
@@ -6851,7 +6851,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "AEON",
@@ -6926,7 +6926,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "YDES",
@@ -7061,7 +7061,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ABSI",
@@ -7211,7 +7211,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 22.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ALZN",
@@ -7286,7 +7286,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "LEXX",
@@ -7316,7 +7316,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 23.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BOLD",
@@ -7391,7 +7391,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 3.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "STRO",
@@ -7556,7 +7556,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "SNOA",
@@ -7571,7 +7571,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TIVC",
@@ -7586,7 +7586,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "WHWK",
@@ -7811,7 +7811,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TELO",
@@ -7826,7 +7826,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "NNVC",
@@ -7856,7 +7856,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "SANA",
@@ -7916,7 +7916,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "RLMD",
@@ -7976,7 +7976,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "TCRT",
@@ -7991,7 +7991,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     }
   ]
 }
