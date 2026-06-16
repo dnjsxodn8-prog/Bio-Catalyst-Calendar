@@ -16,6 +16,7 @@ dist-ssr
 .env.local
 data/imports/raw/
 data/imports/naver-export-*.html
+data/imports/screener-charts.html
 src/data.generated.json
 data/_excluded.md
 data/_screener_wip/
