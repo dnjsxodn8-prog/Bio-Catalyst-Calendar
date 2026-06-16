@@ -1563,4 +1563,140 @@ events:
     moa: "경구 ribitol(리보플라빈 유사체) 전구체. α-dystroglycan 글리코실화 기질 보충 → 근섬유막 안정화"
     sources:
       - https://www.globenewswire.com/news-release/2026/05/27/3301817/0/en/bridgebio-announces-fda-acceptance-and-priority-review-of-nda-for-bbp-418-for-lgmd2i-r9.html
+  - date: 2026-06-29
+    ticker: ARQT
+    event: ZORYVE(roflumilast) 크림 0.3% 소아 판상건선(2~5세) 적응증 확대 sNDA PDUFA
+    type: PDUFA
+    company: Arcutis Biotherapeutics
+    drug: ZORYVE (roflumilast) cream 0.3%
+    indication: Plaque psoriasis in children ages 2 to 5
+    phase: sNDA
+    sources:
+      - https://www.arcutis.com/fda-accepts-supplemental-new-drug-application-for-arcutis-zoryve-roflumilast-cream-0-3-for-the-treatment-of-plaque-psoriasis-in-children-ages-2-to-5/
+      - https://www.globenewswire.com/news-release/2025/11/17/3189050/0/en/FDA-Accepts-Supplemental-New-Drug-Application-for-Arcutis-ZORYVE-roflumilast-Cream-0-3-for-the-Treatment-of-Plaque-Psoriasis-in-Children-Ages-2-to-5.html
+  - date: 2026-08-25
+    ticker: ONC
+    event: TEVIMBRA(tislelizumab) + ZIIHERA(zanidatamab) + 화학요법 1L HER2+ 위/위식도접합부 선암 sBLA PDUFA (RTOR, HERIZON-GEA-01 Ph3 OS 우월). Jazz와 공동개발
+    type: PDUFA
+    company: BeOne Medicines
+    drug: TEVIMBRA (tislelizumab) + ZIIHERA (zanidatamab) + chemo
+    indication: First-line HER2-positive gastric / GEJ / esophageal adenocarcinoma
+    phase: sBLA
+    sources:
+      - https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-announces-fda-acceptance-and-priority-review-of-supplemental-biologics-license-application-for-ziihera-zanidatamab-hrii-combinations-in-first-line-her2-locally-advanced-or-metastatic-gea-302753741.html
+      - https://www.businesswire.com/news/home/20260429582815/en/U.S.-FDA-Grants-Priority-Review-to-BeOne-Medicines-TEVIMBRA-in-First-Line-HER2-GEA
+  - date: 2026-09-26
+    ticker: MIRM
+    event: Zilurgisertib(경구 ALK2 억제제) FOP NDA PDUFA (우선심사, PROGRESS Ph2 pivotal). Incyte로부터 라이선스
+    type: PDUFA
+    company: Mirum Pharmaceuticals
+    drug: zilurgisertib
+    indication: Fibrodysplasia Ossificans Progressiva (FOP), 12세 이상
+    phase: NDA (Priority Review)
+    sources:
+      - https://ir.mirumpharma.com/news/news-details/2026/Mirum-Pharmaceuticals-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx
+  - date: 2026-11-14
+    ticker: CYTK
+    event: Aficamten(MYQORZO) 폐쇄성 비대성 심근증 sNDA PDUFA — MAPLE-HCM Ph3(아피캄텐 vs 메토프롤롤 우월) 기반 라벨 확대
+    type: PDUFA
+    company: Cytokinetics
+    drug: aficamten (MYQORZO)
+    indication: Symptomatic obstructive hypertrophic cardiomyopathy (oHCM)
+    phase: sNDA
+    sources:
+      - https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update/default.aspx
+  - date: 2026-11-22
+    ticker: SVRA
+    event: MOLBREEVI(molgramostim) 자가면역 폐포단백증(aPAP) BLA PDUFA — 3개월 연장(기존 8/22 → 11/22)
+    type: PDUFA
+    company: Savara
+    drug: MOLBREEVI (molgramostim inhalation solution)
+    indication: Autoimmune Pulmonary Alveolar Proteinosis (autoimmune PAP)
+    phase: BLA (Priority Review)
+    sources:
+      - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx
+      - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food-and-Drug-Administration-FDA-Filed-the-MOLBREEVI-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx
+  - date: 2026-07-30
+    ticker: VTRS
+    event: 저용량 에스트로겐 주간 피임패치(norelgestromin/EE) NDA PDUFA (505(b)(2))
+    type: PDUFA
+    company: Viatris
+    drug: Low-dose estrogen weekly contraceptive patch (norelgestromin / ethinyl estradiol)
+    indication: Combined hormonal contraception
+    phase: NDA (505(b)(2))
+    sources:
+      - https://www.prnewswire.com/news-releases/viatris-provides-pipeline-update-on-four-regulatory-milestones-302645311.html
+  - date: 2026-08-17
+    ticker: PFE
+    event: PADCEV(enfortumab vedotin) + Keytruda 근육침윤성 방광암(MIBC) 주변요법 sBLA PDUFA — 시스플라틴 적격 무관 적응증 확대 (EV-304/KEYNOTE-B15 Ph3)
+    type: PDUFA
+    company: Pfizer
+    drug: PADCEV (enfortumab vedotin-ejfv) + Keytruda (pembrolizumab)
+    indication: Perioperative muscle-invasive bladder cancer (regardless of cisplatin eligibility)
+    phase: sBLA (Priority Review)
+    sources:
+      - https://www.pfizer.com/news/press-release/press-release-detail/us-fda-grants-priority-review-sbla-padcevtm-keytrudar
+      - https://www.prnewswire.com/news-releases/us-fda-grants-priority-review-to-sbla-for-padcev--keytruda-as-perioperative-treatment-for-muscle-invasive-bladder-cancer-regardless-of-cisplatin-eligibility-302746360.html
+  - date: 2026-09-11
+    ticker: TLX
+    event: Pixclara(TLX101-Px, 18F-FET) 신경교종 영상진단 NDA PDUFA (재제출 수락)
+    type: PDUFA
+    company: Telix Pharmaceuticals
+    drug: Pixclara (TLX101-Px, Floretyrosine F-18 / 18F-FET)
+    indication: Glioma imaging (PET)
+    phase: NDA
+    sources:
+      - https://telixpharma.com/news-views/fda-accepts-nda-for-tlx101-px-pixclara/
+  - date: 2026-10-24
+    ticker: PHAR
+    event: Joenja(leniolisib) 소아 APDS(4~11세) sNDA 재제출 PDUFA (1/30 CRL 후 재제출)
+    type: PDUFA
+    company: Pharming Group
+    drug: Joenja (leniolisib)
+    indication: Activated PI3K-delta syndrome (APDS), children 4-11y
+    phase: sNDA (resubmission)
+    sources:
+      - https://www.globenewswire.com/news-release/2026/06/04/3306506/0/en/pharming-announces-u-s-fda-acceptance-of-snda-resubmission-for-joenja-leniolisib-to-treat-children-aged-4-to-11-years-with-apds.html
+      - https://www.sec.gov/Archives/edgar/data/0001828316/000182831626000031/pharmingannouncesusfdaacce.htm
+  - date: 2026-12-12
+    ticker: VNDA
+    event: Imsidolimab 전신농포건선(GPP) BLA PDUFA
+    type: PDUFA
+    company: Vanda Pharmaceuticals
+    drug: imsidolimab
+    indication: Generalized Pustular Psoriasis (GPP)
+    phase: BLA
+    sources:
+      - https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-acceptance-of-biologics-license-application-filing-for-imsidolimab-for-the-treatment-of-generalized-pustular-psoriasis-302696991.html
+  - date: 2026-12-22
+    ticker: MLYS
+    event: Lorundrostat(알도스테론 합성효소 억제제) 고혈압 NDA PDUFA (Launch-HTN/Advance-HTN Ph3)
+    type: PDUFA
+    company: Mineralys Therapeutics
+    drug: lorundrostat
+    indication: Hypertension (adjunct)
+    phase: NDA
+    sources:
+      - https://ir.mineralystx.com/news-events/press-releases/detail/93/mineralys-therapeutics-announces-fda-acceptance-of-nda-for
+  - date: 2027-01-04
+    ticker: NUVB
+    event: IBTROZI(taletrectinib) 진행성 ROS1+ NSCLC sNDA PDUFA — DoR 갱신 데이터(TRUST-I/II)
+    type: PDUFA
+    company: Nuvation Bio
+    drug: IBTROZI (taletrectinib)
+    indication: Advanced ROS1-positive NSCLC
+    phase: sNDA
+    sources:
+      - https://www.prnewswire.com/news-releases/nuvation-bio-announces-fda-acceptance-of-supplemental-new-drug-application-for-ibtrozi-taletrectinib-with-updated-duration-of-response-in-advanced-ros1-positive-non-small-cell-lung-cancer-302763329.html
+  - date: 2027-01-06
+    ticker: IBRX
+    event: ANKTIVA + BCG BCG-불응성 유두형(papillary-only) NMIBC sBLA PDUFA — 적응증 확대(CIS→유두형)
+    type: PDUFA
+    company: ImmunityBio
+    drug: ANKTIVA (nogapendekin alfa inbakicept-pmln) + BCG
+    indication: BCG-unresponsive papillary NMIBC (without CIS)
+    phase: sBLA
+    sources:
+      - https://immunitybio.com/immunitybio-announces-fda-acceptance-of-supplemental-bla-for-anktiva-plus-bcg-in-bcg-unresponsive-non-muscle-invasive-bladder-cancer-with-papillary-disease-pdufa-date-set-for-january-6-2027/
+      - https://www.businesswire.com/news/home/20260519760562/en/ImmunityBio-Announces-FDA-Acceptance-of-Supplemental-BLA-for-ANKTIVA-Plus-BCG-in-BCG-Unresponsive-Non-Muscle-Invasive-Bladder-Cancer-with-Papillary-Disease-PDUFA-Date-Set-for-January-6-2027
 ```
