@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T16:24:42.239Z",
+  "generated": "2026-06-16T02:26:24.305Z",
   "source": "great-biotech-screener/data/leaderboard.csv",
   "counts": {
     "위대한 후보": 63,
@@ -9,8 +9,8 @@
   },
   "coverage": {
     "total": 532,
-    "inCalendar": 349,
-    "missing": 183
+    "inCalendar": 356,
+    "missing": 176
   },
   "points": [
     {
@@ -1391,7 +1391,7 @@
       "rl": "Deep Value Watch",
       "wl": "None",
       "rt": 55,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ALMS",
@@ -2516,7 +2516,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 46.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CADL",
@@ -4016,7 +4016,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BEAM",
@@ -4811,7 +4811,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CTMX",
@@ -6086,7 +6086,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BIVI",
@@ -6101,7 +6101,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BNTC",
@@ -7331,7 +7331,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "GNTA",
