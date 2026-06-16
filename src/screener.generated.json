@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T03:01:23.732Z",
+  "generated": "2026-06-16T03:07:15.445Z",
   "source": "great-biotech-screener/data/leaderboard.csv",
   "counts": {
     "위대한 후보": 63,
@@ -9,8 +9,8 @@
   },
   "coverage": {
     "total": 532,
-    "inCalendar": 420,
-    "missing": 112
+    "inCalendar": 456,
+    "missing": 76
   },
   "points": [
     {
@@ -3086,7 +3086,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 31.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "OCGN",
@@ -3281,7 +3281,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 31.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "DTIL",
@@ -3371,7 +3371,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "IRD",
@@ -3821,7 +3821,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 35,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "GUTS",
@@ -3866,7 +3866,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 38.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "INMB",
@@ -3881,7 +3881,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 31.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "KZIA",
@@ -4106,7 +4106,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "EPRX",
@@ -4421,7 +4421,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "LXRX",
@@ -4631,7 +4631,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "MAZE",
@@ -4841,7 +4841,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "MTVA",
@@ -5051,7 +5051,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "DMAC",
@@ -5081,7 +5081,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "EDSA",
@@ -5096,7 +5096,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "EVAX",
@@ -5111,7 +5111,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "GLSI",
@@ -5441,7 +5441,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 3.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "FHTX",
@@ -5471,7 +5471,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "MNKD",
@@ -5621,7 +5621,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "DRUG",
@@ -5651,7 +5651,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "FBRX",
@@ -5681,7 +5681,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "LGVN",
@@ -6146,7 +6146,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "INKT",
@@ -6161,7 +6161,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 30,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "IPSC",
@@ -6191,7 +6191,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "PCSA",
@@ -6311,7 +6311,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "GTBP",
@@ -6326,7 +6326,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 40,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "HIND",
@@ -6341,7 +6341,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "NKTX",
@@ -6431,7 +6431,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "IPHA",
@@ -6686,7 +6686,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "KRRO",
@@ -6806,7 +6806,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "IBIO",
@@ -6821,7 +6821,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "OGEN",
@@ -7031,7 +7031,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "OABI",
@@ -7346,7 +7346,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "NEUP",
@@ -7646,7 +7646,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "IMNM",
@@ -7706,7 +7706,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "FLNA",
@@ -7721,7 +7721,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ANL",
@@ -7781,7 +7781,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 7.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "IBO",
@@ -7796,7 +7796,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 32.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "QNCX",
