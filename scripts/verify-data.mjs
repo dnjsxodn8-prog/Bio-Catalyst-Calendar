@@ -114,11 +114,20 @@ async function verifyCompanies(issues, summary) {
       tickers.add(fm.ticker);
     }
 
+    // screener 플래그 (선택, boolean). 스크리너 커버리지용 등재 표시 + mcap 하한 완화 게이트 (spec 011)
+    if (fm.screener !== undefined && typeof fm.screener !== 'boolean') {
+      issues.err(loc, `screener는 boolean이어야 함: ${fm.screener}`);
+    }
+
     // mcap
+    // 기본 하한 $100M (요구사항 4번). 단 screener:true 종목은 하한 완화 → WARNING (spec 011 D3).
     if (fm.mcap !== undefined && fm.mcap !== null) {
       if (!Number.isInteger(fm.mcap)) issues.err(loc, `mcap이 정수가 아님: ${fm.mcap}`);
-      else if (fm.mcap < 100) issues.err(loc, `mcap < 100: ${fm.mcap} (요구사항 4번)`);
       else if (fm.mcap < 0) issues.err(loc, `mcap이 음수: ${fm.mcap}`);
+      else if (fm.mcap < 100) {
+        if (fm.screener === true) issues.warn(loc, `mcap < 100: ${fm.mcap} (스크리너 종목, 하한 완화)`);
+        else issues.err(loc, `mcap < 100: ${fm.mcap} (요구사항 4번; 스크리너 종목이면 screener:true 필요)`);
+      }
     }
 
     // modality

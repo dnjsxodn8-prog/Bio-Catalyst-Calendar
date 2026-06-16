@@ -70,7 +70,7 @@ specs/                      ← 기능별 요구사항 문서 (번호 순)
 1. 종목 1개 = `data/companies/{TICKER}.md` 1파일. 절대 코드에 종목 정보 인라인 X.
 2. 모든 종목 파일은 frontmatter(YAML)에 다음 필드 필수:
    - `ticker, company, mcap, modality, areas, sources, verified`
-3. `mcap`은 백만 단위 정수. **100 미만이면 추가 거부** (요구사항 4번).
+3. `mcap`은 백만 단위 정수. **100 미만이면 추가 거부** (요구사항 4번). **단 스크리너 유래 종목(`screener: true`)은 예외 — verify는 ERROR 대신 WARNING으로 통과** (spec 011).
 4. `sources`는 URL 배열. 비어있으면 검증 실패. (요구사항 3번)
 5. `verified`는 마지막 사실확인 날짜 YYYY-MM-DD. 90일 지나면 stale 경고.
 6. 데이터 변경 후 항상 `npm run check` 통과해야 커밋. pre-commit hook이 강제함.
@@ -86,7 +86,7 @@ specs/                      ← 기능별 요구사항 문서 (번호 순)
 - **코드 검증**: ESLint, TypeScript(있다면), Vitest
 - **데이터 검증** (`scripts/verify-data.mjs`):
   1. 모든 종목 파일이 스키마 통과
-  2. mcap >= 100
+  2. mcap >= 100 (단 `screener: true` 종목은 완화 → WARNING, spec 011)
   3. sources URL 최소 1개, 가능하면 200 OK
   4. catalysts.md의 모든 ticker가 companies/에 존재
   5. 같은 ticker 중복 없음
@@ -157,7 +157,7 @@ specs/                      ← 기능별 요구사항 문서 (번호 순)
 - ❌ src/ 폴더 안에 데이터 인라인 (companies, catalysts 등)
 - ❌ Public Repo로 push (개인 메모·견해 노출)
 - ❌ 출처 없는 데이터 추가 ("정보 미입력"으로 둘 것)
-- ❌ mcap < $100M 종목 추가
+- ❌ mcap < $100M 종목 추가 (예외: `screener: true` 스크리너 유래 종목 — spec 011)
 - ❌ 사용자 확인 없이 자동 commit/push (예외: `/deploy` 스킬은 호출 자체가 명시 동의)
 - ❌ 한 세션에서 너무 많은 일 하기 (컨텍스트 폭발)
 - ❌ pre-commit hook 우회 (`git commit --no-verify`, `-n`). 훅이 실패하면 원인 진단·수정 후 재커밋. 우회는 `npm run check` 전체를 무력화함.

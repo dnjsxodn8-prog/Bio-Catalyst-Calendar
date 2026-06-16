@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T02:38:28.042Z",
+  "generated": "2026-06-16T03:01:23.732Z",
   "source": "great-biotech-screener/data/leaderboard.csv",
   "counts": {
     "위대한 후보": 63,
@@ -9,8 +9,8 @@
   },
   "coverage": {
     "total": 532,
-    "inCalendar": 384,
-    "missing": 148
+    "inCalendar": 420,
+    "missing": 112
   },
   "points": [
     {
@@ -2006,7 +2006,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "DNLI",
@@ -3041,7 +3041,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CGEN",
@@ -3206,7 +3206,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ACHV",
@@ -3236,7 +3236,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ARCT",
@@ -3596,7 +3596,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 35,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BYSI",
@@ -3611,7 +3611,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 17.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "DFTX",
@@ -3716,7 +3716,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "IFRX",
@@ -3791,7 +3791,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "DRTS",
@@ -4001,7 +4001,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "AVLN",
@@ -4061,7 +4061,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "COYA",
@@ -4376,7 +4376,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CHRS",
@@ -4976,7 +4976,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "AVXL",
@@ -5006,7 +5006,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CMMB",
@@ -5396,7 +5396,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BBOT",
@@ -5576,7 +5576,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BLRX",
@@ -5591,7 +5591,7 @@
       "rl": "pending",
       "wl": "pending",
       "rt": null,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BMEA",
@@ -5606,7 +5606,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 31.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CRVO",
@@ -5861,7 +5861,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ATRA",
@@ -5876,7 +5876,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 20,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ATYR",
@@ -5891,7 +5891,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 32.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "BIXT",
@@ -5906,7 +5906,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CMPX",
@@ -6056,7 +6056,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 30,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ANTX",
@@ -6071,7 +6071,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 3.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "APRE",
@@ -6296,7 +6296,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 32.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ESLA",
@@ -6506,7 +6506,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "AMIX",
@@ -6521,7 +6521,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CRVS",
@@ -6641,7 +6641,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 30,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "COCP",
@@ -6656,7 +6656,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 0,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "HELP",
@@ -6866,7 +6866,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 25,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CRBP",
@@ -6956,7 +6956,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 18.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CNSP",
@@ -6971,7 +6971,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 22.5,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "LKFT",
@@ -7091,7 +7091,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 28.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CNTX",
@@ -7226,7 +7226,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CLYM",
@@ -7466,7 +7466,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 36.3,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "CBIO",
@@ -7691,7 +7691,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 20,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "ERNA",
@@ -7766,7 +7766,7 @@
       "rl": "Financing Trap",
       "wl": "Avoid/Lower Priority",
       "rt": 13.8,
-      "inCalendar": false
+      "inCalendar": true
     },
     {
       "t": "GRDX",
