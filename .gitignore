@@ -23,6 +23,9 @@ data/_screener_wip/
 # Claude Code per-session worktrees (sandbox dirs)
 .claude/worktrees/
 
+# Non-canonical agent skills mirror (canonical = .claude/skills/, tracked)
+.agents/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
