@@ -1,6 +1,8 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { Routes, Route, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
 import data from './data.generated.json';
+import screener from './screener.generated.json';
+import { buildSearchIndex } from './utils/searchIndex';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
 import Footer from './components/Footer';
@@ -40,6 +42,12 @@ function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [recent, pushRecent] = useRecent();
   const watchlist = useWatchlist();
+
+  // 통합 검색 인덱스(인증: 메모 포함 전 필드 + 점수 조인) — spec 012
+  const searchIndex = useMemo(
+    () => buildSearchIndex(data, screener, { includePrivate: true }),
+    []
+  );
 
   // 기업 모달은 배경 location 위에 오버레이 (React Router modal 패턴, spec 010 §2.3)
   const backgroundLocation = location.state?.backgroundLocation;
@@ -101,6 +109,8 @@ function App() {
           theme={theme}
           onTheme={setTheme}
           onOpenSidebar={() => setSidebarOpen(true)}
+          onPickCompany={openCompany}
+          searchIndex={searchIndex}
         />
 
         <div className="px-4 lg:px-7 pt-6 pb-20 max-w-[1600px] w-full mx-auto flex-1">

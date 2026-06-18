@@ -1,6 +1,10 @@
-import { useEffect } from 'react';
-import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
+import { useEffect, useMemo, useState } from 'react';
+import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
+import data from '../data.generated.json';
+import screener from '../screener.generated.json';
+import { buildSearchIndex } from '../utils/searchIndex';
+import SearchBox from './SearchBox';
 
 const NAV = [
   { to: '/', label: 'Home', end: true },
@@ -11,6 +15,14 @@ const NAV = [
 
 export default function PublicLayout() {
   const location = useLocation();
+  const navigate = useNavigate();
+  const [q, setQ] = useState('');
+
+  // 공개 검색 인덱스 — 개인 메모 제외(사실 필드만). 클릭 시 /app 으로(로그인 게이트). spec 012
+  const index = useMemo(
+    () => buildSearchIndex(data, screener, { includePrivate: false }),
+    []
+  );
 
   useEffect(() => {
     document.body.classList.add('light');
@@ -47,7 +59,16 @@ export default function PublicLayout() {
               </NavLink>
             ))}
           </nav>
-          <div className="ml-auto flex items-center gap-2">
+          <div className="ml-auto hidden md:block">
+            <SearchBox
+              value={q}
+              onChange={setQ}
+              onPick={(ticker) => navigate(`/app/company/${ticker}`)}
+              index={index}
+              widthClass="w-[200px] lg:w-[280px]"
+            />
+          </div>
+          <div className="flex items-center gap-2">
             <SignedOut>
               <SignInButton mode="modal">
                 <button className="h-8 px-3 rounded-md text-[13px] border border-line text-ink hover:bg-panel-2 transition-colors">

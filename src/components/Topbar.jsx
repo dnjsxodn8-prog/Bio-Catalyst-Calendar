@@ -1,5 +1,6 @@
-import { Search, Sun, Moon, Menu } from 'lucide-react';
+import { Sun, Moon, Menu } from 'lucide-react';
 import { UserButton } from '@clerk/clerk-react';
+import SearchBox from './SearchBox';
 
 const TITLES = {
   dashboard: ['대시보드', 'Mission Control'],
@@ -9,7 +10,7 @@ const TITLES = {
   screener: ['Great Biotech Screener', 'Screener'],
 };
 
-export default function Topbar({ tab, query, onQuery, theme, onTheme, onOpenSidebar }) {
+export default function Topbar({ tab, query, onQuery, theme, onTheme, onOpenSidebar, onPickCompany, searchIndex }) {
   const [k, sub] = TITLES[tab] || TITLES.dashboard;
   return (
     <header
@@ -37,17 +38,13 @@ export default function Topbar({ tab, query, onQuery, theme, onTheme, onOpenSide
       </div>
 
       <div className="flex items-center gap-2.5 ml-auto min-w-0">
-        <div className="hidden sm:flex items-center gap-2.5 h-[38px] px-3 w-[200px] md:w-[300px] lg:w-[380px] bg-panel-2 border border-line rounded-[10px]">
-          <Search className="w-[15px] h-[15px] text-ink-3 flex-shrink-0" strokeWidth={1.6} />
-          <input
-            placeholder="ticker · drug · indication 검색…"
-            value={query ?? ''}
-            onChange={(e) => onQuery && onQuery(e.target.value)}
-            className="flex-1 min-w-0 bg-transparent border-0 outline-none text-ink text-[13px]"
+        <div className="hidden sm:block">
+          <SearchBox
+            value={query}
+            onChange={onQuery}
+            onPick={onPickCompany}
+            index={searchIndex}
           />
-          <kbd className="mono text-[10px] px-1.5 py-0.5 bg-bg-2 border border-line rounded text-ink-3 tracking-[0.04em] hidden lg:inline-block">
-            ⌘K
-          </kbd>
         </div>
 
         <button

@@ -50,11 +50,25 @@ function hoverText(d) {
 
 const CAM0 = { eye: { x: 1.5, y: -1.5, z: 0.9 } };
 
-export default function Screener({ onOpenCompany }) {
+export default function Screener({ query, onOpenCompany }) {
   const points = useMemo(
     () => screener.points.map((p, i) => ({ ...p, _i: i })),
     []
   );
+
+  // 전역 검색어 매칭 (ticker/회사명) — spec 012 §2.5
+  const searchMatches = useMemo(() => {
+    const q = (query || '').trim().toLowerCase();
+    if (!q) return [];
+    return points
+      .filter((d) => d.t.toLowerCase().includes(q) || (d.c || '').toLowerCase().includes(q))
+      .sort((a, b) => {
+        const ax = a.t.toLowerCase() === q ? 0 : a.t.toLowerCase().startsWith(q) ? 1 : 2;
+        const bx = b.t.toLowerCase() === q ? 0 : b.t.toLowerCase().startsWith(q) ? 1 : 2;
+        return ax !== bx ? ax - bx : (b.m ?? 0) - (a.m ?? 0);
+      })
+      .slice(0, 6);
+  }, [query, points]);
   const [mc, setMc] = useState('all');
   const [zmode, setZmode] = useState('t1');
   const [selected, setSelected] = useState(null);
@@ -229,6 +243,34 @@ export default function Screener({ onOpenCompany }) {
   return (
     <div className="space-y-5">
       <Header counts={screener.counts} coverage={screener.coverage} generated={screener.generated} />
+
+      {searchMatches.length > 0 && (
+        <div className="panel p-4">
+          <div className="text-[12px] text-ink-3 mb-2.5 mono tracking-[0.04em]">
+            검색 결과 · “{query}” ({searchMatches.length})
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
+            {searchMatches.map((d) => (
+              <button
+                key={d.t}
+                onClick={() => onOpenCompany?.(d.t)}
+                className="flex items-center gap-3 text-left bg-panel-2 border border-line rounded-[10px] px-3 py-2.5 hover:border-line-2 transition-colors"
+              >
+                <span className="mono text-[13px] font-bold text-ink w-[52px] flex-shrink-0 truncate">
+                  {d.t}
+                </span>
+                <span className="flex flex-col min-w-0 flex-1">
+                  <span className="text-[12px] text-ink-2 truncate">{d.c}</span>
+                  <span className="mono text-[11px] text-ink-3">
+                    G{d.g} · E{d.e} · {d.grp}
+                    {d.rl && d.rl !== 'No Rerating Signal' ? ` · ${d.rl}` : ''}
+                  </span>
+                </span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       {loadError && (
         <div className="panel p-4 text-sm text-danger">

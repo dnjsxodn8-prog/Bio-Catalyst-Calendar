@@ -29,6 +29,16 @@ import {
 import { renderBody, extractBoldHeader, stripBoldHeader } from '../utils/inlineMarkdown';
 import Sparkline from './Sparkline';
 import PctChange from './PctChange';
+import screener from '../screener.generated.json';
+
+// 스크리너 점수 맵 (ticker -> point) — spec 012
+const SCREENER_BY_TICKER = new Map((screener?.points || []).map((p) => [p.t, p]));
+const GRP_COLOR = {
+  '위대한 후보': { bg: 'rgba(245,197,24,0.12)', dot: '#f5c518', text: '#f5c518' },
+  '관찰 후보': { bg: 'rgba(91,141,239,0.12)', dot: '#5b8def', text: '#5b8def' },
+  무등급: { bg: 'rgba(107,114,128,0.12)', dot: '#9ca3af', text: '#9ca3af' },
+  부적격: { bg: 'rgba(185,28,28,0.12)', dot: '#ef4444', text: '#ef4444' },
+};
 
 const PROFILE_FIELDS = [
   { key: '회사 개요', icon: Building2, label: '회사 개요', wide: true },
@@ -86,6 +96,8 @@ export default function CompanyDetail({ item, data, watchlist, onClose }) {
         </button>
 
         <Hero company={company} priceCache={prices[company.ticker]} />
+
+        <ScreenerScore ticker={company.ticker} />
 
         <div className="px-7 py-6 grid grid-cols-1 lg:grid-cols-[1.6fr_1fr] gap-6">
           <CatalystTimeline ticks={ticks} />
@@ -152,6 +164,62 @@ function Hero({ company, priceCache }) {
           </span>
         </div>
       )}
+    </div>
+  );
+}
+
+function ScoreMetric({ label, val }) {
+  return (
+    <div className="flex flex-col">
+      <span className="mono text-[9.5px] text-ink-4 tracking-[0.1em] uppercase">{label}</span>
+      <span className="num text-[20px] font-bold leading-tight">{val}</span>
+    </div>
+  );
+}
+
+function ScreenerScore({ ticker }) {
+  const p = SCREENER_BY_TICKER.get(ticker);
+  if (!p) {
+    return (
+      <div className="px-7 pt-4">
+        <div className="text-[11px] text-ink-4 mono tracking-[0.04em]">
+          GREAT BIOTECH SCREENER · 미채점 종목
+        </div>
+      </div>
+    );
+  }
+  const col = GRP_COLOR[p.grp] || GRP_COLOR['무등급'];
+  return (
+    <div className="px-7 pt-4">
+      <div
+        className="flex items-center gap-5 flex-wrap rounded-[10px] border border-line px-4 py-3"
+        style={{ background: col.bg }}
+      >
+        <div className="flex items-center gap-1.5">
+          <span className="inline-block w-2 h-2 rounded-full" style={{ background: col.dot }} />
+          <span className="text-[12.5px] font-bold" style={{ color: col.text }}>
+            {p.grp}
+          </span>
+        </div>
+        <ScoreMetric label="G · 과학" val={p.g} />
+        <ScoreMetric label="E · 실행" val={p.e} />
+        {p.rt != null && <ScoreMetric label="R · 리레이팅" val={p.rt} />}
+        {p.rl && (
+          <div className="flex flex-col">
+            <span className="mono text-[9.5px] text-ink-4 tracking-[0.1em] uppercase">신호</span>
+            <span className="text-[12.5px] text-ink-2">{p.rl}</span>
+          </div>
+        )}
+        {p.wl && p.wl !== 'Avoid/Lower Priority' && (
+          <div className="flex flex-col">
+            <span className="mono text-[9.5px] text-ink-4 tracking-[0.1em] uppercase">관심도</span>
+            <span className="text-[12.5px] text-ink-2">{p.wl}</span>
+          </div>
+        )}
+        <span className="ml-auto text-[10px] text-ink-4 mono tracking-[0.04em] hidden sm:block">
+          GREAT BIOTECH SCREENER · G/E 0–100
+        </span>
+      </div>
     </div>
   );
 }
