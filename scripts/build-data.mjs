@@ -138,6 +138,63 @@ function mapResearchSections(rawHeadings) {
   return out;
 }
 
+const num = (v) => (Number.isFinite(Number(v)) && v !== '' && v != null ? Number(v) : null);
+const str = (v) => (v != null ? String(v).trim() : '');
+const TIER = (v) => (String(v).toLowerCase() === 'free' ? 'free' : v ? 'pro' : null);
+
+// asset 시장 블록 정규화 (spec 015 §2). 숫자/문자 관대 변환, 누락 skip.
+function normMarket(m) {
+  if (!m || typeof m !== 'object') return null;
+  const out = {
+    patients: str(m.patients) || null,
+    patientsBasis: str(m.patients_basis) || null,
+    annualPriceUsd: num(m.annual_price_usd),
+    priceBasis: str(m.price_basis) || null,
+    penetration: num(m.penetration),
+    penetrationBasis: str(m.penetration_basis) || null,
+    pxqUsd: num(m.pxq_usd),
+    peakSalesUsd: num(m.peak_sales_usd),
+    peakSalesBasis: str(m.peak_sales_basis) || null,
+    tamUsd: num(m.tam_usd),
+    tamBullUsd: num(m.tam_bull_usd),
+    sources: Array.isArray(m.market_sources) ? m.market_sources.map(str).filter(Boolean) : [],
+  };
+  return Object.values(out).some((v) => v != null && !(Array.isArray(v) && !v.length)) ? out : null;
+}
+
+// asset 1개 정규화 (spec 015 §2). etiology/moa/expansion/market/tier.
+function normAsset(a) {
+  if (!a || typeof a !== 'object') return null;
+  const expansion = (Array.isArray(a.expansion) ? a.expansion : [])
+    .filter((e) => e && typeof e === 'object')
+    .map((e) => ({
+      axis: str(e.axis),
+      detail: str(e.detail),
+      status: str(e.status) || null,
+      tamAddUsd: num(e.tam_add_usd),
+      sources: Array.isArray(e.sources) ? e.sources.map(str).filter(Boolean) : [],
+    }))
+    .filter((e) => e.axis || e.detail);
+  return {
+    name: str(a.name),
+    indication: str(a.indication) || null,
+    modality: str(a.modality) || null,
+    stage: str(a.stage) || null,
+    revenueTtmUsd: num(a.revenue_ttm_usd),
+    etiology: str(a.etiology) || null,
+    moa: str(a.moa) || null,
+    market: normMarket(a.market),
+    expansion,
+    tier: TIER(a.tier),
+  };
+}
+
+function normPlatform(p) {
+  if (!p || typeof p !== 'object') return null;
+  const out = { thesis: str(p.thesis) || null, reusability: str(p.reusability) || null, tier: TIER(p.tier) };
+  return out.thesis || out.reusability ? out : null;
+}
+
 async function loadResearch() {
   const dir = path.join(ROOT, 'data/research');
   const out = {};
@@ -179,6 +236,10 @@ async function loadResearch() {
         url: n.url != null ? String(n.url) : '',
         source: n.source != null ? String(n.source) : '',
       }));
+    // spec 015: 자산 과학·시장·확장 + 플랫폼 + tier (누락 관대)
+    const assets = (Array.isArray(fm.assets) ? fm.assets : [])
+      .map(normAsset)
+      .filter((a) => a && a.name);
     out[ticker] = {
       updated: normDate(fm.updated),
       author: fm.author ?? null,
@@ -187,6 +248,9 @@ async function loadResearch() {
       news,
       sources: Array.isArray(fm.sources) ? fm.sources : [],
       sections: mapResearchSections(parseBodyHeadings(parsed.content)),
+      assets,
+      platform: normPlatform(fm.platform),
+      pipelineNote: str(fm.pipeline_note) || null,
     };
   }
   return out;

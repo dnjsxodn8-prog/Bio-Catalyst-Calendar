@@ -45,12 +45,13 @@ async function main() {
   const jsonOut = args.has('--json');
 
   const issues = new Issues();
-  const summary = { companies: 0, catalysts: 0, conferences: 0, prices: 0 };
+  const summary = { companies: 0, catalysts: 0, conferences: 0, prices: 0, research: 0 };
 
   const companies = await verifyCompanies(issues, summary);
   const catalysts = await verifyCatalysts(issues, summary, companies, /* conferences set later */);
   const conferences = await verifyConferences(issues, summary);
   await verifyPrices(issues, summary, companies);
+  await verifyResearch(issues, summary, companies);
 
   // catalysts ↔ conferences 참조 검증 (conferences 로드 후)
   verifyCatalystConferenceRefs(issues, catalysts, conferences);
@@ -332,6 +333,100 @@ async function verifyPrices(issues, summary, companyTickers) {
 
 // ---------- helpers ----------
 
+// ---------- Research (spec 014 + 015) ----------
+const RESEARCH_TIERS = new Set(['free', 'pro']);
+const numOrNull = (v) => (Number.isFinite(Number(v)) && v !== '' && v != null ? Number(v) : null);
+
+async function verifyResearch(issues, summary, companyTickers) {
+  const dir = path.join(ROOT, 'data/research');
+  let files;
+  try {
+    files = await fs.readdir(dir);
+  } catch {
+    return; // research 디렉토리 없으면 skip
+  }
+  const tickerSet = new Set(companyTickers);
+  for (const file of files) {
+    if (!file.endsWith('.md') || file.startsWith('_')) continue; // '_' 접두(템플릿·DEV) 스킵
+    const loc = `data/research/${file}`;
+    let fm;
+    try {
+      fm = matter(await fs.readFile(path.join(dir, file), 'utf8')).data || {};
+    } catch (e) {
+      issues.err(loc, `frontmatter 파싱 실패: ${e.message}`);
+      continue;
+    }
+    summary.research += 1;
+    const ticker = String(fm.ticker || file.replace(/\.md$/, '')).toUpperCase();
+
+    // research 종목은 companies/ 에 존재해야 부착됨 (없으면 렌더 안 됨)
+    if (tickerSet.size && !tickerSet.has(ticker)) {
+      issues.warn(loc, `companies/ 에 ${ticker} 없음 — research 부착 안 됨`);
+    }
+
+    // ── assets (spec 015) ──
+    const assets = Array.isArray(fm.assets) ? fm.assets : [];
+    assets.forEach((a, i) => {
+      if (!a || typeof a !== 'object') return;
+      const aloc = `${loc} · asset[${i}]${a.name ? ` ${a.name}` : ''}`;
+      if (!a.name) issues.warn(aloc, 'name 없음 — 빌드에서 제외됨');
+      if (!a.etiology) issues.inf(aloc, 'etiology 없음 (과학 깊이 권장)');
+      if (!a.moa) issues.inf(aloc, 'moa 없음 (작용기전 권장)');
+      if (a.tier != null && !RESEARCH_TIERS.has(String(a.tier).toLowerCase())) {
+        issues.warn(aloc, `tier 값 이상 '${a.tier}' (free|pro)`);
+      }
+      verifyMarket(issues, aloc, a.market);
+    });
+
+    // platform.tier
+    if (fm.platform?.tier != null && !RESEARCH_TIERS.has(String(fm.platform.tier).toLowerCase())) {
+      issues.warn(`${loc} · platform`, `tier 값 이상 '${fm.platform.tier}'`);
+    }
+  }
+}
+
+function verifyMarket(issues, loc, m) {
+  if (!m || typeof m !== 'object') return;
+  const price = numOrNull(m.annual_price_usd);
+  const pen = numOrNull(m.penetration);
+  const pxq = numOrNull(m.pxq_usd);
+  const peak = numOrNull(m.peak_sales_usd);
+  const tam = numOrNull(m.tam_usd);
+  const bull = numOrNull(m.tam_bull_usd);
+  const hasNum = [price, pen, pxq, peak, tam, bull].some((v) => v != null);
+  if (!hasNum) return;
+
+  // 위조 방지: 수치가 있으면 출처 or 가정 라벨 필수 (spec 015 §2.1, §6)
+  const hasSources = Array.isArray(m.market_sources) && m.market_sources.length > 0;
+  const bases = [m.patients_basis, m.price_basis, m.penetration_basis, m.peak_sales_basis]
+    .filter(Boolean)
+    .map(String);
+  const hasBasis = bases.length > 0;
+  if (!hasSources && !hasBasis) {
+    issues.err(loc, 'market 수치에 출처(market_sources)도 가정 라벨(*_basis)도 없음 — 위조 방지 ERROR');
+  }
+
+  // 단조성 sanity (WARNING)
+  if (pxq != null && tam != null && pxq > tam * 1.05) {
+    issues.warn(loc, `P×Q(${fmtB(pxq)}) > TAM(${fmtB(tam)}) — 현실>천장 모순`);
+  }
+  if (tam != null && bull != null && bull < tam) {
+    issues.warn(loc, `bull TAM(${fmtB(bull)}) < base TAM(${fmtB(tam)}) — 확장이 base보다 작음`);
+  }
+  if (peak != null && tam != null && peak > tam * 1.2) {
+    issues.warn(loc, `peak sales(${fmtB(peak)}) > TAM(${fmtB(tam)}) — peak가 TAM 초과`);
+  }
+  if (pen != null && (pen < 0 || pen > 1)) {
+    issues.warn(loc, `penetration ${pen} 가 0~1 범위 밖`);
+  }
+  // 약가 모달리티 sanity (INFO)
+  if (price != null && (price < 1000 || price > 5000000)) {
+    issues.inf(loc, `annual_price_usd ${price} 가 일반 레인지($1k~$5M) 밖 — 재확인 권장`);
+  }
+}
+
+const fmtB = (n) => (n >= 1e9 ? `$${(n / 1e9).toFixed(1)}B` : n >= 1e6 ? `$${Math.round(n / 1e6)}M` : `$${n}`);
+
 function asYMD(v) {
   if (v == null) return null;
   if (v instanceof Date && !isNaN(v)) return v.toISOString().slice(0, 10);
@@ -378,6 +473,7 @@ function printHuman(summary, issues, verbose) {
   console.log(`  catalysts:    ${summary.catalysts}`);
   console.log(`  conferences:  ${summary.conferences}`);
   console.log(`  prices:       ${summary.prices}`);
+  console.log(`  research:     ${summary.research}`);
   console.log('');
 
   const e = issues.errors.length, w = issues.warnings.length, i = issues.info.length;

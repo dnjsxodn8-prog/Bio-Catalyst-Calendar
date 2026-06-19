@@ -414,6 +414,40 @@ body.light header {
     background: linear-gradient(90deg, #34d399, #6ee7b7);
   }
 
+  /* 자산 과학·시장 카드 (spec 015) */
+  .tier-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    height: 17px;
+    padding: 0 6px;
+    border-radius: 999px;
+    font: 700 9px/1 'JetBrains Mono', monospace;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .tier-badge.pro {
+    background: rgba(245, 197, 24, 0.12);
+    color: #f5c518;
+    border: 1px solid rgba(245, 197, 24, 0.3);
+  }
+  .tier-badge.free {
+    background: rgba(110, 231, 183, 0.1);
+    color: #6ee7b7;
+    border: 1px solid rgba(110, 231, 183, 0.28);
+  }
+  /* 꿈의 크기 막대 (P×Q → TAM → bull TAM) */
+  .dream-track {
+    height: 9px;
+    border-radius: 999px;
+    background: var(--line);
+    overflow: hidden;
+  }
+  .dream-fill {
+    height: 100%;
+    border-radius: 999px;
+  }
+
   /* 모바일 (<lg)에서는 풀스크린 모달 — bottom-sheet 대신 단순 풀스크린 */
   @media (max-width: 1023.98px) {
     .modal-backdrop {

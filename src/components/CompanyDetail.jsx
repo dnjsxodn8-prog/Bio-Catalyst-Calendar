@@ -18,6 +18,9 @@ import {
   Beaker,
   Users,
   ExternalLink,
+  TrendingUp,
+  Layers,
+  Lock,
 } from 'lucide-react';
 import {
   dDelta,
@@ -589,9 +592,11 @@ function ResearchLayout({ company, research, ticks, upcoming, watchlist }) {
   const scores = research.scores || {};
   const present = RESEARCH_SECTIONS.filter((s) => isFilled(research.sections?.[s.key]));
   const hasNews = (research.news || []).length > 0;
+  const hasAssets = (research.assets || []).length > 0 || !!research.platform;
 
   const navItems = [
     { id: 'rsec-objective', label: '객관 지표' },
+    ...(hasAssets ? [{ id: 'rsec-assets', label: '자산 과학·시장' }] : []),
     ...present.map((s) => ({ id: `rsec-${s.key}`, label: s.label })),
     ...(hasNews ? [{ id: 'rsec-news', label: '뉴스' }] : []),
   ];
@@ -614,6 +619,16 @@ function ResearchLayout({ company, research, ticks, upcoming, watchlist }) {
 
         {/* 섹션별 점수 요약 */}
         <ScoreSummary scores={scores} />
+
+        {/* 자산별 과학·시장 (spec 015) */}
+        {hasAssets && (
+          <AssetSection
+            ticker={company.ticker}
+            assets={research.assets || []}
+            platform={research.platform}
+            pipelineNote={research.pipelineNote}
+          />
+        )}
 
         {/* 내러티브 섹션 (§2.2 순서) */}
         {present.map((s) => (
@@ -872,6 +887,277 @@ function ResearchSources({ sources }) {
           {url}
         </a>
       ))}
+    </div>
+  );
+}
+
+// ── 자산별 과학·시장 (spec 015) ──────────────────────────────────────────────
+
+function fmtUsd(n) {
+  if (n == null || !Number.isFinite(Number(n))) return null;
+  const v = Number(n);
+  const a = Math.abs(v);
+  if (a >= 1e9) return `$${(v / 1e9).toFixed(a / 1e9 >= 10 ? 0 : 1)}B`;
+  if (a >= 1e6) return `$${Math.round(v / 1e6)}M`;
+  if (a >= 1e3) return `$${Math.round(v / 1e3)}k`;
+  return `$${Math.round(v)}`;
+}
+
+const STAGE_LABEL = {
+  approved: '승인',
+  filed: '허가신청',
+  ph3: '3상',
+  ph2: '2상',
+  ph1: '1상',
+  preclinical: '전임상',
+};
+
+function TierBadge({ tier }) {
+  if (!tier) return null;
+  if (tier === 'pro') {
+    return (
+      <span className="tier-badge pro">
+        <Lock className="w-2.5 h-2.5" strokeWidth={2.4} />
+        PRO
+      </span>
+    );
+  }
+  return <span className="tier-badge free">FREE</span>;
+}
+
+function BasisChip({ basis }) {
+  if (!basis) return null;
+  const assume = /가정/.test(basis);
+  return (
+    <span
+      className={`mono text-[9px] ml-0.5 ${assume ? 'text-pdufa' : 'text-ink-4'}`}
+      title={basis}
+    >
+      {assume ? '〔가정〕' : '〔출처〕'}
+    </span>
+  );
+}
+
+function AssetSection({ ticker, assets, platform, pipelineNote }) {
+  return (
+    <section id="rsec-assets" className="research-anchor">
+      <div className="section-h">
+        <h2>자산별 과학 · 시장</h2>
+        <span className="meta">
+          {assets.length} ASSET{assets.length === 1 ? '' : 'S'}
+        </span>
+      </div>
+      {platform && <PlatformPanel platform={platform} />}
+      <div className="space-y-3.5">
+        {assets.map((a, i) => (
+          <AssetCard key={`${ticker}-asset-${i}`} asset={a} />
+        ))}
+      </div>
+      {pipelineNote && (
+        <div className="panel p-3.5 mt-3.5">
+          <div className="mono text-[10px] text-ink-4 tracking-[0.1em] uppercase mb-1.5">
+            파이프라인 (꼬리 자산)
+          </div>
+          <div className="text-[12.5px] text-ink-2 leading-snug whitespace-pre-line break-words">
+            {pipelineNote}
+          </div>
+        </div>
+      )}
+    </section>
+  );
+}
+
+function PlatformPanel({ platform }) {
+  return (
+    <div
+      className="panel p-4 mb-3.5"
+      style={{
+        background: 'linear-gradient(180deg, rgba(96,165,250,0.05), transparent), var(--panel)',
+      }}
+    >
+      <div className="flex items-center gap-2 mb-2">
+        <Layers className="w-4 h-4 text-accent-blue" strokeWidth={1.6} />
+        <span className="text-[13px] font-semibold text-ink">플랫폼 확장성</span>
+        <TierBadge tier={platform.tier} />
+      </div>
+      {platform.thesis && (
+        <div className="text-[13px] text-ink-2 leading-snug whitespace-pre-line break-words mb-1.5">
+          {platform.thesis}
+        </div>
+      )}
+      {platform.reusability && (
+        <div className="text-[12.5px] text-ink-3 leading-snug whitespace-pre-line break-words">
+          {platform.reusability}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function AssetCard({ asset: a }) {
+  return (
+    <div className="rounded-xl border border-line bg-bg-2 p-4">
+      <div className="flex items-start justify-between gap-3 flex-wrap mb-3">
+        <div className="min-w-0">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-[14.5px] font-bold text-ink leading-snug">{a.name}</span>
+            <TierBadge tier={a.tier} />
+          </div>
+          <div className="flex items-center gap-1.5 flex-wrap mt-1.5">
+            {a.indication && (
+              <span className="chip" style={{ height: 18, fontSize: 9.5 }}>{a.indication}</span>
+            )}
+            {a.modality && (
+              <span className="chip" style={{ height: 18, fontSize: 9.5 }}>{a.modality}</span>
+            )}
+            {a.stage && (
+              <span className="chip phase-3" style={{ height: 18, fontSize: 9.5 }}>
+                {STAGE_LABEL[a.stage] || a.stage}
+              </span>
+            )}
+          </div>
+        </div>
+        {a.revenueTtmUsd != null && (
+          <div className="text-right flex-shrink-0">
+            <div className="mono text-[9px] text-ink-4 tracking-[0.1em] uppercase">매출 TTM</div>
+            <div className="num text-[15px] font-bold text-ink">{fmtUsd(a.revenueTtmUsd)}</div>
+          </div>
+        )}
+      </div>
+
+      {(a.etiology || a.moa) && (
+        <div className="grid sm:grid-cols-2 gap-2.5">
+          {a.etiology && (
+            <ScienceBlock icon={Microscope} label="질병 발병 원인 (Etiology)" text={a.etiology} />
+          )}
+          {a.moa && (
+            <ScienceBlock icon={FlaskConical} label="작용 기전 (MOA)" text={a.moa} color="#C084FC" />
+          )}
+        </div>
+      )}
+
+      {a.market && <MarketBlock market={a.market} />}
+      {a.expansion?.length > 0 && <ExpansionBlock expansion={a.expansion} />}
+    </div>
+  );
+}
+
+function ScienceBlock({ icon: Icon, label, text, color = '#6EE7B7' }) {
+  return (
+    <div className="rounded-lg bg-panel-2 border border-line p-3">
+      <div className="flex items-center gap-1.5 mb-1.5">
+        <Icon className="w-3.5 h-3.5" style={{ color }} strokeWidth={1.7} />
+        <span className="text-[11.5px] font-semibold" style={{ color }}>{label}</span>
+      </div>
+      <div className="text-[12.5px] text-ink leading-snug whitespace-pre-line break-words">
+        {text}
+      </div>
+    </div>
+  );
+}
+
+function MarketBlock({ market: m }) {
+  const pct = m.penetration != null ? Math.round(m.penetration * 100) : null;
+  const max =
+    Math.max(m.tamBullUsd || 0, m.tamUsd || 0, m.pxqUsd || 0, m.peakSalesUsd || 0) || 1;
+  const bars = [
+    { label: 'P×Q (현실 추정)', val: m.pxqUsd, color: 'linear-gradient(90deg,#34d399,#6ee7b7)' },
+    { label: 'Peak Sales (컨센서스)', val: m.peakSalesUsd, color: 'linear-gradient(90deg,#60a5fa,#93c5fd)' },
+    { label: 'TAM (base · 리드)', val: m.tamUsd, color: 'linear-gradient(90deg,#a78bfa,#c4b5fd)' },
+    { label: 'TAM (bull · 꿈의 크기)', val: m.tamBullUsd, color: 'linear-gradient(90deg,#f59e0b,#fcd34d)' },
+  ].filter((b) => b.val != null);
+
+  return (
+    <div className="mt-3 rounded-lg bg-panel-2 border border-line p-3">
+      <div className="flex items-center gap-1.5 mb-2">
+        <TrendingUp className="w-3.5 h-3.5 text-acc" strokeWidth={1.7} />
+        <span className="text-[11.5px] font-semibold text-ink-2">시장 규모 · 꿈의 크기</span>
+      </div>
+      {(m.patients || m.annualPriceUsd != null) && (
+        <div className="text-[12px] text-ink-2 leading-relaxed mb-2.5">
+          <span className="text-ink">환자</span> {m.patients || '—'}
+          <BasisChip basis={m.patientsBasis} />
+          <span className="text-ink-4"> × </span>
+          <span className="text-ink">약가</span> {fmtUsd(m.annualPriceUsd) || '—'}/yr
+          <BasisChip basis={m.priceBasis} />
+          {pct != null && (
+            <>
+              <span className="text-ink-4"> × </span>
+              <span className="text-ink">침투</span> {pct}%
+              <BasisChip basis={m.penetrationBasis} />
+            </>
+          )}
+          {m.pxqUsd != null && (
+            <>
+              <span className="text-ink-4"> = </span>
+              <span className="num font-bold text-acc">{fmtUsd(m.pxqUsd)}</span>
+            </>
+          )}
+        </div>
+      )}
+      {bars.length > 0 && (
+        <div className="space-y-1.5">
+          {bars.map((b, i) => (
+            <div key={i}>
+              <div className="flex items-center justify-between text-[10.5px] mb-0.5">
+                <span className="text-ink-3">{b.label}</span>
+                <span className="num text-ink font-semibold">{fmtUsd(b.val)}</span>
+              </div>
+              <div className="dream-track">
+                <div
+                  className="dream-fill"
+                  style={{ width: `${Math.max(2, Math.round((b.val / max) * 100))}%`, background: b.color }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      {m.peakSalesBasis && (
+        <div className="text-[10px] text-ink-4 mt-1.5">peak 근거: {m.peakSalesBasis}</div>
+      )}
+      {m.sources?.length > 0 && (
+        <div className="text-[10px] text-ink-4 mt-2 break-all">
+          {m.sources.map((u, i) => (
+            <a
+              key={i}
+              href={u}
+              target="_blank"
+              rel="noreferrer"
+              className="mr-2 underline decoration-ink-4/40 hover:text-accent-blue"
+            >
+              {u.replace(/^https?:\/\//, '').slice(0, 34)}
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ExpansionBlock({ expansion }) {
+  return (
+    <div className="mt-3">
+      <div className="flex items-center gap-1.5 mb-2">
+        <Layers className="w-3.5 h-3.5 text-pdufa" strokeWidth={1.7} />
+        <span className="text-[11.5px] font-semibold text-ink-2">확장 가능성 (optionality)</span>
+      </div>
+      <div className="space-y-1.5">
+        {expansion.map((e, i) => (
+          <div key={i} className="flex items-start gap-2 text-[12px]">
+            <span className="chip phase-app mt-0.5 flex-shrink-0" style={{ height: 17, fontSize: 9 }}>
+              {e.axis || '확장'}
+            </span>
+            <span className="text-ink-2 leading-snug flex-1 min-w-0 break-words">
+              {e.detail}
+              {e.status && <span className="text-ink-4"> · {e.status}</span>}
+              {e.tamAddUsd != null && (
+                <span className="text-pdufa"> · +{fmtUsd(e.tamAddUsd)} TAM</span>
+              )}
+            </span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
