@@ -7,7 +7,7 @@
 events:
   - date: 2026-02-21
     ticker: VNDA
-    event: Bysanti 승인됨 (2/20 조기 승인)
+    event: Bysanti 조현병 PDUFA
     type: PDUFA
     company: Vanda
     drug: Bysanti
@@ -15,9 +15,14 @@ events:
     phase: NDA
     sources:
       - https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-approval-of-bysanti-milsaperidone-for-the-treatment-of-bipolar-i-disorder-and-schizophrenia---a-new-chemical-entity-opening-new-horizons-in-psychiatric-innovation-302693941.html
+    outcome: approved
+    outcome_date: 2026-02-20
+    result: "FDA 승인 (PDUFA 2/21보다 1일 조기). 양극성I·조현병 적응증 신규 화학물질(NCE)."
+    outcome_sources:
+      - https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-fda-approval-of-bysanti-milsaperidone-for-the-treatment-of-bipolar-i-disorder-and-schizophrenia---a-new-chemical-entity-opening-new-horizons-in-psychiatric-innovation-302693941.html
   - date: 2026-02-24
     ticker: REGN
-    event: Dupixent AFRS 승인됨
+    event: Dupixent AFRS PDUFA
     type: PDUFA
     company: Regeneron
     drug: Dupixent
@@ -25,9 +30,14 @@ events:
     phase: sBLA
     sources:
       - https://investor.regeneron.com/news-releases/news-release-details/dupixentr-dupilumab-approved-us-first-and-only-medicine-allergic/
+    outcome: approved
+    outcome_date: 2026-02-24
+    result: "FDA 승인. 알레르기성 진균성 부비동염(AFRS) 첫 표적 치료제."
+    outcome_sources:
+      - https://investor.regeneron.com/news-releases/news-release-details/dupixentr-dupilumab-approved-us-first-and-only-medicine-allergic/
   - date: 2026-03-06
     ticker: LNTH
-    event: PYLARIFY TruVu 승인됨
+    event: PYLARIFY TruVu PDUFA
     type: PDUFA
     company: Lantheus
     drug: PYLARIFY
@@ -35,9 +45,14 @@ events:
     phase: sNDA
     sources:
       - https://investor.lantheus.com/news-releases/news-release-details/lantheus-announces-fda-approval-pylarify-truvutm-piflufolastat-f
+    outcome: approved
+    outcome_date: 2026-03-06
+    result: "FDA 승인. PSMA PET 영상 진단 PYLARIFY TruVu 제형."
+    outcome_sources:
+      - https://investor.lantheus.com/news-releases/news-release-details/lantheus-announces-fda-approval-pylarify-truvutm-piflufolastat-f
   - date: 2026-03-06
     ticker: BMY
-    event: Sotyktu PsA 승인됨
+    event: Sotyktu PsA PDUFA
     type: PDUFA
     company: Bristol Myers Squibb
     drug: Sotyktu
@@ -45,9 +60,14 @@ events:
     phase: sNDA
     sources:
       - https://news.bms.com/news/corporate-financial/2026/U-S--FDA-Approves-Bristol-Myers-Squibbs-Sotyktu-deucravacitinib-for-the-Treatment-of-Adults-with-Active-Psoriatic-Arthritis/default.aspx
+    outcome: approved
+    outcome_date: 2026-03-06
+    result: "FDA 승인. 활동성 건선성 관절염(PsA) 적응증 확대 (TYK2 억제제)."
+    outcome_sources:
+      - https://news.bms.com/news/corporate-financial/2026/U-S--FDA-Approves-Bristol-Myers-Squibbs-Sotyktu-deucravacitinib-for-the-Treatment-of-Adults-with-Active-Psoriatic-Arthritis/default.aspx
   - date: 2026-03-20
     ticker: RYTM
-    event: Setmelanotide 시상하부 비만 승인됨 (2026-03-19)
+    event: Setmelanotide 시상하부 비만 PDUFA
     type: PDUFA
     company: Rhythm
     drug: IMCIVREE
@@ -55,9 +75,14 @@ events:
     phase: sNDA
     sources:
       - https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-announces-fda-approval-of-imcivree-0
+    outcome: approved
+    outcome_date: 2026-03-19
+    result: "FDA 승인 (PDUFA 3/20보다 조기). 시상하부 비만 적응증 확대."
+    outcome_sources:
+      - https://ir.rhythmtx.com/news-releases/news-release-details/rhythm-pharmaceuticals-announces-fda-approval-of-imcivree-0
   - date: 2026-03-27
     ticker: RCKT
-    event: KRESLADI LAD-I 승인됨
+    event: KRESLADI LAD-I PDUFA
     type: PDUFA
     company: Rocket
     drug: KRESLADI
@@ -65,9 +90,14 @@ events:
     phase: BLA
     sources:
       - https://ir.rocketpharma.com/news-releases/news-release-details/rocket-pharmaceuticals-announces-fda-approval-kresladitm
+    outcome: approved
+    outcome_date: 2026-03-27
+    result: "FDA 승인. 중증 백혈구 부착 결핍증 I형(LAD-I) 유전자 치료제."
+    outcome_sources:
+      - https://ir.rocketpharma.com/news-releases/news-release-details/rocket-pharmaceuticals-announces-fda-approval-kresladitm
   - date: 2026-04-03
     ticker: BIIB
-    event: Nusinersen 고용량 SMA 승인됨 (2026-03-30)
+    event: Nusinersen 고용량 SMA PDUFA
     type: PDUFA
     company: Biogen
     drug: Nusinersen
@@ -75,14 +105,24 @@ events:
     phase: sNDA
     sources:
       - https://investors.biogen.com/news-releases/news-release-details/fda-approves-new-high-dose-regimen-spinrazar-nusinersen-spinal
+    outcome: approved
+    outcome_date: 2026-03-30
+    result: "FDA 승인. SPINRAZA 고용량 요법 — 척수성 근위축증(SMA)."
+    outcome_sources:
+      - https://investors.biogen.com/news-releases/news-release-details/fda-approves-new-high-dose-regimen-spinrazar-nusinersen-spinal
   - date: 2026-04-01
     ticker: LLY
-    event: "Foundayo (orforglipron) 비만 NDA 승인됨 (2026-04-01, CNPV 가속). FDA 4/14 추가 liver/CV 안전성 평가 요구 (post-marketing 표준), 4/30 liver failure adverse event 1건 보고 — Lilly 5/4 공식 응답: Global Patient Safety가 약물 인과관계 없음 평가, 11,000명 Phase 3 program에서 hepatic signal 없음. 분석가들 'one liver case does not make a signal'"
+    event: Foundayo (orforglipron) 비만 NDA PDUFA
     type: PDUFA
     company: Eli Lilly
     drug: Orforglipron (Foundayo)
     indication: Obesity
     phase: NDA
+    outcome: approved
+    outcome_date: 2026-04-01
+    result: "FDA 승인 (CNPV 가속, 유일한 GLP-1 경구제). 4/14 추가 liver/CV 안전성 평가 요구(post-marketing 표준), 4/30 liver failure 1건 보고 — Lilly 5/4 약물 인과관계 없음 평가(11,000명 Ph3서 hepatic signal 없음). 분석가 'one liver case does not make a signal'."
+    outcome_sources:
+      - https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill
     sources:
       - https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill
       - https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program
@@ -92,13 +132,18 @@ events:
       - https://www.statnews.com/2026/05/05/biotech-news-analysts-glossing-over-eli-lilly-liver-case/
   - date: 2026-04-22
     ticker: XENE
-    event: Azetukalner X-TOLE2 AAN 발표 (Positive — 53.2% seizure reduction vs 10.4% placebo)
+    event: Azetukalner X-TOLE2 Phase 3 발표 (AAN)
     type: Conference
     company: Xenon
     drug: Azetukalner
     indication: Focal Seizures
     phase: Phase 3
     sources:
+      - https://investor.xenon-pharma.com/news-releases/news-release-details/xenon-presents-azetukalner-phase-3-x-tole2-study-results-and-48
+    outcome: met
+    outcome_date: 2026-04-22
+    result: "1차 EP 충족 (Positive). 발작 53.2% 감소 vs 위약 10.4%."
+    outcome_sources:
       - https://investor.xenon-pharma.com/news-releases/news-release-details/xenon-presents-azetukalner-phase-3-x-tole2-study-results-and-48
   - date: 2026-04-22
     ticker: RAPP
@@ -290,13 +335,18 @@ events:
       - https://www.biospace.com/press-releases/disc-medicine-presents-updated-positive-data-from-rally-mf-phase-2-trial-in-patients-with-myelofibrosis-mf-and-anemia-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting
   - date: 2026-06-29
     ticker: LNTH
-    event: LNTH-2501 Ga-68 NET PDUFA (연기됨 — 제조 정보 추가 검토)
+    event: LNTH-2501 Ga-68 NET PDUFA
     type: PDUFA
     company: Lantheus
     drug: Ga-68 edotreotide
     indication: NET PET
     phase: NDA
     sources:
+      - https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-announces-three-month-extension-pdufa-date-lnth-2501-ga
+    outcome: delayed
+    outcome_date: 2026-06-29
+    result: "PDUFA 3개월 연장. 제조(CMC) 정보 추가 검토. 효능 이슈 아님."
+    outcome_sources:
       - https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-announces-three-month-extension-pdufa-date-lnth-2501-ga
   - date: 2026-06-30
     ticker: SYRE
