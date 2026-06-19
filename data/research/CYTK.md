@@ -41,6 +41,62 @@ sources:
   - "https://clinicaltrials.gov/study/NCT04848506"
   - "https://www.nejm.org/doi/full/10.1056/NEJMoa2401424"
   - "https://ir.cytokinetics.com/"
+assets:
+  - name: MYQORZO (aficamten)
+    indication: 증상성 폐쇄성 비대성 심근병증(oHCM); nHCM 확장 예정
+    modality: 경구 소분자 cardiac myosin inhibitor (1일 1회)
+    stage: approved
+    tier: free
+    etiology: 비대성 심근병증(HCM)은 sarcomere 단백 유전자 변이로 좌심실 벽이 과도하게 비후·과수축되는 가장 흔한 유전성
+      심장질환이다. 폐쇄형(oHCM)에서는 비후된 중격이 좌심실 유출로(LVOT)를 막아 호흡곤란·실신·운동능력 저하를 유발한다.
+    moa: 심근 미오신 모터 활성을 직접 억제하는 가역적 억제제로, 과도한 actin-myosin cross-bridge 형성을 줄여 심근
+      과수축을 낮추고 LVOT 폐쇄·압력차를 감소시킨다. mavacamten과 같은 myosin 억제 계열이나 반감기가 짧아
+      적정·모니터링이 용이한 차세대 후보로 평가된다.
+    market:
+      patients: 미국 진단 oHCM 환자, HCM 진단 30만+ 중 약 절반이 폐쇄형
+      patients_basis: https://ir.cytokinetics.com/press-releases/press-release-details/2025/Cytokinetics-Announces-FDA-Approval-of-MYQORZO-aficamten-for-the-Treatment-of-Adults-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy-to-Improve-Functional-Capacity-and-Symptoms/default.aspx
+      annual_price_usd: 89500
+      price_basis: 가정 (동급 mavacamten/Camzyos 미국 연 $89,500 적용)
+      penetration: 0.25
+      penetration_basis: 가정
+      pxq_usd: 3355000000
+      peak_sales_usd: 2000000000
+      peak_sales_basis: 애널리스트 컨센서스 연 $1.5–2.0B
+      tam_usd: 3400000000
+      tam_bull_usd: 4000000000
+      market_sources:
+        - https://ir.cytokinetics.com/press-releases/press-release-details/2025/Cytokinetics-Announces-FDA-Approval-of-MYQORZO-aficamten-for-the-Treatment-of-Adults-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy-to-Improve-Functional-Capacity-and-Symptoms/default.aspx
+        - https://www.drugs.com/price-guide/camzyos
+    expansion:
+      - axis: 적응증 확장
+        detail: 비폐쇄성 HCM(nHCM) ACACIA-HCM 3상에서 KCCQ-CSS·pVO2 양대 1차 충족(2026-05). 승인 시
+          nHCM 최초 치료제
+        status: ph3
+        sources:
+          - https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Announces-Positive-Topline-Results-from-ACACIA-HCM-the-Pivotal-Phase-3-Clinical-Trial-of-Aficamten-in-Patients-with-Non-Obstructive-Hypertrophic-Cardiomyopathy/default.aspx
+      - axis: 지역
+        detail: 중국 NMPA 승인(2025-12), EU CHMP 긍정의견 후 EC 승인 2026 1분기 예상
+        status: 가정
+        sources:
+          - https://ir.cytokinetics.com/press-releases/press-release-details/2025/Cytokinetics-Announces-NMPA-Approval-of-MYQORZO-aficamten-in-China--for-Patients-with-Obstructive-Hypertrophic-Cardiomyopathy/default.aspx
+  - name: Omecamtiv mecarbil
+    indication: 박출률 감소 심부전(HFrEF)
+    modality: 경구 소분자 cardiac myosin activator
+    stage: ph3
+    tier: pro
+    etiology: 박출률 감소 심부전(HFrEF)은 좌심실 수축력 저하로 심박출량이 감소하는 질환으로 sarcomere 수축 동력 부족이 핵심
+      병태생리 중 하나다.
+    moa: aficamten과 반대로 심근 미오신을 활성화해 actin-myosin cross-bridge 수를 늘려 수축 기간·심박출량을
+      증가시키되 산소소모는 크게 늘리지 않도록 설계됐다.
+    market:
+      patients: HFrEF 환자 (대규모이나 FDA CRL로 개발 정체)
+      patients_basis: 가정
+      market_sources:
+        - https://www.biopharmadive.com/news/fda-cytokinetics-reject-heart-failure-omecamtiv-mecarbil/643806/
+pipeline_note: 꼬리 자산은 근육·심장 sarcomere 계열이다. ulacamten(CK-586)은 경구 cardiac myosin
+  inhibitor로 HFpEF 과수축을 표적해 AMBER-HFpEF 2상 진행 중. omecamtiv mecarbil은 FDA CRL 이후
+  회사가 추가 임상을 포기하고 aficamten에 집중하기로 해 사실상 우선순위에서 내려왔다. 회사 가치는 거의 전적으로
+  aficamten(oHCM 승인+nHCM 확장)에 집중돼 있다.
 ---
 
 ## At a Glance

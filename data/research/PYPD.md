@@ -41,6 +41,41 @@ sources:
   - "https://investors.polypid.com/news-releases/news-release-details/polypid-announces-positive-topline-results-phase-3-shield-ii"
   - "https://clinicaltrials.gov/study/NCT04410484"
   - "https://www.polypid.com/"
+assets:
+  - name: D-PLEX100
+    indication: 복부 대장 수술 수술부위감염(SSI) 예방
+    modality: 국소 장기방출 doxycycline (PLEX 폴리머-지질 매트릭스)
+    stage: filed
+    tier: free
+    etiology: 수술 절개부의 세균 집락이 SSI를 유발하며 특히 복부 대장 수술은 장내 세균 노출로 SSI 위험이 매우 높다(SHIELD
+      II 대조군 SSI 약 9~10%). SSI는 재원기간을 7~11일 연장시키고 건당 1만~2.6만 달러의 직접 비용을 발생시킨다.
+    moa: 수술 종료·창상 봉합 시점에 절개부에 국소 도포한다. PLEX(폴리머-지질 캡슐화 매트릭스)가 약물 저장소를 형성해 약 30일간
+      doxycycline을 국소적으로 지속 방출하며 전신 노출은 최소화해 국소 살균 농도를 유지한다.
+    market:
+      patients: 미국 연간 대장 수술 약 120만 건(개복 비율 ~50% → 가용 약 60만)
+      patients_basis: 가정 (애널리스트 추정)
+      annual_price_usd: 1000
+      price_basis: 가정 (시술당 1회 사용, 승인 전 미설정)
+      penetration: 0.25
+      penetration_basis: 가정
+      pxq_usd: 150000000
+      peak_sales_usd: 1000000000
+      peak_sales_basis: 가정 (대장 적응증 미국+EU 기회 약 $1B 추정)
+      tam_usd: 3200000000
+      tam_bull_usd: 10000000000
+      market_sources:
+        - https://www.globenewswire.com/news-release/2026/06/01/3304355/0/en/polypid-completes-new-drug-application-submission-to-fda-for-d-plex.html
+        - https://polypid.com/d-plex100/
+    expansion:
+      - axis: 적응증 확장
+        detail: 대장 수술 승인 후 전체 주요 복부 연조직·산부인과·비뇨기 수술 SSI 예방으로 확장. 회사는 연 1,200만+ 수술을 전체 가용
+          시장으로 제시
+        status: 가정
+        sources:
+          - https://polypid.com/d-plex100/
+pipeline_note: OncoPLEX — PLEX 플랫폼 기반 종양내 국소 항암 후보로, 종양 절제 수술 시 docetaxel을 국소·지속
+  방출한다. 대장암·교모세포종 동물모델에서 단회 국소 투여로 생존 개선·재발 감소를 보였고 docetaxel 최대 혈중농도가 전신 투여 대비
+  10배+ 낮아 전신 독성을 줄였다. 현재 전임상 단계.
 ---
 
 ## At a Glance

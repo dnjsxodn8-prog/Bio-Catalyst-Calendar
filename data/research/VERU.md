@@ -41,6 +41,46 @@ sources:
   - "https://en.wikipedia.org/wiki/Enobosarm"
   - "https://clinicaltrials.gov/"
   - "https://www.biospace.com/veru-submits-ind-application-to-fda-for-the-development-of-enobosarm-to-prevent-muscle-loss-while-augmenting-fat-loss-in-combination-with-glp-1-drugs-for-weight-loss"
+assets:
+  - name: Enobosarm
+    indication: GLP-1 비만치료 병용 근육 보존 (체성분 개선)
+    modality: 경구 선택적 안드로겐 수용체 조절제 (SARM)
+    stage: ph2
+    tier: free
+    etiology: 세마글루타이드·티르제파타이드 등 GLP-1 작용제로 체중을 감량하면 감량분의 약 25~40%가 지방이 아닌 제지방(근육)에서
+      빠진다. 특히 고령·고도비만 환자에서 근육량·신체기능 저하(근감소성 비만)와 감량 중단 후 체중 재증가가 임상적 문제로 부각된다.
+    moa: 안드로겐 수용체를 조직 선택적으로 활성화해 골격근 단백 합성을 촉진, GLP-1 감량 과정에서 근육량·신체기능을 보존하고 지방 소실을
+      상대적으로 늘려 체성분을 개선한다.
+    market:
+      patients: GLP-1 치료 중 고령(≥60세)·고도비만 적격군, 미국 우선. 사측 인용 근감소성 비만 약 3,000만 미국 성인
+      patients_basis: https://verupharma.com/pipeline/cardiometabolic-obesity-drug-program/
+      annual_price_usd: 12000
+      price_basis: 가정
+      penetration: 0.05
+      penetration_basis: 가정
+      pxq_usd: 18000000000
+      tam_usd: 48840000000
+      tam_bull_usd: 95000000000
+      market_sources:
+        - https://www.grandviewresearch.com/industry-analysis/glp-1-agonists-weight-loss-drugs-market-report
+        - https://verupharma.com/pipeline/cardiometabolic-obesity-drug-program/
+    expansion:
+      - axis: 병용
+        detail: 티르제파타이드(Zepbound) 병용 Phase 2b PLATEAU — 체중감량 정체 돌파·근육 보존 평가(≥65세,
+          BMI≥35), 2026-03 첫 환자, 중간분석 2027
+        status: ph2
+        sources:
+          - https://ir.verupharma.com/news-events/press-releases/detail/252/veru-enrolls-first-patient-in-phase-2b-plateau-clinical
+      - axis: 적응증 확장
+        detail: 감량 후 유지요법 — QUALITY Maintenance Extension에서 세마글루타이드 중단 후 체중·지방 재증가 유의
+          감소·제지방 보존
+        status: ph2
+        sources:
+          - https://www.globenewswire.com/news-release/2025/06/24/3104218/0/en/Veru-Reports-Positive-Results-from-Phase-2b-QUALITY-and-Maintenance-Extension-Study-Showing-Enobosarm-Significantly-Reduced-Body-Weight-Regain-Prevented-Fat-Regain-and-Preserved-Le.html
+pipeline_note: Phase 2b QUALITY(n=168, ≥60세, 세마글루타이드 병용)는 2025-01 1차 충족(제지방 손실
+  71% 감소, p=0.002). 2025-09 FDA 미팅에서 GLP-1 단독 대비 추가 체중감량을 승인 근거 1차 평가변수로 인정받아
+  enobosarm 3mg이 Phase 3로 진행 예정이다. 사측은 going concern 불확실성·추가 자금조달 필요를 명시한 마이크로캡
+  pre-revenue 상태다.
 ---
 
 ## At a Glance

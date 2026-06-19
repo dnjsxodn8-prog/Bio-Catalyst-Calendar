@@ -41,6 +41,82 @@ sources:
   - "https://www.nejm.org/doi/full/10.1056/NEJMoa2310222"
   - "https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(21)00159-9/fulltext"
   - "https://argenx.com/"
+assets:
+  - name: Vyvgart / Vyvgart Hytrulo (efgartigimod alfa)
+    indication: 전신성 중증근무력증(gMG) · CIDP · ITP(일본)
+    modality: FcRn 길항 항체 단편 (IV 및 SC 제형)
+    stage: approved
+    revenue_ttm_usd: 4200000000
+    tier: free
+    etiology: IgG 자가항체가 매개하는 자가면역질환군. gMG는 아세틸콜린 수용체(AChR)·MuSK 자가항체가 신경근접합부를 공격해
+      근위약을, CIDP는 말초신경 수초 면역반응이, ITP는 혈소판 항원 자가항체가 혈소판 파괴를 유발한다. 공통적으로 병원성 IgG
+      자가항체가 핵심이다.
+    moa: 신생아 Fc 수용체(FcRn)를 차단해 IgG 재순환을 막는다. FcRn은 정상적으로 IgG를 분해로부터 보호하는데,
+      efgartigimod가 이를 경쟁 점유하면 병원성 IgG 자가항체를 포함한 순환 IgG가 빠르게 분해돼 증상이 완화된다. 표적이
+      IgG 전체 재순환이라 IgG 매개 자가면역 전반에 적용되는 플랫폼형 기전이다.
+    market:
+      patients: gMG 미국 성인 약 82,715명; CIDP 미국 약 77,058명; ITP 유병률 약 9.5/10만명
+      patients_basis: https://www.neurology.org/doi/10.1212/WNL.0000000000202945
+      annual_price_usd: 225000
+      price_basis: https://www.ncbi.nlm.nih.gov/books/NBK604426/
+      penetration: 0.2
+      penetration_basis: 가정
+      pxq_usd: 4200000000
+      peak_sales_usd: 5000000000
+      peak_sales_basis: https://www.grandviewresearch.com/industry-analysis/vyvgart-efgartigimod-market-report
+      tam_usd: 8000000000
+      tam_bull_usd: 10000000000
+      market_sources:
+        - https://argenx.com/news/2026/press-release-3245199
+        - https://www.ncbi.nlm.nih.gov/books/NBK604426/
+        - https://www.neurology.org/doi/10.1212/WNL.0000000000202945
+    expansion:
+      - axis: 라벨확장
+        detail: 혈청음성 gMG(MuSK+/LRP4+/triple seronegative) 미국 허가 신청 — PDUFA 2026-05-10
+        status: ph3
+        sources:
+          - https://argenx.com/news/2026/press-release-3245199
+      - axis: 라벨확장
+        detail: 안구형 중증근무력증(oMG) Phase 3 ADAPT OCULUS 양성, 허가 신청 예정
+        status: ph3
+        sources:
+          - https://argenx.com/news/2026/press-release-3245199
+      - axis: 적응증 확장
+        detail: ITP 미국 ADVANCE-NEXT 탑라인 2026 Q4(일본은 이미 허가)
+        status: ph3
+        sources:
+          - https://argenx.com/news/2026/press-release-3245199
+      - axis: 적응증 확장
+        detail: 근염(IIM) ALKIVIA 2026 Q3, 쇼그렌병 UNITY 2027 H2, TED·그레이브스 등 15종+ 평가
+        status: ph3
+        sources:
+          - https://argenx.com/news/2026/press-release-3245199
+  - name: Empasiprubart (ARGX-117, anti-C2 항체)
+    indication: 다초점운동신경병증(MMN) · CIDP · 이식신장 지연기능회복(DGF)
+    modality: 보체 C2 표적 단일클론 항체
+    stage: ph3
+    tier: pro
+    etiology: 보체 고전·렉틴 경로 과활성화가 조직 손상에 관여하는 면역매개질환군. MMN은 운동신경 국한 면역매개 신경병증, CIDP는
+      말초신경 수초 손상, DGF는 신장이식 직후 허혈-재관류 손상에 보체가 기여한다.
+    moa: 보체 성분 C2를 표적해 고전·렉틴 경로를 모두 차단(C5 상류)해 하류 보체 활성화와 염증·조직손상을 억제한다.
+      efgartigimod의 FcRn 축과 별개인 두 번째 플랫폼 축이다.
+    expansion:
+      - axis: 적응증 확장
+        detail: MMN EMPASSION 탑라인 2026 Q4, CIDP EMVIGORATE/EMNERGIZE 2027 H2, 신장이식 DGF
+          Phase 2 VARVARA
+        status: ph3
+        sources:
+          - https://argenx.com/news/2026/press-release-3245199
+platform:
+  thesis: argenx의 가치는 단일 자산이 아니라 면역 표적 발굴·항체 엔지니어링 플랫폼(SIMPLE Antibody·Fc 엔지니어링)에서
+    나온다. FcRn(efgartigimod)·보체 C2(empasiprubart)·MuSK(adimanebart) 세 독립 축을 확보했고
+    각 축이 다시 여러 자가면역 적응증으로 확장된다. 핵심은 efgartigimod 1개가 15종+ IgG 매개 질환으로 수평 확장되는
+    단일자산 다적응증 모델이다.
+  reusability: FcRn 차단은 병원성 IgG 자가항체가 관여하는 거의 모든 자가면역질환에
+    재사용된다(gMG→CIDP→ITP→근염→쇼그렌→TED). 적응증 하나하나가 별도 확장 축이자 추가 TAM이다.
+  tier: pro
+pipeline_note: 꼬리 자산 adimanebart(ARGX-119, MuSK 작용제 항체)는 선천성 근무력증후군(CMS) 등록임상
+  2026 Q3 개시 예정이나 ALS는 Phase 2a 데이터가 추가 개발을 지지하지 못해 중단됐다.
 ---
 
 ## At a Glance

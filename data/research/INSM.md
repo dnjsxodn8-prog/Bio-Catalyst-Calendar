@@ -41,6 +41,63 @@ sources:
   - "https://clinicaltrials.gov/study/NCT04594369"
   - "https://www.nejm.org/doi/full/10.1056/NEJMoa2304544"
   - "https://www.nejm.org/doi/full/10.1056/NEJMoa2001598"
+assets:
+  - name: Brinsupri (brensocatib)
+    indication: 비낭포성 섬유증 기관지확장증(NCFB)
+    modality: 경구 저분자 (1일 1회 DPP1 억제제)
+    stage: approved
+    tier: free
+    etiology: 기관지확장증은 기도가 비가역적으로 확장·손상돼 점액이 고이고 만성 감염·염증이 반복되는 질환이다. 호중구가 과활성화하며
+      분비하는 호중구 세린 단백분해효소(NSP)가 기도를 파괴하는 악순환이 핵심이다.
+    moa: DPP1을 가역적으로 억제해 호중구 내 NSP(뉴트로필 엘라스타제 등) 활성화를 차단한다. 감염·증상 관리에 그쳤던 기존 치료와 달리
+      기저 염증 과정 자체를 표적하는 최초이자 유일한 승인 치료제다.
+    market:
+      patients: 미국 성인 약 35만~50만명 (진단·치료 중 NCFB)
+      patients_basis: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729734/
+      annual_price_usd: 88000
+      price_basis: https://www.fiercepharma.com/pharma/insmed-brensocatib-fda-approval-chronic-lung-disease-non-cystic-fibrosis-bronchiectasis
+      penetration: 0.12
+      penetration_basis: 가정
+      pxq_usd: 4488000000
+      peak_sales_usd: 5000000000
+      peak_sales_basis: https://www.fiercepharma.com/pharma/insmed-brensocatib-fda-approval-chronic-lung-disease-non-cystic-fibrosis-bronchiectasis
+      tam_usd: 37400000000
+      market_sources:
+        - https://investor.insmed.com/2025-08-12-FDA-Approves-BRINSUPRI-TM-brensocatib-as-the-First-and-Only-Treatment-for-Non-Cystic-Fibrosis-Bronchiectasis-a-Serious-Chronic-Lung-Disease
+        - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729734/
+    expansion:
+      - axis: 적응증 확장
+        detail: 만성 비부비동염·낭포성섬유증 등 추가 호중구성 염증 질환으로 라벨 확장 가능성
+        status: 가정
+  - name: Arikayce (amikacin liposome inhalation suspension)
+    indication: 난치성 MAC 폐질환
+    modality: 흡입 리포솜 아미노글리코사이드 항생제
+    stage: approved
+    revenue_ttm_usd: 433800000
+    tier: pro
+    etiology: MAC 폐질환은 비결핵항산균 MAC가 폐에 만성 감염을 일으켜 기침·객담·체중감소·폐기능 저하를 유발한다. 기존 다제요법에
+      반응하지 않는 난치성 환자에서 균 음전이 어렵다.
+    moa: 아미카신을 리포솜에 봉입해 흡입함으로써 폐 대식세포 내 감염 부위로 약물을 직접 전달하고 국소 농도를 높여 가이드라인 병용요법에 추가해
+      객담 균 음전율을 개선한다.
+    market:
+      patients: 미국 난치성 MAC 폐질환 환자 (다제요법 불응군)
+      patients_basis: https://www.medscape.com/viewarticle/902764
+      annual_price_usd: 132495
+      price_basis: https://www.medscape.com/viewarticle/902764
+      peak_sales_usd: 470000000
+      peak_sales_basis: 2026 가이던스 상단(회사)
+      market_sources:
+        - https://www.prnewswire.com/news-releases/insmed-reports-fourth-quarter-and-full-year-2025-financial-results-and-provides-business-update-302691904.html
+        - https://www.medscape.com/viewarticle/902764
+    expansion:
+      - axis: 라벨확장
+        detail: 신규 진단·재발 MAC 1차 치료 Phase 3 ENCORE — 2026 3~4월 탑라인, 긍정 시 2026 하반기 sNDA
+        status: ph3
+        sources:
+          - https://www.prnewswire.com/news-releases/insmed-reports-fourth-quarter-and-full-year-2025-financial-results-and-provides-business-update-302691904.html
+pipeline_note: TPIP(treprostinil palmitil 흡입분말)는 1일 1회 흡입 프로스타노이드로 PAH Phase
+  2b에서 16주 폐혈관저항(PVR)을 위약 대비 35% 감소시켜 1차 충족(2025-06). PH-ILD Phase 3와 PAH Phase
+  3(PALM-PAH)를 개시할 계획으로 세 번째 후기 파이프라인이다.
 ---
 
 ## At a Glance

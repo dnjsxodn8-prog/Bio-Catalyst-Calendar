@@ -41,6 +41,114 @@ sources:
   - "https://investors.vrtx.com/news-releases/news-release-details/vertex-announces-fda-approval-journavxtm-suzetrigine-first-class"
   - "https://clinicaltrials.gov/study/NCT06564142"
   - "https://pmc.ncbi.nlm.nih.gov/articles/PMC11914629/"
+assets:
+  - name: Trikafta/Kaftrio (elexacaftor/tezacaftor/ivacaftor)
+    indication: 낭포성 섬유증 (cystic fibrosis)
+    modality: 경구 소분자 CFTR 조절제 (3제 복합)
+    stage: approved
+    revenue_ttm_usd: 9400000000
+    tier: free
+    etiology: CFTR 유전자의 양쪽 대립유전자 변이로 상피세포 막의 염소 이온 채널(CFTR 단백질)이 결손·오작동한다. 점액이
+      비정상적으로 진해져 폐·췌장이 막히고 만성 감염·장기 손상으로 이어진다.
+    moa: 엘렉사카프토르·테자카프토르(corrector)가 결함 CFTR 단백질의 세포막 이동을 돕고, 이바카프토르(potentiator)가 막에
+      도달한 채널의 개방 확률을 높여 염소 이온 수송을 회복시킨다.
+    market:
+      patients: 전 세계 약 92,000명 CF 환자 중 반응성 변이 보유 적격군. 라벨 확장으로 미국 CF 환자의 약 95% 도달.
+      patients_basis: https://www.fiercepharma.com/pharma/while-vertex-gears-next-generation-cf-treatment-trikafta-remains-formidable
+      annual_price_usd: 320000
+      price_basis: 가정
+      penetration: 0.85
+      penetration_basis: 가정
+      pxq_usd: 9400000000
+      peak_sales_usd: 9400000000
+      peak_sales_basis: Vertex 공시 (CF 프랜차이즈)
+      tam_usd: 12000000000
+      market_sources:
+        - https://www.fiercepharma.com/pharma/while-vertex-gears-next-generation-cf-treatment-trikafta-remains-formidable
+        - https://news.vrtx.com/news-releases/news-release-details/vertex-reports-first-quarter-2026-financial-results
+    expansion:
+      - axis: 라벨확장
+        detail: 더 어린 연령·추가 변이로 확대해 미국 CF 환자의 약 95%까지 도달
+        status: 가정
+  - name: Alyftrek (vanzacaftor/tezacaftor/deutivacaftor)
+    indication: 낭포성 섬유증 (차세대 CFTR 조절제)
+    modality: 경구 소분자 CFTR 조절제 (차세대 3제, 1일 1회)
+    stage: approved
+    revenue_ttm_usd: 1700000000
+    tier: pro
+    etiology: Trikafta와 동일하게 CFTR 변이로 인한 염소 채널 기능부전이 원인으로, 점액 정체·만성 폐 손상을 유발한다.
+    moa: 차세대 corrector(반자카프토르)와 deutivacaftor(이바카프토르의 중수소화 형태로 반감기 연장)를 결합해 1일 1회
+      투여로 CFTR 기능을 회복하며, 일부 변이에서 Trikafta보다 우수한 염소 수송 개선을 보인다.
+    market:
+      patients: Trikafta 적격 환자 풀에서 1일 1회·우수 프로파일로 전환 수요 흡수 (2024-12 미국 승인)
+      patients_basis: https://news.vrtx.com/news-releases/news-release-details/vertex-reports-first-quarter-2026-financial-results
+      annual_price_usd: 370000
+      price_basis: 가정
+      penetration: 0.2
+      penetration_basis: 가정
+      pxq_usd: 1700000000
+      tam_usd: 12000000000
+      market_sources:
+        - https://news.vrtx.com/news-releases/news-release-details/vertex-reports-first-quarter-2026-financial-results
+    expansion:
+      - axis: 적응증 확장
+        detail: Trikafta 환자의 1일 1회 차세대 요법 전환으로 CF 프랜차이즈 매출 보호·자가 IP 비중 확대
+        status: 가정
+  - name: Casgevy (exagamglogene autotemcel / exa-cel)
+    indication: 겸상적혈구병(SCD) 및 수혈의존성 베타지중해빈혈(TDT)
+    modality: CRISPR/Cas9 유전자 편집 자가 조혈모세포 치료 (1회성)
+    stage: approved
+    tier: pro
+    etiology: 베타글로빈 유전자(HBB) 변이로 비정상 헤모글로빈이 생성된다. SCD는 적혈구가 낫 모양으로 변형돼 혈관 폐색·통증 발작을,
+      TDT는 적혈구 생성 부전으로 평생 수혈 의존을 초래한다.
+    moa: 환자 자가 조혈모세포에서 CRISPR/Cas9로 BCL11A 적혈구 인핸서를 편집해 태아 헤모글로빈(HbF) 재발현을 유도하고,
+      HbF가 결함 성인 헤모글로빈을 보완해 겸상화·수혈 의존을 해소한다.
+    market:
+      patients: 미국 12세 이상 중증 SCD 약 16,000명 + 중증 TDT(전 세계 적격 약 35,000명 추정)
+      patients_basis: https://thalassemia.org/FDA-Approves-Vertex-CRISPRs-Gene-Editing-Therapy
+      annual_price_usd: 2200000
+      price_basis: https://www.insideprecisionmedicine.com/topics/precision-medicine/in-another-win-for-crispr-fda-approves-casgevy-for-beta-thalassemia/
+      penetration: 0.05
+      penetration_basis: 가정
+      pxq_usd: 3850000000
+      tam_usd: 77000000000
+      market_sources:
+        - https://thalassemia.org/FDA-Approves-Vertex-CRISPRs-Gene-Editing-Therapy
+        - https://www.insideprecisionmedicine.com/topics/precision-medicine/in-another-win-for-crispr-fda-approves-casgevy-for-beta-thalassemia/
+    expansion:
+      - axis: 지역
+        detail: 미국·EU·영국·중동 글로벌 ATC 네트워크 확대로 투여 환자 증가
+        status: 가정
+  - name: Journavx (suzetrigine)
+    indication: 중등도~중증 급성 통증 (비-오피오이드)
+    modality: 경구 소분자 NaV1.8 선택적 억제제
+    stage: approved
+    tier: pro
+    etiology: 조직 손상·수술 후 말초 통각수용 뉴런이 과흥분해 통증 신호를 중추로 전달한다. 기존 치료는 오피오이드 의존·중독 위험이 문제였다.
+    moa: 말초 통각 뉴런에 선택적으로 발현되는 전압의존성 나트륨 채널 NaV1.8을 억제해, 중추 작용 없이 말초에서 통증 신호 전달을
+      차단한다(20여 년 만의 새 계열 진통제).
+    market:
+      patients: 미국 연간 급성 통증 치료 환자 수천만 명; 출시 4개월 11만+ 처방, 약 1.5억 명 보험 커버
+      patients_basis: https://nature.foleon.com/pharma-insight-reports/market-movers-of-2025/suzetrigine-journavx
+      annual_price_usd: 420
+      price_basis: https://nature.foleon.com/pharma-insight-reports/market-movers-of-2025/suzetrigine-journavx
+      penetration: 0.02
+      penetration_basis: 가정
+      pxq_usd: 250000000
+      peak_sales_usd: 2900000000
+      peak_sales_basis: https://nature.foleon.com/pharma-insight-reports/market-movers-of-2025/suzetrigine-journavx
+      tam_usd: 5000000000
+      tam_bull_usd: 10000000000
+      market_sources:
+        - https://nature.foleon.com/pharma-insight-reports/market-movers-of-2025/suzetrigine-journavx
+    expansion:
+      - axis: 적응증 확장
+        detail: 당뇨병성 말초신경병증성 통증(DPN) 등 만성 통증으로 라벨 확장 추진
+        status: 가정
+pipeline_note: 후기 파이프라인이 비-CF 다각화의 핵심이다. povetacicept(BAFF/APRIL 이중억제)는 IgA 신증
+  Phase 3 RAINIER 중간분석에서 단백뇨 위약 대비 49.8% 감소로 1차 충족(2026 허가신청 기대).
+  zimislecel(VX-880, 줄기세포 유래 췌도세포)은 제1형 당뇨 풀용량 환자 전원 인슐린 비의존 달성(FDA 제출 2026).
+  inaxaplin(VX-147, APOL1 억제제)은 APOL1 신장질환 Phase 3 AMPLITUDE 진행 중.
 ---
 
 ## At a Glance

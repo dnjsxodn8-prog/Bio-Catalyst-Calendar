@@ -41,6 +41,44 @@ sources:
   - "https://clinicaltrials.gov/study/NCT02651428"
   - "https://www.wsj.com/articles/cormedix-shares-rise-6-after-defencath-meets-payment-criteria-992a5953"
   - "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=DefenCath"
+assets:
+  - name: DefenCath (taurolidine/heparin)
+    indication: 혈액투석 중심정맥 카테터 관련 혈류감염(CRBSI) 예방
+    modality: 항균 카테터 락 용액 (taurolidine 항균 + heparin 항응고)
+    stage: approved
+    revenue_ttm_usd: 258800000
+    tier: free
+    etiology: 중심정맥 카테터(CVC) 내강에 균이 집락해 바이오필름을 형성하고, 이 바이오필름에서 박테리아·진균이 혈류로 파종되어 카테터
+      관련 혈류감염(CRBSI)을 일으킨다. CVC를 장기 유지하는 혈액투석 환자에서 CRBSI는 입원·패혈증·사망의 주요 원인이다.
+    moa: 투석 세션 사이에 카테터 내강을 채워두는 락 용액으로, taurolidine이 비항생제 광범위 항균·항바이오필름 작용으로 균 집락을
+      억제하고 heparin이 카테터 개존을 확보한다. 피벗 LOCK-IT-100 3상에서 헤파린 단독 대비 CRBSI 위험을 71%
+      감소(HR 0.29)시켰다.
+    market:
+      patients: 미국 혈액투석 CVC 사용 환자 약 150,000명
+      patients_basis: 가정 (USRDS/회사 자료 기반 통상 추정)
+      annual_price_usd: 39000
+      price_basis: WAC $249.99/vial × 주3회 투석 ≈ 연 156 lock 가정 (net·TDAPA 환급은 더 낮음)
+      penetration: 0.12
+      penetration_basis: 가정
+      pxq_usd: 258800000
+      tam_usd: 700000000
+      market_sources:
+        - https://www.stocktitan.net/news/CRMD/cor-medix-inc-reports-fourth-quarter-and-full-year-2025-financial-zfzk9d7zg7bc.html
+        - https://www.grandviewresearch.com/industry-analysis/us-hemodialysis-catheter-market-report
+    expansion:
+      - axis: 적응증 확장
+        detail: TPN(완전정맥영양) 카테터 환자 대상 Phase 3 — 회사 추산 연 약 500만 infusion 추가, $500–750M
+          기회. 2027 상반기 완료 목표
+        status: ph3
+        sources:
+          - https://www.globenewswire.com/news-release/2026/05/14/3294799/0/en/Cormedix-Therapeutics-Reports-First-Quarter-2026-Financial-Results-and-Provides-Business-Update.html
+      - axis: 적응증 확장
+        detail: 소아 혈액투석 환자 대상 임상 진행 중
+        status: 가정
+pipeline_note: DefenCath는 미국 최초·유일 FDA 승인 항균 카테터 락 용액으로 2024년 상업 출시했다. 2025년 매출
+  급성장(DefenCath $258.8M, Melinta 인수 포함 pro forma 총매출 $401.3M)하며 흑자 전환했고 FY2026
+  가이던스는 순매출 $300–320M이다. 라벨 확장(TPN Phase 3, 소아 투석)이 성장 레버다. ※Melinta
+  포트폴리오(REZZAYO 등)는 별도 자산.
 ---
 
 ## At a Glance

@@ -41,6 +41,77 @@ sources:
   - "https://www.nejm.org/doi/full/10.1056/NEJMoa2107454"
   - "https://www.nejm.org/doi/full/10.1056/NEJMoa2403213"
   - "https://ir.intelliatx.com/"
+assets:
+  - name: Lonvoguran ziclumeran (lonvo-z, NTLA-2002)
+    indication: 유전성 혈관부종(HAE) Type I/II, 성인
+    modality: in-vivo CRISPR/Cas9 유전자 녹아웃 (LNP 전달, KLKB1 영구 불활성화)
+    stage: ph3
+    tier: free
+    etiology: HAE는 C1-억제인자 결핍/기능이상으로 칼리크레인-키닌 경로가 과활성화돼 브래디키닌이 과잉 생성되는 희귀 유전질환이다. 그
+      결과 예측 불가능하고 반복적인 피하·점막 부종 발작이 일어나며 후두 침범 시 생명을 위협할 수 있다.
+    moa: lonvo-z는 간세포에서 KLKB1 유전자(프리칼리크레인)를 영구적으로 녹아웃해 혈장 칼리크레인·브래디키닌 생성을 항구적으로 낮춘다.
+      평생 반복 투여하는 기존 예방요법과 달리 1회 투여로 발작 억제를 목표로 한다.
+    market:
+      patients: 미국 HAE 유병 약 6,000~7,000명 (유병률 약 1/50,000), 글로벌 수만 명
+      patients_basis: https://www.coherentmarketinsights.com/market-insight/hereditary-angioedema-market-1292
+      annual_price_usd: 500000
+      price_basis: 가정 — 1회성 편집이나 가격 미정. 기존 장기 예방요법(Takhzyro) 연 $100k~$300k+ 벤치마크 기준
+      penetration: 0.25
+      penetration_basis: 가정
+      pxq_usd: 875000000
+      tam_usd: 3500000000
+      tam_bull_usd: 6000000000
+      market_sources:
+        - https://www.coherentmarketinsights.com/market-insight/hereditary-angioedema-market-1292
+        - https://pmc.ncbi.nlm.nih.gov/articles/PMC11963383/
+    expansion:
+      - axis: 지역
+        detail: 글로벌 Phase 3 HAELO(미국·유럽) — 월 발작 87% 감소·62% 무발작, 미국 우선 출시 후 EU 확대
+        status: ph3
+        sources:
+          - https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-completes-enrollment-global-phase-3-haelo
+  - name: Nexiguran ziclumeran (nex-z, NTLA-2001)
+    indication: ATTR 아밀로이드증 — 심근병증(ATTR-CM) 및 다발신경병증(ATTRv-PN)
+    modality: in-vivo CRISPR/Cas9 유전자 녹아웃 (LNP 전달, TTR 영구 불활성화) — Regeneron 공동개발
+    stage: ph3
+    tier: pro
+    etiology: ATTR 아밀로이드증은 간에서 생성되는 트랜스티레틴(TTR)이 잘못 접혀 아밀로이드로 침착되는 질환이다. 유전형·야생형이
+      있으며 심장 침착은 진행성 심부전(ATTR-CM), 신경 침착은 다발신경병증(ATTRv-PN)을 유발한다.
+    moa: nex-z는 간세포의 TTR 유전자를 1회 편집으로 녹아웃해 혈청 TTR을 항구적으로 깊게 감소시킨다. 평생 복용/주사하는
+      tafamidis·patisiran과 달리 단회 정맥 투여로 질병 동인 단백질을 제거하는 것을 목표로 한다. (※2025-10
+      MAGNITUDE 시험에서 Grade 4 간독성 사망 사례로 FDA 임상보류 부과 후, 안전성 모니터링 강화로 2026-01~03
+      보류 해제됐다.)
+    market:
+      patients: ATTR-CM 미국 최대 약 150,000명(대부분 미진단), ATTRv-PN은 수천 명대 유전형
+      patients_basis: https://www.ncbi.nlm.nih.gov/books/NBK574531/
+      annual_price_usd: 700000
+      price_basis: 가정 — 1회성 편집이나 가격 미정. tafamidis 연 $225k 만성 투여 대비 1회성 희귀질환 가격대 상단 가정
+      penetration: 0.15
+      penetration_basis: 가정
+      pxq_usd: 15750000000
+      tam_usd: 16000000000
+      tam_bull_usd: 28000000000
+      market_sources:
+        - https://www.ncbi.nlm.nih.gov/books/NBK574531/
+        - https://www.fortunebusinessinsights.com/industry-reports/transthyretin-amyloidosis-treatment-market-101886
+    expansion:
+      - axis: 적응증 확장
+        detail: ATTRv-PN(MAGNITUDE-2)과 ATTR-CM(MAGNITUDE) 양대 Phase 3 동시 진행 — 단일 TTR 편집으로
+          심장·신경 적응증 모두 공략
+        status: ph3
+        sources:
+          - https://clinicaltrials.gov/study/NCT06128629
+platform:
+  thesis: Intellia의 핵심 엔진은 LNP(지질나노입자)로 CRISPR/Cas9를 간세포에 전달해 표적 유전자를 1회 투여로 영구
+    녹아웃하는 in-vivo 편집 플랫폼이다. 동일 전달·편집 백본에 가이드 RNA만 교체하면 새 질병 단백질을 끄는 자산을 반복 생성할 수
+    있어 TTR(nex-z)→KLKB1(lonvo-z)로 두 자산이 동일 엔진에서 파생됐다.
+  reusability: 동일 LNP/Cas9 백본으로 nex-z(ATTR Phase 3)·lonvo-z(HAE Phase 3, BLA 진행)를
+    산출 — in-vivo CRISPR의 첫 Phase 3 성공(HAELO)으로 플랫폼이 임상 검증됐다. 다만 nex-z의 Grade 4
+    간독성/사망은 간 지향 편집의 안전성 한계도 함께 드러냈다.
+  tier: pro
+pipeline_note: 꼬리 자산은 파트너십·간 외 조직 확장 단계다. Regeneron과의 혈우병 B(targeted insertion)
+  프로그램에서 NTLA는 마일스톤·로열티 수혜자이며, AvenCell과의 동종 세포편집 후보(AML/B세포 악성종양, 초기 임상)도 파트너
+  자산이다. 자체 단독소유 후기 자산은 lonvo-z·nex-z 두 건에 집중돼 있다.
 ---
 
 ## At a Glance

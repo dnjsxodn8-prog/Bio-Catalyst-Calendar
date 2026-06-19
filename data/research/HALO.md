@@ -41,6 +41,62 @@ sources:
   - "https://halozyme.com/"
   - "https://pubmed.ncbi.nlm.nih.gov/16876906/"
   - "https://pubmed.ncbi.nlm.nih.gov/30309843/"
+assets:
+  - name: ENHANZE 로열티 프랜차이즈
+    indication: IV 생물의약품의 SC 전환 (Darzalex SC·Phesgo·Vyvgart Hytrulo 등)
+    modality: drug-delivery platform (rHuPH20)
+    stage: approved
+    revenue_ttm_usd: 867800000
+    tier: free
+    etiology: 다수 블록버스터 항체는 대용량·고점도라 병원에서 수십 분~수 시간 IV 주입이 필요하다. 이는 환자 부담·인프라 비용·투여
+      capacity 제약을 낳는다. ENHANZE는 이 IV 제형을 수 분 내 피하주사로 전환해 환자 편의·접근성·생애주기(LCM)
+      가치를 만든다.
+    moa: rHuPH20(재조합 인간 히알루로니다아제)가 피하조직의 히알루론산을 일시적·국소적으로 분해해 조직 투과성을 높인다. 대용량 약물을
+      빠르게 피하로 분산·흡수시킬 수 있고 효과는 가역적이라 24~48시간 내 조직이 정상화된다.
+    market:
+      patients: ENHANZE 적용 파트너 제품 합산 글로벌 매출 — Darzalex 프랜차이즈 약 $14.4B(SC가 美 매출의 ~97%),
+        Vyvgart Hytrulo $4.15B, Phesgo 약 $3B 등
+      patients_basis: https://ir.genmab.com/news-releases/news-release-details/genmab-announces-net-sales-darzalexr-daratumumab-2025/
+      penetration: 0.055
+      penetration_basis: 가정 — 공시상 tiered mid-single digit(중간 한 자릿수) 로열티율, ~5~6% 가정
+      pxq_usd: 867800000
+      peak_sales_usd: 1170000000
+      peak_sales_basis: https://www.prnewswire.com/news-releases/halozyme-reports-full-year-2025-record-revenue-of-1-4-billion-and-reiterates-strong-2026-financial-guidance-302689822.html
+      market_sources:
+        - https://www.prnewswire.com/news-releases/halozyme-reports-full-year-2025-record-revenue-of-1-4-billion-and-reiterates-strong-2026-financial-guidance-302689822.html
+        - https://ir.genmab.com/news-releases/news-release-details/genmab-announces-net-sales-darzalexr-daratumumab-2025/
+    expansion:
+      - axis: 플랫폼재사용
+        detail: 2025년 신규 ENHANZE 라이선스 Takeda(ENTYVIO SC)·Merus·Skye Bioscience — 미래 로열티
+          풀 확장
+        status: 가정
+        sources:
+          - https://www.prnewswire.com/news-releases/halozyme-reports-full-year-2025-record-revenue-of-1-4-billion-and-reiterates-strong-2026-financial-guidance-302689822.html
+  - name: Hylenex (자체 제품)
+    indication: 히알루로니다아제 주사제 — 피하 수액·약물 흡수 촉진
+    modality: recombinant enzyme (rHuPH20)
+    stage: approved
+    tier: pro
+    etiology: 피하로 투여되는 수액·약물·조영제의 흡수·분산이 느리거나 제한될 때 이를 가속할 보조 수단이 필요하다.
+    moa: rHuPH20가 피하조직의 히알루론산을 일시적으로 분해해 주입 액체·약물의 분산·흡수를 촉진한다.
+    market:
+      patients: Halozyme 자체 product sales(Hylenex 등) FY2025 합산 $376.4M (Hylenex 단독 미공시)
+      patients_basis: https://www.prnewswire.com/news-releases/halozyme-reports-full-year-2025-record-revenue-of-1-4-billion-and-reiterates-strong-2026-financial-guidance-302689822.html
+      market_sources:
+        - https://www.prnewswire.com/news-releases/halozyme-reports-full-year-2025-record-revenue-of-1-4-billion-and-reiterates-strong-2026-financial-guidance-302689822.html
+platform:
+  thesis: ENHANZE(rHuPH20)는 항체·생물의약품의 IV→SC 전환이라는 범용 문제를 푸는 재사용 가능한 제제 기술이다. 파트너에게
+    SC 전환은 환자 편의·시장 방어·특허 LCM을 동시에 제공하므로 블록버스터 보유 제약사가 반복적으로 라이선스를 가져온다. 매 신규
+    파트너·적응증·제형 승인마다 tiered 로열티 풀이 누적 확장돼, R&D 자본을 직접 태우지 않고 파트너 매출 성장에 올라타는
+    royalty compounding 모델이다.
+  reusability: "승인·상용화된 ENHANZE 제품: DARZALEX SC/FASPRO(J&J·Genmab), Phesgo·Ocrevus
+    Zunovo·Tecentriq Hybreza(Roche), VYVGART Hytrulo(argenx), Rybrevant SC(J&J),
+    Opdivo Qvantig(BMS) 등 약 10개. 파트너에
+    Roche·Takeda·Pfizer·Janssen·BMS·argenx·Lilly·Chugai·Merus·Skye 등."
+  tier: pro
+pipeline_note: 로열티 성장은 기존 블록버스터의 SC 전환 침투율 상승(DARZALEX SC가 美 매출의 ~97%, Vyvgart
+  Hytrulo 고성장)과 신규 승인 제형(Vyvgart Hytrulo 자가주사 PFS, Rybrevant SC, Opdivo Qvantig
+  등)에서 나온다. 2026 로열티 $1B 초과(YoY 30~35%)·총매출 $1.71~1.81B 가이던스.
 ---
 
 ## At a Glance

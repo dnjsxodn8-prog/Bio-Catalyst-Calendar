@@ -41,6 +41,70 @@ sources:
   - "https://clinicaltrials.gov/study/NCT04191239"
   - "https://www.jci.org/articles/view/94854"
   - "https://pubmed.ncbi.nlm.nih.gov/34294401/"
+assets:
+  - name: Attruby (acoramidis)
+    indication: ATTR-CM (트랜스티레틴 아밀로이드 심근병증)
+    modality: 경구 소분자 (TTR 안정화제)
+    stage: approved
+    revenue_ttm_usd: 362400000
+    tier: free
+    etiology: TTR(트랜스티레틴) 사량체가 불안정해져 단량체로 해리되고, 잘못 접힌 단량체가 심근에 아밀로이드 원섬유로 침착되며 진행성
+      심부전·부정맥을 일으킨다. 유전성·야생형(노화) 모두 존재하며 고령 남성에서 흔하다.
+    moa: TTR 사량체의 갑상선호르몬 결합 부위에 결합해 사량체를 안정화함으로써 단량체 해리를 차단한다. 천연 안정화 변이를 모방하도록 설계돼
+      거의 완전한 안정화를 표방하며 아밀로이드 전구체 생성을 줄인다.
+    market:
+      patients: 미국 ATTR-CM 유병률 약 41.1/백만명(2022), 진단 환자 기반 확대 중
+      patients_basis: https://pmc.ncbi.nlm.nih.gov/articles/PMC12766817/
+      annual_price_usd: 244000
+      price_basis: https://www.managedhealthcareexecutive.com/view/fda-approves-attruby-for-hearth-failure-indication
+      penetration: 0.1
+      penetration_basis: 가정
+      pxq_usd: 362400000
+      peak_sales_usd: 4000000000
+      peak_sales_basis: https://patientworthy.com/2025/08/22/attrubys-fda-approval-ignites-an-attr-cm-market-showdown/
+      tam_usd: 13320000000
+      tam_bull_usd: 35930000000
+      market_sources:
+        - https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-Commercial-Progress-Program-Updates-and-2026-Milestones-at-the-44th-Annual-J-P--Morgan-Healthcare-Conference/default.aspx
+        - https://patientworthy.com/2025/08/22/attrubys-fda-approval-ignites-an-attr-cm-market-showdown/
+    expansion:
+      - axis: 라벨확장
+        detail: ATTR-CM 심부전(HF) 적응증 추가 및 ATTRibute-CM Month 54 사망률 감소 데이터로 처방 확대
+        status: ph3
+        sources:
+          - https://investor.bridgebio.com/news/news-details/2026/Acoramidis-Significantly-Reduces-the-Risk-of-All-Cause-and-Cardiovascular-Mortality-in-Patients-with-ATTR-CM-through-Month-54/default.aspx
+  - name: Infigratinib (인피그라티닙)
+    indication: 연골무형성증(achondroplasia), 소아
+    modality: 경구 소분자 (FGFR3 억제제)
+    stage: ph3
+    tier: pro
+    etiology: FGFR3 유전자 활성화 변이로 성장판에서 FGFR3 신호가 과도하게 켜져 연골내골화가 억제된다. 장골 성장이 저해돼 사지가
+      짧은 저신장·골격 합병증이 나타나며 대부분 새 생식세포 변이로 발생한다.
+    moa: FGFR3 티로신키나아제를 선택적으로 억제해 과활성 하류 신호(MAPK 등)를 낮춰 성장판 연골세포의 증식·분화를 회복시킨다. 질환
+      근원인 FGFR3 신호를 표적하는 경구제다.
+    market:
+      patients: 미국 진단 유병 약 14,496명(2022), 출생 유병률 약 1/25,000
+      patients_basis: https://www.delveinsight.com/report-store/achondroplasia-epidemiology-forecast
+      annual_price_usd: 320000
+      price_basis: 가정 (Voxzogo 등 희귀 소아 치료제 연 약 $30만 참조)
+      penetration: 0.2
+      penetration_basis: 가정
+      peak_sales_usd: 700000000
+      peak_sales_basis: https://www.investing.com/news/analyst-ratings/rbc-capital-initiates-bridgebio-pharma-stock-at-outperform-with-100-target-93CH-4604199
+      tam_usd: 900000000
+      tam_bull_usd: 2900000000
+      market_sources:
+        - https://www.delveinsight.com/report-store/achondroplasia-epidemiology-forecast
+        - https://www.coherentmarketinsights.com/market-insight/achondroplasia-treatment-market-4161
+    expansion:
+      - axis: 적응증 확장
+        detail: 연골저형성증(hypochondroplasia) ACCEL 2/3 진행 — Phase 2 파트 등록 완료
+        status: ph2
+        sources:
+          - https://investor.bridgebio.com/news/news-details/2026/BridgeBio-Announces-Commercial-Progress-Program-Updates-and-2026-Milestones-at-the-44th-Annual-J-P--Morgan-Healthcare-Conference/default.aspx
+pipeline_note: "꼬리 자산: encaleret(CaSR 길항제, ADH1 CALIBRATE Phase 3 완료, 2026 상반기
+  NDA 예정), BBP-418(LGMD2I/R9 FORTIFY Phase 3 12개월 NSAD 위약 대비 2.6점 개선, 2026 상반기
+  NDA 목표), TTR 디플리터 항체(침착 아밀로이드 제거, 전임상). 일자는 BridgeBio 2026 JPM 발표 기준."
 ---
 
 ## At a Glance

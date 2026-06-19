@@ -41,6 +41,40 @@ sources:
   - "https://www.globenewswire.com/news-release/2025/05/15/3082037/0/en/Abeona-Therapeutics-Reports-First-Quarter-2025-Financial-Results-and-Corporate-Updates.html"
   - "https://clinicaltrials.gov/study/NCT04227106"
   - "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00001-0/abstract"
+assets:
+  - name: ZEVASKYN (prademagene zamikeracel / pz-cel)
+    indication: 열성 이영양성 수포성 표피박리증(RDEB) 창상
+    modality: autologous gene-modified cell therapy (자가 COL7A1 유전자 도입 각질세포 시트)
+    stage: approved
+    revenue_ttm_usd: 11100000
+    tier: free
+    etiology: RDEB는 COL7A1 유전자의 열성 변이로 VII형 콜라겐(anchoring fibril의 핵심 단백)이 결손·기능부전되는
+      질환이다. 표피-진피 접착이 무너져 극심한 수포·만성 창상이 발생하며 흔히 체표면의 30% 이상(중증은 최대 80%)을 덮는다.
+    moa: 환자 피부에서 채취한 각질세포에 정상 COL7A1 유전자를 레트로바이러스 벡터로 도입해 기능성 VII형 콜라겐을 발현하는 자가 표피
+      시트를 제작하고 큰 만성 창상에 1회 외과 이식한다. 임상에서 단회 적용 창상의 81%가 6개월 시점 50%+ 치유(대조 16%)를
+      보였다.
+    market:
+      patients: 미국 약 750명(적격 RDEB 환자, 환자당 평균 2회 시술)
+      patients_basis: https://finance.yahoo.com/news/abeo-zevaskyn-approved-fda-raising-100500085.html
+      annual_price_usd: 3100000
+      price_basis: https://www.biopharmadive.com/news/abeona-zevaskyn-fda-approval-epidermolysis-bullosa-krystal-vyjuvek/746575/
+      penetration: 0.4
+      penetration_basis: 가정
+      pxq_usd: 930000000
+      peak_sales_usd: 500000000
+      peak_sales_basis: https://finance.yahoo.com/news/abeo-zevaskyn-approved-fda-raising-100500085.html
+      tam_usd: 2325000000
+      market_sources:
+        - https://finance.yahoo.com/news/abeo-zevaskyn-approved-fda-raising-100500085.html
+        - https://www.biopharmadive.com/news/abeona-zevaskyn-fda-approval-epidermolysis-bullosa-krystal-vyjuvek/746575/
+        - https://investors.abeonatherapeutics.com/press-releases/detail/303/u-s-fda-approves-zevaskyn-prademagene-zamikeracel
+    expansion:
+      - axis: 지역
+        detail: 미국 외 글로벌(EU 등) 확대 — 현재 미국 QTC 중심 출시
+        status: 가정
+pipeline_note: ABEO의 나머지 파이프라인은 AAV 기반 안과 유전자치료로 전부 전임상/IND 단계다. ABO-503(X-연관
+  망막층간분리증 XLRS; RS1 유전자 AAV204)은 2025-10 FDA RDEA 파일럿에 선정돼 IND-enabling 진행 중.
+  ABO-504(스타가르트병)·ABO-101(MPS IIIB)도 전임상으로 매출 기여는 없다.
 ---
 
 ## At a Glance

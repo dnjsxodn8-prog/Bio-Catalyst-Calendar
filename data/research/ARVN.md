@@ -41,6 +41,69 @@ sources:
   - "https://ir.arvinas.com/news-releases/news-release-details/arvinas-and-pfizer-announce-positive-topline-results-phase-3"
   - "https://clinicaltrials.gov/study/NCT04072952"
   - "https://ascopubs.org/doi/10.1200/JCO.22.02580"
+assets:
+  - name: 베프데게스트란트 (vepdegestrant, ARV-471, VEPPANU)
+    indication: ESR1 변이 ER+/HER2- 진행성/전이성 유방암 (2차 이상)
+    modality: oral PROTAC ER degrader
+    stage: approved
+    tier: free
+    etiology: ER+/HER2- 유방암은 내분비요법(아로마타제·CDK4/6 억제제)으로 1차 치료하나 진행 후 약 30~40%에서 ESR1
+      변이가 출현해 내분비 저항성이 생긴다. ESR1 변이는 리간드 없이도 ER을 활성화시켜 종양을 재성장시킨다.
+    moa: 베프데게스트란트는 ER에 결합하는 동시에 E3 유비퀴틴 리가아제(세레블론)를 끌어와 삼중복합체를 형성하고 ER을 유비퀴틴화해
+      프로테아좀으로 분해한다. 단순 차단이 아니라 변이형 ER 자체를 제거해 ESR1 저항성을 우회한다. FDA 최초 승인 PROTAC
+      분해제다.
+    market:
+      patients: 미국 ER+/HER2- 전이성 유방암 2차 이상 중 ESR1 변이 양성(약 30~40%)
+      patients_basis: https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vepdegestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast
+      annual_price_usd: 200000
+      price_basis: 가정 (경구 진행성 유방암 표적약 elacestrant 등 연 $150-250k 중앙값)
+      penetration: 0.25
+      penetration_basis: 가정
+      pxq_usd: 1640000000
+      peak_sales_usd: 1640000000
+      peak_sales_basis: GlobalData 컨센서스 2031 $1.64B (Truist $1.1B~Evercore <$500M 편차 큼)
+      tam_usd: 1640000000
+      market_sources:
+        - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vepdegestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast
+        - https://www.globenewswire.com/news-release/2026/05/01/3286140/0/en/arvinas-announces-fda-approval-of-veppanu-vepdegestrant-for-the-treatment-of-esr1m-er-her2-advanced-breast-cancer.html
+    expansion:
+      - axis: 라벨확장
+        detail: 2026-04 Arvinas·Pfizer가 글로벌 독점권을 Rigel에 라이선스아웃(선불 $70M, 마일스톤 $320M+,
+          로열티). Arvinas는 로열티·마일스톤만 수취(직접 매출 없음), Rigel 2026-08 출시 예정
+        status: 가정
+        sources:
+          - https://www.biopharmadive.com/news/arvinas-pfizer-vepdegestrant-partnership-rework-breast-cancer/757043/
+  - name: ARV-102 (LRRK2 PROTAC degrader)
+    indication: 파킨슨병 / 진행성핵상마비(PSP)
+    modality: oral, 혈액뇌장벽 투과 PROTAC LRRK2 degrader
+    stage: ph1
+    tier: pro
+    etiology: LRRK2(류신리치반복키나아제2)의 활성 증가·과발현이 파킨슨병·PSP 발병에 관여한다. LRRK2 과활성은 엔도리소좀
+      기능장애·신경염증을 유발해 도파민 신경세포 손상을 촉진한다.
+    moa: ARV-102는 혈액뇌장벽을 통과해 뇌 내 LRRK2에 결합하고 E3 리가아제를 동원해 LRRK2를 유비퀴틴-프로테아좀으로 분해한다.
+      키나아제 활성만 억제하는 기존 저해제와 달리 스캐폴딩 단백질 전체를 제거한다. Phase 1에서 28일 1일1회로 CSF LRRK2
+      50%+ 감소·양호한 내약성을 보였다.
+    market:
+      patients: 파킨슨병·PSP 환자 (Phase 1, 적격 환자 미확정)
+      patients_basis: 가정
+      market_sources:
+        - https://ir.arvinas.com/news-releases/news-release-details/arvinas-announces-positive-phase-1-data-arv-102-showing-greater
+    expansion:
+      - axis: 적응증 확장
+        detail: 파킨슨병 Phase 1에 더해 PSP Phase 1b를 2026 상반기 개시 예정
+        status: ph1
+        sources:
+          - https://ir.arvinas.com/news-releases/news-release-details/arvinas-present-phase-1-data-arv-102-protac-lrrk2-degrader-oral/
+platform:
+  thesis: PROTAC(표적단백질분해 키메라)는 표적에 결합하는 리간드와 E3 유비퀴틴 리가아제 동원부를 한 분자로 연결해 표적을
+    유비퀴틴-프로테아좀으로 촉매적 분해한다. 단순 차단이 아니라 단백질 자체를 제거하므로 저항성 변이 우회·난공불락 표적 공략·저용량이라는
+    반복 가능한 설계 원리를 제공한다.
+  reusability: ER 분해제(베프데게스트란트)가 FDA 최초 PROTAC 승인(2026-05)으로 플랫폼을 임상-규제 검증했고, 동일
+    원리를 신경 표적(LRRK2, ARV-102)에 적용해 인체 CSF에서 50%+ 분해를 입증 — 종양·중추신경 양쪽 재현성을 보였다.
+  tier: pro
+pipeline_note: 베프데게스트란트 라이선스아웃 이후 Arvinas는 ARV-102(LRRK2, 신경)를 차세대 핵심으로 전진시키고
+  있다. 2025-09 구조조정으로 자원을 선택·집중했고, Novartis와의 AR 분해제(luxdegalutamide) 라이선스 등 외부
+  파트너십도 플랫폼 수익화 경로다.
 ---
 
 ## At a Glance
