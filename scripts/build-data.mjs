@@ -16,6 +16,7 @@ const SITE_URL = 'https://biotechcatalystcalendar.vercel.app';
 async function main() {
   const companies = await loadCompanies();
   const catalysts = await loadYamlBlock('data/catalysts.md', 'events');
+  const news = await loadYamlBlock('data/news.md', 'news');
   const conferences = await loadYamlBlock('data/conferences.md', 'conferences');
   const prices = await loadPrices();
   const research = await loadResearch();
@@ -30,12 +31,15 @@ async function main() {
     }
   }
 
+  const feed = buildFeed(catalysts, news);
+
   const output = {
     generated: new Date().toISOString(),
     companies,
     catalysts,
     conferences,
     prices,
+    feed,
   };
 
   const outPath = path.join(ROOT, 'src/data.generated.json');
@@ -45,6 +49,8 @@ async function main() {
 
   console.log(`✅ companies:   ${companies.length}`);
   console.log(`✅ catalysts:   ${catalysts.length}`);
+  console.log(`✅ news:        ${news.length}`);
+  console.log(`✅ feed:        ${feed.length}`);
   console.log(`✅ conferences: ${conferences.length}`);
   console.log(`✅ prices:      ${Object.keys(prices).length}`);
   console.log(`✅ research:    ${researchAttached} 종목 부착${process.env.RESEARCH_DEV === '1' ? ' (DEV: _DEV_* 포함)' : ''}`);
@@ -99,6 +105,41 @@ function parseBodyHeadings(body) {
   }
   if (current) sections[current] = buf.join('\n').trim();
   return sections;
+}
+
+function buildFeed(catalysts, news) {
+  const catalystItems = catalysts
+    .filter((c) => c && c.outcome && c.outcome !== 'pending')
+    .map((c) => ({
+      date: normDate(c.outcome_date),
+      ticker: str(c.ticker),
+      kind: 'catalyst',
+      outcome: str(c.outcome),
+      headline: str(c.event),
+      summary: str(c.result),
+      type: str(c.type),
+      sources: arrayOfStrings(c.outcome_sources),
+    }));
+
+  const newsItems = news
+    .filter((n) => n && typeof n === 'object')
+    .map((n) => ({
+      date: normDate(n.date),
+      ticker: str(n.ticker),
+      kind: 'news',
+      type: str(n.type),
+      headline: str(n.headline),
+      summary: str(n.summary),
+      sources: arrayOfStrings(n.sources),
+    }));
+
+  return [...catalystItems, ...newsItems].sort((a, b) =>
+    String(b.date || '').localeCompare(String(a.date || ''))
+  );
+}
+
+function arrayOfStrings(v) {
+  return Array.isArray(v) ? v.map(str).filter(Boolean) : [];
 }
 
 // ── research 인입 (spec 014 §2.3) ────────────────────────────────────────────

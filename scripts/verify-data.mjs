@@ -24,6 +24,16 @@ const MODALITY_ENUM = new Set([
   'Biologic', 'Protein/Enzyme', 'Tool/Platform', 'Diagnostic', 'Other',
 ]);
 const CATALYST_TYPE_ENUM = new Set(['PDUFA', 'Conference', 'Clinical Readout', 'Earnings', 'Regulatory']);
+const NEWS_TYPE_ENUM = new Set([
+  'Financing',
+  'Licensing',
+  'Partnership',
+  'MnA',
+  'Pipeline',
+  'Regulatory',
+  'Personnel',
+  'Other',
+]);
 const CONFERENCE_TIER_ENUM = new Set(['Tier 1', 'Tier 2', 'Tier 3']);
 
 const COMPANY_REQUIRED_FM = ['ticker', 'company', 'mcap', 'modality', 'areas', 'verified'];
@@ -45,13 +55,14 @@ async function main() {
   const jsonOut = args.has('--json');
 
   const issues = new Issues();
-  const summary = { companies: 0, catalysts: 0, conferences: 0, prices: 0, research: 0 };
+  const summary = { companies: 0, catalysts: 0, conferences: 0, prices: 0, research: 0, news: 0 };
 
   const companies = await verifyCompanies(issues, summary);
   const catalysts = await verifyCatalysts(issues, summary, companies, /* conferences set later */);
   const conferences = await verifyConferences(issues, summary);
   await verifyPrices(issues, summary, companies);
   await verifyResearch(issues, summary, companies);
+  await verifyNews(issues, summary, companies, catalysts);
 
   // catalysts ↔ conferences 참조 검증 (conferences 로드 후)
   verifyCatalystConferenceRefs(issues, catalysts, conferences);
@@ -425,6 +436,85 @@ function verifyMarket(issues, loc, m) {
   }
 }
 
+// ---------- News (spec 016 §2, §6 rules 4-6) ----------
+
+async function verifyNews(issues, summary, companyTickers, catalysts) {
+  const loc = 'data/news.md';
+  let raw;
+  try { raw = await fs.readFile(path.join(ROOT, loc), 'utf8'); }
+  catch (e) { issues.err(loc, `파일 읽기 실패: ${e.message}`); return []; }
+
+  const m = raw.match(/```yaml\r?\n([\s\S]*?)```/);
+  if (!m) { issues.err(loc, `yaml 블록 없음`); return []; }
+
+  let parsed;
+  try { parsed = yaml.parse(m[1]); }
+  catch (e) { issues.err(loc, `yaml 파싱 실패: ${e.message}`); return []; }
+
+  const news = parsed?.news ?? [];
+  if (!Array.isArray(news)) {
+    issues.err(loc, 'news는 배열이어야 함');
+    return [];
+  }
+  summary.news = news.length;
+
+  const catalystResultKeys = new Set(
+    catalysts
+      .filter((ev) => ev && ev.outcome && ev.outcome !== 'pending')
+      .map((ev) => duplicateKey(asYMD(ev.outcome_date), ev.ticker, ev.event))
+      .filter(Boolean)
+  );
+
+  news.forEach((item, i) => {
+    const nloc = `${loc}[${i}]`;
+    if (!item || typeof item !== 'object') {
+      issues.err(nloc, '뉴스 항목은 객체여야 함');
+      return;
+    }
+
+    for (const k of ['date', 'ticker', 'type', 'headline']) {
+      if (item[k] === undefined || item[k] === null || item[k] === '') {
+        issues.err(nloc, `필수 필드 누락: ${k}`);
+      }
+    }
+
+    const ymd = asYMD(item.date);
+    if (item.date && ymd === false) {
+      issues.err(nloc, `date 형식 위반: ${item.date}`);
+    }
+
+    if (item.type && !NEWS_TYPE_ENUM.has(item.type)) {
+      issues.err(nloc, `type enum 위반: "${item.type}"`);
+    }
+
+    if (item.ticker && !companyTickers.has(item.ticker)) {
+      issues.warn(nloc, `ticker "${item.ticker}"가 data/companies/에 없음`);
+    }
+
+    if (!Array.isArray(item.sources) || item.sources.length === 0) {
+      issues.err(nloc, 'sources는 1개 이상 필요');
+    } else {
+      for (const [j, src] of item.sources.entries()) {
+        if (typeof src !== 'string' || !/^https?:\/\//.test(src)) {
+          issues.err(nloc, `sources[${j}] URL 형식 위반: ${src}`);
+        }
+      }
+    }
+
+    const key = duplicateKey(ymd, item.ticker, item.headline);
+    if (key && catalystResultKeys.has(key)) {
+      issues.warn(nloc, '동일 ticker+date+headline 이 catalyst 결과와 news.md 양쪽에 있음 (중복 입력 의심)');
+    }
+  });
+
+  return news;
+}
+
+function duplicateKey(date, ticker, headline) {
+  if (!date || !ticker || !headline) return null;
+  return `${date}|${String(ticker).trim().toUpperCase()}|${String(headline).trim()}`;
+}
+
 const fmtB = (n) => (n >= 1e9 ? `$${(n / 1e9).toFixed(1)}B` : n >= 1e6 ? `$${Math.round(n / 1e6)}M` : `$${n}`);
 
 function asYMD(v) {
@@ -474,6 +564,7 @@ function printHuman(summary, issues, verbose) {
   console.log(`  conferences:  ${summary.conferences}`);
   console.log(`  prices:       ${summary.prices}`);
   console.log(`  research:     ${summary.research}`);
+  console.log(`  news:         ${summary.news}`);
   console.log('');
 
   const e = issues.errors.length, w = issues.warnings.length, i = issues.info.length;
