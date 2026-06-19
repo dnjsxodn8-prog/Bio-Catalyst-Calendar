@@ -392,6 +392,27 @@ body.light header {
     border-radius: 18px;
     box-shadow: 0 30px 80px -20px rgba(0, 0, 0, 0.7);
   }
+  /* research 보유 종목: everyticker式 풀페이지 상세 (좌측 nav + 내러티브) — spec 014 §3 */
+  .modal-wide {
+    width: min(1340px, 96vw);
+    max-height: 92vh;
+  }
+  /* 모달 내부 스크롤 컨테이너 기준 섹션 점프 오프셋 */
+  .research-anchor {
+    scroll-margin-top: 16px;
+  }
+  /* 점수바 (everyticker 초록 바, 0~100) */
+  .score-bar-track {
+    height: 6px;
+    border-radius: 999px;
+    background: var(--line);
+    overflow: hidden;
+  }
+  .score-bar-fill {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #34d399, #6ee7b7);
+  }
 
   /* 모바일 (<lg)에서는 풀스크린 모달 — bottom-sheet 대신 단순 풀스크린 */
   @media (max-width: 1023.98px) {

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   Building2,
   DollarSign,
@@ -16,6 +16,8 @@ import {
   Star,
   Plus,
   Beaker,
+  Users,
+  ExternalLink,
 } from 'lucide-react';
 import {
   dDelta,
@@ -64,6 +66,27 @@ const DRUG_FIELDS = [
   { key: '논문', icon: BookOpen, label: '주요 논문', wide: true },
 ];
 
+// research 내러티브 섹션 — spec 014 §2.2 순서. scoreKey 있으면 점수바 표시.
+const RESEARCH_SECTIONS = [
+  { key: 'atGlance', label: '한눈에', scoreKey: null },
+  { key: 'companyProfile', label: '기업 개요', scoreKey: null },
+  { key: 'growthOutlook', label: '성장 전망', scoreKey: 'growth' },
+  { key: 'profitability', label: '수익성', scoreKey: 'profitability' },
+  { key: 'competitiveMoat', label: '경쟁 우위', scoreKey: 'moat' },
+  { key: 'financialHealth', label: '재무 건전성', scoreKey: 'financial_health' },
+  { key: 'valuation', label: '밸류에이션', scoreKey: 'valuation' },
+  { key: 'shareholderReturns', label: '주주 환원', scoreKey: null },
+  { key: 'bottomLine', label: '종합', scoreKey: null },
+];
+
+const SCORE_LABEL = {
+  growth: '성장',
+  profitability: '수익성',
+  moat: '경쟁우위',
+  financial_health: '재무건전성',
+  valuation: '밸류(저평가)',
+};
+
 function isFilled(v) {
   if (!v) return false;
   const s = String(v).trim();
@@ -83,10 +106,14 @@ export default function CompanyDetail({ item, data, watchlist, onClose }) {
     .sort((a, b) => a._d - b._d);
 
   const upcoming = ticks.find((t) => t._d >= 0) || ticks[0];
+  const research = company.research;
 
   return (
     <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal relative" onClick={(e) => e.stopPropagation()}>
+      <div
+        className={`modal relative ${research ? 'modal-wide' : ''}`}
+        onClick={(e) => e.stopPropagation()}
+      >
         <button
           className="btn btn-icon absolute top-4 right-4 z-10"
           onClick={onClose}
@@ -99,14 +126,26 @@ export default function CompanyDetail({ item, data, watchlist, onClose }) {
 
         <ScreenerScore ticker={company.ticker} />
 
-        <div className="px-7 py-6 grid grid-cols-1 lg:grid-cols-[1.6fr_1fr] gap-6">
-          <CatalystTimeline ticks={ticks} />
-          <SidePanels company={company} upcoming={upcoming} watchlist={watchlist} />
-        </div>
+        {research ? (
+          <ResearchLayout
+            company={company}
+            research={research}
+            ticks={ticks}
+            upcoming={upcoming}
+            watchlist={watchlist}
+          />
+        ) : (
+          <>
+            <div className="px-7 py-6 grid grid-cols-1 lg:grid-cols-[1.6fr_1fr] gap-6">
+              <CatalystTimeline ticks={ticks} />
+              <SidePanels company={company} upcoming={upcoming} watchlist={watchlist} />
+            </div>
 
-        <div className="px-7 pb-6 space-y-4">
-          <BodySection company={company} />
-        </div>
+            <div className="px-7 pb-6 space-y-4">
+              <BodySection company={company} />
+            </div>
+          </>
+        )}
       </div>
     </div>
   );
@@ -536,5 +575,303 @@ function BodySection({ company }) {
         </div>
       ) : null}
     </>
+  );
+}
+
+// ── research(everyticker式 내러티브) 레이어 — spec 014 §3 ─────────────────────
+
+function scrollToSection(id) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function ResearchLayout({ company, research, ticks, upcoming, watchlist }) {
+  const scores = research.scores || {};
+  const present = RESEARCH_SECTIONS.filter((s) => isFilled(research.sections?.[s.key]));
+  const hasNews = (research.news || []).length > 0;
+
+  const navItems = [
+    { id: 'rsec-objective', label: '객관 지표' },
+    ...present.map((s) => ({ id: `rsec-${s.key}`, label: s.label })),
+    ...(hasNews ? [{ id: 'rsec-news', label: '뉴스' }] : []),
+  ];
+
+  return (
+    <div className="px-5 lg:px-7 py-6 lg:flex lg:gap-7 lg:items-start">
+      <ResearchNav items={navItems} updated={research.updated} author={research.author} />
+
+      <div className="flex-1 min-w-0 space-y-7">
+        {/* 객관 블록 (유지·G3) */}
+        <section id="rsec-objective" className="research-anchor space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-[1.6fr_1fr] gap-6">
+            <CatalystTimeline ticks={ticks} />
+            <SidePanels company={company} upcoming={upcoming} watchlist={watchlist} />
+          </div>
+          <div className="space-y-4">
+            <BodySection company={company} />
+          </div>
+        </section>
+
+        {/* 섹션별 점수 요약 */}
+        <ScoreSummary scores={scores} />
+
+        {/* 내러티브 섹션 (§2.2 순서) */}
+        {present.map((s) => (
+          <NarrativeSection
+            key={s.key}
+            id={`rsec-${s.key}`}
+            label={s.label}
+            text={research.sections[s.key]}
+            score={s.scoreKey ? scores[s.scoreKey] : null}
+            extra={
+              s.key === 'competitiveMoat' ? (
+                <PeerChart ticker={company.ticker} peers={research.peers} />
+              ) : null
+            }
+          />
+        ))}
+
+        {/* 뉴스 (§G2) */}
+        {hasNews && <NewsSection news={research.news} />}
+
+        {/* research 출처 */}
+        <ResearchSources sources={research.sources} />
+      </div>
+    </div>
+  );
+}
+
+function ResearchNav({ items, updated, author }) {
+  return (
+    <nav className="hidden lg:block w-44 flex-shrink-0 sticky top-4 self-start">
+      <div className="mono text-[10px] text-ink-4 tracking-[0.1em] uppercase mb-2.5">목차</div>
+      <ul className="space-y-0.5">
+        {items.map((it) => (
+          <li key={it.id}>
+            <button
+              onClick={() => scrollToSection(it.id)}
+              className="w-full text-left text-[12.5px] text-ink-3 hover:text-ink px-2 py-1.5 rounded-md hover:bg-panel-2 transition-colors"
+            >
+              {it.label}
+            </button>
+          </li>
+        ))}
+      </ul>
+      {(updated || author) && (
+        <div className="mt-3 pt-3 border-t border-line text-[10.5px] text-ink-4 leading-relaxed">
+          {updated && <div>업데이트 {updated}</div>}
+          {author && <div className="uppercase tracking-wider">by {author}</div>}
+        </div>
+      )}
+    </nav>
+  );
+}
+
+function ScoreSummary({ scores }) {
+  const entries = Object.keys(SCORE_LABEL).filter((k) => Number.isFinite(scores[k]));
+  if (!entries.length) return null;
+  return (
+    <section className="research-anchor">
+      <div className="section-h">
+        <h2>리서치 스코어</h2>
+        <span className="meta">0–100</span>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-7 gap-y-3.5 panel p-4">
+        {entries.map((k) => (
+          <ScoreBar key={k} label={SCORE_LABEL[k]} value={scores[k]} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function ScoreBar({ label, value }) {
+  const v = Math.max(0, Math.min(100, Number(value)));
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-1">
+        <span className="text-[12px] text-ink-2">{label}</span>
+        <span className="num text-[12.5px] font-semibold text-ink">{value}</span>
+      </div>
+      <div className="score-bar-track">
+        <div className="score-bar-fill" style={{ width: `${v}%` }} />
+      </div>
+    </div>
+  );
+}
+
+function NarrativeSection({ id, label, text, score, extra }) {
+  const hasScore = Number.isFinite(Number(score)) && score != null;
+  const v = hasScore ? Math.max(0, Math.min(100, Number(score))) : 0;
+  return (
+    <section id={id} className="research-anchor">
+      <div className="section-h">
+        <h2>{label}</h2>
+        {hasScore && (
+          <span className="meta flex items-center gap-2">
+            <span className="score-bar-track inline-block w-20 align-middle">
+              <span className="score-bar-fill block" style={{ width: `${v}%` }} />
+            </span>
+            <span className="num text-ink-2">{score}</span>
+          </span>
+        )}
+      </div>
+      <div className="panel p-4 space-y-2 leading-relaxed">{renderBody(text)}</div>
+      {extra}
+    </section>
+  );
+}
+
+function PeerChart({ ticker, peers }) {
+  const ref = useRef(null);
+  const [plotly, setPlotly] = useState(null);
+
+  const rows = useMemo(() => {
+    const seen = new Set();
+    return [ticker, ...(peers || [])]
+      .filter((t) => t && !seen.has(t) && seen.add(t) && SCREENER_BY_TICKER.has(t))
+      .map((t) => SCREENER_BY_TICKER.get(t));
+  }, [ticker, peers]);
+
+  const enough = rows.length >= 2;
+
+  useEffect(() => {
+    if (!enough) return;
+    let alive = true;
+    import('plotly.js-dist-min')
+      .then((mod) => {
+        if (alive) setPlotly(mod.default || mod);
+      })
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, [enough]);
+
+  useEffect(() => {
+    if (!plotly || !ref.current || !enough) return;
+    const labels = rows.map((r) => r.t);
+    const traces = [
+      {
+        type: 'bar',
+        name: 'G 과학',
+        x: labels,
+        y: rows.map((r) => r.g),
+        marker: { color: '#34d399' },
+        hovertemplate: '%{x} · G %{y}<extra></extra>',
+      },
+      {
+        type: 'bar',
+        name: 'E 실행',
+        x: labels,
+        y: rows.map((r) => r.e),
+        marker: { color: '#60a5fa' },
+        hovertemplate: '%{x} · E %{y}<extra></extra>',
+      },
+    ];
+    const layout = {
+      barmode: 'group',
+      paper_bgcolor: 'rgba(0,0,0,0)',
+      plot_bgcolor: 'rgba(0,0,0,0)',
+      font: { color: '#e6e8eb', size: 11 },
+      margin: { l: 32, r: 8, t: 6, b: 28 },
+      legend: { orientation: 'h', x: 0, y: 1.22, bgcolor: 'rgba(0,0,0,0)' },
+      xaxis: { gridcolor: '#23262e' },
+      yaxis: { range: [0, 103], gridcolor: '#23262e', zeroline: false },
+    };
+    plotly.react(ref.current, traces, layout, {
+      responsive: true,
+      displaylogo: false,
+      displayModeBar: false,
+    });
+  }, [plotly, rows, enough]);
+
+  useEffect(() => {
+    const el = ref.current;
+    return () => {
+      if (plotly && el) plotly.purge(el);
+    };
+  }, [plotly]);
+
+  if (!enough) return null; // peers 없거나 스크리너 매칭 부족 → 줄글만(섹션 본문)
+
+  return (
+    <div className="panel p-4 mt-2.5">
+      <div className="flex items-center gap-2 mb-2 flex-wrap">
+        <Users className="w-3.5 h-3.5 text-ink-3" strokeWidth={1.6} />
+        <span className="text-[12.5px] font-semibold text-ink-2">동료 비교 — G·E</span>
+        <span className="mono text-[10px] text-ink-4 ml-1">GREAT BIOTECH SCREENER</span>
+      </div>
+      <div ref={ref} style={{ height: 230 }} />
+    </div>
+  );
+}
+
+function NewsSection({ news }) {
+  const items = [...news].sort((a, b) =>
+    String(b.date || '').localeCompare(String(a.date || ''))
+  );
+  return (
+    <section id="rsec-news" className="research-anchor">
+      <div className="section-h">
+        <h2>뉴스</h2>
+        <span className="meta">{items.length}</span>
+      </div>
+      <div className="space-y-2.5">
+        {items.map((n, i) => (
+          <div key={i} className="panel p-3.5">
+            <div className="flex items-center gap-2 mb-1 flex-wrap">
+              <span className="mono text-[11px] text-ink-4">{n.date || '—'}</span>
+              {n.source && (
+                <span className="chip" style={{ height: 18, fontSize: 9.5 }}>
+                  {n.source}
+                </span>
+              )}
+            </div>
+            <div className="text-[13.5px] font-semibold text-ink leading-snug">
+              {n.url ? (
+                <a
+                  href={n.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-accent-blue inline-flex items-start gap-1"
+                >
+                  {n.title}
+                  <ExternalLink
+                    className="w-3 h-3 mt-1 flex-shrink-0 text-ink-4"
+                    strokeWidth={1.8}
+                  />
+                </a>
+              ) : (
+                n.title
+              )}
+            </div>
+            {n.summary && (
+              <div className="text-[12.5px] text-ink-2 mt-1 leading-snug">{n.summary}</div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function ResearchSources({ sources }) {
+  if (!sources?.length) return null;
+  return (
+    <div className="text-[11px] text-ink-4 leading-relaxed pt-3 border-t border-line">
+      <span className="uppercase tracking-wider mr-2">Research Sources</span>
+      {sources.map((url, i) => (
+        <a
+          key={i}
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+          className="mr-3 underline decoration-ink-4/40 hover:text-accent-blue hover:decoration-accent-blue break-all"
+        >
+          {url}
+        </a>
+      ))}
+    </div>
   );
 }
