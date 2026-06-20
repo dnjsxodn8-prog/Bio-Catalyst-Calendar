@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import FeedList from './FeedList';
+import { feedForTicker } from '../utils/feed';
 import {
   Building2,
   DollarSign,
@@ -129,6 +131,8 @@ export default function CompanyDetail({ item, data, watchlist, onClose }) {
 
         <ScreenerScore ticker={company.ticker} />
 
+        <CompanyFeed data={data} ticker={ticker} />
+
         {research ? (
           <ResearchLayout
             company={company}
@@ -150,6 +154,21 @@ export default function CompanyDetail({ item, data, watchlist, onClose }) {
           </>
         )}
       </div>
+    </div>
+  );
+}
+
+// 기업별 결과·뉴스 피드 (catalyst outcome + news.md) — spec 016 §4.3. 항목 없으면 미표시.
+function CompanyFeed({ data, ticker }) {
+  const items = useMemo(() => feedForTicker(data, ticker), [data, ticker]);
+  if (items.length === 0) return null;
+  return (
+    <div className="px-7 pt-1 pb-5">
+      <div className="flex items-center gap-2 mb-2">
+        <h3 className="text-[13px] font-semibold text-ink tracking-tight">결과 · 뉴스</h3>
+        <span className="mono text-[10px] text-ink-4 tracking-[0.1em] uppercase">{items.length}</span>
+      </div>
+      <FeedList items={items} showTicker={false} emptyText="기록된 결과·뉴스가 없습니다." />
     </div>
   );
 }

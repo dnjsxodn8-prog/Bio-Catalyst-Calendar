@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, X, ScatterChart, ArrowRight } from 'lucide-react';
 import screener from '../screener.generated.json';
+import FeedList from '../components/FeedList';
 import {
   dDelta,
   fmtD,
@@ -56,7 +57,7 @@ export default function Dashboard({ data, query, onPick }) {
         />
       )}
       <HeroWeek dated={filtered} onPick={onPick} />
-      <RecentResults dated={filtered} onPick={onPick} />
+      <RecentResults feed={data.feed} onPick={onPick} />
     </div>
   );
 }
@@ -383,51 +384,20 @@ function HeroWeek({ dated, onPick }) {
   );
 }
 
-function RecentResults({ dated, onPick }) {
-  const recent = useMemo(
-    () =>
-      dated
-        .filter((c) => c._d < 0 && c._d >= -30)
-        .sort((a, b) => b._d - a._d),
-    [dated]
-  );
+function RecentResults({ feed, onPick }) {
+  const recent = useMemo(() => (Array.isArray(feed) ? feed.slice(0, 12) : []), [feed]);
 
   return (
     <section>
       <div className="section-h">
-        <h2>최근 결과 · 30일</h2>
-        <span className="meta">RECENT READOUTS · {recent.length}</span>
+        <h2>최근 결과 · 뉴스</h2>
+        <span className="meta">RECENT RESULTS &amp; NEWS · {recent.length}</span>
       </div>
-      <div className="panel overflow-hidden">
-        {recent.length === 0 ? (
-          <div className="p-6 text-center text-ink-3 text-sm">지난 30일 내 결과가 없습니다.</div>
-        ) : (
-          recent.map((c, i) => (
-            <div
-              key={`${c.ticker}-${c.date}-${i}`}
-              className="ev-row"
-              onClick={() => onPick && onPick(c)}
-            >
-              <span className="d-counter past">{fmtD(c._d)}</span>
-              <span className="ev-date">
-                {fmtDate(c.date)} · {c.date.slice(0, 4)}
-              </span>
-              <span className="ev-ticker">{c.ticker}</span>
-              <span className="ev-title">
-                {c.drug && <b>{c.drug}</b>}
-                {c.drug && ' · '}
-                <span className="text-ink-3">{c.event}</span>
-              </span>
-              {c.phase ? (
-                <span className={`chip ${phaseClass(c.phase)}`}>{c.phase}</span>
-              ) : (
-                <span />
-              )}
-              <span className={`chip ${typeClass(c.type)}`}>{c.type}</span>
-            </div>
-          ))
-        )}
-      </div>
+      <FeedList
+        items={recent}
+        onPickTicker={onPick}
+        emptyText="아직 기록된 결과·뉴스가 없습니다."
+      />
     </section>
   );
 }
