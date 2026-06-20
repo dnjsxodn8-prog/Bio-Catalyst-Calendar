@@ -210,9 +210,10 @@ events:
       - https://www.globenewswire.com/news-release/2026/04/30/3285345/33090/en/axsome-therapeutics-announces-fda-approval-of-auvelity-dextromethorphan-hbr-and-bupropion-hcl-for-the-treatment-of-agitation-associated-with-dementia-due-to-alzheimer-s-disease.html
     outcome: approved
     outcome_date: 2026-04-30
-    result: "FDA 승인 — 알츠하이머 치매 관련 초조(agitation) 적응증 (Auvelity, dextromethorphan/bupropion)."
+    result: "FDA 승인 — 알츠하이머 치매 초조 적응증(Auvelity). 3상 ACCORD-2(재발예방, n=167): 재발까지 HR 0.276(p=0.001), 재발 8.4% vs 위약 28.6%. 단 ADVANCE-2(n=408)는 CMAI -13.8 vs -12.6로 1차 미달 — 혼조 프로그램(ADVANCE-1·ACCORD-1·ACCORD-2 충족)."
     outcome_sources:
       - https://www.globenewswire.com/news-release/2026/04/30/3285345/33090/en/axsome-therapeutics-announces-fda-approval-of-auvelity-dextromethorphan-hbr-and-bupropion-hcl-for-the-treatment-of-agitation-associated-with-dementia-due-to-alzheimer-s-disease.html
+      - https://www.globenewswire.com/news-release/2024/12/30/3002588/33090/en/Axsome-Therapeutics-Announces-Successful-Completion-and-Results-of-Phase-3-Clinical-Program-of-AXS-05-in-Alzheimer-s-Disease-Agitation.html
   - date: 2026-05-04
     ticker: ABVX
     event: "Obefazimod ABTECT Phase 3 UC DDW 2026 oral 발표 (Positive — HEMI 50mg arm 23~24%, p<0.0001 ABTECT-1·2 모두; 9 abstracts)"
@@ -503,9 +504,10 @@ events:
       - https://investors.denalitherapeutics.com/news-releases/news-release-details/denali-therapeutics-announces-us-fda-approval-avlayahtm
     outcome: approved
     outcome_date: 2026-03-25
-    result: "FDA 승인(PDUFA 조기) — Hunter 증후군(MPS II) 뇌투과(BBB) 효소대체 치료제 Tividenofusp alfa."
+    result: "FDA 가속승인 — Hunter 증후군(MPS II) 뇌투과 ERT(Tividenofusp alfa). Ph1/2(n=47): CSF heparan sulfate 24주 -91%(93% 정상화), 뇨 HS -88%; 적응행동·인지·청력 개선. Boxed Warning 아나필락시스. 확증시험 COMPASS 진행."
     outcome_sources:
       - https://investors.denalitherapeutics.com/news-releases/news-release-details/denali-therapeutics-announces-us-fda-approval-avlayahtm
+      - https://www.nejm.org/doi/full/10.1056/NEJMoa2508681
   - date: 2026-09-18
     ticker: NUVL
     event: Zidesamtinib ROS1 NSCLC PDUFA (NDA 2025-11 FDA accepted, PDUFA 2026-09-18)
@@ -714,9 +716,10 @@ events:
       - https://www.globenewswire.com/news-release/2026/05/01/3286140/0/en/Arvinas-Announces-FDA-Approval-of-VEPPANU-vepdegestrant-for-the-Treatment-of-ESR1m-ER-HER2-Advanced-Breast-Cancer.html
     outcome: approved
     outcome_date: 2026-05-01
-    result: "FDA 승인(PDUFA 6/5보다 35일 조기) — 세계 첫 PROTAC 신약. ESR1 변이 ER+/HER2- 진행성 유방암 vepdegestrant."
+    result: "FDA 승인(ESR1m 한정, 35일 조기) — 세계 첫 PROTAC 신약. VERITAC-2 3상(n=624): ESR1 변이군(n=270) mPFS 5.0 vs fulvestrant 2.1개월(HR 0.58, p<0.001). 전체군 3.8 vs 3.6(HR 0.83, p=0.07 비유의) → ESR1m만 승인."
     outcome_sources:
       - https://www.globenewswire.com/news-release/2026/05/01/3286140/0/en/Arvinas-Announces-FDA-Approval-of-VEPPANU-vepdegestrant-for-the-Treatment-of-ESR1m-ER-HER2-Advanced-Breast-Cancer.html
+      - https://www.nejm.org/doi/abs/10.1056/NEJMoa2505725
   - date: 2026-05-13
     ticker: DYN
     event: FORCE™ 플랫폼 MAPT CNS NHP 데이터 ASGCT 2026 oral (preclinical)
@@ -1128,9 +1131,10 @@ events:
       - https://investor.agios.com/news-releases/news-release-details/agios-present-new-data-eha-2026-reinforcing-significant
     outcome: met
     outcome_date: 2026-06-13
-    result: "RISE UP 3상 겸상적혈구병(SCD) — 혈색소 반응 1차 EP 충족 (EHA Plenary S102). sNDA 동시 제출."
+    result: "RISE UP 3상 SCD(n=207, 100mg BID) — 1차 혈색소 반응(≥1.0 g/dL↑) 40.6% vs 위약 2.9%(p<0.0001) 충족. 단 통증발작(VOC) 2.62 vs 3.05(p=0.12)는 비유의. sNDA 가속승인 신청(EHA Plenary S102)."
     outcome_sources:
       - https://investor.agios.com/news-releases/news-release-details/agios-present-new-data-eha-2026-reinforcing-significant
+      - https://www.globenewswire.com/news-release/2026/06/13/3311392/31990/en/Agios-Showcases-RISE-UP-Phase-3-Results-at-EHA-2026-Plenary-Session-Reinforcing-Strong-Anti-Hemolytic-Profile-of-Mitapivat-in-Sickle-Cell-Disease.html
   - date: 2026-06-13
     ticker: COGT
     event: "Bezuclastinib APEX Phase 2 AdvSM EHA 2026 oral (S438) — ORR 57% mIWG, PPR 80%, 89%에서 ≥50% 비만세포 부담 감소"
