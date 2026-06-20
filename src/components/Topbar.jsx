@@ -7,6 +7,7 @@ const TITLES = {
   companies: ['종목 라이브러리', 'Companies'],
   catalysts: ['카탈리스트 캘린더', 'Catalysts'],
   conferences: ['학회 트래커', 'Conferences'],
+  news: ['뉴스 피드', 'News'],
   screener: ['Great Biotech Screener', 'Screener'],
 };
 

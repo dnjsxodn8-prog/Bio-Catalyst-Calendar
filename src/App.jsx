@@ -11,6 +11,7 @@ import Dashboard from './pages/Dashboard';
 import Companies from './pages/Companies';
 import Catalysts from './pages/Catalysts';
 import Conferences from './pages/Conferences';
+import News from './pages/News';
 import { useRecent, useWatchlist } from './utils/userPrefs';
 
 // Plotly 번들 비대화 방지: 스크리너 라우트 진입 시에만 chunk 로드 (spec 010 §4.2)
@@ -22,6 +23,7 @@ const TAB_PATH = {
   companies: '/app/companies',
   catalysts: '/app/catalysts',
   conferences: '/app/conferences',
+  news: '/app/news',
   screener: '/app/screener',
 };
 
@@ -29,6 +31,7 @@ function pathToTab(pathname) {
   if (pathname.startsWith('/app/companies')) return 'companies';
   if (pathname.startsWith('/app/catalysts')) return 'catalysts';
   if (pathname.startsWith('/app/conferences')) return 'conferences';
+  if (pathname.startsWith('/app/news')) return 'news';
   if (pathname.startsWith('/app/screener')) return 'screener';
   return 'dashboard';
 }
@@ -61,6 +64,7 @@ function App() {
     companies: data.companies.length,
     catalysts: data.catalysts.length,
     conferences: data.conferences.length,
+    news: Array.isArray(data.feed) ? data.feed.length : 0,
   };
 
   const onTab = (id) => navigate(TAB_PATH[id] ?? '/app');
@@ -122,6 +126,7 @@ function App() {
                 <Route path="companies" element={<Companies data={data} query={query} onPick={openCompany} />} />
                 <Route path="catalysts" element={<Catalysts data={data} query={query} onPick={openCompany} />} />
                 <Route path="conferences" element={<Conferences data={data} query={query} onPick={openCompany} />} />
+                <Route path="news" element={<News data={data} query={query} onPick={openCompany} />} />
                 <Route path="screener" element={<Screener query={query} onOpenCompany={openCompany} />} />
                 <Route path="*" element={null} />
               </Routes>

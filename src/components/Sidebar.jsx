@@ -4,6 +4,7 @@ import {
   Building2,
   Activity,
   Mic,
+  Newspaper,
   ScatterChart,
   Clock,
   Star,
@@ -19,6 +20,7 @@ const NAV = [
   { id: 'companies', label: '종목', sub: 'Companies', icon: Building2 },
   { id: 'catalysts', label: '카탈리스트', sub: 'Catalysts', icon: Activity },
   { id: 'conferences', label: '학회', sub: 'Conferences', icon: Mic },
+  { id: 'news', label: '뉴스', sub: 'News', icon: Newspaper },
   { id: 'screener', label: '스크리너', sub: 'Screener', icon: ScatterChart },
 ];
 
