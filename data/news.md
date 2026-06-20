@@ -16,11 +16,11 @@ news:
     summary: "Denali는 Avlayah 승인으로 받은 PRV를 $195M에 매각. 자금은 LSD·알츠하이머 등 잔여 파이프라인 개발에 투입 예정."
     sources:
       - https://www.biopharmadive.com/news/pfizer-cfo-denali-spot-duchenne-novocure-utebzi/823169/
-  - date: 2026-06-16
+  - date: 2026-06-15
     ticker: NMRA
     type: Pipeline
     headline: "Navacaprant MDD Phase 3 2건 실패"
-    summary: "주요우울장애 Phase 3 두 건에서 목표를 놓치며 Neumora는 navacaprant 개발 중단 계획을 발표."
+    summary: "KOASTAL-2·KOASTAL-3 주요우울장애 Phase 3 모두 1차 EP 미달(p=0.813·p=0.480), Neumora는 navacaprant 개발 중단 + 약 35% 감원 발표. (KOASTAL-1은 2025-01 별건 실패)"
     sources:
       - https://www.biopharmadive.com/news/neumora-depression-engene-jnj-sensei-faeth-celltaxis-cellares/822929/
   - date: 2026-04-20
