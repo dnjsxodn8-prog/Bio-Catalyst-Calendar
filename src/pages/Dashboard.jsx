@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ChevronRight, X, ScatterChart, ArrowRight } from 'lucide-react';
 import screener from '../screener.generated.json';
 import FeedList from '../components/FeedList';
@@ -57,7 +57,7 @@ export default function Dashboard({ data, query, onPick }) {
         />
       )}
       <HeroWeek dated={filtered} onPick={onPick} />
-      <RecentResults feed={data.feed} onPick={onPick} />
+      <RecentResults feed={data.feed} />
     </div>
   );
 }
@@ -384,18 +384,22 @@ function HeroWeek({ dated, onPick }) {
   );
 }
 
-function RecentResults({ feed, onPick }) {
-  const recent = useMemo(() => (Array.isArray(feed) ? feed.slice(0, 12) : []), [feed]);
+function RecentResults({ feed }) {
+  const navigate = useNavigate();
+  const total = Array.isArray(feed) ? feed.length : 0;
+  const recent = useMemo(() => (Array.isArray(feed) ? feed.slice(0, 5) : []), [feed]);
 
   return (
     <section>
       <div className="section-h">
         <h2>최근 결과 · 뉴스</h2>
-        <span className="meta">RECENT RESULTS &amp; NEWS · {recent.length}</span>
+        <Link to="/app/news" className="meta hover:text-ink transition-colors">
+          전체 {total}건 →
+        </Link>
       </div>
       <FeedList
         items={recent}
-        onPickTicker={onPick}
+        onPickTicker={() => navigate('/app/news')}
         emptyText="아직 기록된 결과·뉴스가 없습니다."
       />
     </section>
