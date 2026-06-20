@@ -242,3 +242,43 @@ HANDOFF.md의 Phase 표가 정본.
 Phase 3 (검증 시스템) 진행. specs/working-notes.md 참고.
 먼저 specs/003-verification.md 초안 작성하고 사용자 승인 받은 뒤 구현.
 ```
+
+---
+
+## 2026-06-20 자동 스윕 — 사용자 검토 필요
+
+**실행 시간:** 2026-06-20 일요일 자동 루틴
+**적용 항목:** 9건 (자동승인 기준 통과)
+**스킵 항목:** 3건 (아래 상세)
+
+### 자동 적용 완료
+
+| Tier | Ticker | 항목 | 결과 |
+|---|---|---|---|
+| A | SYRE | SPY002 SKYLINE Ph2 UC 유도(12주) 1차 충족 | outcome: met (8-K) |
+| A | MBX | Canvuparatide AVAIL Ph2 1년 OLE 전체 결과 | outcome: met (BioSpace IR) |
+| B | KYTX | Miv-cel EULAR 2026 ACPA+ 불응성 RA Ph1 | 신규 추가 (GlobeNewswire) |
+| B | RYTM | Setmelanotide PWS ENDO 2026 Ph2 인터림 | 신규 추가 (GlobeNewswire) |
+| B | JAZZ | Zepzelca LAGOON Ph3 2L SCLC OS 미충족 | 신규 추가 (PRNewswire) |
+| B/C | GILD | Yeztugo 경구 lenacapavir HIV PrEP PDUFA 2027-02-02 | 신규 추가 (gilead.com IR) |
+| A | ELVN | ELVN-001 ENABLE Ph1 CML EHA 2026 — outcome 갱신 | outcome: met |
+| A | AGIO | Mitapivat RISE UP Ph3 SCD EHA 2026 Plenary — outcome 갱신 | outcome: met |
+| A | COGT | Bezuclastinib APEX Ph2 AdvSM EHA 2026 — outcome 갱신 | outcome: met |
+
+### 스킵 항목 (사용자 검토)
+
+**1. KURA — KOMET-007 EHA 2026 결과**
+- 내용: Tipifarnib R/R EBV+ PTLD Phase 2 — ORR ~60% 발표 (EHA 2026)
+- 스킵 이유: 출처가 Quiver Quantitative(2차 매체)만 확인됨. 회사 IR(kura-oncology.com) 또는 GlobeNewswire/BusinessWire 공식 보도자료 미확인.
+- 권장 조치: KURA IR 페이지에서 EHA 2026 보도자료 직접 확인 후 추가 여부 결정.
+
+**2. MRK — WELIREG + KEYTRUDA RCC 가속승인 전환 FDA 승인**
+- 내용: Belzutifan + Pembrolizumab RCC 1L 가속승인→정규승인 (또는 새 조합 승인)
+- 스킵 이유: 제공된 URL(merck.com)이 RCC가 아닌 두경부편평세포암(HNSCC) + PADCEV 병용 관련 페이지였음. URL-내용 불일치 → 추측 추가 금지 원칙 적용.
+- 권장 조치: merck.com IR에서 RCC 관련 2026년 6월 FDA 승인 보도자료 URL 확인 후 재시도.
+
+**3. AAIC 2026 날짜/장소 불일치 가능성**
+- 현재 conferences.md: AAIC 2026 = 2026-07-26 to 2026-07-30, Toronto, Canada
+- 리서치 중 찾은 정보: 일부 소스에서 AAIC 2026 = 2026-07-12 to 2026-07-15, London, UK 언급
+- 스킵 이유: 공식 AAIC 사이트 URL 없이 날짜/장소 변경 불가 (conferences.md 변경은 데이터 신뢰도에 영향).
+- 권장 조치: alz.org/aaic 공식 사이트에서 날짜·장소 확인 후 conferences.md 수정 여부 결정.

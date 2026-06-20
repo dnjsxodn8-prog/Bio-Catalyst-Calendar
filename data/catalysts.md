@@ -442,6 +442,11 @@ events:
     phase: Phase 2
     sources:
       - https://ir.spyre.com/news-releases/news-release-details/spyre-announces-potential-best-class-spy001-part-induction
+    outcome: met
+    outcome_date: 2026-06-15
+    result: "SKYLINE Phase 2 SPY002 UC 유도 Part A (12주) — 1차 RHI 점수 -10.7점(p<0.0001) 충족. 강력한 임상관해·내시경 개선."
+    outcome_sources:
+      - https://www.stocktitan.net/sec-filings/SYRE/8-k-spyre-therapeutics-inc-reports-material-event-961d94cced5d.html
   - date: 2026-06-30
     ticker: VRDN
     event: VRDN-003 (elegrobart) REVEAL-2 Phase 3 chronic TED readout (Q2 2026, REVEAL-1 active TED 2026-03 positive 완료)
@@ -452,6 +457,11 @@ events:
     phase: Phase 3
     sources:
       - https://investors.viridiantherapeutics.com/news/news-details/2026/Viridian-Therapeutics-Prepares-for-Transformational-2026/default.aspx
+    outcome: met
+    outcome_date: 2026-05-05
+    result: "REVEAL-2 3상 만성 TED(elegrobart VRDN-003) — 1차 endpoint 충족, 주요 2차 endpoint 모두 충족. Q4W·Q8W 양 용법 vs 위약 모두 양성. BLA Q1 2027 제출 예정 (REVEAL-1 active TED와 합산)."
+    outcome_sources:
+      - https://investors.viridiantherapeutics.com/news/news-details/2026/Viridian-Therapeutics-Announces-Positive-Topline-Results-from-Elegrobart-Phase-3-REVEAL2-Clinical-Trial-in-Chronic-Thyroid-Eye-Disease/default.aspx
   - date: 2026-06-30
     ticker: WVE
     event: WVE-007 Phase 1 비만 (400mg 코호트 6개월 + 600mg 코호트 3개월 데이터)
@@ -472,6 +482,11 @@ events:
     phase: Phase 2
     sources:
       - https://www.globenewswire.com/news-release/2026/03/09/3251975/0/en/CORRECTING-REPLACING-MBX-Biosciences-Announces-Successful-End-of-Phase-2-FDA-Meeting-and-Provides-Phase-3-Development-Plan-for-Once-Weekly-Canvuparatide-for-Hypoparathyroidism.html
+    outcome: met
+    outcome_date: 2026-06-12
+    result: "AVAIL Phase 2 1년 OLE 전체 데이터 — 12주 복합 endpoint 달성 63% vs 위약 31%. Phase 3 Q3 2026 개시 예정."
+    outcome_sources:
+      - https://www.biospace.com/press-releases/mbx-biosciences-announces-one-year-data-demonstrating-sustained-benefit-of-once-weekly-canvuparatide-as-a-potential-pth-replacement-therapy-in-chronic-hypoparathyroidism
   - date: 2026-06-30
     ticker: EVMN
     event: EVO756 CSU Phase 2 data (Phase 2b topline 상반기 예정)
@@ -797,6 +812,12 @@ events:
     moa: "miR-124 발현 증강 → M2 대식세포 분극화 + Th17/Th1 억제 → 장점막 염증 완화 (first-in-class 경구)"
     sources:
       - https://ir.abivax.com/news-releases/news-release-details/abivax-provides-2026-corporate-outlook/
+    outcome: met
+    outcome_date: 2026-06-01
+    result: "ABTECT 유지 3상(44주) — 임상관해 50mg 40.3% vs 위약 10.4%(위약보정 ~40pp), 25mg도 39.3% 위약보정. 주요 2차 endpoint(내시경 개선·관해·CS-free 관해·지속관해) 모두 충족. 위약 관해율 10.4%는 UC 유지 Phase 3 중 최저. NDA late Q4 2026 제출 예정."
+    outcome_sources:
+      - https://ir.abivax.com/news-releases/news-release-details/abivax-announces-landmark-phase-3-abtect-maintenance-trial/
+      - https://www.globenewswire.com/news-release/2026/06/01/3304711/0/en/abivax-announces-landmark-phase-3-abtect-maintenance-trial-results-evaluating-obefazimod-in-moderately-to-severely-active-ulcerative-colitis.html
   - date: 2026-06-30
     ticker: VRDN
     event: Veligrotug (VRDN-001) TED BLA PDUFA (active + chronic, IV IGF-1R 항체)
@@ -1391,6 +1412,11 @@ events:
     sources:
       - https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-june-18-2026-meeting-announcement
       - https://www.biospace.com/fda/modernas-once-rebuffed-mrna-flu-shot-to-face-scrutiny-from-fda-adcomm
+    outcome: met
+    outcome_date: 2026-06-18
+    result: "VRBPAC 9-0 만장일치 찬성 (50-64세 9-0, 65+ 9-0). 첫 mRNA 독감백신 자문위 권고. 상대 VE 26.6%(표준 4가 IIV 대비), 의료이용 outcome 47.9%. FDA PDUFA 2026-08-05 결정 예정."
+    outcome_sources:
+      - https://www.biospace.com/press-releases/moderna-announces-fda-advisory-committee-votes-unanimously-in-favor-of-the-benefit-risk-profile-of-mrna-1010-an-investigational-seasonal-influenza-vaccine
   - date: 2026-07-26
     ticker: MNKD
     event: "FUROSCIX ReadyFlow 자가주사기 sNDA PDUFA — 만성 HF/CKD 부종 자가 SC 투여"
@@ -1926,4 +1952,73 @@ events:
     sources:
       - https://immunitybio.com/immunitybio-announces-fda-acceptance-of-supplemental-bla-for-anktiva-plus-bcg-in-bcg-unresponsive-non-muscle-invasive-bladder-cancer-with-papillary-disease-pdufa-date-set-for-january-6-2027/
       - https://www.businesswire.com/news/home/20260519760562/en/ImmunityBio-Announces-FDA-Acceptance-of-Supplemental-BLA-for-ANKTIVA-Plus-BCG-in-BCG-Unresponsive-Non-Muscle-Invasive-Bladder-Cancer-with-Papillary-Disease-PDUFA-Date-Set-for-January-6-2027
+  - date: 2026-06-03
+    ticker: KYTX
+    event: "Miv-cel EULAR 2026 ACPA+ 불응성 RA Phase 1 업데이트 (ACR70 66.6% @36주, n=6)"
+    type: Conference
+    company: Kyverna Therapeutics
+    drug: KYV-101 (miv-cel)
+    indication: Refractory ACPA-positive Rheumatoid Arthritis
+    phase: Phase 1
+    conferenceId: eular
+    trialDesign: "오픈라벨 Phase 1 바스켓. 2+ bDMARD·JAKi 실패 ACPA+ RA 환자 n=6. CD19 CAR-T 단회 주입 후 36주 ACR70 66.6%, 고등급 CRS·ICANS 없음."
+    targetDisease: "다약제 불응성 ACPA 양성 류마티스 관절염. B세포 매개 자가면역에서 CD19 CAR-T 면역리셋"
+    moa: "완전인간 자가 4-1BB CD19 CAR-T. B세포 고갈 → 자가면역 리셋"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/06/03/3305974/0/en/kyverna-therapeutics-highlights-updated-miv-cel-data-at-eular-demonstrating-substantial-reduction-in-disease-activity-in-acpa-positive-treatment-refractory-rheumatoid-arthritis.html
+    outcome: met
+    outcome_date: 2026-06-03
+    result: "EULAR 2026 Phase 1 ACPA+ 불응성 RA(n=6) — ACR70 66.6% @36주, 고등급 CRS·ICANS 없음."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/03/3305974/0/en/kyverna-therapeutics-highlights-updated-miv-cel-data-at-eular-demonstrating-substantial-reduction-in-disease-activity-in-acpa-positive-treatment-refractory-rheumatoid-arthritis.html
+  - date: 2026-06-13
+    ticker: RYTM
+    event: "Setmelanotide PWS Phase 2 ENDO 2026 인터림 (Positive — 17명 BMI 감소·제지방 유지·과식증 개선)"
+    type: Conference
+    company: Rhythm Pharmaceuticals
+    drug: IMCIVREE (setmelanotide)
+    indication: Prader-Willi Syndrome
+    phase: Phase 2
+    conferenceId: endo
+    trialDesign: "Phase 2 오픈라벨 인터림. IMCIVREE SC 대상 PWS 환자 17명 — 6개월 치료 BMI 유의한 감소, 제지방(lean mass) 유지, 과식증(hyperphagia) 개선."
+    targetDisease: "프래더-윌리 증후군(PWS). SNRPN 유전자 부모각인 결함으로 과식증·비만·발달지연 초희귀 유전 증후군."
+    moa: "MC4R 경로 활성화 → 시상하부 포만감·에너지 항상성 조절"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/06/13/3311380/0/en/rhythm-pharmaceuticals-presents-positive-interim-six-month-data-from-phase-2-trial-of-setmelanotide-in-patients-with-prader-willi-syndrome-pws-at-endo-2026.html
+    outcome: met
+    outcome_date: 2026-06-13
+    result: "PWS Phase 2 인터림(ENDO 2026) — 17명 6개월 BMI 유의 감소, 제지방 유지, 과식증 개선."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/13/3311380/0/en/rhythm-pharmaceuticals-presents-positive-interim-six-month-data-from-phase-2-trial-of-setmelanotide-in-patients-with-prader-willi-syndrome-pws-at-endo-2026.html
+  - date: 2026-06-13
+    ticker: JAZZ
+    event: "Zepzelca (lurbinectedin) LAGOON Phase 3 2L SCLC — 1차 OS endpoint 미충족 (Negative)"
+    type: Clinical Readout
+    company: Jazz Pharmaceuticals
+    drug: Zepzelca (lurbinectedin)
+    indication: 2nd-Line Small Cell Lung Cancer
+    phase: Phase 3
+    trialDesign: "LAGOON Phase 3 무작위배정 — lurbinectedin vs 표준 화학요법 2L SCLC. Zepzelca 가속승인(2020) 확증 시험."
+    targetDisease: "소세포폐암(SCLC) 2L. 1L 백금기반 치료 진행 후 표준 옵션 부재."
+    moa: "RNA 중합효소 II 억제제. 전사 중독 종양세포 선택적 사멸"
+    sources:
+      - https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-provides-update-on-zepzelca-lurbinectedin-phase-3-lagoon-trial-in-second-line-small-cell-lung-cancer-302798651.html
+    outcome: failed
+    outcome_date: 2026-06-13
+    result: "LAGOON 3상 2L SCLC — 1차 OS endpoint 미충족. 가속승인 기반 확증시험 실패. 가속승인 철회 가능성."
+    outcome_sources:
+      - https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-provides-update-on-zepzelca-lurbinectedin-phase-3-lagoon-trial-in-second-line-small-cell-lung-cancer-302798651.html
+  - date: 2027-02-02
+    ticker: GILD
+    event: "Yeztugo (경구 lenacapavir) HIV PrEP sNDA PDUFA — 주 1회 경구제, 첫 장기작용 경구 HIV 예방제 (PURPOSE-1/2 피벗)"
+    type: PDUFA
+    company: Gilead Sciences
+    drug: Yeztugo (oral lenacapavir 6mg QW)
+    indication: HIV Pre-Exposure Prophylaxis (PrEP) in adults
+    phase: sNDA
+    trialDesign: "PURPOSE-1 (여성 아프리카 대상) + PURPOSE-2 (MSM/transgender women 전 세계). 주 1회 경구 lenacapavir 6mg. sNDA FDA 수락 2026-06-15, PDUFA 2027-02-02"
+    targetDisease: "HIV 고위험군 예방(PrEP). 일일 복약 TDF/FTC 순응도 한계 → 주 1회 경구제로 HIV 예방 접근성 향상"
+    moa: "HIV 캡시드 억제제. 주 1회 6mg 경구 투여로 HIV 복제 다단계 차단"
+    sources:
+      - https://www.gilead.com/news/news-details/2026/u-s--fda-accepts-gileads-application-for-investigational-once-weekly-oral-yeztugo-potentially-the-first-long-acting-pill-for-hiv-prevention
 ```
