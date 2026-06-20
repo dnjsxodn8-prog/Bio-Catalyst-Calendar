@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { createPortal } from 'react-dom';
 import {
   dDelta,
   fmtD,
@@ -421,7 +422,7 @@ function ResultDetailModal({ event: e, onClose, onOpenCompany }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [onClose]);
 
-  return (
+  return createPortal(
     <div className="modal-backdrop" onClick={onClose}>
       <div
         className="modal"
@@ -506,6 +507,7 @@ function ResultDetailModal({ event: e, onClose, onOpenCompany }) {
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
