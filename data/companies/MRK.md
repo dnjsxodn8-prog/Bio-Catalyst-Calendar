@@ -7,16 +7,18 @@ areas:
   - Oncology
   - Infectious Disease
 nextCatalyst: 2026-06-30
-verified: 2026-05-07
+verified: 2026-06-21
 sources:
   - https://www.merck.com/news/merck-highlights-progress-advancing-broad-diverse-pipeline/
   - https://www.merck.com/research/pipeline/
+  - https://www.merck.com/news/fda-approves-keytruda-pembrolizumab-and-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-with-welireg-belzutifan-for-adjuvant-treatment-of-certain-patients/
 ---
 
 # Merck (MRK)
 
 ## 카탈리스트
 Keytruda SC(피하주사) FDA 승인; mRNA-4157/V940(개인화 암 백신, with Moderna) Phase 3 NSCLC 결과 — 2026년 상반기~중반
+**2026-06-12: Keytruda + Welireg(belzutifan) 병용을 ccRCC(투명세포 신세포암) 수술후 보조요법으로 FDA 승인 (LITESPARK-022 기반) — 최초 PD-1 + HIF-2α 조합 보조요법.**
 
 ## 회사 개요
 글로벌 빅파마. Keytruda(pembrolizumab, 세계 최대 매출 의약품)로 압도적 종양학 지배력. Gardasil(HPV 백신), Januvia(당뇨), Bridion(마취 역전제) 등 다각화. Keytruda SC 제형 전환, Moderna와 개인화 mRNA 암 백신(mRNA-4157/V940) 공동 개발이 2026-2027년 핵심 카탈리스트. Keytruda 특허 만료(2028) 대비 후속 파이프라인(MK-1308A 등) 확충 중.
