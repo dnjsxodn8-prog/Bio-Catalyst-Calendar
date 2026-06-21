@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
+import { useSearchParams } from 'react-router-dom';
 import {
   dDelta,
   fmtD,
@@ -44,14 +45,42 @@ function OutcomeBadge({ outcome, size = 'sm' }) {
   );
 }
 
+// spec 017 §3 — Dashboard KPI/lane CTA 가 넘기는 URL 쿼리(type/mode/outcome/within) 초기값.
+const VALID_TYPES = new Set(TYPE_FILTERS.map(([v]) => v));
+function readInitialFilters(params) {
+  const t = params.get('type');
+  const within = Number(params.get('within'));
+  return {
+    mode: params.get('mode') === 'results' ? 'results' : 'upcoming',
+    type: t && VALID_TYPES.has(t) ? t : 'all',
+    outcome: params.get('outcome') || 'all',
+    within: within === 7 || within === 30 || within === 90 ? within : null,
+  };
+}
+
 export default function Catalysts({ data, query, onPick }) {
   const { catalysts } = data;
-  const [mode, setMode] = useState('upcoming'); // 'upcoming' | 'results'
+  const [searchParams] = useSearchParams();
+  const init = useMemo(() => readInitialFilters(searchParams), [searchParams]);
+  const [mode, setMode] = useState(init.mode); // 'upcoming' | 'results'
   const [view, setView] = useState('timeline');
-  const [filterType, setFilterType] = useState('all');
-  const [filterOutcome, setFilterOutcome] = useState('all');
+  const [filterType, setFilterType] = useState(init.type);
+  const [filterOutcome, setFilterOutcome] = useState(init.outcome);
+  const [withinDays, setWithinDays] = useState(init.within);
   const [showOldPast, setShowOldPast] = useState(false);
   const [detail, setDetail] = useState(null); // Results 행 클릭 시 결과 상세 모달
+
+  // URL 쿼리가 바뀌면(대시보드에서 다른 필터로 재진입) 필터 동기화.
+  // effect 대신 render 단계 비교(React 권장 패턴)로 cascading render 회피.
+  const paramKey = searchParams.toString();
+  const [appliedKey, setAppliedKey] = useState(paramKey);
+  if (appliedKey !== paramKey) {
+    setAppliedKey(paramKey);
+    setMode(init.mode);
+    setFilterType(init.type);
+    setFilterOutcome(init.outcome);
+    setWithinDays(init.within);
+  }
 
   const q = (query || '').trim().toLowerCase();
   const matchesQuery = (c) => {
@@ -70,6 +99,7 @@ export default function Catalysts({ data, query, onPick }) {
       .map((c) => ({ ...c, _d: dDelta(c.date) }))
       .filter((c) => c._d != null)
       .filter((c) => filterType === 'all' || c.type === filterType)
+      .filter((c) => withinDays == null || (c._d >= 0 && c._d <= withinDays))
       .filter(matchesQuery)
       .sort((a, b) => a._d - b._d);
 
@@ -79,7 +109,7 @@ export default function Catalysts({ data, query, onPick }) {
     const visible = all.filter((c) => c._d >= cutoff);
     return { upcoming: visible, hiddenOldCount: hiddenWhenCollapsed.length };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [catalysts, q, filterType, showOldPast]);
+  }, [catalysts, q, filterType, withinDays, showOldPast]);
 
   // Results 모드: 해소된 이벤트만, cutoff 없음, outcome_date 내림차순 (무제한 누적).
   const results = useMemo(() => {
@@ -151,6 +181,15 @@ export default function Catalysts({ data, query, onPick }) {
         </div>
 
         <div className="ml-auto flex items-center gap-2.5">
+          {mode === 'upcoming' && withinDays != null && (
+            <button
+              onClick={() => setWithinDays(null)}
+              className="h-[26px] px-2.5 rounded-md text-[11px] border bg-panel-2 text-ink border-line-2 flex items-center gap-1.5 hover:border-danger hover:text-danger transition-colors"
+              title="기간 필터 해제"
+            >
+              {withinDays}일 이내 ✕
+            </button>
+          )}
           <span className="mono text-[10.5px] text-ink-3 tracking-[0.1em] uppercase">
             {count} {mode === 'results' ? 'RESULTS' : 'EVENTS'}
           </span>

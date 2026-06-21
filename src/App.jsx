@@ -122,7 +122,7 @@ function App() {
             <Suspense fallback={<RouteLoading />}>
               {/* descendant Routes — 부모 /app/* 가 소비한 뒤 남은 경로에 매칭되므로 상대 경로 사용 */}
               <Routes location={backgroundLocation || location}>
-                <Route index element={<Dashboard data={data} query={query} onPick={openCompany} />} />
+                <Route index element={<Dashboard data={data} query={query} onPick={openCompany} watchlist={watchlist} searchIndex={searchIndex} />} />
                 <Route path="companies" element={<Companies data={data} query={query} onPick={openCompany} />} />
                 <Route path="catalysts" element={<Catalysts data={data} query={query} onPick={openCompany} />} />
                 <Route path="conferences" element={<Conferences data={data} query={query} onPick={openCompany} />} />

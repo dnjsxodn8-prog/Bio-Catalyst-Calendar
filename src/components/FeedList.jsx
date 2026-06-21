@@ -1,13 +1,14 @@
 // 공용 피드 리스트 — Dashboard 최근결과 위젯 + CompanyDetail 기업별 뉴스에서 재사용 (spec 016 §4.3·4.4).
 import { Activity, ExternalLink, Newspaper } from 'lucide-react';
 import { feedBadge, fmtFeedDate, feedHost } from '../utils/feed';
+import CompanyLink from './CompanyLink';
 
-export default function FeedList({ items, onPickTicker, showTicker = true, emptyText = '항목이 없습니다.' }) {
+export default function FeedList({ items, onPickTicker, showTicker = true, emptyText = '항목이 없습니다.', bare = false }) {
   if (!items || items.length === 0) {
     return <div className="p-6 text-center text-ink-3 text-sm">{emptyText}</div>;
   }
-  return (
-    <div className="panel overflow-hidden">
+  const rows = (
+    <>
       {items.map((item, i) => {
         const badge = feedBadge(item);
         const Icon = item.kind === 'catalyst' ? Activity : Newspaper;
@@ -30,7 +31,16 @@ export default function FeedList({ items, onPickTicker, showTicker = true, empty
                 <Icon className="w-2.5 h-2.5" strokeWidth={1.8} />
                 {badge.label}
               </span>
-              {showTicker && <span className="ev-ticker">{item.ticker}</span>}
+              {showTicker && (
+                <CompanyLink
+                  ticker={item.ticker}
+                  stop
+                  className="ev-ticker hover:border-line-2"
+                  title={`${item.ticker} 상세 (Ctrl+클릭: 새 탭)`}
+                >
+                  {item.ticker}
+                </CompanyLink>
+              )}
             </div>
             <div className="mt-1 text-[13px] font-semibold text-ink leading-snug">{item.headline}</div>
             {item.summary && (
@@ -56,6 +66,7 @@ export default function FeedList({ items, onPickTicker, showTicker = true, empty
           </div>
         );
       })}
-    </div>
+    </>
   );
+  return bare ? rows : <div className="panel overflow-hidden">{rows}</div>;
 }

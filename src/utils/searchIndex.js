@@ -104,5 +104,43 @@ export function buildSearchIndex(data, screener, opts = {}) {
     return scored.slice(0, limit).map((s) => s.e);
   }
 
-  return { entries, search };
+  // spec 017 §3.6 — 홈 unified grouped search.
+  // companies(기존 search) + catalysts + feed + screener signals 4그룹을 함께 반환.
+  const catHay = (data?.catalysts || []).map((c) => ({
+    item: c,
+    _h: norm([c.ticker, c.event, c.drug, c.indication, c.type, c.company].filter(Boolean).join(' ')),
+  }));
+  const feedHayList = (data?.feed || []).map((f) => ({
+    item: f,
+    _h: norm([f.ticker, f.headline, f.summary, f.type, f.outcome].filter(Boolean).join(' ')),
+  }));
+
+  function searchGrouped(q, limitPer = 6) {
+    const query = norm(q).trim();
+    const empty = { companies: [], catalysts: [], feed: [], signals: [], counts: {} };
+    if (!query) return empty;
+
+    const companies = search(query, limitPer);
+
+    const catAll = catHay.filter((c) => c._h.includes(query)).map((c) => c.item);
+    const feedAll = feedHayList.filter((f) => f._h.includes(query)).map((f) => f.item);
+    const sigAll = (screener?.points || []).filter(
+      (p) => norm(p.t).includes(query) || norm(p.c).includes(query)
+    );
+
+    return {
+      companies,
+      catalysts: catAll.slice(0, limitPer),
+      feed: feedAll.slice(0, limitPer),
+      signals: sigAll.slice(0, limitPer),
+      counts: {
+        companies: companies.length, // entries 자체가 회사 단위라 표시용
+        catalysts: catAll.length,
+        feed: feedAll.length,
+        signals: sigAll.length,
+      },
+    };
+  }
+
+  return { entries, search, searchGrouped };
 }

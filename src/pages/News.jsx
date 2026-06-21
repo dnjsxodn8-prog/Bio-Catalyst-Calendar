@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Activity, ExternalLink, Newspaper, Search } from 'lucide-react';
 import { outcomeMeta } from '../utils/outcome';
 
@@ -33,9 +34,21 @@ const KIND_FILTERS = [
 export default function News({ data, query, onPick }) {
   const rawFeed = data?.feed;
   const feed = useMemo(() => (Array.isArray(rawFeed) ? rawFeed : []), [rawFeed]);
-  const [kind, setKind] = useState('all');
+  const [searchParams] = useSearchParams();
+  // spec 017 — 대시보드 Results/News KPI CTA 가 넘기는 ?kind=catalyst|news 초기값.
+  const initKind = ['catalyst', 'news'].includes(searchParams.get('kind'))
+    ? searchParams.get('kind')
+    : 'all';
+  const [kind, setKind] = useState(initKind);
   const [type, setType] = useState('all');
   const [ticker, setTicker] = useState('');
+
+  // URL ?kind= 가 바뀌면 동기화 — render 단계 비교(effect 미사용).
+  const [appliedKind, setAppliedKind] = useState(initKind);
+  if (appliedKind !== initKind) {
+    setAppliedKind(initKind);
+    setKind(initKind);
+  }
 
   const typeOptions = useMemo(() => {
     const present = new Set(feed.map((item) => item.type).filter(Boolean));
