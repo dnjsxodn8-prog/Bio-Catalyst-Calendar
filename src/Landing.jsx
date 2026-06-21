@@ -163,9 +163,6 @@ function CTACard({ counts }) {
               무료로 시작하기 <ChevronRight className="w-3.5 h-3.5" strokeWidth={1.6} />
             </button>
           </SignInButton>
-          <Link to="/catalysts" className="btn">
-            7일 미리보기
-          </Link>
         </SignedOut>
         <SignedIn>
           <Link to="/app" className="btn btn-primary">

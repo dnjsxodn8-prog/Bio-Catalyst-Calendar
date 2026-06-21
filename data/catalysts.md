@@ -822,12 +822,13 @@ events:
     moa: "miR-124 발현 증강 → M2 대식세포 분극화 + Th17/Th1 억제 → 장점막 염증 완화 (first-in-class 경구)"
     sources:
       - https://ir.abivax.com/news-releases/news-release-details/abivax-provides-2026-corporate-outlook/
-    outcome: met
+    outcome: mixed
     outcome_date: 2026-06-01
-    result: "ABTECT 유지 3상(44주) — 임상관해 50mg 40.3% vs 위약 10.4%(위약보정 ~40pp), 25mg도 39.3% 위약보정. 주요 2차 endpoint(내시경 개선·관해·CS-free 관해·지속관해) 모두 충족. 위약 관해율 10.4%는 UC 유지 Phase 3 중 최저. NDA late Q4 2026 제출 예정."
+    result: "ABTECT 유지 3상(44주) — 효능은 클래스 최고 수준: 임상관해 50mg 51.3%·25mg 50.8% vs 위약 10.4%(위약보정 ~40pp, p<0.0001), 주요 2차 EP(내시경 개선·관해·CS-free·지속관해) 전부 충족. **그러나 50mg 고용량 군에 악성종양 7건 집중**(비흑색종 피부암 4건 + 전립선암·유방암·결장 이형성증 각 1건; 회사는 60세+ 고령·약물무관 판정, 클러스터링 없음). 효능 호조에도 암 신호로 6/2 주가 약 -44% 폭락(역대 최악), Jefferies Buy→Hold 강등(PT $160→$90). 일부(Stifel·Citizens)는 '레이블 이슈 수준' 옹호. NDA late Q4 2026 제출 예정."
     outcome_sources:
       - https://ir.abivax.com/news-releases/news-release-details/abivax-announces-landmark-phase-3-abtect-maintenance-trial/
       - https://www.globenewswire.com/news-release/2026/06/01/3304711/0/en/abivax-announces-landmark-phase-3-abtect-maintenance-trial-results-evaluating-obefazimod-in-moderately-to-severely-active-ulcerative-colitis.html
+      - https://www.cnbc.com/2026/06/02/abivax-stock-bowel-crohns-disease-trial-data.html
   - date: 2026-06-30
     ticker: VRDN
     event: Veligrotug (VRDN-001) TED BLA PDUFA (active + chronic, IV IGF-1R 항체)
