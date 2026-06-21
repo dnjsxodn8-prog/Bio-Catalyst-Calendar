@@ -51,6 +51,14 @@ const COLORS = {
 
 const DOW = ['일', '월', '화', '수', '목', '금', '토'];
 
+// 블로그 글 상단 고정 인트로 (사용자 결정 2026-06-21 — 매번 수동 붙여넣기 생략)
+const INTRO_HTML = `<div style="margin:0 0 24px 0;font-size:15px;line-height:1.7;color:${COLORS.text};">
+  <p style="margin:0 0 8px 0;"><a href="https://biotechcatalystcalendar.vercel.app/?v=1" style="color:${COLORS.link};text-decoration:underline;">https://biotechcatalystcalendar.vercel.app/?v=1</a></p>
+  <p style="margin:0;">미국 biotech ($100M+) 와 Big Pharma의 임상 카탈리스트(PDUFA, 임상 readout, 학회 발표)를 한 곳에서 추적하는 사이트입니다.<br>
+  간단히 정리해서 텔레그램 봇을 통해 매주 메시지 발송하고<br>
+  자세한 분석 자료는(제 주관 따라 기업 선정) 블로그에 올릴 듯합니다.</p>
+</div>`;
+
 // ─────────────────────── 날짜 헬퍼 ───────────────────────
 
 function todayMidnightUTC() {
@@ -394,6 +402,7 @@ function renderDocument(items, companiesMap, baseT, endT) {
 <title>${escapeHtml(title)}</title>
 </head>
 <body style="font-size:15px;line-height:1.6;color:${COLORS.text};max-width:880px;margin:24px auto;padding:0 16px;">
+${INTRO_HTML}
 <p style="color:${COLORS.muted};font-style:italic;">이 기간(${escapeHtml(baseStr)} ~ ${escapeHtml(endStr)})에 임박한 카탈리스트가 없습니다.</p>
 </body>
 </html>`;
@@ -411,6 +420,7 @@ function renderDocument(items, companiesMap, baseT, endT) {
 <title>${escapeHtml(title)}</title>
 </head>
 <body style="font-size:15px;line-height:1.6;color:${COLORS.text};max-width:880px;margin:24px auto;padding:0 16px;">
+${INTRO_HTML}
 ${summary}
 ${details}
 </body>
