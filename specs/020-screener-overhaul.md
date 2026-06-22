@@ -241,6 +241,20 @@ scripts/
 - **plotly dev 사전번들**: 차트가 lazy 컴포넌트(`ScreenerChart`) 내 동적 import 라 Vite optimizer 스캐너가 `plotly.js-dist-min` 을 못 잡고 사전번들에서 누락(기존 `optimizeDeps.exclude`). dev 첫 진입 시 on-demand 최적화 중 **빈 모듈**이 반환되어 차트가 로드되지 않고 페이지가 크래시. 해결: `vite.config.js` optimizeDeps 에서 plotly 를 `exclude` → `include` 로 이동(서버 시작 시 1회 사전번들, **dev 전용 — prod 빌드 무관**) + `ScreenerChart` 에 빈 모듈 방어 가드(`typeof P.react === 'function'` 일 때만 setPlotly). prod 빌드는 manualChunks 로 plotly chunk 격리 유지(4.6MB, 스크리너 진입 시에만 lazy 로드).
 - **테스트 러너**: 프로젝트에 vitest 부재(`npm run check` = lint + verify-data). 작동 중 파이프라인 무변경 원칙(보수적 변경)에 따라 새 의존성 없이 Node 내장 `node:test` 로 `screenerFilters` 단위테스트 작성(`npm run test:filters`, 21 케이스). check 파이프라인엔 미편입(검증 단계 수동 실행).
 
+## §11 종목 비교(compare) 뷰 — 후속 라운드 (구현됨 2026-06-23)
+
+§10 에서 defer 했던 비교 전용 뷰. 사용자 결정: **하단 비교 트레이 + 전체 패널**, **최대 4종목**.
+
+- **선택**: 테이블 맨 왼쪽 체크박스 + 카드 좌상단 체크박스. 4개 선택 시 미선택 체크박스 disable(상한 명시). 행 선택(SelectionPanel)과 독립 — 체크박스 클릭은 `stopPropagation`.
+- **비교 트레이**: 선택 ≥1 이면 화면 하단 sticky 트레이 — 선택 티커 칩(개별 ×) + "비교 보기 (N)" + "전체 해제". 어느 뷰(테이블/차트)에서도 유지.
+- **비교 패널(전체)**: "비교 보기" → 메인 콘텐츠를 비교 패널로 전환(← 목록으로 back). 1열=지표 라벨, 이후 종목당 1열. 행: 등급·시총·다음 카탈리스트·일자 / G_conf·G_total·**G1~G3** / E_conf·E_total·**E1~E5** / T1·T2·T3·T_total / 런웨이 / 모달리티·적응증 / rerating. 숫자 행은 **최댓값 강조**.
+- **하위점수 라벨**(GBS SPEC v0.3 §8 루브릭, §10 에서 미룬 라벨을 여기서 노출):
+  - G1 기전 논리성 · G2 표적·적응증 선택 · G3 차별화 FIC/BIC
+  - E1 인간 근거 성숙도 · E2 임상 설계 품질 · E3 규제 경로 명확성 · E4 플랫폼→제품 전환력 · E5 상업화·접근성
+  - 0~4 스케일, 미상 `—`. tooltip 에 1줄 설명.
+- **상태**: `compareSet`(티커 배열, 최대 4) — Screener 로컬 state, URL/localStorage 비동기화(휘발성 선택). 좁은 폭은 비교 패널 가로 스크롤.
+- 파일: `ScreenerCompareTray.jsx` · `ScreenerCompare.jsx` 신규, `screenerFormat.js` 에 `G_SUB`/`E_SUB` 라벨 추가.
+
 ## §10 오픈 이슈
 
 - **종목 비교 전용 뷰**: 다중선택 데이터는 이번에 깔되, 하위점수 나란히 대조 패널은 후속(§1 비범위). 이번 라운드에 다중선택 체크박스까지 넣을지 여부 → 구현 중 부담되면 후속.

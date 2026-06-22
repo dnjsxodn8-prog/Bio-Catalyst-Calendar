@@ -19,6 +19,10 @@ import ScreenerChart from '../components/screener/ScreenerChart';
 import { COLOR } from '../components/screener/screenerFormat';
 import SelectionPanel from '../components/screener/SelectionPanel';
 import ReratingSection from '../components/screener/ReratingSection';
+import ScreenerCompareTray from '../components/screener/ScreenerCompareTray';
+import ScreenerCompare from '../components/screener/ScreenerCompare';
+
+const COMPARE_MAX = 4;
 
 // 좁은 폭(모바일) 감지 → 테이블 대신 카드 리스트
 function useIsNarrow(maxWidth = 720) {
@@ -45,8 +49,28 @@ export default function Screener({ query, onOpenCompany }) {
   const [filters, setFiltersState] = useState(() => parseFilters(searchParams));
   const [selected, setSelected] = useState(null);
   const [filterOpen, setFilterOpen] = useState(false);
+  const [compareTickers, setCompareTickers] = useState([]);
+  const [compareOpen, setCompareOpen] = useState(false);
   const saved = useSavedSearches();
   const isNarrow = useIsNarrow();
+
+  const toggleCompare = useCallback((t) => {
+    setCompareTickers((prev) =>
+      prev.includes(t)
+        ? prev.filter((x) => x !== t)
+        : prev.length >= COMPARE_MAX
+          ? prev
+          : [...prev, t]
+    );
+  }, []);
+
+  // 선택 순서 유지하며 point 객체로 매핑
+  const compareItems = useMemo(() => {
+    const byT = new Map(points.map((p) => [p.t, p]));
+    return compareTickers.map((t) => byT.get(t)).filter(Boolean);
+  }, [compareTickers, points]);
+  const compareFull = compareTickers.length >= COMPARE_MAX;
+  const showCompare = compareOpen && compareItems.length >= 2;
 
   // 필터 변경 → 상태 + URL(replace) 동기화
   const setFilters = useCallback(
@@ -133,59 +157,91 @@ export default function Screener({ query, onOpenCompany }) {
         </div>
       )}
 
-      <ScreenerControlBar
-        filters={filters}
-        setFilters={setFilters}
-        filterOpen={filterOpen}
-        setFilterOpen={setFilterOpen}
-        saved={saved}
-        resultCount={sorted.length}
-        totalCount={points.length}
-      />
-
-      {filterOpen && (
-        <ScreenerFilterPanel filters={filters} setFilters={setFilters} facetOpts={facetOpts} />
-      )}
-
-      <ActiveFilterChips filters={filters} setFilters={setFilters} />
-
-      <SelectionPanel
-        selected={selected}
-        onOpenCompany={onOpenCompany}
-        onClear={() => setSelected(null)}
-      />
-
-      {sorted.length === 0 ? (
-        <EmptyState onClear={() => setFilters(clearAllFacets(filters))} />
-      ) : filters.view === 'table' ? (
-        isNarrow ? (
-          <ScreenerCardList
-            rows={sorted}
-            selected={selected}
-            onSelect={setSelected}
-            onOpenCompany={onOpenCompany}
-          />
-        ) : (
-          <ScreenerTable
-            rows={sorted}
-            sort={filters.sort}
-            onSort={onSort}
-            selected={selected}
-            onSelect={setSelected}
-            onOpenCompany={onOpenCompany}
-          />
-        )
+      {showCompare ? (
+        <ScreenerCompare
+          items={compareItems}
+          onClose={() => setCompareOpen(false)}
+          onRemove={toggleCompare}
+          onOpenCompany={onOpenCompany}
+        />
       ) : (
         <>
-          <ScreenerChart
-            points={filtered}
-            chart={filters.chart}
-            onChartChange={onChartChange}
-            onSelect={setSelected}
+          <ScreenerControlBar
+            filters={filters}
+            setFilters={setFilters}
+            filterOpen={filterOpen}
+            setFilterOpen={setFilterOpen}
+            saved={saved}
+            resultCount={sorted.length}
+            totalCount={points.length}
           />
-          <ReratingSection points={filtered} onOpenCompany={onOpenCompany} />
+
+          {filterOpen && (
+            <ScreenerFilterPanel filters={filters} setFilters={setFilters} facetOpts={facetOpts} />
+          )}
+
+          <ActiveFilterChips filters={filters} setFilters={setFilters} />
+
+          <SelectionPanel
+            selected={selected}
+            onOpenCompany={onOpenCompany}
+            onClear={() => setSelected(null)}
+          />
+
+          {sorted.length === 0 ? (
+            <EmptyState onClear={() => setFilters(clearAllFacets(filters))} />
+          ) : filters.view === 'table' ? (
+            isNarrow ? (
+              <ScreenerCardList
+                rows={sorted}
+                selected={selected}
+                onSelect={setSelected}
+                onOpenCompany={onOpenCompany}
+                compareSet={compareTickers}
+                onToggleCompare={toggleCompare}
+                compareFull={compareFull}
+              />
+            ) : (
+              <ScreenerTable
+                rows={sorted}
+                sort={filters.sort}
+                onSort={onSort}
+                selected={selected}
+                onSelect={setSelected}
+                onOpenCompany={onOpenCompany}
+                compareSet={compareTickers}
+                onToggleCompare={toggleCompare}
+                compareFull={compareFull}
+                compareMax={COMPARE_MAX}
+              />
+            )
+          ) : (
+            <>
+              <ScreenerChart
+                points={filtered}
+                chart={filters.chart}
+                onChartChange={onChartChange}
+                onSelect={setSelected}
+              />
+              <ReratingSection points={filtered} onOpenCompany={onOpenCompany} />
+            </>
+          )}
         </>
       )}
+
+      {/* 트레이가 하단 콘텐츠를 가리지 않도록 여백 */}
+      {compareTickers.length > 0 && <div className="h-16" />}
+
+      <ScreenerCompareTray
+        items={compareItems}
+        max={COMPARE_MAX}
+        onRemove={toggleCompare}
+        onClear={() => {
+          setCompareTickers([]);
+          setCompareOpen(false);
+        }}
+        onOpen={() => setCompareOpen(true)}
+      />
     </div>
   );
 }

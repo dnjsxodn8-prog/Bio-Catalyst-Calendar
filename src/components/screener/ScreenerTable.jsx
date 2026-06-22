@@ -16,12 +16,24 @@ const COLS = [
   { key: 'rt', label: '💠', sortable: true, align: 'right' },
 ];
 
-export default function ScreenerTable({ rows, sort, onSort, selected, onSelect, onOpenCompany }) {
+export default function ScreenerTable({
+  rows,
+  sort,
+  onSort,
+  selected,
+  onSelect,
+  onOpenCompany,
+  compareSet,
+  onToggleCompare,
+  compareMax,
+  compareFull,
+}) {
   return (
     <div className="panel p-0 overflow-x-auto">
       <table className="w-full text-[13px] border-collapse">
         <thead>
           <tr className="text-ink-3 text-left border-b border-line bg-panel-2/50">
+            <th className="py-2.5 px-2 w-8" title="비교 선택" />
             {COLS.map((c) => (
               <th
                 key={c.key}
@@ -42,14 +54,26 @@ export default function ScreenerTable({ rows, sort, onSort, selected, onSelect, 
           {rows.map((d) => {
             const tag = reratingTag(d);
             const isSel = selected && selected.t === d.t;
+            const inCompare = compareSet.includes(d.t);
             return (
               <tr
                 key={d.t}
                 onClick={() => onSelect(d)}
                 className={`border-b border-[var(--hairline)] cursor-pointer transition-colors ${
-                  isSel ? 'bg-acc/10' : 'hover:bg-white/[0.03]'
+                  isSel ? 'bg-acc/10' : inCompare ? 'bg-acc/[0.06]' : 'hover:bg-white/[0.03]'
                 }`}
               >
+                <td className="py-2 px-2 text-center">
+                  <input
+                    type="checkbox"
+                    checked={inCompare}
+                    disabled={!inCompare && compareFull}
+                    onClick={(e) => e.stopPropagation()}
+                    onChange={() => onToggleCompare(d.t)}
+                    className="accent-acc disabled:opacity-30 disabled:cursor-not-allowed"
+                    title={!inCompare && compareFull ? `최대 ${compareMax}종목까지 비교` : '비교에 추가'}
+                  />
+                </td>
                 <td className="py-2 px-3">
                   {d.inCalendar ? (
                     <button

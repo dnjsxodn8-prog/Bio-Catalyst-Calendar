@@ -1,12 +1,21 @@
 import { COLOR, fmtMcap, fmtRunway, fmtAreas, reratingTag } from './screenerFormat';
 
 // 좁은 폭(모바일) 카드 리스트 — 테이블 대체 (spec 020: 모바일 카드 전환).
-export default function ScreenerCardList({ rows, selected, onSelect, onOpenCompany }) {
+export default function ScreenerCardList({
+  rows,
+  selected,
+  onSelect,
+  onOpenCompany,
+  compareSet,
+  onToggleCompare,
+  compareFull,
+}) {
   return (
     <div className="space-y-2">
       {rows.map((d) => {
         const tag = reratingTag(d);
         const isSel = selected && selected.t === d.t;
+        const inCompare = compareSet.includes(d.t);
         return (
           <div
             key={d.t}
@@ -14,6 +23,15 @@ export default function ScreenerCardList({ rows, selected, onSelect, onOpenCompa
             className={`panel p-3 cursor-pointer transition-colors ${isSel ? 'ring-1 ring-acc/50' : 'hover:border-line-2'}`}
           >
             <div className="flex items-center gap-2">
+              <input
+                type="checkbox"
+                checked={inCompare}
+                disabled={!inCompare && compareFull}
+                onClick={(e) => e.stopPropagation()}
+                onChange={() => onToggleCompare(d.t)}
+                className="accent-acc disabled:opacity-30 flex-shrink-0"
+                title="비교에 추가"
+              />
               <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ background: COLOR[d.grp] }} />
               {d.inCalendar ? (
                 <button
