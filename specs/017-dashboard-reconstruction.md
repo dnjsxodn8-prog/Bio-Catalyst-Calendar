@@ -194,7 +194,7 @@ src/pages/Catalysts.jsx          ← URL 쿼리(type/within/q) 초기 필터 수
 
 - **Watchlist Updates lane**: 다음 라운드(데이터·동선 확정 후).
 - **Catalyst density·source freshness badge**: 데이터 충분하면 추가, 아니면 생략.
-- **사이드바 IA 재정렬**(§1.2 #6, Screener 상단 이동)·Company Page 재구성·Screener 페이지 필터 고도화: 후속 spec(018+).
+- ~~**사이드바 IA 재정렬**(§1.2 #6, Screener 상단 이동)~~ **완료(2026-06-22)**: NAV 순서를 `Dashboard → Screener → Companies → Catalysts → News → Conferences`로 변경(`src/components/Sidebar.jsx`). Company Page 재구성·Screener 페이지 필터 고도화: 후속 spec(018+).
 - 후속 데이터 수집 파이프라인(ClinicalTrials.gov·SEC·FDA)은 제품 로드맵 별도 트랙.
 
 ---

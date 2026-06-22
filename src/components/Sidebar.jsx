@@ -15,13 +15,15 @@ import {
 } from 'lucide-react';
 import avatarUrl from '../assets/avatar.jpg';
 
+// IA 순서: Dashboard → Screener → Companies → Catalysts → News → Conferences
+// (제안서 §1.2 #6 — discovery 동선을 위해 스크리너를 상단으로, 학회를 말단으로)
 const NAV = [
   { id: 'dashboard', label: '대시보드', sub: 'Dashboard', icon: LayoutDashboard },
+  { id: 'screener', label: '스크리너', sub: 'Screener', icon: ScatterChart },
   { id: 'companies', label: '종목', sub: 'Companies', icon: Building2 },
   { id: 'catalysts', label: '카탈리스트', sub: 'Catalysts', icon: Activity },
-  { id: 'conferences', label: '학회', sub: 'Conferences', icon: Mic },
   { id: 'news', label: '뉴스', sub: 'News', icon: Newspaper },
-  { id: 'screener', label: '스크리너', sub: 'Screener', icon: ScatterChart },
+  { id: 'conferences', label: '학회', sub: 'Conferences', icon: Mic },
 ];
 
 const SECTION_LABEL = 'text-[10.5px] font-semibold text-ink-2 tracking-[0.1em] uppercase';
