@@ -21,6 +21,17 @@ function writeJSON(key, value) {
   }
 }
 
+// 로컬 저장 데이터(관심 그룹·최근 본 종목) 전체 삭제. 설정/공개 메뉴의 "로컬 데이터 삭제"용.
+// 투자 관심사가 담길 수 있어 사용자가 직접 비울 수 있게 한다. (spec 019 §6)
+export function clearLocalData() {
+  try {
+    localStorage.removeItem(RECENT_KEY);
+    localStorage.removeItem(WATCHLIST_KEY);
+  } catch {
+    /* privacy mode — ignore */
+  }
+}
+
 export function useRecent() {
   const [recent, setRecent] = useState(() => readJSON(RECENT_KEY, []));
   useEffect(() => writeJSON(RECENT_KEY, recent), [recent]);

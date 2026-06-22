@@ -1,15 +1,8 @@
 // spec 012 — 자동완성 검색 박스 (인증/공개 공용)
 // 타이핑 시 종목 후보 드롭다운(점수·D-day 포함). 클릭/Enter → onPick(ticker).
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Search } from 'lucide-react';
+import { Search, Lock } from 'lucide-react';
 import { fmtD, dClass } from '../utils/dDay';
-
-const GRP_DOT = {
-  '위대한 후보': '#f5c518',
-  '관찰 후보': '#5b8def',
-  무등급: '#6b7280',
-  부적격: '#b91c1c',
-};
 
 export default function SearchBox({
   value,
@@ -18,6 +11,7 @@ export default function SearchBox({
   index,
   placeholder = 'ticker · 회사 · 약물 · 적응증 검색…',
   widthClass = 'w-[200px] md:w-[300px] lg:w-[380px]',
+  hideScore = false, // 공개 모드: screener 점수 미노출 + lock 표시
 }) {
   const [open, setOpen] = useState(false);
   const [hi, setHi] = useState(0);
@@ -133,25 +127,30 @@ export default function SearchBox({
               </span>
               <span className="text-[12.5px] text-ink-2 flex-1 min-w-0 truncate">{r.company}</span>
 
-              {r.hasScore ? (
-                <span className="flex items-center gap-1.5 flex-shrink-0">
-                  <span
-                    className="inline-block w-1.5 h-1.5 rounded-full"
-                    style={{ background: GRP_DOT[r.grp] || '#6b7280' }}
-                    title={r.grp}
-                  />
-                  <span className="mono text-[11px] text-ink-3">
-                    G{r.g}·E{r.e}
+              {!hideScore &&
+                (r.hasScore ? (
+                  <span className="flex items-center gap-1.5 flex-shrink-0">
+                    <span
+                      className="inline-block w-1.5 h-1.5 rounded-full"
+                      style={{ background: r.grpColor || '#6b7280' }}
+                      title={r.grp}
+                    />
+                    <span className="mono text-[11px] text-ink-3">
+                      G{r.g}·E{r.e}
+                    </span>
                   </span>
-                </span>
-              ) : (
-                <span className="mono text-[10px] text-ink-4 flex-shrink-0">미채점</span>
-              )}
+                ) : (
+                  <span className="mono text-[10px] text-ink-4 flex-shrink-0">미채점</span>
+                ))}
 
               {r.dDay != null && (
                 <span className={`mono text-[10px] flex-shrink-0 dday ${dClass(r.dDay)}`}>
                   {fmtD(r.dDay)}
                 </span>
+              )}
+
+              {hideScore && (
+                <Lock className="w-3 h-3 text-ink-4 flex-shrink-0" strokeWidth={1.8} />
               )}
             </li>
           ))}

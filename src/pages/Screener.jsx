@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { RotateCcw } from 'lucide-react';
-import screener from '../screener.generated.json';
+import { usePrivateData } from '../store/privateData';
 
 // ── make_viz.py 상수 1:1 이식 (spec 010 §4.1) ──────────────────────────────
 const COLOR = {
@@ -51,9 +51,10 @@ function hoverText(d) {
 const CAM0 = { eye: { x: 1.5, y: -1.5, z: 0.9 } };
 
 export default function Screener({ query, onOpenCompany }) {
+  const { screener } = usePrivateData();
   const points = useMemo(
     () => screener.points.map((p, i) => ({ ...p, _i: i })),
-    []
+    [screener]
   );
 
   // 전역 검색어 매칭 (ticker/회사명) — spec 012 §2.5

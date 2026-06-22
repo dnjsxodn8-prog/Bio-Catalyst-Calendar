@@ -1,7 +1,6 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
-import data from './data.generated.json';
-import screener from './screener.generated.json';
+import { usePrivateData } from './store/privateData';
 import { buildSearchIndex } from './utils/searchIndex';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
@@ -37,6 +36,7 @@ function pathToTab(pathname) {
 }
 
 function App() {
+  const { data, screener } = usePrivateData();
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -49,7 +49,7 @@ function App() {
   // 통합 검색 인덱스(인증: 메모 포함 전 필드 + 점수 조인) — spec 012
   const searchIndex = useMemo(
     () => buildSearchIndex(data, screener, { includePrivate: true }),
-    []
+    [data, screener]
   );
 
   // spec 018 — 기업 상세는 풀페이지(모달 오버레이 폐기).

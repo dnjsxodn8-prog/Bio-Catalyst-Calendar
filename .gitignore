@@ -17,6 +17,8 @@ dist-ssr
 data/imports/raw/
 data/imports/naver-export-*.html
 src/data.generated.json
+src/public-data.generated.json
+api/_private-data.generated.json
 data/_excluded.md
 data/_screener_wip/
 

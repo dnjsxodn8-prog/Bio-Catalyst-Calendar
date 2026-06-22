@@ -36,10 +36,9 @@ import {
 import { renderBody, extractBoldHeader, stripBoldHeader } from '../utils/inlineMarkdown';
 import Sparkline from './Sparkline';
 import PctChange from './PctChange';
-import screener from '../screener.generated.json';
+import { usePrivateData } from '../store/privateData';
 
-// 스크리너 점수 맵 (ticker -> point) — spec 012
-const SCREENER_BY_TICKER = new Map((screener?.points || []).map((p) => [p.t, p]));
+// 스크리너 점수 맵은 런타임 비공개 데이터에서 옴 (usePrivateData().screenerByTicker) — spec 019
 const GRP_COLOR = {
   '위대한 후보': { bg: 'rgba(245,197,24,0.12)', dot: '#f5c518', text: '#f5c518' },
   '관찰 후보': { bg: 'rgba(91,141,239,0.12)', dot: '#5b8def', text: '#5b8def' },
@@ -239,7 +238,8 @@ function ScoreMetric({ label, val }) {
 }
 
 function ScreenerScore({ ticker }) {
-  const p = SCREENER_BY_TICKER.get(ticker);
+  const { screenerByTicker } = usePrivateData();
+  const p = screenerByTicker.get(ticker);
   if (!p) {
     return (
       <div className="px-7 pt-4">
@@ -757,15 +757,16 @@ function NarrativeSection({ id, label, text, score, extra }) {
 }
 
 function PeerChart({ ticker, peers }) {
+  const { screenerByTicker } = usePrivateData();
   const ref = useRef(null);
   const [plotly, setPlotly] = useState(null);
 
   const rows = useMemo(() => {
     const seen = new Set();
     return [ticker, ...(peers || [])]
-      .filter((t) => t && !seen.has(t) && seen.add(t) && SCREENER_BY_TICKER.has(t))
-      .map((t) => SCREENER_BY_TICKER.get(t));
-  }, [ticker, peers]);
+      .filter((t) => t && !seen.has(t) && seen.add(t) && screenerByTicker.has(t))
+      .map((t) => screenerByTicker.get(t));
+  }, [ticker, peers, screenerByTicker]);
 
   const enough = rows.length >= 2;
 

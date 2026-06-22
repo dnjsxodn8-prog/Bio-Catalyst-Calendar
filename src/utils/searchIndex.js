@@ -7,6 +7,14 @@ import { dDelta } from './dDay';
 const PUBLIC_BODY_FIELDS = ['적응증', '타겟 질환', 'MOA', '플랫폼', '상업화 제품', '카탈리스트', '파트너'];
 const PRIVATE_BODY_FIELDS = [...PUBLIC_BODY_FIELDS, '회사 개요', '메모'];
 
+// screener 그룹 → 점 색상. (과거 SearchBox 의 GRP_DOT 을 인증 인덱스로 이동 → 공개 번들 격리)
+const GRP_DOT = {
+  '위대한 후보': '#f5c518',
+  '관찰 후보': '#5b8def',
+  무등급: '#6b7280',
+  부적격: '#b91c1c',
+};
+
 function norm(s) {
   return (s == null ? '' : String(s)).toLowerCase();
 }
@@ -71,6 +79,7 @@ export function buildSearchIndex(data, screener, opts = {}) {
       g: sc?.g ?? null,
       e: sc?.e ?? null,
       grp: sc?.grp ?? '',
+      grpColor: sc ? GRP_DOT[sc.grp] || '#6b7280' : '#6b7280',
       rl: sc?.rl ?? '',
       wl: sc?.wl ?? '',
       rt: sc?.rt ?? null,
@@ -144,3 +153,5 @@ export function buildSearchIndex(data, screener, opts = {}) {
 
   return { entries, search, searchGrouped };
 }
+
+// 공개 검색 인덱스는 별도 모듈(searchIndexPublic.js)로 분리 — 공개 번들 격리. spec 019.

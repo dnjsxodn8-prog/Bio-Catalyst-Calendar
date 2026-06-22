@@ -42,8 +42,25 @@ async function main() {
     feed,
   };
 
+  // PRIVATE bundle — 메모·body·research·sources·임상 상세 포함. 인증 API(`/api/private-data`)와
+  // dev 미들웨어만 읽음. **클라이언트 코드에서 직접 import 금지** (공개 번들 오염 방지). spec 019.
   const outPath = path.join(ROOT, 'src/data.generated.json');
   await fs.writeFile(outPath, JSON.stringify(output, null, 2), 'utf8');
+
+  // PUBLIC bundle — 공개 라우트가 import. ticker/company/mcap + 7~14일 카탈리스트 teaser +
+  // 학회 teaser 만. 메모/본문/점수/적응증·phase·sources 전부 제외. spec 019.
+  const publicOutput = buildPublicData({ companies, catalysts, conferences });
+  const publicJson = JSON.stringify(publicOutput, null, 2);
+
+  // 방어선: 공개 데이터에 비공개 필드가 절대 새지 않도록 빌드 시점에 강제.
+  const FORBIDDEN = ['메모', '회사 개요', '임상 디자인', '사전 공개 임상', 'research', 'sources', 'body'];
+  const leaked = FORBIDDEN.filter((tok) => publicJson.includes(`"${tok}"`) || publicJson.includes(tok));
+  if (leaked.length) {
+    throw new Error(`public-data 에 비공개 토큰 유출: ${leaked.join(', ')} — buildPublicData 점검 필요`);
+  }
+
+  const publicOutPath = path.join(ROOT, 'src/public-data.generated.json');
+  await fs.writeFile(publicOutPath, publicJson, 'utf8');
 
   await writeSitemap();
 
@@ -54,8 +71,95 @@ async function main() {
   console.log(`✅ conferences: ${conferences.length}`);
   console.log(`✅ prices:      ${Object.keys(prices).length}`);
   console.log(`✅ research:    ${researchAttached} 종목 부착${process.env.RESEARCH_DEV === '1' ? ' (DEV: _DEV_* 포함)' : ''}`);
-  console.log(`→ ${path.relative(ROOT, outPath)}`);
+  console.log(`🔒 private →    ${path.relative(ROOT, outPath)}`);
+  console.log(`🌐 public →     ${path.relative(ROOT, publicOutPath)} (companies ${publicOutput.companies.length} · catalysts ${publicOutput.catalysts.length} · conferences ${publicOutput.conferences.length})`);
   console.log('→ public/sitemap.xml');
+}
+
+// ── 공개 데이터 빌더 (spec 019) ──────────────────────────────────────────────
+// 공개 라우트(비로그인)가 받는 유일한 데이터. 민감 필드(메모·body·research·sources·
+// 점수·적응증·phase·임상 디자인)는 절대 포함하지 않는다. 빌드 후 이 파일에서 "메모"가
+// 검색되면 안 됨(verify-data 가 강제).
+const PUBLIC_TEASER_DAYS = 14; // 빌드 시점 기준 teaser 윈도우. 런타임은 7일로 다시 필터.
+const CONF_RELATED_HORIZON_DAYS = 180; // 학회 카드 related-ticker teaser 범위.
+
+function buildPublicData({ companies, catalysts, conferences }) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const companyByTicker = new Map(companies.map((c) => [c.ticker, c]));
+
+  // 공개 종목: ticker / company / mcap 만.
+  const publicCompanies = companies
+    .map((c) => ({ ticker: c.ticker, company: c.company ?? c.ticker, mcap: num(c.mcap) }))
+    .filter((c) => c.ticker);
+
+  // 공개 카탈리스트 teaser: 향후 14일, 사실 필드만(적응증·phase·sources·outcome 제외).
+  const publicCatalysts = catalysts
+    .map((c) => ({ c, d: dDeltaBuild(c.date, today) }))
+    .filter((x) => x.d != null && x.d >= 0 && x.d <= PUBLIC_TEASER_DAYS)
+    .sort((a, b) => a.d - b.d)
+    .map(({ c }) => ({
+      date: normDate(c.date),
+      ticker: str(c.ticker),
+      company: companyByTicker.get(c.ticker)?.company ?? str(c.company) ?? null,
+      drug: str(c.drug) || null,
+      type: str(c.type) || null,
+    }));
+
+  // 공개 학회 teaser: 일정·도시·tier·메모 + related ticker 목록(약물·적응증 없이 ticker 만).
+  const publicConferences = conferences.map((cf) => {
+    const idUpper = String(cf.id || '').toUpperCase();
+    let relatedTickers = [];
+    if (idUpper) {
+      const re = new RegExp(`\\b${escapeRegExp(idUpper)}\\b`);
+      const seen = new Set();
+      for (const c of catalysts) {
+        if (!c.ticker || seen.has(c.ticker)) continue;
+        if (!re.test(String(c.event || ''))) continue;
+        const d = dDeltaBuild(c.date, today);
+        if (d == null || d < -PUBLIC_TEASER_DAYS || d > CONF_RELATED_HORIZON_DAYS) continue;
+        seen.add(c.ticker);
+        relatedTickers.push(c.ticker);
+      }
+    }
+    return {
+      id: cf.id,
+      name: cf.name,
+      dates: cf.dates,
+      location: cf.location ?? null,
+      areas: Array.isArray(cf.areas) ? cf.areas : [],
+      tier: cf.tier ?? null,
+      importance: cf.importance ?? null,
+      notes: cf.notes ?? null,
+      relatedTickers: relatedTickers.slice(0, 10),
+      relatedCount: relatedTickers.length,
+    };
+  });
+
+  return {
+    generated: new Date().toISOString(),
+    counts: {
+      companies: companies.length,
+      catalysts: catalysts.length,
+      conferences: conferences.length,
+    },
+    companies: publicCompanies,
+    catalysts: publicCatalysts,
+    conferences: publicConferences,
+  };
+}
+
+function dDeltaBuild(dateVal, today) {
+  const s = normDate(dateVal);
+  if (!s || !/^\d{4}-\d{2}-\d{2}/.test(s)) return null;
+  const dt = new Date(`${s.slice(0, 10)}T00:00:00`);
+  if (isNaN(dt)) return null;
+  return Math.round((dt - today) / 86400000);
+}
+
+function escapeRegExp(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 async function writeSitemap() {

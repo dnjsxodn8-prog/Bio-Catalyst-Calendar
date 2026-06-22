@@ -4,7 +4,7 @@
 import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { ScatterChart, ArrowRight } from 'lucide-react';
-import screener from '../../screener.generated.json';
+import { usePrivateData } from '../../store/privateData';
 import CompanyLink from '../CompanyLink';
 import { dDelta, fmtMcap } from '../../utils/dDay';
 
@@ -22,7 +22,8 @@ function rankPoints(points, grp) {
 }
 
 export default function LaneScreenerSignals({ data }) {
-  const points = useMemo(() => screener.points || [], []);
+  const { screener } = usePrivateData();
+  const points = useMemo(() => screener.points || [], [screener]);
 
   const great = useMemo(() => rankPoints(points, '위대한 후보'), [points]);
   const watch = useMemo(() => rankPoints(points, '관찰 후보'), [points]);

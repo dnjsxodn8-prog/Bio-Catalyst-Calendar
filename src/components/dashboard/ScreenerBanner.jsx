@@ -2,9 +2,10 @@
 // G×E×T1 의미를 info tooltip 으로 노출.
 import { Link } from 'react-router-dom';
 import { ScatterChart, ArrowRight, Info } from 'lucide-react';
-import screener from '../../screener.generated.json';
+import { usePrivateData } from '../../store/privateData';
 
 export default function ScreenerBanner() {
+  const { screener } = usePrivateData();
   const c = screener.counts || {};
   const great = c['위대한 후보'] || 0;
   const watch = c['관찰 후보'] || 0;
