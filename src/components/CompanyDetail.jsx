@@ -1180,3 +1180,20 @@ function ExpansionBlock({ expansion }) {
     </div>
   );
 }
+
+// spec 018 — CompanyPage(풀페이지·탭)에서 재사용하기 위한 named export.
+export {
+  Hero,
+  ScreenerScore,
+  CompanyFeed,
+  CatalystTimeline,
+  SidePanels,
+  ScoreSummary,
+  NarrativeSection,
+  PeerChart,
+  NewsSection,
+  AssetSection,
+  ResearchSources,
+  SectionBox,
+  FieldCard,
+};

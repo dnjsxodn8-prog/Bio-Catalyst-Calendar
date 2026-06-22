@@ -1,17 +1,17 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
-import { Routes, Route, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom';
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import data from './data.generated.json';
 import screener from './screener.generated.json';
 import { buildSearchIndex } from './utils/searchIndex';
 import Sidebar from './components/Sidebar';
 import Topbar from './components/Topbar';
 import Footer from './components/Footer';
-import CompanyDetail from './components/CompanyDetail';
 import Dashboard from './pages/Dashboard';
 import Companies from './pages/Companies';
 import Catalysts from './pages/Catalysts';
 import Conferences from './pages/Conferences';
 import News from './pages/News';
+import CompanyPage from './pages/CompanyPage';
 import { useRecent, useWatchlist } from './utils/userPrefs';
 
 // Plotly 번들 비대화 방지: 스크리너 라우트 진입 시에만 chunk 로드 (spec 010 §4.2)
@@ -28,7 +28,7 @@ const TAB_PATH = {
 };
 
 function pathToTab(pathname) {
-  if (pathname.startsWith('/app/companies')) return 'companies';
+  if (pathname.startsWith('/app/companies') || pathname.startsWith('/app/company/')) return 'companies';
   if (pathname.startsWith('/app/catalysts')) return 'catalysts';
   if (pathname.startsWith('/app/conferences')) return 'conferences';
   if (pathname.startsWith('/app/news')) return 'news';
@@ -52,9 +52,8 @@ function App() {
     []
   );
 
-  // 기업 모달은 배경 location 위에 오버레이 (React Router modal 패턴, spec 010 §2.3)
-  const backgroundLocation = location.state?.backgroundLocation;
-  const tab = pathToTab((backgroundLocation || location).pathname);
+  // spec 018 — 기업 상세는 풀페이지(모달 오버레이 폐기).
+  const tab = pathToTab(location.pathname);
 
   useEffect(() => {
     document.body.classList.toggle('light', theme === 'light');
@@ -69,19 +68,12 @@ function App() {
 
   const onTab = (id) => navigate(TAB_PATH[id] ?? '/app');
 
-  // 종목 클릭(페이지 onPick=item / Sidebar onPickTicker=ticker) → 딥링크 + 배경 보존
+  // 종목 클릭(페이지 onPick=item / Sidebar onPickTicker=ticker) → 풀페이지 이동
   const openCompany = (tickerOrItem) => {
     const ticker = typeof tickerOrItem === 'string' ? tickerOrItem : tickerOrItem?.ticker;
     if (!ticker) return;
     setSidebarOpen(false);
-    navigate(`/app/company/${ticker}`, {
-      state: { backgroundLocation: backgroundLocation || location },
-    });
-  };
-
-  const closeCompany = () => {
-    if (backgroundLocation) navigate(-1);
-    else navigate('/app/screener');
+    navigate(`/app/company/${ticker}`);
   };
 
   return (
@@ -121,13 +113,14 @@ function App() {
           <div className="animate-fade-up">
             <Suspense fallback={<RouteLoading />}>
               {/* descendant Routes — 부모 /app/* 가 소비한 뒤 남은 경로에 매칭되므로 상대 경로 사용 */}
-              <Routes location={backgroundLocation || location}>
+              <Routes>
                 <Route index element={<Dashboard data={data} query={query} onPick={openCompany} watchlist={watchlist} searchIndex={searchIndex} />} />
                 <Route path="companies" element={<Companies data={data} query={query} onPick={openCompany} />} />
                 <Route path="catalysts" element={<Catalysts data={data} query={query} onPick={openCompany} />} />
                 <Route path="conferences" element={<Conferences data={data} query={query} onPick={openCompany} />} />
                 <Route path="news" element={<News data={data} query={query} onPick={openCompany} />} />
                 <Route path="screener" element={<Screener query={query} onOpenCompany={openCompany} />} />
+                <Route path="company/:ticker" element={<CompanyPage data={data} watchlist={watchlist} pushRecent={pushRecent} />} />
                 <Route path="*" element={null} />
               </Routes>
             </Suspense>
@@ -136,40 +129,8 @@ function App() {
 
         <Footer />
       </main>
-
-      {/* 기업 모달 라우트 — 실제 location 으로 매칭 (배경 위 오버레이 / 콜드 딥링크 모두 지원). 상대 경로. */}
-      <Routes>
-        <Route
-          path="company/:ticker"
-          element={
-            <CompanyModalRoute
-              data={data}
-              watchlist={watchlist}
-              pushRecent={pushRecent}
-              onClose={closeCompany}
-            />
-          }
-        />
-        <Route path="*" element={null} />
-      </Routes>
     </div>
   );
-}
-
-function CompanyModalRoute({ data, watchlist, pushRecent, onClose }) {
-  const { ticker } = useParams();
-  const company = useMemo(
-    () => data.companies.find((c) => c.ticker === ticker),
-    [data, ticker]
-  );
-
-  useEffect(() => {
-    if (company?.ticker) pushRecent(company.ticker);
-  }, [company?.ticker, pushRecent]);
-
-  if (!company) return <Navigate to="/app/screener" replace />;
-
-  return <CompanyDetail item={company} data={data} watchlist={watchlist} onClose={onClose} />;
 }
 
 function RouteLoading() {
