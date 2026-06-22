@@ -13,6 +13,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "verify-data": "node scripts/verify-data.mjs",
+    "test:filters": "node --test scripts/test-screener-filters.mjs",
     "check": "npm run lint && npm run verify-data",
     "export-telegram": "node scripts/export-telegram.mjs",
     "migrate": "node scripts/migrate-from-legacy.mjs",

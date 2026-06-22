@@ -56,8 +56,10 @@ export default defineConfig({
   },
   optimizeDeps: {
     // dev cold-start 시 optimizer hang 완화 — 무거운/공통 의존성을 미리 번들.
-    include: ['react', 'react-dom', 'react-router-dom', '@clerk/clerk-react', 'lucide-react'],
-    // plotly 는 스크리너 진입 전엔 불필요 → 사전 최적화에서 제외(첫 dev 요청 지연 감소).
-    exclude: ['plotly.js-dist-min'],
+    // plotly(UMD)는 스크리너 차트(lazy 컴포넌트 내 동적 import)에서만 쓰이는데,
+    // 스캐너가 lazy chunk 의 동적 import 를 못 잡아 사전번들에서 누락 → 첫 진입 시
+    // on-demand 최적화 중 빈 모듈이 반환되어 차트가 로드되지 않았다(spec 020).
+    // 명시적으로 include 해 서버 시작 시 한 번 사전번들한다(dev 전용, prod 빌드 무관).
+    include: ['react', 'react-dom', 'react-router-dom', '@clerk/clerk-react', 'lucide-react', 'plotly.js-dist-min'],
   },
 })

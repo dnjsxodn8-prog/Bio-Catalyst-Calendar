@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react';
 
 const RECENT_KEY = 'bcc:recent';
 const WATCHLIST_KEY = 'bcc:watchlist';
+const SAVED_SEARCH_KEY = 'bcc:savedSearch';
 const RECENT_MAX = 5;
 
 function readJSON(key, fallback) {
@@ -27,6 +28,7 @@ export function clearLocalData() {
   try {
     localStorage.removeItem(RECENT_KEY);
     localStorage.removeItem(WATCHLIST_KEY);
+    localStorage.removeItem(SAVED_SEARCH_KEY);
   } catch {
     /* privacy mode — ignore */
   }
@@ -80,4 +82,27 @@ export function useWatchlist() {
   }, []);
 
   return { watchlist, groups, isMember, toggle, addGroup, removeGroup };
+}
+
+// spec 020 — 스크리너 저장검색. 항목 = { id, name, params }(params = serializeFilters 결과).
+// 필터+정렬+뷰 전체를 한 프리셋으로 저장/복원/삭제.
+export function useSavedSearches() {
+  const [searches, setSearches] = useState(() => readJSON(SAVED_SEARCH_KEY, []));
+  useEffect(() => writeJSON(SAVED_SEARCH_KEY, searches), [searches]);
+
+  const save = useCallback((name, params) => {
+    const trimmed = (name || '').trim();
+    if (!trimmed) return;
+    setSearches((prev) => {
+      const id = `${trimmed}::${Date.now()}`;
+      const without = prev.filter((s) => s.name !== trimmed); // 같은 이름 덮어쓰기
+      return [...without, { id, name: trimmed, params }];
+    });
+  }, []);
+
+  const remove = useCallback((id) => {
+    setSearches((prev) => prev.filter((s) => s.id !== id));
+  }, []);
+
+  return { searches, save, remove };
 }
