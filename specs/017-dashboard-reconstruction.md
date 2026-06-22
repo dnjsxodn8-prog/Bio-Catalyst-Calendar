@@ -192,7 +192,7 @@ src/pages/Catalysts.jsx          ← URL 쿼리(type/within/q) 초기 필터 수
 
 ## §8 오픈 이슈 / 후속
 
-- **Watchlist Updates lane**: 다음 라운드(데이터·동선 확정 후).
+- ~~**Watchlist Updates lane**~~ **완료(2026-06-22)**: 홈 KPI strip 바로 아래 풀폭 개인화 lane 신설(`src/components/dashboard/LaneWatchlist.jsx`). localStorage watchlist 티커로 `data.catalysts`(다가오는 이벤트) + `data.feed`(최근 결과·뉴스) 2컬럼 필터링. 관심종목 없으면 슬림 empty state + "종목 둘러보기" CTA.
 - **Catalyst density·source freshness badge**: 데이터 충분하면 추가, 아니면 생략.
 - ~~**사이드바 IA 재정렬**(§1.2 #6, Screener 상단 이동)~~ **완료(2026-06-22)**: NAV 순서를 `Dashboard → Screener → Companies → Catalysts → News → Conferences`로 변경(`src/components/Sidebar.jsx`). Company Page 재구성·Screener 페이지 필터 고도화: 후속 spec(018+).
 - 후속 데이터 수집 파이프라인(ClinicalTrials.gov·SEC·FDA)은 제품 로드맵 별도 트랙.

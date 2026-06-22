@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import ScreenerBanner from '../components/dashboard/ScreenerBanner';
 import KpiStrip from '../components/dashboard/KpiStrip';
+import LaneWatchlist from '../components/dashboard/LaneWatchlist';
 import LaneScreenerSignals from '../components/dashboard/LaneScreenerSignals';
 import LaneCatalystWatch from '../components/dashboard/LaneCatalystWatch';
 import LaneResultsNews from '../components/dashboard/LaneResultsNews';
@@ -13,7 +14,7 @@ import UnifiedSearchResults from '../components/dashboard/UnifiedSearchResults';
 import CompanyLink from '../components/CompanyLink';
 import { dDelta, fmtD, dClass, fmtDate, fmtWeekday, phaseClass, typeClass } from '../utils/dDay';
 
-export default function Dashboard({ data, query, onPick, searchIndex }) {
+export default function Dashboard({ data, query, onPick, watchlist, searchIndex }) {
   const q = (query || '').trim();
 
   // 검색어 모드 — 홈 전체를 grouped search 결과로 전환 (spec 017 §3.6).
@@ -26,6 +27,9 @@ export default function Dashboard({ data, query, onPick, searchIndex }) {
       <ScreenerBanner />
 
       <KpiStrip data={data} onPick={onPick} />
+
+      {/* 개인화 — 내 관심종목 업데이트 (제안서 §1.2 #7) */}
+      <LaneWatchlist data={data} watchlist={watchlist?.watchlist} onPick={onPick} />
 
       {/* 3-lane 리서치 보드 */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-start">
