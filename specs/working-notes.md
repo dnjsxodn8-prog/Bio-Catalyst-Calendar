@@ -282,3 +282,23 @@ Phase 3 (검증 시스템) 진행. specs/working-notes.md 참고.
 - 리서치 중 찾은 정보: 일부 소스에서 AAIC 2026 = 2026-07-12 to 2026-07-15, London, UK 언급
 - 스킵 이유: 공식 AAIC 사이트 URL 없이 날짜/장소 변경 불가 (conferences.md 변경은 데이터 신뢰도에 영향).
 - 권장 조치: alz.org/aaic 공식 사이트에서 날짜·장소 확인 후 conferences.md 수정 여부 결정.
+
+---
+
+## 2026-06-23 전체 데이터 백필 (무인 야간 Workflow) — 검토 대기 (미커밋)
+
+**작업:** 표준 헤딩 누락 종목 184개를 웹 리서치로 프로필 채우기 + 6/20 스윕 스킵 3건 검증.
+**방식:** `scripts/overnight_fill.workflow.js` (Workflow 오케스트레이터, 에이전트 1명=종목 1파일, no-fabrication·실제 fetch한 출처만 추가·세션 Opus 상속). 한도 리셋·토큰 분산 위해 3개 런으로 분할 실행(117 → +34 → +33).
+
+**결과:**
+- **종목 프로필 184/184 채움** (전부 `verified: 2026-06-23`). `npm run build-data` OK, `verify-data` ERRORS 0 (warnings 158·info 185는 기존과 동일 — info=비해당 표준헤딩 의도적 생략이라 정상).
+- **스킵 3건 판정:**
+  - **MRK** ✅ 반영 — WELIREG(belzutifan)+KEYTRUDA 보조요법 ccRCC FDA 정규승인 2026-06-12 (fda.gov+merck.com 공식 2개). 근거 LITESPARK-022(NCT05239728, n=1,841, DFS HR 0.72). 6/20 당시 URL은 HNSCC+PADCEV 오링크였고 실제는 신규 보조 ccRCC 승인. catalysts.md에 추가(type: Regulatory).
+  - **AAIC 2026** ✅ 정정 — 공식 aaic.alz.org 기준 **2026-07-12~15, London, UK** (기존 7-26~30 Toronto는 오류). conferences.md 수정.
+  - **KURA** ❌ 기각 — KOMET-007은 ziftomenib(menin 억제제) AML 시험이지 tipifarnib EBV+ PTLD 아님. 원 의심대로 2차매체 혼동 정보 → 추가 안 함(no-fabrication).
+
+**품질 메모:** 에이전트들이 잘못된 기존 데이터도 다수 교정(RNA=BMS 심혈관 딜 누락 보강, ACET=미확인 Regeneron/CRISPR 파트너 제거, SHPH=Dogecoin 채굴사 전환 반영 등). 출처 불명 수치는 의식적으로 제외.
+
+**커밋 정책:** 전부 미커밋 — 사용자 검토 대기. 검토 후 `/deploy`. 변경=종목 184 + catalysts.md + conferences.md + 재생성된 data.generated.json.
+
+**남은 과제:** ① 학회 발표기업 정보 비어있음(데이터 모델이 catalyst의 conferenceId 매칭이라 별도 작업) ② bcc-news-feed/data/conferences.md에도 동일 AAIC 오류 잔존(별도 레포라 미수정).

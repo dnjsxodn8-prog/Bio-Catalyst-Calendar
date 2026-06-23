@@ -2139,6 +2139,24 @@ events:
     moa: "지속방출형 PTH(1-34) prodrug — 생리적 PTH 농도 24시간 유지로 칼슘·인 항상성 회복"
     sources:
       - https://www.globenewswire.com/news-release/2026/06/08/3308479/0/en/Ascendis-to-Showcase-Advances-in-Treatment-of-Rare-Endocrine-Diseases-at-ENDO-2026.html
+  - date: 2026-06-12
+    ticker: MRK
+    event: "WELIREG(belzutifan) + KEYTRUDA 보조요법 clear cell RCC FDA 승인 — 신장절제 후 중간-고위험/고위험 재발"
+    type: Regulatory
+    company: Merck & Co.
+    drug: WELIREG (belzutifan) + KEYTRUDA (pembrolizumab)
+    indication: Adjuvant clear cell RCC (post-nephrectomy)
+    phase: sBLA/sNDA
+    moa: "HIF-2α 억제제(belzutifan) + 항PD-1(pembrolizumab) 병용 — 최초 PD-1+HIF-2α 보조요법"
+    sources:
+      - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-belzutifan-pembrolizumab-adjuvant-treatment-renal-cell-carcinoma
+      - https://www.merck.com/news/fda-approves-keytruda-pembrolizumab-and-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-with-welireg-belzutifan-for-adjuvant-treatment-of-certain-patients/
+    outcome: approved
+    outcome_date: 2026-06-12
+    result: "FDA 정규승인(신규 병용 적응증). 근거 LITESPARK-022(NCT05239728, n=1,841): 무병생존 HR 0.72(95% CI 0.59-0.87), pembrolizumab+위약 대비 재발·전이·사망 ~28% 감소. WELIREG 최초 초기단계 ccRCC 승인이자 최초 PD-1+HIF-2α 보조 병용요법."
+    outcome_sources:
+      - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-belzutifan-pembrolizumab-adjuvant-treatment-renal-cell-carcinoma
+      - https://www.merck.com/news/fda-approves-keytruda-pembrolizumab-and-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-with-welireg-belzutifan-for-adjuvant-treatment-of-certain-patients/
   - date: 2026-08-05
     ticker: MRNA
     event: "MFLUSIVA(mRNA-1010) 계절 독감백신 BLA PDUFA 결정 (50세+) — VRBPAC 6/18 9-0 만장일치 통과"

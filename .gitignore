@@ -28,6 +28,9 @@ data/_screener_wip/
 # Non-canonical agent skills mirror (canonical = .claude/skills/, tracked)
 .agents/
 
+# One-off local Workflow orchestration scripts (hardcoded local abs paths)
+scripts/*.workflow.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

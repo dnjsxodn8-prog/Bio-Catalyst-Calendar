@@ -154,8 +154,8 @@ conferences:
     notes: GLP-1 데이터 핵심
   - id: aaic
     name: AAIC 2026
-    dates: 2026-07-26 to 2026-07-30
-    location: Toronto, Canada
+    dates: 2026-07-12 to 2026-07-15
+    location: London, UK
     areas:
       - Neurology
     tier: Tier 2
