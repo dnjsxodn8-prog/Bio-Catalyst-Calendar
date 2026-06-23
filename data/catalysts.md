@@ -1120,6 +1120,12 @@ events:
     sources:
       - https://ir.corcept.com/news-releases/news-release-details/fda-files-corcepts-new-drug-application-relacorilant-treatment-0/
       - https://www.cancernetwork.com/view/fda-accepts-relacorilant-nda-for-platinum-resistant-ovarian-cancer
+    outcome: approved
+    outcome_date: 2026-03-25
+    result: "FDA 승인 (PDUFA 7/11보다 약 3.5개월 조기) — Lifyorli™(relacorilant) + nab-paclitaxel, 백금저항성 상피성 난소암·난관암·원발복막암(베바시주맙 포함 1~3차 전치료 후). 첫 선택적 GR 길항제(SGRA). ROSELLA Ph3(n=381): OS HR 0.65(사망위험 -35%, mOS +4.1개월), mPFS 6.54 vs 5.52개월(HR 0.70, p=0.0076). 용법 nab-paclitaxel 투여 전일·당일·익일 relacorilant 150mg 경구."
+    outcome_sources:
+      - https://ir.corcept.com/news-releases/news-release-details/fda-approves-corcepts-selective-glucocorticoid-receptor
+      - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-relacorilant-nab-paclitaxel-platinum-resistant-epithelial-ovarian-fallopian-tube-or
   - date: 2026-08-01
     ticker: REGN
     event: "Garetosmab BLA PDUFA (FOP, Priority Review) — Phase 3 OPTIMA 1차 endpoint 충족 (56주차 새 HO 병변 수)"
@@ -2103,6 +2109,11 @@ events:
     moa: "선택적 노르에피네프린 재흡수 억제 — 카타플렉시·주간졸림 동시 개선"
     sources:
       - https://www.biospace.com/press-releases/axsome-therapeutics-announces-axs-12-achieves-primary-endpoint-in-encore-long-term-phase-3-trial-in-narcolepsy
+    outcome: met
+    outcome_date: 2026-06-15
+    result: "ENCORE 장기 Phase 3(OLE·무작위 철회) 데이터 SLEEP 2026 포스터(#375) 발표 — 카타플렉시 빈도 유의 감소에 더해 과도한 주간 졸림증·인지 기능도 대다수 환자에서 개선, 장기 안전성·내약성 유지. NDA 근거 데이터."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/15/3311661/33090/en/Axsome-Therapeutics-Presents-New-Data-Highlighting-its-Innovative-Sleep-Medicine-Portfolio-at-SLEEP-2026.html
   - date: 2026-06-13
     ticker: NTLA
     event: "lonvo-z(NTLA-2002) HAELO Phase 3 HAE 추가데이터 (EAACI 2026) — 발작 87% 감소, 롤링 BLA 진행, 2027 상반기 출시 목표"
@@ -2179,4 +2190,65 @@ events:
     moa: "선택적 심장 미오신 억제제 — 좌심실 유출로 폐쇄 완화"
     sources:
       - https://www.businesswire.com/news/home/20260529154810/en/U.S.-Food-and-Drug-Administration-Accepts-for-Priority-Review-Bristol-Myers-Squibbs-Supplemental-New-Drug-Application-for-Camzyos-mavacamten-to-Treat-Adolescents-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy-oHCM
+  - date: 2026-11-30
+    ticker: REGN
+    event: "Cemdisiran gMG NDA PDUFA (Priority Review, PRV 사용 — 정확일 미공개, FDA target action November 2026) — Ph3 NIMBLE, anti-C5 siRNA SC q12주"
+    type: PDUFA
+    company: Regeneron
+    drug: Cemdisiran
+    indication: AChR-Ab+ Generalized Myasthenia Gravis (gMG)
+    phase: NDA
+    trialDesign: "NIMBLE Phase 3 — 증상성 AChR-Ab+ gMG 성인, cemdisiran SC 12주마다 투여, 표준 면역억제제 병용 가능. FDA·EMA 동시 수리(2026-06-22). Priority Review Voucher 사용으로 가속 심사"
+    targetDisease: "전신 중증근무력증(gMG). anti-AChR 자가항체가 보체(C5) 매개 신경근접합부 손상 유발 — 기존 보체 억제제는 정맥/빈번 투여 부담"
+    priorTrialUrl: https://investor.regeneron.com/news-releases/news-release-details/regeneron-announces-positive-results-phase-3-trial-generalized
+    moa: "Anti-C5 siRNA(GalNAc 접합). 간세포 C5 mRNA 침묵화로 보체 말단경로 차단 → SC 12주 1회 장기작용"
+    sources:
+      - https://investor.regeneron.com/news-releases/news-release-details/cemdisiran-regulatory-submissions-accepted-review-fda-and-ema
+      - https://www.neurologylive.com/view/fda-ema-accepts-regulatory-applications-cemdisiran-generalized-myasthenia-gravis
+  - date: 2026-08-31
+    ticker: EYPT
+    event: "DURAVYU(vorolanib) LUGANO Phase 3 wet AMD topline readout (mid-2026, 정확일 미정) — DSMC 3회 연속 긍정 권고"
+    type: Clinical Readout
+    company: EyePoint Pharmaceuticals
+    drug: DURAVYU (vorolanib intravitreal insert, EYP-1901)
+    indication: Neovascular (Wet) AMD
+    phase: Phase 3
+    trialDesign: "LUGANO(NCT06668064) 무작위 이중맹검 대조 Phase 3, 56주 1차 평가. 자매시험 LUCIA(NCT06683742) 수주 후 추가 readout 예정. DSMC 3회 연속 긍정 권고로 데이터 신뢰도 제고"
+    targetDisease: "습성 노인황반변성(wet AMD). VEGF 주도 신생혈관으로 시력 급격 저하 — 기존 항VEGF 월 1회 반복주사 부담, 장기 서방형 대안 필요"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT06668064
+    moa: "Vorolanib(선택적 VEGFR·PDGFR TKI)를 Durasert E 생분해 삽입제로 유리체강 내 6개월+ 서방 → 신생혈관 억제"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/05/14/3294726/0/en/EyePoint-Announces-Third-Consecutive-Positive-DSMC-Recommendation-for-Phase-3-Wet-AMD-Trials-for-DURAVYU-Building-Confidence-Ahead-of-Mid-2026-Topline-Data.html
+      - https://investors.eyepoint.bio/news-releases/news-release-details/eyepoint-announces-third-consecutive-positive-dsmc
+  - date: 2026-06-14
+    ticker: LEGN
+    event: "LB2501 Phase 1 R/R B-NHL EHA 2026 Late-Breaking oral (Positive — in vivo CD19/CD20 이중 CAR-T, DL2 ORR 100%[6/6], CR 83%; 림프구감소 외 중증 독성 없음)"
+    type: Conference
+    company: Legend Biotech
+    drug: LB2501
+    indication: Relapsed/Refractory B-Cell Non-Hodgkin Lymphoma
+    phase: Phase 1
+    conferenceId: eha
+    trialDesign: "개방표지 용량상승 Phase 1. R/R B-NHL 2개 용량 코호트(DL1/DL2) — 단회 IV 주입으로 체내 CD19/CD20 이중표적 CAR-T 직접 생성. 세포 제조·림프구감소 전처치 불요. DL2 ORR 100%(6/6), CR 83%"
+    targetDisease: "재발/불응성 B세포 비호지킨림프종. 기존 ex vivo CAR-T는 환자별 제조 수주+고비용 — in vivo 단회 IV로 접근성 확대 목표"
+    moa: "렌티바이러스 벡터로 CD19·CD20 이중특이 CAR 유전자를 체내 T세포에 직접 전달 → ex vivo 제조 없이 in vivo CAR-T 생성"
+    outcome: met
+    outcome_date: 2026-06-14
+    result: "EHA 2026 Late-Breaking oral — in vivo CD19/CD20 이중 CAR-T, DL2에서 ORR 100%(6/6)·CR 83%. 림프구감소 외 중증 독성 없음(first-in-class in vivo CAR-T proof-of-concept)."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/14/3311435/0/en/Legend-Biotech-Establishes-Clinical-Proof-of-Concept-for-LB2501-a-Potential-First-in-Class-In-Vivo-CD19-CD20-Dual-Targeting-CAR-T-in-Relapsed-Refractory-B-Cell-Non-Hodgkin-Lymphoma.html
+  - date: 2026-06-07
+    ticker: LXRX
+    event: "Sotagliflozin T1D inTandem 풀드분석 ADA 2026 포스터 — 주요 하위군 일관된 HbA1c 개선, NDA 재제출 근거"
+    type: Conference
+    company: Lexicon Pharmaceuticals
+    drug: Sotagliflozin (Zynquista)
+    indication: Type 1 Diabetes
+    phase: Pooled Phase 3
+    conferenceId: ada
+    trialDesign: "inTandem1·2·3 Phase 3 풀드 데이터 하위군 분석. 주요 성인 T1D 하위군 전반에서 HbA1c 개선 일관성 검증. NDA 재제출(2026 mid-year 예정) 지지"
+    targetDisease: "1형 당뇨. 인슐린 보조요법으로 혈당 변동·HbA1c 관리 미충족 수요"
+    moa: "SGLT1/2 이중 억제제. SGLT2 신장 포도당 재흡수 + SGLT1 장내 흡수 동시 억제로 혈당 강하"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/06/03/3305962/0/en/Lexicon-to-Present-Data-at-the-American-Diabetes-Association-ADA-2026-Scientific-Sessions.html
 ```
