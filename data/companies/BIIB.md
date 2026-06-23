@@ -7,12 +7,13 @@ areas:
   - Neurology
   - Rare Disease
 nextCatalyst: 2026-04-03
-verified: 2026-05-18
+verified: 2026-06-23
 sources:
   - https://investors.biogen.com/static-files/1d87b8de-249c-44e9-a019-b7b659ba778a
   - https://www.biogen.com/pipeline
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2212948
   - https://www.globenewswire.com/news-release/2026/05/14/3294955/0/en/biogen-completes-acquisition-of-apellis-pharmaceuticals.html
+  - https://www.globenewswire.com/news-release/2026/06/17/3313870/0/en/biogen-expands-immunology-pipeline-with-agreement-to-acquire-raythera-inc.html
 ---
 
 # Biogen (BIIB)
@@ -107,3 +108,5 @@ Leqembi 알츠하이머 시장 성장 초기. MS 제네릭 압박 지속.
 **2026-03-30 SPINRAZA 고용량 FDA 승인** — DEVOTE Phase 3 (n=75 infantile-onset SMA) 기반, 50mg loading × 2회 + 28mg 4개월 유지. 6개월 CHOP-INTEND 1차 평가. EU·스위스·일본 동시기 승인. 4/3 PDUFA 보다 조기 승인.
 
 **2026-05-14 Apellis 인수 완료** — $41/주 + CVR $4, 총 ~$5.6B. SYFOVRE(지도형 위축 GA) + EMPAVELI(PNH + 신장 희귀질환 3개 적응증) 상업화 자산 인수. Apellis 2025년 합산 매출 ~$689M, 2028년까지 mid-to-high teens% 성장 예상. 기존 felzartamab(Phase 3, 신장) 파이프라인과 시너지.
+
+**2026-06-17 RayThera 인수 계약** — 최대 ~$1B(upfront + 마일스톤). 소분자 면역학 파이프라인 확보, 리드 에셋 Q3 2026 Phase 1 진입 예정. 거래 완료 Q3 2026 예상. 신경과학·희귀질환 중심에서 면역학으로 파이프라인 확장.
