@@ -302,3 +302,55 @@ Phase 3 (검증 시스템) 진행. specs/working-notes.md 참고.
 **커밋 정책:** 전부 미커밋 — 사용자 검토 대기. 검토 후 `/deploy`. 변경=종목 184 + catalysts.md + conferences.md + 재생성된 data.generated.json.
 
 **남은 과제:** ① 학회 발표기업 정보 비어있음(데이터 모델이 catalyst의 conferenceId 매칭이라 별도 작업) ② bcc-news-feed/data/conferences.md에도 동일 AAIC 오류 잔존(별도 레포라 미수정).
+
+---
+
+## 2026-06-27 자동 스윕 — 사용자 검토 필요
+
+**실행 시간:** 2026-06-27 일요일 자동 루틴 (무인 모드)
+**자동 적용:** 4건 (strict 자동승인 기준 통과)
+**스킵:** 6건 (아래 상세)
+
+### 자동 적용 완료
+
+| Tier | Ticker | 항목 | 출처 |
+|---|---|---|---|
+| A | IONS | Olezarsen TRYNGOLZA® FDA 승인 2026-06-24 (PDUFA 6일 조기) — sHTG 급성 췌장염 위험 감소 최초 치료제 | businesswire.com 공식 IR + ir.ionis.com |
+| A | VRDN | Veligrotug Lumvoa™ FDA 승인 2026-06-25 (PDUFA 5일 조기) — TED(갑상선안병증) | businesswire.com 공식 IR |
+| A | WVE | WVE-007 Phase 1 INLIGHT 완료 확인 (2026-06-24 Phase 2a 개시) | globenewswire.com 공식 IR |
+| C | NUVL | Neladalkib ALK+ NSCLC NDA PDUFA 2026-11-27 신규 등록 (Priority Review + BTD) | investors.nuvalent.com 공식 IR |
+
+### 스킵 항목 (사용자 검토 권장)
+
+**1. EVMN — EVO756 CSU Phase 2b topline 데이터**
+- 내용: Evommune EVO756 CSU(만성 자발두드러기) Phase 2b 결과 Q2 2026 예정
+- 스킵 이유: 공식 IR 보도자료 미확인 (검색으로 발견되지 않음). 데이터가 아직 발표되지 않았거나 아직 검색 인덱싱이 안 된 상태 가능성.
+- 권장 조치: ir.evommune.com에서 Phase 2b CSU 결과 직접 확인.
+
+**2. SION — SION-719 PreciSION CF Phase 2a 데이터**
+- 내용: CF Phase 2a 결과 여름 2026 예정 (등록 완료 2026-04-27)
+- 스킵 이유: 데이터 미발표. 검색 결과에서 결과 보도자료 없음.
+- 권장 조치: 여름(7~8월) 확인 예정.
+
+**3. NUVL — GSK의 Nuvalent 인수 ($10.6B, 2026-06-09)**
+- 내용: GSK가 Nuvalent 전체 인수 합의 발표 (neladalkib + zidesamtinib 둘 다 획득)
+- 스킵 이유: 기업 이벤트(M&A)로 카탈리스트(임상/규제)가 아님. NUVL 회사 파일 업데이트 필요할 수 있음.
+- 권장 조치: data/companies/NUVL.md에 GSK 인수 딜 메모 추가 고려. 승인 완료 시 ticker가 NUVL→GSK로 통합될 수 있어 주의.
+- 출처: endpoints.news/gsk-to-acquire-nuvalent-and-its-two-cancer-drugs-under-fda-review-for-10-6b/
+
+**4. LLY — ACHIEVE Phase 3 T2D (Foundayo 오르포글리프론 당뇨) ADA 2026 발표 (2026-06-08)**
+- 내용: ACHIEVE 3개 Phase 3 시험에서 Foundayo가 T2D에서 oral semaglutide 대비 우월성 확인 (ADA 86차 Scientific Sessions). ACHIEVE-3: Foundayo > oral semaglutide.
+- 스킵 이유: NCT 번호 미검증. 비만 NDA는 이미 승인됐으나 T2D는 별도 NDA 예정. 신규 catalysts.md 항목 추가에는 NCT 4가지 기준 확인 필요.
+- 권장 조치: investor.lilly.com에서 ACHIEVE 시험 NCT 번호 확인 후 카탈리스트 추가 여부 결정.
+- 출처: investor.lilly.com (IR)
+
+**5. LLY — 레타트루타이드 Phase 3 (TRIUMPH-1, TRANSCEND-T2D-1) ADA 2026 발표 (2026-06-08)**
+- 내용: 리타트루타이드(GLP-1/GIP/글루카곤 삼중작용제) Phase 3 데이터 발표. 체중감소 + A1C + 무릎 골관절염 통증 + 폐쇄성 수면무호흡 개선.
+- 스킵 이유: 현재 추적 중인 LLY catalysts에 없는 신규 약물. NCT 검증 필요.
+- 권장 조치: investor.lilly.com IR에서 NCT 번호 확인 후 추가 여부 결정. Phase 3이므로 등록 가치 높음.
+- 출처: investor.lilly.com (IR) + biospace.com
+
+**6. IMNM — Varegacestat NDA PDUFA 날짜**
+- 내용: NDA 2026-04-29 제출됨. FDA 접수·PDUFA 날짜 아직 미확인.
+- 스킵 이유: 공식 IR에서 PDUFA 날짜 확인 불가. FDA acceptance letter 미확인.
+- 권장 조치: investors.immunome.com에서 NDA acceptance 보도자료 확인 후 PDUFA 날짜 등록.

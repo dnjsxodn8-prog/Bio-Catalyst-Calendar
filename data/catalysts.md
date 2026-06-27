@@ -472,6 +472,11 @@ events:
     phase: Phase 1
     sources:
       - https://ir.wavelifesciences.com/news-releases/news-release-details/wave-life-sciences-announces-positive-interim-phase-1-data
+    outcome: met
+    outcome_date: 2026-06-24
+    result: "Phase 1 INLIGHT 완료 → Phase 2a 개시(2026-06-24). 단회 투여 후 총·내장 지방 감소 + 제지방량 유지(GLP-1 유사 효과, 근손실 없음). 선형 PK·내약성 확인. Phase 2a(다회투여, 플라세보 대조, BMI 35-50, 미국+유럽) 개시."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/24/3316827/0/en/Wave-Life-Sciences-Announces-Initiation-of-Phase-2a-Portion-of-INLIGHT-Trial-of-WVE-007-INHBE-GalNAc-siRNA-for-Obesity-and-Cardiometabolic-Diseases.html
   - date: 2026-06-30
     ticker: MBX
     event: Canvuparatide Phase 2 1-yr (Q2 2026 학회 발표 예정)
@@ -569,6 +574,12 @@ events:
     sources:
       - https://ir.ionis.com/news-releases/news-release-details/olezarsen-snda-accepted-fda-priority-review-treatment-severe
       - https://www.businesswire.com/news/home/20260226109569/en/Olezarsen-sNDA-accepted-by-the-FDA-for-Priority-Review-for-the-treatment-of-severe-hypertriglyceridemia-sHTG
+    outcome: approved
+    outcome_date: 2026-06-24
+    result: "FDA 승인(PDUFA 6일 조기) — TRYNGOLZA® 최초 sHTG 급성 췌장염 위험 감소 치료제. CORE/CORE2 3상: TG 72% 감소(vs 위약, 6개월), 급성 췌장염 85% 감소(p=0.0002), TG<500 mg/dL 달성 86%(12개월). 50mg/80mg 월 1회 autoinjector."
+    outcome_sources:
+      - https://www.businesswire.com/news/home/20260624119051/en/TRYNGOLZA-olezarsen-approved-by-the-FDA-as-the-first-and-only-treatment-to-reduce-triglycerides-and-the-risk-of-acute-pancreatitis-in-patients-with-severe-hypertriglyceridemia-sHTG
+      - https://ir.ionis.com/news-releases/news-release-details/tryngolzar-olezarsen-approved-fda-first-and-only-treatment
   - date: 2026-07-07
     ticker: VERA
     event: Atacicept IgAN BLA PDUFA (가속승인)
@@ -842,6 +853,11 @@ events:
     moa: "IV 항-IGF-1R 단클론항체. 안와 섬유모세포 IGF-1R 신호 차단 → 염증·돌출·복시 감소"
     sources:
       - https://investors.viridiantherapeutics.com/news/news-details/2025/Viridian-Therapeutics-Announces-BLA-Acceptance-and-Priority-Review-for-Veligrotug-for-the-Treatment-of-Thyroid-Eye-Disease/default.aspx
+    outcome: approved
+    outcome_date: 2026-06-25
+    result: "FDA 승인(PDUFA 5일 조기) — Lumvoa™(veligrotug-vvze) TED 치료제(active + chronic). THRIVE-2 3상(만성 TED): 15주 PRR 56%(위약보정 48%, p<0.0001), 복시 반응율 56%(위약보정 31%, p=0.0006), 전체반응 56% vs 7%(p<0.0001). AE 청력이상 12.8% vs 3.2%."
+    outcome_sources:
+      - https://www.businesswire.com/news/home/20260625016249/en/Viridian-Therapeutics-Announces-U.S.-FDA-Approval-and-Launch-of-Lumvoa-veligrotug-vvze-for-the-Treatment-of-Thyroid-Eye-Disease
   - date: 2026-07-17
     ticker: CELC
     event: Gedatolisib NDA PDUFA (PIK3CA wild-type HR+/HER2- 유방암, RTOR + Priority Review)
@@ -882,6 +898,19 @@ events:
     moa: "PD-1 × VEGF 이중특이항체. EGFR TKI 내성 후 종양미세환경 면역활성화 + 혈관신생 억제 동시"
     sources:
       - https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx
+  - date: 2026-11-27
+    ticker: NUVL
+    event: Neladalkib ALK+ NSCLC NDA PDUFA (2L+ TKI pre-treated, ALKOVE-1 데이터, Priority Review + BTD)
+    type: PDUFA
+    company: Nuvalent
+    drug: Neladalkib
+    indication: TKI Pre-treated ALK+ NSCLC
+    phase: NDA
+    trialDesign: "ALKOVE-1 Phase 1/2 global (n=253): TKI pre-treated ALK+ NSCLC ORR 31%(lorlatinib 경험군), 46%(lorlatinib naive)"
+    targetDisease: "Advanced ALK+ NSCLC. 1·2세대 TKI 후 lorlatinib 내성 변이(G1202R 등) 출현 시 표준치료 한계."
+    moa: "ALK 선택적, TRK-sparing 3세대 TKI. 뇌전이 침투 + 내성 변이 커버"
+    sources:
+      - https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC
   - date: 2026-05-18
     ticker: INSM
     event: "ARIKAYCE ENCORE Phase 3b ATS 2026 late-breaker poster (Positive — 6개월 배양음전 87.8% vs 57.0%, p<0.0001; sNDA 2H 2026 제출 예정)"
