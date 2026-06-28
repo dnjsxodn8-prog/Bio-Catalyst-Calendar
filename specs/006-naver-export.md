@@ -6,6 +6,8 @@
 **선행:** spec 001 (data layer), spec 002 (UI)
 **참조:** spec 005 §3 (`/import-naver` 보류 — 본 spec과 방향 반대. 같은 `naver` 단어를 쓰지만 데이터 흐름은 정반대라 이름 분리)
 
+> **2026-06-28 개편 (rev 2):** 출력 형식을 "요약 표 + 카탈리스트별 기업/임상/약물 상세 섹션"에서 **카드뉴스 형식**으로 전면 교체. 카탈리스트 1건 = 카드 1장(날짜·종류 배지, 종목·기업, 약물, 적응증·phase, `▶ 관전 포인트`). 관전 포인트는 `data/catalysts.md`의 신규 `blogNote` 필드(음슴체 주관 분석)에서 옴 — 텔레그램(`/export-telegram`)과 같은 필드를 공유하는 미러 채널. `blogNote`는 공개 사이트 데이터(`public-data.generated.json`)에서 제외(build-data FORBIDDEN 가드). 아래 §본문의 "3개 SectionBox 그대로 옮김"·요약 표 관련 기술은 폐기됨.
+
 ---
 
 ## 0. 목적

@@ -4,7 +4,7 @@ title: Export to Telegram
 status: Draft
 author: dnjsxodn8
 created: 2026-04-29
-revised: 2026-04-29 — rev 2 (detail 메시지 추가, catalysts.md schema 4필드 확장)
+revised: 2026-06-28 — rev 3 (단일 digest 메시지로 통일, 네이버 카드뉴스와 blogNote 공유)
 related:
   - specs/001-data-layer.md
   - .claude/skills/update/SKILL.md
@@ -17,11 +17,9 @@ related:
 
 `/update`로 일요일에 카탈리스트를 갱신하고, `/export-naver`(미래 spec)로 네이버 블로그에 자세한 분석을 올린다. 그 직후 텔레그램 채널/그룹에 봇이 자동 발송한다.
 
-Telegram은 두 층으로 보낸다:
-- **Summary 1통** — 전체 카탈리스트 한 줄 리스트 + blog URL
-- **Detail N통** — 이벤트당 1통, 4개 섹션(카탈리스트·기업·임상·약물)
-
 데이터는 `catalysts.md` + `companies/*.md`에서 끌어온다. 코드는 깡통.
+
+> **2026-06-28 개편 (rev 3):** 아래의 "Summary 1통 + Detail N통(4섹션)" 다통 형식은 **폐기**. 네이버 카드뉴스(`/export-naver`)와 같은 수준의 **단일 digest 메시지 하나**로 통일한다. 이벤트마다 3줄(① 종류 배지 + 날짜 + 종목·기업, ② `💊 약물 / 적응증 (phase)`, ③ `▶ 관전 포인트` = `catalysts.md` `blogNote`). 헤더에 사이트 링크, 푸터에 "블로그에도 정리해뒀음 + blog URL". 한 통이 4096자를 넘을 때만 이벤트 경계에서 자동 분할(SAFE_LIMIT 3900, 보통 1통). `blogNote`는 네이버 export와 공유하는 단일 필드이며 공개 사이트 데이터에선 제외(build-data FORBIDDEN). 텔레그램·블로그는 같은 내용을 공유하는 미러 채널 — closing은 "자세한 내용은 블로그에서"가 아니라 "블로그에도 정리해뒀음"으로 솔직하게. 이하 rev 2 본문(detail 4섹션·summary 5건 분할 등)은 역사 기록용으로만 남김.
 
 ## 1. 목표
 

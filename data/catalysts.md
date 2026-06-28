@@ -421,6 +421,7 @@ events:
     ticker: LNTH
     event: LNTH-2501 Ga-68 NET PDUFA
     type: PDUFA
+    blogNote: "6월 26일에 FDA가 보완요구서한을 보냈음. 효능이나 안전성 문제가 아니라 외부 위탁 제조시설이 걸렸음. 앞서 3개월 미뤘다가 또 막힌 거라 출시가 더 늦어지는데 제조 문제를 얼마나 빨리 푸느냐가 관건임."
     company: Lantheus
     drug: Ga-68 edotreotide
     indication: NET PET
@@ -437,6 +438,7 @@ events:
     ticker: SYRE
     event: SPY002 Part A SKYLINE Phase 2 UC readout (mid-2026, SPY001 Part A 2026-04-13 positive 완료)
     type: Clinical Readout
+    blogNote: "궤양성 대장염 2상 SPY002가 1차 목표를 달성했음. 반감기를 늘려서 분기에 한 번 맞는 걸 노림. 앞선 SPY001에 이은 두 번째 성공이라 파이프라인 신뢰가 쌓이고 있음."
     company: Spyre
     drug: SPY002
     indication: Ulcerative Colitis
@@ -452,6 +454,7 @@ events:
     ticker: VRDN
     event: VRDN-003 (elegrobart) REVEAL-2 Phase 3 chronic TED readout (Q2 2026, REVEAL-1 active TED 2026-03 positive 완료)
     type: Clinical Readout
+    blogNote: "만성 갑상선안병증 3상에서 1차와 주요 2차 목표를 모두 달성했음. 피하주사라 정맥주사인 기존 약보다 편함. 활동성 임상과 합쳐서 2027년 1분기에 허가 신청을 낼 계획임."
     company: Viridian
     drug: VRDN-003 (elegrobart)
     indication: Chronic TED
@@ -467,6 +470,7 @@ events:
     ticker: WVE
     event: WVE-007 Phase 1 비만 (400mg 코호트 6개월 + 600mg 코호트 3개월 데이터)
     type: Clinical Readout
+    blogNote: "1상을 마치고 6월 24일에 2a상을 시작했음. INHBE를 겨냥한 siRNA로 근육 손실 없이 지방을 줄이는 걸 노림. 2a상의 반복 투여 데이터가 다음 분수령임."
     company: Wave Life
     drug: WVE-007
     indication: Obesity
@@ -482,6 +486,7 @@ events:
     ticker: MBX
     event: Canvuparatide Phase 2 1-yr (Q2 2026 학회 발표 예정)
     type: Clinical Readout
+    blogNote: "2상 1년 데이터에서 복합 지표를 위약 31%인데 63%로 달성했음. 일주일에 한 번 맞는 부갑상선호르몬 대체요법임. 3상은 3분기에 시작할 예정이고 경쟁약과 어떻게 차별화하느냐가 관전 포인트임."
     company: MBX
     drug: Canvuparatide
     indication: Hypoparathyroidism
@@ -497,6 +502,7 @@ events:
     ticker: EVMN
     event: EVO756 CSU Phase 2 data (Phase 2b topline 상반기 예정)
     type: Clinical Readout
+    blogNote: "먹는 약 EVO756의 만성 두드러기 2상 결과가 상반기에 나올 예정인데 아직 발표 전임. 항히스타민이 안 듣는 환자에게 먹는 선택지가 마땅치 않아서 첫 효능 데이터가 분수령이 됨."
     company: Evommune
     drug: EVO756
     indication: CSU
@@ -543,6 +549,7 @@ events:
     ticker: SION
     event: CFTR stabilizer Phase 2 (+ Trikafta) (PreciSION CF 등록 완료 2026-04-27, 여름 데이터 예정)
     type: Clinical Readout
+    blogNote: "SION-719의 낭포성 섬유증 2상 데이터가 여름에 나올 예정인데 아직 발표 전임. 기존 표준약 트리카프타에 얹어서 폐기능이 더 좋아진다면 버텍스가 독점하던 시장에 틈이 생김."
     company: Sionna
     drug: SION-719
     indication: CF
@@ -553,6 +560,7 @@ events:
     ticker: IDYA
     event: Darovasertib Phase 3 data (OptimUM-02 완전 데이터 ASCO 2026 LBA 발표 예정 — 2026-05-30)
     type: Clinical Readout
+    blogNote: "포도막흑색종 1차 치료 임상이 목표를 달성했음. 무진행 생존이 3.1개월에서 6.9개월로 늘었음. ASCO에서 전체 데이터도 공개했고 하반기에 신약 신청을 낼 계획임. 이 분야 첫 표적치료가 될 수 있을지가 관심사임."
     company: IDEAYA
     drug: Darovasertib
     indication: MUM
@@ -568,6 +576,7 @@ events:
     ticker: IONS
     event: Olezarsen 중증 HTG sNDA PDUFA
     type: PDUFA
+    blogNote: "6월 24일에 FDA 승인을 받았음(제품명 TRYNGOLZA). 중증 고중성지방혈증의 첫 표적치료제로 중성지방을 72% 낮췄음. 이제는 처방이 얼마나 빨리 퍼지고 매출이 오르느냐가 관건임."
     company: Ionis
     drug: Olezarsen
     indication: Severe Hypertriglyceridemia
@@ -853,6 +862,7 @@ events:
     ticker: ABVX
     event: Obefazimod ABTECT Maintenance Phase 3 (44주) topline readout (Q2 2026 말 예정)
     type: Clinical Readout
+    blogNote: "효능은 같은 계열에서 가장 좋았음. 임상 관해율이 위약 10%인데 51%였음. 그런데 고용량 그룹에서 암이 7건 몰려 나오면서 발표 당일 주가가 44% 빠졌음. 회사는 고령 환자라 약과는 무관하다고 보지만 FDA가 이 안전성 신호를 어떻게 받아들일지가 핵심임. 연말에 신약 신청을 낼 예정임."
     company: Abivax
     drug: Obefazimod
     indication: Ulcerative Colitis
@@ -874,6 +884,7 @@ events:
     ticker: VRDN
     event: Veligrotug (VRDN-001) TED BLA PDUFA (active + chronic, IV IGF-1R 항체)
     type: PDUFA
+    blogNote: "6월 25일에 FDA 승인을 받았음(제품명 Lumvoa). 암젠의 테페자가 독점하던 갑상선안병증 시장에 첫 경쟁자로 들어감. 초반 점유율을 얼마나 가져갈지, 그리고 곧 나올 자사 피하주사 약과 시장이 겹치지 않을지가 관건임."
     company: Viridian
     drug: Veligrotug (VRDN-001)
     indication: Thyroid Eye Disease (active + chronic)
@@ -2027,6 +2038,7 @@ events:
     ticker: ARQT
     event: ZORYVE(roflumilast) 크림 0.3% 소아 판상건선(2~5세) 적응증 확대 sNDA PDUFA
     type: PDUFA
+    blogNote: "ZORYVE는 이미 6세 이상에서 승인된 검증된 바르는 약임. 이번엔 2세에서 5세까지 나이를 넓히는 거라 새 효능을 증명하는 게 아니어서 승인 가능성이 높게 점쳐짐. 소아 시장을 얼마나 더 가져가느냐가 관전 포인트임."
     company: Arcutis Biotherapeutics
     drug: ZORYVE (roflumilast) cream 0.3%
     indication: Plaque psoriasis in children ages 2 to 5
@@ -2409,6 +2421,7 @@ events:
     ticker: RVMD
     event: "ESMO GI 2026 — zoldonrasib(G12D)+daraxonrasib 췌장암 콤보 oral 2건"
     type: Conference
+    blogNote: "ESMO GI 학회에서 RAS 억제제 두 개를 합친 췌장암 데이터를 공개함. 그중 daraxonrasib는 이미 단독으로 생존기간을 두 배로 늘린 적이 있어서(6.7개월에서 13.2개월) 병용이 성적을 더 끌어올릴 수 있을지가 관전 포인트임."
     company: Revolution Medicines
     drug: Zoldonrasib + Daraxonrasib
     indication: Metastatic Pancreatic Cancer (RAS G12D)
