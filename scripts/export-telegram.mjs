@@ -1,9 +1,9 @@
 // scripts/export-telegram.mjs
-// /export-telegram <blog_url> [--dry-run] [--since=<git-ref>] [--summary-only]
+// /export-telegram <blog_url> [--from=YYYY-MM-DD --to=YYYY-MM-DD] [--dry-run] ...
 //
-// 직전 /update에서 data/catalysts.md에 추가된 events를 Telegram으로 발송.
-// Summary 1+통 (전체 한 줄 요약 + blog link) + 이벤트당 detail 1통 (4 섹션).
-// 자세한 사양은 specs/007-export-telegram.md.
+// 지정한 날짜 범위의 catalysts.md events를 Telegram 단일 메시지로 발송.
+// 네이버 카드뉴스와 같은 수준: 이벤트마다 날짜·종류·종목·약물·적응증·phase + 관전 포인트(blogNote).
+// 한 통이 4096자를 넘으면 이벤트 경계에서만 자동 분할(보통 1통). 사양: specs/007-export-telegram.md.
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -15,6 +15,20 @@ import yaml from 'yaml';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const SLEEP_MS = 200;
+const TG_LIMIT = 4096;
+const SAFE_LIMIT = 3900; // 분할 임계치(여유분 확보).
+
+const SITE_URL = 'https://biotechcatalystcalendar.vercel.app/?v=1';
+const DOW = ['일', '월', '화', '수', '목', '금', '토'];
+
+// 카탈리스트 종류 → 이모지 + 한국어 라벨 (네이버 카드 색상 띠와 대응).
+const TYPE_LABEL = {
+  PDUFA: '🔴 PDUFA',
+  'Clinical Readout': '🟠 임상 결과',
+  Conference: '🔵 학회 발표',
+  Earnings: '⚪ 실적',
+  Regulatory: '🟢 규제',
+};
 
 // ─── env ────────────────────────────────────────────────
 async function loadDotEnv() {
@@ -36,11 +50,10 @@ async function loadDotEnv() {
 
 // ─── args ───────────────────────────────────────────────
 function parseArgs(argv) {
-  const args = { blogUrl: null, dryRun: false, since: 'HEAD', summaryOnly: false, days: null, from: null, to: null, tickers: null, closingNote: null };
+  const args = { blogUrl: null, dryRun: false, since: 'HEAD', days: null, from: null, to: null, tickers: null, closingNote: null };
   const ymdRe = /^\d{4}-\d{2}-\d{2}$/;
   for (const a of argv.slice(2)) {
     if (a === '--dry-run') args.dryRun = true;
-    else if (a === '--summary-only') args.summaryOnly = true;
     else if (a.startsWith('--since=')) args.since = a.slice('--since='.length);
     else if (a.startsWith('--days=')) {
       const n = parseInt(a.slice('--days='.length), 10);
@@ -69,7 +82,7 @@ function parseArgs(argv) {
     else throw new Error(`알 수 없는 인자: ${a}`);
   }
   if (!args.blogUrl) {
-    throw new Error('blog_url 인자 필요. 사용법: node scripts/export-telegram.mjs <blog_url> [--dry-run] [--since=<ref>] [--summary-only] [--days=N] [--from=YYYY-MM-DD --to=YYYY-MM-DD] [--tickers=A,B,C]');
+    throw new Error('blog_url 인자 필요. 사용법: node scripts/export-telegram.mjs <blog_url> [--dry-run] [--from=YYYY-MM-DD --to=YYYY-MM-DD] [--since=<ref>] [--days=N] [--tickers=A,B,C]');
   }
   if ((args.from && !args.to) || (!args.from && args.to)) {
     throw new Error('--from / --to는 함께 사용해야 함');
@@ -91,7 +104,7 @@ function addDaysYMD(ymd, days) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-// ─── catalysts diff ─────────────────────────────────────
+// ─── catalysts diff (보조 --since 모드) ──────────────────
 function parseEventsFromRaw(raw) {
   const m = raw.match(/```yaml\r?\n([\s\S]*?)```/);
   if (!m) return [];
@@ -116,204 +129,93 @@ function findAddedEvents(current, previous) {
   return current.filter(e => !prev.has(eventKey(e)));
 }
 
-// ─── company loader ─────────────────────────────────────
+// ─── company name loader (카드 헤더용) ───────────────────
 const companyCache = new Map();
 
-async function loadCompany(ticker) {
+async function loadCompanyName(ticker) {
   if (companyCache.has(ticker)) return companyCache.get(ticker);
-  const filePath = path.join(ROOT, 'data/companies', `${ticker}.md`);
-  let data = null;
+  let name = null;
   try {
-    const raw = await fs.readFile(filePath, 'utf8');
-    const { data: fm, content: body } = matter(raw);
-    data = {
-      ...fm,
-      overview: extractOverview(body),
-      moaFallback: extractMoa(body),
-    };
+    const raw = await fs.readFile(path.join(ROOT, 'data/companies', `${ticker}.md`), 'utf8');
+    const { data: fm } = matter(raw);
+    name = fm?.company ?? null;
   } catch (e) {
     if (e.code !== 'ENOENT') throw e;
   }
-  companyCache.set(ticker, data);
-  return data;
-}
-
-function extractOverview(body) {
-  const lines = body.split(/\r?\n/);
-  let inSection = false;
-  const buf = [];
-  for (const line of lines) {
-    if (/^##\s+회사 개요\s*$/.test(line)) { inSection = true; continue; }
-    if (!inSection) continue;
-    if (/^##\s/.test(line)) break;
-    if (line.trim() === '') {
-      if (buf.length === 0) continue;
-      break;
-    }
-    buf.push(line.trim());
-  }
-  return buf.join(' ').trim() || null;
-}
-
-// `## MOA` 섹션에서 핵심 1줄 추출. 우선순위:
-//   1. `- 기전: <text>` 줄의 <text>
-//   2. 첫 비어있지 않은 content 줄
-function extractMoa(body) {
-  const lines = body.split(/\r?\n/);
-  let inSection = false;
-  let firstContent = null;
-  for (const line of lines) {
-    if (/^##\s+MOA\s*$/i.test(line)) { inSection = true; continue; }
-    if (!inSection) continue;
-    if (/^##\s/.test(line)) break;
-    const m = line.match(/^\s*-?\s*기전\s*:\s*(.+)$/);
-    if (m) return m[1].trim();
-    if (line.trim() && !firstContent) {
-      firstContent = line.replace(/^\s*-\s*/, '').trim();
-    }
-  }
-  return firstContent;
+  companyCache.set(ticker, name);
+  return name;
 }
 
 // ─── formatters ─────────────────────────────────────────
-function fmtMcap(mcap) {
-  if (typeof mcap !== 'number' || !Number.isFinite(mcap)) return '?';
-  if (mcap >= 1000) {
-    const v = mcap / 1000;
-    return `$${Number.isInteger(v) ? v : v.toFixed(1)}B`;
-  }
-  return `$${mcap}M`;
-}
-
 function fmtDateShort(d) {
   const m = String(d).match(/^(\d{4})-(\d{2})-(\d{2})/);
   if (!m) return String(d);
   return `${parseInt(m[2], 10)}/${parseInt(m[3], 10)}`;
 }
 
-function typeShort(type, phase) {
-  switch (type) {
-    case 'PDUFA': return 'PDUFA';
-    case 'Clinical Readout': return phase ? `${phase} readout` : 'readout';
-    case 'Conference': return '발표';
-    case 'Earnings': return '실적';
-    case 'Regulatory': return '규제';
-    default: return String(type ?? '');
-  }
+function dowOf(d) {
+  const m = String(d).match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return '';
+  return DOW[new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])).getUTCDay()];
 }
 
-function rankSource(url) {
-  if (!url) return 99;
-  let u;
-  try { u = new URL(url); } catch { return 99; }
-  const h = u.hostname.toLowerCase();
-  const p = u.pathname.toLowerCase();
-  if (h.includes('fda.gov') || h.includes('ema.europa.eu')) return 1;
-  if (h.includes('sec.gov')) return 2;
-  if (/^investor\./.test(h) || /\/(news|press|ir)/.test(p)) return 3;
-  if (/(reuters|fiercebiotech|endpts|biopharmadive|statnews|nature)\.com$/.test(h)) return 4;
-  return 5;
+// ─── 단일 digest 메시지 ──────────────────────────────────
+function buildEventBlock(e) {
+  const tl = TYPE_LABEL[e.type] || String(e.type ?? '');
+  const company = companyCache.get(e.ticker);
+  const comp = company ? ` (${company})` : '';
+  const l1 = `${tl}  ${fmtDateShort(e.date)}(${dowOf(e.date)})  ${e.ticker}${comp}`;
+  const ind = e.indication ? ` / ${e.indication}` : '';
+  const ph = e.phase ? ` (${e.phase})` : '';
+  const l2 = `💊 ${e.drug ?? '?'}${ind}${ph}`;
+  const note = e.blogNote ? `\n▶ ${String(e.blogNote).trim()}` : '';
+  return `${l1}\n${l2}${note}`;
 }
 
-function pickPrimarySource(sources) {
-  if (!Array.isArray(sources) || sources.length === 0) return null;
-  return [...sources].sort((a, b) => rankSource(a) - rankSource(b))[0];
-}
-
-function extractNctId(url) {
-  const m = String(url).match(/NCT\d+/i);
-  return m ? m[0].toUpperCase() : null;
-}
-
-// ─── messages ───────────────────────────────────────────
-function buildSummary(events) {
+function buildHeader(events) {
   const dates = events.map(e => e.date).filter(Boolean).sort();
-  const range = dates.length > 0
-    ? `${fmtDateShort(dates[0])} - ${fmtDateShort(dates[dates.length - 1])}`
+  const range = dates.length
+    ? `${fmtDateShort(dates[0])}~${fmtDateShort(dates[dates.length - 1])}`
     : '';
-
-  const chunks = [];
-  for (let i = 0; i < events.length; i += 5) chunks.push(events.slice(i, i + 5));
-
-  return chunks.map((chunk, idx) => {
-    const head = idx === 0
-      ? `🧬 이번 주 Bio Catalyst (${range})`
-      : `🧬 이번 주 Bio Catalyst (이어서)`;
-    const lines = chunk.map(e => {
-      const c = companyCache.get(e.ticker);
-      const mcap = fmtMcap(c?.mcap);
-      const ts = typeShort(e.type, e.phase);
-      return `• ${e.ticker} (${mcap}) — ${fmtDateShort(e.date)} ${ts}: ${e.drug ?? '?'} (${e.indication ?? '?'})`;
-    });
-    return `${head}\n\n${lines.join('\n')}`;
-  });
+  return `🧬 이번 주 Bio Catalyst (${range}), ${events.length}건\n${SITE_URL}`;
 }
 
-function buildIntro() {
-  return [
-    '🧬 Bio Catalyst Calendar',
-    'https://biotechcatalystcalendar.vercel.app/?v=1',
-    '',
-    '미국 biotech ($100M+) 와 Big Pharma의 임상 카탈리스트(PDUFA, 임상 readout, 학회 발표)를 한 곳에서 추적하는 사이트입니다.',
-    '',
-    '간단히 정리해서 텔레그램 봇을 통해 매주 메시지 발송하고, 자세한 분석 자료는(제 주관 따라 기업 선정) 블로그에 올릴 듯합니다.',
-  ].join('\n');
+function buildFooter(blogUrl, note) {
+  const prefix = note ? `${note}` : '📝 블로그에도 정리해뒀음';
+  return `${prefix}\n${blogUrl}`;
 }
 
-function buildClosing(blogUrl, note) {
-  const prefix = note ? `${note}\n` : '';
-  return `${prefix}자세한 내용은 블로그 참고해 주세요!\n${blogUrl}`;
-}
+// 이벤트 블록들을 4096자 한도 안에서 메시지로 묶음. 보통 1통.
+// header는 첫 통에만, footer는 마지막 통에 붙임(넘치면 footer 단독 통).
+function buildMessages(events, blogUrl, closingNote) {
+  const header = buildHeader(events);
+  const footer = buildFooter(blogUrl, closingNote);
+  const blocks = events.map(buildEventBlock);
 
-function buildDetail(event) {
-  if (!Array.isArray(event.sources) || event.sources.length === 0) {
-    return { skip: true, reason: 'sources 없음' };
+  const messages = [];
+  let cur = header;
+  for (const b of blocks) {
+    const candidate = `${cur}\n\n${b}`;
+    if ([...candidate].length > SAFE_LIMIT) {
+      messages.push(cur);
+      cur = b;
+    } else {
+      cur = candidate;
+    }
   }
-  const c = companyCache.get(event.ticker);
-  const primary = pickPrimarySource(event.sources);
-  const ts = typeShort(event.type, event.phase);
-  const dateShort = fmtDateShort(event.date);
-
-  const sections = [];
-
-  // Header
-  sections.push(`🧬 ${event.ticker} — ${event.drug ?? '?'} ${ts} (${dateShort})`);
-
-  // §1 카탈리스트
-  const sec1 = ['📌 카탈리스트'];
-  sec1.push(`${event.drug ?? '?'} / ${event.phase ?? '?'} / ${dateShort} ${ts}`);
-  sec1.push(`출처 → ${primary}`);
-  sections.push(sec1.join('\n'));
-
-  // §2 기업 개요
-  if (c?.overview) {
-    const sec2 = [`🏢 기업 개요 (${fmtMcap(c?.mcap)})`];
-    sec2.push(c.overview);
-    sections.push(sec2.join('\n'));
+  // footer 붙이기
+  const withFooter = `${cur}\n\n${footer}`;
+  if ([...withFooter].length > TG_LIMIT) {
+    messages.push(cur);
+    messages.push(footer);
+  } else {
+    messages.push(withFooter);
   }
-
-  // §3 임상 정보
-  const sec3 = [];
-  if (event.trialDesign) sec3.push(String(event.trialDesign).trim());
-  if (event.targetDisease) sec3.push(`적응증: ${String(event.targetDisease).trim()}`);
-  if (event.priorTrialUrl) {
-    const nct = extractNctId(event.priorTrialUrl);
-    sec3.push(`사전 공개: ${nct ?? event.priorTrialUrl}`);
-  }
-  if (sec3.length > 0) sections.push(['🧪 임상 정보', ...sec3].join('\n'));
-
-  // §4 약물 정보 (MoA: event.moa 우선, 없으면 companies md `## MOA` 기전 line)
-  const sec4 = [];
-  if (c?.modality) sec4.push(`Modality: ${c.modality}`);
-  const moa = event.moa ?? c?.moaFallback;
-  if (moa) sec4.push(`MoA: ${String(moa).trim()}`);
-  if (sec4.length > 0) sections.push(['💊 약물 정보', ...sec4].join('\n'));
-
-  return { skip: false, text: sections.join('\n\n').trimEnd() };
+  return messages;
 }
 
 // ─── send ───────────────────────────────────────────────
-async function sendMessage(text, enablePreview = false) {
+async function sendMessage(text) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chatId) {
@@ -323,11 +225,7 @@ async function sendMessage(text, enablePreview = false) {
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      chat_id: chatId,
-      text,
-      disable_web_page_preview: !enablePreview,
-    }),
+    body: JSON.stringify({ chat_id: chatId, text, disable_web_page_preview: true }),
   });
   if (!res.ok) {
     const body = await res.text().catch(() => '');
@@ -346,113 +244,66 @@ async function main() {
   const current = parseEventsFromRaw(currentRaw);
 
   let added;
-
   if (args.from && args.to) {
-    // 명시적 날짜 범위 모드: git diff 무시, catalysts.md에서 [from, to] 윈도우의 events만
     added = current
       .filter(e => typeof e.date === 'string' && e.date >= args.from && e.date <= args.to)
       .sort((a, b) => a.date.localeCompare(b.date) || a.ticker.localeCompare(b.ticker));
-    console.error(`📅 --from=${args.from} --to=${args.to} (date-range mode, git diff 미사용): ${added.length}건`);
-    if (added.length === 0) {
-      console.error(`⚠️  해당 기간 events 없음. 종료.`);
-      process.exit(0);
-    }
+    console.error(`📅 --from=${args.from} --to=${args.to} (date-range mode): ${added.length}건`);
+    if (added.length === 0) { console.error('⚠️  해당 기간 events 없음. 종료.'); process.exit(0); }
   } else {
-    // 기본 모드: git diff로 신규 events 추출
     const previous = getPreviousEvents(args.since);
     added = findAddedEvents(current, previous);
-
-    if (added.length === 0) {
-      console.error(`⚠️  ${args.since} 대비 추가된 events 없음. 종료.`);
-      process.exit(0);
-    }
-
-    // --days 필터: 오늘부터 N일 윈도우의 events만
+    if (added.length === 0) { console.error(`⚠️  ${args.since} 대비 추가된 events 없음. 종료.`); process.exit(0); }
     if (args.days != null) {
       const todayYmd = todayLocalYMD();
       const cutoffYmd = addDaysYMD(todayYmd, args.days);
       const before = added.length;
       added = added.filter(e => typeof e.date === 'string' && e.date >= todayYmd && e.date <= cutoffYmd);
       console.error(`📅 --days=${args.days} 필터 (${todayYmd} ~ ${cutoffYmd}): ${before}건 → ${added.length}건`);
-      if (added.length === 0) {
-        console.error(`⚠️  필터 후 남은 events 없음. 종료.`);
-        process.exit(0);
-      }
+      if (added.length === 0) { console.error('⚠️  필터 후 남은 events 없음. 종료.'); process.exit(0); }
     }
+    added.sort((a, b) => String(a.date).localeCompare(String(b.date)) || String(a.ticker).localeCompare(String(b.ticker)));
   }
 
-  // --tickers 필터: 위 모드 결과에 ticker whitelist 적용
   if (args.tickers) {
     const before = added.length;
     added = added.filter(e => args.tickers.has(String(e.ticker).toUpperCase()));
     console.error(`🎯 --tickers=${[...args.tickers].join(',')}: ${before}건 → ${added.length}건`);
-    if (added.length === 0) {
-      console.error(`⚠️  ticker 필터 후 남은 events 없음. 종료.`);
-      process.exit(0);
-    }
+    if (added.length === 0) { console.error('⚠️  ticker 필터 후 남은 events 없음. 종료.'); process.exit(0); }
   }
 
-  for (const e of added) await loadCompany(e.ticker);
+  for (const e of added) await loadCompanyName(e.ticker);
 
-  // 누락 필드 경고
+  // blogNote 누락 경고 (관전 포인트 줄이 빠짐).
   for (const e of added) {
-    const missing = [];
-    if (!e.trialDesign) missing.push('trialDesign');
-    if (!e.targetDisease) missing.push('targetDisease');
-    if (!e.priorTrialUrl) missing.push('priorTrialUrl');
-    if (!e.moa) missing.push('moa');
-    if (missing.length > 0) {
-      console.error(`⚠️  ${e.ticker} ${e.event}: 누락 [${missing.join(', ')}] → 해당 줄/섹션 자동 생략`);
-    }
+    if (!e.blogNote) console.error(`⚠️  ${e.ticker} ${e.date}: blogNote 없음 → 관전 포인트 줄 생략`);
   }
 
-  const summaryChunks = buildSummary(added);
-
-  const detailMessages = [];
-  if (!args.summaryOnly) {
-    for (const e of added) {
-      const d = buildDetail(e);
-      if (d.skip) {
-        console.error(`⚠️  ${e.ticker} ${e.event}: detail 스킵 (${d.reason})`);
-        continue;
-      }
-      detailMessages.push(d.text);
-    }
-  }
-
-  const intro = buildIntro();
-  const closing = buildClosing(args.blogUrl, args.closingNote);
-  const all = [
-    { text: intro, preview: true },
-    ...summaryChunks.map(t => ({ text: t, preview: false })),
-    ...detailMessages.map(t => ({ text: t, preview: false })),
-    { text: closing, preview: true },
-  ];
+  const messages = buildMessages(added, args.blogUrl, args.closingNote);
 
   if (args.dryRun) {
-    console.log(`\n=== DRY RUN — 총 ${all.length}통 ===\n`);
-    all.forEach((m, i) => {
-      const previewTag = m.preview ? ' [preview ON]' : '';
-      console.log(`--- [${i + 1}/${all.length}] (${m.text.length} chars)${previewTag} ---`);
-      console.log(m.text);
+    console.log(`\n=== DRY RUN — 총 ${messages.length}통 (events ${added.length}) ===\n`);
+    messages.forEach((m, i) => {
+      console.log(`--- [${i + 1}/${messages.length}] (${[...m].length} chars) ---`);
+      console.log(m);
       console.log();
     });
     return;
   }
 
-  console.log(`📤 발송: 총 ${all.length}통 (intro 1 + summary ${summaryChunks.length} + detail ${detailMessages.length} + closing 1)`);
-  for (let i = 0; i < all.length; i++) {
+  console.log(`📤 발송: 총 ${messages.length}통 (events ${added.length})`);
+  for (let i = 0; i < messages.length; i++) {
     try {
-      await sendMessage(all[i].text, all[i].preview);
-      console.log(`  ✓ [${i + 1}/${all.length}]`);
+      await sendMessage(messages[i]);
+      console.log(`  ✓ [${i + 1}/${messages.length}]`);
     } catch (err) {
-      console.error(`  ✗ [${i + 1}/${all.length}] 실패: ${err.message}`);
-      console.error(`  → 발송 ${i}통, 실패 시점 ${i + 1}, 미발송 ${all.length - i - 1}통`);
+      console.error(`  ✗ [${i + 1}/${messages.length}] 실패: ${err.message}`);
+      console.error(`  → 발송 ${i}통, 실패 시점 ${i + 1}, 미발송 ${messages.length - i - 1}통`);
       process.exit(1);
     }
-    if (i < all.length - 1) await sleep(SLEEP_MS);
+    if (i < messages.length - 1) await sleep(SLEEP_MS);
   }
-  console.log(`✅ 전체 발송 완료`);
+  console.log('✅ 전체 발송 완료');
 }
 
 main().catch(err => {

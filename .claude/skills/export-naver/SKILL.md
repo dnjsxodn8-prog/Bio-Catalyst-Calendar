@@ -1,11 +1,13 @@
 ---
 name: export-naver
-description: 오늘부터 +7일 이내 임박한 카탈리스트를 네이버 블로그용 HTML로 export. 상단 요약 표 + 카탈리스트별 기업 프로필·임상 정보·약물 정보 상세를 포함한 단일 HTML을 생성한다. 사용자가 브라우저에서 열어 전체선택→복사→네이버 SmartEditor에 paste하는 워크플로 전용. 인자 없음. 트리거 예: "/export-naver", "네이버 블로그용으로 export", "이번주 카탈리스트 블로그 글 만들어줘".
+description: 오늘부터 +7일 이내 임박한 카탈리스트를 네이버 블로그용 카드뉴스 HTML로 export. 카탈리스트 1건 = 카드 1장(날짜·종류 배지 + 종목·기업 + 약물 + 적응증·phase + 관전 포인트). 사용자가 브라우저에서 열어 전체선택→복사→네이버 SmartEditor에 paste하는 워크플로 전용. 인자 없음. 트리거 예: "/export-naver", "네이버 블로그용으로 export", "이번주 카탈리스트 블로그 글 만들어줘".
 ---
 
 # export-naver
 
-7일 임박 카탈리스트(today ~ today+7) + 각 카탈리스트의 기업·임상·약물 상세를 하나의 HTML 파일로 묶어 출력한다. 사용자가 그 HTML을 브라우저에서 열어 전체 복사 후 네이버 SmartEditor에 paste하면 굵기·헤딩·색·표가 보존된다.
+> 2026-06-28 개편: 기존 "요약 표 + 카탈리스트별 기업/임상/약물 상세 섹션" 긴 형식을 폐기하고 **카드뉴스 형식**으로 통일. 카탈리스트 1건 = 카드 1장: 날짜·종류 배지(색상 구분), 종목·기업명, 약물, 적응증·phase, 그리고 `▶ 관전 포인트`(catalysts.md `blogNote`, 음슴체 주관 분석). 텔레그램 단일 메시지(`/export-telegram`)와 **같은 `blogNote` 필드를 공유**하는 미러 채널.
+
+7일 임박 카탈리스트(today ~ today+7)를 카드뉴스 HTML로 묶어 출력한다. 사용자가 그 HTML을 브라우저에서 열어 전체 복사 후 네이버 SmartEditor에 paste하면 카드 레이아웃·색·배지가 보존된다. (SmartEditor가 CSS margin을 제거하므로 배지 사이 간격은 `&nbsp;`로 처리.)
 
 ## 인자
 
@@ -29,8 +31,8 @@ node scripts/build-naver-export.mjs
 
 스크립트 동작 (자세한 사양은 `specs/006-naver-export.md`):
 - catalyst 중 date in [today, today+7] 추출, (date asc, ticker asc) 정렬
-- 각 ticker → companies/{TICKER}.md 매칭
-- HTML 단일 파일 렌더링 (요약 표 + 카탈리스트별 상세)
+- 각 ticker → companies/{TICKER}.md 매칭 (기업명만 사용)
+- HTML 단일 파일 렌더링 (카탈리스트 1건 = 카드 1장, 인트로 + 카드 스택)
 - `data/imports/naver-export-{YYYY-MM-DD}.html` 출력
 
 ### 3. 결과 보고

@@ -1,6 +1,8 @@
 // scripts/build-naver-export.mjs
-// 오늘부터 +7일 카탈리스트를 Naver 블로그용 HTML로 export.
-// 인자 없음. 출력: data/imports/naver-export-{YYYY-MM-DD}.html
+// 오늘부터 +7일 카탈리스트를 Naver 블로그용 "카드뉴스" HTML로 export.
+// 카드 1장 = 카탈리스트 1건. 핵심 필드(날짜·종류·종목·기업·약물·적응증·phase)만 나열.
+// 인자: 없음(today~today+7) 또는 --from YYYY-MM-DD [--to YYYY-MM-DD].
+// 출력: data/imports/naver-export-{YYYY-MM-DD}.html
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -13,40 +15,21 @@ const OUT_DIR = path.join(ROOT, 'data/imports');
 
 const DAYS = 7;
 
-const PROFILE_FIELDS = [
-  { key: '회사 개요', label: '회사 개요' },
-  { key: '매출', label: '최근 매출' },
-  { key: '플랫폼', label: '핵심 기술' },
-  { key: '적응증', label: '적응증' },
-  { key: '파트너', label: '파트너' },
-  { key: '매출 구조', label: '매출 구조' },
-  { key: '자체 판매', label: '자체 판매' },
-  { key: '상업화 제품', label: '상업화 제품' },
-];
-
-const CLINICAL_FIELDS = [
-  { key: '임상 디자인', label: '임상 디자인' },
-  { key: '타겟 질환', label: '타겟 질환' },
-  { key: '기존 치료제', label: '기존 치료제 · 차별점' },
-  { key: '사전 공개 임상', label: '사전 공개 임상' },
-];
-
-const DRUG_FIELDS = [
-  { key: 'Modality', label: 'Modality' },
-  { key: 'MOA', label: '작용 기전 (MOA)' },
-  { key: '논문', label: '주요 논문 · 참고자료' },
-];
-
 const COLORS = {
-  profile: '#10b981',  // green
-  clinical: '#3b82f6', // blue
-  drug: '#8b5cf6',     // violet
   text: '#1f2937',
   muted: '#6b7280',
   border: '#e5e7eb',
-  bg: '#f9fafb',
-  bgHeader: '#f3f4f6',
+  ticker: '#10b981', // green
   link: '#2563eb',
+};
+
+// 카탈리스트 종류별 강조색 + 한국어 라벨 (카드 좌측 accent · 날짜 배지)
+const TYPE_STYLE = {
+  PDUFA: { color: '#dc2626', label: 'PDUFA' },
+  'Clinical Readout': { color: '#f59e0b', label: '임상 결과' },
+  Conference: { color: '#3b82f6', label: '학회 발표' },
+  Earnings: { color: '#6b7280', label: '실적' },
+  Regulatory: { color: '#0d9488', label: '규제' },
 };
 
 const DOW = ['일', '월', '화', '수', '목', '금', '토'];
@@ -106,40 +89,7 @@ function formatDateLong(input) {
   return `${formatYMD(t)} (${DOW[d.getUTCDay()]})`;
 }
 
-function formatMcap(mcap) {
-  if (typeof mcap !== 'number' || !Number.isFinite(mcap)) return '—';
-  if (mcap >= 1000) {
-    const b = mcap / 1000;
-    return b >= 100 ? `$${Math.round(b)}B` : `$${b.toFixed(1)}B`;
-  }
-  return `$${Math.round(mcap)}M`;
-}
-
-function isFilled(v) {
-  if (!v) return false;
-  const s = String(v).trim();
-  return s.length > 0 && s !== '정보 미입력';
-}
-
-// ─────────────────────── Modality 헤더 ───────────────────────
-
-function extractBoldHeader(text) {
-  if (!text) return null;
-  const firstLine = String(text).trim().split('\n')[0].trim();
-  const m = firstLine.match(/^\*\*([^*]+)\*\*$/);
-  return m ? m[1].trim() : null;
-}
-
-function stripBoldHeader(text) {
-  if (!text) return text;
-  const lines = String(text).split('\n');
-  if (lines[0] && /^\*\*[^*]+\*\*$/.test(lines[0].trim())) {
-    return lines.slice(1).join('\n').replace(/^\n+/, '');
-  }
-  return text;
-}
-
-// ─────────────────────── HTML 변환 ───────────────────────
+// ─────────────────────── HTML 헬퍼 ───────────────────────
 
 function escapeHtml(s) {
   return String(s)
@@ -148,117 +98,6 @@ function escapeHtml(s) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
-}
-
-const NCT_BASE = 'https://clinicaltrials.gov/study/';
-
-// inline 텍스트 → HTML (bold, links, NCT, naked URL)
-function renderInline(text) {
-  if (text == null) return '';
-  const s = String(text);
-  if (!s) return '';
-
-  // 토큰 단위로 분해. 우선순위: [text](url) > **bold** > naked URL > NCT
-  const PATTERN =
-    /(\[([^\]]+)\]\((https?:\/\/[^\s)]+)\))|(\*\*([^*]+)\*\*)|(https?:\/\/[^\s,)]+)|(NCT\d{6,9})/g;
-
-  let out = '';
-  let last = 0;
-  let m;
-  while ((m = PATTERN.exec(s)) !== null) {
-    if (m.index > last) out += escapeHtml(s.slice(last, m.index));
-    if (m[1]) {
-      out += `<a href="${escapeHtml(m[3])}" style="color:${COLORS.link};text-decoration:underline;">${escapeHtml(m[2])}</a>`;
-    } else if (m[4]) {
-      out += `<strong style="color:${COLORS.text};font-weight:700;">${renderInlineNCT(m[5])}</strong>`;
-    } else if (m[6]) {
-      out += `<a href="${escapeHtml(m[6])}" style="color:${COLORS.link};text-decoration:underline;word-break:break-all;">${escapeHtml(m[6])}</a>`;
-    } else if (m[7]) {
-      out += `<a href="${NCT_BASE}${m[7]}" style="color:${COLORS.link};text-decoration:underline;font-family:monospace;">${m[7]}</a>`;
-    }
-    last = PATTERN.lastIndex;
-  }
-  if (last < s.length) out += escapeHtml(s.slice(last));
-  return out;
-}
-
-function renderInlineNCT(text) {
-  // bold 안의 NCT만 별도 링크
-  const re = /NCT\d{6,9}/g;
-  let out = '';
-  let last = 0;
-  let m;
-  while ((m = re.exec(text)) !== null) {
-    if (m.index > last) out += escapeHtml(text.slice(last, m.index));
-    out += `<a href="${NCT_BASE}${m[0]}" style="color:${COLORS.link};text-decoration:underline;font-family:monospace;">${m[0]}</a>`;
-    last = re.lastIndex;
-  }
-  if (last < text.length) out += escapeHtml(text.slice(last));
-  return out;
-}
-
-// body 섹션 텍스트 → HTML 블록들
-function mdToHtml(text) {
-  if (!text) return '';
-  const s = String(text).trim();
-  if (!s) return '';
-
-  const blocks = s
-    .split(/\n\s*\n/)
-    .map((b) => b.split('\n').filter((l) => l !== ''))
-    .filter((b) => b.length);
-
-  const parts = [];
-  for (const lines of blocks) {
-    // 한 줄 + 전체 bold → sub-header
-    if (lines.length === 1 && /^\*\*[^*]+\*\*$/.test(lines[0].trim())) {
-      const inner = lines[0].trim().replace(/^\*\*|\*\*$/g, '');
-      parts.push(
-        `<div style="font-weight:700;color:${COLORS.clinical};margin:8px 0 4px 0;">${escapeHtml(inner)}</div>`,
-      );
-      continue;
-    }
-    // list
-    if (/^-\s+/.test(lines[0])) {
-      parts.push(renderListBlock(lines));
-      continue;
-    }
-    // 일반 단락
-    parts.push(
-      `<p style="margin:6px 0;line-height:1.6;color:${COLORS.text};">${renderInline(lines.join('<br>'))}</p>`,
-    );
-  }
-  return parts.join('\n');
-}
-
-function renderListBlock(lines) {
-  // top-level "- " 시작 + 그 뒤 들여쓰기 sub-line
-  const items = [];
-  let cur = null;
-  for (const line of lines) {
-    if (/^-\s+/.test(line)) {
-      if (cur) items.push(cur);
-      const stripped = line.replace(/^-\s+/, '');
-      cur = { main: stripped, sub: [] };
-    } else if (/^\s{2,}\S/.test(line) || (cur && line.trim())) {
-      if (cur) cur.sub.push(line.trim());
-    }
-  }
-  if (cur) items.push(cur);
-
-  const lis = items
-    .map((it) => {
-      let html = renderInline(it.main);
-      if (it.sub.length) {
-        html += `<div style="margin:2px 0 0 0;color:${COLORS.muted};font-size:13px;">`;
-        html += it.sub.map((s) => renderInline(s)).join('<br>');
-        html += '</div>';
-      }
-      return `<li style="margin:3px 0;line-height:1.55;color:${COLORS.text};">${html}</li>`;
-    })
-    .join('\n');
-
-  return `<ul style="margin:6px 0;padding-left:22px;">${lis}</ul>`;
 }
 
 // ─────────────────────── 카탈리스트 윈도우 ───────────────────────
@@ -274,119 +113,43 @@ function pickWindow(catalysts, base, end) {
     .map(({ c }) => c);
 }
 
-// ─────────────────────── 렌더링 ───────────────────────
+// ─────────────────────── 카드 렌더링 ───────────────────────
 
-function renderSummaryTable(items) {
-  if (!items.length) return '';
+function renderCard(c, company) {
+  const ts = TYPE_STYLE[c.type] || { color: COLORS.muted, label: c.type || '' };
+  const name = company?.company ? `<span style="color:${COLORS.muted};font-weight:500;font-size:14px;"> · ${escapeHtml(company.company)}</span>` : '';
 
-  const rows = items
-    .map(
-      (c) => `
-    <tr>
-      <td style="border:1px solid ${COLORS.border};padding:6px 10px;font-family:monospace;color:${COLORS.muted};white-space:nowrap;">${escapeHtml(formatDateShort(c.date))}</td>
-      <td style="border:1px solid ${COLORS.border};padding:6px 10px;font-family:monospace;font-weight:700;color:${COLORS.profile};">${escapeHtml(c.ticker)}</td>
-      <td style="border:1px solid ${COLORS.border};padding:6px 10px;color:${COLORS.text};">${escapeHtml(c.event ?? '')}</td>
-      <td style="border:1px solid ${COLORS.border};padding:6px 10px;color:${COLORS.muted};white-space:nowrap;">${escapeHtml(c.type ?? '')}</td>
-    </tr>`,
-    )
-    .join('');
-
-  return `
-<table style="border-collapse:collapse;border:1px solid ${COLORS.border};width:100%;margin:0 0 24px 0;font-size:14px;">
-  <thead>
-    <tr style="background:${COLORS.bgHeader};">
-      <th style="border:1px solid ${COLORS.border};padding:8px 10px;text-align:left;color:${COLORS.text};font-weight:700;">날짜</th>
-      <th style="border:1px solid ${COLORS.border};padding:8px 10px;text-align:left;color:${COLORS.text};font-weight:700;">종목</th>
-      <th style="border:1px solid ${COLORS.border};padding:8px 10px;text-align:left;color:${COLORS.text};font-weight:700;">카탈리스트</th>
-      <th style="border:1px solid ${COLORS.border};padding:8px 10px;text-align:left;color:${COLORS.text};font-weight:700;">종류</th>
-    </tr>
-  </thead>
-  <tbody>${rows}
-  </tbody>
-</table>
-`;
-}
-
-function renderField(label, value) {
-  if (!isFilled(value)) return '';
-  return `
-<div style="margin:14px 0;">
-  <div style="font-size:15px;font-weight:700;color:${COLORS.text};margin-bottom:5px;border-bottom:1px solid ${COLORS.border};padding-bottom:3px;">${escapeHtml(label)}</div>
-  <div style="color:${COLORS.text};font-size:14px;line-height:1.65;">${mdToHtml(value)}</div>
-</div>`;
-}
-
-function renderSection(title, color, fields, body, extras = '') {
-  const filled = fields.filter((f) => isFilled(body[f.key]));
-  if (!filled.length && !extras) return '';
-
-  const rendered = extras + filled.map((f) => {
-    let v = body[f.key];
-    if (f.key === 'Modality') v = stripBoldHeader(v);
-    return renderField(f.label, v);
-  }).join('');
-
-  return `
-<div style="margin:18px 0;padding:14px 16px;border-left:4px solid ${color};background:${COLORS.bg};border-radius:4px;">
-  <h4 style="margin:0 0 10px 0;color:${color};font-size:15px;font-weight:700;">${escapeHtml(title)}</h4>
-  ${rendered}
-</div>`;
-}
-
-function renderCatalyst(c, company) {
-  const tickerLine = `
-<h3 style="margin:32px 0 4px 0;font-size:18px;font-weight:700;color:${COLORS.text};border-top:2px solid ${COLORS.text};padding-top:14px;">
-  <span style="font-family:monospace;color:${COLORS.profile};">${escapeHtml(c.ticker)}</span>
-  ${company?.company ? ` &middot; ${escapeHtml(company.company)}` : ''}
-</h3>`;
-
-  // 카탈리스트 메타 박스
-  const metaParts = [];
-  if (c.drug) metaParts.push(`<span style="font-weight:700;color:${COLORS.text};">${escapeHtml(c.drug)}</span>`);
-  if (c.indication) metaParts.push(`<span style="color:${COLORS.muted};">${escapeHtml(c.indication)}</span>`);
-  if (c.phase) metaParts.push(`<span style="font-family:monospace;font-size:12px;color:${COLORS.muted};background:${COLORS.bgHeader};padding:2px 6px;border-radius:3px;">${escapeHtml(c.phase)}</span>`);
-  const metaInline = metaParts.join(' &middot; ');
-
-  const meta = `
-<div style="margin:8px 0 16px 0;padding:12px 14px;border:1px solid ${COLORS.profile};background:#ecfdf5;border-radius:4px;">
-  <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:${COLORS.profile};margin-bottom:5px;">카탈리스트</div>
-  <div style="margin:4px 0;font-size:14px;">${metaInline}</div>
-  ${c.event ? `<div style="margin:4px 0;color:${COLORS.muted};font-size:14px;">${escapeHtml(c.event)}</div>` : ''}
-  <div style="margin:4px 0;color:${COLORS.muted};font-size:13px;">일정: ${escapeHtml(formatDateLong(c.date))}</div>
-</div>`;
-
-  if (!company) {
-    return tickerLine + meta +
-      `<p style="color:${COLORS.muted};font-style:italic;font-size:14px;">기업 정보 미등록</p>`;
-  }
-
-  const body = company.body ?? {};
-
-  // 기업 프로필: 시총 먼저 + PROFILE_FIELDS
-  const mcapRow = renderField('시가총액', formatMcap(company.mcap));
-  const profileSection = renderSection('🏢 기업 프로필', COLORS.profile, PROFILE_FIELDS, body, mcapRow);
-
-  // 임상 정보
-  const clinicalSection = renderSection('🧪 임상 정보', COLORS.clinical, CLINICAL_FIELDS, body);
-
-  // 약물 정보 (Modality 헤더를 제목 부제로)
-  const modalityHeader = extractBoldHeader(body['Modality']);
-  const drugTitle = modalityHeader ? `💊 약물 정보 — ${modalityHeader}` : '💊 약물 정보';
-  const drugSection = renderSection(drugTitle, COLORS.drug, DRUG_FIELDS, body);
-
-  // 메모
-  const memo = body['메모'];
-  const memoSection = isFilled(memo)
-    ? `
-<div style="margin:18px 0;padding:14px 16px;border-left:4px solid ${COLORS.muted};background:${COLORS.bg};border-radius:4px;">
-  <h4 style="margin:0 0 10px 0;color:${COLORS.muted};font-size:15px;font-weight:700;">📝 메모</h4>
-  <div style="color:${COLORS.text};font-size:14px;line-height:1.6;">${mdToHtml(memo)}</div>
-</div>`
+  const dateBadge = `<span style="display:inline-block;vertical-align:middle;font-family:monospace;font-size:13px;font-weight:700;color:#ffffff;background:${ts.color};padding:3px 11px;border-radius:11px;">${escapeHtml(formatDateShort(c.date))}</span>`;
+  // 배지 사이는 CSS margin 대신 &nbsp; 로 띄움 — SmartEditor 붙여넣기 시 margin 이 제거돼도 간격 유지.
+  const typeBadge = ts.label
+    ? `&nbsp;&nbsp;<span style="display:inline-block;vertical-align:middle;font-size:12px;font-weight:700;color:${ts.color};background:#f3f4f6;padding:3px 10px;border-radius:11px;">${escapeHtml(ts.label)}</span>`
     : '';
 
-  // Sources 출력 생략 (사용자 결정 2026-05-25 — 네이버 export는 본문만)
+  const tickerLine = `<div style="font-size:17px;font-weight:700;margin:2px 0 4px 0;"><span style="font-family:monospace;color:${COLORS.ticker};">${escapeHtml(c.ticker)}</span>${name}</div>`;
 
-  return tickerLine + meta + profileSection + clinicalSection + drugSection + memoSection;
+  const drugLine = c.drug
+    ? `<div style="font-size:16px;font-weight:700;color:#111827;margin:0 0 4px 0;">💊 ${escapeHtml(c.drug)}</div>`
+    : '';
+
+  const sub = [];
+  if (c.indication) sub.push(`<span style="color:#374151;">${escapeHtml(c.indication)}</span>`);
+  if (c.phase) sub.push(`<span style="display:inline-block;font-family:monospace;font-size:12px;color:${ts.color};background:#f3f4f6;padding:1px 8px;border-radius:10px;">${escapeHtml(c.phase)}</span>`);
+  const subLine = sub.length
+    ? `<div style="font-size:14px;line-height:1.7;">${sub.join(' &nbsp; ')}</div>`
+    : '';
+
+  // 관전 포인트 — 블로그 전용 editorial 요약(blogNote). 공개 사이트 데이터에는 미포함.
+  const note = c.blogNote
+    ? `\n  <div style="margin:10px 0 0 0;padding:10px 12px;background:#f9fafb;border-radius:6px;font-size:13.5px;line-height:1.7;color:#4b5563;"><span style="font-size:12px;font-weight:700;color:${ts.color};">▶ 관전 포인트</span><br>${escapeHtml(String(c.blogNote)).replace(/\n/g, '<br>')}</div>`
+    : '';
+
+  return `
+<div style="border:1px solid ${COLORS.border};border-left:5px solid ${ts.color};border-radius:8px;padding:14px 16px;margin:0 0 12px 0;background:#ffffff;">
+  <div style="margin-bottom:7px;">${dateBadge}${typeBadge}</div>
+  ${tickerLine}
+  ${drugLine}
+  ${subLine}${note}
+</div>`;
 }
 
 function renderDocument(items, companiesMap, baseT, endT) {
@@ -394,35 +157,29 @@ function renderDocument(items, companiesMap, baseT, endT) {
   const endStr = formatYMD(endT);
   const title = `${baseStr} ~ ${endStr} biotech 카탈리스트`;
 
-  if (!items.length) {
-    return `<!DOCTYPE html>
+  const head = `<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <title>${escapeHtml(title)}</title>
 </head>
-<body style="font-size:15px;line-height:1.6;color:${COLORS.text};max-width:880px;margin:24px auto;padding:0 16px;">
-${INTRO_HTML}
+<body style="font-size:15px;line-height:1.6;color:${COLORS.text};max-width:680px;margin:24px auto;padding:0 16px;">
+${INTRO_HTML}`;
+
+  const heading = `<h2 style="font-size:19px;font-weight:700;color:${COLORS.text};margin:0 0 16px 0;border-bottom:2px solid ${COLORS.text};padding-bottom:8px;">📅 ${escapeHtml(baseStr)} ~ ${escapeHtml(endStr)} 카탈리스트 ${items.length}건</h2>`;
+
+  if (!items.length) {
+    return `${head}
 <p style="color:${COLORS.muted};font-style:italic;">이 기간(${escapeHtml(baseStr)} ~ ${escapeHtml(endStr)})에 임박한 카탈리스트가 없습니다.</p>
 </body>
 </html>`;
   }
 
-  const summary = renderSummaryTable(items);
-  const details = items
-    .map((c) => renderCatalyst(c, companiesMap.get(c.ticker)))
-    .join('\n');
+  const cards = items.map((c) => renderCard(c, companiesMap.get(c.ticker))).join('\n');
 
-  return `<!DOCTYPE html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<title>${escapeHtml(title)}</title>
-</head>
-<body style="font-size:15px;line-height:1.6;color:${COLORS.text};max-width:880px;margin:24px auto;padding:0 16px;">
-${INTRO_HTML}
-${summary}
-${details}
+  return `${head}
+${heading}
+${cards}
 </body>
 </html>`;
 }
