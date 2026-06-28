@@ -706,6 +706,12 @@ events:
     moa: "KIT/PDGFRA 선택적 억제, exon 9·11 변이 및 이마티닙 내성 변이까지 커버"
     sources:
       - https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-submission-new-drug-application-0
+    outcome: met
+    outcome_date: 2026-04-01
+    result: "Positive — Cogent, bezuclastinib GIST NDA를 RTOR로 FDA 제출 완료(imatinib 내성 2L+). PEAK Phase 3: mPFS 16.5 vs 9.2개월, ORR 46%. 이후 FDA 수리·우선심사·PDUFA 2026-11-30 부여."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/04/01/3266534/0/en/Cogent-Biosciences-Announces-Submission-of-New-Drug-Application-for-Bezuclastinib-in-Gastrointestinal-Stromal-Tumors-GIST.html
+      - https://investors.cogentbio.com/news-releases/news-release-details/cogent-biosciences-announces-fda-acceptance-new-drug-0
   - date: 2026-04-07
     ticker: NUVL
     event: Neladalkib ALK+ NSCLC NDA 제출 (ALKOVE-1 데이터)
@@ -718,6 +724,12 @@ events:
     targetDisease: "Advanced ALK-positive NSCLC. 1·2세대 TKI 후 lorlatinib 내성 변이(G1202R 등) 출현 시 표준치료 한계."
     moa: "ALK 선택적, TRK-sparing 3세대 TKI. 뇌전이 침투 + 내성 변이 커버"
     sources:
+      - https://investors.nuvalent.com/2026-04-07-Nuvalent-Announces-Submission-of-New-Drug-Application-to-FDA-for-Neladalkib-in-TKI-Pre-treated-Advanced-ALK-positive-NSCLC
+      - https://www.prnewswire.com/news-releases/nuvalent-announces-submission-of-new-drug-application-to-fda-for-neladalkib-in-tki-pre-treated-advanced-alk-positive-nsclc-302735124.html
+    outcome: met
+    outcome_date: 2026-04-07
+    result: "Positive — Nuvalent, neladalkib ALK+ NSCLC NDA를 FDA 제출 완료(TKI 전치료군). ALKOVE-1 Ph1/2(n=253): ORR 31%(전체 TKI 후), lorlatinib-naive 46%. G1202R 등 내성변이·뇌전이 커버."
+    outcome_sources:
       - https://investors.nuvalent.com/2026-04-07-Nuvalent-Announces-Submission-of-New-Drug-Application-to-FDA-for-Neladalkib-in-TKI-Pre-treated-Advanced-ALK-positive-NSCLC
       - https://www.prnewswire.com/news-releases/nuvalent-announces-submission-of-new-drug-application-to-fda-for-neladalkib-in-tki-pre-treated-advanced-alk-positive-nsclc-302735124.html
   - date: 2026-04-30
@@ -733,6 +745,12 @@ events:
     moa: "RAS(ON) multi-selective inhibitor. KRAS G12 활성형(GTP-bound) 직접 결합 차단"
     sources:
       - https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-statement-fda-expanded-access-authorization
+    outcome: met
+    outcome_date: 2026-04-30
+    result: "Positive — FDA가 daraxonrasib 확대접근(EAP) safe-to-proceed 승인(전치료 mPDAC, 4/30 서명). NDA는 National Priority Voucher 경로로 별도 제출 예정. RASolute 302 Ph3: 사망위험 60% 감소(HR 0.40)."
+    outcome_sources:
+      - https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-statement-fda-expanded-access-authorization
+      - https://www.fda.gov/news-events/press-announcements/fda-permits-expanded-access-investigational-pancreatic-cancer-drug
   - date: 2026-05-01
     ticker: ARVN
     event: VEPPANU (vepdegestrant) FDA 승인됨 (PDUFA 6/5보다 35일 조기, 세계 첫 PROTAC 신약)
@@ -766,6 +784,11 @@ events:
     moa: "TfR1-매개 BBB 통과, CNS MAPT(타우) mRNA silencing"
     sources:
       - https://www.globenewswire.com/news-release/2026/04/27/3282066/0/en/Dyne-Therapeutics-Announces-Upcoming-Presentation-Highlighting-Robust-CNS-Activity-in-Nonhuman-Primates-with-its-FORCE-Platform-at-2026-ASGCT-Annual-Meeting.html
+    outcome: met
+    outcome_date: 2026-05-13
+    result: "Positive(preclinical) — Dyne, ASGCT 2026 oral서 FORCE 플랫폼 MAPT silencing NHP 데이터 발표. TfR1 매개 SC 투여로 마우스·NHP 뇌 전반(심부 포함) MAPT RNA 약 75% knockdown, SC=IV 동등. 타우병증 후보."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/04/27/3282066/0/en/Dyne-Therapeutics-Announces-Upcoming-Presentation-Highlighting-Robust-CNS-Activity-in-Nonhuman-Primates-with-its-FORCE-Platform-at-2026-ASGCT-Annual-Meeting.html
   - date: 2026-05-29
     ticker: NUVL
     event: Neladalkib ALKOVE-1 Phase 2 ASCO 2026 oral (#8503, pivotal data)
@@ -780,6 +803,12 @@ events:
     moa: "ALK 선택적, TRK-sparing 3세대 TKI. 뇌전이 침투 + 내성 변이 커버"
     sources:
       - https://www.prnewswire.com/news-releases/nuvalent-to-present-pivotal-data-from-alkove-1-trial-of-neladalkib-in-tki-pre-treated-advanced-alk-positive-nsclc-at-the-2026-american-society-of-clinical-oncology-annual-meeting-302748865.html
+    outcome: met
+    outcome_date: 2026-05-29
+    result: "Positive — ALKOVE-1 pivotal: TKI 경험 ALK+ NSCLC 253명 BICR ORR 31% (lorlatinib-naive 63명 46%), 12/18개월 DOR 64%/53%. TKI-naive 44명 예비 ORR 86%·CR 9%. 두개내 반응·내약성 양호(중단 5%)."
+    outcome_sources:
+      - https://www.prnewswire.com/news-releases/nuvalent-to-present-pivotal-data-from-alkove-1-trial-of-neladalkib-in-tki-pre-treated-advanced-alk-positive-nsclc-at-the-2026-american-society-of-clinical-oncology-annual-meeting-302748865.html
+      - https://investors.nuvalent.com/2026-05-21-Nuvalent-Highlights-Upcoming-Data-Presentations-for-Neladalkib-and-Zidesamtinib-at-the-2026-American-Society-of-Clinical-Oncology-Annual-Meeting
   - date: 2026-05-31
     ticker: JNJ
     event: "PROTEUS Apalutamide Phase 3 final analysis ASCO 2026 Plenary LBA1 (Positive — pCR/MRD 8.9% vs 1.0%, MFS HR 0.80, EFS HR 0.71)"
@@ -947,6 +976,11 @@ events:
     moa: "Mu-opioid 길항/kappa-opioid 작용 이중작용. 중추·말초 기침 반사 억제"
     sources:
       - https://www.globenewswire.com/news-release/2026/04/30/3285477/0/en/Trevi-Therapeutics-Announces-Oral-Presentation-and-Multiple-Posters-Accepted-at-the-American-Thoracic-Society-ATS-2026-International-Conference.html
+    outcome: met
+    outcome_date: 2026-05-18
+    result: "Positive — Trevi, ATS 2026 oral서 CORAL Ph2b IPF 만성기침 1차·서브그룹 발표. 중증(20+회/h) 24h 기침빈도 위약대비 51%↓(p<0.0001), 중등도(10-19회/h) 75%↓(p<0.0001). 항섬유화제 병용·기저기침수 분석 일관."
+    outcome_sources:
+      - https://www.biospace.com/press-releases/trevi-therapeutics-announces-oral-presentation-and-multiple-posters-accepted-at-the-american-thoracic-society-ats-2026-international-conference
   - date: 2026-08-24
     ticker: BIIB
     event: "LEQEMBI IQLIK SC starting dose sBLA PDUFA (주 1회 자가주사 starting dose 500mg, Priority Review) — 2026-05-08 FDA가 3개월 연장 (major amendment 처리, 5/24 → 8/24). FDA가 승인 가능성 우려는 없다고 명시"
@@ -1120,6 +1154,12 @@ events:
     moa: "재조합 인간 GM-CSF 흡입제. 폐포 macrophage 활성화 → surfactant clearance 회복"
     sources:
       - https://www.biospace.com/press-releases/savara-to-present-new-data-at-the-american-thoracic-society-ats-2026-international-conference
+    outcome: met
+    outcome_date: 2026-05-18
+    result: "Positive — IMPALA-2 Phase 3 운동능력 데이터: 48주차 6분보행거리 molgramostim +167.0m vs 위약 +86.4m, 치료차이 +80.6m (P=0.0301). 운동 지속시간·peak METs도 일관 개선. 1차 종결점(A-a gradient) 충족 후 발표."
+    outcome_sources:
+      - https://www.biospace.com/press-releases/savara-announces-new-exercise-capacity-data-from-the-impala-2-phase-3-clinical-trial-of-molgramostim-inhalation-solution-molgramostim-in-autoimmune-pulmonary-alveolar-proteinosis-apap
+      - https://investors.savarapharma.com/news/news-details/2026/Savara-To-Present-New-Data-at-the-American-Thoracic-Society-ATS-2026-International-Conference/default.aspx
   - date: 2026-05-31
     ticker: REPL
     event: "RP2 ± nivolumab Phase 1 FIH final ASCO 2026 oral — Developmental Therapeutics-Immunotherapy 세션 (5/31 09:12 CDT). HCC/BTC 병용 데이터 별개 poster 동시"
@@ -1135,6 +1175,12 @@ events:
     moa: "HSV-1 기반 oncolytic virus + anti-CTLA-4 transgene 종양 내 국소 발현. systemic 면역관문 차단 부작용 최소화 + tumor-specific T cell priming"
     sources:
       - https://www.globenewswire.com/news-release/2026/04/27/3281576/0/en/replimune-to-present-at-the-2026-american-society-of-clinical-oncology-asco-annual-meeting.html
+    outcome: met
+    outcome_date: 2026-05-31
+    result: "Positive(modest) — RP2 Phase 1 FIH 진행성 고형암 85명: 단독 ORR 19.0%(4/21), nivolumab 병용 ORR 19.1%(9/47, DCR 48.9%). 포도막 흑색종 pooled ORR 33.3%, mDOR 미도달~22.1개월. Grade 4/5 TRAE 없음."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/05/31/3303918/0/en/Replimune-Presents-Final-First-in-Human-Data-for-RP2-in-Advanced-Solid-Tumors-During-Oral-Presentation-at-the-2026-American-Society-of-Clinical-Oncology-Annual-Meeting.html
+      - https://www.biospace.com/press-releases/replimune-presents-final-first-in-human-data-for-rp2-in-advanced-solid-tumors-during-oral-presentation-at-the-2026-american-society-of-clinical-oncology-annual-meeting
   - date: 2026-07-11
     ticker: CORT
     event: "Relacorilant + nab-paclitaxel PROC NDA PDUFA — Phase 3 ROSELLA OS HR 0.65 (35% 사망 위험 감소), PFS HR 0.70"
@@ -1333,6 +1379,12 @@ events:
     moa: "INHBE(activin E) 간특이 RNAi 침묵. 지방세포 비대 억제, 인슐린 민감도 향상, GLP-1과 병용 시 시너지"
     sources:
       - https://www.businesswire.com/news/home/20260504575415/en/Arrowhead-Pharmaceuticals-to-Participate-in-Upcoming-May-2026-Events
+    outcome: met
+    outcome_date: 2026-05-27
+    result: "Positive — ARO-INHBE Phase 1/2a EASL 2026: 비만+기저 간지방>8% 환자에서 200mg+ 단독 위약보정 LFC -44%, Activin E 최대 -85.3%(400mg). low-dose tirzepatide 병용 시 체중감소 2배·내장/총/간지방 감소 3배(vs tirzepatide 단독)."
+    outcome_sources:
+      - https://arrowheadpharma.com/en-us/newsroom/arrowhead-pharmaceuticals-presents-new-clinical-data-rnai-based
+      - https://www.businesswire.com/news/home/20260527903149/en/Arrowhead-Pharmaceuticals-Presents-New-Clinical-Data-on-RNAi-based-Obesity-and-MASH-Candidate-ARO-INHBE-at-EASL-2026
   - date: 2026-05-29
     ticker: REGN
     event: "Lynozyfic (linvoseltamab) LINKER-AL2 Phase 1/2 ASCO 2026 oral — 2L+ AL amyloidosis, 100% hematologic CR at top dose, free light chain normalization by day 15"
@@ -1348,6 +1400,12 @@ events:
     sources:
       - https://investor.regeneron.com/news-releases/news-release-details/regeneron-showcase-progress-advancing-novel-investigational/
       - https://newsroom.regeneron.com/news-releases/news-release-details/regeneron-highlight-advances-asco-phase-3-adjuvant-libtayor
+    outcome: met
+    outcome_date: 2026-05-29
+    result: "Positive — LINKER-AL2 Phase 1/2: 2L+ 전신 AL 아밀로이드증 전 환자 깊고 빠른 반응, Day 15 유리경쇄 정상화. 최고용량(240mg) 혈액학적 CR 100%·80mg 71%. 신장(73%)·심장(50%) 장기기능 개선. 등록목적 Phase 2 진행 중."
+    outcome_sources:
+      - https://investor.regeneron.com/news-releases/news-release-details/lynozyficr-linvoseltamab-monotherapy-demonstrates-deep-and-rapid/
+      - https://www.globenewswire.com/news-release/2026/05/21/3299793/0/en/Lynozyfic-linvoseltamab-Monotherapy-Demonstrates-Deep-and-Rapid-Responses-in-All-Treated-Patients-with-Second-Line-Plus-Systemic-Amyloid-Light-Chain-Amyloidosis.html
   - date: 2026-05-30
     ticker: ABBV
     event: "ABBV-969 mCRPC (45% ORR, 67% PSA50) + ABBV-706 SCLC 2L (82% ORR) Phase 1 ASCO 2026 oral — next-gen oncology pipeline 핵심"
@@ -1361,6 +1419,12 @@ events:
     targetDisease: "mCRPC: ARSI 후 표준치료 한계 — STEAP1/PSMA 동시 표적으로 antigen escape 극복. SCLC 2L: lurbinectedin 후 옵션 제한적 — SEZ6 신규 표적"
     moa: "ABBV-969: STEAP1/PSMA 이중표적 ADC. ABBV-706: SEZ6 표적 topo I 페이로드 ADC (Synaptic Vesicle Glycoprotein 발현 SCLC 직접 사멸)"
     sources:
+      - https://news.abbvie.com/2026-05-21-AbbVie-Announces-New-Data-at-ASCO-2026-Demonstrating-Breadth-and-Momentum-Across-its-Next-Generation-Oncology-Pipeline
+      - https://www.prnewswire.com/news-releases/abbvie-announces-new-data-at-asco-2026-demonstrating-breadth-and-momentum-across-its-next-generation-oncology-pipeline-302779632.html
+    outcome: met
+    outcome_date: 2026-05-31
+    result: "Positive — ABBV-969(STEAP1/PSMA ADC) mCRPC Phase 1 cORR 45%(29명), PSA50 67%·PSA90 28%. ABBV-706(SEZ6 ADC) 2L SCLC ORR 82%(17명, 1.8mg/kg RP3D). 두 oral 모두 긍정 데이터(발표 5/31·6/1)."
+    outcome_sources:
       - https://news.abbvie.com/2026-05-21-AbbVie-Announces-New-Data-at-ASCO-2026-Demonstrating-Breadth-and-Momentum-Across-its-Next-Generation-Oncology-Pipeline
       - https://www.prnewswire.com/news-releases/abbvie-announces-new-data-at-asco-2026-demonstrating-breadth-and-momentum-across-its-next-generation-oncology-pipeline-302779632.html
   - date: 2026-05-30
@@ -1378,6 +1442,12 @@ events:
     sources:
       - https://www.globenewswire.com/news-release/2026/05/22/3299948/0/en/biontech-to-showcase-progress-across-late-stage-oncology-pipeline-at-the-2026-asco-annual-meeting.html
       - https://www.biospace.com/press-releases/biontech-to-showcase-progress-across-late-stage-oncology-pipeline-at-the-2026-asco-annual-meeting
+    outcome: met
+    outcome_date: 2026-05-30
+    result: "Positive — Pumitamig(PD-L1xVEGF) ROSETTA Lung-02 1L NSCLC Phase 2 cORR 비편평 57.1%·편평 68.4%, DCR 100%, PD-L1 무관 반응. Gotistobart PROC Phase 2 ORR 25~27.6%(1·2mg/kg)+의미있는 OS. 두 oral 긍정."
+    outcome_sources:
+      - https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/05/Global-Data-for-BioNTech-and-Bristol-Myers-Squibb-s-PD-L1xVEGF-A-Bispecific-Pumitamig-Shows-Encouraging-Efficacy-in-Patients-with-Non-Small-Cell-Lung-Cancer-in-ROSETTA-Lung-02-Trial.html
+      - https://www.onclive.com/view/phase-2-data-from-rosetta-lung-02-a-global-randomized-phase-2-3-trial-of-pumitamig-pd-l1-vegf-a-bsab-chemotherapy-in-1l-nsclc
   - date: 2026-05-31
     ticker: MRK
     event: "KEYTRUDA + Trodelvy (sacituzumab govitecan) ASCENT-04/KEYNOTE-D19 Phase 3 1L PD-L1+ mTNBC ASCO 2026 LBA1000 (Gilead 공동 후원)"
@@ -1434,6 +1504,12 @@ events:
     sources:
       - https://www.biospace.com/press-releases/moderna-announces-data-to-be-presented-at-2026-asco-annual-meeting
       - https://www.merck.com/news/merck-highlights-new-long-term-data-and-advancements-across-broad-oncology-portfolio-and-pipeline-research-at-asco-2026/
+    outcome: met
+    outcome_date: 2026-06-01
+    result: "Positive — Intismeran+KEYTRUDA KEYNOTE-942 5년(60.3개월) 업데이트: 재발/사망 위험 49%↓(RFS HR 0.510), 원격전이/사망 59%↓(DMFS HR 0.411). 5년 OS 92.2% vs pembro 단독 71.3%. JCO 동시 게재."
+    outcome_sources:
+      - https://www.merck.com/news/moderna-and-merck-present-5-year-data-for-intismeran-autogene-in-combination-with-keytruda-pembrolizumab-in-patients-with-high-risk-stage-iii-iv-melanoma-following-complete-resection-at-the-20/
+      - https://ascopubs.org/doi/10.1200/JCO-26-00835
   - date: 2026-06-01
     ticker: BCYC
     event: "Zelenectide pevedotin (BT8009) + pembrolizumab Duravelo-2 Phase 2/3 1L la/mUC interim ASCO 2026 rapid oral (#4516)"
@@ -1449,6 +1525,12 @@ events:
     moa: "Nectin-4 표적 bicyclic peptide–MMAE conjugate(BTC). 작은 분자량(~5kDa)으로 ADC(150kDa) 대비 빠른 종양 침투·낮은 독성"
     sources:
       - https://investors.bicycletherapeutics.com/news-releases/news-release-details/bicycle-therapeutics-announces-oral-and-poster-presentations-0
+    outcome: met
+    outcome_date: 2026-06-01
+    result: "Positive — Zelenectide pevedotin+pembrolizumab Duravelo-2 1L mUC 최적용량 ORR ~62-65%, SOC(EV+pembro) 대비 동등 반응·차별화 안전성(피부반응 ~4배↓, 말초신경병증 ~절반). 추가 데이터 2H 2026."
+    outcome_sources:
+      - https://www.biospace.com/press-releases/bicycle-therapeutics-to-present-initial-duravelo-2-data-at-2026-asco-annual-meeting
+      - https://www.stocktitan.net/sec-filings/BCYC/8-k-bicycle-therapeutics-plc-reports-material-event-4db8c6ea7072.html
   - date: 2026-06-14
     ticker: KURA
     event: "KOMET-007 ziftomenib + 7+3 frontline AML EHA 2026 oral — 99 환자 업데이트, 90~96% CRc (NPM1m/KMT2A-r)"
@@ -1771,6 +1853,12 @@ events:
     sources:
       - https://www.globenewswire.com/news-release/2026/05/12/3293011/31990/en/Agios-Submits-sNDA-to-FDA-for-U-S-Accelerated-Approval-of-Mitapivat-in-Sickle-Cell-Disease.html
       - https://investor.agios.com/news-releases/news-release-details/agios-submits-snda-fda-us-accelerated-approval-mitapivat-sickle
+    outcome: met
+    outcome_date: 2026-05-12
+    result: "Positive — Agios, mitapivat 겸상적혈구병 가속승인 sNDA를 FDA 제출 완료. RISE UP Ph3(n=207, 2:1): Hb 반응·용혈 유의 개선. 확인적 RCT(~159명) 합의. 60일 filing review 후 수리통보 3Q 2026 예상."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/05/12/3293011/31990/en/Agios-Submits-sNDA-to-FDA-for-U-S-Accelerated-Approval-of-Mitapivat-in-Sickle-Cell-Disease.html
+      - https://investor.agios.com/news-releases/news-release-details/agios-submits-snda-fda-us-accelerated-approval-mitapivat-sickle
   - date: 2026-05-22
     ticker: GILD
     event: "Hepcludex(bulevirtide) 만성 D형간염(HDV) 미국 첫 가속승인 — MYR301 Phase 3 기반, 임상적 이득 확인 후속시험 조건부"
@@ -1782,6 +1870,12 @@ events:
     sources:
       - https://www.gilead.com/news/news-details/2026/fda-grants-accelerated-approval-to-gileads-hepcludex-bulevirtide-gmod-the-first-and-only-approved-treatment-for-chronic-hepatitis-delta-virus-hdv
       - https://www.businesswire.com/news/home/20260522569258/en/FDA-Grants-Accelerated-Approval-to-Gileads-Hepcludex-bulevirtide-gmod-the-First-and-Only-Approved-Treatment-for-Chronic-Hepatitis-Delta-Virus-HDV
+    outcome: approved
+    outcome_date: 2026-05-22
+    result: "Positive — FDA가 Hepcludex(bulevirtide-gmod) 8.5mg을 만성 D형간염(HDV) 성인(무경변/대상성 경변) 첫 치료제로 가속승인. MYR301 Phase 3의 HDV RNA 감소·ALT 정상화 기반, 확인적 임상 조건부. 미국 최초·유일 HDV 치료제."
+    outcome_sources:
+      - https://www.gilead.com/news/news-details/2026/fda-grants-accelerated-approval-to-gileads-hepcludex-bulevirtide-gmod-the-first-and-only-approved-treatment-for-chronic-hepatitis-delta-virus-hdv
+      - https://www.businesswire.com/news/home/20260522569258/en/FDA-Grants-Accelerated-Approval-to-Gileads-Hepcludex-bulevirtide-gmod-the-First-and-Only-Approved-Treatment-for-Chronic-Hepatitis-Delta-Virus-HDV
   - date: 2026-06-09
     ticker: LLY
     event: "EBGLYSS(lebrikizumab) 8주 1회 유지용량 적응증 FDA 승인 — 중등도~중증 아토피피부염(12세+), 기존 4주 용법 확장 (ADjoin 장기연장 + PK 모델 기반)"
@@ -1791,6 +1885,12 @@ events:
     indication: Moderate-to-Severe Atopic Dermatitis (maintenance Q8W)
     phase: sBLA
     sources:
+      - https://www.prnewswire.com/news-releases/fda-approves-lillys-ebglyss-lebrikizumab-lbkz-for-one-maintenance-dose-every-eight-weeks-in-patients-with-moderate-to-severe-atopic-dermatitis-302795876.html
+      - https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-ebglyssr-lebrikizumab-lbkz-one-maintenance
+    outcome: approved
+    outcome_date: 2026-06-09
+    result: "Positive — FDA가 EBGLYSS(lebrikizumab) 8주 1회(250mg/2mL) 유지용량을 12세+ 중등도~중증 아토피피부염에 승인. 기존 4주 용법 확장으로 연 6회 주사만으로 유지. ADjoin Q8W 연장 + 노출-반응 모델 기반."
+    outcome_sources:
       - https://www.prnewswire.com/news-releases/fda-approves-lillys-ebglyss-lebrikizumab-lbkz-for-one-maintenance-dose-every-eight-weeks-in-patients-with-moderate-to-severe-atopic-dermatitis-302795876.html
       - https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-ebglyssr-lebrikizumab-lbkz-one-maintenance
   - date: 2026-06-11
@@ -2156,6 +2256,12 @@ events:
     moa: "in vivo CRISPR/Cas9로 간 KLKB1(prekallikrein) 유전자 1회 편집 → 발작 매개 칼리크레인 영구 감소"
     sources:
       - https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-report-additional-phase-3-haelo-data
+    outcome: met
+    outcome_date: 2026-06-13
+    result: "Positive — HAELO Phase 3 추가데이터 EAACI 2026 late-breaking oral. 1회 투여로 월 발작률 0.26 vs 위약 2.10 = 87% 감소(p<0.0001). 대부분 환자가 발작·기존치료에서 자유, 롤링 BLA 진행."
+    outcome_sources:
+      - https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-report-additional-phase-3-haelo-data
+      - https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-reports-positive-phase-3-results
   - date: 2026-06-14
     ticker: CRNX
     event: "Atumelnant Phase 2 CAH 전체결과 발표 (ENDO 2026) — 안드로겐(A4) -67%, ACTH·17-OHP 정상화"
@@ -2168,6 +2274,12 @@ events:
     moa: "경구 ACTH(MC2R) 길항제 — 부신 안드로겐 과생산 직접 차단"
     sources:
       - https://www.globenewswire.com/news-release/2026/06/14/3311470/0/en/Crinetics-Presents-Full-Results-From-Phase-2-Trial-of-Atumelnant-in-Congenital-Adrenal-Hyperplasia-CAH-in-Oral-Presentation-at-ENDO-2026.html
+    outcome: met
+    outcome_date: 2026-06-14
+    result: "Positive — 아투멜난트 Phase 2 CAH 전체결과 ENDO 2026 oral. A4 morning 평균 -67%(Cohort 4, GC 감량 병행); 용량의존(40/80/120mg = -58%/-70%/-80%). 12주 완료자 88%(7/8)가 생리적 GC 용량 달성, 중대 이상반응 無."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/14/3311470/0/en/Crinetics-Presents-Full-Results-From-Phase-2-Trial-of-Atumelnant-in-Congenital-Adrenal-Hyperplasia-CAH-in-Oral-Presentation-at-ENDO-2026.html
+      - https://www.stocktitan.net/news/CRNX/crinetics-presents-full-results-from-phase-2-trial-of-atumelnant-in-1rha9myamz6m.html
   - date: 2026-06-13
     ticker: ASND
     event: "Palopegteriparatide(TransCon PTH) PaTHway Phase 3 182주 장기데이터 발표 (ENDO 2026) — 부갑상선기능저하증 정상 혈중칼슘·독립 유지"
@@ -2180,6 +2292,12 @@ events:
     moa: "지속방출형 PTH(1-34) prodrug — 생리적 PTH 농도 24시간 유지로 칼슘·인 항상성 회복"
     sources:
       - https://www.globenewswire.com/news-release/2026/06/08/3308479/0/en/Ascendis-to-Showcase-Advances-in-Treatment-of-Rare-Endocrine-Diseases-at-ENDO-2026.html
+    outcome: met
+    outcome_date: 2026-06-13
+    result: "Positive — PaTHway Phase 3 182주(3.5년) 장기데이터 ENDO 2026. 다요소 복합 엔드포인트 86% 충족, 활성 비타민D 100%·치료적 칼슘 96% 독립, 혈중칼슘·인·골밀도 정상·안정 유지(n=82, 89% 완료)."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/13/3311416/0/en/Phase-3-Data-Show-TransCon-PTH-Replicated-Systemic-Actions-of-Endogenous-PTH-Through-Week-182-in-Adults-with-Hypoparathyroidism.html
+      - https://investors.ascendispharma.com/news-releases/news-release-details/new-3-year-phase-3-data-confirmed-sustained-response-transconr
   - date: 2026-06-12
     ticker: MRK
     event: "WELIREG(belzutifan) + KEYTRUDA 보조요법 clear cell RCC FDA 승인 — 신장절제 후 중간-고위험/고위험 재발"
@@ -2281,6 +2399,12 @@ events:
     moa: "SGLT1/2 이중 억제제. SGLT2 신장 포도당 재흡수 + SGLT1 장내 흡수 동시 억제로 혈당 강하"
     sources:
       - https://www.globenewswire.com/news-release/2026/06/03/3305962/0/en/Lexicon-to-Present-Data-at-the-American-Diabetes-Association-ADA-2026-Scientific-Sessions.html
+    outcome: met
+    outcome_date: 2026-06-07
+    result: "Positive — inTandem1·2·3 풀드 하위군 분석: sotagliflozin 성인 T1D 주요 하위군 전반 일관된 HbA1c 개선(기존 풀드 200/400mg 각 -0.36%/-0.38% vs 위약). ADA 2026 포스터 발표, NDA 재제출 근거 지지."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/03/3305962/0/en/Lexicon-to-Present-Data-at-the-American-Diabetes-Association-ADA-2026-Scientific-Sessions.html
+      - https://www.stocktitan.net/news/LXRX/lexicon-to-present-data-on-effect-of-kidney-function-on-the-long-h182qv3mo77n.html
   - date: 2026-07-01
     ticker: RVMD
     event: "ESMO GI 2026 — zoldonrasib(G12D)+daraxonrasib 췌장암 콤보 oral 2건"
@@ -2309,4 +2433,134 @@ events:
     sources:
       - https://investors.biogen.com/news-releases/news-release-details/topline-results-phase-2-celia-study-diranersen-biib080-first
       - https://www.businesswire.com/news/home/20260514986673/en/Ionis-partner-Biogen-announces-topline-results-from-Phase-2-CELIA-study-of-diranersen-BIIB080-first-study-to-show-reduction-in-tau-pathology-and-cognitive-benefit-in-patients-with-early-Alzheimers-disease
+  - date: 2026-06-29
+    ticker: AMGN
+    event: "Tavneos ANCA 혈관염 FDA 청문회 (승인취소 심리)"
+    type: Regulatory
+    company: Amgen
+    drug: "Tavneos (avacopan)"
+    indication: "ANCA-associated vasculitis"
+    phase: Various
+    sources:
+      - https://thepharmanews.net/article/amgen-tavneos-fda-hearing-mqb2u9e5
+  - date: 2026-09-30
+    ticker: QURE
+    event: "AMT-130 헌팅턴병 가속승인 BLA 제출 (3분기 예정)"
+    type: Regulatory
+    company: uniQure
+    drug: "AMT-130"
+    indication: "Huntington's Disease"
+    phase: BLA
+    sources:
+      - https://www.biospectator.com/news/view/29073
+  - date: 2026-09-30
+    ticker: RGNX
+    event: "Clemidsogene MPS II(헌터증후군) BLA 재제출 (CAMPSIITE, 3분기 예정)"
+    type: Regulatory
+    company: REGENXBIO
+    drug: "Clemidsogene"
+    indication: "MPS II (Hunter syndrome)"
+    phase: BLA
+    sources:
+      - https://thepharmanews.net/article/regenxbio-navsunli-mpsii-mqp8xhep
+  - date: 2026-12-31
+    ticker: SMMT
+    event: "Ivonescimab HARMONi-3 최종 PFS+OS 중간분석 (1L squamous NSCLC, 하반기)"
+    type: Clinical Readout
+    company: Summit Therapeutics
+    drug: "Ivonescimab"
+    indication: "1L squamous NSCLC"
+    phase: Phase 3
+    sources:
+      - https://www.biospectator.com/news/view/28601
+  - date: 2026-12-31
+    ticker: IMVT
+    event: "IMVT-1402 난치성 류마티스관절염 Ph2b 28주 위약대조 topline (하반기)"
+    type: Clinical Readout
+    company: Immunovant
+    drug: "Imeroprubart (IMVT-1402)"
+    indication: "Difficult-to-treat RA"
+    phase: Phase 2
+    sources:
+      - https://thepharmanews.net/article/hanall-imvt-imvt1402-mpeqbwuw
+  - date: 2026-12-31
+    ticker: NVO
+    event: "Etavopivat 겸상적혈구병 FDA 신청 (Ph3 positive, 하반기)"
+    type: Regulatory
+    company: Novo Nordisk
+    drug: "Etavopivat"
+    indication: "Sickle Cell Disease"
+    phase: NDA
+    sources:
+      - https://thepharmanews.net/2026/04/20/novo-nordisk-etavopivat-scd/
+  - date: 2026-12-31
+    ticker: MIRM
+    event: "Volixibat 원발성 경화성 담관염(PSC) 소양증 NDA 제출 (Ph2 positive, 하반기)"
+    type: Regulatory
+    company: Mirum Pharmaceuticals
+    drug: "Volixibat"
+    indication: "PSC cholestatic pruritus"
+    phase: NDA
+    sources:
+      - https://thepharmanews.net/2026/05/05/mirum-volixibat-psc/
+  - date: 2026-12-31
+    ticker: CMPX
+    event: "Tovecimig(DLL4xVEGF) 담도암 2L BLA 제출 (COMPANION-002 PFS positive, 연내)"
+    type: Regulatory
+    company: Compass Therapeutics
+    drug: "Tovecimig"
+    indication: "2L biliary tract cancer"
+    phase: BLA
+    sources:
+      - https://www.biospectator.com/news/view/28550
+  - date: 2026-12-31
+    ticker: KYTX
+    event: "Miv-cel(CD19 CAR-T) 강직인간증후군(SPS) BLA 롤링 제출 완료 (4분기)"
+    type: Regulatory
+    company: Kyverna Therapeutics
+    drug: "Miv-cel"
+    indication: "Stiff-person syndrome"
+    phase: BLA
+    sources:
+      - https://www.biospectator.com/news/view/28715
+  - date: 2026-12-31
+    ticker: EWTX
+    event: "EDG-7500 비후성심근병증(HCM) 주요 임상결과 (4분기)"
+    type: Clinical Readout
+    company: Edgewise Therapeutics
+    drug: "EDG-7500"
+    indication: "Hypertrophic cardiomyopathy"
+    phase: Phase 2
+    sources:
+      - https://www.biospectator.com/news/view/28928
+  - date: 2026-12-31
+    ticker: TRDA
+    event: "ENTR-601-44 뒤센근이영양증(exon 44) 고용량 코호트 디스트로핀 데이터 (4분기)"
+    type: Clinical Readout
+    company: Entrada Therapeutics
+    drug: "ENTR-601-44"
+    indication: "DMD (exon 44 skip)"
+    phase: Phase 1/2
+    sources:
+      - https://thepharmanews.net/2026/05/07/entrada-entr-601-44-dystrophin/
+  - date: 2026-12-31
+    ticker: BDTX
+    event: "Silevertinib non-classical EGFR NSCLC FDA pivotal 미팅 (연말)"
+    type: Regulatory
+    company: Black Diamond Therapeutics
+    drug: "Silevertinib"
+    indication: "non-classical EGFR NSCLC"
+    phase: Various
+    sources:
+      - https://www.biospectator.com/news/view/28874
+  - date: 2026-12-31
+    ticker: ABBV
+    event: "APG777(zumilokibart) 아토피피부염 Ph3 착수 (Apogee 인수자산, 하반기)"
+    type: Clinical Readout
+    company: AbbVie
+    drug: "Zumilokibart (APG777)"
+    indication: "Atopic Dermatitis"
+    phase: Phase 3
+    sources:
+      - https://www.biospectator.com/news/view/29104
 ```
