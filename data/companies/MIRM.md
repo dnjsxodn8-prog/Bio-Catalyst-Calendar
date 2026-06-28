@@ -7,18 +7,19 @@ areas:
   - Rare Disease
   - Gastrointestinal
 nextCatalyst: 2026-12-31
-verified: 2026-05-07
+verified: 2026-06-28
 sources:
   - https://ir.mirumpharma.com/news-releases
   - https://clinicaltrials.gov/study/NCT04185363
   - https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=MIRM&type=10-K
   - https://ir.mirumpharma.com/news/news-details/2026/Mirum-Pharmaceuticals-Reports-Fourth-Quarter-and-Year-End-2025-Results-and-Provides-Business-Update/default.aspx
+  - https://thepharmanews.net/2026/05/05/mirum-volixibat-psc/
 ---
 
 # Mirum Pharmaceuticals (MIRM)
 
 ## 카탈리스트
-Livmarli (maralixibat) PFIC 성장 및 volixibat (cholestatic pruritus/PSC) Phase 2b 데이터
+Volixibat PSC 소양증 Ph2 positive 결과를 바탕으로 PSC 적응증 NDA를 하반기 제출 예정. Livmarli (maralixibat) PFIC 성장 및 volixibat (cholestatic pruritus/PSC) Phase 2b 데이터.
 
 ## 회사 개요
 소아·성인 담즙정체성 간 질환 전문 희귀 질환 바이오텍. Livmarli(maralixibat, IBAT 억제제)는 PFIC(진행성 가족성 담즙정체증) 및 Alagille 증후군 대상 FDA 승인. 차세대 파이프라인 volixibat(PSC, PBC)으로 적응증 확장.

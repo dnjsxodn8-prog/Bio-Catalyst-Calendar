@@ -8,7 +8,7 @@ areas:
   - Rare Disease
   - Ophthalmology
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://ir.entradatx.com/news-releases/news-release-details/entrada-therapeutics-reports-third-quarter-2025-financial
   - https://www.globenewswire.com/news-release/2026/02/26/3245425/0/en/entrada-therapeutics-reports-fourth-quarter-and-full-year-2025-financial-results.html
@@ -17,6 +17,7 @@ sources:
   - https://investors.vrtx.com/news-releases/news-release-details/vertex-and-entrada-therapeutics-establish-collaboration-discover
   - https://pmc.ncbi.nlm.nih.gov/articles/PMC10393622/
   - https://dmdhub.org/trials/entrada-elevate-44/
+  - https://thepharmanews.net/2026/05/07/entrada-entr-601-44-dystrophin/
 ---
 
 # Entrada Therapeutics (TRDA)

@@ -7,17 +7,18 @@ areas:
   - Rare Disease
   - Endocrinology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://ir.crinetics.com/
   - https://clinicaltrials.gov/study/NCT03792555
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2308723
+  - https://www.globenewswire.com/news-release/2026/06/14/3311470/0/en/Crinetics-Presents-Full-Results-From-Phase-2-Trial-of-Atumelnant-in-Congenital-Adrenal-Hyperplasia-CAH-in-Oral-Presentation-at-ENDO-2026.html
 ---
 
 # Crinetics Pharmaceuticals (CRNX)
 
 ## 카탈리스트
-Paltusotine (말단비대증) NDA 승인 결정 예상 (2026년 하반기 PDUFA)
+Paltusotine (말단비대증) NDA 승인 결정 예상 (2026년 하반기 PDUFA). 별도로 ENDO 2026에서 atumelnant Phase 2 선천성 부신과형성증(CAH) 전체 결과 발표(2026-06-14) — A4 -67%(용량의존 -58/-70/-80%).
 
 ## 회사 개요
 샌디에이고 소재 임상 단계 바이오텍. 소마토스타틴 수용체(SST) 계열 비펩타이드 소분자 작용제를 전문으로 개발. 리드 파이프라인 paltusotine은 경구용 SST2 작용제로, 주사제 중심의 말단비대증 표준치료를 대체할 최초의 경구 일일 1회 요법 후보. 추가로 SST2/5 이중 작용제 CRN02481(카르시노이드 증후군), SST5 작용제 CRN04894(쿠싱병), ACTH 수용체 길항제 CRN04894도 개발 중.

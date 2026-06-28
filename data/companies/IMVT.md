@@ -7,17 +7,18 @@ areas:
   - Immunology
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://www.immunovant.com/
   - https://clinicaltrials.gov/study/NCT05582824
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2309798
+  - https://thepharmanews.net/article/hanall-imvt-imvt1402-mpeqbwuw
 ---
 
 # Immunovant (IMVT)
 
 ## 카탈리스트
-Batoclimab (IMVT-1402) Phase 3 데이터 발표 (갑상선안병증, 중증근무력증) — 2026년 중반
+IMVT-1402 난치성 류마티스관절염(RA) Phase 2b 28주 위약대조 topline이 2026 하반기 예정. Batoclimab (IMVT-1402) Phase 3 데이터 발표(갑상선안병증, 중증근무력증)도 2026년 중반 대기.
 
 ## 회사 개요
 FcRn 항체 전문 임상 단계 바이오텍. 대표 파이프라인 batoclimab(IMVT-1402)은 자가면역 질환의 IgG 항체를 낮추는 FcRn 억제제. 갑상선안병증(TED), 중증근무력증(MG), CIDP 등 다수 적응증에서 Phase 2/3 진행 중. 기존 로슈 rozanolixizumab, UCB 등과 차별화된 피하주사 편의성 강조.

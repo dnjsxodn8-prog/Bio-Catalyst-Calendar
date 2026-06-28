@@ -6,16 +6,17 @@ modality: Other
 areas:
   - Oncology
 nextCatalyst: 2026-H1
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://replimune.com/pipeline
   - https://www.replimune.com/pipeline/
+  - https://www.globenewswire.com/news-release/2026/05/31/3303918/0/en/Replimune-Presents-Final-First-in-Human-Data-for-RP2-in-Advanced-Solid-Tumors-During-Oral-Presentation-at-the-2026-American-Society-of-Clinical-Oncology-Annual-Meeting.html
 ---
 
 # Replimune Group (REPL)
 
 ## 카탈리스트
-RP1 (vusolimogene oderparepvec) melanoma BLA — **2026-04 FDA CRL (Complete Response Letter, 거절)**. 재제출 전략 평가 중. 주가 -56% 급락.
+RP1 (vusolimogene oderparepvec) melanoma BLA — **2026-04 2차 FDA CRL (거절)**. 재제출 전략 평가 중. 한편 RP2 Ph1 FIH 고형암 최종 데이터 ASCO 2026 발표 (2026-05-31) — 단독 ORR 19.0%·nivo 병용 19.1%, 포도막흑색종 33.3%.
 
 ## 회사 개요
 Replimune Group은 종양용해바이러스(oncolytic virus, OV) 플랫폼 RPxyz를 개발하는 종양학 전문 바이오텍. 허피스 심플렉스 바이러스 1형(HSV-1)을 유전자 조작하여 종양 선택적 복제·직접 세포 사멸과 면역 자극을 동시 달성하는 GALX 플랫폼 기반. 대표 파이프라인 RP1(vusolimogene oderparepvec, 이하 vusolio)은 GM-CSF 및 anti-CTLA-4(CTLA4-Ig 융합 단백질)를 탑재하여 항종양 면역 활성화. Bristol Myers Squibb의 nivolumab과 병용 임상 진행.

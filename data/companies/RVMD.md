@@ -6,14 +6,15 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
-sources: []
+verified: 2026-06-28
+sources:
+  - https://ir.revmed.com/news-releases/news-release-details/revolution-medicines-statement-fda-expanded-access-authorization
 ---
 
 # Revolution Medicines (RVMD)
 
 ## 카탈리스트
-Daraxonrasib (RMC-6236) 췌장암 Phase 3
+Daraxonrasib (RMC-6236) 췌장암 Phase 3 — **RASolute 302 OS Positive (ASCO plenary, NEJM, 2026-05-31)**: mOS 13.2 vs 6.6개월(HR 0.40). FDA 확대접근(EAP) safe-to-proceed 승인(2026-04-30). NDA는 NPV 경로로 제출 예정.
 
 ## 회사 개요
 RAS switch control 다중 억제제 개척. Daraxonrasib 췌장암 Phase 3. Sanofi 협업.

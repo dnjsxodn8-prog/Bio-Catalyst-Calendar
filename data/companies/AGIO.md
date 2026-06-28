@@ -7,17 +7,18 @@ areas:
   - Hematology
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://investor.agios.com/news-releases/news-release-details/agios-reports-fourth-quarter-and-full-year-2025-financial
   - https://www.hcplive.com/view/fda-approves-mitapivat-aqvesme-for-non-transfusion-dependent-alpha--and-beta-thalassemia
   - https://www.globenewswire.com/news-release/2025/10/17/3168588/31990/en/Agios-PYRUKYND-mitapivat-Receives-Positive-CHMP-Opinion-for-Adults-with-Thalassemia.html
+  - https://investor.agios.com/news-releases/news-release-details/agios-submits-snda-fda-us-accelerated-approval-mitapivat-sickle
 ---
 
 # Agios Pharmaceuticals (AGIO)
 
 ## 카탈리스트
-PYRUKYND(mitapivat) 겸상적혈구병(SCD) 적응증 추가 NDA 제출 및 EU 정식 승인(EC 결정) 예상
+PYRUKYND(mitapivat) 겸상적혈구병(SCD) 미국 가속승인 sNDA FDA 제출 완료 (2026-05-12) — RISE UP Phase 3(n=207) Hb 반응·용혈 개선 기반. EU 정식 승인(EC 결정) 별도 예상.
 
 ## 회사 개요
 희귀 혈액질환 특화 바이오텍. PKR 효소 활성화제 PYRUKYND(mitapivat)가 주력 제품. ENERGIZE·ENERGIZE-T Phase 3로 비수혈/수혈 의존성 알파·베타 지중해빈혈에서 FDA 승인(AQVESME 브랜드) 획득, EU CHMP 긍정 의견. SCD 적응증은 2026년 추가 규제 이정표 예상.

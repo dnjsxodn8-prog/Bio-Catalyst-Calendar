@@ -7,17 +7,18 @@ areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://www.dynetherapeutics.com/
   - https://clinicaltrials.gov/study/NCT05524883
   - https://clinicaltrials.gov/study/NCT05848388
+  - https://www.globenewswire.com/news-release/2026/04/27/3282066/0/en/Dyne-Therapeutics-Announces-Upcoming-Presentation-Highlighting-Robust-CNS-Activity-in-Nonhuman-Primates-with-its-FORCE-Platform-at-2026-ASGCT-Annual-Meeting.html
 ---
 
 # Dyne Therapeutics (DYN)
 
 ## 카탈리스트
-DELIVER 임상 (DYNE-251, 뒤센 근이영양증) Phase 3 중간 데이터 / ACHIEVE 임상 (DYNE-101, DM1) 추가 데이터 발표 예정 (2026 H1)
+DELIVER 임상 (DYNE-251, 뒤센 근이영양증) Phase 3 중간 데이터 / ACHIEVE 임상 (DYNE-101, DM1) 추가 데이터 발표 예정 (2026 H1). FORCE 플랫폼 CNS 확장 — MAPT silencing 비임상 NHP 데이터 ASGCT 2026 발표 (2026-05-13): 영장류 뇌 전반 MAPT RNA ~75% knockdown, SC=IV 효력.
 
 ## 회사 개요
 Dyne Therapeutics는 근육질환 특화 RNA 치료제 플랫폼 FORCE™를 보유한 임상단계 바이오텍. FORCE는 항체-올리고뉴클레오타이드 접합체(AOC) 기술로, 근육 특이 수용체(TfR1)를 통해 RNA 치료제를 근육에 선택적 전달. 두 개의 주요 파이프라인이 임상 중.

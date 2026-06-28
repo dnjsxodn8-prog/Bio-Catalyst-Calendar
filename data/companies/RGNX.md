@@ -7,16 +7,17 @@ areas:
   - Ophthalmology
   - Rare Disease
 nextCatalyst: 2026-H1
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://ir.regenxbio.com/news-releases
   - https://www.regenxbio.com/
+  - https://thepharmanews.net/article/regenxbio-navsunli-mpsii-mqp8xhep
 ---
 
 # REGENXBIO (RGNX)
 
 ## 카탈리스트
-RGX-314 (습성 AMD 및 당뇨 망막병증, AAV8 유전자 치료) Phase 2b/3 망막하 투여 결과 (2026 H1 예정) — ALTITUDE Phase 2b/3
+Clemidsogene (MPS II, 헌터증후군) BLA 재제출 예정 — CAMPSIITE 데이터 기반, 2026년 3분기 목표. RGX-314(습성 AMD·당뇨 망막병증, AAV8) ALTITUDE Phase 2b/3 망막하 투여 결과도 대기.
 
 ## 회사 개요
 REGENXBIO는 독자적 NAV (Next Generation Adeno-Associated Virus) 벡터 기술 플랫폼을 보유한 유전자 치료 전문 바이오텍 (mcap ~$446M). AAV8, AAVrh10, AAVrh74 등 다양한 혈청형 벡터의 지식재산권(IP)을 보유하여 제3자에게 라이선싱하고 (Novartis Zolgensma, AveXis 등 다수에 기술 제공), 자체 파이프라인으로 망막 질환(RGX-314), MPS(RGX-111), Fabry병(RGX-121) 등 임상 개발 중.

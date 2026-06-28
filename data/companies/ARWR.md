@@ -7,16 +7,17 @@ areas:
   - Cardiology
   - Obesity/Metabolic
 nextCatalyst: 2026-09-30
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-fda-approval-redemplor
   - https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-receives-fda-breakthrough-therapy-0
+  - https://www.businesswire.com/news/home/20260527903149/en/Arrowhead-Pharmaceuticals-Presents-New-Clinical-Data-on-RNAi-based-Obesity-and-MASH-Candidate-ARO-INHBE-at-EASL-2026
 ---
 
 # Arrowhead Pharmaceuticals (ARWR)
 
 ## 카탈리스트
-Plozasiran Phase 3 severe HTG
+Plozasiran Phase 3 severe HTG. ARO-INHBE(비만/MASH) Ph1/2a EASL 2026 발표 (2026-05-27) — 위약보정 LFC -44%·Activin E -85.3%, tirzepatide 병용 시 지방감소 3배.
 
 ## 회사 개요
 TRiM siRNA 플랫폼. 심뇌혈관, 비만/대사, 희귀 광범위 파이프라인. Plozasiran(REDEMPLO) FCS FDA 승인 완료(2025-11). sHTG Phase 3 진행 중.

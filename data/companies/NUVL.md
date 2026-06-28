@@ -6,11 +6,12 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-09-18
-verified: 2026-06-13
+verified: 2026-06-28
 sources:
   - https://investors.nuvalent.com/2026-04-07-Nuvalent-Announces-Submission-of-New-Drug-Application-to-FDA-for-Neladalkib-in-TKI-Pre-treated-Advanced-ALK-positive-NSCLC
   - https://investors.nuvalent.com/2026-05-27-Nuvalent-Announces-Key-Program-and-Business-Updates,-Strengthening-Foundation-for-Global-Leadership-in-ROS1-and-ALK-positive-NSCLC
   - https://www.gsk.com/en-gb/media/press-releases/gsk-enters-agreement-to-acquire-nuvalent-inc/
+  - https://www.prnewswire.com/news-releases/nuvalent-to-present-pivotal-data-from-alkove-1-trial-of-neladalkib-in-tki-pre-treated-advanced-alk-positive-nsclc-at-the-2026-american-society-of-clinical-oncology-annual-meeting-302748865.html
 ---
 
 # Nuvalent (NUVL)
@@ -18,7 +19,7 @@ sources:
 ## 카탈리스트
 - **M&A: GSK가 Nuvalent 인수 합의 — 2026-06-09** ($124/주 현금, 총 ~$10.6B equity[순현금 차감 ~$9.4B], 종가 대비 40% 프리미엄; tender offer → 합병, Q3 2026 종료 목표). zidesamtinib(ROS1)·neladalkib(ALK) 확보 목적.
 - Zidesamtinib ROS1 NSCLC PDUFA — **2026-09-18** (NDA FDA accepted 2025-11)
-- Neladalkib ALK+ NSCLC PDUFA — **2026-11-27** (NDA 2026-04-07 제출, 2026-05-27 FDA 수락 + Priority Review; ALKOVE-1 Phase 1/2 pivotal)
+- Neladalkib ALK+ NSCLC PDUFA — **2026-11-27** (NDA 2026-04-07 제출, 2026-05-27 FDA 수락 + Priority Review; ALKOVE-1 Phase 1/2 pivotal). ASCO 2026(5/29) pivotal 데이터: BICR ORR 31%(lorlatinib-naive 46%, TKI-naive 86%)
 
 ## 회사 개요
 정밀 종양 소분자. Structure-based design으로 ALK/ROS1/HER2 차세대 selective inhibitor 개발. Zidesamtinib(ROS1 NDA), Neladalkib(ALK Phase 3).

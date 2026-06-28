@@ -8,18 +8,19 @@ areas:
   - Cardiovascular
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-05-07
+verified: 2026-06-28
 sources:
   - https://www.globenewswire.com/news-release/2026/02/03/3231383/0/en/Novo-Nordisk-s-sales-increased-by-6-in-Danish-kroner-and-by-10-at-constant-exchange-rates-to-DKK-309-1-billion-in-2025.html
   - https://clinicaltrials.gov/study/NCT04982575
   - https://clinicaltrials.gov/study/NCT05634005
   - https://www.novonordisk.com/investors.html
+  - https://thepharmanews.net/2026/04/20/novo-nordisk-etavopivat-scd/
 ---
 
 # Novo Nordisk (NVO)
 
 ## 카탈리스트
-CagriSema (cagrilintide + semaglutide) REDEFINE Phase 3 추가 데이터 (2026 H1-H2)
+Etavopivat 겸상적혈구병(SCD) FDA 신청 예정 — Ph3에서 혈관폐색위기(VOC) -27%, 2026 하반기 목표. CagriSema(cagrilintide + semaglutide) REDEFINE Phase 3 추가 데이터(2026 H1-H2)도 대기.
 
 ## 회사 개요
 덴마크계 글로벌 빅파마. Ozempic(semaglutide 주사, T2D), Wegovy(비만)로 GLP-1 시장 사실상 창조. Rybelsus(경구 semaglutide) 포함 인크레틴 프랜차이즈 매출이 전사의 60%+ 차지. CagriSema는 GLP-1+아밀린 이중 작용제로 차세대 비만 치료 게임체인저 후보. 인슐린(Tresiba, Degludec)과 희귀혈액·호르몬 질환(혈우병 등) 포트폴리오도 보유.

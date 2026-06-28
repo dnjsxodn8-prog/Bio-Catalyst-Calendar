@@ -6,16 +6,17 @@ modality: Peptide
 areas:
   - Oncology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://investors.bicycletherapeutics.com/news-releases/news-release-details/bicycle-therapeutics-reports-recent-business-progress-and-5/
   - https://www.businesswire.com/news/home/20260112615560/en/Bicycle-Therapeutics-Highlights-2025-Accomplishments-and-Strategic-Priorities-for-2026
+  - https://www.biospace.com/press-releases/bicycle-therapeutics-to-present-initial-duravelo-2-data-at-2026-asco-annual-meeting
 ---
 
 # Bicycle Therapeutics (BCYC)
 
 ## 카탈리스트
-Duravelo-3 (NECTIN4 증폭 유방암) Phase 1/2 초기 데이터 공개 — 2026 H2 학회
+Zelenectide pevedotin+pembrolizumab Duravelo-2 1L mUC 초기 데이터 ASCO 2026 발표(2026-06-01) — ORR 약 62-65%, SOC 대비 안전성 차별화. Duravelo-3(NECTIN4 증폭 유방암) Phase 1/2 초기 데이터는 2026 H2 학회 예정.
 
 ## 회사 개요
 독자 파지 디스플레이 기반 바이시클 펩타이드(BTC) 플랫폼 보유 영국계 임상 기업. 리드 zelenectide pevedotin(Nectin-4 BTC)은 요로상피암 피벗 Duravelo-2 실패 후 NECTIN4 유전자 증폭 바이오마커 전략으로 전환. 유방암(Duravelo-3) 및 NSCLC(Duravelo-4) 등으로 적응증 확장 중. $628M 현금으로 2030년까지 런웨이.

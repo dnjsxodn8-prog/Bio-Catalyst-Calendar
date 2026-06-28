@@ -7,14 +7,15 @@ areas:
   - Autoimmune
   - Neurology
 nextCatalyst: 2026-04-22
-verified: 2026-05-02
-sources: []
+verified: 2026-06-28
+sources:
+  - https://www.biospectator.com/news/view/28715
 ---
 
 # Kyverna Therapeutics (KYTX)
 
 ## 카탈리스트
-KYV-101 MG/SPS/MS AAN 발표
+Miv-cel (KYV-101, CD19 CAR-T) 강직인간증후군(SPS) 자가면역 첫 CAR-T BLA 롤링 제출을 4분기 완료 예정. KYV-101 MG/SPS/MS AAN 발표.
 
 ## 회사 개요
 자가면역 CAR-T 선두. KYV-101(CD19 CAR-T)로 SLE, MG, SPS, MS 공략.

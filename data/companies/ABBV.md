@@ -8,19 +8,20 @@ areas:
   - Oncology
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-05-31
+verified: 2026-06-28
 sources:
   - https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results
   - https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-third-quarter-2025-financial-results
   - https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-first-quarter-2026-financial-results
   - https://news.abbvie.com/2026-05-27-U-S-FDA-Approves-DECNUPAZTM-pivekimab-sunirine-pvzy-for-Treatment-of-Adult-Patients-with-Blastic-Plasmacytoid-Dendritic-Cell-Neoplasm,-an-Ultra-Rare-and-Aggressive-Blood-Cancer-With-Limited-Treatment-Options
   - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pivekimab-sunirine-pvzy-blastic-plasmacytoid-dendritic-cell-neoplasm-ultra-rare
+  - https://news.abbvie.com/2026-05-21-AbbVie-Announces-New-Data-at-ASCO-2026-Demonstrating-Breadth-and-Momentum-Across-its-Next-Generation-Oncology-Pipeline
 ---
 
 # AbbVie (ABBV)
 
 ## 카탈리스트
-2026 Q4 Rinvoq 백반증 FDA 결정 — 복수 Rinvoq 적응증 확대 흐름의 핵심 이벤트
+차세대 종양 ADC ASCO 2026 데이터 (2026-05-31): ABBV-969(STEAP1/PSMA) mCRPC cORR 45%, ABBV-706(SEZ6) 2L SCLC ORR 82%. Apogee $10.9B 인수 (2026-06-23, APG777 아토피 Ph3 하반기). Rinvoq 백반증 FDA 결정(2026 Q4)도 대기.
 
 ## 회사 개요
 Humira 후속으로 Skyrizi·Rinvoq 듀오를 자가면역 1위로 키워낸 글로벌 빅파마. 2025년 매출 $61.2B로 회복 본격화, 2026년 9.5% 성장 가이던스 제시. 면역·종양·신경과학·미용 4축 포트폴리오 + ImmunoGen·Cerevel·Aliada 등 BD로 파이프라인 보강.

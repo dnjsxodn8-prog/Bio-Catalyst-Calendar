@@ -6,16 +6,17 @@ modality: Protein/Enzyme
 areas:
   - Rare Disease
 nextCatalyst: 2026-02-28
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://investors.ascendispharma.com/news-releases/news-release-details/ascendis-pharma-reports-fourth-quarter-and-full-year-2025
   - https://investors.ascendispharma.com/news-releases/news-release-details/ascendis-announces-extension-fda-review-period-transcon-cnp
+  - https://www.globenewswire.com/news-release/2026/06/13/3311416/0/en/Phase-3-Data-Show-TransCon-PTH-Replicated-Systemic-Actions-of-Endogenous-PTH-Through-Week-182-in-Adults-with-Hypoparathyroidism.html
 ---
 
 # Ascendis Pharma (ASND)
 
 ## 카탈리스트
-TransCon CNP(navepegritide) FDA PDUFA 2026-02-28 — 소아 연골무형성증(achondroplasia) 승인 결정
+TransCon CNP(navepegritide) FDA PDUFA 2026-02-28 — 소아 연골무형성증(achondroplasia) 승인 결정. 별도로 ENDO 2026에서 YORVIPATH(palopegteriparatide, TransCon PTH) PaTHway Phase 3 182주 장기 데이터 발표(2026-06-13) — 복합 EP 86% 충족.
 
 ## 회사 개요
 TransCon 기술 플랫폼을 활용해 장시간 작용형 프로드럭을 개발하는 덴마크계 글로벌 바이오파마. SKYTROFA(장시간 작용 성장호르몬)와 YORVIPATH(부갑상선기능저하증용 TransCon PTH) 두 제품 상업화 중. FY2025 총매출 €720M으로 흑자 전환 성공.

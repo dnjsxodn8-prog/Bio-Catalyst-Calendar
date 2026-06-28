@@ -7,17 +7,18 @@ areas:
   - Oncology
   - Infectious Disease
 nextCatalyst: 2026-12-31
-verified: 2026-05-07
+verified: 2026-06-28
 sources:
   - https://investors.biontech.de/news-releases/news-release-details/biontech-announces-fourth-quarter-and-full-year-2025-financial/
   - https://investors.biontech.de/news-releases/news-release-details/biontech-announces-first-quarter-2026-financial-results-and
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2302977
+  - https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/05/Global-Data-for-BioNTech-and-Bristol-Myers-Squibb-s-PD-L1xVEGF-A-Bispecific-Pumitamig-Shows-Encouraging-Efficacy-in-Patients-with-Non-Small-Cell-Lung-Cancer-in-ROSETTA-Lung-02-Trial.html
 ---
 
 # BioNTech (BNTX)
 
 ## 카탈리스트
-BNT111 (mRNA 흑색종 암 백신) Phase 2 결과; BNT323 (HER2 ADC) Phase 2; 총 7개 late-stage readout 2026년 예상
+Pumitamig(PD-L1xVEGF, BMS 파트너) ROSETTA Lung-02 1L NSCLC Ph2 데이터 (2026-05-30) — cORR 비편평 57.1%·편평 68.4%. BNT111(mRNA 흑색종 암 백신) Ph2 등 총 7개 late-stage readout 2026년 예상.
 
 ## 회사 개요
 BioNTech는 독일 mRNA 플랫폼 기업. Pfizer와 COVID-19 백신 Comirnaty로 급성장. €17.2B 현금 바탕으로 mRNA 기반 개인맞춤형 암 치료제, 종양면역 항체, ADC, CAR-T로 파이프라인 확장. Roche와 개인화 암 백신 공동개발. Duality Biologics 인수로 ADC 역량 강화.

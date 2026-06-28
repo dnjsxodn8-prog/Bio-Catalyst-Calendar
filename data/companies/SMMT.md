@@ -6,17 +6,18 @@ modality: Antibody
 areas:
   - Oncology
 nextCatalyst: 2026-11-14
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://smmttx.com/news/press-releases/news-details/2026/Summit-Therapeutics-Announces-U-S--FDA-Acceptance-of-Biologics-License-Application-BLA-Seeking-Approval-for-Ivonescimab-in-Combination-with-Chemotherapy-in-Treatment-of-Patients-with-EGFRm-NSCLC-Post-TKI-Therapy/default.aspx
   - https://www.smmttx.com/news/press-releases/news-details/2026/Multiple-Ivonescimab-Data-Sets-from-Phase-III-Studies-in-Advanced-NSCLC-Patient-Populations-to-be-Featured-at-ELCC-2026/default.aspx
   - https://smmttx.com/patients-caregivers/harmoni-3-clinical-trial/default.aspx
+  - https://www.biospectator.com/news/view/28601
 ---
 
 # Summit Therapeutics (SMMT)
 
 ## 카탈리스트
-Ivonescimab BLA PDUFA — 2026-11-14. EGFRm NSCLC(2L+, post-TKI) 적응증. FDA Fast Track 지정. HARMONi-3(1차 치료 PD-L1 고발현) 미국 Phase 3 진행 중.
+Ivonescimab BLA PDUFA — 2026-11-14. EGFRm NSCLC(2L+, post-TKI) 적응증. FDA Fast Track 지정. HARMONi-3(1L squamous NSCLC) 미국 Phase 3 최종 PFS+OS 중간분석이 2026 하반기 예정 — 1차 치료 확장의 핵심 readout.
 
 ## 회사 개요
 PD-1/VEGF 이중항체 ivonescimab(중국 Akeso 라이선스) 단독 개발·상업화 추진. HARMONi-2(중국 Phase 3)에서 Keytruda 대비 NSCLC PFS 우월 확인으로 주목. 미국 Phase 3 HARMONi-3 진행 중. 2026년 11월 EGFRm NSCLC 2L+ 적응증 BLA PDUFA. 성공 시 NSCLC 시장 판도 변화 가능.

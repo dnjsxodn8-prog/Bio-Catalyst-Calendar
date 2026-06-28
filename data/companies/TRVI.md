@@ -7,14 +7,16 @@ areas:
   - Pulmonology
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-04-28
+verified: 2026-06-28
 sources:
   - https://www.globenewswire.com/news-release/2026/03/17/3257652/0/en/Trevi-Therapeutics-Reports-Fourth-Quarter-and-Year-End-2025-Financial-Results-and-Provides-Business-Updates.html
+  - https://www.biospace.com/press-releases/trevi-therapeutics-announces-oral-presentation-and-multiple-posters-accepted-at-the-american-thoracic-society-ats-2026-international-conference
 ---
 
 # Trevi Therapeutics (TRVI)
 
 ## 카탈리스트
+- CORAL Phase 2b IPF 만성 기침 추가 분석 ATS 2026 발표 (2026-05-18) — 중증군 24h 기침빈도 위약 대비 51%↓(p<0.0001), 중등도군 75%↓
 - IPF 만성 기침 Phase 3 첫 번째 pivotal 시험 개시 (Q2 2026) — N=300, 52주, Primary endpoint: 24시간 기침 빈도 상대 변화
 - RCC Phase 2b 시험 개시 (Q2 2026) — Refractory Chronic Cough
 - IPF 만성 기침 Phase 3 두 번째 pivotal 시험 개시 (H2 2026) — N=130, 12주

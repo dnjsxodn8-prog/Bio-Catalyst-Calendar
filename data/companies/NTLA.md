@@ -7,16 +7,17 @@ areas:
   - Gene/Cell Therapy
   - Rare Disease
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://www.globenewswire.com/news-release/2026/04/27/3281473/0/en/intellia-therapeutics-reports-positive-phase-3-results-in-hereditary-angioedema-marking-a-global-first-for-in-vivo-gene-editing.html
   - https://clinicaltrials.gov/study/NCT06634420
+  - https://ir.intelliatx.com/news-releases/news-release-details/intellia-therapeutics-report-additional-phase-3-haelo-data
 ---
 
 # Intellia Therapeutics (NTLA)
 
 ## 카탈리스트
-Lonvo-z BLA 제출 (rolling, 2026 H2 완료 예정), 미국 출시 2027 H1 (승인 시)
+EAACI 2026에서 lonvo-z(NTLA-2002) HAELO Phase 3 추가 데이터 발표(2026-06-13) — 월 발작률 87% 감소(p<0.0001). Lonvo-z rolling BLA 진행 중(2026 H2 완료 예정), 미국 출시 2027 H1(승인 시).
 
 ## 회사 개요
 CRISPR/Cas9 in vivo & ex vivo 유전자 편집 개척. **Lonvo-z(HAE)는 2026-04-27 HAELO Phase 3 positive topline 발표 — 세계 최초 in vivo 유전자 편집 Phase 3 성공.** rolling BLA 제출 진행 중. ATTR 프로그램 nex-z(NTLA-2001)는 Regeneron 협업으로 MAGNITUDE/MAGNITUDE-2 Phase 3 진행.

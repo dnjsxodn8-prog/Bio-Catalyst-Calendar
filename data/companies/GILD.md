@@ -8,19 +8,20 @@ areas:
   - Immunology
   - Infectious Disease
 nextCatalyst: 2026-06-30
-verified: 2026-05-31
+verified: 2026-06-28
 sources:
   - https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx
   - https://www.gilead.com/science-and-medicine/pipeline
   - https://clinicaltrials.gov/study/NCT04434040
   - https://www.businesswire.com/news/home/20260427408690/en/Gilead-Sciences-Completes-Acquisition-of-Arcellx-Ahead-of-Potential-Commercial-Launch-of-Anito-cel
   - https://investors.gilead.com/news/news-details/2026/Gilead-Sciences-Completes-Acquisition-of-Tubulis-Further-Strengthening-Oncology-Portfolio/default.aspx
+  - https://www.gilead.com/news/news-details/2026/fda-grants-accelerated-approval-to-gileads-hepcludex-bulevirtide-gmod-the-first-and-only-approved-treatment-for-chronic-hepatitis-delta-virus-hdv
 ---
 
 # Gilead Sciences (GILD)
 
 ## 카탈리스트
-Lenacapavir PrEP (PURPOSE-2) — 시스젠더 남성·트랜스젠더 HIV 예방 FDA 승인 결정 (2026 상반기); Trodelvy NSCLC Phase 3 EVOKE-03 데이터
+Hepcludex(bulevirtide) 만성 D형간염(HDV) 미국 첫 가속승인 (2026-05-22, MYR301 Ph3 기반); Trodelvy 1L mTNBC FDA 승인 (2026-06-26). 단, Trodelvy 1L NSCLC는 OS 미충족으로 실패 (2026-06-15).
 
 ## 회사 개요
 Gilead Sciences는 캘리포니아 포스터시티 소재 글로벌 빅파마로, HIV 치료제 시장 세계 1위(Biktarvy 기준). 2024년 lenacapavir(Sunlenca)의 HIV 예방(PrEP) PURPOSE 연구 성공으로 차세대 PrEP 시장을 선점하게 됐다.

@@ -7,16 +7,17 @@ areas:
   - Oncology
   - Immunology
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://clinicaltrials.gov/study/NCT05248022
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10937205/
+  - https://www.biospectator.com/news/view/28550
 ---
 
 # Compass Therapeutics (CMPX)
 
 ## 카탈리스트
-CTX-009 (tovecimig, DLL4×VEGF-A BsAb) COMPANION-002 Phase 3 (2L 담도암) — **2026-04-24 OS 1차 endpoint failure**. 주가 $5→$1.79 (-64%).
+CTX-009 (tovecimig, DLL4×VEGF-A BsAb) COMPANION-002 Phase 3 (2L 담도암) — PFS positive·OS 미충족(2026-04-24). 이 PFS 데이터를 근거로 담도암 2차 BLA를 연내 제출 추진.
 
 ## 회사 개요
 Compass Therapeutics는 이중특이성 항체(BsAb) 플랫폼 기반 종양·면역 질환 치료제 개발 바이오텍. 리드 자산 CTX-009는 DLL4와 VEGF-A를 동시 차단하는 BsAb로, 혈관신생 억제의 새로운 조합 기전. 2차 자산 CTX-471(CD137 완전 작용제)은 종양 면역 활성화.

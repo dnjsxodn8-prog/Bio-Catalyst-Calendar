@@ -7,15 +7,16 @@ areas:
   - Cardiovascular
   - Neurology
 nextCatalyst: 2026-12-31
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://investors.lexpharma.com/news-releases/news-release-details/lexicon-pharmaceuticals-provides-business-and-pipeline-update-0
+  - https://www.globenewswire.com/news-release/2026/06/03/3305962/0/en/Lexicon-to-Present-Data-at-the-American-Diabetes-Association-ADA-2026-Scientific-Sessions.html
 ---
 
 # Lexicon Pharmaceuticals (LXRX)
 
 ## 카탈리스트
-2026 mid-year SONATA-HCM Phase 3 등록 완료(비대성 심근병증, sotagliflozin). Topline 결과 2027 Q1 예상. 2026년 내 Zynquista(sotagliflozin) NDA 재제출(T1D). Pilavapadin(LX9211) Phase 2b 결과 공개.
+ADA 2026에서 sotagliflozin inTandem 풀드 하위군 T1D HbA1c 일관 개선 데이터 발표(2026-06-07). 2026 mid-year SONATA-HCM Phase 3 등록 완료(비대성 심근병증, sotagliflozin), Topline 결과 2027 Q1 예상. 2026년 내 Zynquista(sotagliflozin) NDA 재제출(T1D). Pilavapadin(LX9211) Phase 2b 결과 공개.
 
 ## 회사 개요
 소분자 의약품 전문 임상 바이오텍. 주력 파이프라인: sotagliflozin(SGLT1/2 이중 억제제, HCM + T1D), pilavapadin(LX9211, AAK1 억제제, 당뇨병성 신경통). Xermelo(HCM 관련 없는 카르시노이드 설사) 판매권 매각 후 임상 개발에 집중. 2024년 FDA로부터 sotagliflozin T1D NDA 거절 후 재제출 준비. 2025년 Novo Nordisk에서 $45M 수령, 추가 마일스톤 가능. 현금 $125M(2025년 말), 2027년까지 충분.

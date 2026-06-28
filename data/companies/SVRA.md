@@ -7,16 +7,17 @@ areas:
   - Rare Disease
   - Respiratory
 nextCatalyst: 2026-11-22
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx
   - https://www.stocktitan.net/news/SVRA/savara-announces-the-u-s-food-and-drug-administration-fda-filed-the-6eiweux44h9w.html
+  - https://www.biospace.com/press-releases/savara-announces-new-exercise-capacity-data-from-the-impala-2-phase-3-clinical-trial-of-molgramostim-inhalation-solution-molgramostim-in-autoimmune-pulmonary-alveolar-proteinosis-apap
 ---
 
 # Savara (SVRA)
 
 ## 카탈리스트
-MOLBREEVI BLA 심사 연장 → 신규 PDUFA 2026-11-22 — 자가면역 PAP 최초 치료제 승인 여부
+MOLBREEVI BLA 심사 연장 → 신규 PDUFA 2026-11-22 — 자가면역 PAP 최초 치료제 승인 여부. IMPALA-2 Phase 3 추가 데이터 (2026-05-18): 1차 EP(A-a gradient) 충족 + 48주 6분보행 +80.6m(P=0.0301) 운동능력 개선 입증.
 
 ## 회사 개요
 희귀 폐질환 전문 임상/pre-commercial 바이오텍. 리드 프로그램 MOLBREEVI(molgramostim 흡입 용액)가 자가면역 폐포단백증(autoimmune PAP) 치료제로 BLA 우선 심사 중. 2026년 2월 FDA BLA 접수 및 Priority Review 획득. PDUFA 원래 2026-08-22였으나, FDA가 major amendment로 인해 3개월 연장 → 새 PDUFA 2026-11-22. 유럽 EMA도 MAA 검증 완료.

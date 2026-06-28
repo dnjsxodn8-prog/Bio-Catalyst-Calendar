@@ -7,15 +7,16 @@ areas:
   - Rare Disease
   - Cardiovascular
 nextCatalyst: 2026-06-30
-verified: 2026-04-27
+verified: 2026-06-28
 sources:
   - https://clinicaltrials.gov/study/NCT05556798
+  - https://www.biospectator.com/news/view/28928
 ---
 
 # Edgewise Therapeutics (EWTX)
 
 ## 카탈리스트
-EDG-7500 (경구 심근 미오신 억제제) 비폐쇄성 HCM Phase 2 데이터 ASCO/AHA 2026 (6월~11월) 예상; sevasemten(골격근 미오신) DMD Phase 2 결과
+EDG-7500 (경구 심근 미오신 억제제) 비후성심근병증(HCM) 주요 임상결과를 4분기 공개 예정 — 최대 주가 촉매. sevasemten(골격근 미오신) DMD Phase 2 결과도 병행.
 
 ## 회사 개요
 근육 생물학(muscle biology) 전문 임상 기업. 심근 미오신·골격근 미오신 선택적 조절 소분자 플랫폼. 리드 자산 두 개: EDG-7500(비폐쇄성 비후성심근병증, nHCM)와 sevasemten(듀센 근이영양증, DMD). Bristol-Myers Squibb의 mavacamten(Camzyos) 이후 차세대 심근 미오신 억제제로 주목.

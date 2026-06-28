@@ -6,16 +6,17 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://investors.blackdiamondtherapeutics.com/news-releases/news-release-details/black-diamond-therapeutics-announces-initial-phase-2-data
   - https://www.blackdiamondtherapeutics.com/pipeline-programs/bdtx-1535-gbm
+  - https://www.biospectator.com/news/view/28874
 ---
 
 # Black Diamond Therapeutics (BDTX)
 
 ## 카탈리스트
-실리버티닙(BDTX-1535) NSCLC Phase 2 PFS 데이터 공개 및 FDA와 등록 임상 경로 논의 — 2026 H1
+실리버티닙(BDTX-1535) 비고전적 EGFR 변이 NSCLC의 FDA 피벗(등록 임상) 미팅을 연말 진행 예정. NSCLC Phase 2 PFS 데이터 공개와 함께 등록 경로 확정이 핵심.
 
 ## 회사 개요
 뇌 투과성 4세대 EGFR MasterKey 억제제 실리버티닙(BDTX-1535)을 개발하는 임상 단계 기업. 50+ EGFR 변이를 억제하는 MasterKey 플랫폼은 고전적·비고전적·C797S 내성 변이 모두 포함, NSCLC와 GBM 두 적응증 동시 개발. $110M 현금으로 2027년까지 런웨이 확보.

@@ -7,19 +7,20 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-09-30
-verified: 2026-06-06
+verified: 2026-06-28
 sources:
   - https://amgen.com/investors
   - https://investors.amgen.com/news-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2410602
   - https://investors.amgen.com/static-files/f97cddec-cc50-4749-b33a-05c317ab5e32
   - https://www.amgen.com/newsroom/press-releases/2026/06/european-commission-approves-amgens-imdylltra-for-the-treatment-of-extensivestage-small-cell-lung-cancer
+  - https://thepharmanews.net/article/amgen-tavneos-fda-hearing-mqb2u9e5
 ---
 
 # Amgen (AMGN)
 
 ## 카탈리스트
-MariTide (maridebart cafraglutide) Phase 3 비만 중간 데이터 readout (2026 하반기 예상)
+Tavneos(avacopan) ANCA 혈관염 FDA 청문회(승인취소 심리) 2026-06-29 예정. MariTide (maridebart cafraglutide) Phase 3 비만 중간 데이터 readout (2026 하반기 예상).
 
 ## 회사 개요
 Amgen은 글로벌 빅바이오텍. 종양(Blincyto, Lumakras), 심혈관(Repatha), 염증(Enbrel, Tezspire), 골다공증(Prolia/Xgeva), 희귀질환(Tepezza, Krystexxa) 광범위 포트폴리오. 2023년 Horizon Therapeutics 인수($27.8B)로 희귀질환 강화. MariTide(GLP-1R agonist/GIPR antagonist, 월 1회 피하주사)가 차세대 비만 카탈리스트.

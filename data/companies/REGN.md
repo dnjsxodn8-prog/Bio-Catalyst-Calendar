@@ -8,17 +8,18 @@ areas:
   - Oncology
   - Ophthalmology
 nextCatalyst: 2026-H1
-verified: 2026-05-07
+verified: 2026-06-28
 sources:
   - https://regeneron.com/press-releases
   - https://www.regeneron.com/pipeline
   - https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-first-quarter-2026-financial-and-operating
+  - https://investor.regeneron.com/news-releases/news-release-details/lynozyficr-linvoseltamab-monotherapy-demonstrates-deep-and-rapid/
 ---
 
 # Regeneron Pharmaceuticals (REGN)
 
 ## 카탈리스트
-Dupixent (dupilumab) COPD 적응증 확대 및 추가 아토피·천식 데이터 (2026 H1); Eylea HD vs Vabysmo 장기 비교 데이터 (2026 H1 예정)
+Lynozyfic(linvoseltamab) AL아밀로이드증 LINKER-AL2 Ph1/2 데이터 (2026-05-29) — 240mg 혈액학적 CR 100%·신장 73%·심장 50% 개선. 단, fianlimab 흑색종 Ph3는 실패 (2026-05-18). Dupixent COPD 적응증 확대 및 Eylea HD vs Vabysmo 장기 비교 데이터 진행 중.
 
 ## 회사 개요
 Regeneron Pharmaceuticals는 VelociSuite 항체 플랫폼(VelociGene·VelocImmune)을 기반으로 블록버스터 항체 의약품을 개발하는 미국 대형 바이오파마 (mcap ~$70B). Sanofi와 공동개발한 Dupixent(dupilumab, IL-4Rα 항체)는 아토피·천식·비용종·식도 호산구증식증 등 다수 적응증에서 연간 매출 $15B+ 글로벌 블록버스터. Eylea(aflibercept)는 습성 AMD·당뇨 황반부종에서 안과 시장 1위 유지. Libtayo(cemiplimab, PD-1)는 피부편평세포암·BCC·NSCLC에서 성장 중.

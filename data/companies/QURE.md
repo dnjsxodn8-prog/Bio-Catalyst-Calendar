@@ -7,16 +7,17 @@ areas:
   - Rare Disease
   - Neurology
 nextCatalyst: 2026-H2
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://www.uniqure.com/
   - https://www.uniqure.com/
+  - https://www.biospectator.com/news/view/29073
 ---
 
 # uniQure (QURE)
 
 ## 카탈리스트
-AMT-130 (HTT-targeting AAV5 gene therapy, 헌팅턴병) Phase 1/2 장기 추적 데이터 발표 (2026 H2 예정, CHDI/학술 컨퍼런스)
+AMT-130 (HTT-targeting AAV5 gene therapy, 헌팅턴병) 가속승인 BLA 제출 예정 — FDA 신청 수용, 2026년 3분기 목표. Phase 1/2 장기 추적 데이터도 2026 H2 발표 예상(CHDI/학술 컨퍼런스).
 
 ## 회사 개요
 uniQure는 네덜란드 기반 유전자 치료 선도 바이오텍. 세계 최초 상업화 유전자 치료제 Glybera(2012, EU)를 개발한 회사로 AAV 벡터 플랫폼 원천 기술 보유. 현재 주력 파이프라인은 헌팅턴병(HD) 치료제 AMT-130(AAV5-microRNA)으로, 2026년 Phase 1/2 확장 코호트 데이터가 핵심 카탈리스트. CSL Behring과 혈우병 B (AMT-061/etranacogene dezaparvovec)를 공동개발·이전하여 상업화 완료.
