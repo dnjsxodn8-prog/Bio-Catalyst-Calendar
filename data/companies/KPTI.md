@@ -7,16 +7,17 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-09-30
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://www.karyopharm.com/
   - https://clinicaltrials.gov/ct2/show/NCT03764618
+  - https://www.prnewswire.com/news-releases/karyopharms-phase-3-sentry-trial-of-selinexor-plus-ruxolitinib-in-myelofibrosis-selected-for-late-breaking-oral-presentation-at-eha-2026-302788683.html
 ---
 
 # Karyopharm Therapeutics (KPTI)
 
 ## 카탈리스트
-Selinexor + carfilzomib + dexamethasone (SKd) 3차 이상 다발성 골수종 Phase 3 STOMP 결과
+SENTRY Phase 3 (selinexor + ruxolitinib, frontline JAKi-naive 골수섬유증) — EHA 2026(6/14) Late-Breaking oral: SVR35 1차 endpoint 충족(SVR35 50% vs 28%), JCO 동시 게재. sNDA 제출 계획.
 
 ## 회사 개요
 핵수송 억제제(XPO1 저해제) 전문 종양 바이오텍. Selinexor(XPOVIO)는 미국 FDA 승인 최초 SINE(Selective Inhibitor of Nuclear Export) 계열 항암제. 다발성 골수종, 미만성 거대B세포 림프종(DLBCL) 적응증 보유. 소형 상업화 기업으로 수익성 개선 과제.

@@ -6,17 +6,18 @@ modality: Small Molecule
 areas:
   - Oncology
 nextCatalyst: 2026-06-02
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://cogentbio.com/pipeline/
   - https://cogentbio.com/pipeline
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2211118
+  - https://www.biospace.com/press-releases/cogent-biosciences-announces-detailed-data-from-apex-pivotal-trial-of-bezuclastinib-in-patients-with-advanced-systemic-mastocytosis-at-the-2026-european-hematology-association-eha-congress
 ---
 
 # Cogent Biosciences (COGT)
 
 ## 카탈리스트
-Bezuclastinib PEAK Phase 3 4L+ GIST 결과 ASCO 발표 (2026-06-02, ASCO 2026 Oral)
+Bezuclastinib PEAK Phase 3 GIST 결과 ASCO 발표 (2026-06-02) — **Positive**: mPFS 16.5 vs 9.2개월(HR 0.50), ORR 46% vs 26%(sunitinib 병용). EHA 2026(6/13)에서 APEX Phase 2 AdvSM 상세 데이터 — ORR 65%(mIWG)·PPR 81%. NDA 제출 임박(2026년).
 
 ## 회사 개요
 Cogent Biosciences는 정밀 종양학 소분자 전문 바이오텍. 리드 약물 bezuclastinib(CGT9486)은 선택적 KIT D816V 및 exon 17/18 변이 억제제. 비만세포증(SM) 및 4선 이상 위장관기질종양(GIST)에서 포시트레티닙(Pfizer) 대비 선택성 우위 주장.

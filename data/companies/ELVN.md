@@ -7,17 +7,18 @@ areas:
   - Oncology
   - Hematology
 nextCatalyst: 2026-06-30
-verified: 2026-05-02
+verified: 2026-06-28
 sources:
   - https://www.enliventx.com/
   - https://clinicaltrials.gov/study/NCT05304377
   - https://clinicaltrials.gov/study/NCT05663463
+  - https://www.prnewswire.com/news-releases/enliven-therapeutics-announces-updated-positive-phase-1-clinical-data-and-alignment-with-fda-on-key-phase-3-trial-design-components-302797424.html
 ---
 
 # Enliven Therapeutics (ELVN)
 
 ## 카탈리스트
-ELVN-001 (BCR-ABL1 저해제, CML/Ph+ALL) Phase 1 용량상승 완료 및 확장 코호트 효능 데이터 발표 예정 (2026 H1)
+ELVN-001 (BCR-ABL1 저해제, CML/Ph+ALL) Phase 1 업데이트 — EHA 2026(6/11) 발표: 80mg 코호트 누적 MMR 61%, asciminib 선행 환자에서도 양성. FDA와 Phase 3 ENABLE-2 디자인·용량 합의 완료 → 2H 2026 Phase 3 착수 예정.
 
 ## 회사 개요
 Enliven Therapeutics는 내성 돌연변이 포함 BCR-ABL1 타겟 차세대 경구 소분자 TKI를 개발하는 임상단계 바이오텍. 리드 프로그램 ELVN-001(imatinib 계열 진화형)은 CML 및 Ph+ ALL 대상. 특히 T315I "gatekeeper" 내성 돌연변이 및 COMPOUND 돌연변이(ponatinib 내성)까지 커버하는 pan-BCR-ABL1 억제제 목표.

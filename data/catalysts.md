@@ -428,9 +428,10 @@ events:
     sources:
       - https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-announces-three-month-extension-pdufa-date-lnth-2501-ga
     outcome: delayed
-    outcome_date: 2026-06-29
-    result: "PDUFA 3개월 연장. 제조(CMC) 정보 추가 검토. 효능 이슈 아님."
+    outcome_date: 2026-06-26
+    result: "CRL 수령(6/26). 앞선 3개월 PDUFA 연장(3/29→6/29) 이후 FDA가 Complete Response Letter 발부 — 제3자 제조시설 미해결 조건이 사유이며 효능·안전성 이슈 아님. Lantheus는 파트너·FDA와 시설 이슈 해결 추진."
     outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/26/3318445/0/en/Lantheus-Receives-Complete-Response-Letter-from-FDA-for-LNTH-2501-Ga-68-edotreotide.html
       - https://lantheusholdings.gcs-web.com/news-releases/news-release-details/lantheus-announces-three-month-extension-pdufa-date-lnth-2501-ga
   - date: 2026-06-30
     ticker: SYRE
@@ -2280,4 +2281,32 @@ events:
     moa: "SGLT1/2 이중 억제제. SGLT2 신장 포도당 재흡수 + SGLT1 장내 흡수 동시 억제로 혈당 강하"
     sources:
       - https://www.globenewswire.com/news-release/2026/06/03/3305962/0/en/Lexicon-to-Present-Data-at-the-American-Diabetes-Association-ADA-2026-Scientific-Sessions.html
+  - date: 2026-07-01
+    ticker: RVMD
+    event: "ESMO GI 2026 — zoldonrasib(G12D)+daraxonrasib 췌장암 콤보 oral 2건"
+    type: Conference
+    company: Revolution Medicines
+    drug: Zoldonrasib + Daraxonrasib
+    indication: Metastatic Pancreatic Cancer (RAS G12D)
+    phase: Phase 1/2
+    trialDesign: "RAS(ON) 억제제 콤보 — zoldonrasib(RAS(ON) G12D-selective) + daraxonrasib(RAS(ON) multi-selective) 병용. ESMO GI 2026(뮌헨, 7/1–4) oral 2건."
+    targetDisease: "전이성 췌장선암(PDAC), KRAS G12D 변이. 1L 진행 후 표준 옵션 부재."
+    moa: "RAS(ON) 이중표적 — G12D 변이체 직접 억제 + multi-selective 병용으로 잔존 RAS 신호 차단."
+    sources:
+      - https://www.globenewswire.com/news-release/2026/06/24/3317231/0/en/revolution-medicines-to-present-clinical-data-from-ras-on-inhibitor-combination-trials-in-pancreatic-cancer-at-esmo-gastrointestinal-cancers-congress-2026.html
+  - date: 2026-07-14
+    ticker: BIIB
+    event: "diranersen (BIIB080) CELIA Phase 2 완전데이터 AAIC 2026 (1차 미달, tau↓·인지둔화 2차 양성)"
+    type: Conference
+    company: Biogen
+    drug: Diranersen (BIIB080)
+    indication: Early Alzheimer's Disease
+    phase: Phase 2
+    conferenceId: aaic
+    trialDesign: "CELIA — 416명 RCT, 척수강내 3용량(60/120/180mg) vs 위약, 76주 CDR-SB 1차. 1차 미달이나 tau 병리 감소·인지 둔화 2차 시그널(2026-05 topline). Ionis 공동개발(IONIS-MAPTRx)."
+    targetDisease: "초기 알츠하이머(MCI/경도 치매, 아밀로이드 확인). tau 병리 표적."
+    moa: "ASO — MAPT mRNA 표적으로 tau 단백 합성 억제."
+    sources:
+      - https://investors.biogen.com/news-releases/news-release-details/topline-results-phase-2-celia-study-diranersen-biib080-first
+      - https://www.businesswire.com/news/home/20260514986673/en/Ionis-partner-Biogen-announces-topline-results-from-Phase-2-CELIA-study-of-diranersen-BIIB080-first-study-to-show-reduction-in-tau-pathology-and-cognitive-benefit-in-patients-with-early-Alzheimers-disease
 ```
