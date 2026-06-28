@@ -5,8 +5,8 @@ mcap: 7000
 modality: Small Molecule
 areas:
   - Cardiovascular
-nextCatalyst: 2026-06-30
-verified: 2026-05-18
+nextCatalyst: 2026-11-14
+verified: 2026-06-28
 sources:
   - https://www.cytokinetics.com/pipeline
   - https://cytokinetics.com/
@@ -18,7 +18,7 @@ sources:
 
 ## 카탈리스트
 - **MYQORZO (aficamten) 출시 진행 중** — FDA 2025-12-19 승인 완료 (폐쇄성 비대심근병증 oHCM), 2026년 초 미국 출시 개시. REMS 프로그램 적용. Q1 2026 처방 의사 275명+, 추정 환자 ~680명 투여.
-- **ACACIA-HCM Phase 3 Positive (2026-05-05)** — 비폐쇄성 HCM(nHCM)에서 이중 1차 지표(KCCQ-CSS, pVO2) 모두 통계적으로 유의미하게 개선. nHCM 대상 임상 최초 성공. 비폐쇄성 적응증 확대 NDA 준비 예정 (규제기관 협의 중).
+- **ACACIA-HCM Phase 3 Positive (2026-05-05)** — 비폐쇄성 HCM(nHCM)에서 이중 1차 지표(KCCQ-CSS, pVO2) 모두 통계적으로 유의미하게 개선. nHCM 대상 임상 최초 성공. **sNDA 수리 완료 → PDUFA 2026-11-14 확정.**
 - **AstraZeneca HFpEF 파트너십** 마일스톤 — 개발 진행에 따른 추가 마일스톤 수령 예정.
 
 ## 회사 개요
