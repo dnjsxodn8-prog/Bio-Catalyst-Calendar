@@ -354,3 +354,39 @@ Phase 3 (검증 시스템) 진행. specs/working-notes.md 참고.
 - 내용: NDA 2026-04-29 제출됨. FDA 접수·PDUFA 날짜 아직 미확인.
 - 스킵 이유: 공식 IR에서 PDUFA 날짜 확인 불가. FDA acceptance letter 미확인.
 - 권장 조치: investors.immunome.com에서 NDA acceptance 보도자료 확인 후 PDUFA 날짜 등록.
+
+---
+
+## 2026-07-04 자동 스윕 - 사용자 검토 필요
+
+자동 스윕 실행 결과. 아래 항목은 자동 승인 룰 미달 또는 판단 필요로 스킵됨.
+
+**적용된 항목 (5건):**
+- ARQT 2026-06-29 ZORYVE sNDA → outcome: approved (FDA 6/29 승인)
+- EVMN 2026-06-30 EVO756 Phase 2b CSU → outcome: failed (1차 endpoint 미충족)
+- VRTX 2026-07-01 CASGEVY sBLA 소아 2세+ → 신규 항목 추가 (outcome: approved)
+- CAPR 2026-07-29 Deramiocel AdCom CTGTAC → 신규 항목 추가
+- OTLK 2026-07-29 LYTENAVA BLA PDUFA → 신규 항목 추가
+
+---
+
+**스킵 항목 1: BIIB diranersen CELIA Phase 2 AAIC 2026 발표 (2026-07-14)**
+- 내용: diranersen(BIIB080) tau-ASO Phase 2 CELIA 연구 최종 결과. 1차 endpoint(CDR-SB dose-response) 미충족. 그러나 tau biomarker 감소 + 일부 인지 benefit 관찰. Biogen Phase 3 진행 결정.
+- AAIC 2026 oral session 예정: July 14, 2:00–3:30 PM BST, London
+- 스킵 이유: (1) 1차 endpoint 미충족 — mixed result로 단순 "Conference" 카탈리스트 추가 시 오해 소지. (2) CELIA 결과 발표는 이미 2026-05-14에 topline IR이 있었으나 catalysts.md에 없음. 두 이벤트(topline + AAIC 발표) 모두 미등록 상태. 사용자 판단 필요.
+- 권장 조치: (A) AAIC 2026 conference 카탈리스트 추가 (conferenceId: aaic, date: 2026-07-14), 또는 (B) topline 발표일(2026-05-14) 소급 추가. 1차 endpoint 미충족 표기 필요.
+- 출처: https://investors.biogen.com/news-releases/news-release-details/biogen-highlight-breadth-alzheimers-disease-portfolio-aaic-2026 (company IR ✅)
+
+**스킵 항목 2: MRNA MFLUSIVA 별도 PDUFA 항목 (2026-08-05)**
+- 내용: MFLUSIVA(mRNA-1010) 독감백신 FDA 최종 결정 PDUFA 날짜 2026-08-05. 현재 catalysts.md에는 VRBPAC 자문위(2026-06-18, outcome: met 9-0) 항목만 존재. 별도 PDUFA 결정 날짜 항목이 없음.
+- 스킵 이유: Moderna IR에서 "PDUFA date August 5" 독립 보도자료 확인 불가. 전문 미디어(BiopharmaInternational) 인용만 확인. 자동 승인 규칙 "회사 IR 또는 FDA 공식 페이지" 미충족.
+- 권장 조치: investors.modernatx.com에서 Q1 2026 실적 발표 또는 FDA acceptance 보도자료 중 "August 5" PDUFA 날짜 언급 확인. 또는 FDA 캘린더 직접 확인.
+- 출처: 전문 미디어 기사만 (자동 승인 불가 기준)
+
+**스킵 항목 3: LLY Foundayo(orforglipron) T2D Phase 3 ACHIEVE (ADA 2026)**
+- 내용: 이전 스윕에서 이미 스킵됨 (NCT 검증 필요). 지속 스킵.
+- 권장 조치: investor.lilly.com에서 ACHIEVE NCT 번호 확인.
+
+**스킵 항목 4: LLY 레타트루타이드(retatrutide) Phase 3 TRIUMPH-1/TRANSCEND (ADA 2026)**
+- 내용: 이전 스윕에서 이미 스킵됨 (NCT 검증 필요). 지속 스킵.
+- 권장 조치: investor.lilly.com에서 NCT 번호 확인 후 추가 여부 결정.

@@ -509,6 +509,12 @@ events:
     phase: Phase 2
     sources:
       - https://ir.evommune.com/news-events/press-releases/detail/118/evommune-reports-third-quarter-2025-financial-results-and-provides-business-update
+    outcome: failed
+    outcome_date: 2026-06-29
+    result: "Phase 2b 1차 endpoint(UAS7 12주 변화) 미충족 — 3개 용량 모두 위약 대비 유의차 없음. MRGPRX2 길항제의 CSU 개발 중단. AD Phase 2b 3Q 2026 데이터 예정, 편두통 Phase 2b 스크리닝 개시."
+    outcome_sources:
+      - https://ir.evommune.com/news-events/press-releases/detail/124/evommune-announces-top-line-results-from-evo756-phase-2b-trial-in-moderate-to-severe-chronic-spontaneous-urticaria
+      - https://www.businesswire.com/news/home/20260629470075/en/Evommune-Announces-Top-line-Results-from-EVO756-Phase-2b-Trial-in-Moderate-to-Severe-Chronic-Spontaneous-Urticaria
   - date: 2026-12-31
     ticker: VKTX
     event: VK2735 VANQUISH-1 Phase 3 비만 topline readout (2026H2 예상, 78주 투여)
@@ -590,6 +596,24 @@ events:
     outcome_sources:
       - https://www.businesswire.com/news/home/20260624119051/en/TRYNGOLZA-olezarsen-approved-by-the-FDA-as-the-first-and-only-treatment-to-reduce-triglycerides-and-the-risk-of-acute-pancreatitis-in-patients-with-severe-hypertriglyceridemia-sHTG
       - https://ir.ionis.com/news-releases/news-release-details/tryngolzar-olezarsen-approved-fda-first-and-only-treatment
+  - date: 2026-07-01
+    ticker: VRTX
+    event: CASGEVY(exa-cel) SCD/TDT 소아 2세+ 적응증 확대 sBLA PDUFA — 첫 2세+ 유전자치료
+    type: PDUFA
+    company: Vertex Pharmaceuticals
+    drug: CASGEVY (exagamglogene autotemcel, exa-cel)
+    indication: Sickle Cell Disease (SCD) / Transfusion-Dependent Beta Thalassemia (TDT) ages 2+
+    phase: sBLA
+    moa: "CRISPR-Cas9 기반 1회성 자가조혈모세포 유전자교정 — BCL11A enhancer 편집으로 태아 헤모글로빈(HbF) 재활성화"
+    sources:
+      - https://news.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-approval-expanded-use-casgevyr-treatment
+      - https://www.businesswire.com/news/home/20260701379449/en/Vertex-Announces-US-FDA-Approval-for-Expanded-Use-of-CASGEVY-for-the-Treatment-of-People-Ages-2-Years-and-Older-With-Sickle-Cell-Disease-or-Transfusion-Dependent-Beta-Thalassemia
+    outcome: approved
+    outcome_date: 2026-07-01
+    result: "FDA 승인 — CASGEVY 소아 2세+ 적응증 확대(기존 12세+에서 2세+로). SCD/TDT 대상 최초 2세+ 유전자치료. 국립 우선 바우처 53일 초고속 심사. 추가 소아 5,500명 치료 대상 확대."
+    outcome_sources:
+      - https://news.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-approval-expanded-use-casgevyr-treatment
+      - https://www.businesswire.com/news/home/20260701379449/en/Vertex-Announces-US-FDA-Approval-for-Expanded-Use-of-CASGEVY-for-the-Treatment-of-People-Ages-2-Years-and-Older-With-Sickle-Cell-Disease-or-Transfusion-Dependent-Beta-Thalassemia
   - date: 2026-07-07
     ticker: VERA
     event: Atacicept IgAN BLA PDUFA (가속승인)
@@ -2046,6 +2070,12 @@ events:
     sources:
       - https://www.arcutis.com/fda-accepts-supplemental-new-drug-application-for-arcutis-zoryve-roflumilast-cream-0-3-for-the-treatment-of-plaque-psoriasis-in-children-ages-2-to-5/
       - https://www.globenewswire.com/news-release/2025/11/17/3189050/0/en/FDA-Accepts-Supplemental-New-Drug-Application-for-Arcutis-ZORYVE-roflumilast-Cream-0-3-for-the-Treatment-of-Plaque-Psoriasis-in-Children-Ages-2-to-5.html
+    outcome: approved
+    outcome_date: 2026-06-29
+    result: "FDA 승인 — ZORYVE(roflumilast) 크림 0.3% 소아 2~5세 판상건선 적응증 확대(기존 6세+에서 2세+로). 비스테로이드성 1일1회 국소 제제 2세+ 최초 승인. PK/안전성 연구(ARQ-151-216 + 306 OLE) 기반, 전신흡수 최소."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/06/29/3319348/0/en/fda-approves-arcutis-zoryve-roflumilast-cream-0-3-for-the-treatment-of-plaque-psoriasis-in-children-as-young-as-age-2.html
+      - https://www.arcutis.com/fda-approves-arcutis-zoryve-roflumilast-cream-0-3-for-the-treatment-of-plaque-psoriasis-in-children-as-young-as-age-2/
   - date: 2026-08-25
     ticker: ONC
     event: TEVIMBRA(tislelizumab) + ZIIHERA(zanidatamab) + 화학요법 1L HER2+ 위/위식도접합부 선암 sBLA PDUFA (RTOR, HERIZON-GEA-01 Ph3 OS 우월). Jazz와 공동개발
@@ -2088,6 +2118,28 @@ events:
     sources:
       - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx
       - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food-and-Drug-Administration-FDA-Filed-the-MOLBREEVI-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx
+  - date: 2026-07-29
+    ticker: CAPR
+    event: Deramiocel(CAP-1002) DMD BLA FDA CTGTAC 자문위 — HOPE-3 Ph3 모든 1·2차 endpoint 충족, PDUFA 2026-08-22
+    type: Regulatory
+    company: Capricor
+    drug: Deramiocel (CAP-1002)
+    indication: Duchenne Muscular Dystrophy (DMD)
+    phase: BLA
+    sources:
+      - https://www.globenewswire.com/news-release/2026/06/26/3318280/0/en/capricor-therapeutics-announces-fda-advisory-committee-meeting-to-review-bla-for-deramiocel-for-the-treatment-of-duchenne-muscular-dystrophy.html
+      - https://www.capricor.com/investors/news-events/press-releases/detail/348/capricor-therapeutics-announces-fda-advisory-committee
+  - date: 2026-07-29
+    ticker: OTLK
+    event: LYTENAVA(bevacizumab-vikg) 습성 AMD BLA PDUFA — 재심사(Class 1), FDA FDR 이미 효능 입증 인정
+    type: PDUFA
+    company: Outlook Therapeutics
+    drug: LYTENAVA (ONS-5010 / bevacizumab-vikg)
+    indication: Neovascular (wet) Age-Related Macular Degeneration (nAMD)
+    phase: BLA (Class 1 resubmission)
+    sources:
+      - https://ir.outlooktherapeutics.com/news-releases/news-release-details/outlook-therapeutics-announces-fda-acceptance-resubmitted
+      - https://www.globenewswire.com/news-release/2026/06/16/3312535/0/en/outlook-therapeutics-announces-fda-acceptance-of-resubmitted-biologics-license-application-for-ons-5010-lytenava-bevacizumab-vikg-as-a-treatment-for-wet-amd.html
   - date: 2026-07-30
     ticker: VTRS
     event: 저용량 에스트로겐 주간 피임패치(norelgestromin/EE) NDA PDUFA (505(b)(2))
