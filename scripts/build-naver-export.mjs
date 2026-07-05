@@ -1,7 +1,10 @@
 // scripts/build-naver-export.mjs
-// 오늘부터 +7일 카탈리스트를 Naver 블로그용 "카드뉴스" HTML로 export.
-// 카드 1장 = 카탈리스트 1건. 핵심 필드(날짜·종류·종목·기업·약물·적응증·phase)만 나열.
-// 인자: 없음(today~today+7) 또는 --from YYYY-MM-DD [--to YYYY-MM-DD].
+// 카탈리스트를 Naver 블로그용 "카드뉴스" HTML로 export.
+// 카드 1장 = 카탈리스트 1건. 핵심 필드(날짜·종류·종목·기업·약물·적응증·phase) + 관전 포인트(blogNote).
+// 월간 운영(2026-07-06 사용자 결정): 기본으로 blogNote(관전 포인트) 있는 카탈리스트만 카드로 출력 → 맹탕 카드 방지.
+//   중요 이벤트는 catalysts.md 에 blogNote 를 써서 큐레이션한다. 최대 10건.
+// 인자: 없음(today~today+7) 또는 --from YYYY-MM-DD [--to YYYY-MM-DD] [--limit N] [--all].
+//   --all  : blogNote 없는 카탈리스트도 포함(기존 동작). --limit N: 상한(기본 10).
 // 출력: data/imports/naver-export-{YYYY-MM-DD}.html
 
 import fs from 'node:fs/promises';
@@ -219,7 +222,14 @@ async function main() {
     process.exit(1);
   }
 
-  const items = pickWindow(catalysts, base, end);
+  const wantAll = argv.includes('--all');
+  const limitArg = getArg('--limit');
+  const limit = limitArg ? Number(limitArg) : 10;
+
+  let items = pickWindow(catalysts, base, end);
+  // 기본: 관전 포인트(blogNote) 있는 카탈리스트만 (큐레이션된 중요 이벤트). --all 이면 전체.
+  if (!wantAll) items = items.filter((c) => c.blogNote && String(c.blogNote).trim());
+  if (Number.isFinite(limit) && limit > 0) items = items.slice(0, limit);
 
   const html = renderDocument(items, companiesMap, base, end);
 

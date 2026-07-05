@@ -50,7 +50,7 @@ async function loadDotEnv() {
 
 // ─── args ───────────────────────────────────────────────
 function parseArgs(argv) {
-  const args = { blogUrl: null, dryRun: false, since: 'HEAD', days: null, from: null, to: null, tickers: null, closingNote: null };
+  const args = { blogUrl: null, dryRun: false, since: 'HEAD', days: null, from: null, to: null, tickers: null, closingNote: null, all: false, limit: null };
   const ymdRe = /^\d{4}-\d{2}-\d{2}$/;
   for (const a of argv.slice(2)) {
     if (a === '--dry-run') args.dryRun = true;
@@ -77,6 +77,12 @@ function parseArgs(argv) {
     }
     else if (a.startsWith('--closing-note=')) {
       args.closingNote = a.slice('--closing-note='.length);
+    }
+    else if (a === '--all') args.all = true;
+    else if (a.startsWith('--limit=')) {
+      const n = parseInt(a.slice('--limit='.length), 10);
+      if (!Number.isFinite(n) || n < 0) throw new Error(`--limit는 0 이상 정수여야 함: ${a}`);
+      args.limit = n;
     }
     else if (!a.startsWith('--') && !args.blogUrl) args.blogUrl = a;
     else throw new Error(`알 수 없는 인자: ${a}`);
@@ -177,7 +183,7 @@ function buildHeader(events) {
   const range = dates.length
     ? `${fmtDateShort(dates[0])}~${fmtDateShort(dates[dates.length - 1])}`
     : '';
-  return `🧬 이번 주 Bio Catalyst (${range}), ${events.length}건\n${SITE_URL}`;
+  return `🧬 Bio Catalyst (${range}), ${events.length}건\n${SITE_URL}`;
 }
 
 function buildFooter(blogUrl, note) {
@@ -272,9 +278,23 @@ async function main() {
     if (added.length === 0) { console.error('⚠️  ticker 필터 후 남은 events 없음. 종료.'); process.exit(0); }
   }
 
+  // 기본: 관전 포인트(blogNote) 있는 이벤트만 (네이버 export 미러 — 큐레이션된 중요 이벤트). --all 이면 전체.
+  if (!args.all) {
+    const before = added.length;
+    added = added.filter(e => e.blogNote && String(e.blogNote).trim());
+    console.error(`📝 blogNote 필터(관전 포인트 있는 것만): ${before}건 → ${added.length}건 (전체 포함하려면 --all)`);
+    if (added.length === 0) { console.error('⚠️  blogNote 있는 events 없음. 종료.'); process.exit(0); }
+  }
+  // 상한 (네이버와 동일 기본 10).
+  const cap = args.limit != null ? args.limit : 10;
+  if (cap > 0 && added.length > cap) {
+    added = added.slice(0, cap);
+    console.error(`🔢 상한 ${cap}건 적용`);
+  }
+
   for (const e of added) await loadCompanyName(e.ticker);
 
-  // blogNote 누락 경고 (관전 포인트 줄이 빠짐).
+  // blogNote 누락 경고 (--all 사용 시에만 발생 가능).
   for (const e of added) {
     if (!e.blogNote) console.error(`⚠️  ${e.ticker} ${e.date}: blogNote 없음 → 관전 포인트 줄 생략`);
   }

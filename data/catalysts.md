@@ -618,6 +618,7 @@ events:
     ticker: VERA
     event: Atacicept IgAN BLA PDUFA (가속승인)
     type: PDUFA
+    blogNote: "IgA신병증은 단백뇨가 오래 지속되면 신장이 서서히 망가지는 병인데 원인을 직접 겨냥하는 약이 아직 마땅치 않음. 아타시셉트는 항체를 과하게 만들게 하는 신호 두 개를 동시에 눌러서 단백뇨를 줄이는 약임. 가속승인이라 단백뇨 감소만으로 먼저 허가를 받고 신장 보호 효과는 나중에 확증하는 구조임. 경쟁약이 이미 들어와 있어서 초반에 얼마나 빨리 자리를 잡느냐가 관건임."
     company: Vera Therapeutics
     drug: Atacicept
     indication: IgA Nephropathy
@@ -927,6 +928,7 @@ events:
     ticker: CELC
     event: Gedatolisib NDA PDUFA (PIK3CA wild-type HR+/HER2- 유방암, RTOR + Priority Review)
     type: PDUFA
+    blogNote: "PIK3CA 정상형 유방암에서 무진행 생존을 16.6개월로 대조군 1.9개월보다 크게 늘린 데이터로 신청함. 숫자 차이가 워낙 커서 승인 가능성이 높게 점쳐짐. 다만 PI3K 억제제는 혈당이나 발진 같은 부작용 관리가 늘 관건이라 라벨에 어떤 제한이 붙느냐를 봐야 함. 우선심사라 결과가 곧 나옴."
     company: Celcuity
     drug: Gedatolisib
     indication: PIK3CA Wild-Type HR+/HER2- Advanced Breast Cancer
@@ -1865,6 +1867,7 @@ events:
     ticker: SNY
     event: "Sarclisa SC (isatuximab, on-body injector) 다발골수종 BLA PDUFA (최초 OBI 항암제 후보; IRAKLIA Ph3 ORR 비열등 71.1% vs 70.5%)"
     type: PDUFA
+    blogNote: "다발골수종 약을 정맥주사에서 몸에 붙이는 주사기 형태로 바꾸는 신청임. 효능은 기존 정맥주사와 비슷하다는 걸 이미 확인했고 투여 편의가 핵심 셀링포인트임. 항암제 중에 이런 온바디 주사기 형태는 처음이라 환자 편의와 병원 부담을 얼마나 줄이느냐가 관전 포인트임."
     company: Sanofi
     drug: Sarclisa SC (isatuximab-irfc, on-body injector)
     indication: Relapsed/Refractory Multiple Myeloma
@@ -2123,6 +2126,7 @@ events:
     ticker: CAPR
     event: Deramiocel(CAP-1002) DMD BLA FDA CTGTAC 자문위 — HOPE-3 Ph3 모든 1·2차 endpoint 충족, PDUFA 2026-08-22
     type: Regulatory
+    blogNote: "듀센 근이영양증 세포치료제인데 3상에서 1차와 2차 목표를 모두 맞췄음. 이번 자문위에서 FDA 자문단이 이 데이터를 승인할 만하다고 보는지가 8월 22일 최종 결정의 방향을 가늠하게 함. 듀센은 치료 선택지가 절실한 병이라 자문위 분위기에 따라 주가가 크게 움직일 수 있음."
     company: Capricor
     drug: Deramiocel (CAP-1002)
     indication: Duchenne Muscular Dystrophy (DMD)
@@ -2134,6 +2138,7 @@ events:
     ticker: OTLK
     event: LYTENAVA(bevacizumab-vikg) 습성 AMD BLA PDUFA — 재심사(Class 1), FDA FDR 이미 효능 입증 인정
     type: PDUFA
+    blogNote: "습성 황반변성에 쓰는 안과용 베바시주맙인데 앞서 한 번 보완요구를 받고 다시 낸 재심사임. FDA가 효능은 이미 인정한 상태라 이번엔 제조나 품질 쪽 문제가 풀렸는지가 관건임. 통과되면 기존 안과 항체보다 가격 경쟁력으로 승부할 수 있음."
     company: Outlook Therapeutics
     drug: LYTENAVA (ONS-5010 / bevacizumab-vikg)
     indication: Neovascular (wet) Age-Related Macular Degeneration (nAMD)
@@ -2488,6 +2493,7 @@ events:
     ticker: BIIB
     event: "diranersen (BIIB080) CELIA Phase 2 완전데이터 AAIC 2026 (1차 미달, tau↓·인지둔화 2차 양성)"
     type: Conference
+    blogNote: "타우 단백질을 겨냥하는 안티센스 약임. 5월 속보에서는 1차 목표는 못 맞췄지만 타우 병리가 줄고 인지 저하가 느려지는 신호가 있었음. 이번 학회에서 전체 데이터가 공개되니까 그 신호가 얼마나 단단한지 보는 게 핵심임. 아밀로이드 항체와 다른 기전이라 성공하면 치료 선택지가 넓어짐."
     company: Biogen
     drug: Diranersen (BIIB080)
     indication: Early Alzheimer's Disease
@@ -2724,6 +2730,7 @@ events:
     event: "Obicetrapib BROADWAY 알츠하이머 예방 바이오마커 분석 AAIC 2026 oral (P-tau217 예측인자·ApoE4 용량반응; 심혈관 환자 대상)"
     type: Conference
     conferenceId: aaic
+    blogNote: "원래 콜레스테롤을 낮추는 먹는 약인데 이번엔 알츠하이머 예방 쪽 데이터를 학회에서 내놓음. 심혈관 환자 중에 본인도 모르게 알츠하이머 초기 병리를 가진 사람이 많다는 분석이고 ApoE4 유전자를 가진 사람에서 반응이 다르게 나온다는 내용임. 아직 예방 효과를 증명한 건 아니고 바이오마커 단계라 기대와 신중함이 같이 필요함."
     company: NewAmsterdam Pharma
     drug: Obicetrapib
     indication: Alzheimer's Prevention (cardiovascular patients)
