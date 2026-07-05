@@ -7,8 +7,9 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-09-30
-verified: 2026-06-28
+verified: 2026-07-06
 sources:
+  - https://endpoints.news/nejm-retracts-pivotal-data-for-amgens-tavneos/
   - https://amgen.com/investors
   - https://investors.amgen.com/news-releases
   - https://www.nejm.org/doi/full/10.1056/NEJMoa2410602
@@ -20,7 +21,7 @@ sources:
 # Amgen (AMGN)
 
 ## 카탈리스트
-Tavneos(avacopan) ANCA 혈관염 FDA 청문회(승인취소 심리) 2026-06-29 예정. MariTide (maridebart cafraglutide) Phase 3 비만 중간 데이터 readout (2026 하반기 예상).
+Tavneos(avacopan) ANCA 혈관염 규제 리스크 — 2026-06-29 NEJM이 승인 근거 ADVOCATE 3상 논문 철회(FDA 조사: 331명 중 9명 1차 EP 판정이 DB 잠금·비맹검 후 재조정된 사실을 학술저자에 미고지). EMA도 6/26 시판허가 취소 권고, FDA는 4/27 승인철회 절차 착수. MariTide (maridebart cafraglutide) Phase 3 비만 중간 데이터 readout (2026 하반기 예상).
 
 ## 회사 개요
 Amgen은 글로벌 빅바이오텍. 종양(Blincyto, Lumakras), 심혈관(Repatha), 염증(Enbrel, Tezspire), 골다공증(Prolia/Xgeva), 희귀질환(Tepezza, Krystexxa) 광범위 포트폴리오. 2023년 Horizon Therapeutics 인수($27.8B)로 희귀질환 강화. MariTide(GLP-1R agonist/GIPR antagonist, 월 1회 피하주사)가 차세대 비만 카탈리스트.

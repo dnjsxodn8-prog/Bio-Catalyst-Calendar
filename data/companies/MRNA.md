@@ -7,8 +7,9 @@ areas:
   - Infectious Disease
   - Oncology
 nextCatalyst: 2026-06-30
-verified: 2026-06-28
+verified: 2026-07-06
 sources:
+  - https://www.biospectator.com/news/view/29159
   - https://www.modernatx.com/en-US/media-center/all-media/blogs/fourth-quarter-and-fiscal-year-2025-earnings-report
   - https://www.modernatx.com/research
   - https://www.merck.com/news/moderna-and-merck-present-5-year-data-for-intismeran-autogene-in-combination-with-keytruda-pembrolizumab-in-patients-with-high-risk-stage-iii-iv-melanoma-following-complete-resection-at-the-20/
@@ -17,7 +18,7 @@ sources:
 # Moderna (MRNA)
 
 ## 카탈리스트
-Intismeran autogene(mRNA-4157/V940, with MRK) 흑색종 KEYNOTE-942 5년 업데이트 발표(2026-06-01) — RFS HR 0.510, 5년 OS 92.2% vs 71.3%(JCO). mRNA-1010 독감 백신 VRBPAC 9-0 통과 → PDUFA 2026-08-05. mRNA-4157 NSCLC Phase 3 진행 중.
+Intismeran autogene(mRNA-4157/V940, with MRK) 흑색종 KEYNOTE-942 5년 업데이트 발표(2026-06-01) — RFS HR 0.510, 5년 OS 92.2% vs 71.3%(JCO). mRNA-1010 독감 백신 VRBPAC 9-0 통과 → PDUFA 2026-08-05. mRNA-4157 NSCLC Phase 3 진행 중. 2026-06-30 in vivo CAR-T 후보 mRNA-6007 첫 공개(CD7 표적 LNP로 2개 CAR mRNA 동시전달, 전임상 B세포 고갈 확인 → 2027 B세포 매개 자가면역 Ph1 예정).
 
 ## 회사 개요
 mRNA 플랫폼 선도 기업. Spikevax(코로나19 백신)로 2021-2022년 폭발 성장 후 수요 급감으로 매출 급락. mRNA-1345(RSV 백신, 2024 FDA 승인), mRNA-4157(개인화 암 백신, Merck 공동) 등 비코로나 파이프라인으로 피벗 중. 2024-2025년 약 3,700명 감원, 운영비 $2.2B 감축. FY2025 $1.9B (-41%), 2026년 비COVID 제품 성장으로 최대 +10% 목표.

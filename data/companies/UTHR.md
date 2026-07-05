@@ -7,8 +7,9 @@ areas:
   - Cardiology
   - Rare Disease
 nextCatalyst: 2026-09-30
-verified: 2026-05-02
+verified: 2026-07-06
 sources:
+  - https://www.businesswire.com/news/home/20260702920280/en/United-Therapeutics-Corporation-Acquires-Thymmune-Therapeutics
   - https://ir.unither.com/press-releases/2026/03-30-2026-120037465
   - https://ir.unither.com/press-releases/2026/03-02-2026-113011187
   - https://ir.unither.com/press-releases/2025/02-26-2025-113025174
@@ -20,6 +21,7 @@ sources:
 
 ## 카탈리스트
 
+- 2026-07-02: Thymmune Therapeutics 인수 (선지급 $140M 현금 + 임상·규제 마일스톤 달성 시 최대 $160M earnout, 2031년까지. 전임상 재생 흉선세포치료 — 선천성 무흉선증·이식 내성·자가면역)
 - 2026 여름 말: Tyvaso IPF 추가 적응증 sNDA 제출 (FDA 우선 심사 신청 예정, TETON-1/2 기반)
 - 2026 하반기: Ralinepag PAH NDA 제출 준비 (ADVANCE OUTCOMES Phase 3 성공 후)
 - 진행 중: UKidney EXPAND 임상 (말기 신부전, Phase 1/2/3 통합)

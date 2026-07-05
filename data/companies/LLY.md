@@ -7,8 +7,9 @@ areas:
   - Obesity/Metabolic
   - Oncology
 nextCatalyst: 2026-04-10
-verified: 2026-06-28
+verified: 2026-07-06
 sources:
+  - https://www.biospectator.com/news/view/29164
   - https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides
   - https://investor.lilly.com/news-releases/news-release-details/lilly-reports-first-quarter-2026-financial-results-raises-full
   - https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-ebglyssr-lebrikizumab-lbkz-one-maintenance
@@ -17,7 +18,7 @@ sources:
 # Eli Lilly (LLY)
 
 ## 카탈리스트
-Orforglipron PDUFA (T2D) - oral GLP-1. **EBGLYSS(lebrikizumab) 아토피피부염 유지요법 8주 1회(연 6회) 라벨 확장 FDA 승인 (2026-06-09).**
+Orforglipron PDUFA (T2D) - oral GLP-1. **EBGLYSS(lebrikizumab) 아토피피부염 유지요법 8주 1회(연 6회) 라벨 확장 FDA 승인 (2026-06-09).** 2026-07-01 스웨덴 BioArctic과 BBB 셔틀(BrainTransporter) 기술 딜 — 계약금 $30M + 마일스톤 $770M(총 $800M), 신경퇴행성질환 표적 자체 분자에 BBB 투과 플랫폼 적용.
 
 ## 회사 개요
 글로벌 빅파마. 당뇨/비만(Mounjaro, Zepbound) 및 종양, 면역, 신경과학 블록버스터. Incretin 프랜차이즈로 폭발적 성장. Orforglipron(경구 GLP-1)로 차세대 비만 시장 선점.

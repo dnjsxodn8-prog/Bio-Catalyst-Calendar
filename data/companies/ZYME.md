@@ -6,8 +6,9 @@ modality: Bispecific
 areas:
   - Oncology
 nextCatalyst: 2026-08-25
-verified: 2026-04-28
+verified: 2026-07-06
 sources:
+  - https://www.globenewswire.com/news-release/2026/06/29/3318760/0/en/zymeworks-to-acquire-theravance-biopharma-inc.html
   - https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-announces-positive-herizon-gea-01-phase-3-results/
   - https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-announces-positive-topline-data-pivotal-herizon-btc-01/
   - https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-announces-fda-acceptance-and-priority-review-of-supplemental-biologics-license-application-for-ziihera-zanidatamab-hrii-combinations-in-first-line-her2-locally-advanced-or-metastatic-gea-302753741.html
@@ -20,6 +21,7 @@ sources:
 # Zymeworks (ZYME)
 
 ## 카탈리스트
+- 2026-06-29 — Theravance Biopharma 인수 합의 발표 ($17.00/주 전액현금, equity value ~$929M; YUPELRI[revefenacin, 분무식 LAMA COPD] 상업자산 확보. ampreloxetine 향후 수익 80% CVR 포함, 2026 하반기 종료 예정)
 - 2026-08-25 PDUFA — Ziihera (zanidatamab) 1L HER2+ GEA (Jazz sBLA, Priority Review)
 - 2026 H2 — ZW191 Phase 1 Part 2a 결과 발표 (용량 최적화, 난소암)
 - 2026 H1 — ZW209 (DLL3 삼특이적 T세포 인게이저) IND 신청 예정

@@ -2030,9 +2030,9 @@ events:
     moa: "GFAP mRNA 표적 2세대 ASO. GFAP 단백 과발현 억제 → Rosenthal fiber 축적·성상세포 기능이상 교정"
     sources:
       - https://ir.ionis.com/news-releases/news-release-details/ionis-announces-zilganersen-new-drug-application-alexander
-  - date: 2026-09-27
+  - date: 2026-12-27
     ticker: PRAX
-    event: "Relutrigine(PRAX-562) SCN2A/SCN8A DEE NDA PDUFA — 첫 표적 치료제, 우선심사·희귀소아질환 지정. EMBOLD 운동발작 -46% 조기종료"
+    event: "Relutrigine(PRAX-562) SCN2A/SCN8A DEE NDA PDUFA — 첫 표적 치료제, 우선심사·희귀소아질환 지정. EMBOLD 운동발작 -46% 조기종료 (2026-06-29 PDUFA 9/27→12/27 3개월 연장 — 추가 민감도분석 major amendment 분류, 안전성·제조 이슈 아님)"
     type: PDUFA
     company: Praxis Precision Medicines
     drug: Relutrigine (PRAX-562)
@@ -2044,6 +2044,7 @@ events:
     moa: "지속성 나트륨 전류(persistent sodium current) 선택적 억제 — 기능획득 변이로 인한 과흥분성 정상화"
     sources:
       - https://www.globenewswire.com/news-release/2026/03/30/3264996/0/en/Praxis-Precision-Medicines-Announces-FDA-Acceptance-and-Priority-Review-of-New-Drug-Application-for-Relutrigine-in-Patients-with-SCN2A-and-SCN8A-DEEs.html
+      - https://www.globenewswire.com/news-release/2026/06/29/3319308/0/en/praxis-precision-medicines-announces-extension-period-for-relutrigine-for-treatment-of-scn2a-and-scn8a-developmental-and-epileptic-encephalopathies.html
   - date: 2026-11-27
     ticker: BBIO
     event: "BBP-418(riboflavin analog) LGMD2I/R9 NDA PDUFA — LGMD 첫 치료제 도전, 우선심사(자문위 미개최). FORTIFY Phase 3 전 평가변수 충족"
@@ -2628,4 +2629,198 @@ events:
     phase: Phase 3
     sources:
       - https://www.biospectator.com/news/view/29104
+  - date: 2026-06-29
+    ticker: GMAB
+    event: "Epcoritamab + lenalidomide EPCORE DLBCL-4 Phase 3 R/R DLBCL topline (Positive — PFS HR 0.40 美 [60%↓]·0.44 美외, p<0.0001; vs R-GemOx)"
+    type: Clinical Readout
+    company: Genmab
+    drug: Epkinly (epcoritamab, SC) + lenalidomide
+    indication: Relapsed/Refractory DLBCL
+    phase: Phase 3
+    moa: "CD3xCD20 이중특이 T세포 관여 항체(SC) + lenalidomide 병용 — 화학요법 없는 요법"
+    sources:
+      - https://ir.genmab.com/news-releases/news-release-details/genmab-announces-positive-phase-3-results-epcoritamab-plus
+      - https://www.globenewswire.com/news-release/2026/06/29/3319290/0/en/Genmab-Announces-Positive-Phase-3-Results-for-Epcoritamab-Plus-Lenalidomide-in-Patients-with-Relapsed-Refractory-Diffuse-Large-B-Cell-Lymphoma-Demonstrating-Statistically-Significant-Improvement-in-Progression-Free-Survival.html
+    outcome: met
+    outcome_date: 2026-06-29
+    result: "EPCORE DLBCL-4 3상 — epcoritamab(SC)+lenalidomide vs R-GemOx 표준요법, PFS 진행/사망 위험 미국 -60%(HR 0.40, 95% CI 0.30-0.55, p<0.0001)·미국외 -56%(HR 0.44). 안전성 각 약물 기존 프로파일과 일관. AbbVie 공동개발, 규제당국 논의 예정."
+    outcome_sources:
+      - https://ir.genmab.com/news-releases/news-release-details/genmab-announces-positive-phase-3-results-epcoritamab-plus
+  - date: 2026-06-29
+    ticker: BHVN
+    event: "BHV-1300 Graves병 Phase 3 pivotal 개시 (첫 환자 등록 — first-in-class MoDE 세포외 단백질 분해제)"
+    type: Clinical Readout
+    company: Biohaven
+    drug: BHV-1300 (MoDE extracellular protein degrader)
+    indication: Graves' Disease
+    phase: Phase 3
+    trialDesign: "무작위 이중맹검 위약대조 ~300명 성인, 26주차 항갑상선제 없이 정상 갑상선기능 회복이 1차 목표"
+    targetDisease: "그레이브스병(자가면역 갑상선기능항진) — TSHR 자극 자가항체(TSHR-IgG1)가 원인"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT07661056
+    moa: "first-in-class MoDE degrader — TSHR-IgG1 자가항체를 표적해 체내 청소기전으로 분해"
+    sources:
+      - https://www.prnewswire.com/news-releases/biohaven-advances-a-new-class-of-precision-immunology-therapies-first-mode-extracellular-protein-degrader-bhv-1300-begins-phase-3-pivotal-trial-in-graves-disease-302812720.html
+  - date: 2026-06-30
+    ticker: ONC
+    event: "Zanubrutinib + rituximab MANGROVE Phase 3 1L 외투세포림프종(MCL) topline (Positive — PFS HR 0.57, 진행/사망 43%↓, p<0.0001; chemo-free BTK 첫 Ph3)"
+    type: Clinical Readout
+    company: BeOne Medicines
+    drug: BRUKINSA (zanubrutinib) + rituximab
+    indication: 1L Mantle Cell Lymphoma
+    phase: Phase 3
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT04002297
+    moa: "BTK 억제제 — B세포 수용체 신호 차단으로 악성 B세포 증식 억제 (화학요법 없는 병용)"
+    sources:
+      - https://www.businesswire.com/news/home/20260630413578/en/BeOne-Medicines-Announces-Positive-Phase-3-Results-for-BRUKINSA-in-Frontline-Mantle-Cell-Lymphoma
+    outcome: met
+    outcome_date: 2026-06-30
+    result: "MANGROVE 3상(n=510, 미치료 MCL) — zanubrutinib+rituximab vs bendamustine+rituximab, PFS HR 0.57(95% CI 0.43-0.76, p<0.0001; 진행/사망 43%↓). BTK 기반 chemo-free 요법의 1L MCL 첫 Phase 3. 규제 제출 2H 2026 예정."
+    outcome_sources:
+      - https://www.businesswire.com/news/home/20260630413578/en/BeOne-Medicines-Announces-Positive-Phase-3-Results-for-BRUKINSA-in-Frontline-Mantle-Cell-Lymphoma
+  - date: 2026-06-30
+    ticker: SNY
+    event: "Nexviazyme(avalglucosidase alfa) Baby-COMET Phase 3 영아형 폼페병(IOPD) topline (Positive — 1차·주요 2차 EP 충족)"
+    type: Clinical Readout
+    company: Sanofi
+    drug: Nexviazyme (avalglucosidase alfa)
+    indication: Infantile-Onset Pompe Disease (IOPD)
+    phase: Phase 3
+    moa: "재조합 GAA 효소보충요법 — M6P 수용체 매개 근육세포 흡수로 리소좀 글리코겐 축적 감소"
+    sources:
+      - https://www.sanofi.com/en/media-room/press-releases/2026/2026-06-30-05-00-00-3319382
+    outcome: met
+    outcome_date: 2026-06-30
+    result: "Baby-COMET 3상 — 미치료 IOPD(생후 6개월 이하 영아) 대상 avalglucosidase alfa가 1차·주요 2차 endpoint 모두 충족(52주 무인공호흡 생존 등). 7/8 ICNMD 학회 상세 발표, 하반기 미국 라벨확장 신청 예정."
+    outcome_sources:
+      - https://www.sanofi.com/en/media-room/press-releases/2026/2026-06-30-05-00-00-3319382
+  - date: 2026-06-30
+    ticker: COGT
+    event: "Bezuclastinib 진행성 전신비만세포증(AdvSM) NDA 제출 완료 (APEX Ph2 ORR 65%·PPR 81%; PDUFA일 미정)"
+    type: Regulatory
+    company: Cogent Biosciences
+    drug: Bezuclastinib
+    indication: Advanced Systemic Mastocytosis (AdvSM)
+    phase: NDA
+    trialDesign: "Pivotal APEX Phase 2 — AdvSM, ORR 65%(mIWG)·PPR 81%. AdvSM/NonAdvSM/GIST 순차 심사 체제"
+    targetDisease: "진행성 전신비만세포증(AdvSM) — KIT D816V 변이 비만세포 클론 증식"
+    moa: "선택적 KIT D816V 억제제 — 변이 KIT 신호 차단으로 비만세포 부담 감소"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/06/30/3319594/0/en/Cogent-Biosciences-Announces-Submission-of-New-Drug-Application-NDA-for-Bezuclastinib-in-Advanced-Systemic-Mastocytosis-AdvSM.html
+  - date: 2026-07-01
+    ticker: NBIX
+    event: "Crinecerfont(CRENESSITY) 소아(3개월–4세 미만) classic CAH Phase 2 개시 (open-label, 20명, 24주; readout일 미공개)"
+    type: Clinical Readout
+    company: Neurocrine Biosciences
+    drug: Crinecerfont (CRENESSITY)
+    indication: Classic Congenital Adrenal Hyperplasia (pediatric <4y)
+    phase: Phase 2
+    trialDesign: "Open-label Phase 2 — 생후 3개월~4세 미만 classic CAH 20명, 24주. 미국 소아 적응증 확대 지원"
+    targetDisease: "고전형 선천성 부신과형성(classic CAH) — 21-수산화효소 결핍으로 코르티솔 부족·안드로겐 과다"
+    moa: "CRF1 수용체 길항제 — ACTH·부신 안드로겐 생성 억제"
+    sources:
+      - https://www.prnewswire.com/news-releases/neurocrine-biosciences-initiates-phase-2-study-of-crinecerfont-in-pediatric-patients-under-4-years-old-with-classic-congenital-adrenal-hyperplasia-302816226.html
+  - date: 2026-07-13
+    ticker: NAMS
+    event: "Obicetrapib BROADWAY 알츠하이머 예방 바이오마커 분석 AAIC 2026 oral (P-tau217 예측인자·ApoE4 용량반응; 심혈관 환자 대상)"
+    type: Conference
+    conferenceId: aaic
+    company: NewAmsterdam Pharma
+    drug: Obicetrapib
+    indication: Alzheimer's Prevention (cardiovascular patients)
+    phase: Phase 3
+    trialDesign: "BROADWAY Ph3 하위분석 — 심혈관 고위험 환자에서 경구 CETP 억제제 obicetrapib의 혈장 p-tau217 예측인자·ApoE4 의존 용량반응 분석. AAIC 2026 oral(7/13) + 포스터 3건(7/14-15)"
+    targetDisease: "심혈관 환자의 미진단 알츠하이머 병리 — CETP 억제를 통한 조기 예방 가능성 탐색"
+    moa: "경구 저용량 CETP 억제제 — ApoE 대사·지질 매개 병태생리 다경로 조절"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/07/01/3320530/0/en/newamsterdam-pharma-announces-upcoming-presentations-at-the-alzheimer-s-association-international-conference-aaic-2026.html
+  - date: 2026-08-02
+    ticker: REPL
+    event: "RP1(vusolimogene oderparepvec) + nivolumab 항PD-1 불응성 진행성 흑색종 BLA 재제출 PDUFA (AdComm 7월말 예정; IGNYTE Ph2)"
+    type: PDUFA
+    company: Replimune Group
+    drug: RP1 (vusolimogene oderparepvec) + nivolumab
+    indication: Anti-PD-1 Failed Advanced Melanoma
+    phase: BLA (가속승인 재제출)
+    trialDesign: "IGNYTE Phase 2 단일군(n=140) — 항PD-1 불응 진행성 흑색종. AdComm 2026년 7월말 예정, PDUFA 8/2"
+    targetDisease: "항PD-1 치료 실패 진행성 흑색종 — 후속 표준옵션 제한적"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT03767348
+    moa: "종양용해 HSV-1 바이러스(RP1) 종양내 투여 + 항PD-1 병용 — 국소 종양미세환경 면역활성화"
+    sources:
+      - https://ir.replimune.com/news-releases/news-release-details/replimune-announces-fda-acceptance-rp1-biologics-license
+  - date: 2026-08-05
+    ticker: MRNA
+    event: "mRNA-1010(mFLUSIVA) 계절 독감백신 PDUFA 결정 (50세+ 성인; VRBPAC 6/18 9-0 만장일치 후)"
+    type: PDUFA
+    company: Moderna
+    drug: MFLUSIVA (mRNA-1010)
+    indication: Seasonal Influenza Prevention (Adults ≥50)
+    phase: BLA
+    trialDesign: "Phase 3 P304 — mRNA-1010 vs 표준용량 IIV4, HAI seroresponse 4균주 비열등성 충족·65+ A균주 우월. VRBPAC 6/18 9-0 만장일치 찬성"
+    moa: "LNP 캡슐화 mRNA 백신 — 4개 인플루엔자 균주 hemagglutinin 인코딩"
+    sources:
+      - https://www.biospace.com/press-releases/moderna-announces-fda-advisory-committee-votes-unanimously-in-favor-of-the-benefit-risk-profile-of-mrna-1010-an-investigational-seasonal-influenza-vaccine
+      - https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-june-18-2026-meeting-announcement
+  - date: 2026-09-30
+    ticker: BMY
+    event: "Camzyos(mavacamten) 청소년(12–17세) 폐쇄성 비대심근증(oHCM) 적응증 확대 sNDA PDUFA (우선심사, SCOUT-HCM Ph3)"
+    type: PDUFA
+    company: Bristol Myers Squibb
+    drug: Camzyos (mavacamten)
+    indication: Obstructive HCM (adolescents 12 to <18)
+    phase: sNDA (Priority Review)
+    trialDesign: "SCOUT-HCM Phase 3 무작위 이중맹검 위약대조 — 청소년 oHCM 44명, 28주 Valsalva LVOT gradient 1차 충족"
+    targetDisease: "청소년 증상성 폐쇄성 비대심근증(oHCM) — 좌심실 유출로 폐쇄"
+    priorTrialUrl: https://clinicaltrials.gov/study/NCT06253221
+    moa: "심근 미오신 억제제 — 과도한 액틴-미오신 교차결합 감소로 좌심실 유출로 압력차 완화"
+    sources:
+      - https://news.bms.com/news/corporate-financial/2026/U-S--Food-and-Drug-Administration-Accepts-for-Priority-Review-Bristol-Myers-Squibbs-Supplemental-New-Drug-Application-for-Camzyos-mavacamten-to-Treat-Adolescents-with-Symptomatic-Obstructive-Hypertrophic-Cardiomyopathy-oHCM/default.aspx
+  - date: 2027-02-28
+    ticker: SRPT
+    event: "AMONDYS 45(casimersen)·VYONDYS 53(golodirsen) 가속→정식승인 전환 sNDA PDUFA (DMD exon 45/53 skipping; ESSENCE 확인시험+RWE)"
+    type: PDUFA
+    company: Sarepta Therapeutics
+    drug: AMONDYS 45 (casimersen) / VYONDYS 53 (golodirsen)
+    indication: DMD (exon 45 / exon 53 skipping)
+    phase: sNDA
+    trialDesign: "Phase 3 ESSENCE 확인시험 — 1차 미달이나 96주 dystrophin 발현 증가·기능저하 완화 근거 + real-world evidence로 정식승인 전환 신청"
+    targetDisease: "듀센 근이영양증(DMD) — exon 45/53 skipping 대상 유전자형"
+    moa: "포스포로디아미데이트 모르폴리노 안티센스(PMO) — 표적 엑손 스키핑으로 기능성 dystrophin 생성"
+    sources:
+      - https://www.businesswire.com/news/home/20260630779541/en/Sarepta-Announces-FDA-Acceptance-of-sNDAs-for-AMONDYS-45-and-VYONDYS-53
+  - date: 2026-06-24
+    ticker: GILD
+    event: "Trodelvy(sacituzumab govitecan) 1L 전이성 삼중음성유방암(mTNBC) FDA 승인 — 단독(PD-L1 비적격) + Keytruda 병용(PD-L1+); PD-L1 무관 1L mTNBC 유일 ADC"
+    type: PDUFA
+    company: Gilead Sciences
+    drug: Trodelvy (sacituzumab govitecan-hziy)
+    indication: 1L Metastatic Triple-Negative Breast Cancer
+    phase: sBLA
+    moa: "TROP2 표적 ADC — 종양세포 TROP2 결합 후 SN-38(토포이소머라제 I 억제제) 전달, bystander effect"
+    sources:
+      - https://www.gilead.com/news/news-details/2026/u-s--fda-approves-trodelvy-for-first-line-treatment-of-metastatic-triple-negative-breast-cancer
+      - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line
+    outcome: approved
+    outcome_date: 2026-06-24
+    result: "FDA 승인 — Trodelvy 1L mTNBC 2개 적응증: PD-L1 비적격 단독(ASCENT-03) + PD-L1+ Keytruda/Keytruda Qlex 병용(ASCENT-04/KEYNOTE-D19). 병용은 pembro+chemo 대비 진행/사망 -35%, mPFS 11.2 vs 7.8개월. PD-L1 상태 무관 1L mTNBC 최초·유일 ADC 백본."
+    outcome_sources:
+      - https://www.gilead.com/news/news-details/2026/u-s--fda-approves-trodelvy-for-first-line-treatment-of-metastatic-triple-negative-breast-cancer
+      - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line
+  - date: 2026-06-30
+    ticker: EXEL
+    event: "Zanzalintinib STELLAR-303 대장암 NLM 하위군 최종 OS 미충족 (mixed — HR 0.83, p=0.1185; ITT OS는 2025 ESMO 충족)"
+    type: Clinical Readout
+    company: Exelixis
+    drug: Zanzalintinib (+ atezolizumab)
+    indication: Metastatic Colorectal Cancer (non-MSI-high, 2L+)
+    phase: Phase 3
+    priorTrialUrl: https://ir.exelixis.com/news-releases/news-release-details/exelixis-announces-detailed-results-phase-3-stellar-303-pivotal
+    moa: "경구 다중표적 TKI — VEGFR·MET·TAM(TYRO3/AXL/MER) 억제, cabozantinib 대비 반감기 단축"
+    sources:
+      - https://ir.exelixis.com/news-releases/news-release-details/exelixis-provides-update-phase-3-stellar-303-trial-evaluating
+      - https://www.biospace.com/press-releases/exelixis-announces-zanzalintinib-in-combination-with-an-immune-checkpoint-inhibitor-improved-overall-survival-in-stellar-303-phase-3-pivotal-trial-in-patients-with-metastatic-colorectal-cancer
+    outcome: mixed
+    outcome_date: 2026-06-30
+    result: "STELLAR-303 3상 — 비간전이(NLM) 하위군 최종 OS는 통계적 유의성 미달(zanza+atezo vs regorafenib, HR 0.83, 95% CI 0.66-1.05, p=0.1185; mOS 15.9 vs 12.7개월, 개선 경향). 단 공동 1차 EP인 ITT OS는 2025 ESMO에서 이미 유의 충족·Lancet 게재."
+    outcome_sources:
+      - https://ir.exelixis.com/news-releases/news-release-details/exelixis-provides-update-phase-3-stellar-303-trial-evaluating
 ```
