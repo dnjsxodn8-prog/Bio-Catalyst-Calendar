@@ -1,6 +1,6 @@
 ---
 name: sunday
-description: 매주 일요일 루틴 오케스트레이터. /update-prices → /update → bionews 텔레그램 카탈리스트·뉴스 최신화 → /deploy → /export-naver → /export-telegram을 한 번의 호출로 순서대로 진행한다. 자동화 가능한 단계(주가 갱신·빌드·배포·날짜계산·dry-run·텔레그램 증분수집·추출)는 알아서 처리하고, 사람 결정이 필요한 4곳(업데이트 승인·bionews 카탈리스트 적용 승인·네이버 발행 후 블로그 URL·텔레그램 발송 승인)에서만 멈춘다. 트리거 "/sunday", "일요일 루틴", "주간 루틴 돌려줘", "이번주 루틴 진행", "주간 업데이트부터 export까지", "bionews 텔레그램 최신화".
+description: 매주 일요일 루틴 오케스트레이터. /update-prices → 밸류에이션(PEG) 갱신 → /update → bionews 텔레그램 카탈리스트·뉴스 최신화 → /deploy → /export-naver → /export-telegram을 한 번의 호출로 순서대로 진행한다. 자동화 가능한 단계(주가 갱신·밸류에이션 크롤링·빌드·배포·날짜계산·dry-run·텔레그램 증분수집·추출)는 알아서 처리하고, 사람 결정이 필요한 4곳(업데이트 승인·bionews 카탈리스트 적용 승인·네이버 발행 후 블로그 URL·텔레그램 발송 승인)에서만 멈춘다. 트리거 "/sunday", "일요일 루틴", "주간 루틴 돌려줘", "이번주 루틴 진행", "주간 업데이트부터 export까지", "bionews 텔레그램 최신화".
 ---
 
 # /sunday — 주간 일요일 루틴 오케스트레이터
@@ -14,6 +14,7 @@ description: 매주 일요일 루틴 오케스트레이터. /update-prices → /
 | 단계 | 사람 결정 필요? | 이유 |
 |---|---|---|
 | 1. update-prices | ❌ 자동 | 주가 fetch + build는 결정 불필요 |
+| 1B. 밸류에이션 갱신 | ❌ 자동 | PEG 크롤링 + build-valuation, best-effort. 실패해도 지난주 JSON 유지 |
 | 2. update | ✅ **GATE 1** | `update` 스킬 절대 원칙 — 승인 자동화 금지(위험). 후보 리스트 보여주고 멈춤 |
 | 2B. bionews 텔레그램 | ✅ **GATE 1.5** | 증분수집·추출은 자동, 그러나 catalysts.md/프로필 적용은 승인 필수(add-catalyst 규칙). 후보 보여주고 멈춤 |
 | 3. deploy | ❌ 자동 | `/deploy` 호출 자체가 push 동의 (worktree→main 자동 머지) |
@@ -46,7 +47,45 @@ node scripts/fetch-prices.mjs --stale-days 1
 npm run build-data
 ```
 
-요약(✅ N종목, skip/fail)만 한 줄 보고하고 **멈추지 않고** 2단계로 진행. skip/fail이 많으면(예: 10건 이상) 한 번 짚어주되 루틴은 계속.
+요약(✅ N종목, skip/fail)만 한 줄 보고하고 **멈추지 않고** 1B단계로 진행. skip/fail이 많으면(예: 10건 이상) 한 번 짚어주되 루틴은 계속.
+
+### Step 1B — 밸류에이션(PEG) 스크리너 갱신 (자동·best-effort, GATE 없음)
+
+형제 레포 `PEG_Screener`의 오프라인 크롤러로 해외/국내 헬스케어 밸류에이션 CSV를 오늘 날짜로 새로 뽑고, 캘린더 레포의 `src/valuation.generated.json`을 재생성한다. 사이트 `/app/valuation` 탭(spec 023)이 이걸 소비. **점검모드는 토글하지 않는다**(점검은 spec 023 통합 1회용이었음). 재생성된 JSON은 Step 3 deploy 커밋에 함께 실린다.
+
+**경로 상수** (PEG_Screener는 별도 형제 폴더·system python, venv 없음):
+- 크롤러 루트: `C:/Users/dnjsx/Desktop/Biotech 기업 분석/PEG_Screener`
+- DART 키: `PEG_Screener/.env` (fetch_kr_dart 만 읽음, 출력물엔 안 실림 — 절대 커밋 X)
+
+#### 1. 크롤링 (자동, 오늘 날짜 기본)
+
+```powershell
+$env:PYTHONUTF8="1"
+cd "C:/Users/dnjsx/Desktop/Biotech 기업 분석/PEG_Screener"
+python src/fetch_us_finviz.py     # data/us_raw_<오늘>.csv (~1분)
+python src/fetch_kr_naver.py      # data/kr_raw_<오늘>.csv (~4분)
+python src/fetch_kr_dart.py       # kr_raw in-place: roa/roic 보강 (corpcode 캐시 재사용)
+```
+
+- 4개 스크립트는 `--date` 기본값이 **오늘**(override 가능). `fetch_kr_dart`는 `fetch_kr_naver`가 만든 같은 날짜 CSV를 in-place 갱신하므로 **셋 다 같은 날(오늘)** 이어야 함.
+- `build_excel.py`(xlsx 2종)는 **사이트엔 불필요**(사이트는 CSV를 build-valuation 으로 소비). 사용자 개인 xlsx가 필요할 때만 `python src/build_excel.py` 추가 실행.
+
+#### 2. JSON 재생성 (자동)
+
+```bash
+# 캘린더 레포로 복귀
+npm run build-valuation          # 최신 날짜 us_raw/kr_raw CSV → src/valuation.generated.json
+```
+
+`build-valuation`은 최신 날짜 CSV를 글롭으로 자동 선택. 로그(`해외 N종·국내 K종·roa/roic 커버리지`)를 한 줄 보고.
+
+#### 3. best-effort (절대원칙)
+
+- **크롤링 일부/전부 실패해도 루틴을 막지 않는다.** Finviz 차단·네이버 타임아웃·DART 오류로 CSV가 안 생기면 `build-valuation`이 **지난주 커밋된 `valuation.generated.json`을 유지**(exit 0). 그대로 Step 2로 진행.
+- **커버리지 sanity**: 새 CSV의 행 수가 비정상(해외 < 900 또는 국내 < 350)이면 "이번주 밸류에이션 부분 실패 — 지난주 데이터 유지"로 로그만 남기고 계속. 인증코드·재시도 루프 금지.
+- Step 2(주간 스윕)와 독립 — 밸류에이션 실패가 카탈리스트 업데이트를 막지 않음.
+
+> Step 1B는 GATE 없음(주가 갱신과 동급). 사용자가 "밸류에이션은 생략"이라고 하면 건너뜀.
 
 ### Step 2 — 주간 스윕 (GATE 1: 승인)
 
@@ -166,6 +205,7 @@ dry-run 결과 요약(발송 통수, 누락 필드, 이벤트 한 줄 리스트)
 ```
 ✅ 일요일 루틴 완료 ({YYYY-W##})
 - 주가: N종목 갱신
+- 밸류에이션: 해외 N종·국내 K종 (또는 "갱신 실패 — 지난주 데이터 유지")
 - 주간 업데이트: 신규 X · 변경 Y · 프로필 Z (또는 "후보 없음")
 - bionews: 수집 N건 → 카탈리스트 추가 A · outcome B · 프로필 C · 국내주 D (또는 "신규 없음"/"수집 보류")
 - 배포: ✅ {commit hash} (또는 "변경 없음")

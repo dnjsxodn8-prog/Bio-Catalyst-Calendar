@@ -26,6 +26,7 @@ function devPrivateDataApi() {
             companies: [], catalysts: [], conferences: [], feed: [], prices: {},
           }),
           screener: read('src/screener.generated.json', { points: [], counts: {}, coverage: {} }),
+          valuation: read('src/valuation.generated.json', { markets: { us: { rows: [] }, kr: { rows: [] } } }),
         })
         res.setHeader('Content-Type', 'application/json')
         res.setHeader('Cache-Control', 'no-store')

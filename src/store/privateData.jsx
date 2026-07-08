@@ -18,7 +18,7 @@ export function usePrivateData() {
 
 export function PrivateDataProvider({ children }) {
   const { getToken } = useAuthState();
-  const [state, setState] = useState({ status: 'loading', data: null, screener: null, error: null });
+  const [state, setState] = useState({ status: 'loading', data: null, screener: null, valuation: null, error: null });
 
   useEffect(() => {
     let cancelled = false;
@@ -40,11 +40,12 @@ export function PrivateDataProvider({ children }) {
           status: 'ready',
           data: json.data ?? json,
           screener: json.screener ?? { points: [], counts: {}, coverage: {} },
+          valuation: json.valuation ?? { markets: { us: { rows: [] }, kr: { rows: [] } } },
           error: null,
         });
       } catch (err) {
         if (cancelled) return;
-        setState({ status: 'error', data: null, screener: null, error: err });
+        setState({ status: 'error', data: null, screener: null, valuation: null, error: err });
       }
     })();
     return () => {
@@ -73,7 +74,7 @@ export function PrivateDataProvider({ children }) {
 
   return (
     <PrivateDataContext.Provider
-      value={{ data: state.data, screener: state.screener, screenerByTicker }}
+      value={{ data: state.data, screener: state.screener, valuation: state.valuation, screenerByTicker }}
     >
       {children}
     </PrivateDataContext.Provider>

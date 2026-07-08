@@ -1,5 +1,5 @@
 import { Sun, Moon, Menu } from 'lucide-react';
-import { UserButton } from '@clerk/clerk-react';
+import { UserButton } from '../auth';
 import SearchBox from './SearchBox';
 
 const TITLES = {
@@ -9,6 +9,7 @@ const TITLES = {
   conferences: ['학회 트래커', 'Conferences'],
   news: ['뉴스 피드', 'News'],
   screener: ['Great Biotech Screener', 'Screener'],
+  valuation: ['밸류에이션 스크리너', 'Valuation'],
 };
 
 export default function Topbar({ tab, query, onQuery, theme, onTheme, onOpenSidebar, onPickCompany, searchIndex }) {

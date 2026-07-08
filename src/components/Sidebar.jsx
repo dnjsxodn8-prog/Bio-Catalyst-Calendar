@@ -6,6 +6,7 @@ import {
   Mic,
   Newspaper,
   ScatterChart,
+  Scale,
   Clock,
   Star,
   Plus,
@@ -15,11 +16,12 @@ import {
 } from 'lucide-react';
 import avatarUrl from '../assets/avatar.jpg';
 
-// IA 순서: Dashboard → Screener → Companies → Catalysts → News → Conferences
-// (제안서 §1.2 #6 — discovery 동선을 위해 스크리너를 상단으로, 학회를 말단으로)
+// IA 순서: Dashboard → Screener → Valuation → Companies → Catalysts → News → Conferences
+// (제안서 §1.2 #6 — discovery 동선을 위해 스크리너류를 상단으로, 학회를 말단으로. Valuation=spec 023)
 const NAV = [
   { id: 'dashboard', label: '대시보드', sub: 'Dashboard', icon: LayoutDashboard },
   { id: 'screener', label: '스크리너', sub: 'Screener', icon: ScatterChart },
+  { id: 'valuation', label: '밸류에이션', sub: 'Valuation', icon: Scale },
   { id: 'companies', label: '종목', sub: 'Companies', icon: Building2 },
   { id: 'catalysts', label: '카탈리스트', sub: 'Catalysts', icon: Activity },
   { id: 'news', label: '뉴스', sub: 'News', icon: Newspaper },

@@ -6,8 +6,9 @@
   "scripts": {
     "build-data": "node scripts/build-data.mjs",
     "build-screener": "node scripts/build-screener.mjs",
-    "predev": "node scripts/build-data.mjs && node scripts/build-screener.mjs",
-    "prebuild": "node scripts/build-data.mjs && node scripts/build-screener.mjs",
+    "build-valuation": "node scripts/build-valuation.mjs",
+    "predev": "node scripts/build-data.mjs && node scripts/build-screener.mjs && node scripts/build-valuation.mjs",
+    "prebuild": "node scripts/build-data.mjs && node scripts/build-screener.mjs && node scripts/build-valuation.mjs",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",

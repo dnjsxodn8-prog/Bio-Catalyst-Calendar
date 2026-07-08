@@ -23,6 +23,7 @@ function loadPrivate() {
   cache = {
     data: read('src/data.generated.json', { companies: [], catalysts: [], conferences: [], feed: [], prices: {} }),
     screener: read('src/screener.generated.json', { points: [], counts: {}, coverage: {} }),
+    valuation: read('src/valuation.generated.json', { markets: { us: { rows: [] }, kr: { rows: [] } } }),
   };
   return cache;
 }

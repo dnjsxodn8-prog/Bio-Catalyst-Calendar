@@ -15,6 +15,8 @@ import { useRecent, useWatchlist } from './utils/userPrefs';
 
 // Plotly 번들 비대화 방지: 스크리너 라우트 진입 시에만 chunk 로드 (spec 010 §4.2)
 const Screener = lazy(() => import('./pages/Screener'));
+// 밸류에이션 스크리너 — 진입 시에만 로드 (spec 023 §3)
+const Valuation = lazy(() => import('./pages/Valuation'));
 
 // 탭 ↔ 경로 매핑 (spec 010 §2.2) — Sidebar/Topbar 의 기존 props 계약(tab/onTab) 유지용
 const TAB_PATH = {
@@ -24,6 +26,7 @@ const TAB_PATH = {
   conferences: '/app/conferences',
   news: '/app/news',
   screener: '/app/screener',
+  valuation: '/app/valuation',
 };
 
 function pathToTab(pathname) {
@@ -32,6 +35,7 @@ function pathToTab(pathname) {
   if (pathname.startsWith('/app/conferences')) return 'conferences';
   if (pathname.startsWith('/app/news')) return 'news';
   if (pathname.startsWith('/app/screener')) return 'screener';
+  if (pathname.startsWith('/app/valuation')) return 'valuation';
   return 'dashboard';
 }
 
@@ -120,6 +124,7 @@ function App() {
                 <Route path="conferences" element={<Conferences data={data} query={query} onPick={openCompany} />} />
                 <Route path="news" element={<News data={data} query={query} onPick={openCompany} />} />
                 <Route path="screener" element={<Screener query={query} onOpenCompany={openCompany} />} />
+                <Route path="valuation" element={<Valuation query={query} onOpenCompany={openCompany} />} />
                 <Route path="company/:ticker" element={<CompanyPage data={data} watchlist={watchlist} pushRecent={pushRecent} />} />
                 <Route path="*" element={null} />
               </Routes>
