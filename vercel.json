@@ -4,8 +4,10 @@
       "includeFiles": "src/*.generated.json"
     }
   },
+  "redirects": [
+    { "source": "/((?!maintenance\\.html$).*)", "destination": "/maintenance.html", "permanent": false }
+  ],
   "rewrites": [
-    { "source": "/((?!maintenance\\.html).*)", "destination": "/maintenance.html" },
     { "source": "/((?!api/.*|robots\\.txt|sitemap\\.xml|favicon\\.svg|icons\\.svg|og-image\\.jpg|assets/.*).*)", "destination": "/index.html" }
   ],
   "headers": [
