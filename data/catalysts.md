@@ -626,6 +626,12 @@ events:
     sources:
       - https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-announces-us-fda-granted-priority-review
       - https://www.globenewswire.com/news-release/2026/02/26/3245477/0/en/Vera-Therapeutics-Provides-Business-Update-and-Reports-Full-Year-2025-Financial-Results.html
+    outcome: approved
+    outcome_date: 2026-07-07
+    result: "FDA 가속승인 — TRUTAKNA™(atacicept-vymj), IgA신병증(IgAN) 성인 단백뇨 감소. 첫 BAFF·APRIL 이중 표적 치료제. ORIGIN 3 사전설정 인터림(36주): 단백뇨 기저대비 -46%, vs 위약 -42%(p<0.0001). 용법 150mg SC 주1회 자가주사. 신장 기능 보호는 확인적 시험 진행 중(가속승인 조건)."
+    outcome_sources:
+      - https://ir.veratx.com/news-releases/news-release-details/vera-therapeutics-receives-fda-accelerated-approval-trutaknatm
+      - https://www.globenewswire.com/news-release/2026/07/07/3323532/0/en/vera-therapeutics-receives-fda-accelerated-approval-for-trutakna-for-adult-patients-with-primary-iga-nephropathy.html
   - date: 2026-08-22
     ticker: CAPR
     event: Deramiocel HOPE-3 DMD BLA PDUFA
@@ -1176,6 +1182,26 @@ events:
     result: "ASGCT preclinical(NHP) — in vivo CRISPR LDLR, LDL-C ≥90% 감소 6개월 유지, LDLR 단백 ≥6배 증가. IND/CTA 2026 중반, FIH 2H 2026."
     outcome_sources:
       - https://www.globenewswire.com/news-release/2026/05/14/3294685/0/en/Editas-Medicine-Reports-New-Preclinical-Data-Demonstrating-Progress-of-EDIT-401-as-Potential-Treatment-for-Hyperlipidemia-at-the-American-Society-of-Gene-and-Cell-Therapy-2026-Annu.html
+  - date: 2026-05-14
+    ticker: BIIB
+    event: "diranersen (BIIB080) CELIA Phase 2 topline (1차 CDR-SB 미달, tau↓ 2차 양성, Ph3 진행)"
+    type: Clinical Readout
+    company: Biogen
+    drug: Diranersen (BIIB080)
+    indication: Early Alzheimer's Disease
+    phase: Phase 2
+    trialDesign: "CELIA Phase 2 RCT (n=416), IT 주사 3용량(60/120/180mg) vs 위약, 76주 CDR-SB 1차 종결점. 공동개발: Ionis Pharmaceuticals (IONIS-MAPTRx)."
+    targetDisease: "초기 알츠하이머(MCI/경도 치매, 아밀로이드 확인). tau 병리 표적."
+    moa: "ASO — MAPT mRNA 표적으로 tau 단백 합성 억제."
+    sources:
+      - https://investors.biogen.com/news-releases/news-release-details/topline-results-phase-2-celia-study-diranersen-biib080-first
+      - https://www.businesswire.com/news/home/20260514986673/en/Ionis-partner-Biogen-announces-topline-results-from-Phase-2-CELIA-study-of-diranersen-BIIB080-first-study-to-show-reduction-in-tau-pathology-and-cognitive-benefit-in-patients-with-early-Alzheimers-disease
+    outcome: mixed
+    outcome_date: 2026-05-14
+    result: "1차 종결점(CDR-SB 76주 용량-반응) 미달. 2차: 모든 용량에서 CSF t-tau·p-tau 유의 감소, 고용량(180mg) 군 tau PET 의미있는 감소. 사전설정 임상지표 분석에서 인지저하 둔화 신호. Biogen·Ionis, 3상 레지스트레이션 진행 결정."
+    outcome_sources:
+      - https://investors.biogen.com/news-releases/news-release-details/topline-results-phase-2-celia-study-diranersen-biib080-first
+      - https://www.businesswire.com/news/home/20260514986673/en/Ionis-partner-Biogen-announces-topline-results-from-Phase-2-CELIA-study-of-diranersen-BIIB080-first-study-to-show-reduction-in-tau-pathology-and-cognitive-benefit-in-patients-with-early-Alzheimers-disease
   - date: 2026-05-18
     ticker: SVRA
     event: "Molgramostim IMPALA-2 Phase 3 aPAP ATS 2026 oral — 운동 distance/duration 새 분석 데이터 (Mini Symposium B95, 5/18 14:51-15:03 EDT)"

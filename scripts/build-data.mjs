@@ -54,7 +54,8 @@ async function main() {
 
   // 방어선: 공개 데이터에 비공개 필드가 절대 새지 않도록 빌드 시점에 강제.
   const FORBIDDEN = ['메모', '회사 개요', '임상 디자인', '사전 공개 임상', 'research', 'sources', 'body', 'blogNote'];
-  const leaked = FORBIDDEN.filter((tok) => publicJson.includes(`"${tok}"`) || publicJson.includes(tok));
+  // JSON 키 이름 누출만 검사 (값 내 부분문자열 false-positive 방지 — "on-body injector" 등).
+  const leaked = FORBIDDEN.filter((tok) => publicJson.includes(`"${tok}":`));
   if (leaked.length) {
     throw new Error(`public-data 에 비공개 토큰 유출: ${leaked.join(', ')} — buildPublicData 점검 필요`);
   }

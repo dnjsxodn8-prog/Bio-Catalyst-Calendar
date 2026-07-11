@@ -390,3 +390,38 @@ Phase 3 (검증 시스템) 진행. specs/working-notes.md 참고.
 **스킵 항목 4: LLY 레타트루타이드(retatrutide) Phase 3 TRIUMPH-1/TRANSCEND (ADA 2026)**
 - 내용: 이전 스윕에서 이미 스킵됨 (NCT 검증 필요). 지속 스킵.
 - 권장 조치: investor.lilly.com에서 NCT 번호 확인 후 추가 여부 결정.
+
+---
+
+## 2026-07-11 자동 스윕 — 적용 항목 & 사용자 검토 필요
+
+**실행 시각:** 2026-07-11 (일요일 자동 루틴)
+
+### 자동 적용 완료
+
+**적용 1: VERA atacicept PDUFA → 결과 기록 (FDA 가속승인)**
+- `data/catalysts.md` — date 2026-07-07 VERA 항목에 outcome/result/outcome_sources 추가
+- 브랜드명: TRUTAKNA™(atacicept-vymj). IgAN 성인, BAFF·APRIL 이중 표적 첫 치료제.
+- ORIGIN 3 사전설정 인터림(36주): 단백뇨 -46%(기저), -42%(vs 위약, p<0.0001). 150mg SC 주1회.
+- 출처: ir.veratx.com/...trutaknatm + globenewswire.com 2026-07-07
+
+**적용 2: BIIB diranersen CELIA Phase 2 topline 신규 항목 추가**
+- `data/catalysts.md` — date 2026-05-14, ticker BIIB, type Clinical Readout, outcome mixed
+- 1차 종결점(CDR-SB 용량-반응) 미달. CSF/PET tau↓(2차), 인지저하 둔화 신호. Ph3 진행 결정.
+- 출처: investors.biogen.com + businesswire.com (Ionis IR)
+
+*(Note: BIIB CELIA AAIC 2026 발표 항목 2026-07-14는 이미 DB에 존재 — 추가 불필요)*
+
+### 스킵 항목 (사용자 검토 권장)
+
+**스킵 1: CELC gedatolisib PDUFA 2026-07-17**
+- 이유: PDUFA 아직 미도달(내일 이후). 결과 없음, 스킵.
+- 권장 조치: 7/17 이후 다음 스윕에서 결과 확인.
+
+**스킵 2: AAIC 2026 기타 발표 (7/12-15, London)**
+- NAMS obicetrapib BROADWAY 알츠하이머 예방 바이오마커 분석 — 이미 DB에 2026-07-13 항목 존재.
+- 기타 AAIC 포스터/발표는 추적 종목 cross-check 미완료 (컨텍스트 한계). 다음 스윕에서 보완 권장.
+
+**스킵 3: Tier B 전체 포트폴리오 뉴스 (30-50개 종목 7일 뉴스)**
+- 이번 스윕은 Tier A(VERA 후속)·Tier C/D(BIIB CELIA·AAIC)에 집중. Tier B 전수 스캔 미수행.
+- 권장 조치: 다음 주 스윕 시 Tier B 포함.
