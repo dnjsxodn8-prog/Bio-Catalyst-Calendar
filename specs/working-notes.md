@@ -1,6 +1,45 @@
 # Working Notes
 
-**최근 갱신:** 2026-04-28 (Phase 5 진행 중, rev 2 결정 반영)
+**최근 갱신:** 2026-07-18 (주간 자동 스윕 — 무인 모드)
+
+---
+
+## 주간 스윕 로그 — 2026-07-18 (일요일 자동 실행)
+
+### 적용됨 (8건)
+
+**Tier A — 카탈리스트 후속 (5건, 이전 세션에서 이미 적용)**
+- CELC gedatolisib REVTORPYK™ FDA 승인 (2026-07-14)
+- SNY Sarclisa Escena SC FDA 승인 (2026-07-09, PDUFA 조기)
+- RVMD ESMO GI 2026 zoldonrasib oral 발표 (2026-07-02)
+- BIIB diranersen CELIA AAIC 2026 결과 (2026-07-14, mixed)
+- NAMS obicetrapib BROADWAY AAIC 2026 발표 (2026-07-13, met)
+
+**Tier B/C/D — 신규 추가 (8건, 이번 세션)**
+- BIIB LEQEMBI IQLIK SC sBLA → outcome: approved 2026-07-13 (PDUFA 6주 조기)
+- MRK LIPFENDRA enlicitide FDA 승인 (2026-07-15, 최초 경구 PCSK9i)
+- NVO Wegovy 경구정 EU EC 승인 (2026-07-15)
+- INSM TPIP OLE 12개월 양성 + PALM-PAH Ph3 개시 (2026-07-16)
+- CYTK ACACIA-HCM aficamten ESC 2026 Hot Line (2026-08-28)
+- ROIV brepocitinib NDA PDUFA (2026-09-03, 산출값)
+- BMRN VOXZOGO sNDA 완전승인 전환 PDUFA (2027-02-28)
+- AXSM AXS-12 reboxetine NDA PDUFA (2027-05-01)
+
+### 스킵됨 (적용 제외, 이유 포함)
+
+- **RVMD daraxonrasib rolling NDA**: PDUFA 날짜 미확정 (FDA 수리 공식 발표 없음). FDA 수리 공식 발표 후 add-catalyst 예정.
+- **ROIV brepocitinib PDUFA 날짜**: 2026-09-03은 수리일(2026-03-03) + 6개월 산출값. 공식 IR에 정확 날짜 미표기. 항목은 등록했으나 승인 발표 시 exact date 재확인 후 outcome 업데이트 필요.
+
+### 빌드 결과
+
+```
+✅ companies: 568 · catalysts: 186 · conferences: 33
+❌ ERRORS: 0  ⚠ WARNINGS: 156(스크리너 mcap, 기존)
+```
+
+---
+
+**최근 갱신 (이전):** 2026-04-28 (Phase 5 진행 중, rev 2 결정 반영)
 **용도:** 세션 간 인계용 진행상황 기록. 새 세션 시작 시 이 파일 + CLAUDE.md + 가장 최근 spec 순으로 읽고 진행. (HANDOFF.md는 정정 노트 §있음, 정본 아님.)
 
 ---

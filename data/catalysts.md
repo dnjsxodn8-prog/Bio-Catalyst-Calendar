@@ -944,6 +944,11 @@ events:
     moa: "Pan-Class I PI3K + mTOR 이중 억제제. PI3K WT에서도 PI3K/AKT/mTOR 신호 차단 → CDK4/6i 내성 극복"
     sources:
       - https://www.globenewswire.com/news-release/2026/01/20/3221601/0/en/Celcuity-Announces-FDA-Acceptance-of-New-Drug-Application-for-Gedatolisib-in-HR-HER2-PIK3CA-Wild-Type-Advanced-Breast-Cancer.html
+    outcome: approved
+    outcome_date: 2026-07-14
+    result: "FDA 승인(PDUFA 3일 조기) — REVTORPYK™(gedatolisib) 브랜드명. HR+/HER2-, PIK3CA WT 국소 진행성/전이성 유방암(CDK4/6i + 내분비요법 후 ≥1회 전이 치료 경험). 최초 Pan-Class I PI3K + mTOR 이중 억제제 승인."
+    outcome_sources:
+      - https://ir.celcuity.com/news-releases/news-release-details/celcuity-announces-fda-approval-revtorpyktm-gedatolisib
   - date: 2026-09-30
     ticker: ARGX
     event: VYVGART 안면 MG (oMG) sBLA 제출 예정 (Q3 2026, ADAPT OCULUS Phase 3 positive)
@@ -1038,6 +1043,12 @@ events:
     sources:
       - https://investors.biogen.com/news-releases/news-release-details/fda-accepts-leqembir-iqliktm-lecanemab-irmb-supplemental
       - https://www.eisai.com/news/2026/news202605.html
+    outcome: approved
+    outcome_date: 2026-07-13
+    result: "FDA 승인(PDUFA 6주 조기) — LEQEMBI IQLIK(lecanemab-irmb) 피하주사 개시 투여(500mg 주 1회 SC) 조기 알츠하이머 sBLA 승인. IV 격주 → SC 주 1회 자가투여 전환. 출시 2026년 8월 말 예정."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/07/13/3326503/0/en/FDA-Approves-LEQEMBI-IQLIK-lecanemab-irmb-Subcutaneous-Injection-as-an-Initiation-Dose-for-Early-Alzheimer-s-Disease.html
+      - https://investors.biogen.com/news-releases/news-release-details/fda-approves-leqembir-lecanemab-irmb-subcutaneous
   - date: 2026-05-27
     ticker: MDGL
     event: "Rezdiffra (resmetirom) EASL 2026 발표 (MetALD MASH resolution 29%/35% ≈ NASH; 보상성 간경변 2yr 섬유화·문맥압 개선)"
@@ -1906,6 +1917,12 @@ events:
     sources:
       - https://www.sanofi.com/en/media-room/press-releases/2026/2026-04-22-05-00-00-3278646
       - https://www.onclive.com/view/fda-extends-review-period-for-subcutaneous-isatuximab-bla-in-multiple-myeloma
+    outcome: approved
+    outcome_date: 2026-07-09
+    result: "FDA 승인(PDUFA 14일 조기) — Sarclisa Escena™(isatuximab-irfc SC) 다발골수종 기존 Sarclisa IV 전 적응증 동등 승인. IRAKLIA Ph3 ORR 비열등 충족(71.1% SC vs 70.5% IV). 최초 항암제 온바디 주사기(OBI) 제형. 적응증: Pd·Kd·VRd."
+    outcome_sources:
+      - https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-isatuximab-irfc-subcutaneous-injection-multiple-myeloma-indications
+      - https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-10-12-35-09-3325483
   - date: 2026-05-12
     ticker: AGIO
     event: "Mitapivat SCD 가속승인 sNDA FDA 제출 — RISE UP Phase 3 혈색소 반응(Hb ≥1.0 g/dL↑) surrogate endpoint 기반. 확인적 RCT 동시 합의, 60일 filing review 후 수리 통보 3Q 2026 예상"
@@ -2515,6 +2532,11 @@ events:
     moa: "RAS(ON) 이중표적 — G12D 변이체 직접 억제 + multi-selective 병용으로 잔존 RAS 신호 차단."
     sources:
       - https://www.globenewswire.com/news-release/2026/06/24/3317231/0/en/revolution-medicines-to-present-clinical-data-from-ras-on-inhibitor-combination-trials-in-pancreatic-cancer-at-esmo-gastrointestinal-cancers-congress-2026.html
+    outcome: met
+    outcome_date: 2026-07-02
+    result: "ESMO GI 2026 oral 2건 발표. ①1L zoldonrasib+mFOLFIRINOX: ORR 82%, DCR 96%(n=41). ②1L zoldonrasib+GnP: ORR 61%, DCR 90%(n=40). ③2L+ zoldonrasib+daraxonrasib: ORR 47–50%, mPFS 9.6개월(2L). RASolute 305·309 Phase 3 진행 중."
+    outcome_sources:
+      - https://ir.revmd.com/news-releases/news-release-details/revolution-medicines-presents-phase-12-clinical-data-zoldonrasib
   - date: 2026-07-14
     ticker: BIIB
     event: "diranersen (BIIB080) CELIA Phase 2 완전데이터 AAIC 2026 (1차 미달, tau↓·인지둔화 2차 양성)"
@@ -2531,6 +2553,12 @@ events:
     sources:
       - https://investors.biogen.com/news-releases/news-release-details/topline-results-phase-2-celia-study-diranersen-biib080-first
       - https://www.businesswire.com/news/home/20260514986673/en/Ionis-partner-Biogen-announces-topline-results-from-Phase-2-CELIA-study-of-diranersen-BIIB080-first-study-to-show-reduction-in-tau-pathology-and-cognitive-benefit-in-patients-with-early-Alzheimers-disease
+    outcome: mixed
+    outcome_date: 2026-07-14
+    result: "AAIC 2026 완전 데이터(n=416) 공개. 1차 종결점(CDR-SB 76주 용량반응) 미달 재확인. 모든 용량에서 CSF tau 감소·인지저하 둔화 신호 일관 재현. 60mg 최저용량 군에서 임상 효과 가장 뚜렷. Biogen·Ionis Phase 3 진행 결정."
+    outcome_sources:
+      - https://investors.biogen.com/news-releases/news-release-details/biogen-presents-phase-2-celia-data-aaic-demonstrating-meaningful
+      - https://ir.ionis.com/news-releases/news-release-details/ionis-partner-biogen-presents-phase-2-celia-data-aaic
   - date: 2026-06-29
     ticker: AMGN
     event: "Tavneos ANCA 혈관염 FDA 청문회 (승인취소 심리)"
@@ -2766,6 +2794,11 @@ events:
     moa: "경구 저용량 CETP 억제제 — ApoE 대사·지질 매개 병태생리 다경로 조절"
     sources:
       - https://www.globenewswire.com/news-release/2026/07/01/3320530/0/en/newamsterdam-pharma-announces-upcoming-presentations-at-the-alzheimer-s-association-international-conference-aaic-2026.html
+    outcome: met
+    outcome_date: 2026-07-13
+    result: "AAIC 2026 oral 발표 완료. P-tau217 위약 대비 유의 감소(전체 p=0.025, ApoE4 보유자 p=0.022). ApoE4/E4 동형 접합자에서 -20.5% vs 위약 +7.9%(p=0.010, n=29). 복수 포스터(7/14-15) 추가 발표. CETP 억제를 통한 AD 바이오마커 개선 신호 재확인."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/07/01/3320530/0/en/newamsterdam-pharma-announces-upcoming-presentations-at-the-alzheimer-s-association-international-conference-aaic-2026.html
   - date: 2026-08-02
     ticker: REPL
     event: "RP1(vusolimogene oderparepvec) + nivolumab 항PD-1 불응성 진행성 흑색종 BLA 재제출 PDUFA (AdComm 7월말 예정; IGNYTE Ph2)"
@@ -2856,4 +2889,111 @@ events:
     result: "STELLAR-303 3상 — 비간전이(NLM) 하위군 최종 OS는 통계적 유의성 미달(zanza+atezo vs regorafenib, HR 0.83, 95% CI 0.66-1.05, p=0.1185; mOS 15.9 vs 12.7개월, 개선 경향). 단 공동 1차 EP인 ITT OS는 2025 ESMO에서 이미 유의 충족·Lancet 게재."
     outcome_sources:
       - https://ir.exelixis.com/news-releases/news-release-details/exelixis-provides-update-phase-3-stellar-303-trial-evaluating
+  - date: 2026-07-15
+    ticker: MRK
+    event: "LIPFENDRA (enlicitide decanoate) FDA 승인 — 세계 최초 1일 1회 경구 PCSK9 억제제 (고콜레스테롤혈증 LDL-C 감소)"
+    type: Regulatory
+    company: Merck
+    drug: Enlicitide decanoate (LIPFENDRA)
+    indication: 고콜레스테롤혈증 성인 LDL-C 감소
+    phase: Approved
+    moa: "마크로사이클릭 펩타이드 경구 PCSK9 억제제. LDL 수용체 분해 차단 → LDL-C 최대 56% 감소. 기존 주사 PCSK9i 대비 경구 투여 첫 FDA 승인."
+    sources:
+      - https://www.businesswire.com/news/home/20260715942620/en/Mercks-LIPFENDRA-enlicitide-is-the-First-and-Only-Once-Daily-Oral-PCSK9-Inhibitor-Approved-by-the-U-S.-FDA-to-Reduce-LDL-C-in-Adults-with-Hypercholesterolemia
+    outcome: approved
+    outcome_date: 2026-07-15
+    result: "FDA 승인 — LIPFENDRA(enlicitide decanoate) 세계 최초 1일 1회 경구 PCSK9 억제제. 성인 고콜레스테롤혈증 LDL-C 감소 적응증. CORALreef Phase 3 프로그램 기반."
+    outcome_sources:
+      - https://www.businesswire.com/news/home/20260715942620/en/Mercks-LIPFENDRA-enlicitide-is-the-First-and-Only-Once-Daily-Oral-PCSK9-Inhibitor-Approved-by-the-U-S.-FDA-to-Reduce-LDL-C-in-Adults-with-Hypercholesterolemia
+  - date: 2026-07-15
+    ticker: NVO
+    event: "Wegovy 경구정(oral semaglutide 25mg) EU 집행위원회 판매허가 — EU 최초 경구 GLP-1 비만 치료제"
+    type: Regulatory
+    company: Novo Nordisk
+    drug: Oral semaglutide 25mg (Wegovy pill)
+    indication: 비만·과체중 성인 체중 관리 (EU)
+    phase: Approved (EU EC)
+    moa: "경구 GLP-1 수용체 작용제(세마글루티드 25mg). SNAC 흡수 촉진제 기반 위 흡수. 기존 Wegovy 주사제와 동일 성분, 경구 투여 첫 EU 승인."
+    sources:
+      - https://www.globenewswire.com/news-release/2026/07/15/3327953/0/en/Novo-Nordisk-receives-European-Commission-approval-of-Wegovy-pill-as-first-oral-GLP-1-for-weight-management-in-the-EU-single-ready-to-use-pen-for-higher-dose-7-2-mg-also-approved.html
+    outcome: approved
+    outcome_date: 2026-07-15
+    result: "EU EC 승인 — Wegovy 경구정(oral semaglutide 25mg) EU 최초 경구 GLP-1 비만 치료제. 체중 관련 동반질환 있는 비만·과체중 성인 대상."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/07/15/3327953/0/en/Novo-Nordisk-receives-European-Commission-approval-of-Wegovy-pill-as-first-oral-GLP-1-for-weight-management-in-the-EU-single-ready-to-use-pen-for-higher-dose-7-2-mg-also-approved.html
+  - date: 2026-07-16
+    ticker: INSM
+    event: "TPIP Phase 2b OLE 12개월 양성 데이터 + Phase 3 PALM-PAH 공식 개시 (PAH)"
+    type: Clinical Readout
+    company: Insmed
+    drug: Treprostinil palmitil inhalation powder (TPIP)
+    indication: Pulmonary Arterial Hypertension (PAH)
+    phase: Phase 3 개시 (OLE 데이터)
+    trialDesign: "Phase 2b OLE 12개월 데이터: PAH 환자 TPIP 흡입분말 추가 투여. 6MWD·NT-proBNP·WHO FC·혈역학 지속 개선. PALM-PAH Phase 3 공식 개시 발표."
+    targetDisease: "폐동맥 고혈압(PAH) — 진행성 폐혈관 저항 증가로 우심실 부전. 기존 경구·흡입 프로스타사이클린 치료의 add-on 흡입 분말 제형."
+    moa: "트레프로스티닐 프로드러그 흡입분말. 에스테라제 → 트레프로스티닐 전환 → IP 수용체 작용, 폐혈관 확장·항증식."
+    sources:
+      - https://www.prnewswire.com/news-releases/insmed-announces-positive-12-month-data-from-the-ongoing-open-label-extension-study-of-treprostinil-palmitil-inhalation-powder-tpip-in-patients-with-pulmonary-arterial-hypertension-302827019.html
+      - https://investor.insmed.com/2026-07-16-Insmed-Announces-Positive-12-Month-Data-from-the-Ongoing-Open-Label-Extension-Study-of-Treprostinil-Palmitil-Inhalation-Powder-TPIP-in-Patients-with-Pulmonary-Arterial-Hypertension
+    outcome: met
+    outcome_date: 2026-07-16
+    result: "OLE 12개월 양성 — 6MWD·NT-proBNP·WHO FC·혈역학 지표 지속 개선. Phase 3 PALM-PAH 공식 개시."
+    outcome_sources:
+      - https://www.prnewswire.com/news-releases/insmed-announces-positive-12-month-data-from-the-ongoing-open-label-extension-study-of-treprostinil-palmitil-inhalation-powder-tpip-in-patients-with-pulmonary-arterial-hypertension-302827019.html
+  - date: 2026-08-28
+    ticker: CYTK
+    event: "Aficamten ACACIA-HCM Phase 3 비폐쇄성 HCM ESC 2026 Hot Line 완전 데이터 (nHCM 최초 임상 성공)"
+    type: Conference
+    company: Cytokinetics
+    drug: Aficamten (MYQORZO)
+    indication: Non-Obstructive Hypertrophic Cardiomyopathy (nHCM)
+    phase: Phase 3
+    conferenceId: esc
+    trialDesign: "ACACIA-HCM: 무작위 이중맹검 위약대조 Phase 3. nHCM(LVOT gradient <30mmHg), aficamten vs 위약 36주. 이중 1차 지표 KCCQ-CSS·pVO2. 2026-05-05 topline 양성 발표 → ESC 2026 Hot Line 완전 데이터 공개."
+    targetDisease: "비폐쇄성 비대심근병증(nHCM) — HCM 전체 ~40%, LVOT 협착 없으나 심근 과수축으로 운동 불내성·증상 지속. FDA 승인 치료제 없음, nHCM Phase 3 최초 성공."
+    moa: "심장 미오신 억제제(β-MHC ATP 결합부위 경쟁 억제) — 과도한 심근 수축력 하향 조절."
+    sources:
+      - https://ir.cytokinetics.com/press-releases/press-release-details/2026/Cytokinetics-Announces-Three-Late-Breaking-Science-Abstracts-at-the-European-Society-of-Cardiology-ESC-Congress-2026/default.aspx
+      - https://www.globenewswire.com/news-release/2026/07/07/3323061/35409/en/cytokinetics-announces-three-late-breaking-science-abstracts-at-the-european-society-of-cardiology-esc-congress-2026.html
+  - date: 2026-09-03
+    ticker: ROIV
+    event: "Brepocitinib NDA PDUFA — 피부근염(DM) 최초 표적치료제 승인 여부 (우선심사)"
+    type: PDUFA
+    company: Roivant Sciences
+    drug: Brepocitinib
+    indication: Dermatomyositis (DM)
+    phase: NDA (Priority Review)
+    trialDesign: "VALOR Phase 3(N=241, 52주, 위약대조 이중맹검). 1차 CDASI-A(피부 점수) 충족. DM 대상 최초 양성 Phase 3. NDA 수리·우선심사 2026-03-03 → PDUFA 2026-09-03(6개월 우선심사 산출)."
+    targetDisease: "피부근염(Dermatomyositis) — 피부·근육 자가면역 염증질환, 미국 ~30,000명. 스테로이드·면역억제제 외 FDA 승인 표적치료제 전무."
+    moa: "이중 선택적 TYK2/JAK1 억제제 — IFN-I 신호 + IL-6/IL-13 JAK1 경로 동시 차단. 피부근염 핵심 병리기전 IFN signature 표적."
+    sources:
+      - https://www.globenewswire.com/news-release/2026/03/03/3248199/34323/en/Priovant-Announces-FDA-Acceptance-and-Priority-Review-of-New-Drug-Application-for-Brepocitinib-in-Dermatomyositis.html
+      - https://www.sec.gov/Archives/edgar/data/1635088/000114036126007447/ef20066998_ex99-1.htm
+  - date: 2027-02-28
+    ticker: BMRN
+    event: "VOXZOGO (vosoritide) sNDA 완전 승인 PDUFA — 연골무형성증 소아 가속→완전 승인 전환"
+    type: PDUFA
+    company: BioMarin Pharmaceutical
+    drug: Vosoritide (VOXZOGO)
+    indication: Achondroplasia (children) — accelerated to full approval
+    phase: sNDA
+    trialDesign: "기존 VOXZOGO 가속승인(소아 연골무형성증) 근거에 확인적 데이터 추가. FDA sNDA 수리 완료 → PDUFA 2027-02-28. (hypochondroplasia 별도 sNDA와 구별)"
+    targetDisease: "연골무형성증(Achondroplasia) — FGFR3 변이로 인한 가장 흔한 단신 유전질환. VOXZOGO 가속승인 → 완전 승인 전환 신청."
+    moa: "CNP 유사체 — FGFR3 과활성화 억제 → 연골 분화·뼈 성장 촉진. 1일 1회 SC."
+    sources:
+      - https://www.prnewswire.com/news-releases/us-food-and-drug-administration-accepts-biomarins-supplemental-new-drug-application-for-full-approval-of-voxzogo-vosoritide-for-children-with-achondroplasia-302823072.html
+      - https://investors.biomarin.com/news/news-details/2026/U-S--Food-and-Drug-Administration-Accepts-BioMarins-Supplemental-New-Drug-Application-for-Full-Approval-of-VOXZOGO-vosoritide-for-Children-With-Achondroplasia/default.aspx
+  - date: 2027-05-01
+    ticker: AXSM
+    event: "AXS-12 (reboxetine) NDA PDUFA — 기면증 카탈렉시 경구 NRI"
+    type: PDUFA
+    company: Axsome Therapeutics
+    drug: Reboxetine (AXS-12)
+    indication: Cataplexy in Narcolepsy
+    phase: NDA
+    trialDesign: "NDA 접수 완료(2026-07-15 FDA 수리 발표). 카탈렉시 대상 표준심사. PDUFA 2027-05-01."
+    targetDisease: "기면증 카탈렉시(Narcolepsy Cataplexy) — 감정 유발 갑작스러운 근긴장 소실. 미국 ~166,000명. 기존 소듐 옥시베이트·벤라팍신 외 NRI 경구 제형 부재."
+    moa: "선택적 노르에피네프린 재흡수 억제(NRI) — REM 침입·카탈렉시 병리기전 억제."
+    sources:
+      - https://www.globenewswire.com/news-release/2026/07/15/3327580/0/en/axsome-therapeutics-announces-fda-acceptance-of-new-drug-application-for-axs-12-for-the-treatment-of-cataplexy-in-narcolepsy.html
 ```
