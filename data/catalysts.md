@@ -2165,6 +2165,31 @@ events:
     sources:
       - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food--Drug-Administration-FDA-Has-Extended-the-Review-Period-for-the-Molgramostim-Inhalation-Solution-Molgramostim-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx
       - https://investors.savarapharma.com/news/news-details/2026/Savara-Announces-the-U-S--Food-and-Drug-Administration-FDA-Filed-the-MOLBREEVI-Biologics-License-Application-BLA-in-Autoimmune-Pulmonary-Alveolar-Proteinosis-Autoimmune-PAP/default.aspx
+  - date: 2026-07-22
+    ticker: RVMD
+    event: "Daraxonrasib NDA FDA 수리(Priority Review + National Priority Voucher) — 2L+ 전이성 췌장암(PDAC), RASolute 302 Ph3 기반"
+    type: Regulatory
+    company: Revolution Medicines
+    drug: Daraxonrasib (RMC-6236)
+    indication: Previously Treated Metastatic Pancreatic Ductal Adenocarcinoma (PDAC)
+    phase: NDA
+    moa: "범선택적 RAS(ON) 억제제 — KRAS·NRAS·HRAS 변이형 GTP 결합 활성 상태 표적. GDP/GTP 전환 차단으로 RAS 신호 종료"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/07/22/3331714/0/en/revolution-medicines-new-drug-application-for-daraxonrasib-accepted-for-review-by-u-s-fda-for-previously-treated-metastatic-pancreatic-cancer.html
+  - date: 2026-07-23
+    ticker: LLY
+    event: "Retatrutide TRIUMPH-2(T2D+비만)/TRIUMPH-3(심혈관고위험 비만) Phase 3 양성 — T2D 동반 -20.8% / CVD 고위험군 -22.6% 체중감량; BLA Q1 2027 예정"
+    type: Clinical Readout
+    company: Eli Lilly
+    drug: Retatrutide
+    indication: Obesity with Type 2 Diabetes / Obesity with Established Cardiovascular Disease
+    phase: Phase 3
+    trialDesign: "TRIUMPH-2: T2D+비만 성인 80주 무작위 이중맹검 위약대조(4/9/12mg 3용량). TRIUMPH-3: 확립된 심혈관질환 동반 비만 80주; 12mg 위약보정 체중 -22.6%, 트리글리세리드 -37%, hsCRP -51%"
+    targetDisease: "비만(T2D 동반 또는 심혈관질환 동반) — GIP/GLP-1/Glucagon 삼중 작용으로 단독·이중 인크레틴 대비 체중감량 극대화"
+    moa: "GIP/GLP-1/Glucagon 삼중 수용체 작용제. 식욕억제·인슐린분비·에너지소비 동시 증가"
+    sources:
+      - https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-successful-in-two-additional-phase-3-obesity-trials-delivering-significant-improvements-in-weight-and-a1c-302832674.html
+      - https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional
   - date: 2026-07-29
     ticker: CAPR
     event: Deramiocel(CAP-1002) DMD BLA FDA CTGTAC 자문위 — HOPE-3 Ph3 모든 1·2차 endpoint 충족, PDUFA 2026-08-22
@@ -2178,6 +2203,18 @@ events:
       - https://www.globenewswire.com/news-release/2026/06/26/3318280/0/en/capricor-therapeutics-announces-fda-advisory-committee-meeting-to-review-bla-for-deramiocel-for-the-treatment-of-duchenne-muscular-dystrophy.html
       - https://www.capricor.com/investors/news-events/press-releases/detail/348/capricor-therapeutics-announces-fda-advisory-committee
   - date: 2026-07-29
+    ticker: GILD
+    event: "ISL/LEN(islatravir 2mg/lenacapavir 300mg) 주 1회 경구 HIV 치료 Phase 3 ISLEND-1/2 전체 데이터 AIDS 2026 Late-Breaking Oral 발표"
+    type: Conference
+    company: Gilead Sciences
+    drug: Islatravir/Lenacapavir (ISL/LEN) — 1정 주 1회 경구 HIV 치료
+    indication: HIV-1 Infection (Virologically Suppressed Adults)
+    phase: Phase 3
+    moa: "ISL(NRTTI, 핵산역전사효소 전위 억제제) + LEN(Capsid 억제제) 단일정 — 주 1회 경구, 기존 매일 복용 ART 대체 목표"
+    sources:
+      - https://www.businesswire.com/news/home/20260720642268/en/Gilead-to-Present-New-HIV-Research-at-AIDS-2026-Across-Prevention-Treatment-and-Cure
+      - https://investors.gilead.com/news/news-details/2026/Gilead-to-Present-New-HIV-Research-at-AIDS-2026-Across-Prevention-Treatment-and-Cure/default.aspx
+  - date: 2026-07-29
     ticker: OTLK
     event: LYTENAVA(bevacizumab-vikg) 습성 AMD BLA PDUFA — 재심사(Class 1), FDA FDR 이미 효능 입증 인정
     type: PDUFA
@@ -2189,6 +2226,11 @@ events:
     sources:
       - https://ir.outlooktherapeutics.com/news-releases/news-release-details/outlook-therapeutics-announces-fda-acceptance-resubmitted
       - https://www.globenewswire.com/news-release/2026/06/16/3312535/0/en/outlook-therapeutics-announces-fda-acceptance-of-resubmitted-biologics-license-application-for-ons-5010-lytenava-bevacizumab-vikg-as-a-treatment-for-wet-amd.html
+    outcome: approved
+    outcome_date: 2026-07-24
+    result: "FDA 승인(PDUFA 5일 조기) — LYTENAVA™(bevacizumab-vikg) 습성 AMD(nAMD). 최초 FDA 승인 안과용 베바시주맙 단일제형. BPCIA 12년 Reference Product Exclusivity. FDR 이미 효능 인정 후 BLA 재심사(Class 1) 통과."
+    outcome_sources:
+      - https://www.sec.gov/Archives/edgar/data/0001649989/000110465926086685/tm2621316d1_ex99-1.htm
   - date: 2026-07-30
     ticker: VTRS
     event: 저용량 에스트로겐 주간 피임패치(norelgestromin/EE) NDA PDUFA (505(b)(2))
@@ -2220,6 +2262,17 @@ events:
     phase: NDA
     sources:
       - https://telixpharma.com/news-views/fda-accepts-nda-for-tlx101-px-pixclara/
+  - date: 2026-10-17
+    ticker: VTRS
+    event: "MR-141(phentolamine 0.75% 점안액) 노안(presbyopia) sNDA PDUFA — VEGA-2/VEGA-3 Ph3 1/2차 평가변수 충족"
+    type: PDUFA
+    company: Viatris
+    drug: MR-141 (phentolamine ophthalmic solution 0.75%)
+    indication: Presbyopia (age-related near vision loss)
+    phase: sNDA
+    moa: "알파-아드레날린 수용체 차단 → 동공 수축(축동) → 핀홀 효과로 근거리 시력 개선. 비조절성 노안 보정"
+    sources:
+      - https://www.prnewswire.com/news-releases/fda-accepts-viatris-supplemental-new-drug-application-for-mr-141-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia-302696332.html
   - date: 2026-10-24
     ticker: PHAR
     event: Joenja(leniolisib) 소아 APDS(4~11세) sNDA 재제출 PDUFA (1/30 CRL 후 재제출)

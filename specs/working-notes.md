@@ -1,6 +1,42 @@
 # Working Notes
 
-**최근 갱신:** 2026-07-18 (주간 자동 스윕 — 무인 모드)
+**최근 갱신:** 2026-07-25 (주간 자동 스윕 — 무인 모드)
+
+---
+
+## 주간 스윕 로그 — 2026-07-25 (일요일 자동 실행)
+
+### 적용됨 (5건)
+
+**Tier A — 카탈리스트 후속 (1건)**
+- OTLK LYTENAVA(bevacizumab-vikg) FDA 승인 업데이트 → outcome: approved, outcome_date: 2026-07-24 (PDUFA 5일 조기). Source: SEC 8-K
+
+**Tier B — 추적 종목 뉴스 (2건)**
+- LLY retatrutide TRIUMPH-2(T2D+비만)/TRIUMPH-3(CVD 고위험 비만) Phase 3 양성 (2026-07-23) — BLA Q1 2027 예정. Source: prnewswire.com + investor.lilly.com
+- RVMD daraxonrasib NDA FDA 수리 (2026-07-22) — Priority Review + National Priority Voucher. Source: globenewswire.com
+
+**Tier C — 신규 PDUFA/임상 (1건)**
+- VTRS MR-141(phentolamine 0.75%) 노안 sNDA PDUFA (2026-10-17) — VEGA-2/VEGA-3 Ph3 충족. Source: prnewswire.com
+
+**Tier D — 학회 발표 (1건)**
+- GILD ISL/LEN(islatravir/lenacapavir 주 1회 경구 HIV) Phase 3 ISLEND-1/2 AIDS 2026 Late-Breaking Oral (2026-07-29). Source: businesswire.com + investors.gilead.com
+
+### 스킵됨 (사유 포함)
+
+- **TENX TNX-103 ESC 2026** (2026-08-29): 미추적 종목. mcap ~$386M이나 companies/TENX.md 없어 add-catalyst 불가.
+- **TAK rusfertide PV PDUFA August 2026**: TAK 미추적 종목. PTGX는 추적하나 NDA는 Takeda가 보유(PTGX opt-out 2026-04-28). 사용자 확인 필요.
+- **ARGX efgartigimod ALKIVIA Ph2/3**: 날짜 미확정("Q3 2026"). 결과 발표 후 추가.
+- **AMLX avexitide LUCIDITY Ph3**: 날짜 미확정("Q3 2026"). 결과 발표 후 추가.
+- **PHVS deucrictibant XR CHAPTER-3 Ph3**: 날짜 미확정("Q3 2026"). 결과 발표 후 추가.
+- **AVIR bemnifosbuvir+ruzasvir HCV Ph3**: 날짜 미확정("mid-2026"). 결과 발표 후 추가.
+- **PTGX rusfertide 관련 note**: PTGX가 2026-04-28 US opt-out 행사. Takeda(TAK)가 NDA 보유. 차주 user가 PTGX 프로필 업데이트 여부 결정 필요.
+
+### 빌드 결과
+
+```
+✅ companies: 568 · catalysts: 190 · conferences: 33
+❌ ERRORS: 0  ⚠ WARNINGS: 156(스크리너 mcap, 기존)
+```
 
 ---
 
