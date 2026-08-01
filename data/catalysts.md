@@ -1659,6 +1659,12 @@ events:
     moa: "Loop diuretic (Na-K-2Cl symporter 억제, Henle 두꺼운 상행각). 자가주사기 SC 투여로 IV 동등 약동학"
     sources:
       - https://investors.mannkindcorp.com/news-releases/news-release-details/mannkind-announces-us-fda-accepts-review-its-supplemental-new
+    outcome: approved
+    outcome_date: 2026-07-24
+    result: "FDA 승인 (PDUFA 2일 조기, 2026-07-24). FUROSCIX ReadyFlow(SCP-111) 자가주사기 — 최초 IV 동등 SC furosemide 자가주사기. 만성 HF(NYHA II-IV)/CKD 부종 외래·재택 탈울혈 허가."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/07/24/3332748/29517/en/MannKind-Announces-FDA-Approval-of-Furoscix-ReadyFlow-the-First-and-Only-Autoinjector-Delivering-IV-Equivalent-Diuretic-Therapy-for-the-Treatment-of-Edema-in-Adults-with-Heart-Fail.html
+      - https://www.sec.gov/Archives/edgar/data/0000899460/000119312526208910/mnkd-ex99_1.htm
   - date: 2026-06-04
     ticker: CABA
     event: "Rese-cel RESET-Myositis Ph1/2 장기추적 EULAR 2026 oral (OP0170) + SLE/SSc 코호트"
@@ -2190,6 +2196,23 @@ events:
     sources:
       - https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-successful-in-two-additional-phase-3-obesity-trials-delivering-significant-improvements-in-weight-and-a1c-302832674.html
       - https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional
+  - date: 2026-07-28
+    ticker: AVIR
+    event: "C-BEYOND Phase 3 POSITIVE — bemnifosbuvir+ruzasvir(BEM/RZR) vs sofosbuvir/velpatasvir HCV 비열등성 1차·2차 endpoint 충족"
+    type: Clinical Readout
+    company: Atea Pharmaceuticals
+    drug: Bemnifosbuvir + Ruzasvir (BEM/RZR) fixed-dose combination
+    indication: Chronic Hepatitis C (HCV) — treatment-naive adults including cirrhosis
+    phase: Phase 3
+    trialDesign: "C-BEYOND Ph3(North America, n>880) — 미치료 만성 HCV(간경변 포함) 대상, BEM/RZR 1일1회 고정용량복합제 vs sofosbuvir/velpatasvir(Epclusa) 비열등성. C-FORWARD(글로벌, ex-NA) 병행 진행 중."
+    moa: "Bemnifosbuvir(NS5B RdRp 억제제) + Ruzasvir(NS5A 억제제) 직접 작용 항바이러스제(DAA) 복합"
+    sources:
+      - https://www.globenewswire.com/news-release/2026/07/28/3334101/0/en/Atea-Pharmaceuticals-Meets-Both-Its-Primary-and-Secondary-Endpoints-in-the-Phase-3-C-BEYOND-North-America-Trial-Evaluating-Bemnifosbuvir-Ruzasvir-for-Hepatitis-C-Virus.html
+    outcome: met
+    outcome_date: 2026-07-28
+    result: "C-BEYOND Ph3 1차·2차 endpoint 모두 충족 — BEM/RZR vs sofosbuvir/velpatasvir(Epclusa) 비열등성 성립. NDA 신청 예정. C-FORWARD(글로벌, ex-NA) 진행 중."
+    outcome_sources:
+      - https://www.globenewswire.com/news-release/2026/07/28/3334101/0/en/Atea-Pharmaceuticals-Meets-Both-Its-Primary-and-Secondary-Endpoints-in-the-Phase-3-C-BEYOND-North-America-Trial-Evaluating-Bemnifosbuvir-Ruzasvir-for-Hepatitis-C-Virus.html
   - date: 2026-07-29
     ticker: CAPR
     event: Deramiocel(CAP-1002) DMD BLA FDA CTGTAC 자문위 — HOPE-3 Ph3 모든 1·2차 endpoint 충족, PDUFA 2026-08-22
@@ -2202,6 +2225,12 @@ events:
     sources:
       - https://www.globenewswire.com/news-release/2026/06/26/3318280/0/en/capricor-therapeutics-announces-fda-advisory-committee-meeting-to-review-bla-for-deramiocel-for-the-treatment-of-duchenne-muscular-dystrophy.html
       - https://www.capricor.com/investors/news-events/press-releases/detail/348/capricor-therapeutics-announces-fda-advisory-committee
+    outcome: negative
+    outcome_date: 2026-07-29
+    result: "CTGTAC 자문위 표결: 3 찬성 / 9 반대 / 0 기권 — 심근병증(cardiomyopathy) 적응증 효능 불충분 판정. 표결 범위가 Capricor 제안 전체 적응증보다 좁게 설정됨(상지기능은 '방향적 지지' 비공식 의견). 비구속적 권고. PDUFA 2026-08-22 최종 FDA 결정 대기."
+    outcome_sources:
+      - https://www.capricor.com/investors/news-events/press-releases/detail/351/capricor-therapeutics-provides-update-on-fda-advisory
+      - https://www.globenewswire.com/news-release/2026/07/30/3336165/0/en/Capricor-Therapeutics-Provides-Update-on-FDA-Advisory-Committee-Meeting-for-Deramiocel.html
   - date: 2026-07-29
     ticker: GILD
     event: "ISL/LEN(islatravir 2mg/lenacapavir 300mg) 주 1회 경구 HIV 치료 Phase 3 ISLEND-1/2 전체 데이터 AIDS 2026 Late-Breaking Oral 발표"
@@ -2214,6 +2243,12 @@ events:
     sources:
       - https://www.businesswire.com/news/home/20260720642268/en/Gilead-to-Present-New-HIV-Research-at-AIDS-2026-Across-Prevention-Treatment-and-Cure
       - https://investors.gilead.com/news/news-details/2026/Gilead-to-Present-New-HIV-Research-at-AIDS-2026-Across-Prevention-Treatment-and-Cure/default.aspx
+    outcome: met
+    outcome_date: 2026-07-29
+    result: "ISLEND-1(이중맹검 vs BIKTARVY, n≈607): ISL/LEN 93.4% vs 92.4% HIV RNA<50 copies/mL(Week 48), ≥50 copies/mL 0% vs 0.3% — 비열등성 충족. ISLEND-2(개방형 vs SOC, n=626): ≥50 copies/mL 0.3% vs 1.3% — 비열등성 충족. NEJM 동시 게재(DOI: 10.1056/NEJMoa2607973). 주 1회 경구 HIV 치료 첫 Phase 3 성공."
+    outcome_sources:
+      - https://www.gilead.com/news/news-details/2026/investigational-once-weekly-oral-hiv-treatment-regimen-of-islatravir-and-lenacapavir-maintained-virological-suppression-in-adults-with-hiv-who-switched-antiretroviral-therapy
+      - https://investors.gilead.com/news/news-details/2026/Gilead-and-Merck-Announce-Positive-Topline-Results-From-Two-Phase-3-Studies-Evaluating-IslatravirLenacapavir-an-Oral-Once-Weekly-HIV-Treatment/default.aspx
   - date: 2026-07-29
     ticker: OTLK
     event: LYTENAVA(bevacizumab-vikg) 습성 AMD BLA PDUFA — 재심사(Class 1), FDA FDR 이미 효능 입증 인정
@@ -2241,6 +2276,28 @@ events:
     phase: NDA (505(b)(2))
     sources:
       - https://www.prnewswire.com/news-releases/viatris-provides-pipeline-update-on-four-regulatory-milestones-302645311.html
+    outcome: approved
+    outcome_date: 2026-07-29
+    result: "FDA 승인 (PDUFA 1일 조기, 2026-07-29) — Gwyn Lo™(norelgestromin/ethinyl estradiol 패치) 주 1회 저용량 에스트로겐 피임패치. 505(b)(2) 승인."
+    outcome_sources:
+      - https://newsroom.viatris.com/2026-07-29-Viatris-Receives-U-S-FDA-Approval-for-Gwyn-Lo-TM-,-a-Once-Weekly-Contraceptive-Patch
+      - https://www.prnewswire.com/news-releases/viatris-receives-us-fda-approval-for-gwyn-lo-a-once-weekly-contraceptive-patch-302837674.html
+  - date: 2026-07-30
+    ticker: PFE
+    event: "LITFULO(ritlecitinib) 비분절형 백반증 TRANQUILLO/TRANQUILLO 2 Ph3 POSITIVE — 52주 공동1차 endpoint 모두 충족, sNDA 제출 예정"
+    type: Clinical Readout
+    company: Pfizer
+    drug: LITFULO (ritlecitinib)
+    indication: Nonsegmental Vitiligo (adults and adolescents)
+    phase: Phase 3 (sNDA basis)
+    moa: "JAK3/TEC family 억제제(경구, 1일1회). 면역세포 활성화 차단 → 멜라닌세포 파괴 억제. 기존 원형탈모증 승인."
+    sources:
+      - https://www.businesswire.com/news/home/20260730163060/en/Pfizer-Announces-Positive-Topline-Phase-3-Results-for-LITFULO-in-Patients-with-Nonsegmental-Vitiligo
+    outcome: met
+    outcome_date: 2026-07-30
+    result: "TRANQUILLO(n=607) + TRANQUILLO 2(n=1567) Ph3 — 52주 안면·전체 재색소화 co-primary endpoint 모두 충족. 성인·청소년 포함. 글로벌 sNDA/MTA 제출 계획."
+    outcome_sources:
+      - https://www.businesswire.com/news/home/20260730163060/en/Pfizer-Announces-Positive-Topline-Phase-3-Results-for-LITFULO-in-Patients-with-Nonsegmental-Vitiligo
   - date: 2026-08-17
     ticker: PFE
     event: PADCEV(enfortumab vedotin) + Keytruda 근육침윤성 방광암(MIBC) 주변요법 sBLA PDUFA — 시스플라틴 적격 무관 적응증 확대 (EV-304/KEYNOTE-B15 Ph3)
@@ -2284,6 +2341,17 @@ events:
     sources:
       - https://www.globenewswire.com/news-release/2026/06/04/3306506/0/en/pharming-announces-u-s-fda-acceptance-of-snda-resubmission-for-joenja-leniolisib-to-treat-children-aged-4-to-11-years-with-apds.html
       - https://www.sec.gov/Archives/edgar/data/0001828316/000182831626000031/pharmingannouncesusfdaacce.htm
+  - date: 2026-10-30
+    ticker: INO
+    event: "INO-3107(DNA 치료제, HPV-6/11 표적) 재발성 호흡기 유두종증(RRP) BLA PDUFA — 가속승인 경로"
+    type: PDUFA
+    company: INOVIO Pharmaceuticals
+    drug: INO-3107 (DNA medicine targeting HPV-6 and HPV-11)
+    indication: Recurrent Respiratory Papillomatosis (RRP) — adults
+    phase: BLA (Accelerated Approval)
+    moa: "인유두종바이러스(HPV-6/11) 특이 T세포 면역반응 유도 DNA 치료제(IM 주사). 수술 빈도·종양 부담 감소."
+    sources:
+      - https://www.prnewswire.com/news-releases/fda-accepts-for-review-inovios-bla-for-ino-3107-for-the-treatment-of-adults-with-recurrent-respiratory-papillomatosis-rrp-302649910.html
   - date: 2026-12-12
     ticker: VNDA
     event: Imsidolimab 전신농포건선(GPP) BLA PDUFA

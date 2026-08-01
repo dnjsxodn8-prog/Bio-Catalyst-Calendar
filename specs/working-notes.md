@@ -1,6 +1,48 @@
 # Working Notes
 
-**최근 갱신:** 2026-07-25 (주간 자동 스윕 — 무인 모드)
+**최근 갱신:** 2026-08-01 (주간 자동 스윕 — 무인 모드)
+
+---
+
+## 주간 스윕 로그 — 2026-08-01 (일요일 자동 실행)
+
+### 적용됨 (9건)
+
+**Tier A — 카탈리스트 후속 결과 업데이트 (4건)**
+- MNKD FUROSCIX ReadyFlow sNDA → FDA 승인 2026-07-24 (PDUFA 2일 조기). Source: globenewswire.com + SEC 8-K
+- VTRS Gwyn Lo™ 주간 피임패치 NDA → FDA 승인 2026-07-29 (PDUFA 1일 조기). Source: newsroom.viatris.com + prnewswire.com
+- CAPR Deramiocel CTGTAC 자문위 → 부결 (3찬성 9반대 0기권), 심근병증 적응증 효능 불충분. PDUFA 2026-08-22 대기. Source: capricor.com IR + globenewswire.com
+- GILD ISL/LEN AIDS 2026 → 양성. ISLEND-1(이중맹검, 93.4% vs 92.4%)/ISLEND-2(개방형, 0.3% vs 1.3%) 비열등성 충족. NEJM 동시 게재. Source: gilead.com IR + investors.gilead.com
+
+**Tier C — 신규 임상 결과/PDUFA 추가 (3건)**
+- AVIR C-BEYOND Ph3 POSITIVE (2026-07-28): BEM/RZR vs sofosbuvir/velpatasvir HCV 비열등성 1차·2차 endpoint 모두 충족. NDA 예정. Source: globenewswire.com
+- PFE LITFULO(ritlecitinib) 비분절형 백반증 TRANQUILLO/TRANQUILLO 2 Ph3 POSITIVE (2026-07-30): 52주 co-primary endpoint 충족, sNDA 예정. Source: businesswire.com
+- INO INO-3107(DNA 치료제, HPV-6/11) 재발성 호흡기 유두종증(RRP) BLA PDUFA 2026-10-30: 가속승인 경로. Source: prnewswire.com (BLA acceptance Dec 2025)
+
+### 스킵됨 — 사용자 검토 필요
+
+- **REGN Garetosmab BLA PDUFA**: 2026-08-01 기준 FDA 결정 미발표. PDUFA 실제일은 2026-08-31로 추정. 다음 스윕에서 재확인.
+- **EYPT DURAVYU(vorolanib) LUGANO wet AMD Ph3**: 결과 "beginning August 2026" 가이던스 — 2026-08-01 기준 미발표. 이번 주 임박 발표 예상, 다음 스윕에서 확인 필요.
+- **GOSS Seralutinib PAH**: NDA 제출 Sept 2026 계획(FDA Pre-NDA Type B 회의 완료). 실제 제출/수락 후 추가 예정.
+- **PYPD D-PLEX100**: 미추적 종목. FDA NDA 수락, PDUFA 2026-11-28. 추적 추가 여부 사용자 결정 필요.
+
+### 빌드 결과
+
+```
+✅ companies: 568 · catalysts: 193 · conferences: 33
+❌ ERRORS: 0  ⚠ WARNINGS: 455(verified 90일 경과 종목들 — 기존 누적)
+```
+
+---
+
+## 2026-08-01 자동 스윕 - 사용자 검토 필요
+
+| 항목 | 내용 | 사유 |
+|------|------|------|
+| REGN Garetosmab BLA | PDUFA ~2026-08-31, 아직 결정 없음 | 다음 스윕 재확인 |
+| EYPT DURAVYU LUGANO wet AMD Ph3 | 결과 임박, 미발표 | 이번 주 발표 예상 |
+| GOSS Seralutinib PAH NDA | 제출 계획 Sept 2026 | 실제 제출 후 추가 |
+| PYPD D-PLEX100 | 미추적 종목, PDUFA 2026-11-28 | 추적 여부 결정 필요 |
 
 ---
 
